@@ -1,0 +1,52 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+
+import { AffiliateProgram } from "@/components/landing/AffiliateProgram";
+import { Footer } from "@/components/landing/Footer";
+import { Header } from "@/components/landing/Header";
+import { getDictionary, hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
+import { buildLanguageAlternates } from "@/lib/seo";
+
+export function generateStaticParams() {
+  return LOCALES.map((lang) => ({ lang }));
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]/affiliate">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
+  return {
+    title: `${dict.affiliate.title} | Tadado`,
+    description: dict.affiliate.subtitle,
+    alternates: {
+      canonical: `https://tadado.app/${lang}/affiliate`,
+      languages: buildLanguageAlternates("affiliate"),
+    },
+  };
+}
+
+export default async function AffiliatePage({ params }: PageProps<"/[lang]/affiliate">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+
+  const locale = lang as Locale;
+  const dict = await getDictionary(locale);
+
+  return (
+    <>
+      <Header locale={locale} dict={dict} />
+      <main className="section-shell flex-1 py-16">
+        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
+          ← {dict.affiliate.back}
+        </Link>
+        <div className="mt-8">
+          <AffiliateProgram dict={dict} locale={locale} variant="page" />
+        </div>
+      </main>
+      <Footer locale={locale} dict={dict} />
+    </>
+  );
+}
