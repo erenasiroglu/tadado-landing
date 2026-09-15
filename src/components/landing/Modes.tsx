@@ -21,7 +21,7 @@ const HEADS_UP_PHONE_WIDTH = 320;
 
 export function Modes({ locale, dict }: ModesProps) {
   return (
-    <LandingSection id="modes" tone="contrast" reveal>
+    <LandingSection id="modes" analyticsSection="modes" tone="contrast" reveal>
       <SectionHeading title={dict.modes.title} subtitle={dict.modes.subtitle} />
       <div className="mt-12 grid gap-10 lg:grid-cols-2 lg:items-stretch lg:gap-12">
         <div className="surface-card flex flex-col overflow-hidden p-6">

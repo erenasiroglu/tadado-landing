@@ -1,8 +1,11 @@
+import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { Reveal } from "@/components/motion/Reveal";
+import type { SectionId } from "@/lib/analytics-events";
 import { cn } from "@/lib/utils";
 
 interface LandingSectionProps {
   id?: string;
+  analyticsSection?: SectionId;
   tone?: "default" | "contrast";
   className?: string;
   reveal?: boolean;
@@ -11,12 +14,19 @@ interface LandingSectionProps {
 
 export function LandingSection({
   id,
+  analyticsSection,
   tone = "default",
   className,
   reveal = false,
   children,
 }: LandingSectionProps) {
   const shell = <div className="section-shell">{children}</div>;
+  const content = reveal ? <Reveal as="div">{shell}</Reveal> : shell;
+  const tracked = analyticsSection ? (
+    <SectionViewTracker sectionId={analyticsSection}>{content}</SectionViewTracker>
+  ) : (
+    content
+  );
 
   return (
     <section
@@ -27,7 +37,7 @@ export function LandingSection({
         className,
       )}
     >
-      {reveal ? <Reveal as="div">{shell}</Reveal> : shell}
+      {tracked}
     </section>
   );
 }

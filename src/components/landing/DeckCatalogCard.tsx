@@ -3,17 +3,25 @@
 import Image from "next/image";
 import { Lock, Play } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
+import { useEffect, useRef } from "react";
 
 import {
   buildDeckOverlayStyle,
   type DeckCardConfig,
+  type DeckKey,
 } from "@/lib/deck-cards";
 import { DECK_CHROME, GLASS } from "@/lib/design-tokens";
+import { useDeckDownload } from "@/hooks/use-deck-download";
+import type { Locale } from "@/lib/i18n";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { cardHover } from "@/lib/motion";
+import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
 interface DeckCatalogCardProps {
   config: DeckCardConfig;
+  deckKey: DeckKey;
+  locale: Locale;
   title: string;
   subtitle: string;
   playLabel: string;
@@ -26,6 +34,8 @@ const PLAY_SIZE = 62;
 
 export function DeckCatalogCard({
   config,
+  deckKey,
+  locale,
   title,
   subtitle,
   playLabel,
@@ -34,15 +44,59 @@ export function DeckCatalogCard({
   className,
 }: DeckCatalogCardProps) {
   const reduceMotion = useReducedMotion();
+  const viewedRef = useRef(false);
+  const cardRef = useRef<HTMLButtonElement>(null);
+  const { openStore } = useDeckDownload({
+    deckId: deckKey,
+    deckName: title,
+    isFree,
+    locale,
+    source: "deck_catalog",
+  });
+
+  useEffect(() => {
+    const node = cardRef.current;
+    if (!node || viewedRef.current) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (!entry?.isIntersecting || viewedRef.current) return;
+        viewedRef.current = true;
+        trackEvent({
+          event: ANALYTICS_EVENTS.DECK_CARD_VIEW,
+          properties: {
+            deck_id: deckKey,
+            deck_name: title,
+            is_free: isFree,
+            locale,
+          },
+        });
+        observer.disconnect();
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [deckKey, title, isFree, locale]);
 
   return (
-    <motion.div
-      className={cn("group relative w-full overflow-hidden", className)}
+    <motion.button
+      ref={cardRef}
+      type="button"
+      onClick={openStore}
+      className={cn(
+        "group relative w-full cursor-pointer overflow-hidden text-left",
+        "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c1129]",
+        className,
+      )}
       style={{
         borderRadius: GLASS.radius.card,
         border: `1px solid ${DECK_CHROME.borderColor}`,
         boxShadow: `inset 0 1px 0 ${GLASS.neumorph.highlight}`,
       }}
+      aria-label={`${playLabel}: ${title}`}
       {...(reduceMotion ? {} : cardHover)}
     >
       <div
@@ -89,7 +143,7 @@ export function DeckCatalogCard({
 
           <div className="flex flex-1 items-center justify-center py-1">
             <div
-              className="flex items-center justify-center rounded-full p-[3px]"
+              className="flex items-center justify-center rounded-full p-[3px] transition-transform duration-200 group-hover:scale-105"
               style={{
                 width: PLAY_SIZE + 6,
                 height: PLAY_SIZE + 6,
@@ -142,7 +196,7 @@ export function DeckCatalogCard({
 
           <div className="flex justify-center pt-2">
             <span
-              className="inline-flex min-h-8 min-w-[80px] max-w-[92%] items-center justify-center rounded-lg px-4 text-[11px] font-bold tracking-wide"
+              className="inline-flex min-h-8 min-w-[80px] max-w-[92%] items-center justify-center rounded-lg px-4 text-[11px] font-bold tracking-wide transition-colors group-hover:bg-amber/20"
               style={{
                 backgroundColor: "rgba(196, 181, 253, 0.14)",
                 color: DECK_CHROME.subtitleColor,
@@ -154,6 +208,6 @@ export function DeckCatalogCard({
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.button>
   );
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 
-import { MotionLink } from "@/components/motion/MotionLink";
+import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { buttonVariants } from "@/components/ui/button";
 import { ctaGradientClass } from "@/lib/cta-button";
 import {
@@ -53,16 +53,17 @@ export function Header({ locale, dict }: HeaderProps) {
             {dict.nav.team}
           </Link>
           <LanguageMenu currentLocale={locale} label={dict.language.label} />
-          <MotionLink
+          <TrackedOutboundLink
             href={downloadUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            locale={locale}
+            downloadPlatform="ios"
+            downloadSource="header"
             className={ctaGradientClass(
               "h-9 rounded-full px-5 text-sm shadow-lg shadow-violet-900/25",
             )}
           >
             {dict.nav.download}
-          </MotionLink>
+          </TrackedOutboundLink>
         </nav>
 
         <div className="flex items-center gap-2 md:hidden">
@@ -94,14 +95,15 @@ export function Header({ locale, dict }: HeaderProps) {
                 <Link href={localeHref(locale, "team")} className="rounded-lg px-3 py-2.5 text-sm font-medium text-cream/80 hover:bg-white/5 hover:text-cream">
                   {dict.nav.team}
                 </Link>
-                <MotionLink
+                <TrackedOutboundLink
                   href={downloadUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  locale={locale}
+                  downloadPlatform="ios"
+                  downloadSource="header_mobile"
                   className={ctaGradientClass("mt-4 h-11 w-full rounded-full")}
                 >
                   {dict.nav.download}
-                </MotionLink>
+                </TrackedOutboundLink>
               </nav>
             </SheetContent>
           </Sheet>

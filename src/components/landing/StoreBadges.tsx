@@ -1,6 +1,6 @@
 "use client";
 
-import { MotionLink } from "@/components/motion/MotionLink";
+import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { storeBadgeClass } from "@/lib/cta-button";
 import type { Locale } from "@/lib/i18n";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
@@ -14,26 +14,28 @@ interface StoreBadgesProps {
 export function StoreBadges({ locale, className = "" }: StoreBadgesProps) {
   return (
     <div className={cn("flex flex-wrap items-center gap-3", className)}>
-      <MotionLink
+      <TrackedOutboundLink
         href={getAppStoreUrl(locale)}
-        target="_blank"
-        rel="noopener noreferrer"
+        locale={locale}
+        downloadPlatform="ios"
+        downloadSource="hero_badges"
         className={storeBadgeClass()}
-        aria-label="Download on the App Store"
+        ariaLabel="Download on the App Store"
       >
         <span className="mr-2 text-lg" aria-hidden></span>
         App Store
-      </MotionLink>
-      <MotionLink
+      </TrackedOutboundLink>
+      <TrackedOutboundLink
         href={getPlayStoreUrl(locale)}
-        target="_blank"
-        rel="noopener noreferrer"
+        locale={locale}
+        downloadPlatform="android"
+        downloadSource="hero_badges"
         className={storeBadgeClass()}
-        aria-label="Get it on Google Play"
+        ariaLabel="Get it on Google Play"
       >
         <span className="mr-2 text-lg" aria-hidden>▶</span>
         Google Play
-      </MotionLink>
+      </TrackedOutboundLink>
     </div>
   );
 }

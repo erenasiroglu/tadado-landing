@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Check, Minus, X } from "lucide-react";
 
-import { MotionLink } from "@/components/motion/MotionLink";
+import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { ctaGradientClass } from "@/lib/cta-button";
 import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
@@ -98,14 +98,15 @@ export function CompareTable({
       <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/65">{content.note}</p>
 
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-        <MotionLink
+        <TrackedOutboundLink
           href={downloadUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+          locale={locale}
+          downloadPlatform="ios"
+          downloadSource="compare"
           className={ctaGradientClass("h-11 rounded-full px-8")}
         >
           {content.cta}
-        </MotionLink>
+        </TrackedOutboundLink>
         {showFullPageLink ? (
           <Link
             href={localeHref(locale, "compare")}

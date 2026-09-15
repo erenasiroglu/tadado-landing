@@ -1,10 +1,15 @@
+"use client";
+
 import Link from "next/link";
 import { Mail, Share2, Video } from "lucide-react";
 
 import { MotionLink } from "@/components/motion/MotionLink";
 import { BRAND } from "@/lib/brand";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
+import { trackEvent } from "@/lib/tracking";
 import { ctaGradientClass } from "@/lib/cta-button";
-import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import type { Dictionary } from "@/lib/i18n";
+import { localeHref, type Locale } from "@/lib/i18n-config";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
@@ -29,7 +34,7 @@ export function AffiliateProgram({
 
   if (!isPage) {
     return (
-      <LandingSection id="affiliate" tone="contrast">
+      <LandingSection id="affiliate" analyticsSection="affiliate" tone="contrast">
         <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#3d1f58]/50 via-[#2a0a3b]/80 to-[#1a0f28] p-6 sm:p-8 md:p-10">
           <div
             className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-amber/10 blur-3xl"
@@ -74,6 +79,12 @@ export function AffiliateProgram({
                 <MotionLink
                   href={applyHref}
                   className={ctaGradientClass("h-11 rounded-full px-8")}
+                  onClick={() => {
+                    trackEvent({
+                      event: ANALYTICS_EVENTS.AFFILIATE_APPLY_CLICK,
+                      properties: { locale, variant: "section" },
+                    });
+                  }}
                 >
                   {content.cta.button}
                 </MotionLink>
@@ -160,6 +171,12 @@ export function AffiliateProgram({
         <MotionLink
           href={applyHref}
           className={ctaGradientClass("h-11 w-full rounded-full sm:w-auto sm:px-10")}
+          onClick={() => {
+            trackEvent({
+              event: ANALYTICS_EVENTS.AFFILIATE_APPLY_CLICK,
+              properties: { locale, variant: "page" },
+            });
+          }}
         >
           {content.cta.button}
         </MotionLink>

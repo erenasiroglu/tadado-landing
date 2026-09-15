@@ -1,4 +1,4 @@
-import { MotionLink } from "@/components/motion/MotionLink";
+import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { primarySolidClass } from "@/lib/cta-button";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
@@ -20,7 +20,7 @@ export function Pricing({ locale, dict }: PricingProps) {
   ];
 
   return (
-    <LandingSection id="pricing" tone="contrast" reveal>
+    <LandingSection id="pricing" analyticsSection="pricing" tone="contrast" reveal>
       <SectionHeading title={dict.pricing.title} subtitle={dict.pricing.subtitle} />
 
       <div className="mt-12 grid gap-5 lg:grid-cols-3">
@@ -44,14 +44,15 @@ export function Pricing({ locale, dict }: PricingProps) {
       </div>
 
       <div className="mt-10 flex flex-col items-center gap-4 text-center">
-        <MotionLink
+        <TrackedOutboundLink
           href={getAppStoreUrl(locale)}
-          target="_blank"
-          rel="noopener noreferrer"
+          locale={locale}
+          downloadPlatform="ios"
+          downloadSource="pricing"
           className={primarySolidClass("h-11 min-w-[220px] px-6")}
         >
           {dict.hero.ctaPrimary}
-        </MotionLink>
+        </TrackedOutboundLink>
         <p className="text-sm font-medium text-amber">{dict.pricing.trust}</p>
         <p className="max-w-2xl text-sm text-cream/55">{dict.pricing.disclaimer}</p>
       </div>

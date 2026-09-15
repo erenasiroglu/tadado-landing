@@ -4,7 +4,9 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Bot, Sparkles } from "lucide-react";
 
 import { AnimatedPhoneShell } from "@/components/landing/AnimatedPhoneShell";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getAiDemoSample, type AiDemoDifficulty } from "@/lib/ai-demo-samples";
+import { trackEvent } from "@/lib/tracking";
 import { brandGradientCss } from "@/lib/design-tokens";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -67,6 +69,10 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
               if (runId !== runIdRef.current) return;
               setPhase("ready");
               setRevealedCard(true);
+              trackEvent({
+                event: ANALYTICS_EVENTS.AI_DEMO_GENERATED,
+                properties: { locale, difficulty: nextDifficulty, topic },
+              });
             }, GENERATING_MS);
           }, 280);
         }
@@ -76,23 +82,37 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
   );
 
   useEffect(() => {
-    const timer = window.setTimeout(() => runSimulation("medium"), 700);
+    const timer = window.setTimeout(() => {
+      trackEvent({
+        event: ANALYTICS_EVENTS.AI_DEMO_START,
+        properties: { locale, difficulty: "medium" },
+      });
+      runSimulation("medium");
+    }, 700);
     return () => window.clearTimeout(timer);
-  }, [runSimulation]);
+  }, [runSimulation, locale]);
 
   function onDifficultyChange(next: AiDemoDifficulty) {
     if (phase === "typing" || phase === "generating") return;
+    trackEvent({
+      event: ANALYTICS_EVENTS.AI_DEMO_DIFFICULTY,
+      properties: { locale, difficulty: next },
+    });
     runSimulation(next);
   }
 
   function onCreate() {
+    trackEvent({
+      event: ANALYTICS_EVENTS.AI_DEMO_CREATE_CLICK,
+      properties: { locale, difficulty },
+    });
     runSimulation(difficulty);
   }
 
   const isBusy = phase === "typing" || phase === "generating";
 
   return (
-    <LandingSection id="ai-deck-builder" tone="contrast">
+    <LandingSection id="ai-deck-builder" analyticsSection="ai_deck_builder" tone="contrast">
       <div className="relative overflow-hidden rounded-2xl border border-cream/10">
         <div className="absolute inset-0" style={{ background: brandGradientCss() }} />
         <div className="pointer-events-none absolute -right-16 top-12 h-36 w-56 rotate-[-14deg] rounded-[54px] bg-lavender/15" />

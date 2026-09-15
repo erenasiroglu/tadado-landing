@@ -8,9 +8,13 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Dictionary } from "@/lib/i18n";
 import { blogHref, type Locale } from "@/lib/i18n-config";
 import { getHeadsUpPauseLabel, getHeadsUpTimerLabel } from "@/lib/game-preview-tokens";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getTrendingContent } from "@/lib/trending-cards";
+import { trackEvent } from "@/lib/tracking";
 
+import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { AnimatedPhoneShell } from "./AnimatedPhoneShell";
+import { TrendingDeckPlayButton } from "./TrendingDeckPlayButton";
 import { LandingSection } from "./LandingSection";
 import { PhoneFrame } from "./PhoneFrame";
 import { ForbiddenWordsPreview } from "./previews/ForbiddenWordsPreview";
@@ -39,6 +43,7 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
 
   return (
     <LandingSection id="trending" reveal>
+      <SectionViewTracker sectionId="trending">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-2xl">
           <SectionHeading
@@ -52,7 +57,16 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
         </Badge>
       </div>
 
-      <Tabs defaultValue="taboo" className="mt-10">
+      <Tabs
+        defaultValue="taboo"
+        className="mt-10"
+        onValueChange={(tab) => {
+          trackEvent({
+            event: ANALYTICS_EVENTS.TRENDING_TAB_SELECT,
+            properties: { tab, locale },
+          });
+        }}
+      >
         <TabsList className="mb-8 grid w-full max-w-md grid-cols-2 bg-white/5">
           <TabsTrigger
             value="taboo"
@@ -90,6 +104,12 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
                       </PhoneFrame>
                     </AnimatedPhoneShell>
                   </div>
+                  <TrendingDeckPlayButton
+                    deckId={group.id}
+                    deckName={group.deckLabel}
+                    playLabel={dict.decks.play}
+                    locale={locale}
+                  />
                 </article>
               );
             })}
@@ -117,6 +137,12 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
                     </PhoneFrame>
                   </AnimatedPhoneShell>
                 </div>
+                <TrendingDeckPlayButton
+                  deckId={group.id}
+                  deckName={group.deckLabel}
+                  playLabel={dict.decks.play}
+                  locale={locale}
+                />
               </article>
             ))}
           </div>
@@ -134,6 +160,7 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
           {dict.trending.compare.guides}
         </Link>
       </div>
+      </SectionViewTracker>
     </LandingSection>
   );
 }

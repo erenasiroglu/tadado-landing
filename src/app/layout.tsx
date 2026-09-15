@@ -1,6 +1,9 @@
 import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 
+import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
+import { AttributionProvider } from "@/components/analytics/AttributionProvider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={cn("h-full antialiased", poppins.variable)}>
       <body className="min-h-full flex flex-col font-sans">
+        <AnalyticsScripts />
+        <AttributionProvider />
         <TooltipProvider>{children}</TooltipProvider>
+        <Analytics />
       </body>
     </html>
   );

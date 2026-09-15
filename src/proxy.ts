@@ -26,6 +26,10 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL(`/${locale}`, request.url), 301);
   }
 
+  if (pathname === "/link" || pathname.startsWith("/link/")) {
+    return NextResponse.next();
+  }
+
   const pathnameHasLocale = LOCALES.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`),
   );
@@ -43,7 +47,8 @@ export function proxy(request: NextRequest) {
     pathname === "/llms.txt" ||
     pathname === "/llms-full.txt" ||
     pathname === "/robots.txt" ||
-    pathname === "/sitemap.xml";
+    pathname === "/sitemap.xml" ||
+    pathname === "/link";
 
   if (skip) return NextResponse.next();
 

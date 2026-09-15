@@ -5,6 +5,8 @@ import { Loader2, Mail } from "lucide-react";
 
 import { MotionButton } from "@/components/motion/MotionButton";
 import { ctaGradientClass } from "@/lib/cta-button";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
+import { trackEvent } from "@/lib/tracking";
 import { Input } from "@/components/ui/input";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -42,6 +44,7 @@ export function NewsletterSignup({ dict, locale }: NewsletterSignupProps) {
         return;
       }
 
+      trackEvent({ event: ANALYTICS_EVENTS.NEWSLETTER_SIGNUP, properties: { locale } });
       setStatus("success");
       setEmail("");
     } catch {
@@ -51,7 +54,7 @@ export function NewsletterSignup({ dict, locale }: NewsletterSignupProps) {
   }
 
   return (
-    <LandingSection id="newsletter" reveal>
+    <LandingSection id="newsletter" analyticsSection="newsletter" reveal>
       <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#3d1f58]/40 to-[#1a0f28]/90 p-6 sm:p-8 md:p-10">
         <div
           className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-lavender/10 blur-3xl"

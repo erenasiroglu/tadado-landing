@@ -11,9 +11,11 @@ import {
   HERO_HEADS_UP_SAMPLES,
   HERO_TABOO_SAMPLES,
 } from "@/lib/game-preview-tokens";
+import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { HeroTab } from "@/lib/landing-variants";
 import { fadeIn } from "@/lib/motion";
 import type { Dictionary, Locale } from "@/lib/i18n";
+import { trackEvent } from "@/lib/tracking";
 
 import { AnimatedPhoneShell } from "./AnimatedPhoneShell";
 import { PhoneFrame } from "./PhoneFrame";
@@ -92,7 +94,16 @@ function HeroPhones({
   defaultTab: HeroTab;
 }) {
   return (
-    <Tabs defaultValue={defaultTab} className="flex w-full max-w-2xl flex-col">
+    <Tabs
+      defaultValue={defaultTab}
+      className="flex w-full max-w-2xl flex-col"
+      onValueChange={(tab) => {
+        trackEvent({
+          event: ANALYTICS_EVENTS.HERO_TAB_SELECT,
+          properties: { tab, locale },
+        });
+      }}
+    >
       <TabsList className="mb-6 grid w-full shrink-0 cursor-default grid-cols-2 select-none bg-white/5">
         <TabsTrigger
           value="taboo"
