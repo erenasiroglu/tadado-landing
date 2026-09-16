@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 /** Shared pressable styles without bg-clip-padding / phantom border gaps */
 export const pressableBase =
-  "inline-flex shrink-0 items-center justify-center gap-1.5 box-border border-0 bg-clip-border text-center font-bold whitespace-nowrap antialiased outline-none select-none [-webkit-tap-highlight-color:transparent] focus-visible:ring-3 focus-visible:ring-ring/50";
+  "inline-flex shrink-0 cursor-pointer items-center justify-center gap-1.5 box-border border-0 bg-clip-border text-center font-bold whitespace-nowrap antialiased outline-none select-none [-webkit-tap-highlight-color:transparent] focus-visible:ring-3 focus-visible:ring-ring/50";
 
 export function ctaGradientClass(className?: string) {
   return cn(pressableBase, "cta-gradient text-white", className);

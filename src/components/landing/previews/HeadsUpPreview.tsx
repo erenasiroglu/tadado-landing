@@ -36,7 +36,7 @@ export function HeadsUpPreview({
           style={{
             paddingLeft: m.wordPadH,
             paddingRight: m.wordPadH,
-            paddingTop: m.screenPadTop + m.teamPadV * 2 + m.pauseIconSize,
+            paddingTop: m.screenPadTop + m.topBarHeight + m.topBarGap,
             paddingBottom: m.gestureBottom + m.gestureSize,
           }}
         >
@@ -93,44 +93,50 @@ export function HeadsUpPreview({
       </div>
 
       <div
-        className="absolute inset-x-0 top-0 z-10 flex items-center justify-between"
+        className="absolute inset-x-0 top-0 z-10 grid items-center"
         style={{
+          gridTemplateColumns: "minmax(0, 1fr) auto minmax(0, 1fr)",
           gap: m.topBarGap,
           paddingLeft: m.screenPadH,
           paddingRight: m.screenPadH,
           paddingTop: m.screenPadTop,
+          paddingBottom: m.topBarGap,
         }}
       >
-        <div
-          className="flex min-w-0 items-center rounded-full border"
-          style={{
-            gap: m.teamGap,
-            maxWidth: m.teamMaxWidth,
-            padding: `${m.teamPadV}px ${m.teamPadH}px`,
-            borderColor: "rgba(255,255,255,0.13)",
-            backgroundColor: "rgba(255,255,255,0.08)",
-          }}
-        >
-          <Users
+        <div className="flex min-w-0 justify-start">
+          <div
+            className="flex max-w-full items-center rounded-full border"
             style={{
-              width: m.teamIconSize,
-              height: m.teamIconSize,
-              color: "#C4B5FD",
-              flexShrink: 0,
+              gap: m.teamGap,
+              height: m.topBarHeight,
+              maxWidth: m.teamMaxWidth,
+              padding: `0 ${m.teamPadH}px`,
+              borderColor: "rgba(255,255,255,0.13)",
+              backgroundColor: "rgba(255,255,255,0.08)",
             }}
-          />
-          <span
-            className="truncate font-bold text-[#C4B5FD]"
-            style={{ fontSize: m.teamFontSize, letterSpacing: 0.6 * (m.teamFontSize / 11) }}
           >
-            {teamName}
-          </span>
+            <Users
+              style={{
+                width: m.teamIconSize,
+                height: m.teamIconSize,
+                color: "#C4B5FD",
+                flexShrink: 0,
+              }}
+            />
+            <span
+              className="truncate font-bold text-[#C4B5FD]"
+              style={{ fontSize: m.teamFontSize, letterSpacing: 0.6 * (m.teamFontSize / 11) }}
+            >
+              {teamName}
+            </span>
+          </div>
         </div>
 
         <div
-          className="shrink-0 rounded-full border"
+          className="flex items-center justify-center rounded-full border"
           style={{
-            padding: `${m.timerPadV}px ${m.timerPadH}px`,
+            height: m.topBarHeight,
+            padding: `0 ${m.timerPadH}px`,
             borderColor: "rgba(255,255,255,0.1)",
             backgroundColor: "rgba(255,255,255,0.07)",
           }}
@@ -143,32 +149,35 @@ export function HeadsUpPreview({
           </span>
         </div>
 
-        <div
-          className="flex min-w-0 shrink items-center rounded-full border"
-          style={{
-            gap: m.pauseGap,
-            maxWidth: m.pauseMaxWidth,
-            padding: `${m.pausePadV}px ${m.pausePadH}px`,
-            borderColor: "rgba(255,255,255,0.13)",
-            backgroundColor: "rgba(255,255,255,0.08)",
-          }}
-        >
-          <PauseCircle
+        <div className="flex min-w-0 justify-end">
+          <div
+            className="flex max-w-full items-center rounded-full border"
             style={{
-              width: m.pauseIconSize,
-              height: m.pauseIconSize,
-              color: "#EDE9FE",
-              flexShrink: 0,
+              gap: m.pauseGap,
+              height: m.topBarHeight,
+              maxWidth: m.pauseMaxWidth,
+              padding: `0 ${m.pausePadH}px`,
+              borderColor: "rgba(255,255,255,0.13)",
+              backgroundColor: "rgba(255,255,255,0.08)",
             }}
-          />
-          {m.showPauseLabel ? (
-            <span
-              className="truncate font-bold text-[#EDE9FE]"
-              style={{ fontSize: m.pauseFontSize }}
-            >
-              {pauseLabel}
-            </span>
-          ) : null}
+          >
+            <PauseCircle
+              style={{
+                width: m.pauseIconSize,
+                height: m.pauseIconSize,
+                color: "#EDE9FE",
+                flexShrink: 0,
+              }}
+            />
+            {m.showPauseLabel ? (
+              <span
+                className="truncate font-bold text-[#EDE9FE]"
+                style={{ fontSize: m.pauseFontSize }}
+              >
+                {pauseLabel}
+              </span>
+            ) : null}
+          </div>
         </div>
       </div>
     </div>

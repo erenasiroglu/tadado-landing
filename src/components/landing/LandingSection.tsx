@@ -7,6 +7,7 @@ interface LandingSectionProps {
   id?: string;
   analyticsSection?: SectionId;
   tone?: "default" | "contrast";
+  density?: "default" | "compact";
   className?: string;
   reveal?: boolean;
   children: React.ReactNode;
@@ -16,6 +17,7 @@ export function LandingSection({
   id,
   analyticsSection,
   tone = "default",
+  density = "default",
   className,
   reveal = false,
   children,
@@ -32,7 +34,8 @@ export function LandingSection({
     <section
       id={id}
       className={cn(
-        "relative isolate py-20",
+        "relative isolate",
+        density === "compact" ? "py-10 md:py-12" : "py-12 md:py-14",
         tone === "contrast" ? "bg-[#1c1129]" : "bg-[#2a0a3b]",
         className,
       )}

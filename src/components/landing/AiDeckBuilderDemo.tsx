@@ -1,18 +1,16 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { AnimatePresence, motion } from "motion/react";
 import { Bot, Sparkles } from "lucide-react";
 
-import { AnimatedPhoneShell } from "@/components/landing/AnimatedPhoneShell";
+import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getAiDemoSample, type AiDemoDifficulty } from "@/lib/ai-demo-samples";
 import { trackEvent } from "@/lib/tracking";
-import { brandGradientCss } from "@/lib/design-tokens";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-import { PhoneFrame } from "./PhoneFrame";
-import { ForbiddenWordsPreview } from "./previews/ForbiddenWordsPreview";
 import { LandingSection } from "./LandingSection";
 import { SectionHeading } from "./SectionHeading";
 
@@ -21,25 +19,33 @@ interface AiDeckBuilderDemoProps {
   dict: Dictionary;
 }
 
-type SimulationPhase = "idle" | "typing" | "generating" | "ready";
+type SimulationPhase = "idle" | "typing" | "generating" | "cards" | "ready";
 
 const PHONE_WIDTH = 220;
 const TYPING_MS = 28;
 const GENERATING_MS = 1400;
 
+const STEPS = ["typing", "generating", "cards", "ready"] as const;
+
 export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
   const [difficulty, setDifficulty] = useState<AiDemoDifficulty>("medium");
   const [phase, setPhase] = useState<SimulationPhase>("idle");
   const [typedTopic, setTypedTopic] = useState("");
-  const [revealedCard, setRevealedCard] = useState(false);
   const runIdRef = useRef(0);
 
-  const sample = getAiDemoSample(locale, difficulty);
+  const heroCard = getAiDemoSample(locale, difficulty);
 
   const difficulties: { key: AiDemoDifficulty; label: string }[] = [
     { key: "easy", label: dict.ai.difficultyEasy },
     { key: "medium", label: dict.ai.difficultyMedium },
     { key: "hard", label: dict.ai.difficultyHard },
+  ];
+
+  const stepLabels = [
+    dict.ai.simulationStepTopic,
+    dict.ai.simulationStepGenerate,
+    dict.ai.simulationStepPreview,
+    dict.ai.simulationStepReady,
   ];
 
   const runSimulation = useCallback(
@@ -50,7 +56,6 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
       setDifficulty(nextDifficulty);
       setPhase("typing");
       setTypedTopic("");
-      setRevealedCard(false);
 
       let index = 0;
       const typeInterval = window.setInterval(() => {
@@ -67,12 +72,19 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
             setPhase("generating");
             window.setTimeout(() => {
               if (runId !== runIdRef.current) return;
-              setPhase("ready");
-              setRevealedCard(true);
-              trackEvent({
-                event: ANALYTICS_EVENTS.AI_DEMO_GENERATED,
-                properties: { locale, difficulty: nextDifficulty, topic },
-              });
+              setPhase("cards");
+              window.setTimeout(() => {
+                if (runId !== runIdRef.current) return;
+                setPhase("ready");
+                trackEvent({
+                  event: ANALYTICS_EVENTS.AI_DEMO_GENERATED,
+                  properties: { locale, difficulty: nextDifficulty, topic },
+                });
+                trackEvent({
+                  event: ANALYTICS_EVENTS.AI_DEMO_COMPLETED,
+                  properties: { locale, difficulty: nextDifficulty, topic },
+                });
+              }, 480);
             }, GENERATING_MS);
           }, 280);
         }
@@ -83,6 +95,10 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
+      trackEvent({
+        event: ANALYTICS_EVENTS.AI_DEMO_STARTED,
+        properties: { locale, difficulty: "medium" },
+      });
       trackEvent({
         event: ANALYTICS_EVENTS.AI_DEMO_START,
         properties: { locale, difficulty: "medium" },
@@ -109,70 +125,101 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
     runSimulation(difficulty);
   }
 
-  const isBusy = phase === "typing" || phase === "generating";
+  const isBusy = phase === "typing" || phase === "generating" || phase === "cards";
+  const showCard = phase === "cards" || phase === "ready";
+
+  function stepState(stepKey: (typeof STEPS)[number]) {
+    const order = STEPS.indexOf(stepKey);
+    const currentKey =
+      phase === "idle"
+        ? null
+        : phase === "typing"
+          ? "typing"
+          : phase === "generating"
+            ? "generating"
+            : phase === "cards"
+              ? "cards"
+              : "ready";
+    if (!currentKey) return { active: false, done: false };
+    const current = STEPS.indexOf(currentKey);
+    return {
+      active: order === current,
+      done: order < current,
+    };
+  }
 
   return (
-    <LandingSection id="ai-deck-builder" analyticsSection="ai_deck_builder" tone="contrast">
-      <div className="relative overflow-hidden rounded-2xl border border-cream/10">
-        <div className="absolute inset-0" style={{ background: brandGradientCss() }} />
-        <div className="pointer-events-none absolute -right-16 top-12 h-36 w-56 rotate-[-14deg] rounded-[54px] bg-lavender/15" />
-        <div className="pointer-events-none absolute -left-16 top-1/3 h-32 w-48 rotate-12 rounded-[48px] bg-purple-500/10" />
-
-        <div className="relative grid gap-10 p-6 lg:grid-cols-2 lg:items-center lg:p-8">
+    <LandingSection id="ai-decks" analyticsSection="ai_deck_builder" tone="contrast" density="compact">
+      <div className="rounded-xl border border-cream/10 bg-[#1c1129]/80 p-5 lg:p-7">
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
           <div>
             <BadgeRow label={dict.ai.simulationBadge} />
-            <SectionHeading
-              title={dict.ai.demoHeadline}
-              subtitle={dict.ai.simulationHint}
-              align="left"
-            />
+            <SectionHeading title={dict.ai.title} subtitle={dict.ai.subtitle} align="left" />
 
-            <div className="mt-8 space-y-4">
-              <SimulationStep
-                step={1}
-                label={dict.ai.simulationStepTopic}
-                active={phase === "typing" || phase === "ready"}
-                done={phase === "generating" || phase === "ready"}
-              />
-              <SimulationStep
-                step={2}
-                label={dict.ai.simulationStepGenerate}
-                active={phase === "generating"}
-                done={phase === "ready"}
-              />
-              <SimulationStep
-                step={3}
-                label={dict.ai.simulationStepPreview}
-                active={phase === "ready"}
-                done={phase === "ready"}
-              />
+            <div className="mt-6 hidden gap-2 lg:flex">
+              {stepLabels.map((label, index) => {
+                const key = STEPS[index];
+                const { active, done } = stepState(key);
+                return (
+                  <div key={label} className="flex min-w-0 flex-1 items-center gap-2">
+                    <div
+                      className={cn(
+                        "flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold",
+                        done
+                          ? "bg-amber text-[#2a0a3b]"
+                          : active
+                            ? "border border-amber/50 bg-amber/15 text-amber"
+                            : "border border-white/10 bg-white/5 text-lavender/60",
+                      )}
+                    >
+                      {index + 1}
+                    </div>
+                    <p
+                      className={cn(
+                        "truncate text-xs",
+                        active || done ? "font-semibold text-cream" : "text-lavender/65",
+                      )}
+                    >
+                      {label}
+                    </p>
+                  </div>
+                );
+              })}
             </div>
 
-            <div
-              className="mt-6 rounded-[18px] p-[1.5px] shadow-lg shadow-purple-500/20"
-              style={{
-                background:
-                  "linear-gradient(135deg, rgba(196,181,253,0.72), rgba(139,92,246,0.42), rgba(91,33,182,0.28))",
-              }}
-            >
-              <div className="relative overflow-hidden rounded-2xl border border-white/8 bg-[#1C0B2E] px-4 py-4">
-                <p className="text-xs font-semibold uppercase tracking-wide text-lavender">
-                  {dict.ai.inputLabel}
-                </p>
-                <div className="mt-3 min-h-[52px] font-medium text-cream">
-                  <span>{typedTopic}</span>
-                  {phase === "typing" ? (
-                    <span className="ai-typing-cursor ml-0.5 inline-block h-4 w-0.5 bg-amber" />
-                  ) : null}
-                </div>
-                {phase === "generating" ? (
-                  <div className="mt-4 space-y-2">
-                    <div className="ai-shimmer-bar h-2 rounded-full" />
-                    <div className="ai-shimmer-bar h-2 w-4/5 rounded-full" />
-                    <p className="text-sm text-lavender">{dict.ai.simulationWriting}</p>
-                  </div>
+            <div className="mt-6 space-y-3 lg:hidden">
+              {stepLabels.map((label, index) => {
+                const key = STEPS[index];
+                const { active, done } = stepState(key);
+                return (
+                  <SimulationStep
+                    key={label}
+                    step={index + 1}
+                    label={label}
+                    active={active}
+                    done={done}
+                  />
+                );
+              })}
+            </div>
+
+            <div className="mt-6 rounded-xl border border-white/10 bg-[#1C0B2E] px-4 py-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-lavender">
+                {dict.ai.inputLabel}
+              </p>
+              <div className="mt-3 min-h-[52px] font-medium text-cream">
+                <span>{typedTopic}</span>
+                {phase === "typing" ? (
+                  <span className="ai-typing-cursor ml-0.5 inline-block h-4 w-0.5 bg-amber" />
                 ) : null}
               </div>
+              {phase === "generating" ? (
+                <div className="mt-4 space-y-2">
+                  <div className="ai-shimmer-bar h-2 rounded-full" />
+                  <div className="ai-shimmer-bar h-2 w-4/5 rounded-full" />
+                  <p className="text-sm text-lavender">{dict.ai.simulationWriting}</p>
+                </div>
+              ) : null}
             </div>
 
             <div className="mt-5">
@@ -216,29 +263,49 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
 
           <div className="relative flex min-h-[320px] items-center justify-center">
             <div className="preview-ambient-glow" aria-hidden />
-            {revealedCard && phase === "ready" ? (
-              <div className="ai-card-reveal w-full">
-                <p className="mb-4 text-center text-xs font-semibold uppercase tracking-wide text-lavender">
-                  {dict.ai.demoPreviewLabel}
-                </p>
-                <AnimatedPhoneShell>
-                  <PhoneFrame orientation="portrait" width={PHONE_WIDTH} className="mx-auto">
-                    <ForbiddenWordsPreview
-                      shellWidth={PHONE_WIDTH}
-                      word={sample.word}
-                      forbidden={sample.forbidden}
-                    />
-                  </PhoneFrame>
-                </AnimatedPhoneShell>
-              </div>
-            ) : (
-              <div className="flex flex-col items-center gap-3 text-center text-lavender/70">
-                <Bot className="h-10 w-10 text-lavender/50" />
-                <p className="max-w-xs text-sm">
-                  {phase === "generating" ? dict.ai.simulationWriting : dict.ai.topicsEmpty}
-                </p>
-              </div>
-            )}
+            <AnimatePresence mode="wait">
+              {phase === "generating" ? (
+                <motion.div
+                  key="generating"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="flex h-[320px] w-full max-w-[240px] flex-col items-center justify-center rounded-[28px] border border-white/10 bg-[#1C0B2E]/80 p-6"
+                >
+                  <div className="ai-shimmer-bar h-3 w-full rounded-full" />
+                  <div className="ai-shimmer-bar mt-3 h-3 w-4/5 rounded-full" />
+                  <div className="ai-shimmer-bar mt-3 h-3 w-3/5 rounded-full" />
+                  <p className="mt-6 text-sm text-lavender">{dict.ai.simulationWriting}</p>
+                </motion.div>
+              ) : showCard ? (
+                <motion.div
+                  key="card"
+                  initial={{ opacity: 0, y: 12 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  className="relative w-full max-w-[240px]"
+                >
+                  <ForbiddenWordsScreen
+                    width={PHONE_WIDTH}
+                    word={heroCard.word}
+                    forbidden={heroCard.forbidden}
+                    showGlow
+                    className="relative z-[1] mx-auto"
+                  />
+                </motion.div>
+              ) : (
+                <motion.div
+                  key="idle"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="flex flex-col items-center gap-3 text-center text-lavender/70"
+                >
+                  <Bot className="h-10 w-10 text-lavender/50" />
+                  <p className="max-w-xs text-sm">{dict.ai.topicsEmpty}</p>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         </div>
       </div>

@@ -18,18 +18,37 @@ interface BlogTeaserProps {
   locale: Locale;
   dict: Dictionary;
   posts: BlogPost[];
+  compact?: boolean;
 }
 
-export function BlogTeaser({ locale, dict, posts }: BlogTeaserProps) {
+export function BlogTeaser({ locale, dict, posts, compact = false }: BlogTeaserProps) {
   if (posts.length === 0) return null;
 
-  const latest = posts.slice(0, 3);
+  const latest = compact ? posts.slice(0, 1) : posts.slice(0, 3);
 
   return (
-    <LandingSection id="blog">
+    <LandingSection id="blog" className={compact ? "py-12" : undefined}>
       <SectionViewTracker sectionId="blog">
-        <SectionHeading title={dict.blog.title} subtitle={dict.blog.subtitle} />
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        {!compact ? (
+          <SectionHeading title={dict.blog.title} subtitle={dict.blog.subtitle} />
+        ) : (
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <SectionHeading title={dict.blog.title} align="left" />
+            <Link
+              href={localeHref(locale, "blog")}
+              className={buttonVariants({ variant: "link", className: "px-0 text-amber" })}
+              onClick={() => {
+                trackEvent({
+                  event: ANALYTICS_EVENTS.BLOG_VIEW_ALL_CLICK,
+                  properties: { locale },
+                });
+              }}
+            >
+              {dict.blog.viewAll}
+            </Link>
+          </div>
+        )}
+        <div className={cn("grid gap-6", compact ? "mt-6 md:grid-cols-1" : "mt-12 md:grid-cols-3")}>
           {latest.map((post) => (
             <div key={post.slug} className="surface-card p-6">
               <time className="text-xs text-lavender" dateTime={post.date}>
@@ -52,20 +71,22 @@ export function BlogTeaser({ locale, dict, posts }: BlogTeaserProps) {
             </div>
           ))}
         </div>
-        <div className="mt-8 text-center">
-          <Link
-            href={localeHref(locale, "blog")}
-            className={buttonVariants({ variant: "link", className: "text-amber" })}
-            onClick={() => {
-              trackEvent({
-                event: ANALYTICS_EVENTS.BLOG_VIEW_ALL_CLICK,
-                properties: { locale },
-              });
-            }}
-          >
-            {dict.blog.viewAll}
-          </Link>
-        </div>
+        {!compact ? (
+          <div className="mt-8 text-center">
+            <Link
+              href={localeHref(locale, "blog")}
+              className={buttonVariants({ variant: "link", className: "text-amber" })}
+              onClick={() => {
+                trackEvent({
+                  event: ANALYTICS_EVENTS.BLOG_VIEW_ALL_CLICK,
+                  properties: { locale },
+                });
+              }}
+            >
+              {dict.blog.viewAll}
+            </Link>
+          </div>
+        ) : null}
       </SectionViewTracker>
     </LandingSection>
   );

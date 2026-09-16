@@ -3,7 +3,7 @@
 import { motion, useReducedMotion } from "motion/react";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
-import { ctaAmberClass } from "@/lib/cta-button";
+import { ctaGradientClass } from "@/lib/cta-button";
 import { slideUpBar } from "@/lib/motion";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
@@ -15,39 +15,28 @@ interface StickyBarProps {
 
 export function StickyBar({ locale, dict }: StickyBarProps) {
   const reduceMotion = useReducedMotion();
+  const barClass =
+    "fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-[#1a0f28]/95 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))] backdrop-blur md:hidden";
+
+  const cta = (
+    <TrackedOutboundLink
+      href={getAppStoreUrl(locale)}
+      locale={locale}
+      downloadPlatform="ios"
+      downloadSource="sticky_bar"
+      className={ctaGradientClass("h-11 w-full rounded-full text-sm font-bold")}
+    >
+      {dict.sticky.download}
+    </TrackedOutboundLink>
+  );
 
   if (reduceMotion) {
-    return (
-      <div className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-[#1a0f28]/95 p-3 backdrop-blur md:hidden">
-        <TrackedOutboundLink
-          href={getAppStoreUrl(locale)}
-          locale={locale}
-          downloadPlatform="ios"
-          downloadSource="sticky_bar"
-          className={ctaAmberClass("h-11 w-full rounded-lg")}
-        >
-          {dict.sticky.download}
-        </TrackedOutboundLink>
-      </div>
-    );
+    return <div className={barClass}>{cta}</div>;
   }
 
   return (
-    <motion.div
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-[#1a0f28]/95 p-3 backdrop-blur md:hidden"
-      initial="hidden"
-      animate="visible"
-      variants={slideUpBar}
-    >
-      <TrackedOutboundLink
-        href={getAppStoreUrl(locale)}
-        locale={locale}
-        downloadPlatform="ios"
-        downloadSource="sticky_bar"
-        className={ctaAmberClass("h-11 w-full rounded-lg")}
-      >
-        {dict.sticky.download}
-      </TrackedOutboundLink>
+    <motion.div className={barClass} initial="hidden" animate="visible" variants={slideUpBar}>
+      {cta}
     </motion.div>
   );
 }

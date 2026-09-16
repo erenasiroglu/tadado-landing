@@ -21,7 +21,7 @@ export function SeoGuides({ locale, dict }: SeoGuidesProps) {
         {guides.map((guide) => (
           <Link
             key={guide.slug}
-            href={localeHref(locale, `blog/${guide.slug}`)}
+            href={localeHref(locale, `guides/${guide.slug}`)}
             className="surface-card block px-5 py-4 text-sm font-semibold text-cream transition hover:border-amber/30 hover:text-amber"
           >
             {guide.label}

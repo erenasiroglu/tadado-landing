@@ -17,9 +17,10 @@ import { SectionHeading } from "./SectionHeading";
 interface NewsletterSignupProps {
   dict: Dictionary;
   locale: Locale;
+  compact?: boolean;
 }
 
-export function NewsletterSignup({ dict, locale }: NewsletterSignupProps) {
+export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSignupProps) {
   const content = dict.newsletter;
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -54,18 +55,30 @@ export function NewsletterSignup({ dict, locale }: NewsletterSignupProps) {
   }
 
   return (
-    <LandingSection id="newsletter" analyticsSection="newsletter" reveal>
-      <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#3d1f58]/40 to-[#1a0f28]/90 p-6 sm:p-8 md:p-10">
+    <LandingSection
+      id="newsletter"
+      analyticsSection="newsletter"
+      reveal
+      className={compact ? "py-12" : undefined}
+    >
+      <div
+        className={cn(
+          "relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#3d1f58]/40 to-[#1a0f28]/90",
+          compact ? "p-5 sm:p-6" : "p-6 sm:p-8 md:p-10",
+        )}
+      >
         <div
           className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-lavender/10 blur-3xl"
           aria-hidden
         />
 
-        <div className="relative grid gap-8 lg:grid-cols-2 lg:items-center">
+        <div className={cn("relative grid gap-8", compact ? "lg:grid-cols-[1.1fr_1fr] lg:items-center" : "lg:grid-cols-2 lg:items-center")}>
           <div>
-            <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-amber/15 text-amber">
-              <Mail className="h-5 w-5" aria-hidden />
-            </div>
+            {!compact ? (
+              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-amber/15 text-amber">
+                <Mail className="h-5 w-5" aria-hidden />
+              </div>
+            ) : null}
             <SectionHeading title={content.title} subtitle={content.subtitle} align="left" />
           </div>
 

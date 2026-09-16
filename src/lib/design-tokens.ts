@@ -107,6 +107,6 @@ export const PHONE_SHELL = {
   island: "rgba(0, 0, 0, 0.65)",
 } as const;
 
-export const PHONE_PORTRAIT_RATIO = 2.05;
-export const PHONE_LANDSCAPE_RATIO = 0.46;
+export const PHONE_PORTRAIT_RATIO = 19.5 / 9;
+export const PHONE_LANDSCAPE_RATIO = 9 / 19.5;
 export const PHONE_REFERENCE_WIDTH = 236;

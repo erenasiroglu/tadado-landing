@@ -38,12 +38,17 @@ export default async function TeamPage({ params }: PageProps<"/[lang]/team">) {
   return (
     <>
       <Header locale={locale} dict={dict} />
-      <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
-          ← {dict.team.back}
-        </Link>
-        <div className="mt-8">
-          <Team dict={dict} locale={locale} variant="page" />
+      <main className="flex-1 bg-[#2a0a3b]">
+        <div className="section-shell py-12 md:py-14">
+          <Link
+            href={localeHref(locale)}
+            className="inline-flex cursor-pointer items-center text-sm font-semibold text-amber transition-colors hover:text-amber/85"
+          >
+            ← {dict.team.back}
+          </Link>
+          <div className="mt-8 max-w-5xl">
+            <Team dict={dict} locale={locale} />
+          </div>
         </div>
       </main>
       <Footer locale={locale} dict={dict} />

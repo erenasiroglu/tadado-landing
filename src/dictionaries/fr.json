@@ -9,21 +9,62 @@
     "compare": "Compare",
     "affiliate": "Affiliate",
     "team": "Team",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "play": "Play",
+    "aiDecks": "AI Decks",
+    "decks": "Decks",
+    "community": "Community",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "getTadado": "Get Tadado",
+    "guides": "Guides"
   },
   "hero": {
-    "badge": "Jeu de mots avec IA",
-    "title": "Le jeu de fête avec Tabou, Heads Up et decks IA",
-    "subtitle": "Décris, devine, crée ton deck. Deux modes, decks IA et packs thématiques.",
-    "trust": "Tadado Mix gratuit · Sans pub · Sans abonnement",
-    "ctaPrimary": "Télécharger"
+    "brandLine": "Tadado Game Development 2026",
+    "title": "One phone. Your friends. Let the chaos begin.",
+    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "ctaPrimary": "GET TADADO · FREE",
+    "ctaSecondary": "SEE HOW IT WORKS",
+    "metrics": [
+      {
+        "value": "300,000+",
+        "label": "games played",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "game modes"
+      },
+      {
+        "value": "AI",
+        "label": "powered"
+      },
+      {
+        "value": "17",
+        "label": "languages"
+      },
+      {
+        "value": "8",
+        "label": "game decks",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "play"
+      },
+      {
+        "value": "No",
+        "label": "ads"
+      }
+    ]
   },
   "proof": {
     "players": "300,000+ games played",
     "modes": "2 game modes",
-    "ai": "AI deck creator",
+    "ai": "AI-powered",
     "languages": "17 languages",
-    "free": "Free Tadado Mix"
+    "offline": "Play offline",
+    "noAds": "No ads"
   },
   "special": {
     "title": "What makes Tadado special?",
@@ -54,7 +95,7 @@
     "modes": "2",
     "modesLabel": "game modes",
     "languages": "17",
-    "languagesLabel": "languages",
+    "languagesLabel": "languages in app",
     "developerNote": "Trusted by players worldwide · Tadado Game Development"
   },
   "reviews": {
@@ -81,7 +122,10 @@
         "author": "James P.",
         "context": "Family game night · Austin"
       }
-    ]
+    ],
+    "appStoreRating": "5.0 on the App Store",
+    "appStoreCount": "8 ratings",
+    "sourceLabel": "App Store review"
   },
   "modes": {
     "title": "Two ways to play",
@@ -199,7 +243,8 @@
     "simulationStepTopic": "Topic selected",
     "simulationStepGenerate": "AI writes the card",
     "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…"
+    "simulationWriting": "AI is writing forbidden words…",
+    "simulationStepReady": "Ready to play"
   },
   "trending": {
     "title": "The cards people are searching for tonight.",
@@ -247,7 +292,8 @@
         "name": "Night Games",
         "desc": "Bold wordplay after dark!"
       }
-    }
+    },
+    "countBadge": "8 game decks"
   },
   "pricing": {
     "title": "Simple, honest pricing",
@@ -288,12 +334,50 @@
     ]
   },
   "community": {
-    "title": "Join the community",
-    "subtitle": "Clips, challenges, and party moments from players around the world.",
-    "instagramCta": "Follow on Instagram",
+    "title": "Game nights around the world",
+    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "metrics": [
+      {
+        "value": "300,000+",
+        "label": "games played",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "languages"
+      },
+      {
+        "value": "2",
+        "label": "game modes"
+      }
+    ],
+    "languagesTitle": "Supported languages",
+    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
+    "trendingLabel": "Trending tonight",
+    "editorialLabel": "Latest from Tadado",
+    "editorialItems": [
+      {
+        "title": "Summer deck season",
+        "body": "Sun, sea, and vacation vibes for warm nights."
+      },
+      {
+        "title": "Movie night decks",
+        "body": "Cinema cards for film fans and binge watchers."
+      },
+      {
+        "title": "Create your own",
+        "body": "Turn any topic into a playable deck with AI."
+      }
+    ],
+    "socialCta": "Join the Tadado community",
+    "instagramCta": "Instagram",
     "instagramDesc": "Reels, game night clips & deck ideas",
-    "tiktokCta": "Follow on TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges"
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Heads Up videos & party challenges",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Updates from Tadado Game Development",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "See Tadado on Product Hunt"
   },
   "affiliate": {
     "title": "Earn 20% as a Tadado affiliate",
@@ -517,7 +601,8 @@
   "cta": {
     "title": "Ready for game night?",
     "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now"
+    "button": "Download now",
+    "secondary": "EXPLORE DECKS"
   },
   "footer": {
     "tagline": "Describe, guess, make it yours.",
@@ -530,12 +615,77 @@
     "legal": "Legal",
     "terms": "Terms of Use",
     "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "playTitle": "Play",
+    "discoverTitle": "Discover",
+    "growTitle": "Grow with Tadado",
+    "supportTitle": "Support",
+    "socialTitle": "Social",
+    "help": "Help"
   },
   "sticky": {
     "download": "Download free"
   },
   "language": {
     "label": "Language"
+  },
+  "productBenefits": {
+    "eyebrow": "Built for real game nights",
+    "title": "One phone. Teams. Timers. Rounds.",
+    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
+    "details": [
+      "Offline play",
+      "Teams & timers",
+      "No ads",
+      "No subscription"
+    ]
+  },
+  "personalization": {
+    "title": "Make it yours.",
+    "subtitle": "This is not the same game every time. Every group can create its own experience.",
+    "items": [
+      {
+        "label": "Friends",
+        "topic": "Weekend chaos"
+      },
+      {
+        "label": "Family",
+        "topic": "Sunday dinner"
+      },
+      {
+        "label": "Birthdays",
+        "topic": "Party classics"
+      },
+      {
+        "label": "Movie night",
+        "topic": "Oscar films"
+      },
+      {
+        "label": "Sports",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Travel",
+        "topic": "Road trip games"
+      },
+      {
+        "label": "Office",
+        "topic": "Office chaos"
+      },
+      {
+        "label": "University",
+        "topic": "Campus legends"
+      },
+      {
+        "label": "Inside jokes",
+        "topic": "Things we always say"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Your next game night needs Tadado.",
+    "subtitle": "One phone. Everyone's invited.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
   }
 }

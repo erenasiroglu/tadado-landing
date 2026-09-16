@@ -7,18 +7,15 @@ import { primarySolidClass } from "@/lib/cta-button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { Dictionary } from "@/lib/i18n";
 import { blogHref, type Locale } from "@/lib/i18n-config";
-import { getHeadsUpPauseLabel, getHeadsUpTimerLabel } from "@/lib/game-preview-tokens";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getTrendingContent } from "@/lib/trending-cards";
 import { trackEvent } from "@/lib/tracking";
 
+import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
+import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
-import { AnimatedPhoneShell } from "./AnimatedPhoneShell";
 import { TrendingDeckPlayButton } from "./TrendingDeckPlayButton";
 import { LandingSection } from "./LandingSection";
-import { PhoneFrame } from "./PhoneFrame";
-import { ForbiddenWordsPreview } from "./previews/ForbiddenWordsPreview";
-import { HeadsUpPreview } from "./previews/HeadsUpPreview";
 import { SectionHeading } from "./SectionHeading";
 
 interface TrendingCardsProps {
@@ -26,8 +23,8 @@ interface TrendingCardsProps {
   dict: Dictionary;
 }
 
-const TABOO_PHONE_WIDTH = 200;
-const HEADS_UP_PHONE_WIDTH = 300;
+const TABOO_DEVICE_WIDTH = 208;
+const HEADS_UP_DEVICE_WIDTH = 340;
 const FEATURED_COUNT = 2;
 
 function toGameWord(value: string) {
@@ -38,8 +35,6 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
   const content = getTrendingContent(locale);
   const tabooGroups = content.groups.filter((g) => g.mode === "taboo").slice(0, FEATURED_COUNT);
   const headsUpGroups = content.groups.filter((g) => g.mode === "headsup").slice(0, FEATURED_COUNT);
-  const timer = getHeadsUpTimerLabel(locale);
-  const pauseLabel = getHeadsUpPauseLabel(locale);
 
   return (
     <LandingSection id="trending" reveal>
@@ -94,15 +89,11 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
                   </p>
                   <h3 className="mt-1 text-lg font-bold text-cream">{group.deckLabel}</h3>
                   <div className="relative mt-6 flex justify-center">
-                    <AnimatedPhoneShell delay={index === 0 ? "none" : "short"}>
-                      <PhoneFrame orientation="portrait" width={TABOO_PHONE_WIDTH}>
-                        <ForbiddenWordsPreview
-                          shellWidth={TABOO_PHONE_WIDTH}
-                          word={toGameWord(word)}
-                          forbidden={forbidden.map(toGameWord)}
-                        />
-                      </PhoneFrame>
-                    </AnimatedPhoneShell>
+                    <ForbiddenWordsScreen
+                      width={TABOO_DEVICE_WIDTH}
+                      word={toGameWord(word)}
+                      forbidden={forbidden.map(toGameWord)}
+                    />
                   </div>
                   <TrendingDeckPlayButton
                     deckId={group.id}
@@ -126,16 +117,11 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
                 </p>
                 <h3 className="mt-1 text-lg font-bold text-cream">{group.deckLabel}</h3>
                 <div className="relative mt-6 flex justify-center">
-                  <AnimatedPhoneShell delay={index === 0 ? "none" : "short"}>
-                    <PhoneFrame orientation="landscape" width={HEADS_UP_PHONE_WIDTH}>
-                      <HeadsUpPreview
-                        shellWidth={HEADS_UP_PHONE_WIDTH}
-                        word={group.words[0] ?? toGameWord(group.deckLabel)}
-                        timer={timer}
-                        pauseLabel={pauseLabel}
-                      />
-                    </PhoneFrame>
-                  </AnimatedPhoneShell>
+                  <HeadsUpScreen
+                    locale={locale}
+                    width={HEADS_UP_DEVICE_WIDTH}
+                    word={group.words[0] ?? toGameWord(group.deckLabel)}
+                  />
                 </div>
                 <TrendingDeckPlayButton
                   deckId={group.id}

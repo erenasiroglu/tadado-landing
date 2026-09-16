@@ -9,21 +9,62 @@
     "compare": "Karşılaştır",
     "affiliate": "Affiliate",
     "team": "Ekibimiz",
-    "download": "İndir"
+    "download": "İndir",
+    "play": "Play",
+    "aiDecks": "AI Decks",
+    "decks": "Decks",
+    "community": "Community",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "getTadado": "Get Tadado",
+    "guides": "Guides"
   },
   "hero": {
-    "badge": "Yapay Zeka Kelime Tahmin Oyunu",
-    "title": "Tabu, Alnında Tahmin ve yapay zeka desteleriyle parti kelime oyunu",
-    "subtitle": "Anlat, tahmin et, kendi desteni oluştur. İki oyun modu, özel yapay zeka desteleri ve her gruba uygun temalı kartlar.",
-    "trust": "Tadado Oyun Geliştirme · Tadado Mix ücretsiz · Reklamsız",
-    "ctaPrimary": "Uygulamayı indir"
+    "brandLine": "Tadado Game Development 2026",
+    "title": "One phone. Your friends. Let the chaos begin.",
+    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "ctaPrimary": "GET TADADO · FREE",
+    "ctaSecondary": "SEE HOW IT WORKS",
+    "metrics": [
+      {
+        "value": "300,000+",
+        "label": "games played",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "game modes"
+      },
+      {
+        "value": "AI",
+        "label": "powered"
+      },
+      {
+        "value": "17",
+        "label": "languages"
+      },
+      {
+        "value": "8",
+        "label": "game decks",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "play"
+      },
+      {
+        "value": "No",
+        "label": "ads"
+      }
+    ]
   },
   "proof": {
-    "players": "300.000+ oyun oynandı",
-    "modes": "2 oyun modu",
-    "ai": "Yapay zeka deste",
-    "languages": "17 dil",
-    "free": "Ücretsiz Tadado Mix"
+    "players": "300,000+ games played",
+    "modes": "2 game modes",
+    "ai": "AI-powered",
+    "languages": "17 languages",
+    "offline": "Play offline",
+    "noAds": "No ads"
   },
   "special": {
     "title": "Tadado'yu özel kılan nedir?",
@@ -49,13 +90,13 @@
     ]
   },
   "stats": {
-    "gamesPlayed": "300.000+",
-    "gamesPlayedLabel": "dünya genelinde oynanan oyun",
+    "gamesPlayed": "300,000+",
+    "gamesPlayedLabel": "games played worldwide",
     "modes": "2",
-    "modesLabel": "oyun modu",
+    "modesLabel": "game modes",
     "languages": "17",
-    "languagesLabel": "dil",
-    "developerNote": "Dünya genelinde oyuncuların güvendiği · Tadado Oyun Geliştirme"
+    "languagesLabel": "languages in app",
+    "developerNote": "Trusted by players worldwide · Tadado Game Development"
   },
   "reviews": {
     "title": "Oyun gecesinde sevilen",
@@ -81,7 +122,10 @@
         "author": "Ayşe M.",
         "context": "Aile oyun gecesi · Bursa"
       }
-    ]
+    ],
+    "appStoreRating": "5.0 on the App Store",
+    "appStoreCount": "8 ratings",
+    "sourceLabel": "App Store review"
   },
   "modes": {
     "title": "İki farklı oyun",
@@ -199,7 +243,8 @@
     "simulationStepTopic": "Konu seçildi",
     "simulationStepGenerate": "Yapay zeka kartı yazıyor",
     "simulationStepPreview": "Oynanabilir kart hazır",
-    "simulationWriting": "Yapay zeka yasaklı kelimeleri yazıyor…"
+    "simulationWriting": "Yapay zeka yasaklı kelimeleri yazıyor…",
+    "simulationStepReady": "Ready to play"
   },
   "trending": {
     "title": "Bu akşam herkesin aradığı kartlar.",
@@ -247,7 +292,8 @@
         "name": "Gece Oyunları",
         "desc": "Geceye özel cesur kelime oyunları!"
       }
-    }
+    },
+    "countBadge": "8 game decks"
   },
   "pricing": {
     "title": "Basit ve şeffaf fiyatlandırma",
@@ -288,12 +334,50 @@
     ]
   },
   "community": {
-    "title": "Topluluğa katıl",
-    "subtitle": "Dünyanın dört bir yanından oyuncu klipleri, meydan okumalar ve parti anları.",
-    "instagramCta": "Instagram'da takip et",
-    "instagramDesc": "Reels, oyun gecesi klipleri ve deste fikirleri",
-    "tiktokCta": "TikTok'ta takip et",
-    "tiktokDesc": "Alnında tahmin videoları ve parti meydan okumaları"
+    "title": "Game nights around the world",
+    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "metrics": [
+      {
+        "value": "300,000+",
+        "label": "games played",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "languages"
+      },
+      {
+        "value": "2",
+        "label": "game modes"
+      }
+    ],
+    "languagesTitle": "Supported languages",
+    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
+    "trendingLabel": "Trending tonight",
+    "editorialLabel": "Latest from Tadado",
+    "editorialItems": [
+      {
+        "title": "Summer deck season",
+        "body": "Sun, sea, and vacation vibes for warm nights."
+      },
+      {
+        "title": "Movie night decks",
+        "body": "Cinema cards for film fans and binge watchers."
+      },
+      {
+        "title": "Create your own",
+        "body": "Turn any topic into a playable deck with AI."
+      }
+    ],
+    "socialCta": "Join the Tadado community",
+    "instagramCta": "Instagram",
+    "instagramDesc": "Reels, game night clips & deck ideas",
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Heads Up videos & party challenges",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Updates from Tadado Game Development",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "See Tadado on Product Hunt"
   },
   "affiliate": {
     "title": "Tadado affiliate ile %20 kazan",
@@ -468,7 +552,14 @@
           "Saat 02:00'de production debug yapar, ama sadece süre doğru sayıyorsa.",
           "En iyi parti oyununun sıfır tutorial ve sonsuz tekrar oynanabilirlik gerektiğine inanıyor."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobil Oyunlar", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Mobil Oyunlar",
+          "FinTech"
+        ],
         "websiteCta": "erenasiroglu.de'yi ziyaret et"
       },
       "nur": {
@@ -480,7 +571,14 @@
           "Tadado'nun uçtan uca ürün tasarımını ilk wireframe'den cilalı oyun ekranlarına kadar yönetti.",
           "Buton radius'un 2 piksel kaydığını fark eder. Nazikçe."
         ],
-        "skills": ["UI/UX", "Figma", "Etkileşim Tasarımı", "Oyun Deneyimi", "Mekân Tasarımı", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Etkileşim Tasarımı",
+          "Oyun Deneyimi",
+          "Mekân Tasarımı",
+          "Procreate"
+        ],
         "websiteCta": "nurgunen.com'u ziyaret et"
       }
     },
@@ -503,7 +601,8 @@
   "cta": {
     "title": "Oyun gecesi için hazır mısın?",
     "subtitle": "Tadado'yu ücretsiz indir ve Tadado Mix ile başla.",
-    "button": "Hemen indir"
+    "button": "Hemen indir",
+    "secondary": "EXPLORE DECKS"
   },
   "footer": {
     "tagline": "Anlat, tahmin et, kendi desteni oluştur.",
@@ -516,12 +615,77 @@
     "legal": "Yasal",
     "terms": "Kullanım Koşulları",
     "privacy": "Gizlilik Politikası",
-    "copyright": "© {{year}} Tadado Oyun Geliştirme"
+    "copyright": "© {{year}} Tadado Oyun Geliştirme",
+    "playTitle": "Play",
+    "discoverTitle": "Discover",
+    "growTitle": "Grow with Tadado",
+    "supportTitle": "Support",
+    "socialTitle": "Social",
+    "help": "Help"
   },
   "sticky": {
     "download": "Ücretsiz indir"
   },
   "language": {
     "label": "Dil"
+  },
+  "productBenefits": {
+    "eyebrow": "Built for real game nights",
+    "title": "One phone. Teams. Timers. Rounds.",
+    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
+    "details": [
+      "Offline play",
+      "Teams & timers",
+      "No ads",
+      "No subscription"
+    ]
+  },
+  "personalization": {
+    "title": "Make it yours.",
+    "subtitle": "This is not the same game every time. Every group can create its own experience.",
+    "items": [
+      {
+        "label": "Friends",
+        "topic": "Weekend chaos"
+      },
+      {
+        "label": "Family",
+        "topic": "Sunday dinner"
+      },
+      {
+        "label": "Birthdays",
+        "topic": "Party classics"
+      },
+      {
+        "label": "Movie night",
+        "topic": "Oscar films"
+      },
+      {
+        "label": "Sports",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Travel",
+        "topic": "Road trip games"
+      },
+      {
+        "label": "Office",
+        "topic": "Office chaos"
+      },
+      {
+        "label": "University",
+        "topic": "Campus legends"
+      },
+      {
+        "label": "Inside jokes",
+        "topic": "Things we always say"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Your next game night needs Tadado.",
+    "subtitle": "One phone. Everyone's invited.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
   }
 }

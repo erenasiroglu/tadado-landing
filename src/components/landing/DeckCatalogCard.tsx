@@ -27,6 +27,7 @@ interface DeckCatalogCardProps {
   playLabel: string;
   newBadgeLabel?: string;
   isFree?: boolean;
+  showPlayIcon?: boolean;
   className?: string;
 }
 
@@ -41,6 +42,7 @@ export function DeckCatalogCard({
   playLabel,
   newBadgeLabel = "NEW",
   isFree = false,
+  showPlayIcon = false,
   className,
 }: DeckCatalogCardProps) {
   const reduceMotion = useReducedMotion();
@@ -161,7 +163,7 @@ export function DeckCatalogCard({
                   backgroundColor: DECK_CHROME.playTint,
                 }}
               >
-                {isFree ? (
+                {showPlayIcon || isFree ? (
                   <Play
                     className="ml-0.5 h-[26px] w-[26px]"
                     style={{ color: DECK_CHROME.playIconColor, fill: DECK_CHROME.playIconColor }}

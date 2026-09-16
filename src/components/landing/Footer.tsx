@@ -1,16 +1,40 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { BRAND } from "@/lib/brand";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { SOCIAL_LINKS } from "@/lib/social";
 
 import { SocialIconLink } from "./SocialIconLink";
-import { StoreBadges } from "./StoreBadges";
 
 interface FooterProps {
   locale: Locale;
   dict: Dictionary;
+}
+
+interface FooterColumnProps {
+  title: string;
+  children: React.ReactNode;
+}
+
+function FooterColumn({ title, children }: FooterColumnProps) {
+  return (
+    <div>
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/80">{title}</p>
+      <ul className="mt-3 space-y-2 text-sm">{children}</ul>
+    </div>
+  );
+}
+
+function FooterLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <li>
+      <Link href={href} className="text-lavender transition-colors hover:text-amber">
+        {children}
+      </Link>
+    </li>
+  );
 }
 
 export function Footer({ locale, dict }: FooterProps) {
@@ -18,88 +42,106 @@ export function Footer({ locale, dict }: FooterProps) {
 
   return (
     <footer className="border-t border-cream/8 bg-[#1c1129] py-12">
-      <div className="section-shell grid gap-10 md:grid-cols-4">
-        <div className="md:col-span-2">
-          <div className="flex items-center gap-2">
-            <Image src="/images/tadado_icon.png" alt="Tadado" width={32} height={32} className="rounded-lg" />
-            <span className="font-extrabold text-cream">TADADO</span>
+      <div className="section-shell">
+        <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
+          <div className="max-w-sm">
+            <div className="flex items-center gap-2">
+              <Image
+                src="/images/tadado_icon.png"
+                alt="Tadado"
+                width={32}
+                height={32}
+                className="rounded-lg"
+              />
+              <span className="font-extrabold text-cream">TADADO</span>
+            </div>
+            <p className="mt-3 text-sm text-cream/65">{dict.footer.tagline}</p>
+            <p className="mt-1 text-xs text-lavender/80">{dict.footer.developer}</p>
+            <StoreButtons locale={locale} source="hero_badges" className="mt-6" />
           </div>
-          <p className="mt-3 max-w-sm text-sm text-cream/65">{dict.footer.tagline}</p>
-          <p className="mt-1 text-xs text-lavender/80">{dict.footer.developer}</p>
-          <StoreBadges locale={locale} className="mt-6" />
-        </div>
 
-        <div>
-          <p className="text-sm font-semibold text-cream">{dict.footer.support}</p>
-          <a
-            href={`mailto:${BRAND.supportEmail}`}
-            className="mt-2 block text-sm text-lavender hover:text-amber"
-          >
-            {BRAND.supportEmail}
-          </a>
-          <div className="mt-4 flex gap-2">
-            <SocialIconLink
-              href={SOCIAL_LINKS.instagram.href}
-              label={dict.community.instagramCta}
-              network="instagram"
-            />
-            <SocialIconLink
-              href={SOCIAL_LINKS.tiktok.href}
-              label={dict.community.tiktokCta}
-              network="tiktok"
-            />
-          </div>
-        </div>
+          <div className="grid flex-1 grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
+            <FooterColumn title={dict.footer.playTitle}>
+              <FooterLink href="#modes">{dict.nav.play}</FooterLink>
+              <FooterLink href="#ai-decks">{dict.nav.aiDecks}</FooterLink>
+              <FooterLink href="#decks">{dict.nav.decks}</FooterLink>
+              <FooterLink href="#community">{dict.nav.community}</FooterLink>
+              <FooterLink href="#how-it-works">{dict.nav.howItWorks}</FooterLink>
+            </FooterColumn>
 
-        <div>
-          <p className="text-sm font-semibold text-cream">{dict.footer.legal}</p>
-          <ul className="mt-2 space-y-2 text-sm">
-            <li>
-              <Link href="/terms-of-use" className="text-lavender hover:text-amber">
-                {dict.footer.terms}
-              </Link>
-            </li>
-            <li>
-              <Link href="/privacy-policy" className="text-lavender hover:text-amber">
-                {dict.footer.privacy}
-              </Link>
-            </li>
-            <li>
-              <Link href={blogHref(locale)} className="text-lavender hover:text-amber">
-                {dict.nav.blog}
-              </Link>
-            </li>
-            <li>
-              <Link href={localeHref(locale, "compare")} className="text-lavender hover:text-amber">
-                {dict.footer.compare}
-              </Link>
-            </li>
-            <li>
-              <Link href={`${localeHref(locale)}#pricing`} className="text-lavender hover:text-amber">
-                {dict.nav.pricing}
-              </Link>
-            </li>
-            <li>
-              <Link href={localeHref(locale, "partnerships")} className="text-lavender hover:text-amber">
+            <FooterColumn title={dict.footer.discoverTitle}>
+              <FooterLink href={blogHref(locale)}>{dict.nav.blog}</FooterLink>
+              <FooterLink href={localeHref(locale, "guides")}>{dict.nav.guides}</FooterLink>
+              <FooterLink href={localeHref(locale, "team")}>{dict.nav.team}</FooterLink>
+              <FooterLink href={localeHref(locale, "compare")}>{dict.nav.compare}</FooterLink>
+            </FooterColumn>
+
+            <FooterColumn title={dict.footer.growTitle}>
+              <FooterLink href={localeHref(locale, "affiliate")}>{dict.nav.affiliate}</FooterLink>
+              <FooterLink href={localeHref(locale, "partnerships")}>
                 {dict.footer.partnerships}
-              </Link>
-            </li>
-            <li>
-              <Link href={localeHref(locale, "affiliate")} className="text-lavender hover:text-amber">
-                {dict.footer.affiliate}
-              </Link>
-            </li>
-            <li>
-              <Link href={localeHref(locale, "team")} className="text-lavender hover:text-amber">
-                {dict.footer.team}
-              </Link>
-            </li>
-          </ul>
+              </FooterLink>
+            </FooterColumn>
+
+            <FooterColumn title={dict.footer.supportTitle}>
+              <FooterLink href="#faq">{dict.nav.faq}</FooterLink>
+              <li>
+                <a
+                  href={`mailto:${BRAND.supportEmail}`}
+                  className="text-lavender transition-colors hover:text-amber"
+                >
+                  {dict.footer.help}
+                </a>
+              </li>
+              <FooterLink href="/privacy-policy">{dict.footer.privacy}</FooterLink>
+              <FooterLink href="/terms-of-use">{dict.footer.terms}</FooterLink>
+            </FooterColumn>
+
+            <FooterColumn title={dict.footer.socialTitle}>
+              <li>
+                <SocialIconLink
+                  href={SOCIAL_LINKS.instagram.href}
+                  label={dict.community.instagramCta}
+                  network="instagram"
+                  showLabel
+                  className="h-auto justify-start px-0 hover:bg-transparent"
+                />
+              </li>
+              <li>
+                <SocialIconLink
+                  href={SOCIAL_LINKS.tiktok.href}
+                  label={dict.community.tiktokCta}
+                  network="tiktok"
+                  showLabel
+                  className="h-auto justify-start px-0 hover:bg-transparent"
+                />
+              </li>
+              <li>
+                <SocialIconLink
+                  href={SOCIAL_LINKS.linkedin.href}
+                  label={dict.community.linkedinCta}
+                  network="linkedin"
+                  showLabel
+                  className="h-auto justify-start px-0 hover:bg-transparent"
+                />
+              </li>
+              <li>
+                <SocialIconLink
+                  href={SOCIAL_LINKS.productHunt.href}
+                  label={dict.community.productHuntCta}
+                  network="productHunt"
+                  showLabel
+                  className="h-auto justify-start px-0 hover:bg-transparent"
+                />
+              </li>
+            </FooterColumn>
+          </div>
         </div>
+
+        <p className="mt-10 text-center text-xs text-cream/45">
+          {dict.footer.copyright.replace("{{year}}", String(year))}
+        </p>
       </div>
-      <p className="section-shell mt-10 text-center text-xs text-cream/45">
-        {dict.footer.copyright.replace("{{year}}", String(year))}
-      </p>
     </footer>
   );
 }

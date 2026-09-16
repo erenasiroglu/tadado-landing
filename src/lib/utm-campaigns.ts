@@ -14,6 +14,18 @@ export const UTM_CAMPAIGNS: Record<string, UtmCampaignPreset> = {
     utm_medium: "social",
     utm_campaign: "bio_link",
   },
+  linkedinBio: {
+    name: "LinkedIn bio",
+    utm_source: "linkedin",
+    utm_medium: "social",
+    utm_campaign: "bio_link",
+  },
+  productHuntBio: {
+    name: "Product Hunt",
+    utm_source: "producthunt",
+    utm_medium: "social",
+    utm_campaign: "product_page",
+  },
   metaAds: {
     name: "Meta ads",
     utm_source: "meta",

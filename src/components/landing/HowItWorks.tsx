@@ -9,11 +9,11 @@ interface HowItWorksProps {
 
 export function HowItWorks({ dict }: HowItWorksProps) {
   return (
-    <LandingSection id="how-it-works">
+    <LandingSection id="how-it-works" analyticsSection="how_it_works" reveal>
       <SectionHeading title={dict.howItWorks.title} />
-      <ol className="mt-12 grid gap-8 md:grid-cols-3">
+      <ol className="mt-8 grid gap-6 md:grid-cols-3">
         {dict.howItWorks.steps.map((step, index) => (
-          <li key={step.title} className="surface-card h-full p-6">
+          <li key={step.title} className="surface-card h-full p-5">
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber text-sm font-bold text-[#2a0a3b]">
               {index + 1}
             </span>

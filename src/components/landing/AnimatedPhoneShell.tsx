@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
-
+import { DeviceFloat } from "@/components/landing/device/DeviceFloat";
 import { cn } from "@/lib/utils";
 
 interface AnimatedPhoneShellProps {
@@ -16,29 +15,15 @@ const DELAY_SECONDS = {
   medium: 1.2,
 } as const;
 
+/** @deprecated Prefer DeviceFloat on PortraitGameDevice / LandscapeGameDevice. */
 export function AnimatedPhoneShell({
   children,
   className,
   delay = "none",
 }: AnimatedPhoneShellProps) {
-  const reduceMotion = useReducedMotion();
-
-  if (reduceMotion) {
-    return <div className={cn("mx-auto w-fit", className)}>{children}</div>;
-  }
-
   return (
-    <motion.div
-      className={cn("mx-auto w-fit", className)}
-      animate={{ y: [0, -5, 0] }}
-      transition={{
-        duration: 5,
-        repeat: Infinity,
-        ease: "easeInOut",
-        delay: DELAY_SECONDS[delay],
-      }}
-    >
-      {children}
-    </motion.div>
+    <DeviceFloat className={cn(className)} enabled>
+      <div style={{ animationDelay: `${DELAY_SECONDS[delay]}s` }}>{children}</div>
+    </DeviceFloat>
   );
 }

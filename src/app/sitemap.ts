@@ -2,8 +2,9 @@ import type { MetadataRoute } from "next";
 
 import { getAllBlogSlugs } from "@/lib/blog";
 import { BRAND } from "@/lib/brand";
-import { LOCALES } from "@/lib/i18n-config";
+import { LOCALES, type Locale } from "@/lib/i18n-config";
 import { buildLanguageAlternates } from "@/lib/seo";
+import { getSeoGuides } from "@/lib/seo-guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BRAND.domain;
@@ -23,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const affiliateLanguages = buildLanguageAlternates("affiliate");
   const partnershipsLanguages = buildLanguageAlternates("partnerships");
   const compareLanguages = buildLanguageAlternates("compare");
+  const guidesLanguages = buildLanguageAlternates("guides");
   const teamLanguages = buildLanguageAlternates("team");
 
   for (const locale of LOCALES) {
@@ -47,6 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.75,
         alternates: { languages: compareLanguages },
+      },
+      {
+        url: `${base}/${locale}/guides`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.75,
+        alternates: { languages: guidesLanguages },
       },
       {
         url: `${base}/${locale}/team`,
@@ -95,6 +104,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     });
+  }
+
+  for (const locale of LOCALES) {
+    for (const guide of getSeoGuides(locale as Locale)) {
+      entries.push({
+        url: `${base}/${locale}/guides/${guide.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      });
+    }
   }
 
   return entries;

@@ -56,11 +56,20 @@ export function buildPageMetadata(
       siteName: BRAND.name,
       locale,
       type: "website",
+      images: [
+        {
+          url: "/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: BRAND.name,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: dict.meta.title,
       description: dict.meta.description,
+      images: ["/twitter-image"],
     },
     other: {
       "apple-itunes-app": "app-id=6753135485",

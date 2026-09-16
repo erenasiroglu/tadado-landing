@@ -115,6 +115,7 @@ export interface HeadsUpPlayFieldMetrics {
   screenPadTop: number;
   screenPadBottom: number;
   topBarGap: number;
+  topBarHeight: number;
   teamMaxWidth: number;
   teamPadH: number;
   teamPadV: number;
@@ -160,7 +161,8 @@ export function getHeadsUpPlayFieldMetrics(
     screenPadH: 16 * scale,
     screenPadTop: 10 * scale,
     screenPadBottom: 10 * scale,
-    topBarGap: 12 * scale,
+    topBarGap: 8 * scale,
+    topBarHeight: Math.max(28, 34 * scale),
     teamMaxWidth: Math.min(130 * scale, innerWidth * 0.36),
     teamPadH: 10 * scale,
     teamPadV: 7 * scale,
