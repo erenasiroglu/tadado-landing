@@ -89,8 +89,8 @@ export function Hero({ locale, dict }: HeroProps) {
           </Stagger>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[min(100%,420px)] lg:mx-0 lg:max-w-none lg:justify-self-end">
-            <div className="relative mx-auto w-fit max-w-full px-1 sm:px-6 lg:px-16">
+          <div className="relative mx-auto w-full max-w-[min(100%,460px)] lg:mx-0 lg:max-w-none lg:justify-self-end">
+            <div className="relative mx-auto w-full max-w-full px-0 sm:px-4 lg:px-10">
               {reduceMotion ? (
                 <HeroProduct />
               ) : (

@@ -453,6 +453,133 @@ body {
   animation: typing-cursor 1s step-end infinite;
 }
 
+.hero-launch-video {
+  user-select: none;
+}
+
+.hero-launch-video__glow {
+  position: absolute;
+  left: 50%;
+  bottom: 4%;
+  z-index: 0;
+  width: 88%;
+  height: 28%;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(167, 139, 250, 0.28) 0%,
+    rgba(251, 170, 18, 0.08) 38%,
+    transparent 72%
+  );
+  filter: blur(22px);
+  pointer-events: none;
+}
+
+.hero-launch-video__frame {
+  position: relative;
+  z-index: 1;
+  border-radius: 1.75rem;
+  padding: 0.35rem;
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.14) 0%,
+    rgba(255, 255, 255, 0.04) 38%,
+    rgba(0, 0, 0, 0.18) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 24px 48px -20px rgba(0, 0, 0, 0.62),
+    0 10px 28px -14px rgba(124, 58, 237, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+}
+
+.hero-launch-video__screen {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.45rem;
+  background: #12081c;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+.hero-launch-video__media {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: opacity 0.45s ease;
+}
+
+.hero-launch-video__shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    rgba(255, 255, 255, 0.03) 8%,
+    rgba(255, 255, 255, 0.1) 18%,
+    rgba(255, 255, 255, 0.03) 33%
+  );
+  background-size: 200% 100%;
+  animation: hero-launch-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes hero-launch-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.hero-launch-video__vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 52%,
+    rgba(26, 15, 40, 0.22) 100%
+  );
+}
+
+.hero-launch-video__edge-highlight {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18);
+}
+
+.hero-launch-video__sound {
+  position: absolute;
+  right: 0.85rem;
+  bottom: 0.85rem;
+  z-index: 2;
+  display: inline-flex;
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(26, 15, 40, 0.72);
+  color: rgba(255, 240, 207, 0.92);
+  backdrop-filter: blur(10px);
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.hero-launch-video__sound:hover {
+  border-color: rgba(251, 170, 18, 0.45);
+  background: rgba(42, 10, 59, 0.88);
+  color: #fff0cf;
+}
+
 .phone-mockup,
 .device-mockup {
   user-select: none;
