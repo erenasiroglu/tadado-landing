@@ -19,7 +19,8 @@ import { StickyBar } from "@/components/landing/StickyBar";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { TrendingCards } from "@/components/landing/TrendingCards";
 import { getBlogPosts } from "@/lib/blog";
-import { getDictionary, hasLocale, type Locale } from "@/lib/i18n";
+import { hasLocale, type Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { applyLandingVariant } from "@/lib/landing-variants";
 import { buildLandingJsonLd } from "@/lib/seo";
 

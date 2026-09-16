@@ -2,7 +2,8 @@ import "server-only";
 
 import { getAllBlogSlugs, getBlogPosts } from "@/lib/blog";
 import { BRAND, PRICING } from "@/lib/brand";
-import { getDictionary, type Locale } from "@/lib/i18n";
+import type { Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { BLOG_LOCALES, LOCALES } from "@/lib/i18n-config";
 import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { getKeywordsString, getMarketSeoProfile } from "@/lib/seo-keywords";

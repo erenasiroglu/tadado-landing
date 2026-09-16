@@ -6,7 +6,8 @@ import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { SectionHeading } from "@/components/landing/SectionHeading";
 import { getBlogPosts } from "@/lib/blog";
-import { BLOG_LOCALES, getDictionary, hasLocale, localeHref, type Locale } from "@/lib/i18n";
+import { BLOG_LOCALES, hasLocale, localeHref, type Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { buildLanguageAlternates } from "@/lib/seo";
 import type { Metadata } from "next";
 

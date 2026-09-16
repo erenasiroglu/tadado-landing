@@ -6,7 +6,8 @@ import { PostCta } from "@/components/blog/PostCta";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { getAllBlogSlugs, getBlogPost } from "@/lib/blog";
-import { BLOG_LOCALES, getDictionary, hasLocale, localeHref, type Locale } from "@/lib/i18n";
+import { BLOG_LOCALES, hasLocale, localeHref, type Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { getKeywordsString } from "@/lib/seo-keywords";
 import { buildBlogPostJsonLd } from "@/lib/seo";
 

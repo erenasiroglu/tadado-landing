@@ -5,7 +5,8 @@ import type { Metadata } from "next";
 import { AffiliateProgram } from "@/components/landing/AffiliateProgram";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
-import { getDictionary, hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
+import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
+import { getDictionary } from "@/lib/i18n-server";
 import { buildLanguageAlternates } from "@/lib/seo";
 
 export function generateStaticParams() {
