@@ -1,22 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Menu } from "lucide-react";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
-import { buttonVariants } from "@/components/ui/button";
 import { ctaGradientClass } from "@/lib/cta-button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
-import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
-import { cn } from "@/lib/utils";
 
 import { LanguageMenu } from "./LanguageMenu";
+import { MobileNavSheet } from "./MobileNavSheet";
 
 interface HeaderProps {
   locale: Locale;
@@ -85,52 +76,8 @@ export function Header({ locale, dict }: HeaderProps) {
           </TrackedOutboundLink>
         </nav>
 
-        <div className="flex items-center gap-2 lg:hidden">
-          <LanguageMenu currentLocale={locale} label={dict.language.label} />
-          <Sheet>
-            <SheetTrigger
-              className={cn(
-                buttonVariants({ variant: "outline", size: "icon" }),
-                "h-9 w-9 cursor-pointer border-white/12 bg-white/[0.04] text-cream",
-              )}
-              aria-label="Open menu"
-            >
-              <Menu className="h-4 w-4" />
-            </SheetTrigger>
-            <SheetContent side="right" className="border-white/10 bg-[#1a0f28] text-cream">
-              <SheetHeader>
-                <SheetTitle className="text-cream">Tadado</SheetTitle>
-              </SheetHeader>
-              <nav className="mt-6 flex flex-col gap-4" aria-label="Mobile">
-                {primaryLinks.map((link) =>
-                  "isPage" in link && link.isPage ? (
-                    <Link key={link.href} href={link.href} className="text-base font-medium text-cream/85">
-                      {link.label}
-                    </Link>
-                  ) : (
-                    <a key={link.href} href={link.href} className="text-base font-medium text-cream/85">
-                      {link.label}
-                    </a>
-                  ),
-                )}
-                <a href={homeHref(locale, "#faq")} className="text-base font-medium text-cream/85">
-                  {dict.nav.faq}
-                </a>
-                <Link href={blogHref(locale)} className="text-base font-medium text-cream/85">
-                  {dict.nav.blog}
-                </Link>
-                <TrackedOutboundLink
-                  href={downloadUrl}
-                  locale={locale}
-                  downloadPlatform="ios"
-                  downloadSource="header_mobile"
-                  className={ctaGradientClass("mt-2 h-11 w-full cursor-pointer rounded-full text-sm")}
-                >
-                  {dict.nav.getTadado}
-                </TrackedOutboundLink>
-              </nav>
-            </SheetContent>
-          </Sheet>
+        <div className="lg:hidden">
+          <MobileNavSheet locale={locale} dict={dict} downloadUrl={downloadUrl} />
         </div>
       </div>
     </header>

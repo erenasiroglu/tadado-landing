@@ -80,6 +80,19 @@ getCampaignUrl("instagramBio", "/tr"); // Instagram bio → Turkish landing
 getCampaignUrl("metaAds", "/en", "hero_cta");
 ```
 
+### MCP server (PostHog MCP Analytics)
+
+A minimal read-only MCP endpoint is available at `/api/mcp` (streamable HTTP). Tool calls are instrumented with `@posthog/mcp` and sent to PostHog project `433517`.
+
+**Required env** (server-side only):
+
+- `POSTHOG_PROJECT_TOKEN` — same project API key as `NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN`
+- `POSTHOG_HOST` — `https://us.i.posthog.com` (US Cloud ingestion)
+
+**Tools:** `ping`, `get_landing_meta` (no side effects).
+
+**Verify:** after calling `ping`, check [MCP Analytics activity](https://us.posthog.com/project/433517/mcp-analytics/activity) for a `$mcp_tool_call` event from `tadado-landing-mcp`.
+
 ### PostHog self-driving
 
 PostHog is wired via `src/instrumentation-client.ts` with a first-party `/ingest` proxy.

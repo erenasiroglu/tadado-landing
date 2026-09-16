@@ -9,6 +9,19 @@ interface AnimatedNumberProps {
   prefix?: string;
   className?: string;
   durationMs?: number;
+  /** Below this viewport width, large values render as compact notation (e.g. 300K). */
+  compactBelowPx?: number;
+}
+
+function formatNumber(amount: number, compact: boolean) {
+  if (compact && amount >= 1000) {
+    const rounded = amount >= 1_000_000
+      ? `${Math.round(amount / 1_000_000)}M`
+      : `${Math.round(amount / 1000)}K`;
+    return rounded;
+  }
+
+  return amount.toLocaleString();
 }
 
 export function AnimatedNumber({
@@ -17,11 +30,26 @@ export function AnimatedNumber({
   prefix = "",
   className,
   durationMs = 1200,
+  compactBelowPx,
 }: AnimatedNumberProps) {
   const reduceMotion = useReducedMotion();
   const [display, setDisplay] = useState(reduceMotion ? value : 0);
+  const [useCompact, setUseCompact] = useState(false);
   const startedRef = useRef(false);
   const nodeRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    if (!compactBelowPx) return;
+
+    const media = window.matchMedia(`(max-width: ${compactBelowPx - 1}px)`);
+    function onChange() {
+      setUseCompact(media.matches);
+    }
+
+    onChange();
+    media.addEventListener("change", onChange);
+    return () => media.removeEventListener("change", onChange);
+  }, [compactBelowPx]);
 
   useEffect(() => {
     if (reduceMotion) return;
@@ -51,7 +79,7 @@ export function AnimatedNumber({
     return () => observer.disconnect();
   }, [value, durationMs, reduceMotion]);
 
-  const formatted = (reduceMotion ? value : display).toLocaleString();
+  const formatted = formatNumber(reduceMotion ? value : display, useCompact);
 
   return (
     <span ref={nodeRef} className={className}>

@@ -159,7 +159,6 @@ body {
 }
 
 .hero-proof-badge {
-  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   white-space: nowrap;
@@ -257,6 +256,38 @@ body {
 
 .scroll-bleed-padding {
   padding-inline: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
+}
+
+/* Full-bleed deck carousel on mobile — avoids clipping card edges at section padding */
+.scroll-bleed-decks {
+  padding-inline: 0;
+}
+
+@media (min-width: 640px) {
+  .scroll-bleed-decks {
+    padding-inline: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
+  }
+}
+
+.scroll-bleed-decks .deck-carousel-viewport {
+  --slide-spacing: 0.75rem;
+  --slide-size: min(calc(100vw - 2.5rem - 1.5rem), 240px);
+  padding-left: 1.25rem;
+  padding-right: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .scroll-bleed-decks .deck-carousel-viewport {
+    --slide-size: min(78%, 220px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .scroll-bleed-decks .deck-carousel-viewport {
+    --slide-size: 220px;
+  }
 }
 
 .brand-gradient-bg {

@@ -114,25 +114,27 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
 
   return (
     <div className={cn(className)} aria-label="Tadado product proof">
-      {leftMetrics.map((metric, index) => (
-        <ProofBadge
-          key={`${metric.value}-${metric.label}`}
-          metric={metric}
-          index={index}
-          side="left"
-          reduceMotion={reduceMotion}
-        />
-      ))}
+      <div className="hidden sm:contents" aria-hidden>
+        {leftMetrics.map((metric, index) => (
+          <ProofBadge
+            key={`${metric.value}-${metric.label}`}
+            metric={metric}
+            index={index}
+            side="left"
+            reduceMotion={reduceMotion}
+          />
+        ))}
 
-      {rightMetrics.map((metric, index) => (
-        <ProofBadge
-          key={`${metric.value}-${metric.label}`}
-          metric={metric}
-          index={index}
-          side="right"
-          reduceMotion={reduceMotion}
-        />
-      ))}
+        {rightMetrics.map((metric, index) => (
+          <ProofBadge
+            key={`${metric.value}-${metric.label}`}
+            metric={metric}
+            index={index}
+            side="right"
+            reduceMotion={reduceMotion}
+          />
+        ))}
+      </div>
 
       <div className="mt-5 flex flex-wrap justify-center gap-2 sm:hidden">
         {metrics.map((metric, index) => (

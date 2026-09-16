@@ -40,7 +40,16 @@ export function Hero({ locale, dict }: HeroProps) {
     <section className="relative overflow-hidden bg-[#1a0f28] pb-10 pt-8 sm:pb-14 sm:pt-12">
       <SectionViewTracker sectionId="hero">
         <div className="section-shell grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
-          <Stagger initial>
+          <div className="relative">
+            <div
+              className="pointer-events-none absolute -left-6 top-6 h-28 w-28 rounded-full bg-violet-500/12 blur-3xl sm:hidden"
+              aria-hidden
+            />
+            <div
+              className="pointer-events-none absolute -right-4 bottom-12 h-24 w-24 rounded-full bg-amber/10 blur-3xl sm:hidden"
+              aria-hidden
+            />
+            <Stagger initial>
             <StaggerItem>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-lavender/75">
                 {dict.hero.brandLine}
@@ -78,6 +87,7 @@ export function Hero({ locale, dict }: HeroProps) {
               </div>
             </StaggerItem>
           </Stagger>
+          </div>
 
           <div className="relative mx-auto w-full max-w-[min(100%,420px)] lg:mx-0 lg:max-w-none lg:justify-self-end">
             <div className="relative mx-auto w-fit max-w-full px-1 sm:px-6 lg:px-16">

@@ -104,6 +104,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
         <LanguageDistribution
           title={dict.community.languagesTitle}
           caption={dict.community.languagesCaption}
+          currentLocale={locale}
         />
       </div>
 

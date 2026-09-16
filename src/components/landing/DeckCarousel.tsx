@@ -106,7 +106,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
             <div className="flex flex-col gap-3">
               <button
                 type="button"
-                className="hero-proof-badge w-fit"
+                className="hero-proof-badge inline-flex w-fit"
                 onClick={() =>
                   document.getElementById("decks")?.scrollIntoView({ behavior: "smooth", block: "start" })
                 }
@@ -127,14 +127,13 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
         </div>
 
         <div
-          className="scroll-bleed-padding mt-8"
+          className="scroll-bleed-decks mt-8"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
           <div
             ref={emblaRef}
             className="deck-carousel-viewport"
-            style={{ "--slide-spacing": "0.625rem", "--slide-size": "min(78%, 220px)" } as React.CSSProperties}
           >
             <div className="deck-carousel-container">
               {keys.map((key, index) => {
