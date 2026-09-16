@@ -58,7 +58,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         <FinalCTA locale={locale} dict={dict} />
       </main>
       <Footer locale={locale} dict={dict} />
-      <StickyBar locale={locale} dict={dict} />
+      <StickyBar locale={locale} />
     </>
   );
 }

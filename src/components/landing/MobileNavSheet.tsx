@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Check, ChevronRight, Menu } from "lucide-react";
-import { usePathname, useRouter } from "next/navigation";
+import { ChevronRight, Menu } from "lucide-react";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { buttonVariants } from "@/components/ui/button";
@@ -15,8 +14,6 @@ import {
 } from "@/components/ui/sheet";
 import { ctaGradientClass } from "@/lib/cta-button";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
-import { LOCALES } from "@/lib/i18n-config";
-import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { cn } from "@/lib/utils";
 
 interface MobileNavSheetProps {
@@ -69,56 +66,6 @@ function MobileNavLink({ href, label, isPage }: NavItem) {
     <SheetClose render={<a href={href} className={navItemClass} />}>
       {content}
     </SheetClose>
-  );
-}
-
-function MobileLanguagePicker({
-  currentLocale,
-  label,
-}: {
-  currentLocale: Locale;
-  label: string;
-}) {
-  const pathname = usePathname();
-  const router = useRouter();
-
-  function onSelect(next: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = next;
-    router.push(segments.join("/") || `/${next}`);
-  }
-
-  return (
-    <div className="mt-2.5">
-      <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-lavender/70">
-        {label}
-      </p>
-      <div className="mt-2 grid max-h-36 grid-cols-3 gap-1.5 overflow-y-auto sm:grid-cols-4">
-        {LOCALES.map((itemLocale) => {
-          const item = LANGUAGE_DISPLAY[itemLocale];
-          const isActive = itemLocale === currentLocale;
-          return (
-            <button
-              key={itemLocale}
-              type="button"
-              onClick={() => onSelect(itemLocale)}
-              className={cn(
-                "flex min-h-10 cursor-pointer flex-col items-center justify-center gap-0.5 rounded-xl border px-1 py-2 text-center transition",
-                isActive
-                  ? "border-amber/35 bg-amber/10 text-cream"
-                  : "border-white/8 bg-white/[0.03] text-cream/75 hover:border-white/15 hover:bg-white/[0.06]",
-              )}
-            >
-              <span className="text-base leading-none">{item.flag}</span>
-              <span className="flex items-center gap-0.5 text-[10px] font-semibold uppercase tracking-wide">
-                {itemLocale === "pt-BR" ? "PT" : itemLocale}
-                {isActive ? <Check className="h-2.5 w-2.5 text-amber" /> : null}
-              </span>
-            </button>
-          );
-        })}
-      </div>
-    </div>
   );
 }
 
@@ -189,15 +136,13 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
         <div
           className="shrink-0 border-t border-white/8 bg-[#1a0f28] px-5 py-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]"
         >
-          <MobileLanguagePicker currentLocale={locale} label={dict.language.label} />
-
           <TrackedOutboundLink
             href={downloadUrl}
             locale={locale}
             downloadPlatform="ios"
             downloadSource="header_mobile"
             className={ctaGradientClass(
-              "mt-4 h-12 w-full cursor-pointer rounded-full text-sm shadow-lg shadow-violet-900/30",
+              "h-12 w-full cursor-pointer rounded-full text-sm shadow-lg shadow-violet-900/30",
             )}
           >
             {dict.nav.getTadado}

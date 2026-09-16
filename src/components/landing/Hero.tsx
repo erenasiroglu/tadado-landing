@@ -13,6 +13,7 @@ import { trackEvent } from "@/lib/tracking";
 import { HeroProduct } from "./HeroProduct";
 import { CTAButton } from "./primitives/CTAButton";
 import { HeroProofMetrics } from "./primitives/HeroProofMetrics";
+import { MobileStoreDownloadCta } from "./primitives/MobileStoreDownloadCta";
 
 interface HeroProps {
   locale: Locale;
@@ -65,13 +66,21 @@ export function Hero({ locale, dict }: HeroProps) {
             </StaggerItem>
             <StaggerItem>
               <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+                <div className="sm:hidden">
+                  <MobileStoreDownloadCta
+                    locale={locale}
+                    source="hero_primary"
+                    className="min-h-[44px]"
+                    onClick={handlePrimaryClick}
+                  />
+                </div>
                 <CTAButton
                   href={getAppStoreUrl(locale)}
                   locale={locale}
                   downloadPlatform="ios"
                   downloadSource="hero_primary"
                   variant="primary"
-                  className="min-h-[44px] w-full sm:w-auto"
+                  className="hidden min-h-[44px] sm:inline-flex sm:w-auto"
                   onClick={handlePrimaryClick}
                 >
                   {dict.hero.ctaPrimary}
@@ -89,8 +98,8 @@ export function Hero({ locale, dict }: HeroProps) {
           </Stagger>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[min(100%,460px)] lg:mx-0 lg:max-w-none lg:justify-self-end">
-            <div className="relative mx-auto w-full max-w-full px-0 sm:px-4 lg:px-10">
+          <div className="relative mx-auto w-full max-w-[min(100%,460px)] lg:mx-0 lg:w-full lg:max-w-none lg:justify-self-end">
+            <div className="relative mx-auto w-full max-w-full px-0 sm:px-4 lg:px-0">
               {reduceMotion ? (
                 <HeroProduct />
               ) : (

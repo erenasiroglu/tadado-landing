@@ -49,15 +49,28 @@ export function HeroLaunchVideo() {
   }
 
   return (
-    <div className="hero-launch-video relative mx-auto w-full max-w-[min(100%,340px)] sm:max-w-[380px] lg:max-w-[420px]">
+    <div
+      className="hero-launch-video relative mx-auto w-full max-w-[min(100%,340px)] sm:max-w-[380px] lg:max-w-none"
+      style={{ "--hero-video-aspect": aspectRatio } as React.CSSProperties}
+    >
       <div className="hero-launch-video__glow" aria-hidden />
 
       <div className="hero-launch-video__frame">
-        <div
-          className="hero-launch-video__screen"
-          style={{ aspectRatio }}
-        >
+        <div className="hero-launch-video__screen">
           {!isReady ? <div className="hero-launch-video__shimmer" aria-hidden /> : null}
+
+          <div className="hero-launch-video__backdrop" aria-hidden>
+            <video
+              className="hero-launch-video__backdrop-media"
+              src={HERO_LAUNCH_VIDEO_SRC}
+              autoPlay={!reduceMotion}
+              muted
+              loop
+              playsInline
+              preload="auto"
+              tabIndex={-1}
+            />
+          </div>
 
           <video
             ref={videoRef}

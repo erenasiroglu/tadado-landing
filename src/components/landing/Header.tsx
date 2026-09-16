@@ -76,7 +76,8 @@ export function Header({ locale, dict }: HeaderProps) {
           </TrackedOutboundLink>
         </nav>
 
-        <div className="lg:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
+          <LanguageMenu currentLocale={locale} label={dict.language.label} />
           <MobileNavSheet locale={locale} dict={dict} downloadUrl={downloadUrl} />
         </div>
       </div>

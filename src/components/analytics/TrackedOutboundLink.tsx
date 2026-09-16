@@ -18,6 +18,7 @@ interface TrackedOutboundLinkProps {
   downloadSource?: DownloadSource;
   eventName?: AnalyticsEventName;
   eventProperties?: Record<string, string | number | boolean | undefined>;
+  onClick?: () => void;
 }
 
 export function TrackedOutboundLink({
@@ -30,10 +31,13 @@ export function TrackedOutboundLink({
   downloadSource,
   eventName,
   eventProperties,
+  onClick,
 }: TrackedOutboundLinkProps) {
   const trackedHref = useTrackedHref(href);
 
   function handleClick() {
+    onClick?.();
+
     if (downloadPlatform && locale && downloadSource) {
       trackDownloadClick(downloadPlatform, locale, downloadSource);
       return;
