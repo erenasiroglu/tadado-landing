@@ -8,10 +8,10 @@ import { SOCIAL_LINKS } from "@/lib/social";
 import { getTrendingContent } from "@/lib/trending-cards";
 import { trackEvent } from "@/lib/tracking";
 
+import { ForbiddenWordsScreen } from "./device/ForbiddenWordsScreen";
 import { LandingSection } from "./LandingSection";
 import { CommunityMetrics } from "./primitives/CommunityMetrics";
 import { LanguageDistribution } from "./primitives/LanguageDistribution";
-import { ProductCard } from "./primitives/ProductCard";
 import { SectionHeading } from "./SectionHeading";
 
 interface CommunitySectionProps {
@@ -127,10 +127,10 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
               </p>
               <p className="mt-1 font-bold text-cream">{group.deckLabel}</p>
               <div className="mt-3">
-                <ProductCard
+                <ForbiddenWordsScreen
+                  width={208}
                   word={group.words[0]}
                   forbidden={group.words.slice(1, 5)}
-                  compact
                 />
               </div>
             </motion.div>

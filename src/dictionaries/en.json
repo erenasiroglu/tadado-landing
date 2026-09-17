@@ -129,7 +129,7 @@
     "title": "Two ways to play",
     "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
     "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "tabooBody": "Describe the main word, take bigger risks, and grow your score. Harder words unlock higher multipliers, from ×2 to ×5.",
     "headsUpTitle": "Heads Up",
     "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
     "newBadge": "New mode"
@@ -548,9 +548,9 @@
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "Help us build the next generation of mobile games.",
+      "body": "Tadado is our first step toward a global studio for social, replayable mobile games. We are building a portfolio of original products for game nights around the world and are open to conversations with angel investors, strategic partners, and people who can help us scale distribution. If you believe small teams can build category-defining products, we would like to hear from you.",
+      "link": "Talk to the team"
     }
   },
   "newsletter": {

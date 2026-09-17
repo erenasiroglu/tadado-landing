@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { Footer } from "@/components/landing/Footer";
+import { BackLink } from "@/components/landing/BackLink";
 import { Header } from "@/components/landing/Header";
 import { Partnerships } from "@/components/landing/Partnerships";
 import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
@@ -42,9 +42,7 @@ export default async function PartnershipsPage({
     <>
       <Header locale={locale} dict={dict} />
       <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
-          ← {dict.partnerships.back}
-        </Link>
+        <BackLink href={localeHref(locale)}>{dict.partnerships.back}</BackLink>
         <div className="mt-8">
           <Partnerships dict={dict} locale={locale} variant="page" />
         </div>

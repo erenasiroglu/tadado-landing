@@ -102,6 +102,33 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                   ) : null}
                 </div>
                 <p className="mt-3 max-w-md text-base text-cream/75">{activeCopy.body}</p>
+                {activeMode === "taboo" ? (
+                  <div className="mt-5 max-w-md rounded-xl border border-amber/20 bg-amber/[0.06] p-3.5">
+                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/90">
+                      Build your score
+                    </p>
+                    <p className="mt-1.5 text-sm leading-relaxed text-cream/70">
+                      Take on harder words to grow your multiplier and turn every correct answer into a bigger score.
+                    </p>
+                    <div className="mt-3 flex items-center gap-2" aria-label="Score multipliers: 2x, 3x, 5x">
+                      {["×2", "×3", "×5"].map((multiplier, index) => (
+                        <span key={multiplier} className="flex items-center gap-2">
+                          <span
+                            className={cn(
+                              "inline-flex h-8 min-w-10 items-center justify-center rounded-lg border px-2 text-sm font-black",
+                              index === 2
+                                ? "border-amber bg-amber text-[#2a0a3b]"
+                                : "border-amber/25 bg-white/[0.05] text-amber",
+                            )}
+                          >
+                            {multiplier}
+                          </span>
+                          {index < 2 ? <span className="text-cream/35" aria-hidden>→</span> : null}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
               </div>
             ) : null}
           </motion.div>

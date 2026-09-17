@@ -1,5 +1,5 @@
 import { LandingSection } from "@/components/landing/LandingSection";
-import { ProductCard } from "@/components/landing/primitives/ProductCard";
+import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
 import type { Dictionary } from "@/lib/i18n";
 
 import { SectionHeading } from "./SectionHeading";
@@ -31,7 +31,8 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
             {primary.label}
           </p>
           <div className="mt-3">
-            <ProductCard
+            <ForbiddenWordsScreen
+              width={208}
               word={primary.topic.toUpperCase()}
               forbidden={["FUN", "PLAY", "GUESS", "TEAM"]}
             />
@@ -44,10 +45,10 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
             {secondary.label}
           </p>
           <div className="mt-3">
-            <ProductCard
+            <ForbiddenWordsScreen
+              width={188}
               word={secondary.topic.toUpperCase()}
               forbidden={["GOAL", "WIN", "PLAY", "TEAM"]}
-              compact
             />
           </div>
           <p className="mt-3 text-xs text-lavender">{secondary.topic}</p>

@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { AffiliateProgram } from "@/components/landing/AffiliateProgram";
+import { BackLink } from "@/components/landing/BackLink";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
@@ -40,9 +40,7 @@ export default async function AffiliatePage({ params }: PageProps<"/[lang]/affil
     <>
       <Header locale={locale} dict={dict} />
       <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
-          ← {dict.affiliate.back}
-        </Link>
+        <BackLink href={localeHref(locale)}>{dict.affiliate.back}</BackLink>
         <div className="mt-8">
           <AffiliateProgram dict={dict} locale={locale} variant="page" />
         </div>

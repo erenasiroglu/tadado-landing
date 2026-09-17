@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { Footer } from "@/components/landing/Footer";
+import { BackLink } from "@/components/landing/BackLink";
 import { Header } from "@/components/landing/Header";
 import { SeoGuides } from "@/components/landing/SeoGuides";
 import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
@@ -42,11 +42,9 @@ export default async function GuidesPage({ params }: PageProps<"/[lang]/guides">
       <main className="flex-1 py-16">
         <div className="section-shell">
           <SeoGuides locale={locale} dict={dict} />
-          <p className="mt-10 text-sm text-lavender">
-            <Link href={localeHref(locale)} className="text-amber hover:underline">
-              {dict.compare.back}
-            </Link>
-          </p>
+          <div className="mt-10">
+            <BackLink href={localeHref(locale)}>{dict.compare.back}</BackLink>
+          </div>
         </div>
       </main>
       <Footer locale={locale} dict={dict} />

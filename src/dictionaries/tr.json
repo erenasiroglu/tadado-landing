@@ -131,7 +131,7 @@
     "title": "İki farklı oyun",
     "subtitle": "Klasik yasaklı kelimeler veya alnında tahmin. Aynı desteler, farklı enerji.",
     "tabooTitle": "Yasaklı Kelimeler",
-    "tabooBody": "Ana kelimeyi yasaklı kelimeleri kullanmadan takımına anlat.",
+    "tabooBody": "Ana kelimeyi yasaklı kelimeleri kullanmadan anlat, daha zor kelimeleri seç ve skorunu büyüt. Zorluk arttıkça çarpan ×2'den ×5'e kadar yükselir.",
     "headsUpTitle": "Alnında Tahmin",
     "headsUpBody": "Telefonu alnına koy. Arkadaşların anlatsın. Doğru bilince telefonu aşağı eğ.",
     "newBadge": "Yeni mod"
@@ -583,9 +583,9 @@
       }
     },
     "joinCta": {
-      "title": "Bizimle çalışmak ister misin?",
-      "body": "Yeni deste fikirleri, marka iş birlikleri veya yatırım. Her e-postayı okuyoruz.",
-      "link": "İş birlikleri"
+      "title": "Yeni nesil mobil oyunları birlikte büyütelim.",
+      "body": "Tadado, oyun geceleri için sosyal ve tekrar oynanabilir mobil oyunlardan oluşan global bir stüdyo kurma yolculuğumuzun ilk adımı. Dünyanın dört bir yanındaki oyunculara ulaşacak özgün ürünler geliştiriyor; büyümemize katkı sağlayabilecek melek yatırımcılar, stratejik ortaklar ve dağıtım partnerleriyle görüşmeye açığız. Küçük ekiplerin kategori yaratabilecek ürünler geliştirebileceğine inanıyorsanız sizinle tanışmak isteriz.",
+      "link": "Ekiple görüş"
     }
   },
   "newsletter": {

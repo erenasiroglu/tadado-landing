@@ -15,9 +15,6 @@ interface HeroProofMetricsProps {
 
 type Metric = Dictionary["hero"]["metrics"][number];
 
-const LEFT_OFFSETS = ["top-[2%]", "top-[32%]", "top-[62%]", "top-[86%]"] as const;
-const RIGHT_OFFSETS = ["top-[8%]", "top-[38%]", "top-[68%]"] as const;
-
 function MetricValue({ metric }: { metric: Metric }) {
   if ("animate" in metric && metric.animate) {
     return <AnimatedNumber value={BRAND.stats.gamesPlayed} suffix="+" className="tabular-nums" />;
@@ -28,24 +25,14 @@ function MetricValue({ metric }: { metric: Metric }) {
 
 function ProofBadge({
   metric,
-  index,
-  side,
   reduceMotion,
 }: {
   metric: Metric;
-  index: number;
-  side: "left" | "right";
   reduceMotion: boolean | null;
 }) {
-  const offset = side === "left" ? LEFT_OFFSETS[index] : RIGHT_OFFSETS[index];
-
   return (
     <motion.span
-      className={cn(
-        "hero-proof-badge absolute hidden sm:inline-flex",
-        side === "left" ? "right-full mr-2 lg:mr-3" : "left-full ml-2 lg:ml-3",
-        offset,
-      )}
+      className="hero-proof-badge inline-flex"
       initial={reduceMotion ? false : { opacity: 0, y: 8, scale: 0.94 }}
       animate={
         reduceMotion
@@ -60,14 +47,14 @@ function ProofBadge({
         reduceMotion
           ? undefined
           : {
-              opacity: { duration: 0.4, delay: 0.32 + index * 0.07 + (side === "right" ? 0.03 : 0) },
+              opacity: { duration: 0.4 },
               y: {
-                duration: 4.2 + index * 0.35,
+                duration: 4.2,
                 repeat: Infinity,
                 ease: "easeInOut",
-                delay: 0.8 + index * 0.15,
+                delay: 0.8,
               },
-              scale: { duration: 0.4, delay: 0.32 + index * 0.07 },
+              scale: { duration: 0.4 },
             }
       }
     >
@@ -114,23 +101,11 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
 
   return (
     <div className={cn(className)} aria-label="Tadado product proof">
-      <div className="hidden sm:contents" aria-hidden>
-        {leftMetrics.map((metric, index) => (
+      <div className="mt-5 hidden flex-wrap justify-center gap-2 sm:flex" aria-hidden>
+        {[...leftMetrics, ...rightMetrics].map((metric) => (
           <ProofBadge
             key={`${metric.value}-${metric.label}`}
             metric={metric}
-            index={index}
-            side="left"
-            reduceMotion={reduceMotion}
-          />
-        ))}
-
-        {rightMetrics.map((metric, index) => (
-          <ProofBadge
-            key={`${metric.value}-${metric.label}`}
-            metric={metric}
-            index={index}
-            side="right"
             reduceMotion={reduceMotion}
           />
         ))}

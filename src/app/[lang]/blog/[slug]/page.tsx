@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { PostCta } from "@/components/blog/PostCta";
+import { BackLink } from "@/components/landing/BackLink";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { getAllBlogSlugs, getBlogPost } from "@/lib/blog";
@@ -74,9 +74,7 @@ export default async function BlogPostPage({
       />
       <Header locale={locale} dict={dict} />
       <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale, "blog")} className="text-sm text-amber hover:underline">
-          ← {dict.blog.title}
-        </Link>
+        <BackLink href={localeHref(locale, "blog")}>{dict.blog.title}</BackLink>
         <article className="prose-blog mx-auto mt-8 max-w-3xl">
           <time className="text-sm text-lavender" dateTime={post.date}>{post.date}</time>
           <h1 className="mt-2 text-4xl font-extrabold text-cream">{post.title}</h1>

@@ -1,26 +1,7 @@
 import type { Locale } from "@/lib/i18n-config";
 import { LOCALES } from "@/lib/i18n-config";
+import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { cn } from "@/lib/utils";
-
-const LOCALE_LABELS: Record<(typeof LOCALES)[number], string> = {
-  en: "EN",
-  tr: "TR",
-  es: "ES",
-  "pt-BR": "PT",
-  fr: "FR",
-  de: "DE",
-  zh: "ZH",
-  hi: "HI",
-  id: "ID",
-  vi: "VI",
-  ar: "AR",
-  ru: "RU",
-  ja: "JA",
-  ko: "KO",
-  it: "IT",
-  pl: "PL",
-  el: "EL",
-};
 
 interface LanguageDistributionProps {
   title: string;
@@ -30,7 +11,7 @@ interface LanguageDistributionProps {
 
 export function LanguageDistribution({ title, caption, currentLocale }: LanguageDistributionProps) {
   return (
-    <div className="surface-card p-5">
+    <div className="surface-card overflow-hidden p-5 sm:p-6">
       <div className="flex items-end justify-between gap-3">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/80">{title}</p>
@@ -39,22 +20,26 @@ export function LanguageDistribution({ title, caption, currentLocale }: Language
         <p className="text-sm font-bold text-cream">{LOCALES.length}</p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-1.5">
+      <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-6">
         {LOCALES.map((locale) => {
           const isActive = locale === currentLocale;
+          const language = LANGUAGE_DISPLAY[locale];
 
           return (
             <span
               key={locale}
               aria-current={isActive ? "true" : undefined}
               className={cn(
-                "rounded-md border px-2 py-0.5 text-[10px] font-semibold",
+                "flex min-w-0 items-center gap-2 rounded-xl border px-2.5 py-2.5 transition-colors",
                 isActive
-                  ? "border-amber/35 bg-amber/10 text-cream ring-1 ring-amber/25"
+                  ? "border-amber/40 bg-amber/12 text-cream shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]"
                   : "border-white/10 bg-white/[0.04] text-cream/75",
               )}
             >
-              {LOCALE_LABELS[locale]}
+              <span className="text-base leading-none" aria-hidden>
+                {language.flag}
+              </span>
+              <span className="min-w-0 truncate text-xs font-semibold">{language.label}</span>
             </span>
           );
         })}

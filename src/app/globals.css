@@ -218,6 +218,81 @@ body {
   background: rgba(255, 255, 255, 0.02);
 }
 
+.back-link,
+.team-join-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  border: 1px solid rgba(255, 240, 207, 0.18);
+  border-radius: 0.35rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--cream);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.back-link {
+  min-height: 2.25rem;
+  padding: 0 0.8rem;
+}
+
+.team-join-button {
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border-color: var(--amber);
+  background: var(--amber);
+  color: #2a0a3b;
+}
+
+.back-link:hover,
+.team-join-button:hover {
+  transform: translateY(-2px);
+}
+
+.back-link:hover {
+  border-color: var(--amber);
+  background: rgba(251, 170, 18, 0.12);
+  color: var(--amber);
+}
+
+.team-join-button:hover {
+  background: #ffc34d;
+}
+
+.back-link:focus-visible,
+.team-join-button:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
+
+.team-page-intro {
+  display: grid;
+  gap: 1.25rem;
+  align-items: end;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1.5rem;
+}
+
+.team-page-intro__signal {
+  max-width: 18rem;
+  border-left: 2px solid rgba(251, 170, 18, 0.7);
+  padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .team-page-intro {
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+  }
+}
+
 .horizontal-scroll {
   display: flex;
   gap: 1rem;
@@ -271,7 +346,7 @@ body {
 
 .scroll-bleed-decks .deck-carousel-viewport {
   --slide-spacing: 0.75rem;
-  --slide-size: min(calc(100vw - 2.5rem - 1.5rem), 240px);
+  --slide-size: min(calc(100vw - 2.5rem - 1.5rem), 260px);
   padding-left: 1.25rem;
   padding-right: 0.75rem;
 }
@@ -286,7 +361,7 @@ body {
 
 @media (min-width: 768px) {
   .scroll-bleed-decks .deck-carousel-viewport {
-    --slide-size: 220px;
+    --slide-size: 260px;
   }
 }
 

@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { CompareTable } from "@/components/landing/CompareTable";
+import { BackLink } from "@/components/landing/BackLink";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
@@ -40,9 +40,7 @@ export default async function ComparePage({ params }: PageProps<"/[lang]/compare
     <>
       <Header locale={locale} dict={dict} />
       <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
-          ← {dict.compare.back}
-        </Link>
+        <BackLink href={localeHref(locale)}>{dict.compare.back}</BackLink>
         <div className="mt-8">
           <CompareTable dict={dict} locale={locale} />
         </div>

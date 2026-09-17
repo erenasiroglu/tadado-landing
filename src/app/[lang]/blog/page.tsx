@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { PostCard } from "@/components/blog/PostCard";
+import { BackLink } from "@/components/landing/BackLink";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { SectionHeading } from "@/components/landing/SectionHeading";
@@ -43,9 +43,7 @@ export default async function BlogIndexPage({ params }: PageProps<"/[lang]/blog"
     <>
       <Header locale={locale} dict={dict} />
       <main className="section-shell flex-1 py-16">
-        <Link href={localeHref(locale)} className="text-sm text-amber hover:underline">
-          ← Tadado
-        </Link>
+        <BackLink href={localeHref(locale)}>Tadado</BackLink>
         <div className="mt-8">
           <SectionHeading title={dict.blog.title} subtitle={dict.blog.subtitle} align="left" />
         </div>

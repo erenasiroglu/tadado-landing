@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { Footer } from "@/components/landing/Footer";
+import { BackLink } from "@/components/landing/BackLink";
 import { Header } from "@/components/landing/Header";
 import { Team } from "@/components/landing/Team";
 import { hasLocale, localeHref, LOCALES, type Locale } from "@/lib/i18n";
@@ -39,15 +39,10 @@ export default async function TeamPage({ params }: PageProps<"/[lang]/team">) {
   return (
     <>
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#2a0a3b]">
+      <main className="flex-1 bg-[#1a0f28]">
         <div className="section-shell py-12 md:py-14">
-          <Link
-            href={localeHref(locale)}
-            className="inline-flex cursor-pointer items-center text-sm font-semibold text-amber transition-colors hover:text-amber/85"
-          >
-            ← {dict.team.back}
-          </Link>
-          <div className="mt-8 max-w-5xl">
+          <BackLink href={localeHref(locale)}>{dict.team.back}</BackLink>
+          <div className="mt-8 max-w-6xl">
             <Team dict={dict} locale={locale} />
           </div>
         </div>

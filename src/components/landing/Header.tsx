@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
-import { ctaGradientClass } from "@/lib/cta-button";
-import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
 
 import { LanguageMenu } from "./LanguageMenu";
@@ -22,13 +20,14 @@ function homeHref(locale: Locale, hash: string) {
 }
 
 export function Header({ locale, dict }: HeaderProps) {
-  const downloadUrl = getAppStoreUrl(locale);
+  const appStoreUrl = getAppStoreUrl(locale);
 
   const primaryLinks = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
     { href: homeHref(locale, "#decks"), label: dict.nav.decks },
     { href: homeHref(locale, "#community"), label: dict.nav.community },
+    { href: blogHref(locale), label: dict.nav.blog, isPage: true },
     { href: localeHref(locale, "team"), label: dict.nav.team, isPage: true },
     { href: homeHref(locale, "#how-it-works"), label: dict.nav.howItWorks },
   ] as const;
@@ -63,22 +62,11 @@ export function Header({ locale, dict }: HeaderProps) {
             ),
           )}
           <LanguageMenu currentLocale={locale} label={dict.language.label} />
-          <TrackedOutboundLink
-            href={downloadUrl}
-            locale={locale}
-            downloadPlatform="ios"
-            downloadSource="header"
-            className={ctaGradientClass(
-              "h-9 cursor-pointer rounded-full px-5 text-sm shadow-lg shadow-violet-900/25",
-            )}
-          >
-            {dict.nav.getTadado}
-          </TrackedOutboundLink>
         </nav>
 
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageMenu currentLocale={locale} label={dict.language.label} />
-          <MobileNavSheet locale={locale} dict={dict} downloadUrl={downloadUrl} />
+          <MobileNavSheet locale={locale} dict={dict} downloadUrl={appStoreUrl} />
         </div>
       </div>
     </header>
