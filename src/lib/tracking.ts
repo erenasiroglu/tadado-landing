@@ -167,6 +167,8 @@ export function trackDownloadClick(
 export function trackPageView(path: string, locale?: string) {
   const payload = buildPayload({
     page_path: path,
+    content_id: path,
+    content_type: "content",
     ...(locale ? { locale } : {}),
   });
 
@@ -189,5 +191,5 @@ export function trackPageView(path: string, locale?: string) {
     ttq.track("ViewContent", payload);
   }
 
-  void sendTikTokServerEvent("page_view", payload);
+  void sendTikTokServerEvent("ViewContent", payload);
 }

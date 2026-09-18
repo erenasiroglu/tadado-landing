@@ -40,15 +40,14 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: "invalid_json" }, { status: 400 });
   }
 
-  const eventName = typeof payload.event === "string" && payload.event ? payload.event : "page_view";
+  const eventName = typeof payload.event === "string" && payload.event ? payload.event : "ViewContent";
   const eventProperties = payload.properties && typeof payload.properties === "object" ? payload.properties : {};
 
   const body = {
-    access_token: TIKTOK_EVENTS_ACCESS_TOKEN,
     pixel_code: TIKTOK_PIXEL_ID,
     event: eventName,
     event_id: globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`,
-    event_time: Math.floor(Date.now() / 1000),
+    timestamp: new Date().toISOString(),
     properties: normalizeProperties(eventProperties),
   };
 
@@ -65,9 +64,14 @@ export async function POST(request: Request) {
   const data = await response.text();
 
   if (!response.ok) {
+    console.error("[TikTok Events API] request failed", {
+      status: response.status,
+      body: data,
+      event: eventName,
+    });
     return NextResponse.json(
-      { ok: false, status: response.status, body: data },
-      { status: 500 },
+      { ok: false, status: response.status, error: "TikTok Events API rejected the event" },
+      { status: 502 },
     );
   }
 
