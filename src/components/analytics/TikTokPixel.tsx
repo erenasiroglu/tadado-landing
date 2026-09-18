@@ -19,6 +19,7 @@ export function TikTokPixel() {
           n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;
           e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
           ttq.load('${TIKTOK_PIXEL_ID}');
+          ttq.page();
         }(window, document, 'ttq');
       `}
     </Script>

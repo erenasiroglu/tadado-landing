@@ -50,6 +50,26 @@ function buildPayload(
   return { ...attributionToAnalyticsPayload(activeAttribution), ...properties };
 }
 
+async function sendTikTokServerEvent(event: string, properties: Record<string, string | number | boolean | undefined>) {
+  if (typeof window === "undefined") return;
+
+  const normalized: Record<string, string | number | boolean> = {};
+  for (const [key, value] of Object.entries(properties)) {
+    if (value === undefined || value === null || value === "") continue;
+    normalized[key] = value;
+  }
+
+  try {
+    await fetch("/api/tiktok-events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ event, properties: normalized }),
+    });
+  } catch {
+    // Ignore server-side measurement failures; client pixels remain as primary fallback.
+  }
+}
+
 export function registerAttribution(attribution: AttributionData) {
   const payload = attributionToAnalyticsPayload(attribution);
   if (Object.keys(payload).length === 0) return;
@@ -107,6 +127,8 @@ export function trackEvent({ event, properties = {}, attribution }: TrackEventOp
       ttq.track(event, payload);
     }
   }
+
+  void sendTikTokServerEvent(event, payload);
 }
 
 export function trackSectionView(sectionId: SectionId) {
@@ -166,4 +188,6 @@ export function trackPageView(path: string, locale?: string) {
     ttq.page();
     ttq.track("ViewContent", payload);
   }
+
+  void sendTikTokServerEvent("page_view", payload);
 }
