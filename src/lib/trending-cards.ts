@@ -15,137 +15,225 @@ export interface TrendingContent {
   compareGames: string[];
 }
 
-const TRENDING_EN: TrendingContent = {
-  groups: [
-    {
-      id: "cinema",
-      label: "In cinemas now",
-      deckLabel: "Spider-Man: Brand New Day",
-      words: ["SPIDER MAN", "MARVEL", "HERO", "WEB", "NEW YORK"],
-      mode: "taboo",
-    },
-    {
-      id: "streaming",
-      label: "Streaming now",
-      deckLabel: "Obsession",
-      words: ["OBSESSION", "NETFLIX", "DRAMA", "SERIES", "STREAMING"],
-      mode: "taboo",
-    },
-    {
-      id: "odyssey",
-      label: "Trending deck",
-      deckLabel: "The Odyssey",
-      words: ["THE ODYSSEY", "GREEK", "EPIC", "HOMER", "FILM"],
-      mode: "taboo",
-    },
-    {
-      id: "football",
-      label: "Trending deck",
-      deckLabel: "Champions League nights",
-      words: ["REAL MADRID", "FOOTBALL", "SPAIN", "GOAL", "CHAMPIONS"],
-      mode: "taboo",
-    },
-    {
-      id: "headsup-cinema",
-      label: "Heads Up",
-      deckLabel: "Spider-Man: Brand New Day",
-      words: ["SPIDER MAN"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-streaming",
-      label: "Heads Up",
-      deckLabel: "Obsession",
-      words: ["OBSESSION"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-odyssey",
-      label: "Heads Up",
-      deckLabel: "The Odyssey",
-      words: ["THE ODYSSEY"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-football",
-      label: "Heads Up",
-      deckLabel: "Champions League nights",
-      words: ["REAL MADRID"],
-      mode: "headsup",
-    },
-  ],
-  compareGames: ["Heads Up!", "Nebuu", "Charades", "the Taboo board game"],
-};
+interface TrendingLabels {
+  cinema: string;
+  streaming: string;
+  odyssey: string;
+  football: string;
+  headsup: string;
+  compareGames: string[];
+}
 
-const TRENDING_TR: TrendingContent = {
-  groups: [
-    {
-      id: "cinema",
-      label: "Şimdi sinemalarda",
-      deckLabel: "Spider-Man: Brand New Day",
-      words: ["SPIDER MAN", "MARVEL", "KAHRAMAN", "AĞ", "NEW YORK"],
-      mode: "taboo",
-    },
-    {
-      id: "streaming",
-      label: "Şimdi yayında",
-      deckLabel: "Obsession",
-      words: ["OBSESSION", "NETFLIX", "DİZİ", "DRAMA", "YAYIN"],
-      mode: "taboo",
-    },
-    {
-      id: "odyssey",
-      label: "Trend deste",
-      deckLabel: "The Odyssey",
-      words: ["THE ODYSSEY", "YUNAN", "EPİK", "HOMEROS", "FİLM"],
-      mode: "taboo",
-    },
-    {
-      id: "football",
-      label: "Trend deste",
-      deckLabel: "Şampiyonlar Ligi geceleri",
-      words: ["REAL MADRID", "FUTBOL", "İSPANYA", "GOL", "ŞAMPİYON"],
-      mode: "taboo",
-    },
-    {
-      id: "headsup-cinema",
-      label: "Alnında Tahmin",
-      deckLabel: "Spider-Man: Brand New Day",
-      words: ["SPIDER MAN"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-streaming",
-      label: "Alnında Tahmin",
-      deckLabel: "Obsession",
-      words: ["OBSESSION"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-odyssey",
-      label: "Alnında Tahmin",
-      deckLabel: "The Odyssey",
-      words: ["THE ODYSSEY"],
-      mode: "headsup",
-    },
-    {
-      id: "headsup-football",
-      label: "Alnında Tahmin",
-      deckLabel: "Şampiyonlar Ligi geceleri",
-      words: ["REAL MADRID"],
-      mode: "headsup",
-    },
-  ],
-  compareGames: ["Heads Up!", "Nebuu", "Charades", "Taboo masa oyunu"],
-};
+const BASE_GROUPS: Omit<TrendingGroup, "label">[] = [
+  {
+    id: "cinema",
+    deckLabel: "Spider-Man: Brand New Day",
+    words: ["SPIDER MAN", "MARVEL", "HERO", "WEB", "NEW YORK"],
+    mode: "taboo",
+  },
+  {
+    id: "streaming",
+    deckLabel: "Obsession",
+    words: ["OBSESSION", "NETFLIX", "DRAMA", "SERIES", "STREAMING"],
+    mode: "taboo",
+  },
+  {
+    id: "odyssey",
+    deckLabel: "The Odyssey",
+    words: ["THE ODYSSEY", "GREEK", "EPIC", "HOMER", "FILM"],
+    mode: "taboo",
+  },
+  {
+    id: "football",
+    deckLabel: "Champions League nights",
+    words: ["REAL MADRID", "FOOTBALL", "SPAIN", "GOAL", "CHAMPIONS"],
+    mode: "taboo",
+  },
+  {
+    id: "headsup-cinema",
+    deckLabel: "Spider-Man: Brand New Day",
+    words: ["SPIDER MAN"],
+    mode: "headsup",
+  },
+  {
+    id: "headsup-streaming",
+    deckLabel: "Obsession",
+    words: ["OBSESSION"],
+    mode: "headsup",
+  },
+  {
+    id: "headsup-odyssey",
+    deckLabel: "The Odyssey",
+    words: ["THE ODYSSEY"],
+    mode: "headsup",
+  },
+  {
+    id: "headsup-football",
+    deckLabel: "Champions League nights",
+    words: ["REAL MADRID"],
+    mode: "headsup",
+  },
+];
 
-const TRENDING_BY_LOCALE: Partial<Record<Locale, TrendingContent>> = {
-  en: TRENDING_EN,
-  tr: TRENDING_TR,
+function buildTrending(labels: TrendingLabels): TrendingContent {
+  return {
+    groups: BASE_GROUPS.map((group) => {
+      let label = labels.headsup;
+      if (group.id === "cinema" || group.id === "headsup-cinema") label = group.mode === "headsup" ? labels.headsup : labels.cinema;
+      else if (group.id === "streaming" || group.id === "headsup-streaming") label = group.mode === "headsup" ? labels.headsup : labels.streaming;
+      else if (group.id === "odyssey" || group.id === "headsup-odyssey") label = group.mode === "headsup" ? labels.headsup : labels.odyssey;
+      else if (group.id === "football" || group.id === "headsup-football") label = group.mode === "headsup" ? labels.headsup : labels.football;
+      return { ...group, label };
+    }),
+    compareGames: labels.compareGames,
+  };
+}
+
+const TRENDING_LABELS: Record<Locale, TrendingLabels> = {
+  en: {
+    cinema: "In cinemas now",
+    streaming: "Streaming now",
+    odyssey: "Trending deck",
+    football: "Trending deck",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "the Taboo board game"],
+  },
+  tr: {
+    cinema: "Şimdi sinemalarda",
+    streaming: "Şimdi yayında",
+    odyssey: "Trend deste",
+    football: "Trend deste",
+    headsup: "Alnında Tahmin",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "Taboo masa oyunu"],
+  },
+  es: {
+    cinema: "En cines ahora",
+    streaming: "En streaming",
+    odyssey: "Mazo en tendencia",
+    football: "Mazo en tendencia",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "el juego de mesa Tabú"],
+  },
+  de: {
+    cinema: "Jetzt im Kino",
+    streaming: "Jetzt im Stream",
+    odyssey: "Trend-Deck",
+    football: "Trend-Deck",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "das Tabu-Brettspiel"],
+  },
+  fr: {
+    cinema: "Au cinéma maintenant",
+    streaming: "En streaming",
+    odyssey: "Deck tendance",
+    football: "Deck tendance",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "le jeu Tabou"],
+  },
+  it: {
+    cinema: "Al cinema ora",
+    streaming: "In streaming",
+    odyssey: "Mazzo di tendenza",
+    football: "Mazzo di tendenza",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "il gioco da tavolo Tabù"],
+  },
+  "pt-BR": {
+    cinema: "Nos cinemas agora",
+    streaming: "Em streaming",
+    odyssey: "Baralho em alta",
+    football: "Baralho em alta",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "o jogo de tabuleiro Tabu"],
+  },
+  pl: {
+    cinema: "Teraz w kinach",
+    streaming: "Na streamingu",
+    odyssey: "Trendująca talia",
+    football: "Trendująca talia",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "gra planszowa Tabu"],
+  },
+  el: {
+    cinema: "Τώρα στις αίθουσες",
+    streaming: "Σε streaming",
+    odyssey: "Τράπουλα τάσης",
+    football: "Τράπουλα τάσης",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "το επιτραπέζιο Taboo"],
+  },
+  ru: {
+    cinema: "Сейчас в кино",
+    streaming: "В стриминге",
+    odyssey: "Трендовая колода",
+    football: "Трендовая колода",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "настольная Taboo"],
+  },
+  ja: {
+    cinema: "現在上映中",
+    streaming: "配信中",
+    odyssey: "トレンドデッキ",
+    football: "トレンドデッキ",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "Tabooボードゲーム"],
+  },
+  ko: {
+    cinema: "지금 상영 중",
+    streaming: "스트리밍 중",
+    odyssey: "트렌드 덱",
+    football: "트렌드 덱",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "Taboo 보드게임"],
+  },
+  zh: {
+    cinema: "正在上映",
+    streaming: "正在热播",
+    odyssey: "热门卡组",
+    football: "热门卡组",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "Taboo 桌游"],
+  },
+  ar: {
+    cinema: "في السينما الآن",
+    streaming: "يعرض الآن",
+    odyssey: "مجموعة رائجة",
+    football: "مجموعة رائجة",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "لعبة Taboo"],
+  },
+  hi: {
+    cinema: "अभी सिनेमाघरों में",
+    streaming: "अभी स्ट्रीमिंग पर",
+    odyssey: "ट्रेंडिंग डेक",
+    football: "ट्रेंडिंग डेक",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "Taboo बोर्ड गेम"],
+  },
+  id: {
+    cinema: "Sedang di bioskop",
+    streaming: "Sedang streaming",
+    odyssey: "Deste trending",
+    football: "Deste trending",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "permainan papan Taboo"],
+  },
+  vi: {
+    cinema: "Đang chiếu rạp",
+    streaming: "Đang phát sóng",
+    odyssey: "Bộ bài thịnh hành",
+    football: "Bộ bài thịnh hành",
+    headsup: "Heads Up",
+    compareGames: ["Heads Up!", "Nebuu", "Charades", "board game Taboo"],
+  },
 };
 
 export function getTrendingContent(locale: Locale): TrendingContent {
-  return TRENDING_BY_LOCALE[locale] ?? TRENDING_EN;
+  const labels = TRENDING_LABELS[locale];
+  if (!labels) {
+    throw new Error(`Missing trending labels for locale: ${locale}`);
+  }
+  return buildTrending(labels);
 }
 
 export const AI_QUICK_PICKS: Partial<Record<Locale, string[]>> = {

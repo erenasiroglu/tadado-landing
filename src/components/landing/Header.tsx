@@ -41,7 +41,7 @@ export function Header({ locale, dict }: HeaderProps) {
         >
           <Image
             src="/images/tadado_icon.png"
-            alt="Tadado"
+            alt={dict.a11y.tadadoLogo}
             width={32}
             height={32}
             className="rounded-lg"
@@ -49,7 +49,7 @@ export function Header({ locale, dict }: HeaderProps) {
           <span className="text-base font-extrabold tracking-wide text-cream">Tadado</span>
         </Link>
 
-        <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label="Main">
+        <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>
           {primaryLinks.map((link) =>
             "isPage" in link && link.isPage ? (
               <Link key={link.href} href={link.href} className={navLinkClass}>
@@ -61,11 +61,19 @@ export function Header({ locale, dict }: HeaderProps) {
               </a>
             ),
           )}
-          <LanguageMenu currentLocale={locale} label={dict.language.label} />
+          <LanguageMenu
+            currentLocale={locale}
+            label={dict.language.label}
+            closeLabel={dict.a11y.closeLanguageMenu}
+          />
         </nav>
 
         <div className="flex items-center gap-2 lg:hidden">
-          <LanguageMenu currentLocale={locale} label={dict.language.label} />
+          <LanguageMenu
+            currentLocale={locale}
+            label={dict.language.label}
+            closeLabel={dict.a11y.closeLanguageMenu}
+          />
           <MobileNavSheet locale={locale} dict={dict} downloadUrl={appStoreUrl} />
         </div>
       </div>

@@ -132,7 +132,55 @@
     "tabooBody": "Describe the main word, take bigger risks, and grow your score. Harder words unlock higher multipliers, from ×2 to ×5.",
     "headsUpTitle": "Heads Up",
     "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "newBadge": "New mode",
+    "showcase": {
+      "portraitGameplay": "Portrait gameplay",
+      "landscapeGameplay": "Landscape gameplay",
+      "buildScoreTitle": "Build your score",
+      "buildScoreBody": "Take on harder words to grow your multiplier and turn every correct answer into a bigger score.",
+      "scoreMultipliersAria": "Score multipliers: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "42 seconds left",
+    "passStatus": "2 / 3 passes left",
+    "roundLabel": "Round 1/3",
+    "tabooLabel": "Forbidden!",
+    "passLabel": "Pass",
+    "correctLabel": "Correct",
+    "foreheadTitle": "Place the phone on your forehead",
+    "tiltUp": "Lift up to skip",
+    "tiltDown": "Lower if correct",
+    "yourTeam": "Your team",
+    "turnComplete": "Turn complete",
+    "pointsEarned": "Points earned",
+    "scoresHeading": "Scores",
+    "nextUpLabel": "Next up",
+    "continue": "Continue",
+    "pauseGame": "Pause game",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "Open menu",
+    "closeLanguageMenu": "Close language menu",
+    "mainNav": "Main",
+    "mobileNav": "Mobile",
+    "previousDeck": "Previous deck",
+    "nextDeck": "Next deck",
+    "launchVideo": "Tadado product launch video",
+    "unmuteVideo": "Unmute launch video",
+    "muteVideo": "Mute launch video",
+    "yes": "Yes",
+    "no": "No",
+    "partial": "Partial",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Download on the App Store",
+    "getOnGooglePlay": "Get it on Google Play",
+    "forbiddenWordsGameplay": "Forbidden Words gameplay on portrait phone",
+    "headsUpGameplay": "Heads Up gameplay on landscape phone",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
     "title": "How to play every mode",
@@ -516,6 +564,8 @@
     "viewFull": "Open full comparison page"
   },
   "team": {
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "One product team building mobile games people want to play together.",
     "title": "Who we are",
     "subtitle": "The tiny team behind the cards.",
     "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",

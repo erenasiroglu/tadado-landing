@@ -1,174 +1,275 @@
 {
   "meta": {
-    "title": "Tadado — 禁忌词与 Heads Up 派对猜词游戏",
-    "description": "在一个应用中玩禁忌词和 Heads Up。秒级创建 AI 牌组。Tadado Mix 免费。无广告。无订阅。"
+    "title": "Tadado：派对文字游戏 | Taboo、Heads Up 与 AI 卡组",
+    "description": "一部手机。你的朋友们。Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。免费开始。无广告。支持 iOS 和 Android。"
   },
   "nav": {
-    "pricing": "价格",
-    "blog": "博客",
-    "compare": "Compare",
-    "affiliate": "Affiliate",
-    "team": "Team",
-    "download": "下载",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
+    "play": "开始玩",
+    "aiDecks": "AI 卡组",
+    "decks": "卡组",
+    "community": "社区",
+    "howItWorks": "如何运作",
     "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "getTadado": "获取 Tadado",
+    "pricing": "定价",
+    "blog": "博客",
+    "guides": "指南",
+    "compare": "对比",
+    "affiliate": "联盟",
+    "team": "团队",
+    "download": "下载"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "title": "一部手机。你的朋友们。让混乱开始吧。",
+    "subtitle": "Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。",
     "ctaPrimary": "GET TADADO · FREE",
     "ctaSecondary": "SEE HOW IT WORKS",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "局游戏",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "游戏模式"
       },
       {
         "value": "AI",
-        "label": "powered"
+        "label": "驱动"
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "种语言"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "套卡组",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "游玩"
       },
       {
         "value": "No",
-        "label": "ads"
+        "label": "广告"
       }
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "300,000+ 局游戏",
+    "modes": "2 种游戏模式",
+    "ai": "AI 驱动",
+    "languages": "17 种语言",
+    "offline": "离线游玩",
+    "noAds": "无广告"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "Tadado 有什么特别之处？",
+    "subtitle": "为真正的游戏之夜而生：快速开始、轻松分享、让一群人笑个不停。",
+    "developer": "由 Tadado Game Development 打造",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "两种模式，一个应用",
+        "body": "在 Forbidden Words 和 Heads Up 之间切换，无需下载两次。同一套卡组，每轮不同的氛围。"
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "秒级生成 AI 卡组",
+        "body": "输入任意主题，即刻获得可玩的卡组。适合内部梗、电影之夜或主题派对。"
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "无广告、无订阅",
+        "body": "用 Tadado Mix 免费开始。只有想要额外主题卡组或 AI 卡组创建时才需一次性付费。"
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "内置 17 种语言",
+        "body": "与多语言小组一起玩。应用界面和卡牌会自动适配，让每个人都能加入。"
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "全球游戏局数",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "游戏模式",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "应用内语言",
+    "developerNote": "全球玩家信赖 · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "为真正的游戏之夜而生",
+    "title": "一部手机。分队。计时。回合。",
+    "statement": "一部手机。分队。计时。回合。离线游玩。无广告。",
+    "details": [
+      "离线游玩",
+      "分队与计时",
+      "无广告",
+      "无订阅"
+    ]
+  },
+  "personalization": {
+    "title": "打造专属体验。",
+    "subtitle": "每次都不是同样的游戏。每个小组都能创造自己的玩法。",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "朋友",
+        "topic": "周末混乱"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "家人",
+        "topic": "周日晚餐"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "生日",
+        "topic": "派对经典"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "电影之夜",
+        "topic": "奥斯卡影片"
+      },
+      {
+        "label": "体育",
+        "topic": "Champions League"
+      },
+      {
+        "label": "旅行",
+        "topic": "公路旅行游戏"
+      },
+      {
+        "label": "办公室",
+        "topic": "办公室混乱"
+      },
+      {
+        "label": "大学",
+        "topic": "校园传奇"
+      },
+      {
+        "label": "内部梗",
+        "topic": "我们常说的话"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "游戏之夜的最爱",
+    "subtitle": "来自在 App Store 上与好友一起体验 Tadado 的玩家真实评价。",
+    "appStoreRating": "App Store 5.0 分",
+    "appStoreCount": "8 条评分",
+    "sourceLabel": "App Store 评价",
+    "items": [
+      {
+        "quote": "和朋友一起发现并下载了。设计和 UI 真的很好。用 AI 根据我们的兴趣创建卡牌让我们非常开心。每个人都可以为自己的兴趣创建卡牌，词语不会重复。恭喜。",
+        "author": "kerqeten",
+        "context": "2025年8月 · App Store"
+      },
+      {
+        "quote": "用 AI 卡牌包生成器为任何主题制作自定义卡组太棒了。我们和朋友们玩了好几个小时！",
+        "author": "bk.aliz",
+        "context": "2025年8月 · App Store"
+      },
+      {
+        "quote": "和朋友一起玩非常有趣的游戏，像 Taboo 一样。",
+        "author": "Silenzi.O",
+        "context": "2025年7月 · App Store"
+      },
+      {
+        "quote": "真的很好玩的游戏。设计很漂亮。卡牌有趣、简单、清晰。你会忘记时间。",
+        "author": "mell.17",
+        "context": "2025年4月 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
+    "title": "两种玩法",
+    "subtitle": "经典 Taboo 风格禁词，或额头 Heads Up。同一套卡组，不同氛围。",
     "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "tabooBody": "描述主词，承担更大风险，提升得分。越难的词解锁越高倍率，从 ×2 到 ×5。",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "手机放在额头上。朋友给出提示。猜对时向下倾斜。",
+    "newBadge": "新模式",
+    "showcase": {
+      "portraitGameplay": "竖屏游玩",
+      "landscapeGameplay": "横屏游玩",
+      "buildScoreTitle": "累积得分",
+      "buildScoreBody": "挑战更难的词来提升倍率，让每次答对都变成更高分数。",
+      "scoreMultipliersAria": "得分倍率：2x、3x、5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "剩余 42 秒",
+    "passStatus": "剩余 2 / 3 次跳过",
+    "roundLabel": "第 1/3 轮",
+    "tabooLabel": "禁止！",
+    "passLabel": "跳过",
+    "correctLabel": "正确",
+    "foreheadTitle": "将手机放在额头上",
+    "tiltUp": "向上倾斜跳过",
+    "tiltDown": "向下倾斜表示正确",
+    "yourTeam": "你的队伍",
+    "turnComplete": "回合结束",
+    "pointsEarned": "获得分数",
+    "scoresHeading": "得分",
+    "nextUpLabel": "下一个",
+    "continue": "继续",
+    "pauseGame": "暂停游戏",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "打开菜单",
+    "closeLanguageMenu": "关闭语言菜单",
+    "mainNav": "主导航",
+    "mobileNav": "移动端",
+    "previousDeck": "上一套卡组",
+    "nextDeck": "下一套卡组",
+    "launchVideo": "Tadado 产品发布视频",
+    "unmuteVideo": "取消视频静音",
+    "muteVideo": "视频静音",
+    "yes": "是",
+    "no": "否",
+    "partial": "部分",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "在 App Store 下载",
+    "getOnGooglePlay": "在 Google Play 获取",
+    "forbiddenWordsGameplay": "竖屏手机 Forbidden Words 游玩画面",
+    "headsUpGameplay": "横屏手机 Heads Up 游玩画面",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "各模式玩法",
+    "subtitle": "与应用内相同的规则。了解每种模式，几秒内即可开始。",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "每个词都有难度",
+      "subtitle": "越难的词得分越高。这让每轮既有竞争性又公平。",
+      "easyLabel": "简单",
+      "hardLabel": "困难",
+      "legendaryLabel": "传奇",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "队伍猜对时，点击「正确」并得分。越难的词倍率越高。",
+      "tabooPenalty": "说了禁词？失去这张卡。本轮不得分。"
     },
     "forbiddenWords": {
       "modeLabel": "Forbidden Words",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "描述词语",
+          "body": "告诉队伍顶部的词。绝不说下面 4 个禁词。在时间结束前尽量猜更多卡。"
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "说了禁词就失去这张卡。不得分。对方队伍保持势头。"
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "跳过",
+          "body": "卡住了？跳过这张卡。每轮跳过次数有限，留给难的词。"
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "答对得分更多",
+          "body": "队伍猜对时，点击「正确」并得分。越难的词倍率越高。"
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "手机放在额头上",
+          "body": "横握手机放在额头上。朋友能看到词。你看不到。"
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "他们提示，你来猜",
+          "body": "额头上有手机的玩家看不到词。其他人看屏幕口头提示。没有跳过按钮。"
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "猜对了",
+          "body": "猜对了？下巴向下点头，将额头上的手机向下倾斜。得 1 分，出现下一个词。"
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "不知道",
+          "body": "不知道？下巴向上点头，将手机向上倾斜。不得分。进入下一个词。"
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "AI 卡组创建",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "输入任意主题",
+          "body": "输入词、短语或完整句子。咖啡、90 年代金曲、奥斯卡影片。一个想法就够。"
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "添加更多想法",
+          "body": "点击 + 叠加主题，或选择建议。点击标签移除。"
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "语言与难度",
+          "body": "卡组语言即卡牌语言。难度决定禁词有多难。"
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "两种模式都能玩",
+          "body": "同一套卡组适用于 Forbidden Words 和 Heads Up。点击卡组时选择模式。"
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "秒级生成",
+          "body": "登录后点击创建。你的自定义卡组立即可玩。"
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "任何主题都能变成游戏。",
+    "subtitle": "你的内部梗变成了卡组。输入主题，看卡牌出现。",
+    "topics": "90 年代土耳其流行、Marvel 反派、办公室混乱、我们朋友群常说的话",
+    "demoTitle": "AI 卡组构建器",
+    "demoHeadline": "30 秒打造你的卡组。",
+    "demoSubtitle": "描述任意主题。AI 编写 Taboo 卡牌：目标词加禁词提示。你的小组立刻开玩。",
+    "inputLabel": "你的主题",
+    "inputPlaceholder": "例如 Marvel 电影、90 年代流行、办公室笑话…",
+    "quickIdeas": "快速灵感",
+    "difficulty": "难度",
+    "difficultyEasy": "简单",
+    "difficultyMedium": "中等",
+    "difficultyHard": "困难",
+    "generateButton": "创建卡组",
+    "addTopic": "添加主题",
+    "topicsEmpty": "输入主题，点击 + 或选择下方快速灵感。",
+    "generating": "正在编写卡牌…",
+    "demoPreviewLabel": "卡牌预览",
+    "simulationBadge": "互动演示",
+    "simulationHint": "观看 AI 将主题变成可玩的 Forbidden Words 卡牌。选择难度并运行模拟。",
+    "simulationStepTopic": "输入",
+    "simulationStepGenerate": "生成中",
+    "simulationStepPreview": "卡牌出现",
+    "simulationStepReady": "准备开玩",
+    "simulationWriting": "AI 正在编写禁词…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
-    "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "title": "今晚玩什么？",
+    "badge": "热门",
+    "subtitle": "当某事物爆火，它就成了 taboo 卡牌。Spider-Man: Brand New Day 和 Obsession 正在热门，还有 The Odyssey、足球等。下载免费 taboo 游戏前，先看看真实目标词。",
+    "allCards": "所有热门卡牌 →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "在和其他游戏比较？",
+      "guides": "指南与游戏之夜灵感 →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
-    "play": "PLAY",
+    "title": "选择你的 vibe",
+    "subtitle": "用 Tadado Mix 免费开始，准备好后解锁主题包。",
+    "countBadge": "8 套游戏卡组",
+    "free": "免费",
+    "play": "开始玩",
     "price": "$0.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "适合每个小组的快速入门卡组！"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "夏日",
+        "desc": "阳光、大海与度假 vibe！"
       },
       "cinema": {
-        "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "name": "影院",
+        "desc": "电影、剧集与演员！"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "旅行",
+        "desc": "全球城市与国家！"
       },
       "sport": {
-        "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "name": "运动",
+        "desc": "足球、篮球等！"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "英雄",
+        "desc": "漫画英雄与超能力！"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "夜间游戏",
+        "desc": "深夜大胆文字游戏！"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "简单透明的定价",
+    "subtitle": "无隐藏订阅。只为所需一次性付费。",
+    "disclaimer": "价格为 USD，App Store 和 Google Play 可能因地区而异。购买由 Apple 或 Google 处理。",
     "mix": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "免费",
+      "desc": "免费下载，立即用经典入门卡组开玩。"
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "主题卡组",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "每套卡组一次性购买。夏日、影院、旅行、运动、英雄等。"
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "AI 卡组创建",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "从任意主题生成自定义卡组。两种游戏模式均可玩。"
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "无广告 · 无订阅 · 随时恢复购买"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "如何运作",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "选择模式",
+        "body": "分队玩 Forbidden Words，或额头玩 Heads Up。"
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "选择卡组",
+        "body": "用 Mix 免费玩，或解锁主题包和 AI 卡组。"
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "传递手机开玩",
+        "body": "设置队伍、计时和回合，让笑声开始。"
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "全球游戏之夜",
+    "subtitle": "关注 Tadado：短片、卡组灵感与派对游戏创意。",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "局游戏",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "种语言"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "游戏模式"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "支持的语言",
+    "languagesCaption": "每种应用语言均同等支持。无虚构使用数据。",
+    "trendingLabel": "今晚热门",
+    "editorialLabel": "Tadado 最新动态",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "夏日卡组季",
+        "body": "温暖夜晚的阳光、大海与度假 vibe。"
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "电影之夜卡组",
+        "body": "为影迷和连续追剧爱好者准备的影院卡牌。"
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "自己创建",
+        "body": "用 AI 将任意主题变成可玩卡组。"
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "加入 Tadado 社区",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels、游戏之夜短片与卡组灵感",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "Heads Up 视频与派对挑战",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "Tadado Game Development 动态",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "在 Product Hunt 查看 Tadado"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "成为 Tadado 联盟伙伴，赚取 20%",
+    "subtitle": "和朋友一起玩，录一段短视频，分享你的专属代码。很简单。",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "通过你的代码每笔销售的佣金",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "游玩并录制",
+        "body": "和朋友举办游戏之夜，拍摄一段 Tadado 短视频。"
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "获取代码",
+        "body": "给我们发邮件。我们会为你创建专属优惠码。"
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "分享并赚取",
+        "body": "发布带代码的视频。从主题卡组与 AI 卡组购买中赚取 20%。"
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "申请联盟代码",
+      "hint": "发邮件附上你的 TikTok、Instagram 或 YouTube 链接。",
+      "subject": "Tadado 联盟代码申请",
+      "bodyTemplate": "Tadado 团队你好，\n\n我想加入联盟计划。\n\n姓名：\n社交链接：\n\n谢谢！"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "完整计划详情",
+    "back": "返回 Tadado",
+    "pageNote": "我们在几个工作日内审核每份申请。佣金通过你的专属代码产生的符合条件应用内购买支付。"
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "与我们合作",
+    "subtitle": "新卡组创意、品牌合作或投资。发邮件即可。",
+    "learnMore": "查看合作选项",
+    "back": "返回 Tadado",
+    "pageNote": "Tadado Game Development 正在打造简洁移动游戏组合。我们阅读每封邮件。",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "想要新卡组？",
+      "body": "把主题想法发给我们。就这么简单。",
+      "cta": "邮件发送卡组想法",
+      "subject": "Tadado 卡组请求"
     },
     "collaboration": {
-      "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "title": "品牌合作",
+      "body": "联合品牌卡组、营销活动或创作者合作。",
+      "cta": "给我们发邮件",
+      "subject": "Tadado 合作"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "投资者与新游戏",
+      "body": "天使投资人、发行商或希望与我们共建的公司。",
+      "cta": "给我们发邮件",
+      "subject": "Tadado 合作 / 投资"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "来自博客",
+    "subtitle": "指南、派对游戏创意与充分利用 Tadado 的技巧。",
+    "readMore": "阅读文章",
+    "viewAll": "查看全部文章"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "玩法与最佳文字游戏指南",
+    "subtitle": "Taboo、Heads Up 猜词的分步规则，以及最佳移动文字游戏应用推荐。"
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "问题解答。",
+    "subtitle": "下次游戏之夜前你需要知道的一切。",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "Taboo（Forbidden Words）怎么玩？",
+        "a": "分成队伍。一名玩家描述目标词，不能说卡牌上的禁词提示。队伍在时间结束前猜对。跳过次数有限。Tadado 包含计时、计分和主题卡组，几秒内即可开始。"
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "Heads Up 猜词怎么玩？",
+        "a": "将手机放在额头上，让自己看不到词。朋友口头提示但不能说词。猜对向下倾斜，跳过向上倾斜。Tadado 在 Heads Up 和 Taboo 模式使用同一套卡组。"
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "Tadado 是最佳免费文字游戏应用之一吗？",
+        "a": "Tadado 为游戏之夜打造：Taboo、Heads Up 猜词、免费 Tadado Mix、可选主题卡组与 AI 卡组创建。无广告无订阅，是 iOS 和 Android 上性价比最高的文字游戏应用之一。"
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "Tadado 免费吗？",
+        "a": "是的。Tadado Mix 免费玩。主题卡组与 AI 卡组创建是一次性购买。详见定价。无订阅。"
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "Taboo 和 Heads Up 有什么区别？",
+        "a": "Forbidden Words 是分队 Taboo：描述时不能说禁词。Heads Up 将手机放在额头上，朋友提示。两者使用同一套卡组。"
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "Tadado 有广告吗？",
+        "a": "没有。Tadado 无广告。只有你选择时才为可选卡组或 AI 创建付费。"
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "AI 卡组创建如何运作？",
+        "a": "输入主题，如「Marvel 电影」或「90 年代流行金曲」，Tadado 会在几秒内为两种游戏模式生成可玩卡组。"
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "支持哪些语言？",
+        "a": "应用界面支持 17 种语言，包括英语、土耳其语、西班牙语、德语、法语等。"
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "Tadado 对比",
+    "subtitle": "了解玩家为何从单一模式的 Taboo 或 Heads Up 应用转向 Tadado。",
+    "back": "返回 Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "功能",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "常见应用"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up 一个应用",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "AI 自定义卡组构建器",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "免费入门卡组（Tadado Mix）",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "无广告",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "无订阅",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "主题卡组包",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 种语言",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "词语难度计分",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "许多应用只专注一种模式、展示广告或将内容锁在订阅后。Tadado 为真正的游戏之夜打造：两种模式、免费入门卡组、一次性额外内容。",
+    "cta": "免费下载 Tadado",
+    "viewFull": "打开完整对比页"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "一个产品团队，打造人们想一起玩的移动游戏。",
+    "title": "我们是谁",
+    "subtitle": "卡牌背后的小团队。",
+    "intro": "我们是两个更愿意发布派对游戏而不是写公司介绍的创作者。一个编写混乱，一个设计卡牌。",
+    "back": "返回 Tadado",
+    "funFactsLabel": "趣闻",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "role": "软件开发工程师",
+        "bio": "全栈开发者，用 React Native、Next.js 和 Node.js 构建 Tadado 与移动应用。Management Information Systems 毕业生，专注 clean code 与玩家友好设计。",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "在 Pulse FinTech 从事 fintech 工作的同时，将 Tadado 从想法发布到 App Store。",
+          "会在凌晨 2 点调试生产环境——但前提是计时器仍在正确倒计时。",
+          "相信最好的派对游戏零教程、最大可重玩性。"
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "访问 erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "role": "产品设计师",
+        "bio": "Tadado UI/UX 设计师，İzmir Democracy University 建筑系学生。塑造从卡牌到屏幕的视觉语言、交互流程与游戏体验。",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "白天思考儿童尺度的空间感知，晚上思考卡牌布局。",
+          "从首个线框图到精致游戏界面，主导 Tadado 端到端产品设计。",
+          "会发现按钮圆角差 2 像素。会礼貌地指出。"
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "访问 nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "帮助我们构建下一代移动游戏。",
+      "body": "Tadado 是我们迈向社交、可重玩移动游戏全球工作室的第一步。我们正在为全球游戏之夜打造原创产品组合，欢迎与天使投资人、战略伙伴以及能帮助我们扩大分发的人交流。如果你相信小团队也能打造定义品类的产品，请联系我们。",
+      "link": "联系团队"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
+    "title": "游戏之夜灵感永不枯竭。",
+    "subtitle": "新主题、新功能与派对游戏技巧。无垃圾邮件。",
     "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "button": "加入等候名单",
+    "success": "你已在名单中。有新内容时我们会发邮件。",
+    "privacy": "我们只发送 Tadado 更新。随时可退订。",
+    "errorInvalid": "请输入有效的邮箱地址。",
+    "errorGeneric": "出了点问题。请重试。"
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
+    "title": "你的下一个游戏之夜需要 Tadado。",
+    "subtitle": "一部手机。全员邀请。",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "finalCta": {
+    "title": "你的下一个游戏之夜需要 Tadado。",
+    "subtitle": "一部手机。全员邀请。",
+    "button": "GET TADADO · FREE",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
-    "tagline": "Describe, guess, make it yours.",
+    "tagline": "一部手机。你的朋友们。让混乱开始吧。",
     "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
-    "help": "Help"
+    "playTitle": "开始玩",
+    "discoverTitle": "发现",
+    "growTitle": "与 Tadado 一起成长",
+    "supportTitle": "支持",
+    "socialTitle": "社交",
+    "help": "帮助",
+    "support": "支持",
+    "partnerships": "合作",
+    "compare": "应用对比",
+    "affiliate": "联盟计划",
+    "team": "我们的团队",
+    "legal": "法律",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "Download free"
+    "download": "GET TADADO · FREE"
   },
   "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
-  },
-  "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "label": "语言"
   }
 }

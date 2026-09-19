@@ -91,7 +91,9 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
             {activeCopy ? (
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.16em] text-amber/80">
-                  {activeMode === "taboo" ? "Portrait gameplay" : "Landscape gameplay"}
+                  {activeMode === "taboo"
+                    ? dict.modes.showcase.portraitGameplay
+                    : dict.modes.showcase.landscapeGameplay}
                 </p>
                 <div className="mt-2 flex items-center gap-2">
                   <h3 className="text-2xl font-bold text-cream">{activeCopy.title}</h3>
@@ -105,12 +107,15 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 {activeMode === "taboo" ? (
                   <div className="mt-5 max-w-md rounded-xl border border-amber/20 bg-amber/[0.06] p-3.5">
                     <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/90">
-                      Build your score
+                      {dict.modes.showcase.buildScoreTitle}
                     </p>
                     <p className="mt-1.5 text-sm leading-relaxed text-cream/70">
-                      Take on harder words to grow your multiplier and turn every correct answer into a bigger score.
+                      {dict.modes.showcase.buildScoreBody}
                     </p>
-                    <div className="mt-3 flex items-center gap-2" aria-label="Score multipliers: 2x, 3x, 5x">
+                    <div
+                      className="mt-3 flex items-center gap-2"
+                      aria-label={dict.modes.showcase.scoreMultipliersAria}
+                    >
                       {["×2", "×3", "×5"].map((multiplier, index) => (
                         <span key={multiplier} className="flex items-center gap-2">
                           <span
@@ -146,6 +151,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
               <ModeDeviceStage
                 mode={activeMode}
                 locale={locale}
+                previewLabels={dict.gamePreview}
                 portraitWidth={248}
                 landscapeWidth={380}
               />

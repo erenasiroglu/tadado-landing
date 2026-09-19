@@ -3,6 +3,7 @@
 import { LayoutGroup, motion, useReducedMotion } from "motion/react";
 
 import type { Locale } from "@/lib/i18n";
+import type { GamePreviewLabels } from "@/lib/game-preview-tokens";
 import { cn } from "@/lib/utils";
 
 import { ForbiddenWordsScreen } from "./ForbiddenWordsScreen";
@@ -13,6 +14,7 @@ type GameplayMode = "taboo" | "headsup";
 interface ModeDeviceStageProps {
   mode: GameplayMode;
   locale: Locale;
+  previewLabels: GamePreviewLabels;
   className?: string;
   portraitWidth?: number;
   landscapeWidth?: number;
@@ -22,6 +24,7 @@ interface ModeDeviceStageProps {
 export function ModeDeviceStage({
   mode,
   locale,
+  previewLabels,
   className,
   portraitWidth = 240,
   landscapeWidth = 360,
@@ -60,12 +63,14 @@ export function ModeDeviceStage({
             {isPortrait ? (
               <ForbiddenWordsScreen
                 width={portraitWidth}
+                labels={previewLabels}
                 float
                 animateWords={animateWords}
               />
             ) : (
               <HeadsUpScreen
                 locale={locale}
+                previewLabels={previewLabels}
                 width={Math.min(landscapeWidth, 420)}
                 float
                 animateWords={animateWords}

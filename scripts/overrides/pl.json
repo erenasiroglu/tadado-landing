@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Tadado: Gra słowna na imprezę | Taboo, Heads Up i talie AI",
+    "description": "Jeden telefon. Twoi znajomi. Taboo, Heads Up i talie AI na wieczory gier. Zacznij za darmo. Bez reklam. iOS i Android."
+  },
+  "nav": {
+    "play": "Graj",
+    "aiDecks": "Talie AI",
+    "decks": "Talie",
+    "community": "Społeczność",
+    "howItWorks": "Jak to działa",
+    "faq": "FAQ",
+    "getTadado": "Pobierz Tadado",
+    "pricing": "Cennik",
+    "blog": "Blog",
+    "guides": "Poradniki",
+    "compare": "Porównanie",
+    "affiliate": "Affiliate",
+    "team": "Zespół",
+    "download": "Pobierz"
+  },
+  "hero": {
+    "brandLine": "Tadado Game Development 2026",
+    "title": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
+    "subtitle": "Taboo, Heads Up i talie AI stworzone na wieczory gier.",
+    "ctaPrimary": "GET TADADO · FREE",
+    "ctaSecondary": "SEE HOW IT WORKS",
+    "metrics": [
+      { "value": "300,000+", "label": "rozegranych gier", "animate": true },
+      { "value": "2", "label": "tryby gry" },
+      { "value": "AI", "label": "powered" },
+      { "value": "17", "label": "języków" },
+      { "value": "8", "label": "talii gry", "href": "#decks" },
+      { "value": "Offline", "label": "gra" },
+      { "value": "No", "label": "ads" }
+    ]
+  },
+  "proof": {
+    "players": "300 000+ rozegranych gier",
+    "modes": "2 tryby gry",
+    "ai": "Wspierane przez AI",
+    "languages": "17 języków",
+    "offline": "Graj offline",
+    "noAds": "Bez reklam"
+  },
+  "special": {
+    "title": "Co wyróżnia Tadado?",
+    "subtitle": "Stworzone na prawdziwe wieczory gier: szybki start, łatwe udostępnianie i śmiech w grupie.",
+    "developer": "Stworzone przez Tadado Game Development",
+    "items": [
+      {
+        "title": "Dwa tryby, jedna aplikacja",
+        "body": "Przełączaj się między Zakazanymi słowami a Heads Up bez dwóch pobrań. Te same talie, inna energia w każdej rundzie."
+      },
+      {
+        "title": "Talie AI w kilka sekund",
+        "body": "Wpisz dowolny temat i od razu otrzymaj talię do gry. Idealne na wewnętrzne żarty, wieczory filmowe lub imprezy tematyczne."
+      },
+      {
+        "title": "Bez reklam, bez subskrypcji",
+        "body": "Zacznij za darmo z Tadado Mix. Płać raz tylko, jeśli chcesz dodatkowe talie tematyczne lub tworzenie talii AI."
+      },
+      {
+        "title": "17 języków wbudowanych",
+        "body": "Graj w grupach wielojęzycznych. Interfejs i karty dostosowują się, żeby każdy mógł dołączyć."
+      }
+    ]
+  },
+  "stats": {
+    "gamesPlayed": "300,000+",
+    "gamesPlayedLabel": "gier rozegranych na świecie",
+    "modes": "2",
+    "modesLabel": "tryby gry",
+    "languages": "17",
+    "languagesLabel": "języków w aplikacji",
+    "developerNote": "Zaufane przez graczy na całym świecie · Tadado Game Development"
+  },
+  "productBenefits": {
+    "eyebrow": "Na prawdziwe wieczory gier",
+    "title": "Jeden telefon. Drużyny. Timery. Rundy.",
+    "statement": "Jeden telefon. Drużyny. Timery. Rundy. Gra offline. Bez reklam.",
+    "details": ["Gra offline", "Drużyny i timery", "Bez reklam", "Bez subskrypcji"]
+  },
+  "personalization": {
+    "title": "Dopasuj do siebie.",
+    "subtitle": "To nie ta sama gra za każdym razem. Każda grupa może stworzyć własne doświadczenie.",
+    "items": [
+      { "label": "Znajomi", "topic": "Weekendowy chaos" },
+      { "label": "Rodzina", "topic": "Niedzielny obiad" },
+      { "label": "Urodziny", "topic": "Klasyki imprezowe" },
+      { "label": "Wieczór filmowy", "topic": "Filmy z Oscarów" },
+      { "label": "Sport", "topic": "Liga Mistrzów" },
+      { "label": "Podróże", "topic": "Gry w drodze" },
+      { "label": "Biuro", "topic": "Biurowy chaos" },
+      { "label": "Studenci", "topic": "Legendy kampusu" },
+      { "label": "Wewnętrzne żarty", "topic": "Co zawsze mówimy" }
+    ]
+  },
+  "reviews": {
+    "title": "Uwielbiane na wieczorze gier",
+    "subtitle": "Prawdziwe recenzje z App Store od graczy, którzy wypróbowali Tadado ze znajomymi.",
+    "appStoreRating": "5,0 w App Store",
+    "appStoreCount": "8 ocen",
+    "sourceLabel": "Recenzja App Store",
+    "items": [
+      {
+        "quote": "Znaleźliśmy to ze znajomymi i pobraliśmy. Design i UI są naprawdę dobre. Tworzenie kart z AI pod nasze zainteresowania bardzo nas ucieszyło. Każdy może tworzyć karty pod swoje zainteresowania i słowa się nie powtarzają. Gratulacje.",
+        "author": "kerqeten",
+        "context": "Sie 2025 · App Store"
+      },
+      {
+        "quote": "Tworzenie własnych talii generatorem kart AI na dowolny temat jest super. Graliśmy godzinami ze znajomymi!",
+        "author": "bk.aliz",
+        "context": "Sie 2025 · App Store"
+      },
+      {
+        "quote": "Bardzo fajna gra ze znajomymi, jak Taboo.",
+        "author": "Silenzi.O",
+        "context": "Lip 2025 · App Store"
+      },
+      {
+        "quote": "Naprawdę fajna gra. Design jest piękny. Karty są zabawne, proste i czytelne. Traci się poczucie czasu.",
+        "author": "mell.17",
+        "context": "Kwi 2025 · App Store"
+      }
+    ]
+  },
+  "modes": {
+    "title": "Dwa sposoby gry",
+    "subtitle": "Klasyczne Taboo ze zakazanymi słowami albo Heads Up na czole. Te same talie, inna energia.",
+    "tabooTitle": "Zakazane słowa",
+    "tabooBody": "Opisz główne słowo, podejmuj większe ryzyko i zwiększaj wynik. Trudniejsze słowa odblokowują wyższe mnożniki, od ×2 do ×5.",
+    "headsUpTitle": "Heads Up",
+    "headsUpBody": "Telefon na czole. Znajomi podają wskazówki. Przechyl w dół, gdy trafisz.",
+    "newBadge": "Nowy tryb",
+    "showcase": {
+      "portraitGameplay": "Rozgrywka w pionie",
+      "landscapeGameplay": "Rozgrywka w poziomie",
+      "buildScoreTitle": "Buduj swój wynik",
+      "buildScoreBody": "Wybieraj trudniejsze słowa, aby zwiększyć mnożnik i zamienić każdą poprawną odpowiedź w więcej punktów.",
+      "scoreMultipliersAria": "Mnożniki wyniku: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "Pozostało 42 sekundy",
+    "passStatus": "Pozostało 2 / 3 pasów",
+    "roundLabel": "Runda 1/3",
+    "tabooLabel": "Zakazane!",
+    "passLabel": "Pass",
+    "correctLabel": "Trafione",
+    "foreheadTitle": "Połóż telefon na czole",
+    "tiltUp": "Unieś, aby pominąć",
+    "tiltDown": "Opuść, jeśli trafione",
+    "yourTeam": "Twoja drużyna",
+    "turnComplete": "Tura zakończona",
+    "pointsEarned": "Zdobyte punkty",
+    "scoresHeading": "Wyniki",
+    "nextUpLabel": "Następny",
+    "continue": "Kontynuuj",
+    "pauseGame": "Wstrzymaj grę",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "Otwórz menu",
+    "closeLanguageMenu": "Zamknij menu języków",
+    "mainNav": "Główne",
+    "mobileNav": "Mobilne",
+    "previousDeck": "Poprzednia talia",
+    "nextDeck": "Następna talia",
+    "launchVideo": "Film premierowy Tadado",
+    "unmuteVideo": "Włącz dźwięk filmu premierowego",
+    "muteVideo": "Wycisz film premierowy",
+    "yes": "Tak",
+    "no": "Nie",
+    "partial": "Częściowo",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Pobierz w App Store",
+    "getOnGooglePlay": "Pobierz w Google Play",
+    "forbiddenWordsGameplay": "Rozgrywka Zakazane słowa na telefonie w pionie",
+    "headsUpGameplay": "Rozgrywka Heads Up na telefonie w poziomie",
+    "tadadoLogo": "Tadado"
+  },
+  "howToPlay": {
+    "title": "Jak grać w każdy tryb",
+    "subtitle": "Te same zasady co w aplikacji. Poznaj każdy tryb i zacznij w kilka sekund.",
+    "difficulty": {
+      "title": "Każde słowo ma poziom trudności",
+      "subtitle": "Trudniejsze słowa dają więcej punktów. Rundy pozostają uczciwe i emocjonujące dla każdej grupy.",
+      "easyLabel": "Łatwe",
+      "hardLabel": "Trudne",
+      "legendaryLabel": "Legendarne",
+      "easyMultiplier": "×1",
+      "hardMultiplier": "×2",
+      "legendaryMultiplier": "×3",
+      "scoreBody": "Gdy drużyna trafi, naciśnij Trafione i zbierz punkty. Trudniejsze słowa mają wyższy mnożnik.",
+      "tabooPenalty": "Powiedziałeś zakazane słowo? Tracisz kartę. Brak punktów w tej rundzie."
+    },
+    "forbiddenWords": {
+      "modeLabel": "Zakazane słowa",
+      "steps": [
+        {
+          "title": "Opisz słowo",
+          "body": "Powiedz drużynie słowo u góry. Nigdy nie wymawiaj 4 zakazanych słów poniżej. Zgadnij jak najwięcej kart, zanim skończy się czas."
+        },
+        {
+          "title": "Taboo!",
+          "body": "Powiesz zakazane słowo i tracisz kartę. Zero punktów. Druga drużyna utrzymuje tempo."
+        },
+        {
+          "title": "Pass",
+          "body": "Utknąłeś? Passuj kartę. Masz tylko kilka pasów na turę – oszczędzaj je na trudne."
+        },
+        {
+          "title": "Trafione daje więcej",
+          "body": "Gdy drużyna trafi, naciśnij Trafione i zbierz punkty. Trudniejsze słowa mają wyższy mnożnik."
+        }
+      ]
+    },
+    "headsUp": {
+      "modeLabel": "Heads Up",
+      "steps": [
+        {
+          "title": "Telefon na czole",
+          "body": "Trzymaj telefon poziomo i połóż go na czole. Znajomi widzą słowo. Ty nie."
+        },
+        {
+          "title": "Oni podają wskazówki, ty zgadujesz",
+          "body": "Gracz z telefonem na czole nie widzi słowa. Reszta czyta je na ekranie i podaje wskazówki ustnie. Nie ma przycisku pass."
+        },
+        {
+          "title": "Trafione",
+          "body": "Trafione? Kiwnij brodą w dół, przechyl telefon w dół na czole. Dostajesz punkt i pojawia się następne słowo."
+        },
+        {
+          "title": "Nie wiedziałem",
+          "body": "Nie wiesz? Kiwnij brodą w górę, przechyl telefon w górę na czole. Bez punktu. Przejdź do następnego słowa."
+        }
+      ]
+    },
+    "aiDeck": {
+      "modeLabel": "Tworzenie talii AI",
+      "steps": [
+        {
+          "title": "Wpisz dowolny temat",
+          "body": "Wpisz słowo, frazę lub całe zdanie. Kawa, hity lat 90., filmy z Oscarów. Wystarczy jeden pomysł."
+        },
+        {
+          "title": "Dodaj więcej pomysłów",
+          "body": "Naciśnij +, aby dodać tematy, albo wybierz sugestię. Naciśnij chip, aby go usunąć."
+        },
+        {
+          "title": "Język i trudność",
+          "body": "Język talii to język kart. Trudność ustala, jak trudne będą zakazane słowa."
+        },
+        {
+          "title": "Graj w obu trybach",
+          "body": "Ta sama talia działa w Zakazanych słowach i Heads Up. Wybierz tryb po naciśnięciu talii."
+        },
+        {
+          "title": "Generuj w kilka sekund",
+          "body": "Zaloguj się i naciśnij Utwórz. Twoja własna talia jest gotowa od razu."
+        }
+      ]
+    }
+  },
+  "ai": {
+    "title": "Każdy temat może stać się grą.",
+    "subtitle": "Wasze wewnętrzne żarty właśnie stały się talią. Wpisz temat i patrz, jak pojawiają się karty.",
+    "topics": "polski pop lat 90., złoczyńcy Marvel, biurowy chaos, co zawsze mówi nasza paczka",
+    "demoTitle": "Kreator talii AI",
+    "demoHeadline": "Zbuduj talię w 30 sekund.",
+    "demoSubtitle": "Opisz dowolny temat. AI pisze karty Taboo: słowo docelowe plus zakazane wskazówki. Wasza grupa gra od razu.",
+    "inputLabel": "Twój temat",
+    "inputPlaceholder": "np. filmy Marvel, hity lat 90., biurowe żarty…",
+    "quickIdeas": "Szybkie pomysły",
+    "difficulty": "Trudność",
+    "difficultyEasy": "Łatwa",
+    "difficultyMedium": "Średnia",
+    "difficultyHard": "Trudna",
+    "generateButton": "Utwórz talię",
+    "addTopic": "Dodaj temat",
+    "topicsEmpty": "Wpisz temat, naciśnij + lub wybierz szybki pomysł poniżej.",
+    "generating": "Pisanie kart…",
+    "demoPreviewLabel": "Podgląd karty",
+    "simulationBadge": "Interaktywna demo",
+    "simulationHint": "Zobacz, jak AI zamienia temat w kartę Zakazane słowa. Wybierz trudność i uruchom symulację.",
+    "simulationStepTopic": "Wejście",
+    "simulationStepGenerate": "Generowanie",
+    "simulationStepPreview": "Karty się pojawiają",
+    "simulationStepReady": "Gotowe do gry",
+    "simulationWriting": "AI pisze zakazane słowa…"
+  },
+  "trending": {
+    "title": "W co gramy dziś wieczorem?",
+    "badge": "Na topie",
+    "subtitle": "Gdy coś wybucha, staje się kartą Taboo. Spider-Man: Brand New Day i Obsession są teraz na topie, plus The Odyssey, piłka nożna i więcej. Zobacz prawdziwe słowa docelowe, zanim pobierzesz darmową grę Taboo.",
+    "allCards": "Wszystkie karty na topie →",
+    "compare": {
+      "title": "Porównujesz z inną grą?",
+      "guides": "Poradniki i pomysły na wieczór gier →"
+    }
+  },
+  "decks": {
+    "title": "Wybierz swój klimat",
+    "subtitle": "Zacznij za darmo z Tadado Mix, a potem odblokuj paczki tematyczne, gdy będziesz gotowy.",
+    "countBadge": "8 talii gry",
+    "free": "Za darmo",
+    "play": "PLAY",
+    "price": "$0.99",
+    "newBadge": "NEW",
+    "items": {
+      "mix": {
+        "name": "Tadado Mix",
+        "desc": "Talie szybkiego startu dla każdej grupy!"
+      },
+      "summer": {
+        "name": "Lato",
+        "desc": "Słońce, morze i wakacyjny klimat!"
+      },
+      "cinema": {
+        "name": "Kino",
+        "desc": "Filmy, seriale i aktorzy!"
+      },
+      "travel": {
+        "name": "Podróże",
+        "desc": "Wszystkie miasta i kraje!"
+      },
+      "sport": {
+        "name": "Sport",
+        "desc": "Piłka nożna, koszykówka i więcej!"
+      },
+      "heroes": {
+        "name": "Bohaterowie",
+        "desc": "Bohaterowie komiksów i supermoce!"
+      },
+      "midnight": {
+        "name": "Gry nocne",
+        "desc": "Odważna gra słowna po zmroku!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Prosty, uczciwy cennik",
+    "subtitle": "Bez ukrytych subskrypcji. Płać raz za to, czego chcesz.",
+    "disclaimer": "Ceny w USD; w App Store i Google Play mogą się różnić w zależności od regionu. Zakupy obsługują Apple lub Google.",
+    "mix": {
+      "name": "Tadado Mix",
+      "price": "Free",
+      "desc": "Pobierz za darmo i graj od razu z klasyczną talią startową."
+    },
+    "theme": {
+      "name": "Talie tematyczne",
+      "price": "$0.99",
+      "desc": "Jednorazowy zakup za talię. Lato, Kino, Podróże, Sport, Bohaterowie i więcej."
+    },
+    "ai": {
+      "name": "Tworzenie talii AI",
+      "price": "$2.99",
+      "desc": "Wygeneruj własną talię z dowolnego tematu. Graj w obu trybach."
+    },
+    "trust": "Bez reklam · Bez subskrypcji · Przywracaj zakupy w każdej chwili"
+  },
+  "howItWorks": {
+    "title": "Jak to działa",
+    "steps": [
+      {
+        "title": "Wybierz tryb",
+        "body": "Zakazane słowa dla drużyn albo Heads Up na czole."
+      },
+      {
+        "title": "Wybierz talię",
+        "body": "Graj za darmo z Mix albo odblokuj paczki tematyczne i talie AI."
+      },
+      {
+        "title": "Przekaż telefon i graj",
+        "body": "Ustaw drużyny, timer i rundy – niech zacznie się śmiech."
+      }
+    ]
+  },
+  "community": {
+    "title": "Wieczory gier na całym świecie",
+    "subtitle": "Obserwuj Tadado po klipy, pomysły na talie i inspiracje imprezowe.",
+    "metrics": [
+      { "value": "300,000+", "label": "rozegranych gier", "animate": true },
+      { "value": "17", "label": "języków" },
+      { "value": "2", "label": "tryby gry" }
+    ],
+    "languagesTitle": "Obsługiwane języki",
+    "languagesCaption": "Równe wsparcie we wszystkich językach aplikacji. Bez zmyślonych danych użycia.",
+    "trendingLabel": "Na topie dziś wieczorem",
+    "editorialLabel": "Najnowsze od Tadado",
+    "editorialItems": [
+      { "title": "Sezon letnich talii", "body": "Słońce, morze i wakacyjny klimat na ciepłe wieczory." },
+      { "title": "Talie na wieczór filmowy", "body": "Karty kinowe dla fanów filmów i seriali." },
+      { "title": "Stwórz własną", "body": "Zamień dowolny temat w talię do gry dzięki AI." }
+    ],
+    "socialCta": "Dołącz do społeczności Tadado",
+    "instagramCta": "Instagram",
+    "instagramDesc": "Reels, klipy z wieczorów gier i pomysły na talie",
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Filmy Heads Up i wyzwania imprezowe",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Aktualności od Tadado Game Development",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "Zobacz Tadado na Product Hunt"
+  },
+  "affiliate": {
+    "title": "Zarabiaj 20% jako partner Tadado",
+    "subtitle": "Graj ze znajomymi, nagraj krótki film i udostępnij swój kod. Proste.",
+    "rate": "20%",
+    "rateNote": "prowizji od każdej sprzedaży przez twój kod",
+    "steps": [
+      {
+        "title": "Graj i nagrywaj",
+        "body": "Zorganizuj wieczór gier ze znajomymi i nagraj krótki klip z Tadado."
+      },
+      {
+        "title": "Odbierz kod",
+        "body": "Napisz do nas. Stworzymy osobisty kod promocyjny tylko dla ciebie."
+      },
+      {
+        "title": "Udostępniaj i zarabiaj",
+        "body": "Opublikuj film z kodem. Zarabiaj 20% od talii tematycznych i zakupów talii AI."
+      }
+    ],
+    "cta": {
+      "button": "Poproś o kod partnerski",
+      "hint": "Napisz do nas z linkiem do TikToka, Instagrama lub YouTube.",
+      "subject": "Prośba o kod partnerski Tadado",
+      "bodyTemplate": "Cześć zespole Tadado,\n\nChcę dołączyć do programu partnerskiego.\n\nImię:\nLink do social mediów:\n\nDzięki!"
+    },
+    "learnMore": "Pełne szczegóły programu",
+    "back": "Wróć do Tadado",
+    "pageNote": "Rozpatrujemy każde zgłoszenie w ciągu kilku dni roboczych. Prowizja jest wypłacana za kwalifikujące się zakupy w aplikacji przez twój osobisty kod."
+  },
+  "partnerships": {
+    "title": "Współpracuj z nami",
+    "subtitle": "Nowe pomysły na talie, współprace markowe lub inwestycja. Wystarczy e-mail.",
+    "learnMore": "Zobacz opcje współpracy",
+    "back": "Wróć do Tadado",
+    "pageNote": "Tadado Game Development buduje portfolio czystych gier mobilnych. Czytamy każdy e-mail.",
+    "deckRequest": {
+      "title": "Chcesz nową talię?",
+      "body": "Wyślij nam pomysł na temat. To wszystko.",
+      "cta": "Wyślij pomysły na talie",
+      "subject": "Prośba o talię Tadado"
+    },
+    "collaboration": {
+      "title": "Współprace markowe",
+      "body": "Talie co-brandingowe, kampanie lub partnerstwa z twórcami.",
+      "cta": "Napisz do nas",
+      "subject": "Współpraca Tadado"
+    },
+    "investors": {
+      "title": "Inwestorzy i nowe gry",
+      "body": "Aniołowie biznesu, wydawcy lub firmy, które chcą budować z nami.",
+      "cta": "Napisz do nas",
+      "subject": "Partnerstwo / inwestycja Tadado"
+    }
+  },
+  "blog": {
+    "title": "Z bloga",
+    "subtitle": "Poradniki, pomysły na gry imprezowe i wskazówki, jak wycisnąć więcej z Tadado.",
+    "readMore": "Czytaj artykuł",
+    "viewAll": "Wszystkie wpisy"
+  },
+  "seoGuides": {
+    "title": "Jak grać i najlepsze poradniki gier słownych",
+    "subtitle": "Zasady krok po kroku dla Taboo, Heads Up i wybór najlepszych mobilnych gier słownych."
+  },
+  "faq": {
+    "title": "Pytania, odpowiedzi.",
+    "subtitle": "Wszystko, co musisz wiedzieć przed następnym wieczorem gier.",
+    "items": [
+      {
+        "q": "Jak grać w Taboo (Zakazane słowa)?",
+        "a": "Podzielcie się na drużyny. Jeden gracz opisuje słowo docelowe bez zakazanych wskazówek z karty. Drużyna zgaduje, zanim skończy się czas. Passy są ograniczone. Tadado ma timery, punktację i talie tematyczne – start w kilka sekund."
+      },
+      {
+        "q": "Jak grać w Heads Up?",
+        "a": "Trzymaj telefon na czole, żeby nie widzieć słowa. Znajomi podają wskazówki bez wymawiania słowa. Przechyl w dół przy trafieniu, w górę, aby pominąć. Tadado używa tych samych talii w trybach Heads Up i Taboo."
+      },
+      {
+        "q": "Czy Tadado to jedna z najlepszych darmowych gier słownych?",
+        "a": "Tadado jest stworzone na wieczory gier: Taboo, Heads Up, darmowy Tadado Mix, opcjonalne talie tematyczne i tworzenie talii AI. Bez reklam i subskrypcji – jedna z najlepszych gier słownych pod względem wartości na iOS i Android."
+      },
+      {
+        "q": "Czy Tadado jest darmowe?",
+        "a": "Tak. Tadado Mix jest darmowe. Opcjonalne talie tematyczne i tworzenie talii AI to jednorazowe zakupy. Szczegóły w Cenniku. Nie ma subskrypcji."
+      },
+      {
+        "q": "Jaka jest różnica między Taboo a Heads Up?",
+        "a": "Zakazane słowa to Taboo drużynowe: opisuj bez zakazanych słów. Heads Up kładzie telefon na czole, a znajomi podają wskazówki. Oba używają tych samych talii."
+      },
+      {
+        "q": "Czy Tadado ma reklamy?",
+        "a": "Nie. Tadado jest bez reklam. Płacisz tylko za opcjonalne talie lub tworzenie AI, jeśli chcesz."
+      },
+      {
+        "q": "Jak działa tworzenie talii AI?",
+        "a": "Wpisz temat, np. „filmy Marvel” lub „hity lat 90.”, a Tadado wygeneruje talię do gry w kilka sekund w obu trybach."
+      },
+      {
+        "q": "Jakie języki są obsługiwane?",
+        "a": "Interfejs aplikacji jest dostępny w 17 językach, w tym angielskim, tureckim, hiszpańskim, niemieckim, francuskim i innych."
+      }
+    ]
+  },
+  "compare": {
+    "title": "Jak wypada Tadado",
+    "subtitle": "Zobacz, dlaczego gracze przechodzą z aplikacji Taboo lub Heads Up w jednym trybie na Tadado.",
+    "back": "Wróć do Tadado",
+    "columns": {
+      "feature": "Funkcja",
+      "tadado": "Tadado",
+      "others": "Typowe aplikacje"
+    },
+    "rows": [
+      {
+        "feature": "Taboo + Heads Up w jednej aplikacji",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Kreator talii AI",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Darmowa talia startowa (Tadado Mix)",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Bez reklam",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Bez subskrypcji",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Paczki talii tematycznych",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17 języków",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Punktacja trudności słów",
+        "tadado": "yes",
+        "others": "no"
+      }
+    ],
+    "note": "Wiele aplikacji skupia się na jednym trybie, pokazuje reklamy lub blokuje treści za subskrypcją. Tadado jest stworzone na prawdziwe wieczory gier z oboma trybami, darmową talią startową i jednorazowymi dodatkami.",
+    "cta": "Pobierz Tadado za darmo",
+    "viewFull": "Otwórz pełną stronę porównania"
+  },
+  "team": {
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Jeden zespół produktowy tworzący gry mobilne, w które ludzie chcą grać razem.",
+    "title": "Kim jesteśmy",
+    "subtitle": "Mały zespół za kartami.",
+    "intro": "Jesteśmy dwuosobowym zespołem, który woli wypuszczać gry imprezowe niż pisać korporacyjne bio. Jeden koduje chaos, drugi projektuje karty.",
+    "back": "Wróć do Tadado",
+    "funFactsLabel": "Ciekawostki",
+    "members": {
+      "eren": {
+        "name": "Eren Nasıroğlu",
+        "role": "Software Developer",
+        "bio": "Full-stack developer tworzący Tadado i aplikacje mobilne w React Native, Next.js i Node.js. Absolwent systemów informacji zarządczych, skupiony na czystym kodzie i designie przyjaznym graczom.",
+        "funFacts": [
+          "Doprowadził Tadado od pomysłu do App Store, łącząc pracę w fintechu w Pulse FinTech.",
+          "Debuguje produkcję o 2 w nocy – ale tylko jeśli timer nadal poprawnie odlicza.",
+          "Wierzy, że najlepsze gry imprezowe potrzebują zero tutorialu i maksymalnej powtarzalności."
+        ],
+        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "websiteCta": "Odwiedź erennasiroglu.de"
+      },
+      "nur": {
+        "name": "Nur Günen",
+        "role": "Product Designer",
+        "bio": "Projektantka UI/UX produktu Tadado i studentka architektury na İzmir Democracy University. Kształtuje język wizualny, przepływ interakcji i doświadczenie gry od kart po ekrany.",
+        "funFacts": [
+          "Dniem myśli o percepcji przestrzeni w skali dziecka, nocą o układach kart.",
+          "Poprowadziła end-to-end design produktu Tadado od pierwszego wireframe'u do dopracowanych ekranów gry.",
+          "Zauważy, jeśli promień przycisku jest przesunięty o 2 piksele. Grzecznie."
+        ],
+        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "websiteCta": "Odwiedź nurgunen.com"
+      }
+    },
+    "joinCta": {
+      "title": "Pomóż nam budować następną generację gier mobilnych.",
+      "body": "Tadado to nasz pierwszy krok w stronę globalnego studia gier mobilnych społecznych i wielokrotnie grywalnych. Budujemy portfolio oryginalnych produktów na wieczory gier na całym świecie i jesteśmy otwarci na rozmowy z aniołami biznesu, partnerami strategicznymi i osobami, które pomogą nam skalować dystrybucję. Jeśli wierzysz, że małe zespoły mogą tworzyć produkty definiujące kategorię, chętnie usłyszymy od ciebie.",
+      "link": "Porozmawiaj z zespołem"
+    }
+  },
+  "newsletter": {
+    "title": "Nigdy nie zabraknie pomysłów na wieczór gier.",
+    "subtitle": "Nowe motywy, funkcje i wskazówki imprezowe. Bez spamu.",
+    "placeholder": "ty@email.com",
+    "button": "Dołącz do listy",
+    "success": "Jesteś na liście. Napiszemy, gdy pojawi się coś nowego.",
+    "privacy": "Wysyłamy tylko aktualizacje Tadado. Wypisz się w każdej chwili.",
+    "errorInvalid": "Wpisz prawidłowy adres e-mail.",
+    "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "cta": {
+    "title": "Twój następny wieczór gier potrzebuje Tadado.",
+    "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "finalCta": {
+    "title": "Twój następny wieczór gier potrzebuje Tadado.",
+    "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "footer": {
+    "tagline": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Graj",
+    "discoverTitle": "Odkrywaj",
+    "growTitle": "Rozwijaj się z Tadado",
+    "supportTitle": "Wsparcie",
+    "socialTitle": "Social",
+    "help": "Pomoc",
+    "support": "Wsparcie",
+    "partnerships": "Partnerstwa",
+    "compare": "Porównaj aplikacje",
+    "affiliate": "Program partnerski",
+    "team": "Nasz zespół",
+    "legal": "Prawne",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "GET TADADO · FREE"
+  },
+  "language": {
+    "label": "Język"
+  }
+}

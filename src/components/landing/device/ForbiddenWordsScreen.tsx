@@ -9,7 +9,7 @@ import {
   DEFAULT_PORTRAIT_DEVICE_WIDTH,
   getDeviceMetrics,
 } from "@/lib/device-mockup-tokens";
-import { HERO_TABOO_SAMPLES } from "@/lib/game-preview-tokens";
+import { HERO_TABOO_SAMPLES, type GamePreviewLabels } from "@/lib/game-preview-tokens";
 
 import { PortraitGameDevice } from "./PortraitGameDevice";
 
@@ -17,6 +17,7 @@ interface ForbiddenWordsScreenProps {
   width?: number;
   word?: string;
   forbidden?: readonly string[];
+  labels?: GamePreviewLabels;
   float?: boolean;
   animateWords?: boolean;
   showGlow?: boolean;
@@ -27,6 +28,7 @@ export function ForbiddenWordsScreen({
   width = DEFAULT_PORTRAIT_DEVICE_WIDTH,
   word,
   forbidden,
+  labels,
   float = false,
   animateWords = false,
   showGlow = true,
@@ -66,6 +68,7 @@ export function ForbiddenWordsScreen({
             shellWidth={metrics.innerWidth}
             word={displayWord}
             forbidden={[...displayForbidden]}
+            labels={labels}
           />
         </motion.div>
       </AnimatePresence>

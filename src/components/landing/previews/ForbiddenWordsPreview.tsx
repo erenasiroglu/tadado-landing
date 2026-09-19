@@ -3,12 +3,33 @@ import { Ban, CheckCircle2, LogOut, SkipForward } from "lucide-react";
 import {
   ACTION_VARIANTS,
   FORBIDDEN_WORDS_PREVIEW,
+  FORBIDDEN_WORDS_STYLE,
+  type GamePreviewLabels,
   GLASS_TEXT_PRIMARY,
   gameScreenPreviewScale,
   getGameScreenPreviewMetrics,
 } from "@/lib/game-preview-tokens";
 
-const t = FORBIDDEN_WORDS_PREVIEW;
+const defaultLabels: GamePreviewLabels = {
+  timeLeft: FORBIDDEN_WORDS_PREVIEW.timeLeft,
+  passStatus: FORBIDDEN_WORDS_PREVIEW.passStatus,
+  roundLabel: FORBIDDEN_WORDS_PREVIEW.roundLabel,
+  tabooLabel: FORBIDDEN_WORDS_PREVIEW.tabooLabel,
+  passLabel: FORBIDDEN_WORDS_PREVIEW.passLabel,
+  correctLabel: FORBIDDEN_WORDS_PREVIEW.correctLabel,
+  foreheadTitle: "",
+  tiltUp: "",
+  tiltDown: "",
+  yourTeam: "",
+  turnComplete: "",
+  pointsEarned: "",
+  scoresHeading: "",
+  nextUpLabel: "",
+  continue: "",
+  pauseGame: "",
+  teamA: FORBIDDEN_WORDS_PREVIEW.teamName,
+  teamB: "TEAM B",
+};
 const FORBIDDEN_WORD_COUNT = 4;
 
 function normalizeForbiddenWords(words: readonly string[]): string[] {
@@ -23,6 +44,7 @@ interface ForbiddenWordsPreviewProps {
   shellWidth?: number;
   word?: string;
   forbidden?: readonly string[];
+  labels?: GamePreviewLabels;
 }
 
 function PreviewActionButton({
@@ -108,9 +130,16 @@ function PreviewActionButton({
 
 export function ForbiddenWordsPreview({
   shellWidth = 260,
-  word = t.word,
-  forbidden = t.forbidden,
+  word = FORBIDDEN_WORDS_PREVIEW.word,
+  forbidden = FORBIDDEN_WORDS_PREVIEW.forbidden,
+  labels,
 }: ForbiddenWordsPreviewProps) {
+  const t = {
+    ...FORBIDDEN_WORDS_STYLE,
+    ...defaultLabels,
+    ...labels,
+    pointsMultiplier: FORBIDDEN_WORDS_PREVIEW.pointsMultiplier,
+  };
   const scale = gameScreenPreviewScale(shellWidth);
   const m = getGameScreenPreviewMetrics(scale);
   const forbiddenWords = normalizeForbiddenWords(forbidden);
@@ -184,7 +213,7 @@ export function ForbiddenWordsPreview({
                 lineHeight: 1.05,
               }}
             >
-              {t.teamName}
+              {t.teamA}
             </p>
             <div
               className="z-10 flex items-center justify-center overflow-hidden rounded-full border"

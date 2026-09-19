@@ -1,39 +1,39 @@
 {
   "meta": {
-    "title": "Tadado — Taboo & Heads Up παιχνίδι πάρτι",
-    "description": "Παίξε Taboo και Heads Up σε ένα app. Δημιούργησε deck ΤΝ σε δευτερόλεπτα. Tadado Mix δωρεάν. Χωρίς διαφημίσεις. Χωρίς συνδρομή."
+    "title": "Tadado: Παιχνίδι λέξεων για πάρτι | Taboo, Heads Up & τράπουλες AI",
+    "description": "Ένα κινητό. Οι φίλοι σου. Taboo, Heads Up και τράπουλες AI για βραδιές παιχνιδιού. Δωρεάν για αρχή. Χωρίς διαφημίσεις. iOS και Android."
   },
   "nav": {
+    "play": "Παίξε",
+    "aiDecks": "Τράπουλες AI",
+    "decks": "Τράπουλες",
+    "community": "Κοινότητα",
+    "howItWorks": "Πώς λειτουργεί",
+    "faq": "FAQ",
+    "getTadado": "Πάρε το Tadado",
     "pricing": "Τιμές",
     "blog": "Blog",
-    "compare": "Compare",
+    "guides": "Οδηγοί",
+    "compare": "Σύγκριση",
     "affiliate": "Affiliate",
-    "team": "Team",
-    "download": "Λήψη",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
-    "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "team": "Ομάδα",
+    "download": "Λήψη"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "title": "Ένα κινητό. Οι φίλοι σου. Ας ξεκινήσει το χάος.",
+    "subtitle": "Taboo, Heads Up και προσαρμοσμένες τράπουλες AI για βραδιές παιχνιδιού.",
     "ctaPrimary": "GET TADADO · FREE",
     "ctaSecondary": "SEE HOW IT WORKS",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "παιχνίδια",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "λειτουργίες"
       },
       {
         "value": "AI",
@@ -41,16 +41,16 @@
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "γλώσσες"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "τράπουλες",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "παιχνίδι"
       },
       {
         "value": "No",
@@ -59,116 +59,217 @@
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "300.000+ παιχνίδια",
+    "modes": "2 λειτουργίες παιχνιδιού",
+    "ai": "Με τεχνητή νοημοσύνη",
+    "languages": "17 γλώσσες",
+    "offline": "Παίξε offline",
+    "noAds": "Χωρίς διαφημίσεις"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "Τι κάνει το Tadado ξεχωριστό;",
+    "subtitle": "Φτιαγμένο για πραγματικές βραδιές παιχνιδιού: γρήγορο ξεκίνημα, εύκολη κοινοποίηση και γέλιο στην παρέα.",
+    "developer": "Από την Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "Δύο λειτουργίες, μία εφαρμογή",
+        "body": "Άλλαξε μεταξύ Απαγορευμένων λέξεων και Heads Up χωρίς δύο λήψεις. Ίδιες τράπουλες, διαφορετική ενέργεια κάθε γύρο."
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "Τράπουλες AI σε δευτερόλεπτα",
+        "body": "Γράψε οποιοδήποτε θέμα και πάρε αμέσως τράπουλα έτοιμη για παιχνίδι. Ιδανικό για εσωτερικά αστεία, βραδιές ταινιών ή θεματικά πάρτι."
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "Χωρίς διαφημίσεις, χωρίς συνδρομή",
+        "body": "Ξεκίνα δωρεάν με Tadado Mix. Πλήρωσε μία φορά μόνο αν θέλεις επιπλέον θεματικές τράπουλες ή δημιουργία τράπουλας AI."
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "17 γλώσσες ενσωματωμένες",
+        "body": "Παίξε με παρέες πολλών γλωσσών. Το UI και οι κάρτες προσαρμόζονται ώστε όλοι να μπορούν να συμμετέχουν."
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "παιχνίδια παγκοσμίως",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "λειτουργίες παιχνιδιού",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "γλώσσες στην εφαρμογή",
+    "developerNote": "Εμπιστεύονται παίκτες παγκοσμίως · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "Για πραγματικές βραδιές παιχνιδιού",
+    "title": "Ένα κινητό. Ομάδες. Χρονόμετρα. Γύροι.",
+    "statement": "Ένα κινητό. Ομάδες. Χρονόμετρα. Γύροι. Offline παιχνίδι. Χωρίς διαφημίσεις.",
+    "details": [
+      "Offline παιχνίδι",
+      "Ομάδες & χρονόμετρα",
+      "Χωρίς διαφημίσεις",
+      "Χωρίς συνδρομή"
+    ]
+  },
+  "personalization": {
+    "title": "Κάν' το δικό σου.",
+    "subtitle": "Δεν είναι το ίδιο παιχνίδι κάθε φορά. Κάθε παρέα μπορεί να δημιουργήσει τη δική της εμπειρία.",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "Φίλοι",
+        "topic": "Χάος Σαββατοκύριακου"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "Οικογένεια",
+        "topic": "Κυριακάτικο τραπέζι"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "Γενέθλια",
+        "topic": "Κλασικά πάρτι"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "Βραδιά ταινίας",
+        "topic": "Ταινίες Oscar"
+      },
+      {
+        "label": "Αθλητισμός",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Ταξίδια",
+        "topic": "Παιχνίδια στο δρόμο"
+      },
+      {
+        "label": "Γραφείο",
+        "topic": "Χάος γραφείου"
+      },
+      {
+        "label": "Πανεπιστήμιο",
+        "topic": "Θρύλοι campus"
+      },
+      {
+        "label": "Εσωτερικά αστεία",
+        "topic": "Αυτά που λέμε πάντα"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "Αγαπημένο σε βραδιές παιχνιδιού",
+    "subtitle": "Πραγματικές κριτικές App Store από παίκτες που δοκίμασαν το Tadado με φίλους.",
+    "appStoreRating": "5,0 στο App Store",
+    "appStoreCount": "8 αξιολογήσεις",
+    "sourceLabel": "Κριτική App Store",
+    "items": [
+      {
+        "quote": "Το βρήκαμε με φίλους και το κατεβάσαμε. Το design και το UI είναι πολύ καλά. Η δημιουργία καρτών με AI για τα ενδιαφέροντά μας μας έκανε πολύ χαρούμενους. Ο καθένας μπορεί να φτιάξει κάρτες για τα ενδιαφέροντά του και οι λέξεις δεν επαναλαμβάνονται. Συγχαρητήρια.",
+        "author": "kerqeten",
+        "context": "Αυγ 2025 · App Store"
+      },
+      {
+        "quote": "Η δημιουργία προσαρμοσμένων τράπουλων με τον γεννήτορα καρτών AI για οποιοδήποτε θέμα είναι φανταστική. Παίξαμε ώρες με φίλους!",
+        "author": "bk.aliz",
+        "context": "Αυγ 2025 · App Store"
+      },
+      {
+        "quote": "Πολύ διασκεδαστικό παιχνίδι με φίλους, σαν Taboo.",
+        "author": "Silenzi.O",
+        "context": "Ιουλ 2025 · App Store"
+      },
+      {
+        "quote": "Πραγματικά διασκεδαστικό παιχνίδι. Το design είναι όμορφο. Οι κάρτες είναι αστείες, απλές και καθαρές. Χάνεις την αίσθηση του χρόνου.",
+        "author": "mell.17",
+        "context": "Απρ 2025 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
-    "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "title": "Δύο τρόποι να παίξεις",
+    "subtitle": "Κλασικό Taboo με απαγορευμένες λέξεις ή Heads Up στο μέτωπο. Ίδιες τράπουλες, διαφορετική ενέργεια.",
+    "tabooTitle": "Απαγορευμένες λέξεις",
+    "tabooBody": "Περίγραψε την κύρια λέξη, πάρε μεγαλύτερα ρίσκα και αύξησε το σκορ. Οι δυσκολότερες λέξεις ξεκλειδώνουν υψηλότερους πολλαπλασιαστές, από ×2 έως ×5.",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "Κινητό στο μέτωπο. Οι φίλοι δίνουν ενδείξεις. Γείρε κάτω όταν το βρεις.",
+    "newBadge": "Νέα λειτουργία",
+    "showcase": {
+      "portraitGameplay": "Παιχνίδι σε κάθετο",
+      "landscapeGameplay": "Παιχνίδι σε οριζόντιο",
+      "buildScoreTitle": "Χτίσε το σκορ σου",
+      "buildScoreBody": "Πάρε δυσκολότερες λέξεις για να αυξήσεις τον πολλαπλασιαστή και να μετατρέψεις κάθε σωστή απάντηση σε περισσότερους πόντους.",
+      "scoreMultipliersAria": "Πολλαπλασιαστές σκορ: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "Απομένουν 42 δευτερόλεπτα",
+    "passStatus": "2 / 3 πάσες απομένουν",
+    "roundLabel": "Γύρος 1/3",
+    "tabooLabel": "Απαγορεύεται!",
+    "passLabel": "Πάσα",
+    "correctLabel": "Σωστό",
+    "foreheadTitle": "Βάλε το κινητό στο μέτωπό σου",
+    "tiltUp": "Σήκωσε για παράλειψη",
+    "tiltDown": "Χαμήλωσε αν είναι σωστό",
+    "yourTeam": "Η ομάδα σου",
+    "turnComplete": "Η σειρά ολοκληρώθηκε",
+    "pointsEarned": "Πόντοι που κερδίστηκαν",
+    "scoresHeading": "Σκορ",
+    "nextUpLabel": "Επόμενος",
+    "continue": "Συνέχεια",
+    "pauseGame": "Παύση παιχνιδιού",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "Άνοιγμα μενού",
+    "closeLanguageMenu": "Κλείσιμο μενού γλωσσών",
+    "mainNav": "Κύρια",
+    "mobileNav": "Κινητό",
+    "previousDeck": "Προηγούμενη τράπουλα",
+    "nextDeck": "Επόμενη τράπουλα",
+    "launchVideo": "Βίντεο κυκλοφορίας Tadado",
+    "unmuteVideo": "Ενεργοποίηση ήχου βίντεο",
+    "muteVideo": "Σίγαση βίντεο",
+    "yes": "Ναι",
+    "no": "Όχι",
+    "partial": "Μερικώς",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Λήψη από App Store",
+    "getOnGooglePlay": "Λήψη από Google Play",
+    "forbiddenWordsGameplay": "Παιχνίδι Απαγορευμένες λέξεις σε κάθετο κινητό",
+    "headsUpGameplay": "Παιχνίδι Heads Up σε οριζόντιο κινητό",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "Πώς να παίξεις κάθε λειτουργία",
+    "subtitle": "Οι ίδιοι κανόνες με την εφαρμογή. Μάθε κάθε λειτουργία και ξεκίνα σε δευτερόλεπτα.",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "Κάθε λέξη έχει δυσκολία",
+      "subtitle": "Οι δυσκολότερες λέξεις δίνουν περισσότερους πόντους. Οι γύροι μένουν δίκαιοι και ανταγωνιστικοί για κάθε παρέα.",
+      "easyLabel": "Εύκολο",
+      "hardLabel": "Δύσκολο",
+      "legendaryLabel": "Θρυλικό",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "Όταν η ομάδα σου το βρίσκει, πάτα Σωστό και πάρε τους πόντους. Οι δυσκολότερες λέξεις έχουν υψηλότερο πολλαπλασιαστή.",
+      "tabooPenalty": "Είπες απαγορευμένη λέξη; Χάνεις την κάρτα. Κανένας πόντος για αυτόν τον γύρο."
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "Απαγορευμένες λέξεις",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "Περίγραψε τη λέξη",
+          "body": "Πες στην ομάδα σου τη λέξη στην κορυφή. Μην πεις ποτέ τις 4 απαγορευμένες λέξεις από κάτω. Μάντεψε όσες περισσότερες κάρτες μπορείς πριν τελειώσει ο χρόνος."
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "Αν πεις απαγορευμένη λέξη, χάνεις την κάρτα. Κανένας πόντος. Η άλλη ομάδα κρατάει το ρυθμό."
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "Πάσα",
+          "body": "Κόλλησες; Πέρασε την κάρτα. Έχεις λίγες πάσες ανά σειρά — κράτα τις για τις δύσκολες."
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "Το σωστό δίνει περισσότερα",
+          "body": "Όταν η ομάδα σου το βρίσκει, πάτα Σωστό και πάρε τους πόντους. Οι δυσκολότερες λέξεις έχουν υψηλότερο πολλαπλασιαστή."
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "Κινητό στο μέτωπο",
+          "body": "Κράτα το κινητό οριζόντια και βάλ' το στο μέτωπό σου. Οι φίλοι βλέπουν τη λέξη. Εσύ όχι."
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "Αυτοί δίνουν ενδείξεις, εσύ μαντεύεις",
+          "body": "Ο παίκτης με το κινητό στο μέτωπο δεν βλέπει τη λέξη. Όλοι οι άλλοι τη διαβάζουν στην οθόνη και δίνουν προφορικές ενδείξεις. Δεν υπάρχει κουμπί πάσας."
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "Το βρήκα",
+          "body": "Το βρήκες; Κίνησε το πηγούνι κάτω, γείρε το κινητό κάτω στο μέτωπο. Παίρνεις πόντο και εμφανίζεται η επόμενη λέξη."
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "Δεν το ήξερα",
+          "body": "Δεν το ξέρεις; Κίνησε το πηγούνι πάνω, γείρε το κινητό πάνω στο μέτωπο. Κανένας πόντος. Πήγαινε στην επόμενη λέξη."
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "Δημιουργία τράπουλας AI",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "Γράψε οποιοδήποτε θέμα",
+          "body": "Πληκτρολόγησε μια λέξη, μια φράση ή μια ολόκληρη πρόταση. Καφές, hits των 90s, ταινίες Oscar. Αρκεί μια ιδέα."
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "Πρόσθεσε περισσότερες ιδέες",
+          "body": "Πάτα + για να στοιβάξεις θέματα ή διάλεξε μια πρόταση. Πάτα ένα chip για να το αφαιρέσεις."
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "Γλώσσα και δυσκολία",
+          "body": "Η γλώσσα της τράπουλας είναι η γλώσσα των καρτών. Η δυσκολία καθορίζει πόσο δύσκολες θα είναι οι απαγορευμένες λέξεις."
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "Παίξε και στις δύο λειτουργίες",
+          "body": "Η ίδια τράπουλα λειτουργεί σε Απαγορευμένες λέξεις και Heads Up. Διάλεξε λειτουργία όταν πατάς την τράπουλα."
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "Δημιούργησε σε δευτερόλεπτα",
+          "body": "Συνδέσου και πάτα Δημιουργία. Η προσαρμοσμένη τράπουλά σου είναι έτοιμη αμέσως."
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "Οποιοδήποτε θέμα μπορεί να γίνει παιχνίδι.",
+    "subtitle": "Τα εσωτερικά σας αστεία μόλις έγιναν τράπουλα. Γράψε ένα θέμα και δες τις κάρτες να εμφανίζονται.",
+    "topics": "ελληνικό pop των 90s, κακοί Marvel, χάος γραφείου, αυτά που λέει πάντα η παρέα μας",
+    "demoTitle": "Δημιουργός τράπουλας AI",
+    "demoHeadline": "Φτιάξε την τράπουλά σου σε 30 δευτερόλεπτα.",
+    "demoSubtitle": "Περίγραψε οποιοδήποτε θέμα. Το AI γράφει κάρτες Taboo: λέξη-στόχος και απαγορευμένες ενδείξεις. Η παρέα σας παίζει αμέσως.",
+    "inputLabel": "Το θέμα σου",
+    "inputPlaceholder": "π.χ. ταινίες Marvel, hits των 90s, αστεία γραφείου…",
+    "quickIdeas": "Γρήγορες ιδέες",
+    "difficulty": "Δυσκολία",
+    "difficultyEasy": "Εύκολη",
+    "difficultyMedium": "Μέτρια",
+    "difficultyHard": "Δύσκολη",
+    "generateButton": "Δημιουργία τράπουλας",
+    "addTopic": "Προσθήκη θέματος",
+    "topicsEmpty": "Γράψε θέμα, πάτα + ή διάλεξε γρήγορη ιδέα παρακάτω.",
+    "generating": "Γράφονται κάρτες…",
+    "demoPreviewLabel": "Προεπισκόπηση κάρτας",
+    "simulationBadge": "Διαδραστική demo",
+    "simulationHint": "Δες το AI να μετατρέπει ένα θέμα σε κάρτα Απαγορευμένων λέξεων. Διάλεξε δυσκολία και τρέξε την προσομοίωση.",
+    "simulationStepTopic": "Είσοδος",
+    "simulationStepGenerate": "Δημιουργία",
+    "simulationStepPreview": "Εμφανίζονται κάρτες",
+    "simulationStepReady": "Έτοιμο για παιχνίδι",
+    "simulationWriting": "Το AI γράφει απαγορευμένες λέξεις…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
+    "title": "Τι παίζουμε απόψε;",
     "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "subtitle": "Όταν κάτι εκρήγνυται, γίνεται κάρτα Taboo. Spider-Man: Brand New Day και Obsession είναι trending τώρα, μαζί με The Odyssey, ποδόσφαιρο και άλλα. Δες τις πραγματικές λέξεις-στόχους πριν κατεβάσεις το δωρεάν παιχνίδι Taboo.",
+    "allCards": "Όλες οι trending κάρτες →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "Το συγκρίνεις με άλλο παιχνίδι;",
+      "guides": "Οδηγοί και ιδέες για βραδιά παιχνιδιού →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
+    "title": "Διάλεξε το vibe σου",
+    "subtitle": "Ξεκίνα δωρεάν με Tadado Mix και ξεκλείδωσε θεματικά πακέτα όταν είσαι έτοιμος.",
+    "countBadge": "8 τράπουλες παιχνιδιού",
+    "free": "Δωρεάν",
     "play": "PLAY",
     "price": "$0.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "Η τράπουλα γρήγορης εκκίνησης για κάθε παρέα!"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "Καλοκαίρι",
+        "desc": "Ήλιος, θάλασσα & διακοπές!"
       },
       "cinema": {
-        "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "name": "Σινεμά",
+        "desc": "Ταινίες, σειρές και ηθοποιοί!"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "Ταξίδια",
+        "desc": "Όλες οι πόλεις και χώρες!"
       },
       "sport": {
-        "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "name": "Αθλητισμός",
+        "desc": "Ποδόσφαιρο, μπάσκετ και άλλα!"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "Ήρωες",
+        "desc": "Ήρωες κόμικς & υπερδυνάμεις!"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "Νυχτερινά παιχνίδια",
+        "desc": "Τολμηρό παιχνίδι λέξεων μετά το σκοτάδι!"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "Απλές, ειλικρινείς τιμές",
+    "subtitle": "Χωρίς κρυφές συνδρομές. Πλήρωσε μία φορά για ό,τι θέλεις.",
+    "disclaimer": "Οι τιμές είναι σε USD και μπορεί να διαφέρουν ανά περιοχή στο App Store και Google Play. Οι αγορές γίνονται από Apple ή Google.",
     "mix": {
       "name": "Tadado Mix",
       "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "desc": "Κατέβασε δωρεάν και παίξε αμέσως με την κλασική τράπουλα εκκίνησης."
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "Θεματικές τράπουλες",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "Εφάπαξ αγορά ανά τράπουλα. Καλοκαίρι, Σινεμά, Ταξίδια, Αθλητισμός, Ήρωες και άλλα."
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "Δημιουργία τράπουλας AI",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "Δημιούργησε προσαρμοσμένη τράπουλα από οποιοδήποτε θέμα. Παίξε και στις δύο λειτουργίες."
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "Χωρίς διαφημίσεις · Χωρίς συνδρομή · Επαναφορά αγορών ανά πάσα στιγμή"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "Πώς λειτουργεί",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "Διάλεξε λειτουργία",
+        "body": "Απαγορευμένες λέξεις για ομάδες ή Heads Up για διασκέδαση στο μέτωπο."
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "Διάλεξε τράπουλα",
+        "body": "Παίξε δωρεάν με Mix ή ξεκλείδωσε θεματικά πακέτα και τράπουλες AI."
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "Πέρασε το κινητό & παίξε",
+        "body": "Όρισε ομάδες, χρονόμετρο και γύρους — και ας ξεκινήσει το γέλιο."
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "Βραδιές παιχνιδιού σε όλο τον κόσμο",
+    "subtitle": "Ακολούθησε το Tadado για clips, ιδέες τράπουλας και έμπνευση για πάρτι.",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "παιχνίδια",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "γλώσσες"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "λειτουργίες"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "Υποστηριζόμενες γλώσσες",
+    "languagesCaption": "Ίση υποστήριξη σε κάθε γλώσσα εφαρμογής. Χωρίς πλαστά δεδομένα χρήσης.",
+    "trendingLabel": "Trending απόψε",
+    "editorialLabel": "Τελευταία από Tadado",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "Σεζόν καλοκαιρινών τράπουλων",
+        "body": "Ήλιος, θάλασσα και διακοπές για ζεστές βραδιές."
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "Τράπουλες βραδιάς ταινίας",
+        "body": "Κάρτες σινεμά για cinephiles και binge watchers."
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "Φτιάξε τη δική σου",
+        "body": "Μετέτρεψε οποιοδήποτε θέμα σε τράπουλα με AI."
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "Μπες στην κοινότητα Tadado",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels, clips βραδιάς παιχνιδιού & ιδέες τράπουλας",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "Βίντεο Heads Up & challenges πάρτι",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "Ενημερώσεις από Tadado Game Development",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "Δες το Tadado στο Product Hunt"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "Κέρδισε 20% ως affiliate Tadado",
+    "subtitle": "Παίξε με φίλους, γύρισε σύντομο βίντεο και μοιράσου τον προσωπικό σου κωδικό. Απλά.",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "προμήθεια σε κάθε πώληση μέσω του κωδικού σου",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "Παίξε και γύρισε",
+        "body": "Κάνε βραδιά παιχνιδιού με φίλους και γύρισε σύντομο clip με Tadado."
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "Πάρε τον κωδικό σου",
+        "body": "Στείλε μας email. Δημιουργούμε προσωπικό promo code μόνο για σένα."
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "Μοιράσου και κέρδισε",
+        "body": "Δημοσίευσε το βίντεό σου με τον κωδικό. Κέρδισε 20% σε θεματικές τράπουλες και αγορές τράπουλας AI."
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "Ζήτησε τον affiliate κωδικό μου",
+      "hint": "Στείλε μας email με link TikTok, Instagram ή YouTube.",
+      "subject": "Αίτημα affiliate κωδικού Tadado",
+      "bodyTemplate": "Γεια σας ομάδα Tadado,\n\nΘέλω να μπω στο affiliate πρόγραμμα.\n\nΌνομα:\nSocial link:\n\nΕυχαριστώ!"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "Πλήρεις λεπτομέρειες προγράμματος",
+    "back": "Πίσω στο Tadado",
+    "pageNote": "Εξετάζουμε κάθε αίτηση σε λίγες εργάσιμες ημέρες. Η προμήθεια πληρώνεται για επιλέξιμες αγορές στην εφαρμογή μέσω του προσωπικού σου κωδικού."
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "Συνεργαστείτε μαζί μας",
+    "subtitle": "Νέες ιδέες τράπουλας, brand collabs ή επένδυση. Αρκεί ένα email.",
+    "learnMore": "Δες επιλογές συνεργασίας",
+    "back": "Πίσω στο Tadado",
+    "pageNote": "Η Tadado Game Development χτίζει χαρτοφυλάκιο καθαρών mobile games. Διαβάζουμε κάθε email.",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "Θέλεις νέα τράπουλα;",
+      "body": "Στείλε μας την ιδέα θέματος με email. Τόσο απλά.",
+      "cta": "Email ιδέες τράπουλας",
+      "subject": "Αίτημα τράπουλας Tadado"
     },
     "collaboration": {
       "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "body": "Co-branded τράπουλες, καμπάνιες ή creator partnerships.",
+      "cta": "Στείλε email",
+      "subject": "Συνεργασία Tadado"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "Επενδυτές & νέα παιχνίδια",
+      "body": "Angel investors, publishers ή εταιρείες που θέλουν να χτίσουν μαζί μας.",
+      "cta": "Στείλε email",
+      "subject": "Συνεργασία / επένδυση Tadado"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "Από το blog",
+    "subtitle": "Οδηγοί, ιδέες παιχνιδιών πάρτι και tips για περισσότερα από Tadado.",
+    "readMore": "Διάβασε άρθρο",
+    "viewAll": "Όλα τα posts"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "Πώς να παίξεις & καλύτεροι οδηγοί παιχνιδιών λέξεων",
+    "subtitle": "Κανόνες βήμα-βήμα για Taboo, Heads Up και επιλογές για τις καλύτερες mobile εφαρμογές παιχνιδιών λέξεων."
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "Ερωτήσεις, απαντήσεις.",
+    "subtitle": "Ό,τι χρειάζεσαι πριν την επόμενη βραδιά παιχνιδιού.",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "Πώς παίζεις Taboo (Απαγορευμένες λέξεις);",
+        "a": "Χωριστείτε σε ομάδες. Ένας παίκτης περιγράφει τη λέξη-στόχο χωρίς τις απαγορευμένες ενδείξεις στην κάρτα. Η ομάδα μαντεύει πριν τελειώσει ο χρόνος. Οι πάσες είναι περιορισμένες. Το Tadado έχει χρονόμετρα, σκορ και θεματικές τράπουλες — ξεκίνα σε δευτερόλεπτα."
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "Πώς παίζεις Heads Up;",
+        "a": "Κράτα το κινητό στο μέτωπο ώστε να μην βλέπεις τη λέξη. Οι φίλοι δίνουν ενδείξεις χωρίς να την πουν. Γείρε κάτω όταν μαντέψεις σωστά, πάνω για παράλειψη. Το Tadado χρησιμοποιεί τις ίδιες τράπουλες σε Heads Up και Taboo."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "Είναι το Tadado μία από τις καλύτερες δωρεάν εφαρμογές παιχνιδιών λέξεων;",
+        "a": "Το Tadado φτιάχτηκε για βραδιές παιχνιδιού: Taboo, Heads Up, δωρεάν Tadado Mix, προαιρετικές θεματικές τράπουλες και δημιουργία τράπουλας AI. Χωρίς διαφημίσεις και συνδρομή — μία από τις καλύτερες εφαρμογές παιχνιδιών λέξεων σε iOS και Android."
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "Είναι το Tadado δωρεάν;",
+        "a": "Ναι. Το Tadado Mix παίζεται δωρεάν. Οι προαιρετικές θεματικές τράπουλες και η δημιουργία τράπουλας AI είναι εφάπαξ αγορές. Δες Τιμές για λεπτομέρειες. Δεν υπάρχει συνδρομή."
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "Ποια είναι η διαφορά μεταξύ Taboo και Heads Up;",
+        "a": "Οι Απαγορευμένες λέξεις είναι team-based Taboo: περιγράφεις χωρίς απαγορευμένες λέξεις. Το Heads Up βάζει το κινητό στο μέτωπο ενώ οι φίλοι δίνουν ενδείξεις. Και τα δύο χρησιμοποιούν τις ίδιες τράπουλες."
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "Έχει το Tadado διαφημίσεις;",
+        "a": "Όχι. Το Tadado είναι χωρίς διαφημίσεις. Πληρώνεις μόνο για προαιρετικές τράπουλες ή δημιουργία AI αν το θέλεις."
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "Πώς λειτουργεί η δημιουργία τράπουλας AI;",
+        "a": "Γράψε ένα θέμα, όπως «ταινίες Marvel» ή «hits των 90s», και το Tadado δημιουργεί τράπουλα σε δευτερόλεπτα για και τις δύο λειτουργίες."
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "Ποιες γλώσσες υποστηρίζονται;",
+        "a": "Το UI της εφαρμογής είναι διαθέσιμο σε 17 γλώσσες, συμπεριλαμβανομένων αγγλικών, τουρκικών, ισπανικών, γερμανικών, γαλλικών και άλλων."
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "Πώς συγκρίνεται το Tadado",
+    "subtitle": "Δες γιατί παίκτες αλλάζουν από εφαρμογές Taboo ή Heads Up με ένα mode στο Tadado.",
+    "back": "Πίσω στο Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "Λειτουργία",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "Τυπικές εφαρμογές"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up σε μία εφαρμογή",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "Δημιουργός προσαρμοσμένης τράπουλας AI",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "Δωρεάν τράπουλα εκκίνησης (Tadado Mix)",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "Χωρίς διαφημίσεις",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "Χωρίς συνδρομή",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "Θεματικά πακέτα τράπουλας",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 γλώσσες",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "Σκορ δυσκολίας λέξεων",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "Πολλές εφαρμογές εστιάζουν σε ένα mode, δείχνουν διαφημίσεις ή κλειδώνουν περιεχόμενο πίσω από συνδρομές. Το Tadado φτιάχτηκε για πραγματικές βραδιές παιχνιδιού με και τα δύο modes, δωρεάν τράπουλα εκκίνησης και εφάπαξ extras.",
+    "cta": "Κατέβασε Tadado δωρεάν",
+    "viewFull": "Άνοιγμα πλήρους σελίδας σύγκρισης"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Μία ομάδα προϊόντος που φτιάχνει mobile games που θέλουν να παίζουν μαζί.",
+    "title": "Ποιοι είμαστε",
+    "subtitle": "Η μικρή ομάδα πίσω από τις κάρτες.",
+    "intro": "Είμαστε δύο builders που προτιμούν να κυκλοφορούν party games παρά να γράφουν corporate bios. Ο ένας κωδικοποιεί το χάος, η άλλη σχεδιάζει τις κάρτες.",
+    "back": "Πίσω στο Tadado",
     "funFactsLabel": "Fun facts",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "bio": "Full-stack developer που χτίζει Tadado και mobile apps με React Native, Next.js και Node.js. Απόφοιτος Πληροφοριακών Συστημάτων Διοίκησης, με έμφαση σε καθαρό κώδικα και design φιλικό στον παίκτη.",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "Έφτασε το Tadado από ιδέα στο App Store ενώ δούλευε σε fintech στην Pulse FinTech.",
+          "Θα κάνει debug production στις 2 π.μ., αλλά μόνο αν ο χρονόμετρος μετράει σωστά.",
+          "Πιστεύει ότι τα καλύτερα party games χρειάζονται μηδέν tutorial και μέγιστη επαναληψιμότητα."
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "Επίσκεψη erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
         "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "bio": "Product UI/UX designer για Tadado και φοιτήτρια αρχιτεκτονικής στο İzmir Democracy University. Διαμορφώνει οπτική γλώσσα, ροή αλληλεπίδρασης και εμπειρία παιχνιδιού από κάρτες σε οθόνες.",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "Σκέφτεται χωρική αντίληψη παιδικής κλίμακας μέρα, layouts καρτών νύχτα.",
+          "Ηγήθηκε του end-to-end product design του Tadado από το πρώτο wireframe μέχρι τις polished οθόνες παιχνιδιού.",
+          "Θα παρατηρήσει αν η ακτίνα του κουμπιού είναι 2 pixels εκτός. Ευγενικά."
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "Επίσκεψη nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "Βοήθησέ μας να χτίσουμε την επόμενη γενιά mobile games.",
+      "body": "Το Tadado είναι το πρώτο μας βήμα προς ένα global studio για κοινωνικά, επαναληψίμως παιχνίδια mobile. Χτίζουμε χαρτοφυλάκιο πρωτότυπων προϊόντων για βραδιές παιχνιδιού παγκοσμίως και είμαστε ανοιχτοί σε συζητήσεις με angel investors, στρατηγικούς εταίρους και ανθρώπους που μπορούν να μας βοηθήσουν να κλιμακώσουμε τη διανομή. Αν πιστεύεις ότι μικρές ομάδες μπορούν να φτιάξουν προϊόντα που καθορίζουν κατηγορία, θα θέλαμε να ακούσουμε από εσένα.",
+      "link": "Μίλησε με την ομάδα"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
+    "title": "Μην ξεμείνεις ποτέ από ιδέες για βραδιά παιχνιδιού.",
+    "subtitle": "Νέα themes, features και tips για πάρτι. Χωρίς spam.",
     "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "button": "Μπες στη λίστα αναμονής",
+    "success": "Είσαι στη λίστα. Θα σου στείλουμε email όταν βγει κάτι νέο.",
+    "privacy": "Στέλνουμε email μόνο για ενημερώσεις Tadado. Απεγγραφή ανά πάσα στιγμή.",
+    "errorInvalid": "Εισήγαγε έγκυρη διεύθυνση email.",
+    "errorGeneric": "Κάτι πήγε στραβά. Δοκίμασε ξανά."
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
+    "title": "Η επόμενη βραδιά παιχνιδιού χρειάζεται Tadado.",
+    "subtitle": "Ένα κινητό. Όλοι καλούνται.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "finalCta": {
+    "title": "Η επόμενη βραδιά παιχνιδιού χρειάζεται Tadado.",
+    "subtitle": "Ένα κινητό. Όλοι καλούνται.",
+    "button": "GET TADADO · FREE",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
-    "tagline": "Describe, guess, make it yours.",
+    "tagline": "Ένα κινητό. Οι φίλοι σου. Ας ξεκινήσει το χάος.",
     "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
+    "playTitle": "Παίξε",
+    "discoverTitle": "Ανακάλυψε",
+    "growTitle": "Μεγάλωσε με Tadado",
+    "supportTitle": "Υποστήριξη",
     "socialTitle": "Social",
-    "help": "Help"
+    "help": "Βοήθεια",
+    "support": "Υποστήριξη",
+    "partnerships": "Συνεργασίες",
+    "compare": "Σύγκριση εφαρμογών",
+    "affiliate": "Affiliate πρόγραμμα",
+    "team": "Η ομάδα μας",
+    "legal": "Νομικά",
+    "terms": "Όροι χρήσης",
+    "privacy": "Πολιτική απορρήτου",
+    "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "Download free"
+    "download": "GET TADADO · FREE"
   },
   "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
-  },
-  "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "label": "Γλώσσα"
   }
 }

@@ -92,7 +92,7 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
           buttonVariants({ variant: "outline", size: "icon" }),
           "h-9 w-9 cursor-pointer border-white/12 bg-white/[0.04] text-cream",
         )}
-        aria-label="Open menu"
+        aria-label={dict.a11y.openMenu}
       >
         <Menu className="h-4 w-4" />
       </SheetTrigger>
@@ -118,7 +118,7 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
 
         <nav
           className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 py-4"
-          aria-label="Mobile"
+          aria-label={dict.a11y.mobileNav}
         >
           <NavSection title={dict.footer.playTitle}>
             {playLinks.map((link) => (

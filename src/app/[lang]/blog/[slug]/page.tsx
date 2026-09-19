@@ -24,11 +24,13 @@ export async function generateMetadata({
   if (!post) return {};
 
   const languages: Record<string, string> = {
-    [lang]: `https://tadado.app/${lang}/blog/${slug}`,
+    "x-default": `https://tadado.app/en/blog/${post.alternates.find((a) => a.locale === "en")?.slug ?? slug}`,
   };
-  if (post.alternateLocale && post.alternateSlug) {
-    languages[post.alternateLocale] =
-      `https://tadado.app/${post.alternateLocale}/blog/${post.alternateSlug}`;
+  for (const alt of post.alternates) {
+    languages[alt.locale] = `https://tadado.app/${alt.locale}/blog/${alt.slug}`;
+  }
+  if (!languages[lang]) {
+    languages[lang] = `https://tadado.app/${lang}/blog/${slug}`;
   }
 
   return {
@@ -80,7 +82,7 @@ export default async function BlogPostPage({
           <h1 className="mt-2 text-4xl font-extrabold text-cream">{post.title}</h1>
           <p className="mt-4 text-lg text-cream/75">{post.description}</p>
           <div className="mt-10" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
-          <PostCta locale={locale} />
+          <PostCta locale={locale} dict={dict} />
         </article>
       </main>
       <Footer locale={locale} dict={dict} />

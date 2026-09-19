@@ -11,10 +11,11 @@ import { cn } from "@/lib/utils";
 interface LanguageMenuProps {
   currentLocale: Locale;
   label: string;
+  closeLabel: string;
   className?: string;
 }
 
-export function LanguageMenu({ currentLocale, label, className }: LanguageMenuProps) {
+export function LanguageMenu({ currentLocale, label, closeLabel, className }: LanguageMenuProps) {
   const pathname = usePathname();
   const router = useRouter();
   const [open, setOpen] = useState(false);
@@ -53,7 +54,7 @@ export function LanguageMenu({ currentLocale, label, className }: LanguageMenuPr
           <button
             type="button"
             className="fixed inset-0 z-40 cursor-default bg-transparent"
-            aria-label="Close language menu"
+            aria-label={closeLabel}
             onClick={() => setOpen(false)}
           />
           <div

@@ -1,174 +1,275 @@
 {
   "meta": {
-    "title": "Tadado — Gioco Tabù & Heads Up per Feste",
-    "description": "Gioca a Tabù e Heads Up in un'app. Crea mazzi IA in secondi. Tadado Mix gratis. Senza pubblicità. Senza abbonamento."
+    "title": "Tadado: Gioco di parole per feste | Taboo, Heads Up e mazzi IA",
+    "description": "Un telefono. I tuoi amici. Taboo, Heads Up e mazzi personalizzati con IA pensati per le serate di gioco. Gratis per iniziare. Senza pubblicità. iOS e Android."
   },
   "nav": {
+    "play": "Gioca",
+    "aiDecks": "Mazzi IA",
+    "decks": "Mazzi",
+    "community": "Community",
+    "howItWorks": "Come funziona",
+    "faq": "FAQ",
+    "getTadado": "Scarica Tadado",
     "pricing": "Prezzi",
     "blog": "Blog",
-    "compare": "Compare",
-    "affiliate": "Affiliate",
+    "guides": "Guide",
+    "compare": "Confronta",
+    "affiliate": "Affiliati",
     "team": "Team",
-    "download": "Scarica",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
-    "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "download": "Scarica"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "title": "Un telefono. I tuoi amici. Che cominci il caos.",
+    "subtitle": "Taboo, Heads Up e mazzi personalizzati con IA fatti per le serate di gioco.",
+    "ctaPrimary": "SCARICA TADADO · GRATIS",
+    "ctaSecondary": "SCOPRI COME FUNZIONA",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "partite giocate",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "modalità di gioco"
       },
       {
-        "value": "AI",
-        "label": "powered"
+        "value": "IA",
+        "label": "integrata"
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "lingue"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "mazzi di gioco",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "gioca"
       },
       {
-        "value": "No",
-        "label": "ads"
+        "value": "Senza",
+        "label": "pubblicità"
       }
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "Oltre 300.000 partite giocate",
+    "modes": "2 modalità di gioco",
+    "ai": "Con IA",
+    "languages": "17 lingue",
+    "offline": "Gioca offline",
+    "noAds": "Senza pubblicità"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "Cosa rende speciale Tadado?",
+    "subtitle": "Pensato per vere serate di gioco: parte subito, si condivide facilmente e fa ridere il gruppo.",
+    "developer": "Sviluppato da Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "Due modalità, un'unica app",
+        "body": "Passa da Parole vietate a Heads Up senza scaricare due volte. Stessi mazzi, energia diversa a ogni round."
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "Mazzi IA in pochi secondi",
+        "body": "Scrivi qualsiasi argomento e ottieni un mazzo giocabile all'istante. Perfetto per battute interne, serate cinema o feste a tema."
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "Senza pubblicità, senza abbonamento",
+        "body": "Inizia gratis con Tadado Mix. Paga una sola volta solo se vuoi mazzi tematici extra o creazione mazzi con IA."
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "17 lingue integrate",
+        "body": "Gioca con gruppi multilingue. L'interfaccia e le carte si adattano così tutti possono partecipare."
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "partite giocate in tutto il mondo",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "modalità di gioco",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "lingue nell'app",
+    "developerNote": "Scelto da giocatori in tutto il mondo · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "Pensato per vere serate di gioco",
+    "title": "Un telefono. Squadre. Timer. Round.",
+    "statement": "Un telefono. Squadre. Timer. Round. Gioco offline. Senza pubblicità.",
+    "details": [
+      "Gioco offline",
+      "Squadre e timer",
+      "Senza pubblicità",
+      "Senza abbonamento"
+    ]
+  },
+  "personalization": {
+    "title": "Rendilo tuo.",
+    "subtitle": "Non è lo stesso gioco ogni volta. Ogni gruppo può creare la propria esperienza.",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "Amici",
+        "topic": "Caos del weekend"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "Famiglia",
+        "topic": "Pranzo della domenica"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "Compleanni",
+        "topic": "Classici da festa"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "Serata cinema",
+        "topic": "Film Oscar"
+      },
+      {
+        "label": "Sport",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Viaggi",
+        "topic": "Giochi in auto"
+      },
+      {
+        "label": "Ufficio",
+        "topic": "Caos in ufficio"
+      },
+      {
+        "label": "Università",
+        "topic": "Leggende del campus"
+      },
+      {
+        "label": "Battute interne",
+        "topic": "Quello che diciamo sempre"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "Amato in serata di gioco",
+    "subtitle": "Recensioni reali dall'App Store di giocatori che hanno provato Tadado con gli amici.",
+    "appStoreRating": "5,0 sull'App Store",
+    "appStoreCount": "8 recensioni",
+    "sourceLabel": "Recensione App Store",
+    "items": [
+      {
+        "quote": "L'abbiamo scoperto con gli amici e l'abbiamo scaricato. Design e interfaccia sono davvero buoni. Creare carte con l'IA sui nostri interessi ci ha reso molto felici. Ognuno può creare carte sui propri interessi e le parole non si ripetono. Complimenti.",
+        "author": "kerqeten",
+        "context": "Ago 2025 · App Store"
+      },
+      {
+        "quote": "Creare mazzi personalizzati con il generatore di carte IA per qualsiasi argomento è fantastico. Abbiamo giocato per ore con i nostri amici!",
+        "author": "bk.aliz",
+        "context": "Ago 2025 · App Store"
+      },
+      {
+        "quote": "Un gioco molto divertente da giocare con gli amici, come Taboo.",
+        "author": "Silenzi.O",
+        "context": "Lug 2025 · App Store"
+      },
+      {
+        "quote": "Gioco davvero divertente. Il design è bellissimo. Le carte sono divertenti, semplici e chiare. Perdi la cognizione del tempo.",
+        "author": "mell.17",
+        "context": "Apr 2025 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
-    "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "title": "Due modi di giocare",
+    "subtitle": "Parole vietate stile Taboo classico o Heads Up sulla fronte. Stessi mazzi, energia diversa.",
+    "tabooTitle": "Parole vietate",
+    "tabooBody": "Descrivi la parola principale, corri più rischi e fai crescere il punteggio. Le parole difficili sbloccano moltiplicatori più alti, da ×2 a ×5.",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "Telefono sulla fronte. Gli amici danno indizi. Inclina verso il basso quando indovini.",
+    "newBadge": "Nuova modalità",
+    "showcase": {
+      "portraitGameplay": "Gioco in verticale",
+      "landscapeGameplay": "Gioco in orizzontale",
+      "buildScoreTitle": "Fai crescere il punteggio",
+      "buildScoreBody": "Scegli parole più difficili per aumentare il moltiplicatore e trasformare ogni risposta corretta in più punti.",
+      "scoreMultipliersAria": "Moltiplicatori punteggio: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "42 secondi rimasti",
+    "passStatus": "2 / 3 pass rimasti",
+    "roundLabel": "Round 1/3",
+    "tabooLabel": "Vietato!",
+    "passLabel": "Passa",
+    "correctLabel": "Corretto",
+    "foreheadTitle": "Metti il telefono sulla fronte",
+    "tiltUp": "Alza per saltare",
+    "tiltDown": "Abbassa se indovini",
+    "yourTeam": "La tua squadra",
+    "turnComplete": "Turno completato",
+    "pointsEarned": "Punti guadagnati",
+    "scoresHeading": "Punteggi",
+    "nextUpLabel": "Prossimo",
+    "continue": "Continua",
+    "pauseGame": "Metti in pausa",
+    "teamA": "SQUADRA A",
+    "teamB": "SQUADRA B"
+  },
+  "a11y": {
+    "openMenu": "Apri menu",
+    "closeLanguageMenu": "Chiudi menu lingue",
+    "mainNav": "Principale",
+    "mobileNav": "Mobile",
+    "previousDeck": "Mazzo precedente",
+    "nextDeck": "Mazzo successivo",
+    "launchVideo": "Video di lancio Tadado",
+    "unmuteVideo": "Attiva audio video di lancio",
+    "muteVideo": "Disattiva audio video di lancio",
+    "yes": "Sì",
+    "no": "No",
+    "partial": "Parziale",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Scarica sull'App Store",
+    "getOnGooglePlay": "Disponibile su Google Play",
+    "forbiddenWordsGameplay": "Gioco Parole vietate su telefono in verticale",
+    "headsUpGameplay": "Gioco Heads Up su telefono in orizzontale",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "Come giocare a ogni modalità",
+    "subtitle": "Le stesse regole che vedi nell'app. Impara ogni modalità e inizia in pochi secondi.",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "Ogni parola ha una difficoltà",
+      "subtitle": "Le parole difficili valgono più punti. Così i round restano competitivi ed equi per ogni gruppo.",
+      "easyLabel": "Facile",
+      "hardLabel": "Difficile",
+      "legendaryLabel": "Leggendario",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "Quando la squadra indovina, premi Corretto e prendi i punti. Le parole difficili hanno un moltiplicatore più alto.",
+      "tabooPenalty": "Hai detto una parola vietata? Perdi la carta. Nessun punto in quel round."
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "Parole vietate",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "Descrivi la parola",
+          "body": "Dì alla squadra la parola in alto. Non dire mai le 4 parole vietate sotto. Indovina più carte possibile prima che scada il tempo."
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "Dici una parola vietata e perdi la carta. Nessun punto. L'altra squadra mantiene lo slancio."
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "Passa",
+          "body": "Bloccato? Passa la carta. Hai solo pochi pass a turno, conservali per quelle difficili."
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "Corretto vale di più",
+          "body": "Quando la squadra indovina, premi Corretto e prendi i punti. Le parole difficili hanno un moltiplicatore più alto."
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "Telefono sulla fronte",
+          "body": "Tieni il telefono in orizzontale e mettilo sulla fronte. Gli amici vedono la parola. Tu no."
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "Loro danno indizi, tu indovini",
+          "body": "Chi tiene il telefono sulla fronte non vede la parola. Gli altri la leggono sullo schermo e danno indizi a voce. Non c'è il pulsante passa."
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "Ce l'ho",
+          "body": "Ce l'hai? Annuisci col mento verso il basso e inclina il telefono verso il basso sulla fronte. Segni un punto e appare la parola successiva."
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "Non lo so",
+          "body": "Non lo sai? Annuisci col mento verso l'alto e inclina il telefono verso l'alto sulla fronte. Nessun punto. Passa alla parola successiva."
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "Creazione mazzo IA",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "Scrivi qualsiasi argomento",
+          "body": "Scrivi una parola, una frase o una frase intera. Caffè, hit degli anni '90, film Oscar. Basta un'idea."
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "Aggiungi altre idee",
+          "body": "Premi + per impilare argomenti o scegli un suggerimento. Premi un chip per rimuoverlo."
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "Lingua e difficoltà",
+          "body": "La lingua del mazzo è la lingua delle carte. La difficoltà definisce quanto saranno difficili le parole vietate."
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "Giocalo in entrambe le modalità",
+          "body": "Lo stesso mazzo funziona in Parole vietate e Heads Up. Scegli la modalità quando tocchi il mazzo."
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "Genera in pochi secondi",
+          "body": "Accedi e premi Crea. Il tuo mazzo personalizzato è pronto per giocare subito."
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "Qualsiasi argomento può diventare un gioco.",
+    "subtitle": "Le tue battute interne sono appena diventate un mazzo. Scrivi un argomento e guarda le carte apparire.",
+    "topics": "pop turco anni '90, villain Marvel, caos in ufficio, quello che dice sempre il nostro gruppo",
+    "demoTitle": "Creatore mazzi IA",
+    "demoHeadline": "Crea il tuo mazzo in 30 secondi.",
+    "demoSubtitle": "Descrivi qualsiasi argomento. L'IA scrive carte Taboo: parola obiettivo più indizi vietati. Il gruppo gioca subito.",
+    "inputLabel": "Il tuo argomento",
+    "inputPlaceholder": "es. film Marvel, hit pop anni '90, battute da ufficio…",
+    "quickIdeas": "Idee rapide",
+    "difficulty": "Difficoltà",
+    "difficultyEasy": "Facile",
+    "difficultyMedium": "Medio",
+    "difficultyHard": "Difficile",
+    "generateButton": "Crea mazzo",
+    "addTopic": "Aggiungi argomento",
+    "topicsEmpty": "Scrivi un argomento, premi + o scegli un'idea rapida sotto.",
+    "generating": "Scrittura carte…",
+    "demoPreviewLabel": "Anteprima carta",
+    "simulationBadge": "Demo interattiva",
+    "simulationHint": "Guarda l'IA trasformare un argomento in una carta giocabile di Parole vietate. Scegli una difficoltà e avvia la simulazione.",
+    "simulationStepTopic": "Input",
+    "simulationStepGenerate": "Generazione",
+    "simulationStepPreview": "Le carte appaiono",
+    "simulationStepReady": "Pronto a giocare",
+    "simulationWriting": "L'IA sta scrivendo parole vietate…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
-    "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "title": "Cosa giochiamo stasera?",
+    "badge": "Di tendenza",
+    "subtitle": "Quando qualcosa esplode, diventa una carta Taboo. Spider-Man: Brand New Day e Obsession sono di tendenza adesso, più The Odyssey, calcio e altro. Vedi le vere parole obiettivo prima di scaricare il gioco Taboo gratis.",
+    "allCards": "Tutte le carte di tendenza →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "Lo stai confrontando con un altro gioco?",
+      "guides": "Guide e idee per serate di gioco →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
-    "play": "PLAY",
+    "title": "Scegli il tuo stile",
+    "subtitle": "Inizia gratis con Tadado Mix, poi sblocca pacchetti tematici quando vuoi.",
+    "countBadge": "8 mazzi di gioco",
+    "free": "Gratis",
+    "play": "GIOCA",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "NUOVO",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "Il mazzo rapido per ogni gruppo!"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "Estate",
+        "desc": "Sole, mare e vacanze!"
       },
       "cinema": {
         "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "desc": "Film, serie e attori!"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "Viaggi",
+        "desc": "Tutte le città e i paesi!"
       },
       "sport": {
         "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "desc": "Calcio, basket e altro!"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "Eroi",
+        "desc": "Supereroi e superpoteri!"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "Giochi notturni",
+        "desc": "Gioco di parole audace dopo il tramonto!"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "Prezzi semplici e onesti",
+    "subtitle": "Nessun abbonamento nascosto. Paga una volta per quello che vuoi.",
+    "disclaimer": "I prezzi sono in USD e possono variare per regione su App Store e Google Play. Gli acquisti sono gestiti da Apple o Google.",
     "mix": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "Gratis",
+      "desc": "Scarica gratis e gioca subito con il mazzo iniziale classico."
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "Mazzi tematici",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "Acquisto una tantum per mazzo. Estate, Cinema, Viaggi, Sport, Eroi e altro."
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "Creazione mazzi IA",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "Genera un mazzo personalizzato su qualsiasi argomento. Gioca in entrambe le modalità."
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "Senza pubblicità · Senza abonnamento · Ripristina acquisti quando vuoi"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "Come funziona",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "Scegli una modalità",
+        "body": "Parole vietate per le squadre o Heads Up per il divertimento sulla fronte."
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "Scegli un mazzo",
+        "body": "Gioca gratis con Mix o sblocca pacchetti tematici e mazzi IA."
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "Passa il telefono e gioca",
+        "body": "Imposta squadre, timer e round, poi lascia che cominci il divertimento."
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "Serate di gioco in tutto il mondo",
+    "subtitle": "Segui Tadado per clip, idee mazzi e ispirazione per giochi da festa.",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "partite giocate",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "lingue"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "modalità di gioco"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "Lingue supportate",
+    "languagesCaption": "Supporto uguale in ogni lingua dell'app. Nessun dato d'uso inventato.",
+    "trendingLabel": "Di tendenza stasera",
+    "editorialLabel": "Ultime novità da Tadado",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "Stagione mazzi estate",
+        "body": "Sole, mare e vacanze per le serate calde."
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "Mazzi serata cinema",
+        "body": "Carte cinema per appassionati di film e binge watcher."
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "Crea il tuo",
+        "body": "Trasforma qualsiasi argomento in un mazzo giocabile con l'IA."
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "Unisciti alla community Tadado",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels, clip serate di gioco e idee mazzi",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "Video Heads Up e sfide da festa",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "Aggiornamenti da Tadado Game Development",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "Scopri Tadado su Product Hunt"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "Guadagna il 20% come affiliato Tadado",
+    "subtitle": "Gioca con gli amici, registra un video breve e condividi il tuo codice personale. Semplice.",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "di commissione su ogni vendita con il tuo codice",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "Gioca e registra",
+        "body": "Organizza una serata di gioco con gli amici e filma un breve clip con Tadado."
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "Ottieni il tuo codice",
+        "body": "Scrivici via email. Creiamo un codice promo personale solo per te."
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "Condividi e guadagna",
+        "body": "Pubblica il tuo video con il tuo codice. Guadagna il 20% su mazzi tematici e acquisti mazzi IA."
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "Richiedi il mio codice affiliato",
+      "hint": "Scrivici con il tuo link TikTok, Instagram o YouTube.",
+      "subject": "Richiesta codice affiliato Tadado",
+      "bodyTemplate": "Ciao team Tadado,\n\nVoglio unirmi al programma affiliati.\n\nNome:\nLink social:\n\nGrazie!"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "Dettagli completi del programma",
+    "back": "Torna a Tadado",
+    "pageNote": "Esaminiamo ogni richiesta entro pochi giorni lavorativi. La commissione viene pagata sugli acquisti in-app qualificati effettuati con il tuo codice personale."
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "Lavora con noi",
+    "subtitle": "Nuove idee mazzi, collaborazioni di brand o investimenti. Basta un'email.",
+    "learnMore": "Vedi opzioni di partnership",
+    "back": "Torna a Tadado",
+    "pageNote": "Tadado Game Development sta costruendo un portfolio di giochi mobile puliti. Leggiamo ogni email.",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "Vuoi un nuovo mazzo?",
+      "body": "Scrivici la tua idea di tema. È tutto ciò che serve.",
+      "cta": "Invia idee mazzi",
+      "subject": "Richiesta mazzo Tadado"
     },
     "collaboration": {
-      "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "title": "Collaborazioni brand",
+      "body": "Mazzi co-branded, campagne o partnership con creator.",
+      "cta": "Scrivici",
+      "subject": "Collaborazione Tadado"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "Investitori e nuovi giochi",
+      "body": "Angel investor, publisher o aziende che vogliono costruire con noi.",
+      "cta": "Scrivici",
+      "subject": "Partnership / investimento Tadado"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "Dal blog",
+    "subtitle": "Guide, idee per giochi da festa e consigli per ottenere di più da Tadado.",
+    "readMore": "Leggi articolo",
+    "viewAll": "Vedi tutti i post"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "Come giocare e migliori guide ai giochi di parole",
+    "subtitle": "Regole passo passo per Taboo, mimo Heads Up e scelta delle migliori app di parole per mobile."
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "Domande, risposte.",
+    "subtitle": "Tutto quello che devi sapere prima della prossima serata di gioco.",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "Come si gioca a Taboo (Parole vietate)?",
+        "a": "Dividetevi in squadre. Un giocatore descrive la parola obiettivo senza dire gli indizi vietati sulla carta. La squadra indovina prima che scada il tempo. I pass sono limitati. Tadado include timer, punteggio e mazzi tematici per iniziare in pochi secondi."
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "Come si gioca al mimo Heads Up?",
+        "a": "Tieni il telefono sulla fronte così non vedi la parola. Gli amici danno indizi senza dirla. Inclina verso il basso quando indovini, verso l'alto per saltare. Tadado usa gli stessi mazzi nelle modalità Heads Up e Taboo."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "Tadado è una delle migliori app gratuite di giochi di parole?",
+        "a": "Tadado è pensato per le serate di gioco: Taboo, mimo Heads Up, Tadado Mix gratis, mazzi tematici opzionali e creazione mazzi IA. Senza pubblicità e senza abbonamento, è una delle app di parole con il miglior rapporto qualità-prezzo su iOS e Android."
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "Tadado è gratis?",
+        "a": "Sì. Tadado Mix è gratis. I mazzi tematici opzionali e la creazione mazzi IA sono acquisti una tantum. Vedi Prezzi per i dettagli. Nessun abbonamento."
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "Qual è la differenza tra Taboo e Heads Up?",
+        "a": "Parole vietate è Taboo a squadre: descrivi senza le parole vietate. Heads Up mette il telefono sulla fronte mentre gli amici danno indizi. Entrambi usano gli stessi mazzi."
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "Tadado ha pubblicità?",
+        "a": "No. Tadado è senza pubblicità. Paghi solo mazzi opzionali o creazione IA se lo scegli."
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "Come funziona la creazione mazzi IA?",
+        "a": "Scrivi un argomento, come \"film Marvel\" o \"hit pop anni '90\", e Tadado genera un mazzo giocabile in pochi secondi per entrambe le modalità."
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "Quali lingue sono supportate?",
+        "a": "L'interfaccia dell'app è disponibile in 17 lingue, tra cui inglese, turco, spagnolo, tedesco, francese e altre."
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "Come si confronta Tadado",
+    "subtitle": "Scopri perché i giocatori passano da app Taboo o Heads Up mono-modalità a Tadado.",
+    "back": "Torna a Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "Funzione",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "App tipiche"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up in un'unica app",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "Creatore mazzi personalizzati IA",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "Mazzo iniziale gratis (Tadado Mix)",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "Senza pubblicità",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "Senza abbonamento",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "Pacchetti mazzi tematici",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 lingue",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "Punteggio per difficoltà parola",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "Molte app si concentrano su una modalità, mostrano pubblicità o bloccano contenuti dietro abbonamenti. Tadado è pensato per vere serate di gioco con entrambe le modalità, un mazzo iniziale gratis e extra pagati una volta.",
+    "cta": "Scarica Tadado gratis",
+    "viewFull": "Apri pagina confronto completa"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Un team prodotto che crea giochi mobile da giocare insieme.",
+    "title": "Chi siamo",
+    "subtitle": "Il piccolo team dietro le carte.",
+    "intro": "Siamo un team di due maker che preferisce lanciare giochi da festa piuttosto che scrivere bio corporate. Uno programma il caos, l'altra disegna le carte.",
+    "back": "Torna a Tadado",
+    "funFactsLabel": "Curiosità",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "role": "Sviluppatore software",
+        "bio": "Sviluppatore full-stack che costruisce Tadado e app mobile con React Native, Next.js e Node.js. Laureato in Sistemi Informativi Aziendali, focalizzato su codice pulito e design pensato per il giocatore.",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "Ha portato Tadado dall'idea all'App Store mentre lavorava in fintech da Pulse FinTech.",
+          "Debugga la produzione alle 2 di notte, ma solo se il timer conta ancora correttamente.",
+          "Crede che i migliori giochi da festa richiedano zero tutorial e massima rigiocabilità."
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "Visita erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
         "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "bio": "Product UI/UX designer per Tadado e studentessa di architettura all'Università della Democrazia di İzmir. Definisce linguaggio visivo, flusso di interazione ed esperienza di gioco, dalle carte agli schermi.",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "Pensa alla percezione spaziale in scala infantile di giorno, ai layout delle carte di notte.",
+          "Ha guidato il design prodotto di Tadado end-to-end, dal primo wireframe agli schermi rifiniti.",
+          "Noterà se il raggio di un pulsante è sbagliato di 2 pixel. Con educazione."
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "Visita nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "Aiutaci a costruire la prossima generazione di giochi mobile.",
+      "body": "Tadado è il nostro primo passo verso uno studio globale di giochi mobile sociali e rigiocabili. Stiamo costruendo un portfolio di prodotti originali per serate di gioco in tutto il mondo e siamo aperti a conversazioni con angel investor, partner strategici e persone che ci aiutano a scalare la distribuzione. Se credi che piccoli team possano creare prodotti che definiscono una categoria, ci piacerebbe sentirti.",
+      "link": "Parla con il team"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
-    "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "title": "Non restare mai senza idee per la serata di gioco.",
+    "subtitle": "Nuovi temi, funzionalità e consigli per giochi da festa. Niente spam.",
+    "placeholder": "tu@email.com",
+    "button": "Iscriviti alla lista",
+    "success": "Sei in lista. Ti scriveremo quando c'è qualcosa di nuovo.",
+    "privacy": "Inviamo email solo sugli aggiornamenti Tadado. Disiscriviti quando vuoi.",
+    "errorInvalid": "Inserisci un indirizzo email valido.",
+    "errorGeneric": "Qualcosa è andato storto. Riprova."
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
-    "secondary": "EXPLORE DECKS"
-  },
-  "footer": {
-    "tagline": "Describe, guess, make it yours.",
-    "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
-    "help": "Help"
-  },
-  "sticky": {
-    "download": "Download free"
-  },
-  "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
+    "title": "La tua prossima serata di gioco ha bisogno di Tadado.",
+    "subtitle": "Un telefono. Tutti invitati.",
+    "button": "SCARICA TADADO · GRATIS",
+    "secondary": "ESPLORA MAZZI"
   },
   "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "title": "La tua prossima serata di gioco ha bisogno di Tadado.",
+    "subtitle": "Un telefono. Tutti invitati.",
+    "button": "SCARICA TADADO · GRATIS",
+    "secondary": "ESPLORA MAZZI"
+  },
+  "footer": {
+    "tagline": "Un telefono. I tuoi amici. Che cominci il caos.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Gioca",
+    "discoverTitle": "Scopri",
+    "growTitle": "Cresci con Tadado",
+    "supportTitle": "Supporto",
+    "socialTitle": "Social",
+    "help": "Aiuto",
+    "support": "Supporto",
+    "partnerships": "Partnership",
+    "compare": "Confronta app",
+    "affiliate": "Programma affiliati",
+    "team": "Il nostro team",
+    "legal": "Legale",
+    "terms": "Termini d'uso",
+    "privacy": "Informativa privacy",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "SCARICA TADADO · GRATIS"
+  },
+  "language": {
+    "label": "Lingua"
   }
 }

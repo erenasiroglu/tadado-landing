@@ -57,7 +57,7 @@ export function FinalCTA({ locale, dict }: FinalCTAProps) {
               {copy.secondary}
             </CTAButton>
           </div>
-          <StoreButtons locale={locale} source="final_cta" className="mt-8 justify-center" />
+          <StoreButtons locale={locale} source="final_cta" a11y={dict.a11y} className="mt-8 justify-center" />
         </div>
       </div>
     </LandingSection>

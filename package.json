@@ -8,7 +8,14 @@
     "start": "next start",
     "lint": "eslint",
     "locales:patch": "node scripts/patch-new-sections.mjs",
-    "locales:validate": "node scripts/validate-locales.mjs"
+    "locales:validate": "node scripts/validate-locales.mjs",
+    "locales:completeness": "node scripts/locale-completeness.mjs",
+    "locales:completeness:verbose": "node scripts/locale-completeness.mjs --verbose",
+    "locales:translate": "node scripts/translate-locales.mjs",
+    "locales:translate:mdx": "node scripts/translate-mdx.mjs",
+    "locales:translate:all": "node scripts/patch-new-sections.mjs && node scripts/translate-locales.mjs && node scripts/translate-mdx.mjs --type=all",
+    "locales:apply": "node scripts/apply-overrides.mjs",
+    "blog:seed": "node scripts/seed-blog-posts.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

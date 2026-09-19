@@ -3,7 +3,7 @@
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { storeBadgeClass } from "@/lib/cta-button";
 import type { DownloadSource } from "@/lib/analytics-events";
-import type { Locale } from "@/lib/i18n";
+import type { Dictionary, Locale } from "@/lib/i18n";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
 import { cn } from "@/lib/utils";
 
@@ -11,13 +11,14 @@ interface StoreButtonProps {
   locale: Locale;
   platform: "ios" | "android";
   source: DownloadSource;
+  a11y: Dictionary["a11y"];
   className?: string;
   compact?: boolean;
 }
 
-export function StoreButton({ locale, platform, source, className, compact }: StoreButtonProps) {
+export function StoreButton({ locale, platform, source, a11y, className, compact }: StoreButtonProps) {
   const href = platform === "ios" ? getAppStoreUrl(locale) : getPlayStoreUrl(locale);
-  const label = platform === "ios" ? "App Store" : "Google Play";
+  const label = platform === "ios" ? a11y.appStore : a11y.googlePlay;
   const icon = platform === "ios" ? "" : "▶";
 
   return (
@@ -27,7 +28,7 @@ export function StoreButton({ locale, platform, source, className, compact }: St
       downloadPlatform={platform}
       downloadSource={source}
       className={cn(storeBadgeClass(), compact && "h-10 px-3 text-xs", className)}
-      ariaLabel={platform === "ios" ? "Download on the App Store" : "Get it on Google Play"}
+      ariaLabel={platform === "ios" ? a11y.downloadOnAppStore : a11y.getOnGooglePlay}
     >
       <span className="mr-2 text-lg" aria-hidden>
         {icon}
@@ -40,15 +41,16 @@ export function StoreButton({ locale, platform, source, className, compact }: St
 interface StoreButtonsProps {
   locale: Locale;
   source: DownloadSource;
+  a11y: Dictionary["a11y"];
   className?: string;
   compact?: boolean;
 }
 
-export function StoreButtons({ locale, source, className, compact }: StoreButtonsProps) {
+export function StoreButtons({ locale, source, a11y, className, compact }: StoreButtonsProps) {
   return (
     <div className={cn("flex flex-wrap items-center gap-3", className)}>
-      <StoreButton locale={locale} platform="ios" source={source} compact={compact} />
-      <StoreButton locale={locale} platform="android" source={source} compact={compact} />
+      <StoreButton locale={locale} platform="ios" source={source} a11y={a11y} compact={compact} />
+      <StoreButton locale={locale} platform="android" source={source} a11y={a11y} compact={compact} />
     </div>
   );
 }

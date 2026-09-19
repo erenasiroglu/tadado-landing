@@ -1,174 +1,275 @@
 {
   "meta": {
-    "title": "Tadado — Табу и Heads Up для вечеринок",
-    "description": "Играйте в Табу и Heads Up в одном приложении. Создавайте колоды ИИ за секунды. Tadado Mix бесплатно. Без рекламы. Без подписки."
+    "title": "Tadado: вечеринка со словами | Taboo, Heads Up и колоды ИИ",
+    "description": "Один телефон. Ваши друзья. Taboo, Heads Up и пользовательские колоды ИИ для игровых вечеров. Бесплатный старт. Без рекламы. iOS и Android."
   },
   "nav": {
+    "play": "Играть",
+    "aiDecks": "Колоды ИИ",
+    "decks": "Колоды",
+    "community": "Сообщество",
+    "howItWorks": "Как это работает",
+    "faq": "FAQ",
+    "getTadado": "Скачать Tadado",
     "pricing": "Цены",
     "blog": "Блог",
-    "compare": "Compare",
-    "affiliate": "Affiliate",
-    "team": "Team",
-    "download": "Скачать",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
-    "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "guides": "Гайды",
+    "compare": "Сравнение",
+    "affiliate": "Партнёрка",
+    "team": "Команда",
+    "download": "Скачать"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "title": "Один телефон. Ваши друзья. Пусть начнётся хаос.",
+    "subtitle": "Taboo, Heads Up и пользовательские колоды ИИ для игровых вечеров.",
     "ctaPrimary": "GET TADADO · FREE",
     "ctaSecondary": "SEE HOW IT WORKS",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "сыгранных игр",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "режима игры"
       },
       {
         "value": "AI",
-        "label": "powered"
+        "label": "на базе ИИ"
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "языков"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "колод",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "игра"
       },
       {
         "value": "No",
-        "label": "ads"
+        "label": "рекламы"
       }
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "300 000+ сыгранных игр",
+    "modes": "2 режима игры",
+    "ai": "На базе ИИ",
+    "languages": "17 языков",
+    "offline": "Игра офлайн",
+    "noAds": "Без рекламы"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "Чем Tadado особенный?",
+    "subtitle": "Создан для настоящих игровых вечеров: быстрый старт, лёгкий обмен и смех до конца вечера.",
+    "developer": "Разработано Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "Два режима — одно приложение",
+        "body": "Переключайтесь между Forbidden Words и Heads Up без второй загрузки. Те же колоды, новая энергия каждый раунд."
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "Колоды ИИ за секунды",
+        "body": "Введите любую тему и получите готовую колоду мгновенно. Идеально для внутренних шуток, кино-вечеров и тематических вечеринок."
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "Без рекламы и подписки",
+        "body": "Начните бесплатно с Tadado Mix. Платите один раз только за дополнительные тематические колоды или создание колод ИИ."
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "17 языков встроено",
+        "body": "Играйте в смешанных языковых группах. Интерфейс и карты адаптируются, чтобы каждый мог присоединиться."
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "игр по всему миру",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "режима игры",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "языков в приложении",
+    "developerNote": "Доверие игроков по всему миру · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "Для настоящих игровых вечеров",
+    "title": "Один телефон. Команды. Таймеры. Раунды.",
+    "statement": "Один телефон. Команды. Таймеры. Раунды. Офлайн. Без рекламы.",
+    "details": [
+      "Офлайн-игра",
+      "Команды и таймеры",
+      "Без рекламы",
+      "Без подписки"
+    ]
+  },
+  "personalization": {
+    "title": "Сделайте игру своей.",
+    "subtitle": "Каждый раз это не одна и та же игра. Каждая компания создаёт свой опыт.",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "Друзья",
+        "topic": "Хаос выходных"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "Семья",
+        "topic": "Воскресный ужин"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "Дни рождения",
+        "topic": "Классика вечеринок"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "Кино-вечер",
+        "topic": "Оскаровские фильмы"
+      },
+      {
+        "label": "Спорт",
+        "topic": "Лига чемпионов"
+      },
+      {
+        "label": "Путешествия",
+        "topic": "Игры в дороге"
+      },
+      {
+        "label": "Офис",
+        "topic": "Офисный хаос"
+      },
+      {
+        "label": "Университет",
+        "topic": "Кампусные легенды"
+      },
+      {
+        "label": "Внутренние шутки",
+        "topic": "То, что мы всегда говорим"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "Любимая игра на вечеринках",
+    "subtitle": "Настоящие отзывы из App Store от игроков, которые попробовали Tadado с друзьями.",
+    "appStoreRating": "5.0 в App Store",
+    "appStoreCount": "8 оценок",
+    "sourceLabel": "Отзыв App Store",
+    "items": [
+      {
+        "quote": "Нашли с друзьями и скачали. Дизайн и интерфейс очень хорошие. Создание карт с ИИ под наши интересы нас очень порадовало. Каждый может создавать карты по своим интересам, и слова не повторяются. Поздравляю.",
+        "author": "kerqeten",
+        "context": "Авг 2025 · App Store"
+      },
+      {
+        "quote": "Создавать пользовательские колоды с генератором карт ИИ на любую тему — круто. Мы играли часами с друзьями!",
+        "author": "bk.aliz",
+        "context": "Авг 2025 · App Store"
+      },
+      {
+        "quote": "Очень весёлая игра с друзьями, как Taboo.",
+        "author": "Silenzi.O",
+        "context": "Июл 2025 · App Store"
+      },
+      {
+        "quote": "Действительно весёлая игра. Дизайн красивый. Карты весёлые, простые и понятные. Теряешь счёт времени.",
+        "author": "mell.17",
+        "context": "Апр 2025 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
+    "title": "Два способа играть",
+    "subtitle": "Классические запретные слова в стиле Taboo или Heads Up на лбу. Те же колоды, разная энергия.",
     "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "tabooBody": "Описывайте главное слово, рискуйте больше и наращивайте счёт. Сложные слова открывают множители от ×2 до ×5.",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "Телефон на лбу. Друзья дают подсказки. Наклоните вниз, когда угадали.",
+    "newBadge": "Новый режим",
+    "showcase": {
+      "portraitGameplay": "Игра в портретном режиме",
+      "landscapeGameplay": "Игра в альбомном режиме",
+      "buildScoreTitle": "Наращивайте счёт",
+      "buildScoreBody": "Беритесь за сложные слова, чтобы увеличить множитель и превращать каждый правильный ответ в больше очков.",
+      "scoreMultipliersAria": "Множители очков: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "Осталось 42 секунды",
+    "passStatus": "Осталось 2 / 3 пропуска",
+    "roundLabel": "Раунд 1/3",
+    "tabooLabel": "Запретно!",
+    "passLabel": "Пропуск",
+    "correctLabel": "Верно",
+    "foreheadTitle": "Положите телефон на лоб",
+    "tiltUp": "Поднимите, чтобы пропустить",
+    "tiltDown": "Опустите, если верно",
+    "yourTeam": "Ваша команда",
+    "turnComplete": "Ход завершён",
+    "pointsEarned": "Заработано очков",
+    "scoresHeading": "Счёт",
+    "nextUpLabel": "Далее",
+    "continue": "Продолжить",
+    "pauseGame": "Пауза",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "Открыть меню",
+    "closeLanguageMenu": "Закрыть меню языков",
+    "mainNav": "Основное",
+    "mobileNav": "Мобильное",
+    "previousDeck": "Предыдущая колода",
+    "nextDeck": "Следующая колода",
+    "launchVideo": "Видео о запуске Tadado",
+    "unmuteVideo": "Включить звук видео",
+    "muteVideo": "Выключить звук видео",
+    "yes": "Да",
+    "no": "Нет",
+    "partial": "Частично",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Скачать в App Store",
+    "getOnGooglePlay": "Скачать в Google Play",
+    "forbiddenWordsGameplay": "Игра Forbidden Words на телефоне в портретном режиме",
+    "headsUpGameplay": "Игра Heads Up на телефоне в альбомном режиме",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "Как играть в каждый режим",
+    "subtitle": "Те же правила, что в приложении. Изучите каждый режим и начните за секунды.",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "У каждого слова есть сложность",
+      "subtitle": "Сложные слова дают больше очков. Это делает раунды конкурентными и честными для любой группы.",
+      "easyLabel": "Лёгкий",
+      "hardLabel": "Сложный",
+      "legendaryLabel": "Легендарный",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "Когда команда угадывает, нажмите «Верно» и заберите очки. Сложные слова дают больший множитель.",
+      "tabooPenalty": "Сказали запретное слово? Теряете карту. Очков за этот раунд нет."
     },
     "forbiddenWords": {
       "modeLabel": "Forbidden Words",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "Опишите слово",
+          "body": "Скажите команде слово сверху. Никогда не произносите 4 запретных слова снизу. Угадайте как можно больше карт до конца времени."
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "Сказали запретное слово — теряете карту. Без очков. Другая команда сохраняет темп."
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "Пропуск",
+          "body": "Застряли? Пропустите карту. Пропусков за ход немного — берегите их для сложных слов."
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "Верный ответ даёт больше",
+          "body": "Команда угадала — нажмите «Верно» и заберите очки. Сложные слова дают больший множитель."
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "Телефон на лбу",
+          "body": "Держите телефон горизонтально и положите на лоб. Друзья видят слово. Вы — нет."
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "Они подсказывают, вы угадываете",
+          "body": "Игрок с телефоном на лбу не видит слово. Остальные читают его на экране и дают устные подсказки. Кнопки пропуска нет."
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "Угадал",
+          "body": "Угадали? Кивните подбородком вниз, наклоните телефон вниз на лбу. Получаете очко, появляется следующее слово."
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "Не знаю",
+          "body": "Не знаете? Кивните подбородком вверх, наклоните телефон вверх. Без очков. Переходите к следующему слову."
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "Создание колоды ИИ",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "Напишите любую тему",
+          "body": "Введите слово, фразу или целое предложение. Кофе, хиты 90-х, оскаровские фильмы. Достаточно одной идеи."
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "Добавьте идеи",
+          "body": "Нажмите +, чтобы добавить темы, или выберите подсказку. Нажмите на чип, чтобы удалить."
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "Язык и сложность",
+          "body": "Язык колоды — язык карт. Сложность определяет, насколько трудными будут запретные слова."
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "Играйте в обоих режимах",
+          "body": "Та же колода работает в Forbidden Words и Heads Up. Выберите режим при нажатии на колоду."
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "Генерация за секунды",
+          "body": "Войдите и нажмите «Создать». Ваша колода готова к игре сразу."
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "Любая тема может стать игрой.",
+    "subtitle": "Ваши внутренние шутки стали колодой. Введите тему и смотрите, как появляются карты.",
+    "topics": "турецкий поп 90-х, злодеи Marvel, офисный хаос, то, что наша компания всегда говорит",
+    "demoTitle": "Конструктор колод ИИ",
+    "demoHeadline": "Соберите колоду за 30 секунд.",
+    "demoSubtitle": "Опишите любую тему. ИИ пишет карты Taboo: целевое слово плюс запретные подсказки. Ваша группа играет сразу.",
+    "inputLabel": "Ваша тема",
+    "inputPlaceholder": "напр. фильмы Marvel, хиты 90-х, офисные шутки…",
+    "quickIdeas": "Быстрые идеи",
+    "difficulty": "Сложность",
+    "difficultyEasy": "Лёгкая",
+    "difficultyMedium": "Средняя",
+    "difficultyHard": "Сложная",
+    "generateButton": "Создать колоду",
+    "addTopic": "Добавить тему",
+    "topicsEmpty": "Введите тему, нажмите + или выберите идею ниже.",
+    "generating": "Пишем карты…",
+    "demoPreviewLabel": "Предпросмотр карты",
+    "simulationBadge": "Интерактивная демо",
+    "simulationHint": "Смотрите, как ИИ превращает тему в игровую карту Forbidden Words. Выберите сложность и запустите симуляцию.",
+    "simulationStepTopic": "Ввод",
+    "simulationStepGenerate": "Генерация",
+    "simulationStepPreview": "Карты готовы",
+    "simulationStepReady": "Можно играть",
+    "simulationWriting": "ИИ пишет запретные слова…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
-    "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "title": "Во что играем сегодня вечером?",
+    "badge": "В тренде",
+    "subtitle": "Когда что-то взрывает интернет, это становится картой taboo. Spider-Man: Brand New Day и Obsession сейчас в тренде, плюс The Odyssey, футбол и многое другое. Смотрите настоящие целевые слова до скачивания бесплатной игры taboo.",
+    "allCards": "Все трендовые карты →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "Сравниваете с другой игрой?",
+      "guides": "Гайды и идеи для игровых вечеров →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
-    "play": "PLAY",
+    "title": "Выберите настроение",
+    "subtitle": "Начните бесплатно с Tadado Mix, затем открывайте тематические наборы, когда будете готовы.",
+    "countBadge": "8 игровых колод",
+    "free": "Бесплатно",
+    "play": "ИГРАТЬ",
     "price": "$0.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "Стартовая колода для любой компании!"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "Лето",
+        "desc": "Солнце, море и отпуск!"
       },
       "cinema": {
-        "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "name": "Кино",
+        "desc": "Фильмы, сериалы и актёры!"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "Путешествия",
+        "desc": "Города и страны мира!"
       },
       "sport": {
-        "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "name": "Спорт",
+        "desc": "Футбол, баскетбол и не только!"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "Герои",
+        "desc": "Комиксы и суперсилы!"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "Ночные игры",
+        "desc": "Смелые слова после заката!"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "Простые и честные цены",
+    "subtitle": "Без скрытых подписок. Платите один раз за то, что нужно.",
+    "disclaimer": "Цены в USD и могут отличаться по регионам в App Store и Google Play. Покупки обрабатываются Apple или Google.",
     "mix": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "Бесплатно",
+      "desc": "Скачайте бесплатно и играйте сразу со стартовой колодой."
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "Тематические колоды",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "Разовая покупка за колоду. Лето, Кино, Путешествия, Спорт, Герои и другие."
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "Создание колод ИИ",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "Сгенерируйте колоду на любую тему. Играйте в обоих режимах."
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "Без рекламы · Без подписки · Восстановление покупок в любой момент"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "Как это работает",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "Выберите режим",
+        "body": "Forbidden Words для команд или Heads Up для веселья на лбу."
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "Выберите колоду",
+        "body": "Играйте бесплатно с Mix или открывайте тематические наборы и колоды ИИ."
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "Передайте телефон и играйте",
+        "body": "Настройте команды, таймер и раунды — и пусть начнётся смех."
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "Игровые вечера по всему миру",
+    "subtitle": "Подписывайтесь на Tadado: клипы, идеи колод и вдохновение для вечеринок.",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "сыгранных игр",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "языков"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "режима игры"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "Поддерживаемые языки",
+    "languagesCaption": "Равная поддержка на каждом языке приложения. Без выдуманных данных об использовании.",
+    "trendingLabel": "В тренде сегодня",
+    "editorialLabel": "Новое от Tadado",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "Сезон летних колод",
+        "body": "Солнце, море и отпуск для тёплых вечеров."
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "Колоды для кино-вечера",
+        "body": "Кино-карты для кинолюбителей и любителей сериалов."
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "Создайте свою",
+        "body": "Превратите любую тему в игровую колоду с ИИ."
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "Присоединяйтесь к сообществу Tadado",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels, клипы с игровых вечеров и идеи колод",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "Видео Heads Up и челленджи для вечеринок",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "Новости от Tadado Game Development",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "Tadado на Product Hunt"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "Зарабатывайте 20% как партнёр Tadado",
+    "subtitle": "Играйте с друзьями, снимите короткое видео и поделитесь личным кодом. Просто.",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "комиссии с каждой продажи по вашему коду",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "Играйте и снимайте",
+        "body": "Устройте игровой вечер с друзьями и снимите короткий клип с Tadado."
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "Получите код",
+        "body": "Напишите нам. Мы создадим персональный промокод для вас."
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "Делитесь и зарабатывайте",
+        "body": "Опубликуйте видео с кодом. Получайте 20% с покупок тематических колод и колод ИИ."
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "Запросить партнёрский код",
+      "hint": "Напишите нам со ссылкой на TikTok, Instagram или YouTube.",
+      "subject": "Запрос партнёрского кода Tadado",
+      "bodyTemplate": "Привет, команда Tadado!\n\nХочу присоединиться к партнёрской программе.\n\nИмя:\nСсылка на соцсеть:\n\nСпасибо!"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "Подробности программы",
+    "back": "Назад к Tadado",
+    "pageNote": "Мы рассматриваем каждую заявку в течение нескольких рабочих дней. Комиссия выплачивается за квалифицированные покупки в приложении по вашему личному коду."
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "Работайте с нами",
+    "subtitle": "Новые идеи колод, брендовые коллаборации или инвестиции. Достаточно написать на email.",
+    "learnMore": "Варианты партнёрства",
+    "back": "Назад к Tadado",
+    "pageNote": "Tadado Game Development создаёт портфель чистых мобильных игр. Мы читаем каждое письмо.",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "Хотите новую колоду?",
+      "body": "Напишите нам идею темы. Этого достаточно.",
+      "cta": "Написать идеи колод",
+      "subject": "Запрос колоды Tadado"
     },
     "collaboration": {
-      "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "title": "Брендовые коллаборации",
+      "body": "Совместные колоды, кампании или партнёрства с авторами.",
+      "cta": "Написать нам",
+      "subject": "Коллаборация Tadado"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "Инвесторы и новые игры",
+      "body": "Бизнес-ангелы, издатели или компании, которые хотят создавать с нами.",
+      "cta": "Написать нам",
+      "subject": "Партнёрство / инвестиции Tadado"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "Из блога",
+    "subtitle": "Гайды, идеи для вечеринок и советы, как получить больше от Tadado.",
+    "readMore": "Читать статью",
+    "viewAll": "Все публикации"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "Как играть и лучшие гайды по словесным играм",
+    "subtitle": "Пошаговые правила Taboo, Heads Up и подборка лучших мобильных словесных игр."
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "Ответы на вопросы.",
+    "subtitle": "Всё, что нужно знать перед следующим игровым вечером.",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "Как играть в Taboo (Forbidden Words)?",
+        "a": "Разделитесь на команды. Один игрок описывает целевое слово, не произнося запретных подсказок на карте. Команда угадывает до конца времени. Пропуски ограничены. Tadado включает таймеры, подсчёт очков и тематические колоды — начните за секунды."
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "Как играть в Heads Up?",
+        "a": "Держите телефон на лбу, чтобы не видеть слово. Друзья дают подсказки, не произнося слово. Наклоните вниз при правильном ответе, вверх — чтобы пропустить. Tadado использует те же колоды в режимах Heads Up и Taboo."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "Tadado — одно из лучших бесплатных приложений со словесными играми?",
+        "a": "Tadado создан для игровых вечеров: Taboo, Heads Up, бесплатный Tadado Mix, опциональные тематические колоды и создание колод ИИ. Без рекламы и подписки — одно из лучших по соотношению цены и качества на iOS и Android."
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "Tadado бесплатный?",
+        "a": "Да. Tadado Mix бесплатен. Тематические колоды и создание колод ИИ — разовые покупки. Подробности в разделе «Цены». Подписки нет."
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "В чём разница между Taboo и Heads Up?",
+        "a": "Forbidden Words — командный Taboo: описывайте без запретных слов. Heads Up — телефон на лбу, друзья подсказывают. Оба режима используют одни колоды."
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "Есть ли реклама в Tadado?",
+        "a": "Нет. Tadado без рекламы. Платите только за дополнительные колоды или создание ИИ, если захотите."
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "Как работает создание колод ИИ?",
+        "a": "Напишите тему, например «фильмы Marvel» или «хиты 90-х», и Tadado сгенерирует игровую колоду за секунды для обоих режимов."
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "Какие языки поддерживаются?",
+        "a": "Интерфейс доступен на 17 языках, включая английский, турецкий, испанский, немецкий, французский и другие."
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "Как Tadado сравнивается",
+    "subtitle": "Узнайте, почему игроки переходят с однорежимных приложений Taboo или Heads Up на Tadado.",
+    "back": "Назад к Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "Функция",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "Обычные приложения"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up в одном приложении",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "Конструктор колод ИИ",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "Бесплатная стартовая колода (Tadado Mix)",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "Без рекламы",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "Без подписки",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "Тематические наборы колод",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 языков",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "Очки за сложность слов",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "Многие приложения фокусируются на одном режиме, показывают рекламу или блокируют контент подпиской. Tadado создан для настоящих игровых вечеров: оба режима, бесплатная стартовая колода и разовые дополнения.",
+    "cta": "Скачать Tadado бесплатно",
+    "viewFull": "Открыть полную страницу сравнения"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Одна продуктовая команда, создающая мобильные игры, в которые хочется играть вместе.",
+    "title": "Кто мы",
+    "subtitle": "Маленькая команда за картами.",
+    "intro": "Мы — команда из двух создателей, которые предпочитают выпускать party-игры, а не писать корпоративные биографии. Один кодит хаос, другой проектирует карты.",
+    "back": "Назад к Tadado",
+    "funFactsLabel": "Интересные факты",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "role": "Разработчик ПО",
+        "bio": "Full-stack разработчик, создающий Tadado и мобильные приложения на React Native, Next.js и Node.js. Выпускник Management Information Systems, сфокусирован на чистом коде и дизайне, удобном для игроков.",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "Выпустил Tadado от идеи до App Store, совмещая с работой в fintech в Pulse FinTech.",
+          "Будет отлаживать продакшен в 2 часа ночи — но только если таймер всё ещё отсчитывает правильно.",
+          "Считает, что лучшие party-игры не требуют обучения и дают максимум повторных игр."
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "Посетить erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "role": "Продуктовый дизайнер",
+        "bio": "UI/UX дизайнер Tadado и студент архитектуры в İzmir Democracy University. Формирует визуальный язык, поток взаимодействия и игровой опыт — от карт до экранов.",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "Днём думает о пространственном восприятии детского масштаба, ночью — о раскладке карт.",
+          "Вела end-to-end продуктовый дизайн Tadado от первого wireframe до отполированных игровых экранов.",
+          "Заметит, если радиус кнопки отличается на 2 пикселя. Вежливо."
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "Посетить nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "Помогите нам создать следующее поколение мобильных игр.",
+      "body": "Tadado — наш первый шаг к глобальной студии социальных, переигрываемых мобильных игр. Мы строим портфель оригинальных продуктов для игровых вечеров по всему миру и открыты к разговорам с бизнес-ангелами, стратегическими партнёрами и теми, кто поможет масштабировать дистрибуцию. Если верите, что маленькие команды могут создавать продукты, определяющие категорию — напишите нам.",
+      "link": "Связаться с командой"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
+    "title": "Идеи для игровых вечеров никогда не закончатся.",
+    "subtitle": "Новые темы, функции и советы для вечеринок. Без спама.",
     "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "button": "Встать в очередь",
+    "success": "Вы в списке. Напишем, когда появится что-то новое.",
+    "privacy": "Пишем только об обновлениях Tadado. Отписаться можно в любой момент.",
+    "errorInvalid": "Введите корректный email.",
+    "errorGeneric": "Что-то пошло не так. Попробуйте снова."
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
+    "title": "Вашему следующему игровому вечеру нужен Tadado.",
+    "subtitle": "Один телефон. Все приглашены.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "finalCta": {
+    "title": "Вашему следующему игровому вечеру нужен Tadado.",
+    "subtitle": "Один телефон. Все приглашены.",
+    "button": "GET TADADO · FREE",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
-    "tagline": "Describe, guess, make it yours.",
+    "tagline": "Один телефон. Ваши друзья. Пусть начнётся хаос.",
     "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
-    "help": "Help"
+    "playTitle": "Играть",
+    "discoverTitle": "Открыть",
+    "growTitle": "Расти с Tadado",
+    "supportTitle": "Поддержка",
+    "socialTitle": "Соцсети",
+    "help": "Помощь",
+    "support": "Поддержка",
+    "partnerships": "Партнёрства",
+    "compare": "Сравнение приложений",
+    "affiliate": "Партнёрская программа",
+    "team": "Наша команда",
+    "legal": "Правовая информация",
+    "terms": "Условия использования",
+    "privacy": "Политика конфиденциальности",
+    "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "Download free"
+    "download": "GET TADADO · FREE"
   },
   "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
-  },
-  "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "label": "Язык"
   }
 }

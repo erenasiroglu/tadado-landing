@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Tadado: Game Từ Vựng Tiệc Tùng | Taboo, Heads Up & Bộ Bài AI",
+    "description": "Một điện thoại. Bạn bè của bạn. Taboo, Heads Up và bộ bài AI dành cho đêm chơi game. Miễn phí để bắt đầu. Không quảng cáo. iOS và Android."
+  },
+  "nav": {
+    "play": "Chơi",
+    "aiDecks": "Bộ Bài AI",
+    "decks": "Bộ Bài",
+    "community": "Cộng Đồng",
+    "howItWorks": "Cách Hoạt Động",
+    "faq": "Hỏi đáp",
+    "getTadado": "Tải Tadado",
+    "pricing": "Giá",
+    "blog": "Blog",
+    "guides": "Hướng Dẫn",
+    "compare": "So Sánh",
+    "affiliate": "Cộng tác viên",
+    "team": "Đội Ngũ",
+    "download": "Tải xuống"
+  },
+  "hero": {
+    "brandLine": "Tadado Game Development 2026",
+    "title": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
+    "subtitle": "Taboo, Heads Up và bộ bài AI dành cho đêm chơi game.",
+    "ctaPrimary": "TẢI TADADO · MIỄN PHÍ",
+    "ctaSecondary": "XEM CÁCH HOẠT ĐỘNG",
+    "metrics": [
+      { "value": "300,000+", "label": "ván đã chơi", "animate": true },
+      { "value": "2", "label": "chế độ chơi" },
+      { "value": "AI", "label": "hỗ trợ" },
+      { "value": "17", "label": "ngôn ngữ" },
+      { "value": "8", "label": "bộ bài", "href": "#decks" },
+      { "value": "Offline", "label": "chơi" },
+      { "value": "No", "label": "quảng cáo" }
+    ]
+  },
+  "proof": {
+    "players": "300.000+ ván đã chơi",
+    "modes": "2 chế độ chơi",
+    "ai": "Hỗ trợ AI",
+    "languages": "17 ngôn ngữ",
+    "offline": "Chơi offline",
+    "noAds": "Không quảng cáo"
+  },
+  "special": {
+    "title": "Điều gì làm Tadado đặc biệt?",
+    "subtitle": "Dành cho đêm chơi game thật sự: bắt đầu nhanh, dễ chia sẻ và được thiết kế để cả nhóm cười không ngừng.",
+    "developer": "Phát triển bởi Tadado Game Development",
+    "items": [
+      {
+        "title": "Hai chế độ, một ứng dụng",
+        "body": "Chuyển đổi giữa Forbidden Words và Heads Up mà không cần tải hai lần. Cùng bộ bài, năng lượng khác nhau mỗi vòng."
+      },
+      {
+        "title": "Bộ bài AI trong vài giây",
+        "body": "Nhập bất kỳ chủ đề nào và nhận bộ bài chơi ngay lập tức. Hoàn hảo cho trò đùa nội bộ, đêm xem phim hoặc tiệc theo chủ đề."
+      },
+      {
+        "title": "Không quảng cáo, không đăng ký",
+        "body": "Bắt đầu miễn phí với Tadado Mix. Chỉ trả một lần nếu bạn muốn thêm bộ bài theo chủ đề hoặc tạo bộ bài AI."
+      },
+      {
+        "title": "17 ngôn ngữ tích hợp sẵn",
+        "body": "Chơi với nhóm đa ngôn ngữ. Giao diện ứng dụng và thẻ bài thích ứng để mọi người đều tham gia vui vẻ."
+      }
+    ]
+  },
+  "stats": {
+    "gamesPlayed": "300,000+",
+    "gamesPlayedLabel": "ván đã chơi trên toàn thế giới",
+    "modes": "2",
+    "modesLabel": "chế độ chơi",
+    "languages": "17",
+    "languagesLabel": "ngôn ngữ trong ứng dụng",
+    "developerNote": "Được người chơi trên toàn thế giới tin dùng · Tadado Game Development"
+  },
+  "productBenefits": {
+    "eyebrow": "Dành cho đêm chơi game thật sự",
+    "title": "Một điện thoại. Đội. Hẹn giờ. Vòng.",
+    "statement": "Một điện thoại. Đội. Hẹn giờ. Vòng. Chơi offline. Không quảng cáo.",
+    "details": ["Chơi offline", "Đội & hẹn giờ", "Không quảng cáo", "Không đăng ký"]
+  },
+  "personalization": {
+    "title": "Tùy chỉnh theo cách của bạn.",
+    "subtitle": "Đây không phải trò chơi giống nhau mỗi lần. Mỗi nhóm có thể tạo trải nghiệm riêng.",
+    "items": [
+      { "label": "Bạn bè", "topic": "Hỗn loạn cuối tuần" },
+      { "label": "Gia đình", "topic": "Bữa tối Chủ nhật" },
+      { "label": "Sinh nhật", "topic": "Kinh điển tiệc tùng" },
+      { "label": "Đêm phim", "topic": "Phim Oscar" },
+      { "label": "Thể thao", "topic": "Champions League" },
+      { "label": "Du lịch", "topic": "Game road trip" },
+      { "label": "Văn phòng", "topic": "Hỗn loạn công sở" },
+      { "label": "Đại học", "topic": "Huyền thoại campus" },
+      { "label": "Trò đùa nội bộ", "topic": "Những gì chúng ta hay nói" }
+    ]
+  },
+  "reviews": {
+    "title": "Được yêu thích trong đêm chơi game",
+    "subtitle": "Đánh giá App Store thật từ người chơi đã thử Tadado cùng bạn bè.",
+    "appStoreRating": "5.0 trên App Store",
+    "appStoreCount": "8 đánh giá",
+    "sourceLabel": "Đánh giá App Store",
+    "items": [
+      {
+        "quote": "Chúng tôi tìm thấy game này cùng bạn và tải về. Thiết kế và giao diện rất tốt. Tạo thẻ bài bằng AI theo sở thích của chúng tôi khiến mọi người rất vui. Ai cũng có thể tạo thẻ theo sở thích và từ vựng không lặp lại. Chúc mừng.",
+        "author": "kerqeten",
+        "context": "Th8 2025 · App Store"
+      },
+      {
+        "quote": "Tạo bộ bài tùy chỉnh bằng trình tạo gói thẻ AI cho bất kỳ chủ đề nào thật tuyệt. Chúng tôi chơi hàng giờ với bạn bè!",
+        "author": "bk.aliz",
+        "context": "Th8 2025 · App Store"
+      },
+      {
+        "quote": "Game rất vui để chơi cùng bạn bè, giống Taboo.",
+        "author": "Silenzi.O",
+        "context": "Th7 2025 · App Store"
+      },
+      {
+        "quote": "Game thật sự vui. Thiết kế đẹp. Thẻ bài vui, đơn giản và rõ ràng. Bạn quên cả thời gian.",
+        "author": "mell.17",
+        "context": "Th4 2025 · App Store"
+      }
+    ]
+  },
+  "modes": {
+    "title": "Hai cách chơi",
+    "subtitle": "Từ cấm kiểu Taboo cổ điển hoặc Heads Up trên trán. Cùng bộ bài, năng lượng khác nhau.",
+    "tabooTitle": "Từ cấm",
+    "tabooBody": "Mô tả từ chính, chấp nhận rủi ro lớn hơn và tăng điểm. Từ khó hơn mở khóa hệ số nhân cao hơn, từ ×2 đến ×5.",
+    "headsUpTitle": "Heads Up",
+    "headsUpBody": "Điện thoại trên trán. Bạn bè đưa gợi ý. Nghiêng xuống khi đoán đúng.",
+    "newBadge": "Chế độ mới",
+    "showcase": {
+      "portraitGameplay": "Chơi dọc",
+      "landscapeGameplay": "Chơi ngang",
+      "buildScoreTitle": "Xây dựng điểm số",
+      "buildScoreBody": "Chọn từ khó hơn để tăng hệ số nhân và biến mỗi câu trả lời đúng thành điểm cao hơn.",
+      "scoreMultipliersAria": "Hệ số nhân điểm: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "Còn 42 giây",
+    "passStatus": "Còn 2 / 3 lượt bỏ qua",
+    "roundLabel": "Vòng 1/3",
+    "tabooLabel": "Cấm!",
+    "passLabel": "Bỏ qua",
+    "correctLabel": "Đúng",
+    "foreheadTitle": "Đặt điện thoại lên trán",
+    "tiltUp": "Nâng lên để bỏ qua",
+    "tiltDown": "Hạ xuống nếu đúng",
+    "yourTeam": "Đội của bạn",
+    "turnComplete": "Lượt hoàn thành",
+    "pointsEarned": "Điểm đạt được",
+    "scoresHeading": "Điểm số",
+    "nextUpLabel": "Tiếp theo",
+    "continue": "Tiếp tục",
+    "pauseGame": "Tạm dừng game",
+    "teamA": "ĐỘI A",
+    "teamB": "ĐỘI B"
+  },
+  "a11y": {
+    "openMenu": "Mở menu",
+    "closeLanguageMenu": "Đóng menu ngôn ngữ",
+    "mainNav": "Chính",
+    "mobileNav": "Di động",
+    "previousDeck": "Bộ bài trước",
+    "nextDeck": "Bộ bài tiếp",
+    "launchVideo": "Video ra mắt sản phẩm Tadado",
+    "unmuteVideo": "Bật tiếng video ra mắt",
+    "muteVideo": "Tắt tiếng video ra mắt",
+    "yes": "Có",
+    "no": "Không",
+    "partial": "Một phần",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Tải trên App Store",
+    "getOnGooglePlay": "Tải trên Google Play",
+    "forbiddenWordsGameplay": "Chơi Từ cấm trên điện thoại dọc",
+    "headsUpGameplay": "Chơi Heads Up trên điện thoại ngang",
+    "tadadoLogo": "Tadado"
+  },
+  "howToPlay": {
+    "title": "Cách chơi mọi chế độ",
+    "subtitle": "Cùng luật như trong ứng dụng. Học từng chế độ, rồi bắt đầu trong vài giây.",
+    "difficulty": {
+      "title": "Mỗi từ có độ khó",
+      "subtitle": "Từ khó hơn ghi điểm cao hơn. Điều này giữ các vòng cạnh tranh và công bằng cho mọi nhóm.",
+      "easyLabel": "Dễ",
+      "hardLabel": "Khó",
+      "legendaryLabel": "Huyền thoại",
+      "easyMultiplier": "×1",
+      "hardMultiplier": "×2",
+      "legendaryMultiplier": "×3",
+      "scoreBody": "Khi đội bạn đoán đúng, chạm Đúng và nhận điểm. Từ khó hơn có hệ số nhân cao hơn.",
+      "tabooPenalty": "Nói từ cấm? Bạn mất thẻ. Không có điểm cho vòng đó."
+    },
+    "forbiddenWords": {
+      "modeLabel": "Từ cấm",
+      "steps": [
+        {
+          "title": "Mô tả từ",
+          "body": "Nói cho đội từ ở trên. Không bao giờ nói 4 từ cấm bên dưới. Đoán càng nhiều thẻ càng tốt trước khi hết giờ."
+        },
+        {
+          "title": "Taboo!",
+          "body": "Nói từ cấm và bạn mất thẻ. Không điểm. Đội kia giữ đà."
+        },
+        {
+          "title": "Bỏ qua",
+          "body": "Bí? Bỏ qua thẻ. Bạn chỉ có vài lượt bỏ qua mỗi lượt chơi, hãy dành cho từ khó."
+        },
+        {
+          "title": "Đúng = điểm cao hơn",
+          "body": "Khi đội đoán đúng, nhấn Đúng và nhận điểm. Từ khó hơn có hệ số nhân cao hơn."
+        }
+      ]
+    },
+    "headsUp": {
+      "modeLabel": "Heads Up",
+      "steps": [
+        {
+          "title": "Điện thoại trên trán",
+          "body": "Cầm điện thoại ngang và đặt lên trán. Bạn bè thấy từ. Bạn thì không."
+        },
+        {
+          "title": "Họ gợi ý, bạn đoán",
+          "body": "Người chơi có điện thoại trên trán không thấy từ. Mọi người khác đọc trên màn hình và đưa gợi ý bằng lời. Không có nút pass."
+        },
+        {
+          "title": "Đoán được",
+          "body": "Đoán được? Gật cằm xuống, nghiêng điện thoại xuống trên trán. Bạn ghi một điểm và từ tiếp theo xuất hiện."
+        },
+        {
+          "title": "Không biết",
+          "body": "Không biết? Gật cằm lên, nghiêng điện thoại lên trên trán. Không điểm. Chuyển sang từ tiếp theo."
+        }
+      ]
+    },
+    "aiDeck": {
+      "modeLabel": "Tạo bộ bài AI",
+      "steps": [
+        {
+          "title": "Viết bất kỳ chủ đề nào",
+          "body": "Nhập từ, cụm từ hoặc câu đầy đủ. Cà phê, hit nhạc 90, phim Oscar. Một ý tưởng là đủ."
+        },
+        {
+          "title": "Thêm ý tưởng",
+          "body": "Chạm + để xếp chủ đề, hoặc chọn gợi ý. Chạm chip để xóa."
+        },
+        {
+          "title": "Ngôn ngữ và độ khó",
+          "body": "Ngôn ngữ bộ bài là ngôn ngữ thẻ. Độ khó quyết định từ cấm khó đến mức nào."
+        },
+        {
+          "title": "Chơi cả hai chế độ",
+          "body": "Cùng bộ bài dùng được trong Forbidden Words và Heads Up. Chọn chế độ khi chạm vào bộ bài."
+        },
+        {
+          "title": "Tạo trong vài giây",
+          "body": "Đăng nhập, rồi chạm Tạo. Bộ bài tùy chỉnh sẵn sàng chơi ngay."
+        }
+      ]
+    }
+  },
+  "ai": {
+    "title": "Bất kỳ chủ đề nào cũng có thể thành game.",
+    "subtitle": "Trò đùa nội bộ vừa trở thành bộ bài. Nhập chủ đề và xem thẻ xuất hiện.",
+    "topics": "Pop Thổ Nhĩ Kỳ thập niên 90, phản diện Marvel, hỗn loạn văn phòng, những gì nhóm bạn hay nói",
+    "demoTitle": "Trình tạo bộ bài AI",
+    "demoHeadline": "Tạo bộ bài trong 30 giây.",
+    "demoSubtitle": "Mô tả bất kỳ chủ đề nào. AI viết thẻ Taboo: từ mục tiêu cộng gợi ý cấm. Nhóm bạn chơi ngay.",
+    "inputLabel": "Chủ đề của bạn",
+    "inputPlaceholder": "vd. phim Marvel, hit pop 90, đùa văn phòng…",
+    "quickIdeas": "Ý tưởng nhanh",
+    "difficulty": "Độ khó",
+    "difficultyEasy": "Dễ",
+    "difficultyMedium": "Trung bình",
+    "difficultyHard": "Khó",
+    "generateButton": "Tạo bộ bài",
+    "addTopic": "Thêm chủ đề",
+    "topicsEmpty": "Nhập chủ đề, chạm + hoặc chọn ý tưởng nhanh bên dưới.",
+    "generating": "Đang viết thẻ…",
+    "demoPreviewLabel": "Xem trước thẻ",
+    "simulationBadge": "Demo tương tác",
+    "simulationHint": "Xem AI biến chủ đề thành thẻ Forbidden Words chơi được. Chọn độ khó và chạy mô phỏng.",
+    "simulationStepTopic": "Nhập liệu",
+    "simulationStepGenerate": "Đang tạo",
+    "simulationStepPreview": "Thẻ xuất hiện",
+    "simulationStepReady": "Sẵn sàng chơi",
+    "simulationWriting": "AI đang viết từ cấm…"
+  },
+  "trending": {
+    "title": "Tối nay chơi gì?",
+    "badge": "Đang thịnh hành",
+    "subtitle": "Khi điều gì đó viral, nó trở thành thẻ taboo. Spider-Man: Brand New Day và Obsession đang thịnh hành, cùng The Odyssey, bóng đá và hơn thế. Xem từ mục tiêu thật trước khi tải game taboo miễn phí.",
+    "allCards": "Tất cả thẻ trending →",
+    "compare": {
+      "title": "Đang so sánh với game khác?",
+      "guides": "Hướng dẫn và ý tưởng đêm chơi game →"
+    }
+  },
+  "decks": {
+    "title": "Chọn vibe của bạn",
+    "subtitle": "Bắt đầu miễn phí với Tadado Mix, rồi mở khóa gói theo chủ đề khi bạn sẵn sàng.",
+    "countBadge": "8 bộ bài",
+    "free": "Miễn phí",
+    "play": "CHƠI",
+    "price": "$0.99",
+    "newBadge": "MỚI",
+    "items": {
+      "mix": {
+        "name": "Tadado Mix",
+        "desc": "Bộ bài khởi động nhanh cho mọi nhóm!"
+      },
+      "summer": {
+        "name": "Mùa hè",
+        "desc": "Nắng, biển & vibe kỳ nghỉ!"
+      },
+      "cinema": {
+        "name": "Điện ảnh",
+        "desc": "Phim, series và diễn viên!"
+      },
+      "travel": {
+        "name": "Du lịch",
+        "desc": "Mọi thành phố và quốc gia!"
+      },
+      "sport": {
+        "name": "Thể thao",
+        "desc": "Bóng đá, bóng rổ và hơn thế!"
+      },
+      "heroes": {
+        "name": "Anh hùng",
+        "desc": "Anh hùng truyện tranh & siêu năng lực!"
+      },
+      "midnight": {
+        "name": "Game đêm",
+        "desc": "Trò chơi chữ táo bạo sau đêm!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Giá đơn giản, minh bạch",
+    "subtitle": "Không đăng ký ẩn. Trả một lần cho những gì bạn muốn.",
+    "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
+    "mix": {
+      "name": "Tadado Mix",
+      "price": "Miễn phí",
+      "desc": "Tải miễn phí và chơi ngay với bộ bài khởi đầu cổ điển."
+    },
+    "theme": {
+      "name": "Bộ bài theo chủ đề",
+      "price": "$0.99",
+      "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
+    },
+    "ai": {
+      "name": "Tạo bộ bài AI",
+      "price": "$2.99",
+      "desc": "Tạo bộ bài tùy chỉnh từ bất kỳ chủ đề nào. Chơi cả hai chế độ."
+    },
+    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào"
+  },
+  "howItWorks": {
+    "title": "Cách hoạt động",
+    "steps": [
+      {
+        "title": "Chọn chế độ",
+        "body": "Forbidden Words cho đội hoặc Heads Up cho vui trên trán."
+      },
+      {
+        "title": "Chọn bộ bài",
+        "body": "Chơi miễn phí với Mix hoặc mở khóa gói theo chủ đề và bộ bài AI."
+      },
+      {
+        "title": "Chuyền điện thoại & chơi",
+        "body": "Đặt đội, hẹn giờ và vòng, rồi để tiếng cười bắt đầu."
+      }
+    ]
+  },
+  "community": {
+    "title": "Đêm chơi game khắp thế giới",
+    "subtitle": "Theo dõi Tadado để xem clip, ý tưởng bộ bài và cảm hứng game tiệc tùng.",
+    "metrics": [
+      { "value": "300,000+", "label": "ván đã chơi", "animate": true },
+      { "value": "17", "label": "ngôn ngữ" },
+      { "value": "2", "label": "chế độ chơi" }
+    ],
+    "languagesTitle": "Ngôn ngữ hỗ trợ",
+    "languagesCaption": "Hỗ trợ đồng đều cho mọi ngôn ngữ ứng dụng. Không dữ liệu sử dụng giả.",
+    "trendingLabel": "Trending tối nay",
+    "editorialLabel": "Mới nhất từ Tadado",
+    "editorialItems": [
+      { "title": "Mùa bộ bài mùa hè", "body": "Nắng, biển và vibe kỳ nghỉ cho đêm ấm." },
+      { "title": "Bộ bài đêm phim", "body": "Thẻ Cinema cho fan phim và binge watcher." },
+      { "title": "Tạo của riêng bạn", "body": "Biến bất kỳ chủ đề nào thành bộ bài chơi được bằng AI." }
+    ],
+    "socialCta": "Tham gia cộng đồng Tadado",
+    "instagramCta": "Instagram",
+    "instagramDesc": "Reels, clip đêm chơi game & ý tưởng bộ bài",
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Video Heads Up & thử thách tiệc tùng",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Cập nhật từ Tadado Game Development",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "Xem Tadado trên Product Hunt"
+  },
+  "affiliate": {
+    "title": "Kiếm 20% với affiliate Tadado",
+    "subtitle": "Chơi cùng bạn bè, quay video ngắn và chia sẻ mã cá nhân. Đơn giản.",
+    "rate": "20%",
+    "rateNote": "hoa hồng mỗi giao dịch qua mã của bạn",
+    "steps": [
+      {
+        "title": "Chơi và quay",
+        "body": "Tổ chức đêm chơi game với bạn bè và quay clip ngắn với Tadado."
+      },
+      {
+        "title": "Nhận mã",
+        "body": "Email cho chúng tôi. Chúng tôi tạo mã khuyến mãi cá nhân riêng cho bạn."
+      },
+      {
+        "title": "Chia sẻ và kiếm",
+        "body": "Đăng video kèm mã. Kiếm 20% từ bộ bài theo chủ đề và mua bộ bài AI."
+      }
+    ],
+    "cta": {
+      "button": "Yêu cầu mã affiliate",
+      "hint": "Email cho chúng tôi kèm liên kết TikTok, Instagram hoặc YouTube.",
+      "subject": "Yêu cầu mã affiliate Tadado",
+      "bodyTemplate": "Xin chào đội Tadado,\n\nTôi muốn tham gia chương trình cộng tác viên.\n\nTên:\nLiên kết mạng xã hội:\n\nCảm ơn!"
+    },
+    "learnMore": "Chi tiết chương trình đầy đủ",
+    "back": "Quay lại Tadado",
+    "pageNote": "Chúng tôi xem xét mọi đơn trong vài ngày làm việc. Hoa hồng được trả cho giao dịch trong ứng dụng đủ điều kiện qua mã cá nhân của bạn."
+  },
+  "partnerships": {
+    "title": "Hợp tác cùng chúng tôi",
+    "subtitle": "Ý tưởng bộ bài mới, hợp tác thương hiệu hoặc đầu tư. Email là đủ.",
+    "learnMore": "Xem tùy chọn hợp tác",
+    "back": "Quay lại Tadado",
+    "pageNote": "Tadado Game Development đang xây dựng danh mục game mobile sạch. Chúng tôi đọc mọi email.",
+    "deckRequest": {
+      "title": "Muốn bộ bài mới?",
+      "body": "Email ý tưởng chủ đề của bạn. Chỉ cần vậy thôi.",
+      "cta": "Email ý tưởng bộ bài",
+      "subject": "Yêu cầu bộ bài Tadado"
+    },
+    "collaboration": {
+      "title": "Hợp tác thương hiệu",
+      "body": "Bộ bài đồng thương hiệu, chiến dịch hoặc hợp tác creator.",
+      "cta": "Email chúng tôi",
+      "subject": "Hợp tác Tadado"
+    },
+    "investors": {
+      "title": "Nhà đầu tư & game mới",
+      "body": "Angel investor, publisher hoặc công ty muốn xây dựng cùng chúng tôi.",
+      "cta": "Email chúng tôi",
+      "subject": "Hợp tác / đầu tư Tadado"
+    }
+  },
+  "blog": {
+    "title": "Từ blog",
+    "subtitle": "Hướng dẫn, ý tưởng game tiệc tùng và mẹo tận dụng Tadado tối đa.",
+    "readMore": "Đọc bài viết",
+    "viewAll": "Xem tất cả bài"
+  },
+  "seoGuides": {
+    "title": "Cách chơi & hướng dẫn game từ vựng hay nhất",
+    "subtitle": "Luật từng bước cho Taboo, charades Heads Up và lựa chọn ứng dụng game từ vựng mobile tốt nhất."
+  },
+  "faq": {
+    "title": "Câu hỏi, đã trả lời.",
+    "subtitle": "Mọi thứ bạn cần biết trước đêm chơi game tiếp theo.",
+    "items": [
+      {
+        "q": "Cách chơi Taboo (Forbidden Words)?",
+        "a": "Chia thành đội. Một người mô tả từ mục tiêu mà không nói gợi ý cấm trên thẻ. Đội đoán trước khi hết giờ. Lượt bỏ qua có giới hạn. Tadado có hẹn giờ, tính điểm và bộ bài theo chủ đề để bạn bắt đầu trong vài giây."
+      },
+      {
+        "q": "Cách chơi charades Heads Up?",
+        "a": "Giữ điện thoại trên trán để bạn không thấy từ. Bạn bè đưa gợi ý mà không nói từ. Nghiêng xuống khi đoán đúng, nghiêng lên để bỏ qua. Tadado dùng cùng bộ bài ở chế độ Heads Up và Taboo."
+      },
+      {
+        "q": "Tadado có phải một trong những app game từ vựng miễn phí tốt nhất?",
+        "a": "Tadado được xây cho đêm chơi game: Taboo, charades Heads Up, Tadado Mix miễn phí, bộ bài theo chủ đề tùy chọn và tạo bộ bài AI. Không quảng cáo và không đăng ký, khiến nó là một trong những app game từ vựng giá trị nhất trên iOS và Android."
+      },
+      {
+        "q": "Tadado có miễn phí không?",
+        "a": "Có. Tadado Mix chơi miễn phí. Bộ bài theo chủ đề tùy chọn và tạo bộ bài AI là mua một lần. Xem Giá để biết chi tiết. Không có đăng ký."
+      },
+      {
+        "q": "Khác biệt giữa Taboo và Heads Up?",
+        "a": "Forbidden Words là Taboo theo đội: mô tả không dùng từ cấm. Heads Up đặt điện thoại lên trán trong khi bạn bè đưa gợi ý. Cả hai dùng cùng bộ bài."
+      },
+      {
+        "q": "Tadado có quảng cáo không?",
+        "a": "Không. Tadado không quảng cáo. Bạn chỉ trả cho bộ bài tùy chọn hoặc tạo AI nếu muốn."
+      },
+      {
+        "q": "Tạo bộ bài AI hoạt động thế nào?",
+        "a": "Viết chủ đề, như \"phim Marvel\" hoặc \"hit pop 90\", và Tadado tạo bộ bài chơi được trong vài giây cho cả hai chế độ."
+      },
+      {
+        "q": "Hỗ trợ những ngôn ngữ nào?",
+        "a": "Giao diện ứng dụng có 17 ngôn ngữ gồm tiếng Anh, Thổ Nhĩ Kỳ, Tây Ban Nha, Đức, Pháp và hơn thế."
+      }
+    ]
+  },
+  "compare": {
+    "title": "Tadado so với các app khác",
+    "subtitle": "Xem vì sao người chơi chuyển từ app Taboo hoặc Heads Up một chế độ sang Tadado.",
+    "back": "Quay lại Tadado",
+    "columns": {
+      "feature": "Tính năng",
+      "tadado": "Tadado",
+      "others": "App thông thường"
+    },
+    "rows": [
+      {
+        "feature": "Taboo + Heads Up trong một app",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Trình tạo bộ bài AI tùy chỉnh",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Bộ bài khởi đầu miễn phí (Tadado Mix)",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Không quảng cáo",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Không đăng ký",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Gói bộ bài theo chủ đề",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17 ngôn ngữ",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Tính điểm theo độ khó từ",
+        "tadado": "yes",
+        "others": "no"
+      }
+    ],
+    "note": "Nhiều app tập trung một chế độ, hiện quảng cáo hoặc khóa nội dung sau đăng ký. Tadado được xây cho đêm chơi game thật với cả hai chế độ, bộ bài khởi đầu miễn phí và mua thêm trả một lần.",
+    "cta": "Tải Tadado miễn phí",
+    "viewFull": "Mở trang so sánh đầy đủ"
+  },
+  "team": {
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Một đội sản phẩm xây game mobile mọi người muốn chơi cùng nhau.",
+    "title": "Chúng tôi là ai",
+    "subtitle": "Đội nhỏ đằng sau những thẻ bài.",
+    "intro": "Chúng tôi là đội hai người thích ra mắt game tiệc tùng hơn viết bio công ty. Một người code sự hỗn loạn, một người thiết kế thẻ bài.",
+    "back": "Quay lại Tadado",
+    "funFactsLabel": "Sự thật thú vị",
+    "members": {
+      "eren": {
+        "name": "Eren Nasıroğlu",
+        "role": "Lập trình viên",
+        "bio": "Full-stack developer xây Tadado và app mobile với React Native, Next.js và Node.js. Tốt nghiệp Management Information Systems, tập trung vào code sạch và thiết kế thân thiện người chơi.",
+        "funFacts": [
+          "Ra mắt Tadado từ ý tưởng lên App Store trong khi làm fintech tại Pulse FinTech.",
+          "Sẽ debug production lúc 2 giờ sáng, nhưng chỉ khi timer vẫn đếm ngược đúng.",
+          "Tin rằng game tiệc tùng hay nhất cần zero tutorial và replayability tối đa."
+        ],
+        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "websiteCta": "Truy cập erennasiroglu.de"
+      },
+      "nur": {
+        "name": "Nur Günen",
+        "role": "Thiết kế sản phẩm",
+        "bio": "Product UI/UX designer cho Tadado và sinh viên kiến trúc tại İzmir Democracy University. Định hình ngôn ngữ thị giác, luồng tương tác và trải nghiệm game từ thẻ đến màn hình.",
+        "funFacts": [
+          "Nghĩ về nhận thức không gian quy mô trẻ em ban ngày, bố cục thẻ ban đêm.",
+          "Dẫn dắt thiết kế sản phẩm end-to-end Tadado từ wireframe đầu tiên đến màn hình game hoàn thiện.",
+          "Sẽ để ý nếu bán kính nút lệch 2 pixel. Một cách lịch sự."
+        ],
+        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "websiteCta": "Truy cập nurgunen.com"
+      }
+    },
+    "joinCta": {
+      "title": "Giúp chúng tôi xây thế hệ game mobile tiếp theo.",
+      "body": "Tadado là bước đầu của chúng tôi hướng tới studio toàn cầu cho game mobile xã hội, chơi lại được. Chúng tôi đang xây danh mục sản phẩm gốc cho đêm chơi game khắp thế giới và sẵn sàng trò chuyện với angel investor, đối tác chiến lược và người giúp chúng tôi mở rộng phân phối. Nếu bạn tin đội nhỏ có thể xây sản phẩm định nghĩa danh mục, chúng tôi muốn nghe từ bạn.",
+      "link": "Liên hệ đội ngũ"
+    }
+  },
+  "newsletter": {
+    "title": "Không bao giờ hết ý tưởng đêm chơi game.",
+    "subtitle": "Chủ đề mới, tính năng và mẹo game tiệc tùng. Không spam.",
+    "placeholder": "email@cua-ban.com",
+    "button": "Tham gia waitlist",
+    "success": "Bạn đã trong danh sách. Chúng tôi sẽ email khi có gì mới.",
+    "privacy": "Chúng tôi chỉ email về cập nhật Tadado. Hủy đăng ký bất cứ lúc nào.",
+    "errorInvalid": "Nhập địa chỉ email hợp lệ.",
+    "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại."
+  },
+  "cta": {
+    "title": "Đêm chơi game tiếp theo cần Tadado.",
+    "subtitle": "Một điện thoại. Mọi người được mời.",
+    "button": "TẢI TADADO · MIỄN PHÍ",
+    "secondary": "KHÁM PHÁ BỘ BÀI"
+  },
+  "finalCta": {
+    "title": "Đêm chơi game tiếp theo cần Tadado.",
+    "subtitle": "Một điện thoại. Mọi người được mời.",
+    "button": "TẢI TADADO · MIỄN PHÍ",
+    "secondary": "KHÁM PHÁ BỘ BÀI"
+  },
+  "footer": {
+    "tagline": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Chơi",
+    "discoverTitle": "Khám phá",
+    "growTitle": "Phát triển cùng Tadado",
+    "supportTitle": "Hỗ trợ",
+    "socialTitle": "Mạng xã hội",
+    "help": "Trợ giúp",
+    "support": "Hỗ trợ",
+    "partnerships": "Hợp tác",
+    "compare": "So sánh app",
+    "affiliate": "Chương trình affiliate",
+    "team": "Đội ngũ",
+    "legal": "Pháp lý",
+    "terms": "Điều khoản sử dụng",
+    "privacy": "Chính sách quyền riêng tư",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "TẢI TADADO · MIỄN PHÍ"
+  },
+  "language": {
+    "label": "Ngôn ngữ"
+  }
+}

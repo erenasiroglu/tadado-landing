@@ -4,11 +4,16 @@ import { Volume2, VolumeX } from "lucide-react";
 import { useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import type { Dictionary } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
 const HERO_LAUNCH_VIDEO_SRC = "/videos/hero-launch.mp4";
 
-export function HeroLaunchVideo() {
+interface HeroLaunchVideoProps {
+  a11y: Dictionary["a11y"];
+}
+
+export function HeroLaunchVideo({ a11y }: HeroLaunchVideoProps) {
   const reduceMotion = useReducedMotion();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isReady, setIsReady] = useState(false);
@@ -86,7 +91,7 @@ export function HeroLaunchVideo() {
             preload="auto"
             onLoadedData={() => setIsReady(true)}
             onLoadedMetadata={handleLoadedMetadata}
-            aria-label="Tadado product launch video"
+            aria-label={a11y.launchVideo}
           />
 
           <div className="hero-launch-video__vignette" aria-hidden />
@@ -96,7 +101,7 @@ export function HeroLaunchVideo() {
         <button
           type="button"
           className="hero-launch-video__sound"
-          aria-label={isMuted ? "Unmute launch video" : "Mute launch video"}
+          aria-label={isMuted ? a11y.unmuteVideo : a11y.muteVideo}
           aria-pressed={!isMuted}
           onClick={() => setIsMuted((current) => !current)}
         >

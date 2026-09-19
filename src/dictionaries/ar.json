@@ -1,174 +1,275 @@
 {
   "meta": {
-    "title": "Tadado — لعبة تابو و Heads Up للحفلات",
-    "description": "العب تابو و Heads Up في تطبيق واحد. أنشئ مجموعات بالذكاء الاصطناعي. Tadado Mix مجاني. بدون إعلانات. بدون اشتراك."
+    "title": "Tadado: لعبة كلمات للحفلات | Taboo وHeads Up ومجموعات AI",
+    "description": "هاتف واحد. أصدقاؤك. Taboo وHeads Up ومجموعات AI مخصصة لأمسيات اللعب. ابدأ مجانًا. بدون إعلانات. iOS وAndroid."
   },
   "nav": {
+    "play": "العب",
+    "aiDecks": "مجموعات AI",
+    "decks": "المجموعات",
+    "community": "المجتمع",
+    "howItWorks": "كيف يعمل",
+    "faq": "الأسئلة الشائعة",
+    "getTadado": "احصل على Tadado",
     "pricing": "الأسعار",
     "blog": "المدونة",
-    "compare": "Compare",
-    "affiliate": "Affiliate",
-    "team": "Team",
-    "download": "تحميل",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
-    "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "guides": "الأدلة",
+    "compare": "المقارنة",
+    "affiliate": "الشراكة",
+    "team": "الفريق",
+    "download": "تنزيل"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "title": "هاتف واحد. أصدقاؤك. ليبدأ الفوضى.",
+    "subtitle": "Taboo وHeads Up ومجموعات AI مخصصة لأمسيات اللعب.",
     "ctaPrimary": "GET TADADO · FREE",
     "ctaSecondary": "SEE HOW IT WORKS",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "لعبة تم لعبها",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "وضع لعب"
       },
       {
         "value": "AI",
-        "label": "powered"
+        "label": "مدعوم"
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "لغة"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "مجموعات لعب",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "لعب"
       },
       {
         "value": "No",
-        "label": "ads"
+        "label": "إعلانات"
       }
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "300,000+ لعبة تم لعبها",
+    "modes": "وضعان للعب",
+    "ai": "مدعوم بالذكاء الاصطناعي",
+    "languages": "17 لغة",
+    "offline": "العب دون اتصال",
+    "noAds": "بدون إعلانات"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "ما الذي يجعل Tadado مميزًا؟",
+    "subtitle": "مصمم لأمسيات لعب حقيقية: يبدأ بسرعة، يسهل مشاركته، ويُبقي الجميع يضحكون.",
+    "developer": "من تطوير Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "وضعان، تطبيق واحد",
+        "body": "تنقل بين الكلمات المحظورة وHeads Up دون تنزيل مرتين. نفس المجموعات، طاقة مختلفة في كل جولة."
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "مجموعات AI في ثوانٍ",
+        "body": "اكتب أي موضوع واحصل على مجموعة جاهزة للعب فورًا. مثالي للنكات الداخلية وأمسيات الأفلام والحفلات."
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "بدون إعلانات وبدون اشتراك",
+        "body": "ابدأ مجانًا مع Tadado Mix. ادفع مرة واحدة فقط إذا أردت مجموعات إضافية أو إنشاء مجموعات AI."
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "17 لغة مدمجة",
+        "body": "العب مع مجموعات متعددة اللغات. واجهة التطبيق والبطاقات تتكيف لينضم الجميع."
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "لعبة حول العالم",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "وضع لعب",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "لغة في التطبيق",
+    "developerNote": "موثوق من لاعبين حول العالم · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "مصمم لأمسيات لعب حقيقية",
+    "title": "هاتف واحد. فرق. مؤقتات. جولات.",
+    "statement": "هاتف واحد. فرق. مؤقتات. جولات. لعب دون اتصال. بدون إعلانات.",
+    "details": [
+      "لعب دون اتصال",
+      "فرق ومؤقتات",
+      "بدون إعلانات",
+      "بدون اشتراك"
+    ]
+  },
+  "personalization": {
+    "title": "اجعلها خاصة بك.",
+    "subtitle": "ليست نفس اللعبة في كل مرة. كل مجموعة يمكنها خلق تجربتها الخاصة.",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "الأصدقاء",
+        "topic": "فوضى نهاية الأسبوع"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "العائلة",
+        "topic": "عشاء الأحد"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "أعياد الميلاد",
+        "topic": "كلاسيكيات الحفلات"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "ليلة أفلام",
+        "topic": "أفلام الأوسكار"
+      },
+      {
+        "label": "الرياضة",
+        "topic": "Champions League"
+      },
+      {
+        "label": "السفر",
+        "topic": "ألعاب الرحلات"
+      },
+      {
+        "label": "المكتب",
+        "topic": "فوضى المكتب"
+      },
+      {
+        "label": "الجامعة",
+        "topic": "أساطير الحرم"
+      },
+      {
+        "label": "نكات داخلية",
+        "topic": "ما نقوله دائمًا"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "محبوب في أمسيات اللعب",
+    "subtitle": "مراجعات حقيقية من App Store من لاعبين جربوا Tadado مع الأصدقاء.",
+    "appStoreRating": "5.0 على App Store",
+    "appStoreCount": "8 تقييمات",
+    "sourceLabel": "مراجعة App Store",
+    "items": [
+      {
+        "quote": "وجدناه مع الأصدقاء ونزلناه. التصميم والواجهة رائعان حقًا. إنشاء بطاقات بالذكاء الاصطناعي حسب اهتماماتنا أسعدنا كثيرًا. يمكن للجميع إنشاء بطاقات لاهتماماتهم ولا تتكرر الكلمات. مبروك.",
+        "author": "kerqeten",
+        "context": "أغسطس 2025 · App Store"
+      },
+      {
+        "quote": "إنشاء مجموعات مخصصة بمولّد بطاقات AI لأي موضوع رائع. لعبنا ساعات مع الأصدقاء!",
+        "author": "bk.aliz",
+        "context": "أغسطس 2025 · App Store"
+      },
+      {
+        "quote": "لعبة ممتعة جدًا مع الأصدقاء، مثل Taboo.",
+        "author": "Silenzi.O",
+        "context": "يوليو 2025 · App Store"
+      },
+      {
+        "quote": "لعبة ممتعة حقًا. التصميم جميل. البطاقات ممتعة وبسيطة وواضحة. تفقد الإحساس بالوقت.",
+        "author": "mell.17",
+        "context": "أبريل 2025 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
-    "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "title": "طريقتان للعب",
+    "subtitle": "كلمات محظورة بأسلوب Taboo أو Heads Up على الجبين. نفس المجموعات، طاقة مختلفة.",
+    "tabooTitle": "الكلمات المحظورة",
+    "tabooBody": "صف الكلمة الرئيسية، خُذ مخاطر أكبر، وارفع نقاطك. الكلمات الأصعب تفتح مضاعفات من ×2 إلى ×5.",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "الهاتف على جبينك. الأصدقاء يعطون تلميحات. أمِّل الهاتف للأسفل عند التخمين الصحيح.",
+    "newBadge": "وضع جديد",
+    "showcase": {
+      "portraitGameplay": "لعب بالوضع العمودي",
+      "landscapeGameplay": "لعب بالوضع الأفقي",
+      "buildScoreTitle": "ارفع نقاطك",
+      "buildScoreBody": "تحدَّ كلمات أصعب لرفع المضاعف وتحويل كل إجابة صحيحة إلى نقاط أكبر.",
+      "scoreMultipliersAria": "مضاعفات النقاط: 2x و3x و5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "42 ثانية متبقية",
+    "passStatus": "2 / 3 تخطيات متبقية",
+    "roundLabel": "الجولة 1/3",
+    "tabooLabel": "Taboo!",
+    "passLabel": "تخطي",
+    "correctLabel": "صحيح",
+    "foreheadTitle": "ضع الهاتف على جبينك",
+    "tiltUp": "ارفع للتخطي",
+    "tiltDown": "أمِّل للأسفل إذا صح",
+    "yourTeam": "فريقك",
+    "turnComplete": "انتهت الدورة",
+    "pointsEarned": "النقاط المكتسبة",
+    "scoresHeading": "النتائج",
+    "nextUpLabel": "التالي",
+    "continue": "متابعة",
+    "pauseGame": "إيقاف مؤقت",
+    "teamA": "TEAM A",
+    "teamB": "TEAM B"
+  },
+  "a11y": {
+    "openMenu": "فتح القائمة",
+    "closeLanguageMenu": "إغلاق قائمة اللغات",
+    "mainNav": "الرئيسية",
+    "mobileNav": "الجوال",
+    "previousDeck": "المجموعة السابقة",
+    "nextDeck": "المجموعة التالية",
+    "launchVideo": "فيديو إطلاق منتج Tadado",
+    "unmuteVideo": "إلغاء كتم الفيديو",
+    "muteVideo": "كتم الفيديو",
+    "yes": "نعم",
+    "no": "لا",
+    "partial": "جزئي",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "تنزيل من App Store",
+    "getOnGooglePlay": "احصل عليه من Google Play",
+    "forbiddenWordsGameplay": "لعب الكلمات المحظورة على هاتف عمودي",
+    "headsUpGameplay": "لعب Heads Up على هاتف أفقي",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "كيف تلعب كل وضع",
+    "subtitle": "نفس القواعد في التطبيق. تعلّم كل وضع وابدأ في ثوانٍ.",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "لكل كلمة مستوى صعوبة",
+      "subtitle": "الكلمات الأصعب تمنح نقاطًا أكثر. هذا يبقي الجولات تنافسية وعادلة لكل مجموعة.",
+      "easyLabel": "سهل",
+      "hardLabel": "صعب",
+      "legendaryLabel": "أسطوري",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "عندما يخمن فريقك بشكل صحيح، اضغط «صحيح» واحصل على النقاط. الكلمات الأصعب لها مضاعف أعلى.",
+      "tabooPenalty": "قلت كلمة محظورة؟ تفقد البطاقة. لا نقاط في هذه الجولة."
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "الكلمات المحظورة",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "صف الكلمة",
+          "body": "أخبر فريقك بالكلمة في الأعلى. لا تقل أبدًا الكلمات المحظورة الأربع في الأسفل. خمّن أكبر عدد من البطاقات قبل انتهاء الوقت."
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "قل كلمة محظورة وتفقد البطاقة. بلا نقاط. الفريق الآخر يحافظ على الزخم."
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "تخطي",
+          "body": "عالق؟ تخطَّ البطاقة. لديك عدد محدود من التخطيات في كل دور، فاحتفظ بها للكلمات الصعبة."
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "الإجابة الصحيحة تمنح أكثر",
+          "body": "عندما يخمن فريقك، اضغط «صحيح» واحصل على النقاط. الكلمات الأصعب لها مضاعف أعلى."
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "الهاتف على الجبين",
+          "body": "أمسك الهاتف أفقيًا وضعه على جبينك. الأصدقاء يرون الكلمة. أنت لا."
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "هم يُلمّحون وأنت تخمّن",
+          "body": "اللاعب الذي يضع الهاتف على جبينه لا يرى الكلمة. الباقون يقرؤونها على الشاشة ويعطون تلميحات شفهية. لا يوجد زر تخطي."
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "عرفتها",
+          "body": "عرفتها؟ أومئ برأسك للأسفل، وأمِّل الهاتف للأسفل على جبينك. تحصل على نقطة وتظهر الكلمة التالية."
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "لا أعرف",
+          "body": "لا تعرفها؟ أومئ برأسك للأعلى، وأمِّل الهاتف للأعلى. بلا نقاط. انتقل للكلمة التالية."
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "إنشاء مجموعة AI",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "اكتب أي موضوع",
+          "body": "اكتب كلمة أو عبارة أو جملة كاملة. قهوة، أغاني التسعينات، أفلام الأوسكار. فكرة واحدة تكفي."
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "أضف المزيد من الأفكار",
+          "body": "اضغط + لإضافة مواضيع، أو اختر اقتراحًا. اضغط على الشريحة لإزالتها."
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "اللغة والصعوبة",
+          "body": "لغة المجموعة هي لغة البطاقات. الصعوبة تحدد مدى صعوبة الكلمات المحظورة."
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "العب في الوضعين",
+          "body": "نفس المجموعة تعمل في الكلمات المحظورة وHeads Up. اختر الوضع عند الضغط على المجموعة."
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "إنشاء في ثوانٍ",
+          "body": "سجّل الدخول ثم اضغط «إنشاء». مجموعتك المخصصة جاهزة للعب فورًا."
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "أي موضوع يمكن أن يصبح لعبة.",
+    "subtitle": "نكاتكم الداخلية أصبحت مجموعة. اكتب موضوعًا وشاهد البطاقات تظهر.",
+    "topics": "pop تركي التسعينات، أشرار Marvel، فوضى المكتب، ما تقوله مجموعتنا دائمًا",
+    "demoTitle": "منشئ مجموعات AI",
+    "demoHeadline": "ابنِ مجموعتك في 30 ثانية.",
+    "demoSubtitle": "صف أي موضوع. AI يكتب بطاقات Taboo: الكلمة المستهدفة مع تلميحات محظورة. مجموعتك تلعب فورًا.",
+    "inputLabel": "موضوعك",
+    "inputPlaceholder": "مثل: أفلام Marvel، أغاني التسعينات، نكات المكتب…",
+    "quickIdeas": "أفكار سريعة",
+    "difficulty": "الصعوبة",
+    "difficultyEasy": "سهل",
+    "difficultyMedium": "متوسط",
+    "difficultyHard": "صعب",
+    "generateButton": "إنشاء مجموعة",
+    "addTopic": "إضافة موضوع",
+    "topicsEmpty": "اكتب موضوعًا، اضغط + أو اختر فكرة سريعة أدناه.",
+    "generating": "جاري كتابة البطاقات…",
+    "demoPreviewLabel": "معاينة البطاقة",
+    "simulationBadge": "عرض تفاعلي",
+    "simulationHint": "شاهد AI يحوّل موضوعًا إلى بطاقة كلمات محظورة قابلة للعب. اختر الصعوبة وشغّل المحاكاة.",
+    "simulationStepTopic": "الإدخال",
+    "simulationStepGenerate": "جاري الإنشاء",
+    "simulationStepPreview": "ظهور البطاقات",
+    "simulationStepReady": "جاهز للعب",
+    "simulationWriting": "AI يكتب الكلمات المحظورة…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
-    "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "title": "ماذا نلعب الليلة؟",
+    "badge": "رائج",
+    "subtitle": "عندما ينتشر شيء ما، يصبح بطاقة taboo. Spider-Man: Brand New Day وObsession رائجان الآن، بالإضافة إلى The Odyssey وكرة القدم والمزيد. شاهد الكلمات المستهدفة الحقيقية قبل تنزيل لعبة taboo المجانية.",
+    "allCards": "جميع البطاقات الرائجة →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "تقارنها بلعبة أخرى؟",
+      "guides": "أدلة وأفكار لأمسيات اللعب →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
+    "title": "اختر أجواءك",
+    "subtitle": "ابدأ مجانًا مع Tadado Mix، ثم افتح الحزم الموضوعية عندما تكون جاهزًا.",
+    "countBadge": "8 مجموعات لعب",
+    "free": "مجاني",
     "play": "PLAY",
     "price": "$0.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "مجموعة البداية السريعة لكل مجموعة!"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "الصيف",
+        "desc": "شمس وبحر وأجواء العطلة!"
       },
       "cinema": {
-        "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "name": "السينما",
+        "desc": "أفلام ومسلسلات وممثلون!"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "السفر",
+        "desc": "مدن ودول حول العالم!"
       },
       "sport": {
-        "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "name": "الرياضة",
+        "desc": "كرة قدم وكرة سلة والمزيد!"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "الأبطال",
+        "desc": "أبطال القصص المصورة وقوى خارقة!"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "ألعاب الليل",
+        "desc": "لعب كلمات جريء بعد حلول الظلام!"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "أسعار بسيطة وصادقة",
+    "subtitle": "بدون اشتراكات مخفية. ادفع مرة واحدة لما تريده.",
+    "disclaimer": "الأسعار بالدولار الأمريكي وقد تختلف حسب المنطقة في App Store وGoogle Play. تتم المعاملات عبر Apple أو Google.",
     "mix": {
       "name": "Tadado Mix",
       "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "desc": "نزّل مجانًا والعب فورًا بمجموعة البداية الكلاسيكية."
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "مجموعات موضوعية",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "شراء لمرة واحدة لكل مجموعة. الصيف، السينما، السفر، الرياضة، الأبطال والمزيد."
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "إنشاء مجموعات AI",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "أنشئ مجموعة مخصصة من أي موضوع. العب في الوضعين."
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "بدون إعلانات · بدون اشتراك · استعادة المشتريات في أي وقت"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "كيف يعمل",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "اختر وضعًا",
+        "body": "الكلمات المحظورة للفرق أو Heads Up للمرح على الجبين."
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "اختر مجموعة",
+        "body": "العب مجانًا مع Mix أو افتح الحزم الموضوعية ومجموعات AI."
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "مرّر الهاتف والعب",
+        "body": "حدّد الفرق والمؤقت والجولات، وليبدأ الضحك."
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "أمسيات لعب حول العالم",
+    "subtitle": "تابع Tadado للمقاطع وأفكار المجموعات وإلهام ألعاب الحفلات.",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "لعبة تم لعبها",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "لغة"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "وضع لعب"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "اللغات المدعومة",
+    "languagesCaption": "دعم متساوٍ في كل لغة. بدون بيانات استخدام مزيفة.",
+    "trendingLabel": "رائج الليلة",
+    "editorialLabel": "الأحدث من Tadado",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "موسم مجموعات الصيف",
+        "body": "شمس وبحر وأجواء عطلة لليالي الدافئة."
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "مجموعات ليلة أفلام",
+        "body": "بطاقات سينما لعشاق الأفلام ومحبي الماراثون."
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "أنشئ مجموعتك",
+        "body": "حوّل أي موضوع إلى مجموعة قابلة للعب بالذكاء الاصطناعي."
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "انضم إلى مجتمع Tadado",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels ومقاطع أمسيات اللعب وأفكار المجموعات",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "فيديوهات Heads Up وتحديات الحفلات",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "تحديثات من Tadado Game Development",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "شاهد Tadado على Product Hunt"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "اربح 20% كشريك Tadado",
+    "subtitle": "العب مع الأصدقاء، سجّل فيديو قصير، وشارك رمزك الشخصي. بسيط.",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "عمولة على كل عملية بيع عبر رمزك",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "العب وسجّل",
+        "body": "نظّم أمسية لعب مع الأصدقاء وصوّر مقطعًا قصيرًا مع Tadado."
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "احصل على رمزك",
+        "body": "راسلنا. ننشئ لك رمز ترويجي شخصي."
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "شارك واربح",
+        "body": "انشر فيديوك مع رمزك. اربح 20% من مشتريات المجموعات الموضوعية ومجموعات AI."
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "اطلب رمز الشراكة",
+      "hint": "راسلنا مع رابط TikTok أو Instagram أو YouTube.",
+      "subject": "طلب رمز شراكة Tadado",
+      "bodyTemplate": "مرحبًا فريق Tadado،\n\nأريد الانضمام لبرنامج الشراكة.\n\nالاسم:\nرابط التواصل:\n\nشكرًا!"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "تفاصيل البرنامج الكاملة",
+    "back": "العودة إلى Tadado",
+    "pageNote": "نراجع كل طلب خلال أيام عمل قليلة. تُدفع العمولة على المشتريات المؤهلة داخل التطبيق عبر رمزك الشخصي."
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "اعمل معنا",
+    "subtitle": "أفكار مجموعات جديدة، تعاونات علامات تجارية، أو استثمار. البريد الإلكتروني يكفي.",
+    "learnMore": "اطّلع على خيارات الشراكة",
+    "back": "العودة إلى Tadado",
+    "pageNote": "Tadado Game Development تبني محفظة ألعاب جوال نظيفة. نقرأ كل رسالة.",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "تريد مجموعة جديدة؟",
+      "body": "راسلنا بفكرة موضوعك. هذا كل ما يلزم.",
+      "cta": "راسلنا بأفكار المجموعات",
+      "subject": "طلب مجموعة Tadado"
     },
     "collaboration": {
-      "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "title": "تعاونات العلامات",
+      "body": "مجموعات بعلامة مشتركة، حملات، أو شراكات مع صناع محتوى.",
+      "cta": "راسلنا",
+      "subject": "تعاون Tadado"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "المستثمرون والألعاب الجديدة",
+      "body": "مستثمرون ملائكون، ناشرون، أو شركات تريد البناء معنا.",
+      "cta": "راسلنا",
+      "subject": "شراكة / استثمار Tadado"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "من المدونة",
+    "subtitle": "أدلة وأفكار ألعاب حفلات ونصائح للاستفادة أكثر من Tadado.",
+    "readMore": "اقرأ المقال",
+    "viewAll": "عرض جميع المنشورات"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "كيف تلعب وأفضل أدلة ألعاب الكلمات",
+    "subtitle": "قواعد Taboo وHeads Up خطوة بخطوة وأفضل تطبيقات ألعاب الكلمات للجوال."
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "أسئلة وأجوبة.",
+    "subtitle": "كل ما تحتاج معرفته قبل أمسية اللعب القادمة.",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "كيف تلعب Taboo (الكلمات المحظورة)؟",
+        "a": "قسّم إلى فرق. لاعب واحد يصف الكلمة المستهدفة دون قول أي تلميحات محظورة على البطاقة. فريقك يخمّن قبل انتهاء الوقت. التخطيات محدودة. Tadado يتضمن مؤقتات وتسجيل نقاط ومجموعات موضوعية لتبدأ في ثوانٍ."
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "كيف تلعب Heads Up؟",
+        "a": "ضع الهاتف على جبينك حتى لا ترى الكلمة. الأصدقاء يعطون تلميحات دون قول الكلمة. أمِّل للأسفل عند التخمين الصحيح، وللأعلى للتخطي. Tadado يستخدم نفس المجموعات في وضعي Heads Up وTaboo."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "هل Tadado من أفضل تطبيقات ألعاب الكلمات المجانية؟",
+        "a": "Tadado مصمم لأمسيات اللعب: Taboo وHeads Up وTadado Mix المجاني ومجموعات موضوعية اختيارية وإنشاء مجموعات AI. بدون إعلانات وبدون اشتراك، مما يجعله من أفضل التطبيقات قيمة على iOS وAndroid."
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "هل Tadado مجاني؟",
+        "a": "نعم. Tadado Mix مجاني. المجموعات الموضوعية وإنشاء مجموعات AI مشتريات لمرة واحدة. راجع الأسعار للتفاصيل. لا يوجد اشتراك."
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "ما الفرق بين Taboo وHeads Up؟",
+        "a": "الكلمات المحظورة هو Taboo جماعي: صف دون كلمات محظورة. Heads Up يضع الهاتف على الجبين بينما الأصدقاء يُلمّحون. كلاهما يستخدم نفس المجموعات."
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "هل يحتوي Tadado على إعلانات؟",
+        "a": "لا. Tadado بدون إعلانات. تدفع فقط للمجموعات الاختيارية أو إنشاء AI إذا اخترت."
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "كيف يعمل إنشاء مجموعات AI؟",
+        "a": "اكتب موضوعًا مثل «أفلام Marvel» أو «أغاني التسعينات»، وTadado يُنشئ مجموعة قابلة للعب في ثوانٍ للوضعين."
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "ما اللغات المدعومة؟",
+        "a": "واجهة التطبيق متاحة بـ 17 لغة تشمل الإنجليزية والتركية والإسبانية والألمانية والفرنسية وغيرها."
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "كيف يقارن Tadado",
+    "subtitle": "اكتشف لماذا ينتقل اللاعبون من تطبيقات Taboo أو Heads Up أحادية الوضع إلى Tadado.",
+    "back": "العودة إلى Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "الميزة",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "التطبيقات المعتادة"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up في تطبيق واحد",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "منشئ مجموعات AI مخصص",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "مجموعة بداية مجانية (Tadado Mix)",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "بدون إعلانات",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "بدون اشتراك",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "حزم مجموعات موضوعية",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 لغة",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "تسجيل نقاط حسب صعوبة الكلمة",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "كثير من التطبيقات تركز على وضع واحد أو تعرض إعلانات أو تقفل المحتوى خلف اشتراك. Tadado مصمم لأمسيات لعب حقيقية: الوضعان، مجموعة بداية مجانية، وإضافات بدفع لمرة واحدة.",
+    "cta": "نزّل Tadado مجانًا",
+    "viewFull": "افتح صفحة المقارنة الكاملة"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "فريق منتج واحد يبني ألعاب جوال يريد الناس لعبها معًا.",
+    "title": "من نحن",
+    "subtitle": "الفريق الصغير خلف البطاقات.",
+    "intro": "نحن فريق من شخصين يفضلان إطلاق ألعاب الحفلات على كتابة السير الذاتية المؤسسية. واحد يبرمج الفوضى، والآخر يصمم البطاقات.",
+    "back": "العودة إلى Tadado",
+    "funFactsLabel": "حقائق ممتعة",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "role": "مطوّر برمجيات",
+        "bio": "مطوّر full-stack يبني Tadado وتطبيقات الجوال بـ React Native وNext.js وNode.js. خريج أنظمة المعلومات الإدارية، يركز على كود نظيف وتصميم يراعي اللاعب.",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "أطلق Tadado من الفكرة إلى App Store أثناء العمل في التكنولوجيا المالية في Pulse FinTech.",
+          "سيصلح الإنتاج الساعة 2 صباحًا — لكن فقط إذا كان المؤقت لا يزال يعدّ بشكل صحيح.",
+          "يؤمن أن أفضل ألعاب الحفلات لا تحتاج درسًا تعليميًا وتمنح أقصى إعادة لعب."
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "زيارة erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "role": "مصممة منتج",
+        "bio": "مصممة واجهات وتجربة مستخدم لـ Tadado وطالبة عمارة في جامعة إزمير للديمقراطية. تشكّل اللغة البصرية وتدفق التفاعل وتجربة اللعب من البطاقات إلى الشاشات.",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "تفكر في الإدراك المكاني بمقياس الطفل نهارًا، وتخطيط البطاقات ليلًا.",
+          "قادت تصميم منتج Tadado من أول مخطط إلى شاشات لعب مصقولة.",
+          "ستلاحظ إذا كان انحناء الزر مختلفًا ببكسلين. بلطف."
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "زيارة nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "ساعدنا في بناء الجيل القادم من ألعاب الجوال.",
+      "body": "Tadado خطوتنا الأولى نحو استوديو عالمي لألعاب جوال اجتماعية قابلة لإعادة اللعب. نبني محفظة منتجات أصلية لأمسيات اللعب حول العالم ونرحب بالحوار مع مستثمرين ملائكين وشركاء استراتيجيين ومن يساعدنا في توسيع التوزيع. إذا آمنت أن الفرق الصغيرة تستطيع بناء منتجات تحدد الفئة، نود أن نسمع منك.",
+      "link": "تحدث مع الفريق"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
+    "title": "لن تنفد أفكار أمسيات اللعب.",
+    "subtitle": "موضوعات جديدة وميزات ونصائح لألعاب الحفلات. بدون رسائل مزعجة.",
     "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "button": "انضم لقائمة الانتظار",
+    "success": "أنت في القائمة. سنراسلك عند ظهور شيء جديد.",
+    "privacy": "نراسلك فقط بتحديثات Tadado. يمكنك إلغاء الاشتراك في أي وقت.",
+    "errorInvalid": "أدخل عنوان بريد إلكتروني صالحًا.",
+    "errorGeneric": "حدث خطأ. يرجى المحاولة مرة أخرى."
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
+    "title": "أمسية اللعب القادمة تحتاج Tadado.",
+    "subtitle": "هاتف واحد. الجميع مدعو.",
+    "button": "GET TADADO · FREE",
+    "secondary": "EXPLORE DECKS"
+  },
+  "finalCta": {
+    "title": "أمسية اللعب القادمة تحتاج Tadado.",
+    "subtitle": "هاتف واحد. الجميع مدعو.",
+    "button": "GET TADADO · FREE",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
-    "tagline": "Describe, guess, make it yours.",
+    "tagline": "هاتف واحد. أصدقاؤك. ليبدأ الفوضى.",
     "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
-    "help": "Help"
+    "playTitle": "العب",
+    "discoverTitle": "اكتشف",
+    "growTitle": "انمُ مع Tadado",
+    "supportTitle": "الدعم",
+    "socialTitle": "التواصل",
+    "help": "مساعدة",
+    "support": "الدعم",
+    "partnerships": "الشراكات",
+    "compare": "مقارنة التطبيقات",
+    "affiliate": "برنامج الشراكة",
+    "team": "فريقنا",
+    "legal": "قانوني",
+    "terms": "شروط الاستخدام",
+    "privacy": "سياسة الخصوصية",
+    "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "Download free"
+    "download": "GET TADADO · FREE"
   },
   "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
-  },
-  "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "label": "اللغة"
   }
 }

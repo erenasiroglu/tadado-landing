@@ -20,7 +20,7 @@ export const LOCALES = [
 
 export type Locale = (typeof LOCALES)[number];
 
-export const BLOG_LOCALES: Locale[] = ["en", "tr"];
+export const BLOG_LOCALES: Locale[] = [...LOCALES];
 
 export const DEFAULT_LOCALE: Locale = "en";
 
@@ -40,6 +40,5 @@ export function localeHref(locale: Locale, path = ""): string {
 }
 
 export function blogHref(locale: Locale): string {
-  if (BLOG_LOCALES.includes(locale)) return localeHref(locale, "blog");
-  return localeHref("en", "blog");
+  return localeHref(locale, "blog");
 }

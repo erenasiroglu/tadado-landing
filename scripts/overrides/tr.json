@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Tadado: Parti Kelime Oyunu | Taboo, Heads Up ve Yapay Zeka Desteleri",
+    "description": "Tek telefon. Arkadaşların. Taboo, Heads Up ve oyun geceleri için yapay zeka desteleri. Ücretsiz başla. Reklamsız. iOS ve Android."
+  },
+  "nav": {
+    "play": "Oyna",
+    "aiDecks": "Yapay Zeka Desteleri",
+    "decks": "Desteler",
+    "community": "Topluluk",
+    "howItWorks": "Nasıl Çalışır",
+    "faq": "SSS",
+    "getTadado": "Tadado'yu İndir",
+    "pricing": "Fiyatlar",
+    "blog": "Blog",
+    "guides": "Rehberler",
+    "compare": "Karşılaştır",
+    "affiliate": "Affiliate",
+    "team": "Ekibimiz",
+    "download": "İndir"
+  },
+  "hero": {
+    "brandLine": "Tadado Game Development 2026",
+    "title": "Tek telefon. Arkadaşların. Kaos başlasın.",
+    "subtitle": "Oyun geceleri için Taboo, Heads Up ve yapay zeka desteleri.",
+    "ctaPrimary": "TADADO'YU İNDİR · ÜCRETSİZ",
+    "ctaSecondary": "NASIL OYNANIR",
+    "metrics": [
+      { "value": "300,000+", "label": "oyun oynandı", "animate": true },
+      { "value": "2", "label": "oyun modu" },
+      { "value": "AI", "label": "destekli" },
+      { "value": "17", "label": "dil" },
+      { "value": "8", "label": "oyun destesi", "href": "#decks" },
+      { "value": "Offline", "label": "oyna" },
+      { "value": "No", "label": "reklam" }
+    ]
+  },
+  "proof": {
+    "players": "300.000+ oyun oynandı",
+    "modes": "2 oyun modu",
+    "ai": "Yapay zeka destekli",
+    "languages": "17 dil",
+    "offline": "Çevrimdışı oyna",
+    "noAds": "Reklam yok"
+  },
+  "special": {
+    "title": "Tadado'yu özel kılan nedir?",
+    "subtitle": "Gerçek oyun geceleri için: hızlı başlar, kolay paylaşılır ve grubu güldürmek için tasarlandı.",
+    "developer": "Tadado Game Development tarafından geliştirildi",
+    "items": [
+      {
+        "title": "İki mod, tek uygulama",
+        "body": "Yasaklı Kelimeler ve Alnında Tahmin arasında geçiş yap, iki kez indirmene gerek yok. Aynı desteler, her turda farklı enerji."
+      },
+      {
+        "title": "Saniyeler içinde yapay zeka destesi",
+        "body": "Herhangi bir konu yaz, anında oynanabilir deste al. İç şakalar, film geceleri ve temalı partiler için ideal."
+      },
+      {
+        "title": "Reklamsız, abonelik yok",
+        "body": "Tadado Mix ile ücretsiz başla. Ekstra temalı desteler veya yapay zeka deste oluşturma için yalnızca bir kez öde."
+      },
+      {
+        "title": "17 dil dahili",
+        "body": "Karışık dil gruplarıyla oyna. Uygulama arayüzü ve kartlar herkesin katılması için uyum sağlar."
+      }
+    ]
+  },
+  "stats": {
+    "gamesPlayed": "300,000+",
+    "gamesPlayedLabel": "dünya genelinde oynanan oyun",
+    "modes": "2",
+    "modesLabel": "oyun modu",
+    "languages": "17",
+    "languagesLabel": "uygulama dili",
+    "developerNote": "Dünya genelinde oyuncuların güvendiği · Tadado Game Development"
+  },
+  "productBenefits": {
+    "eyebrow": "Gerçek oyun geceleri için",
+    "title": "Tek telefon. Takımlar. Süreler. Turlar.",
+    "statement": "Tek telefon. Takımlar. Süreler. Turlar. Çevrimdışı oyna. Reklam yok.",
+    "details": ["Çevrimdışı oyna", "Takımlar ve süreler", "Reklam yok", "Abonelik yok"]
+  },
+  "personalization": {
+    "title": "Kendine göre ayarla.",
+    "subtitle": "Her seferinde aynı oyun değil. Her grup kendi deneyimini oluşturabilir.",
+    "items": [
+      { "label": "Arkadaşlar", "topic": "Hafta sonu kaosu" },
+      { "label": "Aile", "topic": "Pazar yemeği" },
+      { "label": "Doğum günleri", "topic": "Parti klasikleri" },
+      { "label": "Film gecesi", "topic": "Oscar filmleri" },
+      { "label": "Spor", "topic": "Şampiyonlar Ligi" },
+      { "label": "Seyahat", "topic": "Yolculuk oyunları" },
+      { "label": "Ofis", "topic": "Ofis kaosu" },
+      { "label": "Üniversite", "topic": "Kampüs efsaneleri" },
+      { "label": "İç şakalar", "topic": "Sürekli söylediklerimiz" }
+    ]
+  },
+  "reviews": {
+    "title": "Oyun gecesinde sevilen",
+    "subtitle": "Tadado'yu arkadaşlarıyla deneyen oyuncuların gerçek App Store yorumları.",
+    "appStoreRating": "App Store'da 5.0",
+    "appStoreCount": "8 değerlendirme",
+    "sourceLabel": "App Store yorumu",
+    "items": [
+      {
+        "quote": "Arkadaşlarımızla bulduk ve indirdik. Tasarım ve arayüz gerçekten iyi. Yapay zeka ile kendi ilgi alanlarımıza kart oluşturmamız bizi çok mutlu etti. Herkes kendi ilgi alanına kart oluşturabiliyor ve kelimeler tekrar etmiyor. Tebrikler.",
+        "author": "kerqeten",
+        "context": "Ağu 2025 · App Store"
+      },
+      {
+        "quote": "Herhangi bir konu için yapay zeka kart paketi oluşturucuyla özel desteler yapmak harika. Arkadaşlarımızla saatlerce oynadık!",
+        "author": "bk.aliz",
+        "context": "Ağu 2025 · App Store"
+      },
+      {
+        "quote": "Taboo gibi arkadaşlarla oynamak için çok eğlenceli bir oyun.",
+        "author": "Silenzi.O",
+        "context": "Tem 2025 · App Store"
+      },
+      {
+        "quote": "Gerçekten eğlenceli bir oyun. Tasarım güzel. Kartlar eğlenceli, sade ve anlaşılır. Zamanın nasıl geçtiğini fark etmiyorsun.",
+        "author": "mell.17",
+        "context": "Nis 2025 · App Store"
+      }
+    ]
+  },
+  "modes": {
+    "title": "İki farklı oyun",
+    "subtitle": "Klasik Taboo tarzı yasaklı kelimeler veya alnında Heads Up. Aynı desteler, farklı enerji.",
+    "tabooTitle": "Yasaklı Kelimeler",
+    "tabooBody": "Ana kelimeyi anlat, daha fazla risk al ve skorunu büyüt. Daha zor kelimeler ×2'den ×5'e kadar daha yüksek çarpanlar açar.",
+    "headsUpTitle": "Alnında Tahmin",
+    "headsUpBody": "Telefonu alnına koy. Arkadaşların ipucu versin. Doğru bildiğinde aşağı eğ.",
+    "newBadge": "Yeni mod",
+    "showcase": {
+      "portraitGameplay": "Dikey oynanış",
+      "landscapeGameplay": "Yatay oynanış",
+      "buildScoreTitle": "Skorunu büyüt",
+      "buildScoreBody": "Daha zor kelimeleri seç, çarpanını yükselt ve her doğru cevabı daha büyük puana dönüştür.",
+      "scoreMultipliersAria": "Skor çarpanları: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "42 saniye kaldı",
+    "passStatus": "2 / 3 pas hakkı kaldı",
+    "roundLabel": "Tur 1/3",
+    "tabooLabel": "Tabu!",
+    "passLabel": "Pas",
+    "correctLabel": "Doğru",
+    "foreheadTitle": "Telefonu alnına koy",
+    "tiltUp": "Pas için yukarı kaldır",
+    "tiltDown": "Doğruysa aşağı indir",
+    "yourTeam": "Takımın",
+    "turnComplete": "Tur bitti",
+    "pointsEarned": "Kazanılan puan",
+    "scoresHeading": "Skorlar",
+    "nextUpLabel": "Sırada",
+    "continue": "Devam",
+    "pauseGame": "Oyunu duraklat",
+    "teamA": "TAKIM A",
+    "teamB": "TAKIM B"
+  },
+  "a11y": {
+    "openMenu": "Menüyü aç",
+    "closeLanguageMenu": "Dil menüsünü kapat",
+    "mainNav": "Ana",
+    "mobileNav": "Mobil",
+    "previousDeck": "Önceki deste",
+    "nextDeck": "Sonraki deste",
+    "launchVideo": "Tadado ürün lansman videosu",
+    "unmuteVideo": "Lansman videosunun sesini aç",
+    "muteVideo": "Lansman videosunun sesini kapat",
+    "yes": "Evet",
+    "no": "Hayır",
+    "partial": "Kısmen",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "App Store'dan indir",
+    "getOnGooglePlay": "Google Play'den edin",
+    "forbiddenWordsGameplay": "Dikey telefonda Yasaklı Kelimeler oynanışı",
+    "headsUpGameplay": "Yatay telefonda Alnında Tahmin oynanışı",
+    "tadadoLogo": "Tadado"
+  },
+  "howToPlay": {
+    "title": "Tüm modlar nasıl oynanır?",
+    "subtitle": "Uygulamadaki kuralların aynısı. Her modu öğren, saniyeler içinde başla.",
+    "difficulty": {
+      "title": "Her kelimenin zorluk derecesi var",
+      "subtitle": "Zor kelimeler daha fazla puan verir. Bu, turları rekabetçi ve her grup için adil tutar.",
+      "easyLabel": "Kolay",
+      "hardLabel": "Zor",
+      "legendaryLabel": "Efsane",
+      "easyMultiplier": "×1",
+      "hardMultiplier": "×2",
+      "legendaryMultiplier": "×3",
+      "scoreBody": "Takımın bildiyse Doğru'ya bas ve puanı al. Zor kelimelerde çarpan daha yüksektir.",
+      "tabooPenalty": "Yasaklı kelime mi söyledin? Kart gider. O turda puan alamazsın."
+    },
+    "forbiddenWords": {
+      "modeLabel": "Yasaklı Kelimeler",
+      "steps": [
+        {
+          "title": "Kelimeyi anlat",
+          "body": "Takımına üstteki kelimeyi anlat. Alttaki 4 yasaklı kelimeyi asla söyleme. Süre dolmadan mümkün olduğunca çok kart çevir."
+        },
+        {
+          "title": "Tabu!",
+          "body": "Yasaklı bir kelime söylersen kart gider. Puan yok. Diğer takım momentumu korur."
+        },
+        {
+          "title": "Pas",
+          "body": "Takıldın mı? Kartı pasla. Tur başına yalnızca birkaç pas hakkın var; zor kelimeler için sakla."
+        },
+        {
+          "title": "Doğru daha çok puan",
+          "body": "Takımın bildiyse Doğru'ya bas ve puanı al. Zor kelimelerde çarpan daha yüksektir."
+        }
+      ]
+    },
+    "headsUp": {
+      "modeLabel": "Alnında Tahmin",
+      "steps": [
+        {
+          "title": "Telefon alnında",
+          "body": "Telefonu yatay tut ve alnına koy. Arkadaşların kelimeyi görür. Sen görmezsin."
+        },
+        {
+          "title": "Onlar ipucu verir, sen tahmin edersin",
+          "body": "Alnında telefonu tutan oyuncu kelimeyi göremez. Diğer herkes ekrandaki kelimeyi okuyup sesli ipucu verir. Pas butonu yoktur."
+        },
+        {
+          "title": "Bildin",
+          "body": "Bildin mi? Çeneni aşağı indir, telefonu alnında aşağı eğ. Puan alırsın ve sıradaki kelime gelir."
+        },
+        {
+          "title": "Bilemedin",
+          "body": "Bilemedin mi? Çeneni yukarı kaldır, telefonu alnında yukarı eğ. Puan yok. Sıradaki kelimeye geç."
+        }
+      ]
+    },
+    "aiDeck": {
+      "modeLabel": "Yapay zeka deste oluşturma",
+      "steps": [
+        {
+          "title": "İstediğin konuyu yaz",
+          "body": "Tek kelime, kısa ifade veya tam cümle yaz. Kahve, 90'lar hitleri, Oscar filmleri. Tek fikir yeter."
+        },
+        {
+          "title": "Daha fazla fikir ekle",
+          "body": "+ ile konuları üst üste ekle veya bir öneri seç. Kaldırmak için çipe dokun."
+        },
+        {
+          "title": "Dil ve zorluk",
+          "body": "Deste dili kartların dilini belirler. Zorluk, yasaklı kelimelerin ne kadar zor olacağını ayarlar."
+        },
+        {
+          "title": "İki modda da oyna",
+          "body": "Aynı deste Yasaklı Kelimeler ve Alnında Tahmin'de çalışır. Desteye dokunduğunda modu seçersin."
+        },
+        {
+          "title": "Saniyeler içinde oluştur",
+          "body": "Giriş yap, ardından Oluştur'a bas. Özel desten hemen oynamaya hazır."
+        }
+      ]
+    }
+  },
+  "ai": {
+    "title": "Her konu bir oyuna dönüşebilir.",
+    "subtitle": "İç şakaların deste oldu. Bir konu yaz, kartların belirmesini izle.",
+    "topics": "90'lar Türk pop'u, Marvel kötüleri, ofis kaosu, arkadaş grubumuzun sürekli söyledikleri",
+    "demoTitle": "Yapay Zeka Deste Oluşturucu",
+    "demoHeadline": "Desteni 30 saniyede oluştur.",
+    "demoSubtitle": "Herhangi bir konuyu yaz. Yapay zeka Taboo kartları üretir: hedef kelime ve yasaklı ipuçları. Grubun hemen oynar.",
+    "inputLabel": "Konun",
+    "inputPlaceholder": "ör. Marvel filmleri, 90'lar pop hitleri, ofis şakaları…",
+    "quickIdeas": "Hızlı fikirler",
+    "difficulty": "Zorluk",
+    "difficultyEasy": "Kolay",
+    "difficultyMedium": "Orta",
+    "difficultyHard": "Zor",
+    "generateButton": "Deste oluştur",
+    "addTopic": "Konu ekle",
+    "topicsEmpty": "Bir konu yaz, + ile ekle veya aşağıdan hızlı fikir seç.",
+    "generating": "Kartlar yazılıyor…",
+    "demoPreviewLabel": "Önizleme kartı",
+    "simulationBadge": "İnteraktif demo",
+    "simulationHint": "Yapay zekanın bir konuyu oynanabilir Yasaklı Kelimeler kartına dönüştürmesini izle. Zorluk seç ve simülasyonu çalıştır.",
+    "simulationStepTopic": "Girdi",
+    "simulationStepGenerate": "Oluşturuluyor",
+    "simulationStepPreview": "Kartlar beliriyor",
+    "simulationStepReady": "Oynamaya hazır",
+    "simulationWriting": "Yapay zeka yasaklı kelimeleri yazıyor…"
+  },
+  "trending": {
+    "title": "Bu akşam ne oynuyoruz?",
+    "badge": "Trend",
+    "subtitle": "Bir şey patladığında tabu kartına dönüşür. Spider-Man: Brand New Day ve Obsession şu an trend; ayrıca The Odyssey, futbol ve daha fazlası. Ücretsiz tabu oyununu indirmeden önce gerçek hedef kelimeleri gör.",
+    "allCards": "Tüm trend kartlar →",
+    "compare": {
+      "title": "Başka bir oyunla karşılaştırıyor musun?",
+      "guides": "Rehberler ve oyun gecesi fikirleri →"
+    }
+  },
+  "decks": {
+    "title": "Tarzını seç",
+    "subtitle": "Tadado Mix ile ücretsiz başla, hazır olduğunda temalı paketleri aç.",
+    "countBadge": "8 oyun destesi",
+    "free": "Ücretsiz",
+    "play": "OYNA",
+    "price": "$0.99",
+    "newBadge": "YENİ",
+    "items": {
+      "mix": {
+        "name": "Tadado Mix",
+        "desc": "Her grup için hızlı başlangıç destesi!"
+      },
+      "summer": {
+        "name": "Yaz",
+        "desc": "Güneş, deniz ve tatil havası!"
+      },
+      "cinema": {
+        "name": "Sinema",
+        "desc": "Filmler, diziler ve oyuncular!"
+      },
+      "travel": {
+        "name": "Seyahat",
+        "desc": "Tüm şehirler ve ülkeler!"
+      },
+      "sport": {
+        "name": "Spor",
+        "desc": "Futbol, basketbol ve daha fazlası!"
+      },
+      "heroes": {
+        "name": "Kahramanlar",
+        "desc": "Çizgi roman kahramanları ve süper güçler!"
+      },
+      "midnight": {
+        "name": "Gece Oyunları",
+        "desc": "Geceye özel cesur kelime oyunları!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Basit, dürüst fiyatlandırma",
+    "subtitle": "Gizli abonelik yok. İstediğin için bir kez öde.",
+    "disclaimer": "Fiyatlar USD cinsindendir ve App Store ile Google Play'de bölgeye göre değişebilir. Satın alımlar Apple veya Google üzerinden yapılır.",
+    "mix": {
+      "name": "Tadado Mix",
+      "price": "Ücretsiz",
+      "desc": "Ücretsiz indir ve klasik başlangıç destesiyle hemen oyna."
+    },
+    "theme": {
+      "name": "Temalı desteler",
+      "price": "$0.99",
+      "desc": "Deste başına tek seferlik satın alma. Yaz, Sinema, Seyahat, Spor, Kahramanlar ve daha fazlası."
+    },
+    "ai": {
+      "name": "Yapay zeka deste oluşturma",
+      "price": "$2.99",
+      "desc": "Herhangi bir konudan özel deste üret. İki oyun modunda da oyna."
+    },
+    "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle"
+  },
+  "howItWorks": {
+    "title": "Nasıl çalışır",
+    "steps": [
+      {
+        "title": "Mod seç",
+        "body": "Takım oyunu için Yasaklı Kelimeler veya alnında eğlence için Alnında Tahmin."
+      },
+      {
+        "title": "Deste seç",
+        "body": "Mix ile ücretsiz oyna veya temalı paketleri ve yapay zeka destelerini aç."
+      },
+      {
+        "title": "Telefonu paylaş ve oyna",
+        "body": "Takımları, süreyi ve turları ayarla, kahkahalar başlasın."
+      }
+    ]
+  },
+  "community": {
+    "title": "Dünyanın dört bir yanında oyun geceleri",
+    "subtitle": "Klipler, deste fikirleri ve parti oyunu ilhamı için Tadado'yu takip et.",
+    "metrics": [
+      { "value": "300,000+", "label": "oyun oynandı", "animate": true },
+      { "value": "17", "label": "dil" },
+      { "value": "2", "label": "oyun modu" }
+    ],
+    "languagesTitle": "Desteklenen diller",
+    "languagesCaption": "Her uygulama dilinde eşit destek. Uydurma kullanım verisi yok.",
+    "trendingLabel": "Bu akşam trend",
+    "editorialLabel": "Tadado'dan son haberler",
+    "editorialItems": [
+      { "title": "Yaz deste sezonu", "body": "Sıcak geceler için güneş, deniz ve tatil havası." },
+      { "title": "Film gecesi desteleri", "body": "Film tutkunları ve dizi maratoncuları için sinema kartları." },
+      { "title": "Kendin oluştur", "body": "Yapay zeka ile herhangi bir konuyu oynanabilir desteye dönüştür." }
+    ],
+    "socialCta": "Tadado topluluğuna katıl",
+    "instagramCta": "Instagram",
+    "instagramDesc": "Reels, oyun gecesi klipleri ve deste fikirleri",
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Heads Up videoları ve parti meydan okumaları",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Tadado Game Development'tan güncellemeler",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "Tadado'yu Product Hunt'ta gör"
+  },
+  "affiliate": {
+    "title": "Tadado affiliate olarak %20 kazan",
+    "subtitle": "Arkadaşlarla oyna, kısa bir video çek ve kişisel kodunu paylaş. Bu kadar basit.",
+    "rate": "%20",
+    "rateNote": "kodunla yapılan her satıştan komisyon",
+    "steps": [
+      {
+        "title": "Oyna ve kaydet",
+        "body": "Arkadaşlarla oyun gecesi yap ve Tadado ile kısa bir klip çek."
+      },
+      {
+        "title": "Kodunu al",
+        "body": "Bize e-posta at. Sana özel bir promo kodu oluşturuyoruz."
+      },
+      {
+        "title": "Paylaş ve kazan",
+        "body": "Videonda kodunu paylaş. Temalı desteler ve yapay zeka deste alımlarından %20 kazan."
+      }
+    ],
+    "cta": {
+      "button": "Affiliate kodumu iste",
+      "hint": "TikTok, Instagram veya YouTube linkini e-posta ile gönder.",
+      "subject": "Tadado affiliate kod talebi",
+      "bodyTemplate": "Merhaba Tadado ekibi,\n\nAffiliate programına katılmak istiyorum.\n\nAdım:\nSosyal medya linkim:\n\nTeşekkürler!"
+    },
+    "learnMore": "Program detayları",
+    "back": "Tadado'ya dön",
+    "pageNote": "Her başvuruyu birkaç iş günü içinde inceliyoruz. Komisyon, kişisel kodunla yapılan uygun uygulama içi satın alımlardan ödenir."
+  },
+  "partnerships": {
+    "title": "Bizimle çalış",
+    "subtitle": "Yeni deste fikri, marka iş birliği veya yatırım. E-posta atmak yeterli.",
+    "learnMore": "İş birliği seçeneklerini gör",
+    "back": "Tadado'ya dön",
+    "pageNote": "Tadado Game Development, sade mobil oyunlardan oluşan bir portföy oluşturuyor. Her e-postayı okuyoruz.",
+    "deckRequest": {
+      "title": "Yeni deste mi istiyorsun?",
+      "body": "Tema fikrini e-posta ile gönder. Hepsi bu kadar.",
+      "cta": "Deste fikri gönder",
+      "subject": "Tadado deste talebi"
+    },
+    "collaboration": {
+      "title": "Marka iş birlikleri",
+      "body": "Ortak markalı desteler, kampanyalar veya içerik üretici iş birlikleri.",
+      "cta": "Bize e-posta at",
+      "subject": "Tadado iş birliği"
+    },
+    "investors": {
+      "title": "Yatırımcılar ve yeni oyunlar",
+      "body": "Melek yatırımcılar, yayıncılar veya bizimle birlikte büyümek isteyen şirketler.",
+      "cta": "Bize e-posta at",
+      "subject": "Tadado ortaklık / yatırım"
+    }
+  },
+  "blog": {
+    "title": "Blogdan",
+    "subtitle": "Rehberler, parti oyunu fikirleri ve Tadado'dan daha fazla verim alma ipuçları.",
+    "readMore": "Yazıyı oku",
+    "viewAll": "Tüm yazılar"
+  },
+  "seoGuides": {
+    "title": "Nasıl oynanır ve en iyi kelime oyunu rehberleri",
+    "subtitle": "Taboo, Heads Up charades için adım adım kurallar ve en iyi mobil kelime oyunu uygulamaları."
+  },
+  "faq": {
+    "title": "Sorular, cevaplandı.",
+    "subtitle": "Bir sonraki oyun gecen öncesi bilmen gereken her şey.",
+    "items": [
+      {
+        "q": "Taboo (Yasaklı Kelimeler) nasıl oynanır?",
+        "a": "Takımlara bölün. Sıradaki oyuncu, karttaki yasaklı ipuçlarını söylemeden hedef kelimeyi anlatır. Takımın süre dolmadan bilmesi gerekir. Pas hakkı sınırlıdır. Tadado'da süre, skor ve temalı desteler hazır gelir; saniyeler içinde başlayabilirsin."
+      },
+      {
+        "q": "Heads Up charades nasıl oynanır?",
+        "a": "Telefonu alnına koy ki kelimeyi göremeyesin. Arkadaşların kelimeyi söylemeden ipucu verir. Doğru bildiğinde aşağı, pas geçmek için yukarı eğ. Tadado aynı desteleri Heads Up ve Taboo modlarında kullanır."
+      },
+      {
+        "q": "Tadado en iyi ücretsiz kelime oyunu uygulamalarından biri mi?",
+        "a": "Tadado oyun geceleri için tasarlandı: Taboo, Heads Up charades, ücretsiz Tadado Mix, isteğe bağlı temalı desteler ve yapay zeka deste oluşturma. Reklamsız ve abonelik yok; iOS ve Android'de en iyi değeri sunan kelime oyunlarından biri."
+      },
+      {
+        "q": "Tadado ücretsiz mi?",
+        "a": "Evet. Tadado Mix ücretsiz oynanır. İsteğe bağlı temalı desteler ve yapay zeka deste oluşturma tek seferlik satın alımlardır. Detaylar için Fiyatlar bölümüne bak. Abonelik yoktur."
+      },
+      {
+        "q": "Taboo ile Heads Up arasındaki fark nedir?",
+        "a": "Yasaklı Kelimeler takım tabanlı Taboo'dur: yasaklı kelimeleri kullanmadan anlatırsın. Heads Up telefonu alnına koyar, arkadaşların ipucu verir. İkisi de aynı desteleri kullanır."
+      },
+      {
+        "q": "Tadado'da reklam var mı?",
+        "a": "Hayır. Tadado reklamsızdır. Yalnızca isteğe bağlı desteler veya yapay zeka oluşturma için ödeme yaparsın."
+      },
+      {
+        "q": "Yapay zeka deste oluşturma nasıl çalışır?",
+        "a": "Bir konu yaz, \"Marvel filmleri\" veya \"90'lar pop hitleri\" gibi; Tadado saniyeler içinde her iki oyun modu için oynanabilir bir deste üretir."
+      },
+      {
+        "q": "Hangi diller destekleniyor?",
+        "a": "Uygulama arayüzü İngilizce, Türkçe, İspanyolca, Almanca, Fransızca ve daha fazlası dahil 17 dilde mevcuttur."
+      }
+    ]
+  },
+  "compare": {
+    "title": "Tadado nasıl karşılaştırılır?",
+    "subtitle": "Oyuncuların tek modlu Taboo veya Heads Up uygulamalarından Tadado'ya geçmesinin nedenlerini gör.",
+    "back": "Tadado'ya dön",
+    "columns": {
+      "feature": "Özellik",
+      "tadado": "Tadado",
+      "others": "Tipik uygulamalar"
+    },
+    "rows": [
+      {
+        "feature": "Taboo + Heads Up tek uygulamada",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Yapay zeka özel deste oluşturucu",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Ücretsiz başlangıç destesi (Tadado Mix)",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Reklamsız",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Abonelik yok",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Temalı deste paketleri",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17 dil",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Kelime zorluk puanlama",
+        "tadado": "yes",
+        "others": "no"
+      }
+    ],
+    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir veya içeriği abonelik arkasına kilitler. Tadado gerçek oyun geceleri için iki mod, ücretsiz başlangıç destesi ve tek seferlik ekstralarla tasarlandı.",
+    "cta": "Tadado'yu ücretsiz indir",
+    "viewFull": "Tam karşılaştırma sayfasını aç"
+  },
+  "team": {
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "İnsanların birlikte oynamak istediği mobil oyunları geliştiren tek ürün ekibi.",
+    "title": "Biz kimiz?",
+    "subtitle": "Kartların arkasındaki minik ekip.",
+    "intro": "Kurumsal biyografi yazmak yerine parti oyunu çıkarmayı tercih eden iki kişilik minik bir ekibiz. Biri kaosu kodluyor, biri kartları tasarlıyor.",
+    "back": "Tadado'ya dön",
+    "funFactsLabel": "Eğlenceli gerçekler",
+    "members": {
+      "eren": {
+        "name": "Eren Nasıroğlu",
+        "role": "Yazılım Geliştirici",
+        "bio": "Tadado'yu ve mobil uygulamaları React Native, Next.js ve Node.js ile geliştiren full-stack developer. Yönetim Bilişim Sistemleri mezunu; temiz kod ve oyuncu dostu tasarımı ön planda tutuyor.",
+        "funFacts": [
+          "Pulse FinTech'te çalışırken Tadado'yu fikirden App Store'a taşıdı.",
+          "Saat 02:00'de production debug yapar, ama yalnızca süre doğru sayıyorsa.",
+          "En iyi parti oyununun sıfır tutorial ve maksimum tekrar oynanabilirlik gerektiğine inanıyor."
+        ],
+        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobil Oyunlar", "FinTech"],
+        "websiteCta": "erenasiroglu.de'yi ziyaret et"
+      },
+      "nur": {
+        "name": "Nur Günen",
+        "role": "Ürün Tasarımcısı",
+        "bio": "Tadado için ürün UI/UX tasarımcısı ve İzmir Demokrasi Üniversitesi mimarlık öğrencisi. Görsel dili, etkileşim akışını ve oyun deneyimini kartlardan ekranlara taşıyor.",
+        "funFacts": [
+          "Gündüz çocuk ölçeğinde mekân algısını, gece kart düzenlerini düşünüyor.",
+          "Tadado'nun uçtan uca ürün tasarımını ilk wireframe'den cilalı oyun ekranlarına kadar yönetti.",
+          "Buton radius'un 2 piksel kaydığını fark eder. Nazikçe."
+        ],
+        "skills": ["UI/UX", "Figma", "Etkileşim Tasarımı", "Oyun Deneyimi", "Mekân Tasarımı", "Procreate"],
+        "websiteCta": "nurgunen.com'u ziyaret et"
+      }
+    },
+    "joinCta": {
+      "title": "Yeni nesil mobil oyunları birlikte inşa edelim.",
+      "body": "Tadado, oyun geceleri için sosyal ve tekrar oynanabilir mobil oyunlardan oluşan global bir stüdyo kurma yolculuğumuzun ilk adımı. Dünyanın dört bir yanındaki oyunculara ulaşacak özgün ürünler geliştiriyoruz; büyümemize katkı sağlayabilecek melek yatırımcılar, stratejik ortaklar ve dağıtımı ölçeklendirmemize yardımcı olabilecek kişilerle görüşmeye açığız. Küçük ekiplerin kategori yaratabilecek ürünler geliştirebileceğine inanıyorsanız sizinle tanışmak isteriz.",
+      "link": "Ekiple görüş"
+    }
+  },
+  "newsletter": {
+    "title": "Oyun gecesi fikirlerin hiç bitmesin.",
+    "subtitle": "Yeni temalar, özellikler ve parti oyunu ipuçları. Spam yok.",
+    "placeholder": "sen@email.com",
+    "button": "Bekleme listesine katıl",
+    "success": "Listedesin. Yeni bir şey çıktığında sana e-posta atacağız.",
+    "privacy": "Yalnızca Tadado güncellemeleri göndeririz. İstediğin zaman abonelikten çıkabilirsin.",
+    "errorInvalid": "Geçerli bir e-posta adresi gir.",
+    "errorGeneric": "Bir şeyler ters gitti. Lütfen tekrar dene."
+  },
+  "cta": {
+    "title": "Bir sonraki oyun gecen Tadado'yu hak ediyor.",
+    "subtitle": "Tek telefon. Herkes davetli.",
+    "button": "TADADO'YU İNDİR · ÜCRETSİZ",
+    "secondary": "DESTELERİ KEŞFET"
+  },
+  "finalCta": {
+    "title": "Bir sonraki oyun gecen Tadado'yu hak ediyor.",
+    "subtitle": "Tek telefon. Herkes davetli.",
+    "button": "TADADO'YU İNDİR · ÜCRETSİZ",
+    "secondary": "DESTELERİ KEŞFET"
+  },
+  "footer": {
+    "tagline": "Tek telefon. Arkadaşların. Kaos başlasın.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Oyna",
+    "discoverTitle": "Keşfet",
+    "growTitle": "Tadado ile büyü",
+    "supportTitle": "Destek",
+    "socialTitle": "Sosyal",
+    "help": "Yardım",
+    "support": "Destek",
+    "partnerships": "İş birlikleri",
+    "compare": "Uygulama karşılaştırması",
+    "affiliate": "Affiliate programı",
+    "team": "Ekibimiz",
+    "legal": "Yasal",
+    "terms": "Kullanım Koşulları",
+    "privacy": "Gizlilik Politikası",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "TADADO'YU İNDİR · ÜCRETSİZ"
+  },
+  "language": {
+    "label": "Dil"
+  }
+}

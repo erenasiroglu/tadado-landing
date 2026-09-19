@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "title": "Tadado: Game Kata Pesta | Taboo, Heads Up & Deste AI",
+    "description": "Satu ponsel. Teman-temanmu. Taboo, Heads Up, dan deste AI khusus untuk malam permainan. Gratis untuk mulai. Tanpa iklan. iOS dan Android."
+  },
+  "nav": {
+    "play": "Main",
+    "aiDecks": "Deste AI",
+    "decks": "Deste",
+    "community": "Komunitas",
+    "howItWorks": "Cara Kerja",
+    "faq": "Tanya Jawab",
+    "getTadado": "Dapatkan Tadado",
+    "pricing": "Harga",
+    "blog": "Blog",
+    "guides": "Panduan",
+    "compare": "Bandingkan",
+    "affiliate": "Afiliasi",
+    "team": "Tim",
+    "download": "Unduh"
+  },
+  "hero": {
+    "brandLine": "Tadado Game Development 2026",
+    "title": "Satu ponsel. Teman-temanmu. Biarkan kekacauan dimulai.",
+    "subtitle": "Taboo, Heads Up, dan deste AI khusus untuk malam permainan.",
+    "ctaPrimary": "UNDUH TADADO · GRATIS",
+    "ctaSecondary": "LIHAT CARA KERJANYA",
+    "metrics": [
+      { "value": "300,000+", "label": "permainan dimainkan", "animate": true },
+      { "value": "2", "label": "mode permainan" },
+      { "value": "AI", "label": "didukung" },
+      { "value": "17", "label": "bahasa" },
+      { "value": "8", "label": "deste permainan", "href": "#decks" },
+      { "value": "Offline", "label": "main" },
+      { "value": "No", "label": "iklan" }
+    ]
+  },
+  "proof": {
+    "players": "300.000+ permainan dimainkan",
+    "modes": "2 mode permainan",
+    "ai": "Didukung AI",
+    "languages": "17 bahasa",
+    "offline": "Main offline",
+    "noAds": "Tanpa iklan"
+  },
+  "special": {
+    "title": "Apa yang membuat Tadado istimewa?",
+    "subtitle": "Dibuat untuk malam permainan sungguhan: cepat dimulai, mudah dibagikan, dan dirancang untuk membuat grup tertawa.",
+    "developer": "Dibuat oleh Tadado Game Development",
+    "items": [
+      {
+        "title": "Dua mode, satu aplikasi",
+        "body": "Beralih antara Forbidden Words dan Heads Up tanpa mengunduh dua kali. Deste yang sama, energi berbeda di setiap ronde."
+      },
+      {
+        "title": "Deste AI dalam hitungan detik",
+        "body": "Ketik topik apa pun dan dapatkan deste siap main seketika. Sempurna untuk lelucon internal, malam film, atau pesta bertema."
+      },
+      {
+        "title": "Tanpa iklan, tanpa langganan",
+        "body": "Mulai gratis dengan Tadado Mix. Bayar sekali saja jika kamu ingin deste bertema ekstra atau pembuatan deste AI."
+      },
+      {
+        "title": "17 bahasa bawaan",
+        "body": "Main dengan grup berbahasa campuran. UI aplikasi dan kartu menyesuaikan agar semua orang bisa ikut bersenang-senang."
+      }
+    ]
+  },
+  "stats": {
+    "gamesPlayed": "300,000+",
+    "gamesPlayedLabel": "permainan dimainkan di seluruh dunia",
+    "modes": "2",
+    "modesLabel": "mode permainan",
+    "languages": "17",
+    "languagesLabel": "bahasa dalam aplikasi",
+    "developerNote": "Dipercaya pemain di seluruh dunia · Tadado Game Development"
+  },
+  "productBenefits": {
+    "eyebrow": "Dibuat untuk malam permainan sungguhan",
+    "title": "Satu ponsel. Tim. Timer. Ronde.",
+    "statement": "Satu ponsel. Tim. Timer. Ronde. Main offline. Tanpa iklan.",
+    "details": ["Main offline", "Tim & timer", "Tanpa iklan", "Tanpa langganan"]
+  },
+  "personalization": {
+    "title": "Buat jadi milikmu.",
+    "subtitle": "Ini bukan permainan yang sama setiap kali. Setiap grup bisa menciptakan pengalaman sendiri.",
+    "items": [
+      { "label": "Teman", "topic": "Kekacauan akhir pekan" },
+      { "label": "Keluarga", "topic": "Makan malam Minggu" },
+      { "label": "Ulang tahun", "topic": "Klasik pesta" },
+      { "label": "Malam film", "topic": "Film Oscar" },
+      { "label": "Olahraga", "topic": "Liga Champions" },
+      { "label": "Perjalanan", "topic": "Game road trip" },
+      { "label": "Kantor", "topic": "Kekacauan kantor" },
+      { "label": "Universitas", "topic": "Legenda kampus" },
+      { "label": "Lelucon internal", "topic": "Hal yang selalu kita ucapkan" }
+    ]
+  },
+  "reviews": {
+    "title": "Disukai di malam permainan",
+    "subtitle": "Ulasan App Store asli dari pemain yang mencoba Tadado bersama teman.",
+    "appStoreRating": "5.0 di App Store",
+    "appStoreCount": "8 ulasan",
+    "sourceLabel": "Ulasan App Store",
+    "items": [
+      {
+        "quote": "Kami menemukannya bersama teman dan mengunduhnya. Desain dan UI-nya sangat bagus. Membuat kartu dengan AI untuk minat kami sendiri membuat kami sangat senang. Semua orang bisa membuat kartu sesuai minat mereka dan kata-kata tidak berulang. Selamat.",
+        "author": "kerqeten",
+        "context": "Agu 2025 · App Store"
+      },
+      {
+        "quote": "Membuat deste kustom dengan generator paket kartu AI untuk topik apa pun itu keren. Kami bermain berjam-jam bersama teman!",
+        "author": "bk.aliz",
+        "context": "Agu 2025 · App Store"
+      },
+      {
+        "quote": "Game yang sangat seru dimainkan bersama teman, seperti Taboo.",
+        "author": "Silenzi.O",
+        "context": "Jul 2025 · App Store"
+      },
+      {
+        "quote": "Game yang benar-benar seru. Desainnya indah. Kartunya seru, sederhana, dan jelas. Kamu lupa waktu.",
+        "author": "mell.17",
+        "context": "Apr 2025 · App Store"
+      }
+    ]
+  },
+  "modes": {
+    "title": "Dua cara bermain",
+    "subtitle": "Klasik Taboo-style forbidden words atau Heads Up di dahi. Deste yang sama, energi berbeda.",
+    "tabooTitle": "Kata Terlarang",
+    "tabooBody": "Jelaskan kata utama, ambil risiko lebih besar, dan tingkatkan skormu. Kata yang lebih sulit membuka pengganda lebih tinggi, dari ×2 hingga ×5.",
+    "headsUpTitle": "Heads Up",
+    "headsUpBody": "Ponsel di dahimu. Teman memberi petunjuk. Miringkan ke bawah saat tebakanmu benar.",
+    "newBadge": "Mode baru",
+    "showcase": {
+      "portraitGameplay": "Gameplay vertikal",
+      "landscapeGameplay": "Gameplay horizontal",
+      "buildScoreTitle": "Bangun skormu",
+      "buildScoreBody": "Ambil kata yang lebih sulit untuk meningkatkan pengganda dan ubah setiap jawaban benar menjadi skor lebih besar.",
+      "scoreMultipliersAria": "Pengganda skor: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "42 detik tersisa",
+    "passStatus": "2 / 3 pass tersisa",
+    "roundLabel": "Ronde 1/3",
+    "tabooLabel": "Terlarang!",
+    "passLabel": "Lewati",
+    "correctLabel": "Benar",
+    "foreheadTitle": "Tempelkan ponsel di dahimu",
+    "tiltUp": "Angkat untuk lewati",
+    "tiltDown": "Turunkan jika benar",
+    "yourTeam": "Timmu",
+    "turnComplete": "Giliran selesai",
+    "pointsEarned": "Poin diperoleh",
+    "scoresHeading": "Skor",
+    "nextUpLabel": "Selanjutnya",
+    "continue": "Lanjutkan",
+    "pauseGame": "Jeda permainan",
+    "teamA": "TIM A",
+    "teamB": "TIM B"
+  },
+  "a11y": {
+    "openMenu": "Buka menu",
+    "closeLanguageMenu": "Tutup menu bahasa",
+    "mainNav": "Utama",
+    "mobileNav": "Seluler",
+    "previousDeck": "Deste sebelumnya",
+    "nextDeck": "Deste berikutnya",
+    "launchVideo": "Video peluncuran produk Tadado",
+    "unmuteVideo": "Nyalakan suara video peluncuran",
+    "muteVideo": "Bisukan video peluncuran",
+    "yes": "Ya",
+    "no": "Tidak",
+    "partial": "Sebagian",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Unduh di App Store",
+    "getOnGooglePlay": "Dapatkan di Google Play",
+    "forbiddenWordsGameplay": "Gameplay Kata Terlarang di ponsel vertikal",
+    "headsUpGameplay": "Gameplay Heads Up di ponsel horizontal",
+    "tadadoLogo": "Tadado"
+  },
+  "howToPlay": {
+    "title": "Cara bermain setiap mode",
+    "subtitle": "Aturan yang sama seperti di aplikasi. Pelajari setiap mode, lalu mulai dalam hitungan detik.",
+    "difficulty": {
+      "title": "Setiap kata punya tingkat kesulitan",
+      "subtitle": "Kata yang lebih sulit mendapat skor lebih tinggi. Ini menjaga ronde tetap kompetitif dan adil untuk setiap grup.",
+      "easyLabel": "Mudah",
+      "hardLabel": "Sulit",
+      "legendaryLabel": "Legendaris",
+      "easyMultiplier": "×1",
+      "hardMultiplier": "×2",
+      "legendaryMultiplier": "×3",
+      "scoreBody": "Saat timmu benar, ketuk Benar dan ambil poinnya. Kata yang lebih sulit punya pengganda lebih tinggi.",
+      "tabooPenalty": "Mengucapkan kata terlarang? Kamu kehilangan kartu. Tidak ada poin untuk ronde itu."
+    },
+    "forbiddenWords": {
+      "modeLabel": "Kata Terlarang",
+      "steps": [
+        {
+          "title": "Jelaskan kata",
+          "body": "Beritahu timmu kata di atas. Jangan pernah ucapkan 4 kata terlarang di bawahnya. Tebak sebanyak mungkin kartu sebelum waktu habis."
+        },
+        {
+          "title": "Taboo!",
+          "body": "Mengucapkan kata terlarang dan kamu kehilangan kartu. Tanpa poin. Tim lawan mempertahankan momentum."
+        },
+        {
+          "title": "Lewati",
+          "body": "Buntu? Lewati kartunya. Kamu hanya punya beberapa lewati per giliran, jadi simpan untuk yang sulit."
+        },
+        {
+          "title": "Benar = skor lebih besar",
+          "body": "Saat timmu benar, tekan Benar dan ambil poinnya. Kata yang lebih sulit punya pengganda lebih tinggi."
+        }
+      ]
+    },
+    "headsUp": {
+      "modeLabel": "Heads Up",
+      "steps": [
+        {
+          "title": "Ponsel di dahi",
+          "body": "Pegang ponsel dalam mode landscape dan tempelkan di dahimu. Teman melihat kata. Kamu tidak."
+        },
+        {
+          "title": "Mereka memberi petunjuk, kamu menebak",
+          "body": "Pemain dengan ponsel di dahi tidak bisa melihat kata. Yang lain membacanya di layar dan memberi petunjuk verbal. Tidak ada tombol pass."
+        },
+        {
+          "title": "Kena",
+          "body": "Kena? Angguk dagumu ke bawah, miringkan ponsel ke bawah di dahimu. Kamu dapat satu poin dan kata berikutnya muncul."
+        },
+        {
+          "title": "Tidak tahu",
+          "body": "Tidak tahu? Angguk dagumu ke atas, miringkan ponsel ke atas di dahimu. Tanpa poin. Lanjut ke kata berikutnya."
+        }
+      ]
+    },
+    "aiDeck": {
+      "modeLabel": "Pembuatan deste AI",
+      "steps": [
+        {
+          "title": "Tulis topik apa pun",
+          "body": "Ketik kata, frasa, atau kalimat lengkap. Kopi, hit 90-an, film Oscar. Satu ide sudah cukup."
+        },
+        {
+          "title": "Tambah ide lain",
+          "body": "Ketuk + untuk menumpuk topik, atau pilih saran. Ketuk chip untuk menghapusnya."
+        },
+        {
+          "title": "Bahasa dan kesulitan",
+          "body": "Bahasa deste adalah bahasa kartu. Kesulitan menentukan seberapa sulit kata terlarangnya."
+        },
+        {
+          "title": "Mainkan di kedua mode",
+          "body": "Deste yang sama bisa dipakai di Forbidden Words dan Heads Up. Pilih mode saat kamu ketuk deste."
+        },
+        {
+          "title": "Hasilkan dalam hitungan detik",
+          "body": "Masuk, lalu ketuk Buat. Deste kustommu siap dimainkan segera."
+        }
+      ]
+    }
+  },
+  "ai": {
+    "title": "Topik apa pun bisa jadi permainan.",
+    "subtitle": "Lelucon internalmu baru saja jadi deste. Ketik topik dan lihat kartu muncul.",
+    "topics": "Pop Turki 90-an, penjahat Marvel, kekacauan kantor, hal yang selalu kita ucapkan",
+    "demoTitle": "Pembuat Deste AI",
+    "demoHeadline": "Buat destemu dalam 30 detik.",
+    "demoSubtitle": "Jelaskan topik apa pun. AI menulis kartu Taboo: kata target plus petunjuk terlarang. Grupmu langsung main.",
+    "inputLabel": "Topikmu",
+    "inputPlaceholder": "mis. film Marvel, hit pop 90-an, lelucon kantor…",
+    "quickIdeas": "Ide cepat",
+    "difficulty": "Kesulitan",
+    "difficultyEasy": "Mudah",
+    "difficultyMedium": "Sedang",
+    "difficultyHard": "Sulit",
+    "generateButton": "Buat deste",
+    "addTopic": "Tambah topik",
+    "topicsEmpty": "Ketik topik, ketuk + atau pilih ide cepat di bawah.",
+    "generating": "Menulis kartu…",
+    "demoPreviewLabel": "Pratinjau kartu",
+    "simulationBadge": "Demo interaktif",
+    "simulationHint": "Saksikan AI mengubah topik jadi kartu Forbidden Words siap main. Pilih kesulitan dan jalankan simulasi.",
+    "simulationStepTopic": "Masukan",
+    "simulationStepGenerate": "Menghasilkan",
+    "simulationStepPreview": "Kartu muncul",
+    "simulationStepReady": "Siap main",
+    "simulationWriting": "AI sedang menulis kata terlarang…"
+  },
+  "trending": {
+    "title": "Malam ini kita main apa?",
+    "badge": "Sedang viral",
+    "subtitle": "Saat sesuatu viral, itu jadi kartu taboo. Spider-Man: Brand New Day dan Obsession sedang trending, plus The Odyssey, sepak bola, dan lainnya. Lihat kata target aslinya sebelum mengunduh game taboo gratis.",
+    "allCards": "Semua kartu trending →",
+    "compare": {
+      "title": "Membandingkan dengan game lain?",
+      "guides": "Panduan dan ide malam permainan →"
+    }
+  },
+  "decks": {
+    "title": "Pilih vibemu",
+    "subtitle": "Mulai gratis dengan Tadado Mix, lalu buka paket bertema saat kamu siap.",
+    "countBadge": "8 deste permainan",
+    "free": "Gratis",
+    "play": "MAIN",
+    "price": "$0.99",
+    "newBadge": "BARU",
+    "items": {
+      "mix": {
+        "name": "Tadado Mix",
+        "desc": "Deste cepat untuk setiap grup!"
+      },
+      "summer": {
+        "name": "Musim Panas",
+        "desc": "Matahari, laut & vibes liburan!"
+      },
+      "cinema": {
+        "name": "Sinema",
+        "desc": "Film, serial, dan aktor!"
+      },
+      "travel": {
+        "name": "Perjalanan",
+        "desc": "Semua kota dan negara!"
+      },
+      "sport": {
+        "name": "Olahraga",
+        "desc": "Sepak bola, basket, dan lainnya!"
+      },
+      "heroes": {
+        "name": "Pahlawan",
+        "desc": "Pahlawan komik & kekuatan super!"
+      },
+      "midnight": {
+        "name": "Permainan Malam",
+        "desc": "Permainan kata berani setelah gelap!"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Harga sederhana dan jujur",
+    "subtitle": "Tanpa langganan tersembunyi. Bayar sekali untuk yang kamu mau.",
+    "disclaimer": "Harga dalam USD dan dapat bervariasi menurut wilayah di App Store dan Google Play. Pembelian ditangani Apple atau Google.",
+    "mix": {
+      "name": "Tadado Mix",
+      "price": "Gratis",
+      "desc": "Unduh gratis dan main segera dengan deste starter klasik."
+    },
+    "theme": {
+      "name": "Deste bertema",
+      "price": "$0.99",
+      "desc": "Pembelian sekali per deste. Summer, Cinema, Travel, Sport, Heroes & lainnya."
+    },
+    "ai": {
+      "name": "Pembuatan deste AI",
+      "price": "$2.99",
+      "desc": "Hasilkan deste kustom dari topik apa pun. Main di kedua mode permainan."
+    },
+    "trust": "Tanpa iklan · Tanpa langganan · Pulihkan pembelian kapan saja"
+  },
+  "howItWorks": {
+    "title": "Cara kerjanya",
+    "steps": [
+      {
+        "title": "Pilih mode",
+        "body": "Forbidden Words untuk tim atau Heads Up untuk keseruan di dahi."
+      },
+      {
+        "title": "Pilih deste",
+        "body": "Main gratis dengan Mix atau buka paket bertema dan deste AI."
+      },
+      {
+        "title": "Oper ponsel & main",
+        "body": "Atur tim, timer, dan ronde, lalu biarkan tawa dimulai."
+      }
+    ]
+  },
+  "community": {
+    "title": "Malam permainan di seluruh dunia",
+    "subtitle": "Ikuti Tadado untuk klip, ide deste, dan inspirasi game pesta.",
+    "metrics": [
+      { "value": "300,000+", "label": "permainan dimainkan", "animate": true },
+      { "value": "17", "label": "bahasa" },
+      { "value": "2", "label": "mode permainan" }
+    ],
+    "languagesTitle": "Bahasa yang didukung",
+    "languagesCaption": "Dukungan setara di setiap bahasa aplikasi. Tanpa data penggunaan palsu.",
+    "trendingLabel": "Trending malam ini",
+    "editorialLabel": "Terbaru dari Tadado",
+    "editorialItems": [
+      { "title": "Musim deste musim panas", "body": "Matahari, laut, dan vibes liburan untuk malam hangat." },
+      { "title": "Deste malam film", "body": "Kartu Cinema untuk penggemar film dan binge watcher." },
+      { "title": "Buat sendiri", "body": "Ubah topik apa pun jadi deste siap main dengan AI." }
+    ],
+    "socialCta": "Gabung komunitas Tadado",
+    "instagramCta": "Instagram",
+    "instagramDesc": "Reels, klip malam permainan & ide deste",
+    "tiktokCta": "TikTok",
+    "tiktokDesc": "Video Heads Up & tantangan pesta",
+    "linkedinCta": "LinkedIn",
+    "linkedinDesc": "Update dari Tadado Game Development",
+    "productHuntCta": "Product Hunt",
+    "productHuntDesc": "Lihat Tadado di Product Hunt"
+  },
+  "affiliate": {
+    "title": "Dapatkan 20% sebagai afiliasi Tadado",
+    "subtitle": "Main dengan teman, rekam video pendek, dan bagikan kode pribadimu. Sederhana.",
+    "rate": "20%",
+    "rateNote": "komisi dari setiap penjualan melalui kode kamu",
+    "steps": [
+      {
+        "title": "Main dan rekam",
+        "body": "Adakan malam permainan dengan teman dan rekam klip pendek dengan Tadado."
+      },
+      {
+        "title": "Dapatkan kode",
+        "body": "Email kami. Kami buat kode promo pribadi khusus untukmu."
+      },
+      {
+        "title": "Bagikan dan dapatkan",
+        "body": "Posting videomu dengan kode. Dapatkan 20% dari deste bertema dan pembelian deste AI."
+      }
+    ],
+    "cta": {
+      "button": "Minta kode afiliasi saya",
+      "hint": "Email kami dengan tautan TikTok, Instagram, atau YouTube kamu.",
+      "subject": "Permintaan kode afiliasi Tadado",
+      "bodyTemplate": "Halo tim Tadado,\n\nSaya ingin bergabung dengan program afiliasi.\n\nNama:\nTautan media sosial:\n\nTerima kasih!"
+    },
+    "learnMore": "Detail program lengkap",
+    "back": "Kembali ke Tadado",
+    "pageNote": "Kami meninjau setiap aplikasi dalam beberapa hari kerja. Komisi dibayarkan untuk pembelian dalam aplikasi yang memenuhi syarat melalui kode pribadimu."
+  },
+  "partnerships": {
+    "title": "Bekerja sama dengan kami",
+    "subtitle": "Ide deste baru, kolaborasi brand, atau investasi. Email sudah cukup.",
+    "learnMore": "Lihat opsi kemitraan",
+    "back": "Kembali ke Tadado",
+    "pageNote": "Tadado Game Development sedang membangun portofolio game mobile yang bersih. Kami membaca setiap email.",
+    "deckRequest": {
+      "title": "Ingin deste baru?",
+      "body": "Email ide temamu. Itu saja yang dibutuhkan.",
+      "cta": "Email ide deste",
+      "subject": "Permintaan deste Tadado"
+    },
+    "collaboration": {
+      "title": "Kolaborasi brand",
+      "body": "Deste co-branded, kampanye, atau kemitraan kreator.",
+      "cta": "Email kami",
+      "subject": "Kolaborasi Tadado"
+    },
+    "investors": {
+      "title": "Investor & game baru",
+      "body": "Angel investor, publisher, atau perusahaan yang ingin membangun bersama kami.",
+      "cta": "Email kami",
+      "subject": "Kemitraan / investasi Tadado"
+    }
+  },
+  "blog": {
+    "title": "Dari blog",
+    "subtitle": "Panduan, ide game pesta, dan tips untuk mendapatkan lebih banyak dari Tadado.",
+    "readMore": "Baca artikel",
+    "viewAll": "Lihat semua posting"
+  },
+  "seoGuides": {
+    "title": "Cara main & panduan game kata terbaik",
+    "subtitle": "Aturan langkah demi langkah untuk Taboo, charades Heads Up, dan pilihan aplikasi game kata mobile terbaik."
+  },
+  "faq": {
+    "title": "Pertanyaan, dijawab.",
+    "subtitle": "Semua yang perlu kamu tahu sebelum malam permainan berikutnya.",
+    "items": [
+      {
+        "q": "Bagaimana cara bermain Taboo (Forbidden Words)?",
+        "a": "Bagi menjadi tim. Satu pemain menjelaskan kata target tanpa mengucapkan petunjuk terlarang di kartu. Timmu menebak sebelum waktu habis. Pass terbatas. Tadado menyertakan timer, skor, dan deste bertema agar kamu bisa mulai dalam hitungan detik."
+      },
+      {
+        "q": "Bagaimana cara bermain charades Heads Up?",
+        "a": "Pegang ponsel di dahimu agar kamu tidak bisa melihat kata. Teman memberi petunjuk tanpa mengucapkan kata. Miringkan ke bawah saat tebakan benar, miringkan ke atas untuk lewati. Tadado memakai deste yang sama di mode Heads Up dan Taboo."
+      },
+      {
+        "q": "Apakah Tadado salah satu aplikasi game kata gratis terbaik?",
+        "a": "Tadado dibuat untuk malam permainan: Taboo, charades Heads Up, Tadado Mix gratis, deste bertema opsional, dan pembuatan deste AI. Tanpa iklan dan tanpa langganan, menjadikannya salah satu aplikasi game kata dengan nilai terbaik di iOS dan Android."
+      },
+      {
+        "q": "Apakah Tadado gratis?",
+        "a": "Ya. Tadado Mix gratis dimainkan. Deste bertema opsional dan pembuatan deste AI adalah pembelian sekali. Lihat Harga untuk detail. Tidak ada langganan."
+      },
+      {
+        "q": "Apa perbedaan Taboo dan Heads Up?",
+        "a": "Forbidden Words adalah Taboo berbasis tim: jelaskan tanpa kata terlarang. Heads Up menempelkan ponsel di dahimu sementara teman memberi petunjuk. Keduanya memakai deste yang sama."
+      },
+      {
+        "q": "Apakah Tadado punya iklan?",
+        "a": "Tidak. Tadado bebas iklan. Kamu hanya membayar untuk deste opsional atau pembuatan AI jika kamu mau."
+      },
+      {
+        "q": "Bagaimana cara kerja pembuatan deste AI?",
+        "a": "Tulis topik, seperti \"film Marvel\" atau \"hit pop 90-an\", dan Tadado menghasilkan deste siap main dalam hitungan detik untuk kedua mode permainan."
+      },
+      {
+        "q": "Bahasa apa yang didukung?",
+        "a": "UI aplikasi tersedia dalam 17 bahasa termasuk Inggris, Turki, Spanyol, Jerman, Prancis, dan lainnya."
+      }
+    ]
+  },
+  "compare": {
+    "title": "Bagaimana Tadado dibandingkan",
+    "subtitle": "Lihat mengapa pemain beralih dari aplikasi Taboo atau Heads Up satu mode ke Tadado.",
+    "back": "Kembali ke Tadado",
+    "columns": {
+      "feature": "Fitur",
+      "tadado": "Tadado",
+      "others": "Aplikasi biasa"
+    },
+    "rows": [
+      {
+        "feature": "Taboo + Heads Up dalam satu aplikasi",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Pembuat deste kustom AI",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Deste starter gratis (Tadado Mix)",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Tanpa iklan",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Tanpa langganan",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "Paket deste bertema",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17 bahasa",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "Skor tingkat kesulitan kata",
+        "tadado": "yes",
+        "others": "no"
+      }
+    ],
+    "note": "Banyak aplikasi fokus pada satu mode, menampilkan iklan, atau mengunci konten di balik langganan. Tadado dibuat untuk malam permainan sungguhan dengan kedua mode, deste starter gratis, dan ekstra bayar sekali.",
+    "cta": "Unduh Tadado gratis",
+    "viewFull": "Buka halaman perbandingan lengkap"
+  },
+  "team": {
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Satu tim produk yang membangun game mobile yang ingin dimainkan bersama.",
+    "title": "Siapa kami",
+    "subtitle": "Tim kecil di balik kartu-kartu.",
+    "intro": "Kami tim dua pengembang yang lebih suka merilis game pesta daripada menulis bio korporat. Satu mengode kekacauan, satu mendesain kartu.",
+    "back": "Kembali ke Tadado",
+    "funFactsLabel": "Fakta seru",
+    "members": {
+      "eren": {
+        "name": "Eren Nasıroğlu",
+        "role": "Pengembang Perangkat Lunak",
+        "bio": "Full-stack developer yang membangun Tadado dan aplikasi mobile dengan React Native, Next.js, dan Node.js. Lulusan Management Information Systems yang fokus pada kode bersih dan desain ramah pemain.",
+        "funFacts": [
+          "Merilis Tadado dari ide ke App Store sambil juggling pekerjaan fintech di Pulse FinTech.",
+          "Akan debug production jam 2 pagi, tapi hanya jika timer masih menghitung mundur dengan benar.",
+          "Percaya game pesta terbaik butuh nol tutorial dan replayability maksimal."
+        ],
+        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "websiteCta": "Kunjungi erennasiroglu.de"
+      },
+      "nur": {
+        "name": "Nur Günen",
+        "role": "Desainer Produk",
+        "bio": "Product UI/UX designer untuk Tadado dan mahasiswa arsitektur di İzmir Democracy University. Membentuk bahasa visual, alur interaksi, dan pengalaman game dari kartu ke layar.",
+        "funFacts": [
+          "Memikirkan persepsi spasial skala anak di siang hari, tata letak kartu di malam hari.",
+          "Memimpin desain produk end-to-end Tadado dari wireframe pertama ke layar game yang polished.",
+          "Akan memperhatikan jika radius tombolmu meleset 2 piksel. Dengan sopan."
+        ],
+        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "websiteCta": "Kunjungi nurgunen.com"
+      }
+    },
+    "joinCta": {
+      "title": "Bantu kami membangun generasi berikutnya game mobile.",
+      "body": "Tadado adalah langkah pertama kami menuju studio global untuk game mobile sosial dan replayable. Kami membangun portofolio produk orisinal untuk malam permainan di seluruh dunia dan terbuka untuk percakapan dengan angel investor, mitra strategis, dan orang yang bisa membantu kami scale distribusi. Jika kamu percaya tim kecil bisa membangun produk yang mendefinisikan kategori, kami ingin mendengar darimu.",
+      "link": "Hubungi tim"
+    }
+  },
+  "newsletter": {
+    "title": "Jangan pernah kehabisan ide malam permainan.",
+    "subtitle": "Tema baru, fitur, dan tips game pesta. Tanpa spam.",
+    "placeholder": "email@kamu.com",
+    "button": "Gabung waitlist",
+    "success": "Kamu sudah terdaftar. Kami akan email saat ada yang baru.",
+    "privacy": "Kami hanya email tentang update Tadado. Berhenti berlangganan kapan saja.",
+    "errorInvalid": "Masukkan alamat email yang valid.",
+    "errorGeneric": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "cta": {
+    "title": "Malam permainan berikutnya butuh Tadado.",
+    "subtitle": "Satu ponsel. Semua diundang.",
+    "button": "UNDUH TADADO · GRATIS",
+    "secondary": "JELAJAHI DESTE"
+  },
+  "finalCta": {
+    "title": "Malam permainan berikutnya butuh Tadado.",
+    "subtitle": "Satu ponsel. Semua diundang.",
+    "button": "UNDUH TADADO · GRATIS",
+    "secondary": "JELAJAHI DESTE"
+  },
+  "footer": {
+    "tagline": "Satu ponsel. Teman-temanmu. Biarkan kekacauan dimulai.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Main",
+    "discoverTitle": "Jelajahi",
+    "growTitle": "Berkembang dengan Tadado",
+    "supportTitle": "Dukungan",
+    "socialTitle": "Sosial",
+    "help": "Bantuan",
+    "support": "Dukungan",
+    "partnerships": "Kemitraan",
+    "compare": "Bandingkan aplikasi",
+    "affiliate": "Program afiliasi",
+    "team": "Tim kami",
+    "legal": "Hukum",
+    "terms": "Ketentuan Penggunaan",
+    "privacy": "Kebijakan Privasi",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "UNDUH TADADO · GRATIS"
+  },
+  "language": {
+    "label": "Bahasa"
+  }
+}

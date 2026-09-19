@@ -101,7 +101,7 @@ export function Hero({ locale, dict }: HeroProps) {
           <div className="relative mx-auto w-full max-w-[min(100%,460px)] lg:mx-0 lg:w-full lg:max-w-none lg:justify-self-end">
             <div className="relative mx-auto w-full max-w-full px-0 sm:px-4 lg:px-0">
               {reduceMotion ? (
-                <HeroProduct />
+                <HeroProduct a11y={dict.a11y} />
               ) : (
                 <motion.div
                   initial="hidden"
@@ -109,7 +109,7 @@ export function Hero({ locale, dict }: HeroProps) {
                   variants={fadeIn}
                   transition={{ duration: 0.55, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
                 >
-                  <HeroProduct />
+                  <HeroProduct a11y={dict.a11y} />
                 </motion.div>
               )}
               <HeroProofMetrics metrics={dict.hero.metrics} />

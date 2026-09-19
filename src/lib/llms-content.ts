@@ -155,10 +155,8 @@ export async function buildLlmsFullTxt(): Promise<string> {
         `- Date: ${post.date}`,
         `- Description: ${post.description}`,
       );
-      if (post.alternateSlug && post.alternateLocale) {
-        lines.push(
-          `- Alternate (${post.alternateLocale}): ${blogUrl(post.alternateLocale, post.alternateSlug)}`,
-        );
+      for (const alt of post.alternates.filter((a) => a.locale !== locale)) {
+        lines.push(`- Alternate (${alt.locale}): ${blogUrl(alt.locale, alt.slug)}`);
       }
       lines.push("");
     }

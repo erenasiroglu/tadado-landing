@@ -116,10 +116,10 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
               <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />
             </div>
             <div className="hidden gap-2 sm:flex">
-              <CarouselButton label="Previous deck" onClick={scrollPrev}>
+              <CarouselButton label={dict.a11y.previousDeck} onClick={scrollPrev}>
                 <ChevronLeft className="h-4 w-4" />
               </CarouselButton>
-              <CarouselButton label="Next deck" onClick={scrollNext}>
+              <CarouselButton label={dict.a11y.nextDeck} onClick={scrollNext}>
                 <ChevronRight className="h-4 w-4" />
               </CarouselButton>
             </div>

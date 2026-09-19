@@ -1,174 +1,275 @@
 {
   "meta": {
-    "title": "Tadado — Game Taboo & Heads Up Tiệc Tùng",
-    "description": "Chơi Taboo và Heads Up trong một app. Tạo bộ bài AI trong vài giây. Tadado Mix miễn phí. Không quảng cáo. Không đăng ký."
+    "title": "Tadado: Game Từ Vựng Tiệc Tùng | Taboo, Heads Up & Bộ Bài AI",
+    "description": "Một điện thoại. Bạn bè của bạn. Taboo, Heads Up và bộ bài AI dành cho đêm chơi game. Miễn phí để bắt đầu. Không quảng cáo. iOS và Android."
   },
   "nav": {
+    "play": "Chơi",
+    "aiDecks": "Bộ Bài AI",
+    "decks": "Bộ Bài",
+    "community": "Cộng Đồng",
+    "howItWorks": "Cách Hoạt Động",
+    "faq": "Hỏi đáp",
+    "getTadado": "Tải Tadado",
     "pricing": "Giá",
     "blog": "Blog",
-    "compare": "Compare",
-    "affiliate": "Affiliate",
-    "team": "Team",
-    "download": "Tải xuống",
-    "play": "Play",
-    "aiDecks": "AI Decks",
-    "decks": "Decks",
-    "community": "Community",
-    "howItWorks": "How It Works",
-    "faq": "FAQ",
-    "getTadado": "Get Tadado",
-    "guides": "Guides"
+    "guides": "Hướng Dẫn",
+    "compare": "So Sánh",
+    "affiliate": "Cộng tác viên",
+    "team": "Đội Ngũ",
+    "download": "Tải xuống"
   },
   "hero": {
     "brandLine": "Tadado Game Development 2026",
-    "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "title": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
+    "subtitle": "Taboo, Heads Up và bộ bài AI dành cho đêm chơi game.",
+    "ctaPrimary": "TẢI TADADO · MIỄN PHÍ",
+    "ctaSecondary": "XEM CÁCH HOẠT ĐỘNG",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "ván đã chơi",
         "animate": true
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "chế độ chơi"
       },
       {
         "value": "AI",
-        "label": "powered"
+        "label": "hỗ trợ"
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "ngôn ngữ"
       },
       {
         "value": "8",
-        "label": "game decks",
+        "label": "bộ bài",
         "href": "#decks"
       },
       {
         "value": "Offline",
-        "label": "play"
+        "label": "chơi"
       },
       {
         "value": "No",
-        "label": "ads"
+        "label": "quảng cáo"
       }
     ]
   },
   "proof": {
-    "players": "300,000+ games played",
-    "modes": "2 game modes",
-    "ai": "AI-powered",
-    "languages": "17 languages",
-    "offline": "Play offline",
-    "noAds": "No ads"
+    "players": "300.000+ ván đã chơi",
+    "modes": "2 chế độ chơi",
+    "ai": "Hỗ trợ AI",
+    "languages": "17 ngôn ngữ",
+    "offline": "Chơi offline",
+    "noAds": "Không quảng cáo"
   },
   "special": {
-    "title": "What makes Tadado special?",
-    "subtitle": "Built for real game nights: fast to start, easy to share, and made to keep groups laughing.",
-    "developer": "Built by Tadado Game Development",
+    "title": "Điều gì làm Tadado đặc biệt?",
+    "subtitle": "Dành cho đêm chơi game thật sự: bắt đầu nhanh, dễ chia sẻ và được thiết kế để cả nhóm cười không ngừng.",
+    "developer": "Phát triển bởi Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "Hai chế độ, một ứng dụng",
+        "body": "Chuyển đổi giữa Forbidden Words và Heads Up mà không cần tải hai lần. Cùng bộ bài, năng lượng khác nhau mỗi vòng."
       },
       {
-        "title": "AI decks in seconds",
-        "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
+        "title": "Bộ bài AI trong vài giây",
+        "body": "Nhập bất kỳ chủ đề nào và nhận bộ bài chơi ngay lập tức. Hoàn hảo cho trò đùa nội bộ, đêm xem phim hoặc tiệc theo chủ đề."
       },
       {
-        "title": "No ads, no subscription",
-        "body": "Start free with Tadado Mix. Pay once only if you want extra theme decks or AI deck creation."
+        "title": "Không quảng cáo, không đăng ký",
+        "body": "Bắt đầu miễn phí với Tadado Mix. Chỉ trả một lần nếu bạn muốn thêm bộ bài theo chủ đề hoặc tạo bộ bài AI."
       },
       {
-        "title": "17 languages built in",
-        "body": "Play with mixed-language groups. The app UI and cards adapt so everyone can join the fun."
+        "title": "17 ngôn ngữ tích hợp sẵn",
+        "body": "Chơi với nhóm đa ngôn ngữ. Giao diện ứng dụng và thẻ bài thích ứng để mọi người đều tham gia vui vẻ."
       }
     ]
   },
   "stats": {
     "gamesPlayed": "300,000+",
-    "gamesPlayedLabel": "games played worldwide",
+    "gamesPlayedLabel": "ván đã chơi trên toàn thế giới",
     "modes": "2",
-    "modesLabel": "game modes",
+    "modesLabel": "chế độ chơi",
     "languages": "17",
-    "languagesLabel": "languages in app",
-    "developerNote": "Trusted by players worldwide · Tadado Game Development"
+    "languagesLabel": "ngôn ngữ trong ứng dụng",
+    "developerNote": "Được người chơi trên toàn thế giới tin dùng · Tadado Game Development"
   },
-  "reviews": {
-    "title": "Loved at game night",
-    "subtitle": "Real reactions from players who tried Tadado with friends and family.",
+  "productBenefits": {
+    "eyebrow": "Dành cho đêm chơi game thật sự",
+    "title": "Một điện thoại. Đội. Hẹn giờ. Vòng.",
+    "statement": "Một điện thoại. Đội. Hẹn giờ. Vòng. Chơi offline. Không quảng cáo.",
+    "details": [
+      "Chơi offline",
+      "Đội & hẹn giờ",
+      "Không quảng cáo",
+      "Không đăng ký"
+    ]
+  },
+  "personalization": {
+    "title": "Tùy chỉnh theo cách của bạn.",
+    "subtitle": "Đây không phải trò chơi giống nhau mỗi lần. Mỗi nhóm có thể tạo trải nghiệm riêng.",
     "items": [
       {
-        "quote": "We used to bring paper Taboo cards everywhere. Tadado is faster to set up, and the AI deck for our office jokes was the highlight of the night.",
-        "author": "Emma R.",
-        "context": "Weekly game night · London"
+        "label": "Bạn bè",
+        "topic": "Hỗn loạn cuối tuần"
       },
       {
-        "quote": "Heads Up mode had everyone laughing in the first round. No ads popping up, no subscription pressure, just a clean party game.",
-        "author": "Marco T.",
-        "context": "Friends hangout · Milan"
+        "label": "Gia đình",
+        "topic": "Bữa tối Chủ nhật"
       },
       {
-        "quote": "Our group speaks Turkish and English. Tadado Mix was enough to get started, and we unlocked Cinema for movie night. Worth it.",
-        "author": "Deniz K.",
-        "context": "University friends · Ankara"
+        "label": "Sinh nhật",
+        "topic": "Kinh điển tiệc tùng"
       },
       {
-        "quote": "Downloaded it for a family dinner and ended up playing three rounds. My teens actually put their phones down. That never happens.",
-        "author": "James P.",
-        "context": "Family game night · Austin"
+        "label": "Đêm phim",
+        "topic": "Phim Oscar"
+      },
+      {
+        "label": "Thể thao",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Du lịch",
+        "topic": "Game road trip"
+      },
+      {
+        "label": "Văn phòng",
+        "topic": "Hỗn loạn công sở"
+      },
+      {
+        "label": "Đại học",
+        "topic": "Huyền thoại campus"
+      },
+      {
+        "label": "Trò đùa nội bộ",
+        "topic": "Những gì chúng ta hay nói"
       }
-    ],
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
-    "sourceLabel": "App Store review"
+    ]
+  },
+  "reviews": {
+    "title": "Được yêu thích trong đêm chơi game",
+    "subtitle": "Đánh giá App Store thật từ người chơi đã thử Tadado cùng bạn bè.",
+    "appStoreRating": "5.0 trên App Store",
+    "appStoreCount": "8 đánh giá",
+    "sourceLabel": "Đánh giá App Store",
+    "items": [
+      {
+        "quote": "Chúng tôi tìm thấy game này cùng bạn và tải về. Thiết kế và giao diện rất tốt. Tạo thẻ bài bằng AI theo sở thích của chúng tôi khiến mọi người rất vui. Ai cũng có thể tạo thẻ theo sở thích và từ vựng không lặp lại. Chúc mừng.",
+        "author": "kerqeten",
+        "context": "Th8 2025 · App Store"
+      },
+      {
+        "quote": "Tạo bộ bài tùy chỉnh bằng trình tạo gói thẻ AI cho bất kỳ chủ đề nào thật tuyệt. Chúng tôi chơi hàng giờ với bạn bè!",
+        "author": "bk.aliz",
+        "context": "Th8 2025 · App Store"
+      },
+      {
+        "quote": "Game rất vui để chơi cùng bạn bè, giống Taboo.",
+        "author": "Silenzi.O",
+        "context": "Th7 2025 · App Store"
+      },
+      {
+        "quote": "Game thật sự vui. Thiết kế đẹp. Thẻ bài vui, đơn giản và rõ ràng. Bạn quên cả thời gian.",
+        "author": "mell.17",
+        "context": "Th4 2025 · App Store"
+      }
+    ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
-    "tabooTitle": "Forbidden Words",
-    "tabooBody": "Describe the main word to your team without using the forbidden words.",
+    "title": "Hai cách chơi",
+    "subtitle": "Từ cấm kiểu Taboo cổ điển hoặc Heads Up trên trán. Cùng bộ bài, năng lượng khác nhau.",
+    "tabooTitle": "Từ cấm",
+    "tabooBody": "Mô tả từ chính, chấp nhận rủi ro lớn hơn và tăng điểm. Từ khó hơn mở khóa hệ số nhân cao hơn, từ ×2 đến ×5.",
     "headsUpTitle": "Heads Up",
-    "headsUpBody": "Phone on your forehead. Friends give clues. Tilt down when you guess right.",
-    "newBadge": "New mode"
+    "headsUpBody": "Điện thoại trên trán. Bạn bè đưa gợi ý. Nghiêng xuống khi đoán đúng.",
+    "newBadge": "Chế độ mới",
+    "showcase": {
+      "portraitGameplay": "Chơi dọc",
+      "landscapeGameplay": "Chơi ngang",
+      "buildScoreTitle": "Xây dựng điểm số",
+      "buildScoreBody": "Chọn từ khó hơn để tăng hệ số nhân và biến mỗi câu trả lời đúng thành điểm cao hơn.",
+      "scoreMultipliersAria": "Hệ số nhân điểm: 2x, 3x, 5x"
+    }
+  },
+  "gamePreview": {
+    "timeLeft": "Còn 42 giây",
+    "passStatus": "Còn 2 / 3 lượt bỏ qua",
+    "roundLabel": "Vòng 1/3",
+    "tabooLabel": "Cấm!",
+    "passLabel": "Bỏ qua",
+    "correctLabel": "Đúng",
+    "foreheadTitle": "Đặt điện thoại lên trán",
+    "tiltUp": "Nâng lên để bỏ qua",
+    "tiltDown": "Hạ xuống nếu đúng",
+    "yourTeam": "Đội của bạn",
+    "turnComplete": "Lượt hoàn thành",
+    "pointsEarned": "Điểm đạt được",
+    "scoresHeading": "Điểm số",
+    "nextUpLabel": "Tiếp theo",
+    "continue": "Tiếp tục",
+    "pauseGame": "Tạm dừng game",
+    "teamA": "ĐỘI A",
+    "teamB": "ĐỘI B"
+  },
+  "a11y": {
+    "openMenu": "Mở menu",
+    "closeLanguageMenu": "Đóng menu ngôn ngữ",
+    "mainNav": "Chính",
+    "mobileNav": "Di động",
+    "previousDeck": "Bộ bài trước",
+    "nextDeck": "Bộ bài tiếp",
+    "launchVideo": "Video ra mắt sản phẩm Tadado",
+    "unmuteVideo": "Bật tiếng video ra mắt",
+    "muteVideo": "Tắt tiếng video ra mắt",
+    "yes": "Có",
+    "no": "Không",
+    "partial": "Một phần",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOnAppStore": "Tải trên App Store",
+    "getOnGooglePlay": "Tải trên Google Play",
+    "forbiddenWordsGameplay": "Chơi Từ cấm trên điện thoại dọc",
+    "headsUpGameplay": "Chơi Heads Up trên điện thoại ngang",
+    "tadadoLogo": "Tadado"
   },
   "howToPlay": {
-    "title": "How to play every mode",
-    "subtitle": "The same rules you see in the app. Learn each mode, then start in seconds.",
+    "title": "Cách chơi mọi chế độ",
+    "subtitle": "Cùng luật như trong ứng dụng. Học từng chế độ, rồi bắt đầu trong vài giây.",
     "difficulty": {
-      "title": "Every word has a difficulty",
-      "subtitle": "Harder words score more. That keeps rounds competitive and fair for every group.",
-      "easyLabel": "Easy",
-      "hardLabel": "Hard",
-      "legendaryLabel": "Legendary",
+      "title": "Mỗi từ có độ khó",
+      "subtitle": "Từ khó hơn ghi điểm cao hơn. Điều này giữ các vòng cạnh tranh và công bằng cho mọi nhóm.",
+      "easyLabel": "Dễ",
+      "hardLabel": "Khó",
+      "legendaryLabel": "Huyền thoại",
       "easyMultiplier": "×1",
       "hardMultiplier": "×2",
       "legendaryMultiplier": "×3",
-      "scoreBody": "When your team gets it right, tap Correct and take the points. Harder words have a higher multiplier.",
-      "tabooPenalty": "Say a forbidden word? You lose the card. No points for that round."
+      "scoreBody": "Khi đội bạn đoán đúng, chạm Đúng và nhận điểm. Từ khó hơn có hệ số nhân cao hơn.",
+      "tabooPenalty": "Nói từ cấm? Bạn mất thẻ. Không có điểm cho vòng đó."
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "Từ cấm",
       "steps": [
         {
-          "title": "Describe the word",
-          "body": "Tell your team the word at the top. Never say the 4 forbidden words underneath. Guess as many cards as you can before time runs out."
+          "title": "Mô tả từ",
+          "body": "Nói cho đội từ ở trên. Không bao giờ nói 4 từ cấm bên dưới. Đoán càng nhiều thẻ càng tốt trước khi hết giờ."
         },
         {
           "title": "Taboo!",
-          "body": "Say a forbidden word and you lose the card. No points. The other team keeps the momentum."
+          "body": "Nói từ cấm và bạn mất thẻ. Không điểm. Đội kia giữ đà."
         },
         {
-          "title": "Pass",
-          "body": "Stuck? Pass the card. You only get a few passes per turn, so save them for the hard ones."
+          "title": "Bỏ qua",
+          "body": "Bí? Bỏ qua thẻ. Bạn chỉ có vài lượt bỏ qua mỗi lượt chơi, hãy dành cho từ khó."
         },
         {
-          "title": "Correct scores more",
-          "body": "When your team gets it, hit Correct and take the points. Harder words have a higher multiplier."
+          "title": "Đúng = điểm cao hơn",
+          "body": "Khi đội đoán đúng, nhấn Đúng và nhận điểm. Từ khó hơn có hệ số nhân cao hơn."
         }
       ]
     },
@@ -176,381 +277,383 @@
       "modeLabel": "Heads Up",
       "steps": [
         {
-          "title": "Phone on your forehead",
-          "body": "Hold the phone in landscape and place it on your forehead. Friends see the word. You do not."
+          "title": "Điện thoại trên trán",
+          "body": "Cầm điện thoại ngang và đặt lên trán. Bạn bè thấy từ. Bạn thì không."
         },
         {
-          "title": "They clue, you guess",
-          "body": "The player with the phone on their forehead cannot see the word. Everyone else reads it on screen and gives verbal clues. There is no pass button."
+          "title": "Họ gợi ý, bạn đoán",
+          "body": "Người chơi có điện thoại trên trán không thấy từ. Mọi người khác đọc trên màn hình và đưa gợi ý bằng lời. Không có nút pass."
         },
         {
-          "title": "Got it",
-          "body": "Got it? Nod your chin down, tilt the phone down on your forehead. You score a point and the next word appears."
+          "title": "Đoán được",
+          "body": "Đoán được? Gật cằm xuống, nghiêng điện thoại xuống trên trán. Bạn ghi một điểm và từ tiếp theo xuất hiện."
         },
         {
-          "title": "Didn't know",
-          "body": "Don't know it? Nod your chin up, tilt the phone up on your forehead. No point. Move to the next word."
+          "title": "Không biết",
+          "body": "Không biết? Gật cằm lên, nghiêng điện thoại lên trên trán. Không điểm. Chuyển sang từ tiếp theo."
         }
       ]
     },
     "aiDeck": {
-      "modeLabel": "AI deck creation",
+      "modeLabel": "Tạo bộ bài AI",
       "steps": [
         {
-          "title": "Write any topic",
-          "body": "Type a word, a phrase, or a full sentence. Coffee, 90s hits, Oscar films. One idea is enough."
+          "title": "Viết bất kỳ chủ đề nào",
+          "body": "Nhập từ, cụm từ hoặc câu đầy đủ. Cà phê, hit nhạc 90, phim Oscar. Một ý tưởng là đủ."
         },
         {
-          "title": "Add more ideas",
-          "body": "Tap + to stack topics, or pick a suggestion. Tap a chip to remove it."
+          "title": "Thêm ý tưởng",
+          "body": "Chạm + để xếp chủ đề, hoặc chọn gợi ý. Chạm chip để xóa."
         },
         {
-          "title": "Language and difficulty",
-          "body": "Deck language is the card language. Difficulty sets how hard the forbidden words get."
+          "title": "Ngôn ngữ và độ khó",
+          "body": "Ngôn ngữ bộ bài là ngôn ngữ thẻ. Độ khó quyết định từ cấm khó đến mức nào."
         },
         {
-          "title": "Play it in both modes",
-          "body": "The same deck works in Forbidden Words and Heads Up. Pick the mode when you tap the deck."
+          "title": "Chơi cả hai chế độ",
+          "body": "Cùng bộ bài dùng được trong Forbidden Words và Heads Up. Chọn chế độ khi chạm vào bộ bài."
         },
         {
-          "title": "Generate in seconds",
-          "body": "Sign in, then tap Create. Your custom deck is ready to play right away."
+          "title": "Tạo trong vài giây",
+          "body": "Đăng nhập, rồi chạm Tạo. Bộ bài tùy chỉnh sẵn sàng chơi ngay."
         }
       ]
     }
   },
   "ai": {
-    "title": "Create your own deck with AI",
-    "subtitle": "Write a topic, play in seconds. Your custom deck works in both Forbidden Words and Heads Up.",
-    "topics": "90s hits, Oscar films, office inside jokes…",
-    "demoTitle": "AI Deck Builder",
-    "demoHeadline": "Build your deck in 30 seconds.",
-    "demoSubtitle": "Describe any topic. AI writes Taboo cards: target word plus forbidden clues. Your group plays right away.",
-    "inputLabel": "Your topic",
-    "inputPlaceholder": "e.g. Marvel movies, 90s pop hits, office jokes…",
-    "quickIdeas": "Quick ideas",
-    "difficulty": "Difficulty",
-    "difficultyEasy": "Easy",
-    "difficultyMedium": "Medium",
-    "difficultyHard": "Hard",
-    "generateButton": "Create deck",
-    "addTopic": "Add topic",
-    "topicsEmpty": "Type a topic, tap + or pick a quick idea below.",
-    "generating": "Writing cards…",
-    "demoPreviewLabel": "Preview card",
-    "simulationBadge": "Interactive demo",
-    "simulationHint": "Watch AI turn a topic into a playable Forbidden Words card. Pick a difficulty and run the simulation.",
-    "simulationStepTopic": "Topic selected",
-    "simulationStepGenerate": "AI writes the card",
-    "simulationStepPreview": "Playable card ready",
-    "simulationWriting": "AI is writing forbidden words…",
-    "simulationStepReady": "Ready to play"
+    "title": "Bất kỳ chủ đề nào cũng có thể thành game.",
+    "subtitle": "Trò đùa nội bộ vừa trở thành bộ bài. Nhập chủ đề và xem thẻ xuất hiện.",
+    "topics": "Pop Thổ Nhĩ Kỳ thập niên 90, phản diện Marvel, hỗn loạn văn phòng, những gì nhóm bạn hay nói",
+    "demoTitle": "Trình tạo bộ bài AI",
+    "demoHeadline": "Tạo bộ bài trong 30 giây.",
+    "demoSubtitle": "Mô tả bất kỳ chủ đề nào. AI viết thẻ Taboo: từ mục tiêu cộng gợi ý cấm. Nhóm bạn chơi ngay.",
+    "inputLabel": "Chủ đề của bạn",
+    "inputPlaceholder": "vd. phim Marvel, hit pop 90, đùa văn phòng…",
+    "quickIdeas": "Ý tưởng nhanh",
+    "difficulty": "Độ khó",
+    "difficultyEasy": "Dễ",
+    "difficultyMedium": "Trung bình",
+    "difficultyHard": "Khó",
+    "generateButton": "Tạo bộ bài",
+    "addTopic": "Thêm chủ đề",
+    "topicsEmpty": "Nhập chủ đề, chạm + hoặc chọn ý tưởng nhanh bên dưới.",
+    "generating": "Đang viết thẻ…",
+    "demoPreviewLabel": "Xem trước thẻ",
+    "simulationBadge": "Demo tương tác",
+    "simulationHint": "Xem AI biến chủ đề thành thẻ Forbidden Words chơi được. Chọn độ khó và chạy mô phỏng.",
+    "simulationStepTopic": "Nhập liệu",
+    "simulationStepGenerate": "Đang tạo",
+    "simulationStepPreview": "Thẻ xuất hiện",
+    "simulationStepReady": "Sẵn sàng chơi",
+    "simulationWriting": "AI đang viết từ cấm…"
   },
   "trending": {
-    "title": "The cards people are searching for tonight.",
-    "badge": "Trending",
-    "subtitle": "When something blows up, it becomes a taboo card. Spider-Man: Brand New Day and Obsession are trending now, plus The Odyssey, football and more. See the real target words before you download the free taboo game.",
-    "allCards": "All trending cards →",
+    "title": "Tối nay chơi gì?",
+    "badge": "Đang thịnh hành",
+    "subtitle": "Khi điều gì đó viral, nó trở thành thẻ taboo. Spider-Man: Brand New Day và Obsession đang thịnh hành, cùng The Odyssey, bóng đá và hơn thế. Xem từ mục tiêu thật trước khi tải game taboo miễn phí.",
+    "allCards": "Tất cả thẻ trending →",
     "compare": {
-      "title": "Weighing it up against another game?",
-      "guides": "Guides and game night ideas →"
+      "title": "Đang so sánh với game khác?",
+      "guides": "Hướng dẫn và ý tưởng đêm chơi game →"
     }
   },
   "decks": {
-    "title": "Ready-made decks",
-    "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
-    "free": "Free",
-    "play": "PLAY",
+    "title": "Chọn vibe của bạn",
+    "subtitle": "Bắt đầu miễn phí với Tadado Mix, rồi mở khóa gói theo chủ đề khi bạn sẵn sàng.",
+    "countBadge": "8 bộ bài",
+    "free": "Miễn phí",
+    "play": "CHƠI",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "MỚI",
     "items": {
       "mix": {
         "name": "Tadado Mix",
-        "desc": "The quick start deck for every group!"
+        "desc": "Bộ bài khởi động nhanh cho mọi nhóm!"
       },
       "summer": {
-        "name": "Summer",
-        "desc": "Sun, sea & vacation vibes!"
+        "name": "Mùa hè",
+        "desc": "Nắng, biển & vibe kỳ nghỉ!"
       },
       "cinema": {
-        "name": "Cinema",
-        "desc": "Movies, series and actors!"
+        "name": "Điện ảnh",
+        "desc": "Phim, series và diễn viên!"
       },
       "travel": {
-        "name": "Travel",
-        "desc": "All cities and countries!"
+        "name": "Du lịch",
+        "desc": "Mọi thành phố và quốc gia!"
       },
       "sport": {
-        "name": "Sport",
-        "desc": "Football, basketball and more!"
+        "name": "Thể thao",
+        "desc": "Bóng đá, bóng rổ và hơn thế!"
       },
       "heroes": {
-        "name": "Heroes",
-        "desc": "Comic heroes & superpowers!"
+        "name": "Anh hùng",
+        "desc": "Anh hùng truyện tranh & siêu năng lực!"
       },
       "midnight": {
-        "name": "Night Games",
-        "desc": "Bold wordplay after dark!"
+        "name": "Game đêm",
+        "desc": "Trò chơi chữ táo bạo sau đêm!"
       }
-    },
-    "countBadge": "8 game decks"
+    }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "title": "Giá đơn giản, minh bạch",
+    "subtitle": "Không đăng ký ẩn. Trả một lần cho những gì bạn muốn.",
+    "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
     "mix": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "Miễn phí",
+      "desc": "Tải miễn phí và chơi ngay với bộ bài khởi đầu cổ điển."
     },
     "theme": {
-      "name": "Theme decks",
+      "name": "Bộ bài theo chủ đề",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
     },
     "ai": {
-      "name": "AI deck creation",
+      "name": "Tạo bộ bài AI",
       "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
+      "desc": "Tạo bộ bài tùy chỉnh từ bất kỳ chủ đề nào. Chơi cả hai chế độ."
     },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào"
   },
   "howItWorks": {
-    "title": "How it works",
+    "title": "Cách hoạt động",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "title": "Chọn chế độ",
+        "body": "Forbidden Words cho đội hoặc Heads Up cho vui trên trán."
       },
       {
-        "title": "Choose a deck",
-        "body": "Play free with Mix or unlock themed packs and AI decks."
+        "title": "Chọn bộ bài",
+        "body": "Chơi miễn phí với Mix hoặc mở khóa gói theo chủ đề và bộ bài AI."
       },
       {
-        "title": "Start the party",
-        "body": "Set teams, timer, and rounds, then let the laughter begin."
+        "title": "Chuyền điện thoại & chơi",
+        "body": "Đặt đội, hẹn giờ và vòng, rồi để tiếng cười bắt đầu."
       }
     ]
   },
   "community": {
-    "title": "Game nights around the world",
-    "subtitle": "Follow Tadado for clips, deck ideas, and party game inspiration.",
+    "title": "Đêm chơi game khắp thế giới",
+    "subtitle": "Theo dõi Tadado để xem clip, ý tưởng bộ bài và cảm hứng game tiệc tùng.",
     "metrics": [
       {
         "value": "300,000+",
-        "label": "games played",
+        "label": "ván đã chơi",
         "animate": true
       },
       {
         "value": "17",
-        "label": "languages"
+        "label": "ngôn ngữ"
       },
       {
         "value": "2",
-        "label": "game modes"
+        "label": "chế độ chơi"
       }
     ],
-    "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
-    "trendingLabel": "Trending tonight",
-    "editorialLabel": "Latest from Tadado",
+    "languagesTitle": "Ngôn ngữ hỗ trợ",
+    "languagesCaption": "Hỗ trợ đồng đều cho mọi ngôn ngữ ứng dụng. Không dữ liệu sử dụng giả.",
+    "trendingLabel": "Trending tối nay",
+    "editorialLabel": "Mới nhất từ Tadado",
     "editorialItems": [
       {
-        "title": "Summer deck season",
-        "body": "Sun, sea, and vacation vibes for warm nights."
+        "title": "Mùa bộ bài mùa hè",
+        "body": "Nắng, biển và vibe kỳ nghỉ cho đêm ấm."
       },
       {
-        "title": "Movie night decks",
-        "body": "Cinema cards for film fans and binge watchers."
+        "title": "Bộ bài đêm phim",
+        "body": "Thẻ Cinema cho fan phim và binge watcher."
       },
       {
-        "title": "Create your own",
-        "body": "Turn any topic into a playable deck with AI."
+        "title": "Tạo của riêng bạn",
+        "body": "Biến bất kỳ chủ đề nào thành bộ bài chơi được bằng AI."
       }
     ],
-    "socialCta": "Join the Tadado community",
+    "socialCta": "Tham gia cộng đồng Tadado",
     "instagramCta": "Instagram",
-    "instagramDesc": "Reels, game night clips & deck ideas",
+    "instagramDesc": "Reels, clip đêm chơi game & ý tưởng bộ bài",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videos & party challenges",
+    "tiktokDesc": "Video Heads Up & thử thách tiệc tùng",
     "linkedinCta": "LinkedIn",
-    "linkedinDesc": "Updates from Tadado Game Development",
+    "linkedinDesc": "Cập nhật từ Tadado Game Development",
     "productHuntCta": "Product Hunt",
-    "productHuntDesc": "See Tadado on Product Hunt"
+    "productHuntDesc": "Xem Tadado trên Product Hunt"
   },
   "affiliate": {
-    "title": "Earn 20% as a Tadado affiliate",
-    "subtitle": "Play with friends, record a short video, and share your personal code. Simple.",
+    "title": "Kiếm 20% với affiliate Tadado",
+    "subtitle": "Chơi cùng bạn bè, quay video ngắn và chia sẻ mã cá nhân. Đơn giản.",
     "rate": "20%",
-    "rateNote": "commission on every sale through your code",
+    "rateNote": "hoa hồng mỗi giao dịch qua mã của bạn",
     "steps": [
       {
-        "title": "Play and record",
-        "body": "Have a game night with friends and film a short clip with Tadado."
+        "title": "Chơi và quay",
+        "body": "Tổ chức đêm chơi game với bạn bè và quay clip ngắn với Tadado."
       },
       {
-        "title": "Get your code",
-        "body": "Email us. We create a personal promo code just for you."
+        "title": "Nhận mã",
+        "body": "Email cho chúng tôi. Chúng tôi tạo mã khuyến mãi cá nhân riêng cho bạn."
       },
       {
-        "title": "Share and earn",
-        "body": "Post your video with your code. Earn 20% on theme decks and AI deck purchases."
+        "title": "Chia sẻ và kiếm",
+        "body": "Đăng video kèm mã. Kiếm 20% từ bộ bài theo chủ đề và mua bộ bài AI."
       }
     ],
     "cta": {
-      "button": "Request my affiliate code",
-      "hint": "Email us with your TikTok, Instagram, or YouTube link.",
-      "subject": "Tadado affiliate code request",
-      "bodyTemplate": "Hi Tadado team,\n\nI want to join the affiliate program.\n\nName:\nSocial link:\n\nThanks!"
+      "button": "Yêu cầu mã affiliate",
+      "hint": "Email cho chúng tôi kèm liên kết TikTok, Instagram hoặc YouTube.",
+      "subject": "Yêu cầu mã affiliate Tadado",
+      "bodyTemplate": "Xin chào đội Tadado,\n\nTôi muốn tham gia chương trình cộng tác viên.\n\nTên:\nLiên kết mạng xã hội:\n\nCảm ơn!"
     },
-    "learnMore": "Full program details",
-    "back": "Back to Tadado",
-    "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
+    "learnMore": "Chi tiết chương trình đầy đủ",
+    "back": "Quay lại Tadado",
+    "pageNote": "Chúng tôi xem xét mọi đơn trong vài ngày làm việc. Hoa hồng được trả cho giao dịch trong ứng dụng đủ điều kiện qua mã cá nhân của bạn."
   },
   "partnerships": {
-    "title": "Work with us",
-    "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
-    "learnMore": "See partnership options",
-    "back": "Back to Tadado",
-    "pageNote": "Tadado Game Development is building a portfolio of clean mobile games. We read every email.",
+    "title": "Hợp tác cùng chúng tôi",
+    "subtitle": "Ý tưởng bộ bài mới, hợp tác thương hiệu hoặc đầu tư. Email là đủ.",
+    "learnMore": "Xem tùy chọn hợp tác",
+    "back": "Quay lại Tadado",
+    "pageNote": "Tadado Game Development đang xây dựng danh mục game mobile sạch. Chúng tôi đọc mọi email.",
     "deckRequest": {
-      "title": "Want a new deck?",
-      "body": "Email us your theme idea. That is all it takes.",
-      "cta": "Email deck ideas",
-      "subject": "Tadado deck request"
+      "title": "Muốn bộ bài mới?",
+      "body": "Email ý tưởng chủ đề của bạn. Chỉ cần vậy thôi.",
+      "cta": "Email ý tưởng bộ bài",
+      "subject": "Yêu cầu bộ bài Tadado"
     },
     "collaboration": {
-      "title": "Brand collabs",
-      "body": "Co-branded decks, campaigns, or creator partnerships.",
-      "cta": "Email us",
-      "subject": "Tadado collaboration"
+      "title": "Hợp tác thương hiệu",
+      "body": "Bộ bài đồng thương hiệu, chiến dịch hoặc hợp tác creator.",
+      "cta": "Email chúng tôi",
+      "subject": "Hợp tác Tadado"
     },
     "investors": {
-      "title": "Investors & new games",
-      "body": "Angel investors, publishers, or companies who want to build with us.",
-      "cta": "Email us",
-      "subject": "Tadado partnership / investment"
+      "title": "Nhà đầu tư & game mới",
+      "body": "Angel investor, publisher hoặc công ty muốn xây dựng cùng chúng tôi.",
+      "cta": "Email chúng tôi",
+      "subject": "Hợp tác / đầu tư Tadado"
     }
   },
   "blog": {
-    "title": "From the blog",
-    "subtitle": "Guides, party game ideas, and tips to get more from Tadado.",
-    "readMore": "Read article",
-    "viewAll": "View all posts"
+    "title": "Từ blog",
+    "subtitle": "Hướng dẫn, ý tưởng game tiệc tùng và mẹo tận dụng Tadado tối đa.",
+    "readMore": "Đọc bài viết",
+    "viewAll": "Xem tất cả bài"
   },
   "seoGuides": {
-    "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "title": "Cách chơi & hướng dẫn game từ vựng hay nhất",
+    "subtitle": "Luật từng bước cho Taboo, charades Heads Up và lựa chọn ứng dụng game từ vựng mobile tốt nhất."
   },
   "faq": {
-    "title": "Questions, answered.",
-    "subtitle": "Everything you need to know before your next game night.",
+    "title": "Câu hỏi, đã trả lời.",
+    "subtitle": "Mọi thứ bạn cần biết trước đêm chơi game tiếp theo.",
     "items": [
       {
-        "q": "How do you play Taboo (Forbidden Words)?",
-        "a": "Split into teams. One player describes the target word without saying any forbidden clues on the card. Your team guesses before time runs out. Passes are limited. Tadado includes timers, scoring, and themed decks so you can start in seconds."
+        "q": "Cách chơi Taboo (Forbidden Words)?",
+        "a": "Chia thành đội. Một người mô tả từ mục tiêu mà không nói gợi ý cấm trên thẻ. Đội đoán trước khi hết giờ. Lượt bỏ qua có giới hạn. Tadado có hẹn giờ, tính điểm và bộ bài theo chủ đề để bạn bắt đầu trong vài giây."
       },
       {
-        "q": "How do you play Heads Up charades?",
-        "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
+        "q": "Cách chơi charades Heads Up?",
+        "a": "Giữ điện thoại trên trán để bạn không thấy từ. Bạn bè đưa gợi ý mà không nói từ. Nghiêng xuống khi đoán đúng, nghiêng lên để bỏ qua. Tadado dùng cùng bộ bài ở chế độ Heads Up và Taboo."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "Tadado có phải một trong những app game từ vựng miễn phí tốt nhất?",
+        "a": "Tadado được xây cho đêm chơi game: Taboo, charades Heads Up, Tadado Mix miễn phí, bộ bài theo chủ đề tùy chọn và tạo bộ bài AI. Không quảng cáo và không đăng ký, khiến nó là một trong những app game từ vựng giá trị nhất trên iOS và Android."
       },
       {
-        "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Optional theme decks and AI deck creation are one-time purchases. See Pricing for details. There is no subscription."
+        "q": "Tadado có miễn phí không?",
+        "a": "Có. Tadado Mix chơi miễn phí. Bộ bài theo chủ đề tùy chọn và tạo bộ bài AI là mua một lần. Xem Giá để biết chi tiết. Không có đăng ký."
       },
       {
-        "q": "What is the difference between Taboo and Heads Up?",
-        "a": "Forbidden Words is team-based Taboo: describe without forbidden words. Heads Up puts the phone on your forehead while friends give clues. Both use the same decks."
+        "q": "Khác biệt giữa Taboo và Heads Up?",
+        "a": "Forbidden Words là Taboo theo đội: mô tả không dùng từ cấm. Heads Up đặt điện thoại lên trán trong khi bạn bè đưa gợi ý. Cả hai dùng cùng bộ bài."
       },
       {
-        "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "q": "Tadado có quảng cáo không?",
+        "a": "Không. Tadado không quảng cáo. Bạn chỉ trả cho bộ bài tùy chọn hoặc tạo AI nếu muốn."
       },
       {
-        "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "q": "Tạo bộ bài AI hoạt động thế nào?",
+        "a": "Viết chủ đề, như \"phim Marvel\" hoặc \"hit pop 90\", và Tadado tạo bộ bài chơi được trong vài giây cho cả hai chế độ."
       },
       {
-        "q": "What languages are supported?",
-        "a": "The app UI is available in 17 languages including English, Turkish, Spanish, German, French, and more."
+        "q": "Hỗ trợ những ngôn ngữ nào?",
+        "a": "Giao diện ứng dụng có 17 ngôn ngữ gồm tiếng Anh, Thổ Nhĩ Kỳ, Tây Ban Nha, Đức, Pháp và hơn thế."
       }
     ]
   },
   "compare": {
-    "title": "How Tadado compares",
-    "subtitle": "See why players switch from single-mode Taboo or Heads Up apps to Tadado.",
-    "back": "Back to Tadado",
+    "title": "Tadado so với các app khác",
+    "subtitle": "Xem vì sao người chơi chuyển từ app Taboo hoặc Heads Up một chế độ sang Tadado.",
+    "back": "Quay lại Tadado",
     "columns": {
-      "feature": "Feature",
+      "feature": "Tính năng",
       "tadado": "Tadado",
-      "others": "Typical apps"
+      "others": "App thông thường"
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo + Heads Up trong một app",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "AI custom deck builder",
+        "feature": "Trình tạo bộ bài AI tùy chỉnh",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Free starter deck (Tadado Mix)",
+        "feature": "Bộ bài khởi đầu miễn phí (Tadado Mix)",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "No ads",
+        "feature": "Không quảng cáo",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "No subscription",
+        "feature": "Không đăng ký",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Themed deck packs",
+        "feature": "Gói bộ bài theo chủ đề",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "17 languages",
+        "feature": "17 ngôn ngữ",
         "tadado": "yes",
         "others": "partial"
       },
       {
-        "feature": "Word difficulty scoring",
+        "feature": "Tính điểm theo độ khó từ",
         "tadado": "yes",
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
-    "cta": "Download Tadado free",
-    "viewFull": "Open full comparison page"
+    "note": "Nhiều app tập trung một chế độ, hiện quảng cáo hoặc khóa nội dung sau đăng ký. Tadado được xây cho đêm chơi game thật với cả hai chế độ, bộ bài khởi đầu miễn phí và mua thêm trả một lần.",
+    "cta": "Tải Tadado miễn phí",
+    "viewFull": "Mở trang so sánh đầy đủ"
   },
   "team": {
-    "title": "Who we are",
-    "subtitle": "The tiny team behind the cards.",
-    "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
-    "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
+    "brandLine": "TADADO GAME DEVELOPMENT",
+    "brandTagline": "Một đội sản phẩm xây game mobile mọi người muốn chơi cùng nhau.",
+    "title": "Chúng tôi là ai",
+    "subtitle": "Đội nhỏ đằng sau những thẻ bài.",
+    "intro": "Chúng tôi là đội hai người thích ra mắt game tiệc tùng hơn viết bio công ty. Một người code sự hỗn loạn, một người thiết kế thẻ bài.",
+    "back": "Quay lại Tadado",
+    "funFactsLabel": "Sự thật thú vị",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
-        "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
+        "role": "Lập trình viên",
+        "bio": "Full-stack developer xây Tadado và app mobile với React Native, Next.js và Node.js. Tốt nghiệp Management Information Systems, tập trung vào code sạch và thiết kế thân thiện người chơi.",
         "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
+          "Ra mắt Tadado từ ý tưởng lên App Store trong khi làm fintech tại Pulse FinTech.",
+          "Sẽ debug production lúc 2 giờ sáng, nhưng chỉ khi timer vẫn đếm ngược đúng.",
+          "Tin rằng game tiệc tùng hay nhất cần zero tutorial và replayability tối đa."
         ],
         "skills": [
           "React Native",
@@ -560,16 +663,16 @@
           "Mobile Games",
           "FinTech"
         ],
-        "websiteCta": "Visit erennasiroglu.de"
+        "websiteCta": "Truy cập erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
-        "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
+        "role": "Thiết kế sản phẩm",
+        "bio": "Product UI/UX designer cho Tadado và sinh viên kiến trúc tại İzmir Democracy University. Định hình ngôn ngữ thị giác, luồng tương tác và trải nghiệm game từ thẻ đến màn hình.",
         "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
+          "Nghĩ về nhận thức không gian quy mô trẻ em ban ngày, bố cục thẻ ban đêm.",
+          "Dẫn dắt thiết kế sản phẩm end-to-end Tadado từ wireframe đầu tiên đến màn hình game hoàn thiện.",
+          "Sẽ để ý nếu bán kính nút lệch 2 pixel. Một cách lịch sự."
         ],
         "skills": [
           "UI/UX",
@@ -579,113 +682,60 @@
           "Spatial Design",
           "Procreate"
         ],
-        "websiteCta": "Visit nurgunen.com"
+        "websiteCta": "Truy cập nurgunen.com"
       }
     },
     "joinCta": {
-      "title": "Want to build with us?",
-      "body": "New deck ideas, brand collabs, or investment. We read every email.",
-      "link": "Work with us"
+      "title": "Giúp chúng tôi xây thế hệ game mobile tiếp theo.",
+      "body": "Tadado là bước đầu của chúng tôi hướng tới studio toàn cầu cho game mobile xã hội, chơi lại được. Chúng tôi đang xây danh mục sản phẩm gốc cho đêm chơi game khắp thế giới và sẵn sàng trò chuyện với angel investor, đối tác chiến lược và người giúp chúng tôi mở rộng phân phối. Nếu bạn tin đội nhỏ có thể xây sản phẩm định nghĩa danh mục, chúng tôi muốn nghe từ bạn.",
+      "link": "Liên hệ đội ngũ"
     }
   },
   "newsletter": {
-    "title": "New decks & updates",
-    "subtitle": "Join the waitlist for new themes, features, and party game tips. No spam.",
-    "placeholder": "you@email.com",
-    "button": "Join waitlist",
-    "success": "You're on the list. We'll email you when something new drops.",
-    "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
-    "errorInvalid": "Enter a valid email address.",
-    "errorGeneric": "Something went wrong. Please try again."
+    "title": "Không bao giờ hết ý tưởng đêm chơi game.",
+    "subtitle": "Chủ đề mới, tính năng và mẹo game tiệc tùng. Không spam.",
+    "placeholder": "email@cua-ban.com",
+    "button": "Tham gia waitlist",
+    "success": "Bạn đã trong danh sách. Chúng tôi sẽ email khi có gì mới.",
+    "privacy": "Chúng tôi chỉ email về cập nhật Tadado. Hủy đăng ký bất cứ lúc nào.",
+    "errorInvalid": "Nhập địa chỉ email hợp lệ.",
+    "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại."
   },
   "cta": {
-    "title": "Ready for game night?",
-    "subtitle": "Download Tadado free and start with Tadado Mix.",
-    "button": "Download now",
-    "secondary": "EXPLORE DECKS"
-  },
-  "footer": {
-    "tagline": "Describe, guess, make it yours.",
-    "developer": "Tadado Game Development",
-    "support": "Support",
-    "partnerships": "Partnerships",
-    "compare": "Compare apps",
-    "affiliate": "Affiliate program",
-    "team": "Our team",
-    "legal": "Legal",
-    "terms": "Terms of Use",
-    "privacy": "Privacy Policy",
-    "copyright": "© {{year}} Tadado Game Development",
-    "playTitle": "Play",
-    "discoverTitle": "Discover",
-    "growTitle": "Grow with Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
-    "help": "Help"
-  },
-  "sticky": {
-    "download": "Download free"
-  },
-  "language": {
-    "label": "Language"
-  },
-  "productBenefits": {
-    "eyebrow": "Built for real game nights",
-    "title": "One phone. Teams. Timers. Rounds.",
-    "statement": "One phone. Teams. Timers. Rounds. Offline play. No ads.",
-    "details": [
-      "Offline play",
-      "Teams & timers",
-      "No ads",
-      "No subscription"
-    ]
-  },
-  "personalization": {
-    "title": "Make it yours.",
-    "subtitle": "This is not the same game every time. Every group can create its own experience.",
-    "items": [
-      {
-        "label": "Friends",
-        "topic": "Weekend chaos"
-      },
-      {
-        "label": "Family",
-        "topic": "Sunday dinner"
-      },
-      {
-        "label": "Birthdays",
-        "topic": "Party classics"
-      },
-      {
-        "label": "Movie night",
-        "topic": "Oscar films"
-      },
-      {
-        "label": "Sports",
-        "topic": "Champions League"
-      },
-      {
-        "label": "Travel",
-        "topic": "Road trip games"
-      },
-      {
-        "label": "Office",
-        "topic": "Office chaos"
-      },
-      {
-        "label": "University",
-        "topic": "Campus legends"
-      },
-      {
-        "label": "Inside jokes",
-        "topic": "Things we always say"
-      }
-    ]
+    "title": "Đêm chơi game tiếp theo cần Tadado.",
+    "subtitle": "Một điện thoại. Mọi người được mời.",
+    "button": "TẢI TADADO · MIỄN PHÍ",
+    "secondary": "KHÁM PHÁ BỘ BÀI"
   },
   "finalCta": {
-    "title": "Your next game night needs Tadado.",
-    "subtitle": "One phone. Everyone's invited.",
-    "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "title": "Đêm chơi game tiếp theo cần Tadado.",
+    "subtitle": "Một điện thoại. Mọi người được mời.",
+    "button": "TẢI TADADO · MIỄN PHÍ",
+    "secondary": "KHÁM PHÁ BỘ BÀI"
+  },
+  "footer": {
+    "tagline": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
+    "developer": "Tadado Game Development",
+    "playTitle": "Chơi",
+    "discoverTitle": "Khám phá",
+    "growTitle": "Phát triển cùng Tadado",
+    "supportTitle": "Hỗ trợ",
+    "socialTitle": "Mạng xã hội",
+    "help": "Trợ giúp",
+    "support": "Hỗ trợ",
+    "partnerships": "Hợp tác",
+    "compare": "So sánh app",
+    "affiliate": "Chương trình affiliate",
+    "team": "Đội ngũ",
+    "legal": "Pháp lý",
+    "terms": "Điều khoản sử dụng",
+    "privacy": "Chính sách quyền riêng tư",
+    "copyright": "© {{year}} Tadado Game Development"
+  },
+  "sticky": {
+    "download": "TẢI TADADO · MIỄN PHÍ"
+  },
+  "language": {
+    "label": "Ngôn ngữ"
   }
 }

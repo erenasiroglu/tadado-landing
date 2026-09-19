@@ -32,8 +32,10 @@ export function Team({ dict, locale }: TeamProps) {
           </Reveal>
         </div>
         <div className="team-page-intro__signal">
-          <span className="text-xs font-bold uppercase tracking-[0.16em] text-amber/85">TADADO GAME DEVELOPMENT</span>
-          <span className="mt-2 block text-sm leading-relaxed text-cream/70">One product team building mobile games people want to play together.</span>
+          <span className="text-xs font-bold uppercase tracking-[0.16em] text-amber/85">
+            {content.brandLine}
+          </span>
+          <span className="mt-2 block text-sm leading-relaxed text-cream/70">{content.brandTagline}</span>
         </div>
       </div>
 

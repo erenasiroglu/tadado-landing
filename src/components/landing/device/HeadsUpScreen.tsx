@@ -9,6 +9,7 @@ import {
   getHeadsUpPauseLabel,
   getHeadsUpTimerLabel,
   HERO_HEADS_UP_SAMPLES,
+  type GamePreviewLabels,
 } from "@/lib/game-preview-tokens";
 import type { Locale } from "@/lib/i18n";
 
@@ -16,6 +17,7 @@ import { LandscapeGameDevice } from "./LandscapeGameDevice";
 
 interface HeadsUpScreenProps {
   locale: Locale;
+  previewLabels?: GamePreviewLabels;
   width?: number;
   word?: string;
   float?: boolean;
@@ -26,6 +28,7 @@ interface HeadsUpScreenProps {
 
 export function HeadsUpScreen({
   locale,
+  previewLabels,
   width = DEFAULT_LANDSCAPE_DEVICE_WIDTH,
   word,
   float = false,
@@ -65,7 +68,8 @@ export function HeadsUpScreen({
             shellWidth={metrics.innerWidth}
             word={displayWord}
             timer={getHeadsUpTimerLabel(locale)}
-            pauseLabel={getHeadsUpPauseLabel(locale)}
+            pauseLabel={previewLabels?.pauseGame ?? getHeadsUpPauseLabel(locale)}
+            labels={previewLabels}
           />
         </motion.div>
       </AnimatePresence>

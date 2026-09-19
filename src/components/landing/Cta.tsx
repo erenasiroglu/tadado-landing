@@ -28,7 +28,7 @@ export function Cta({ locale, dict }: CtaProps) {
         >
           {dict.cta.button}
         </TrackedOutboundLink>
-        <StoreBadges locale={locale} className="mt-8 justify-center" />
+        <StoreBadges locale={locale} a11y={dict.a11y} className="mt-8 justify-center" />
       </div>
     </LandingSection>
   );

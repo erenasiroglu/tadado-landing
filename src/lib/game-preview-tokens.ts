@@ -7,7 +7,10 @@ import {
   PHONE_PORTRAIT_RATIO,
   PHONE_REFERENCE_WIDTH,
 } from "@/lib/design-tokens";
+import type { Dictionary } from "@/lib/i18n-types";
 import type { Locale } from "@/lib/i18n-config";
+
+export type GamePreviewLabels = Dictionary["gamePreview"];
 
 export {
   ACTION_VARIANTS,
@@ -19,7 +22,7 @@ export {
 /** iPhone logical width used to scale GameScreen preview proportions */
 export const GAME_SCREEN_REFERENCE_WIDTH = 390;
 
-export const FORBIDDEN_WORDS_PREVIEW = {
+export const FORBIDDEN_WORDS_STYLE = {
   screenBg: CLASSIC_GAME_SCREEN.background,
   cardBg: CLASSIC_GAME_SCREEN.cardBg,
   wordBg: CLASSIC_GAME_SCREEN.wordBg,
@@ -30,16 +33,6 @@ export const FORBIDDEN_WORDS_PREVIEW = {
   timerGradient: CLASSIC_GAME_SCREEN.timerGradient,
   timerText: CLASSIC_GAME_SCREEN.timerText,
   cardProgressText: CLASSIC_GAME_SCREEN.cardProgressText,
-  word: "SPIDER MAN",
-  forbidden: ["MARVEL", "IRON MAN", "HERO", "SPIDER"] as const,
-  teamName: "TEAM A",
-  timeLeft: "42 second Left",
-  passStatus: "2 / 3 passes left",
-  roundLabel: "Round 1/3",
-  pointsMultiplier: "×2",
-  tabooLabel: "Forbidden!",
-  passLabel: "Pass",
-  correctLabel: "Correct",
   pointsChip: {
     accent: "#C4B5FD",
     background: "rgba(196, 181, 253, 0.12)",
@@ -47,9 +40,29 @@ export const FORBIDDEN_WORDS_PREVIEW = {
   },
 } as const;
 
-export const HEADS_UP_PREVIEW = {
+/** @deprecated Use FORBIDDEN_WORDS_STYLE + getGamePreviewLabels(dict) */
+export const FORBIDDEN_WORDS_PREVIEW = {
+  ...FORBIDDEN_WORDS_STYLE,
+  word: "SPIDER MAN",
+  forbidden: ["MARVEL", "IRON MAN", "HERO", "SPIDER"] as const,
+  teamName: "TEAM A",
+  timeLeft: "42 seconds left",
+  passStatus: "2 / 3 passes left",
+  roundLabel: "Round 1/3",
+  pointsMultiplier: "×2",
+  tabooLabel: "Forbidden!",
+  passLabel: "Pass",
+  correctLabel: "Correct",
+};
+
+export const HEADS_UP_STYLE = {
   gradientColors: homeScreenGradient.colors,
   gradientLocations: homeScreenGradient.locations,
+} as const;
+
+/** @deprecated Use HEADS_UP_STYLE + getGamePreviewLabels(dict) */
+export const HEADS_UP_PREVIEW = {
+  ...HEADS_UP_STYLE,
   word: "SPIDER MAN",
   teamName: "TEAM A",
   timer: "42s",
@@ -58,7 +71,11 @@ export const HEADS_UP_PREVIEW = {
   tiltUp: "Lift up to skip",
   tiltDown: "Lower if correct",
   yourTeam: "Your team",
-} as const;
+};
+
+export function getGamePreviewLabels(dict: Dictionary): GamePreviewLabels {
+  return dict.gamePreview;
+}
 
 export interface TabooPreviewSample {
   word: string;
@@ -79,7 +96,13 @@ export const HERO_HEADS_UP_SAMPLES: readonly HeadsUpPreviewSample[] = [
   { word: "THE ODYSSEY" },
 ];
 
+export const TURN_SUMMARY_STYLE = {
+  backgroundGradient: ["#3D1F58", "#2A0A3B", "#1A0F28"] as const,
+} as const;
+
+/** @deprecated Use TURN_SUMMARY_STYLE + getGamePreviewLabels(dict) */
 export const TURN_SUMMARY_PREVIEW = {
+  ...TURN_SUMMARY_STYLE,
   roundLabel: "Round 1/3",
   teamName: "TEAM A",
   subtitle: "Turn complete",
@@ -94,8 +117,7 @@ export const TURN_SUMMARY_PREVIEW = {
   nextUpLabel: "Next up",
   nextTeam: "TEAM B",
   continue: "Continue",
-  backgroundGradient: ["#3D1F58", "#2A0A3B", "#1A0F28"] as const,
-} as const;
+};
 
 /** Heads Up play field reference (landscape logical points from HeadsUpPlayField.tsx) */
 export const HEADS_UP_LANDSCAPE_REF_WIDTH = 844;
@@ -190,7 +212,8 @@ export function getHeadsUpPlayFieldMetrics(
   };
 }
 
-export function getHeadsUpPauseLabel(locale: Locale): string {
+export function getHeadsUpPauseLabel(locale: Locale, dict?: Dictionary): string {
+  if (dict) return dict.gamePreview.pauseGame;
   if (locale === "tr") return "Oyunu Durdur";
   if (locale === "de") return "Spiel pausieren";
   if (locale === "es") return "Pausar juego";

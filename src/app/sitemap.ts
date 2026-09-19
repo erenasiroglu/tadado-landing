@@ -81,10 +81,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   });
 
-  entries.push(
-    { url: `${base}/terms-of-use`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
-    { url: `${base}/privacy-policy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
-  );
+  const termsLanguages = buildLanguageAlternates("terms-of-use");
+  const privacyLanguages = buildLanguageAlternates("privacy-policy");
+
+  for (const locale of LOCALES) {
+    entries.push(
+      {
+        url: `${base}/${locale}/terms-of-use`,
+        lastModified: new Date(),
+        changeFrequency: "yearly",
+        priority: 0.3,
+        alternates: { languages: termsLanguages },
+      },
+      {
+        url: `${base}/${locale}/privacy-policy`,
+        lastModified: new Date(),
+        changeFrequency: "yearly",
+        priority: 0.3,
+        alternates: { languages: privacyLanguages },
+      },
+    );
+  }
 
   const blogLocales = new Set<string>();
   for (const { locale, slug } of getAllBlogSlugs()) {

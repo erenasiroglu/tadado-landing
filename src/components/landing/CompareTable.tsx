@@ -18,12 +18,18 @@ interface CompareTableProps {
 
 type CellValue = "yes" | "no" | "partial" | string;
 
-function CompareCell({ value }: { value: CellValue }) {
+function CompareCell({
+  value,
+  dict,
+}: {
+  value: CellValue;
+  dict: Dictionary;
+}) {
   if (value === "yes") {
     return (
       <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-300">
         <Check className="h-4 w-4" aria-hidden />
-        <span className="sr-only">Yes</span>
+        <span className="sr-only">{dict.a11y.yes}</span>
       </span>
     );
   }
@@ -32,7 +38,7 @@ function CompareCell({ value }: { value: CellValue }) {
     return (
       <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-red-500/10 text-red-300/80">
         <X className="h-4 w-4" aria-hidden />
-        <span className="sr-only">No</span>
+        <span className="sr-only">{dict.a11y.no}</span>
       </span>
     );
   }
@@ -41,7 +47,7 @@ function CompareCell({ value }: { value: CellValue }) {
     return (
       <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber/10 text-amber">
         <Minus className="h-4 w-4" aria-hidden />
-        <span className="sr-only">Partial</span>
+        <span className="sr-only">{dict.a11y.partial}</span>
       </span>
     );
   }
@@ -82,13 +88,13 @@ export function CompareTable({
                 <span className="text-xs font-semibold uppercase tracking-wide text-amber md:hidden">
                   {content.columns.tadado}
                 </span>
-                <CompareCell value={row.tadado as CellValue} />
+                <CompareCell value={row.tadado as CellValue} dict={dict} />
               </div>
               <div className="flex items-center justify-between gap-3 md:justify-center">
                 <span className="text-xs font-semibold uppercase tracking-wide text-cream/50 md:hidden">
                   {content.columns.others}
                 </span>
-                <CompareCell value={row.others as CellValue} />
+                <CompareCell value={row.others as CellValue} dict={dict} />
               </div>
             </li>
           ))}

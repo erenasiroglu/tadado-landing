@@ -3,10 +3,9 @@ import { ArrowDown, ArrowUp, PauseCircle, Users } from "lucide-react";
 import {
   getHeadsUpPlayFieldMetrics,
   HEADS_UP_PREVIEW,
+  type GamePreviewLabels,
   headsUpGradientStyle,
 } from "@/lib/game-preview-tokens";
-
-const t = HEADS_UP_PREVIEW;
 
 interface HeadsUpPreviewProps {
   shellWidth?: number;
@@ -14,15 +13,18 @@ interface HeadsUpPreviewProps {
   timer?: string;
   teamName?: string;
   pauseLabel?: string;
+  labels?: GamePreviewLabels;
 }
 
 export function HeadsUpPreview({
   shellWidth = 280,
-  word = t.word,
-  timer = t.timer,
-  teamName = t.teamName,
+  word = HEADS_UP_PREVIEW.word,
+  timer = HEADS_UP_PREVIEW.timer,
+  teamName,
   pauseLabel = "Pause game",
+  labels,
 }: HeadsUpPreviewProps) {
+  const displayTeam = teamName ?? labels?.teamA ?? HEADS_UP_PREVIEW.teamName;
   const m = getHeadsUpPlayFieldMetrics(shellWidth, 5, word);
 
   return (
@@ -127,7 +129,7 @@ export function HeadsUpPreview({
               className="truncate font-bold text-[#C4B5FD]"
               style={{ fontSize: m.teamFontSize, letterSpacing: 0.6 * (m.teamFontSize / 11) }}
             >
-              {teamName}
+              {displayTeam}
             </span>
           </div>
         </div>

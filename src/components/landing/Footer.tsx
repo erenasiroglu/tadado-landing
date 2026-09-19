@@ -57,7 +57,7 @@ export function Footer({ locale, dict }: FooterProps) {
             </div>
             <p className="mt-3 text-sm text-cream/65">{dict.footer.tagline}</p>
             <p className="mt-1 text-xs text-lavender/80">{dict.footer.developer}</p>
-            <StoreButtons locale={locale} source="hero_badges" className="mt-6" />
+            <StoreButtons locale={locale} source="hero_badges" a11y={dict.a11y} className="mt-6" />
           </div>
 
           <div className="grid flex-1 grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
@@ -93,8 +93,8 @@ export function Footer({ locale, dict }: FooterProps) {
                   {dict.footer.help}
                 </a>
               </li>
-              <FooterLink href="/privacy-policy">{dict.footer.privacy}</FooterLink>
-              <FooterLink href="/terms-of-use">{dict.footer.terms}</FooterLink>
+              <FooterLink href={localeHref(locale, "privacy-policy")}>{dict.footer.privacy}</FooterLink>
+              <FooterLink href={localeHref(locale, "terms-of-use")}>{dict.footer.terms}</FooterLink>
             </FooterColumn>
 
             <FooterColumn title={dict.footer.socialTitle}>
