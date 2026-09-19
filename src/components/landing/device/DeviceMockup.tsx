@@ -60,28 +60,6 @@ export function DeviceMockup({
             backgroundColor: PHONE_SHELL.screenBg,
           }}
         >
-          {isLandscape ? (
-            <div
-              className="device-mockup__island device-mockup__island--landscape"
-              style={{
-                width: Math.max(6, 7 * metrics.scale),
-                height: Math.max(18, 22 * metrics.scale),
-                left: Math.max(6, 7 * metrics.scale),
-              }}
-              aria-hidden
-            />
-          ) : (
-            <div
-              className="device-mockup__island"
-              style={{
-                width: Math.max(48, 54 * metrics.scale),
-                height: Math.max(14, 16 * metrics.scale),
-                top: Math.max(8, 10 * metrics.scale),
-              }}
-              aria-hidden
-            />
-          )}
-
           <div
             className="device-mockup__edge-highlight"
             style={{ borderRadius: metrics.screenRadius }}

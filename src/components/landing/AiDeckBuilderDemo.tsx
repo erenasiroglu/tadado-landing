@@ -213,13 +213,6 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                   <span className="ai-typing-cursor ml-0.5 inline-block h-4 w-0.5 bg-amber" />
                 ) : null}
               </div>
-              {phase === "generating" ? (
-                <div className="mt-4 space-y-2">
-                  <div className="ai-shimmer-bar h-2 rounded-full" />
-                  <div className="ai-shimmer-bar h-2 w-4/5 rounded-full" />
-                  <p className="text-sm text-lavender">{dict.ai.simulationWriting}</p>
-                </div>
-              ) : null}
             </div>
 
             <div className="mt-5">
