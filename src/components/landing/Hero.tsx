@@ -7,13 +7,13 @@ import { Stagger, StaggerItem } from "@/components/motion/Stagger";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { fadeIn } from "@/lib/motion";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
 import { trackEvent } from "@/lib/tracking";
 
 import { HeroProduct } from "./HeroProduct";
 import { CTAButton } from "./primitives/CTAButton";
 import { HeroProofMetrics } from "./primitives/HeroProofMetrics";
 import { MobileStoreDownloadCta } from "./primitives/MobileStoreDownloadCta";
+import { StoreButtons } from "./primitives/StoreButton";
 
 interface HeroProps {
   locale: Locale;
@@ -65,34 +65,39 @@ export function Hero({ locale, dict }: HeroProps) {
               <p className="mt-4 max-w-xl text-lg text-cream/75">{dict.hero.subtitle}</p>
             </StaggerItem>
             <StaggerItem>
-              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-                <div className="sm:hidden">
+              <div className="mt-6 flex flex-col gap-3">
+                <div className="flex flex-col gap-3 sm:hidden">
                   <MobileStoreDownloadCta
                     locale={locale}
                     source="hero_primary"
                     className="min-h-[44px]"
                     onClick={handlePrimaryClick}
                   />
+                  <CTAButton
+                    href="#how-it-works"
+                    variant="ghost"
+                    className="min-h-[44px] w-full"
+                    onClick={handleSecondaryClick}
+                  >
+                    {dict.hero.ctaSecondary}
+                  </CTAButton>
                 </div>
-                <CTAButton
-                  href={getAppStoreUrl(locale)}
-                  locale={locale}
-                  downloadPlatform="ios"
-                  downloadSource="hero_primary"
-                  variant="primary"
-                  className="hidden min-h-[44px] sm:inline-flex sm:w-auto"
-                  onClick={handlePrimaryClick}
-                >
-                  {dict.hero.ctaPrimary}
-                </CTAButton>
-                <CTAButton
-                  href="#how-it-works"
-                  variant="ghost"
-                  className="min-h-[44px] w-full sm:w-auto"
-                  onClick={handleSecondaryClick}
-                >
-                  {dict.hero.ctaSecondary}
-                </CTAButton>
+                <div className="hidden flex-col gap-3 sm:flex">
+                  <StoreButtons
+                    locale={locale}
+                    source="hero_primary"
+                    a11y={dict.a11y}
+                    labelMode="download"
+                  />
+                  <CTAButton
+                    href="#how-it-works"
+                    variant="ghost"
+                    className="min-h-[44px] w-fit"
+                    onClick={handleSecondaryClick}
+                  >
+                    {dict.hero.ctaSecondary}
+                  </CTAButton>
+                </div>
               </div>
             </StaggerItem>
           </Stagger>
