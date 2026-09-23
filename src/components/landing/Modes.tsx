@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
+import { getDeviceMetrics } from "@/lib/device-mockup-tokens";
 import {
-  getHeadsUpPauseLabel,
+  getHeadsUpPauseShortLabel,
   getHeadsUpTimerLabel,
 } from "@/lib/game-preview-tokens";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -18,6 +19,7 @@ interface ModesProps {
 }
 
 const HEADS_UP_PHONE_WIDTH = 320;
+const headsUpDeviceMetrics = getDeviceMetrics(HEADS_UP_PHONE_WIDTH, "landscape");
 
 export function Modes({ locale, dict }: ModesProps) {
   return (
@@ -48,9 +50,10 @@ export function Modes({ locale, dict }: ModesProps) {
             <AnimatedPhoneShell delay="short">
               <PhoneFrame orientation="landscape" width={HEADS_UP_PHONE_WIDTH}>
                 <HeadsUpPreview
-                  shellWidth={HEADS_UP_PHONE_WIDTH}
+                  shellWidth={headsUpDeviceMetrics.innerWidth}
+                  shellHeight={headsUpDeviceMetrics.innerHeight}
                   timer={getHeadsUpTimerLabel(locale)}
-                  pauseLabel={getHeadsUpPauseLabel(locale)}
+                  pauseLabel={getHeadsUpPauseShortLabel(locale)}
                 />
               </PhoneFrame>
             </AnimatedPhoneShell>

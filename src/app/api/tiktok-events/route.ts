@@ -1,5 +1,13 @@
 import { NextResponse } from "next/server";
 
+export async function POST(_request: Request) {
+  // TikTok Events API forwarding disabled — see commented implementation below.
+  return NextResponse.json({ ok: false, error: "tiktok_events_disabled" }, { status: 503 });
+}
+
+/*
+import { NextResponse } from "next/server";
+
 const TIKTOK_PIXEL_ID = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID;
 const TIKTOK_EVENTS_ACCESS_TOKEN = process.env.TIKTOK_EVENTS_ACCESS_TOKEN;
 
@@ -77,3 +85,4 @@ export async function POST(request: Request) {
 
   return NextResponse.json({ ok: true, response: data });
 }
+*/

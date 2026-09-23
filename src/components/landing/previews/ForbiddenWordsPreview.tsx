@@ -233,7 +233,10 @@ export function ForbiddenWordsPreview({
             </div>
           </div>
 
-          <div className="flex flex-col items-center" style={{ marginBottom: m.progressMarginBottom }}>
+          <div
+            className="flex flex-col items-center"
+            style={{ marginTop: m.teamProgressGap, marginBottom: m.progressMarginBottom }}
+          >
             <div
               className="overflow-hidden"
               style={{

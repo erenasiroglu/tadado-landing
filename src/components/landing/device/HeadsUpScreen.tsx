@@ -6,7 +6,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { HeadsUpPreview } from "@/components/landing/previews/HeadsUpPreview";
 import { DEFAULT_LANDSCAPE_DEVICE_WIDTH, getDeviceMetrics } from "@/lib/device-mockup-tokens";
 import {
-  getHeadsUpPauseLabel,
+  getHeadsUpPauseShortLabel,
   getHeadsUpTimerLabel,
   HERO_HEADS_UP_SAMPLES,
   type GamePreviewLabels,
@@ -66,9 +66,10 @@ export function HeadsUpScreen({
         >
           <HeadsUpPreview
             shellWidth={metrics.innerWidth}
+            shellHeight={metrics.innerHeight}
             word={displayWord}
             timer={getHeadsUpTimerLabel(locale)}
-            pauseLabel={previewLabels?.pauseGame ?? getHeadsUpPauseLabel(locale)}
+            pauseLabel={getHeadsUpPauseShortLabel(locale)}
             labels={previewLabels}
           />
         </motion.div>

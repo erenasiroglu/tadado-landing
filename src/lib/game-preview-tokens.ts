@@ -154,6 +154,7 @@ export interface HeadsUpPlayFieldMetrics {
   pauseMaxWidth: number;
   pauseGap: number;
   showPauseLabel: boolean;
+  topSideMaxWidth: number;
   wordFontSize: number;
   wordLineHeight: number;
   wordLetterSpacing: number;
@@ -166,49 +167,61 @@ export interface HeadsUpPlayFieldMetrics {
 
 export function getHeadsUpPlayFieldMetrics(
   shellWidth: number,
-  shellPadding = 5,
+  shellPadding = 0,
   word: string = HEADS_UP_PREVIEW.word,
+  shellHeight?: number,
 ): HeadsUpPlayFieldMetrics {
   const innerWidth = shellWidth - shellPadding * 2;
-  const innerHeight = innerWidth * PHONE_LANDSCAPE_RATIO - shellPadding * 2;
+  const innerHeight =
+    shellHeight !== undefined
+      ? shellHeight - shellPadding * 2
+      : innerWidth * PHONE_LANDSCAPE_RATIO - shellPadding * 2;
   const scale = Math.min(
     innerWidth / HEADS_UP_LANDSCAPE_REF_WIDTH,
     innerHeight / HEADS_UP_LANDSCAPE_REF_HEIGHT,
   );
 
+  const compact = innerWidth < 300 || innerHeight < 150;
   const wordBase = 76 * scale;
   const wordLengthScale = word.length > 14 ? 0.72 : word.length > 10 ? 0.85 : 1;
+  const screenPadH = Math.max(12, 20 * scale);
+  const timerBlockWidth = Math.max(40, 52 * scale);
+  const topSideMaxWidth = Math.max(
+    62,
+    (innerWidth - screenPadH * 2 - timerBlockWidth - Math.max(12, 16 * scale)) / 2,
+  );
 
   return {
-    screenPadH: 16 * scale,
-    screenPadTop: 10 * scale,
-    screenPadBottom: 10 * scale,
-    topBarGap: 8 * scale,
-    topBarHeight: Math.max(28, 34 * scale),
-    teamMaxWidth: Math.min(130 * scale, innerWidth * 0.36),
-    teamPadH: 10 * scale,
-    teamPadV: 7 * scale,
-    teamFontSize: Math.max(8, 11 * scale),
-    teamIconSize: Math.max(9, 14 * scale),
-    teamGap: 6 * scale,
-    timerPadH: 12 * scale,
-    timerPadV: 6 * scale,
-    timerFontSize: Math.max(8, 12 * scale),
-    pausePadH: 8 * scale,
-    pausePadV: 7 * scale,
-    pauseIconSize: Math.max(10, 20 * scale),
-    pauseFontSize: Math.max(7, 10 * scale),
-    pauseMaxWidth: 118 * scale,
-    pauseGap: 5 * scale,
-    showPauseLabel: innerWidth >= 210,
-    wordFontSize: Math.max(15, wordBase * wordLengthScale),
-    wordLineHeight: Math.max(16, 80 * scale * wordLengthScale),
-    wordLetterSpacing: 1.2 * scale,
-    wordPadH: Math.min(150 * scale, innerWidth * 0.2),
-    gestureSize: Math.max(22, 36 * scale),
-    gestureIconSize: Math.max(11, 20 * scale),
-    gestureInset: 6 * scale,
-    gestureBottom: 12 * scale,
+    screenPadH,
+    screenPadTop: Math.max(4, 7 * scale),
+    screenPadBottom: Math.max(4, 8 * scale),
+    topBarGap: Math.max(4, 5 * scale),
+    topBarHeight: compact ? Math.max(20, 24 * scale) : Math.max(22, 28 * scale),
+    teamMaxWidth: topSideMaxWidth,
+    teamPadH: Math.max(5, 7 * scale),
+    teamPadV: 5 * scale,
+    teamFontSize: compact ? Math.max(6.5, 8.5 * scale) : Math.max(7, 9.5 * scale),
+    teamIconSize: Math.max(8, 11 * scale),
+    teamGap: Math.max(2, 4 * scale),
+    timerPadH: Math.max(5, 8 * scale),
+    timerPadV: 4 * scale,
+    timerFontSize: Math.max(7, 10 * scale),
+    pausePadH: Math.max(4, 6 * scale),
+    pausePadV: 5 * scale,
+    pauseIconSize: Math.max(8, 14 * scale),
+    pauseFontSize: compact ? Math.max(6, 7.5 * scale) : Math.max(6.5, 8.5 * scale),
+    pauseMaxWidth: topSideMaxWidth,
+    pauseGap: Math.max(2, 3 * scale),
+    showPauseLabel: true,
+    topSideMaxWidth,
+    wordFontSize: Math.max(13, wordBase * wordLengthScale),
+    wordLineHeight: Math.max(14, 72 * scale * wordLengthScale),
+    wordLetterSpacing: Math.max(0.4, 1 * scale),
+    wordPadH: Math.min(120 * scale, innerWidth * 0.16),
+    gestureSize: compact ? Math.max(18, 28 * scale) : Math.max(20, 32 * scale),
+    gestureIconSize: Math.max(9, 16 * scale),
+    gestureInset: Math.max(12, 18 * scale),
+    gestureBottom: Math.max(6, 8 * scale),
   };
 }
 
@@ -220,6 +233,25 @@ export function getHeadsUpPauseLabel(locale: Locale, dict?: Dictionary): string 
   if (locale === "fr") return "Mettre en pause";
   if (locale === "pt-BR") return "Pausar jogo";
   return "Pause game";
+}
+
+/** Short label for landscape mockups so top chips fit without truncation. */
+export function getHeadsUpPauseShortLabel(locale: Locale): string {
+  if (locale === "tr") return "Duraklat";
+  if (locale === "de") return "Pause";
+  if (locale === "es" || locale === "pt-BR" || locale === "it") return "Pausa";
+  if (locale === "fr") return "Pause";
+  if (locale === "pl") return "Pauza";
+  if (locale === "el") return "Παύση";
+  if (locale === "ru") return "Пауза";
+  if (locale === "ja") return "停止";
+  if (locale === "ko") return "일시정지";
+  if (locale === "zh") return "暂停";
+  if (locale === "ar") return "إيقاف";
+  if (locale === "hi") return "रोकें";
+  if (locale === "id") return "Jeda";
+  if (locale === "vi") return "Dừng";
+  return "Pause";
 }
 
 export function getHeadsUpTimerLabel(locale: Locale, seconds = 42): string {
@@ -249,6 +281,7 @@ export function forbiddenPreviewScale(shellWidth: number, shellPadding = 4): num
 export interface GameScreenPreviewMetrics {
   screenPadH: number;
   screenPadTop: number;
+  teamProgressGap: number;
   headerMarginBottom: number;
   exitSize: number;
   exitRadius: number;
@@ -313,7 +346,8 @@ export interface GameScreenPreviewMetrics {
 export function getGameScreenPreviewMetrics(scale: number): GameScreenPreviewMetrics {
   return {
     screenPadH: 20 * scale,
-    screenPadTop: 10 * scale,
+    screenPadTop: 16 * scale,
+    teamProgressGap: 10 * scale,
     headerMarginBottom: 16 * scale,
     exitSize: 44 * scale,
     exitRadius: 14 * scale,
@@ -326,7 +360,7 @@ export function getGameScreenPreviewMetrics(scale: number): GameScreenPreviewMet
     progressMarginBottom: 16 * scale,
     progressHeight: 20 * scale,
     progressBorder: 2 * scale,
-    progressGap: 8 * scale,
+    progressGap: 10 * scale,
     timeFontSize: 14 * scale,
     cardRadius: 24 * scale,
     cardPadH: 20 * scale,

@@ -1,0 +1,185 @@
+import type { DeckPageContentMap } from "@/lib/deck-page-types";
+
+export const EN_DECK_PAGES: DeckPageContentMap = {
+  mix: {
+    metaTitle: "Tadado Mix Free Party Deck | Taboo and Heads Up Starter",
+    metaDescription:
+      "Download Tadado free and play Tadado Mix with friends. A starter word deck for Taboo, Forbidden Words, and Heads Up on one phone. No ads.",
+    h1: "Tadado Mix: free party starter deck",
+    heroSubtitle: "The classic quick-start pack for every game night. One phone, your group, instant laughs.",
+    whatIsTitle: "What is Tadado Mix?",
+    whatIsBody:
+      "Tadado Mix is the free starter deck in Tadado. It is built for groups who want a Taboo-style word game or Heads Up charades without paying first. Pass the phone, set teams, and play Forbidden Words or Heads Up with the same cards.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Balanced words for mixed groups and first-time players",
+      "Works in Forbidden Words (team Taboo) and Heads Up",
+      "Great for road trips, dorm rooms, and family nights",
+      "Free download on iOS and Android",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: ["PIZZA", "BIRTHDAY", "SELFIE", "DANCE", "VACATION", "MUSIC", "COFFEE", "FRIENDSHIP"],
+    playTitle: "Play Tadado Mix free",
+    playBody: "Get Tadado on the App Store or Google Play. Tadado Mix is included at no cost.",
+    relatedSectionTitle: "More decks to unlock",
+    imageAlt: "Tadado Mix free party word game deck",
+  },
+  summer: {
+    metaTitle: "Summer Party Word Game Deck | Tadado",
+    metaDescription:
+      "Sun, beach, and vacation words for your next summer party. Play the Summer deck in Tadado with Taboo and Heads Up modes.",
+    h1: "Summer deck for sunny game nights",
+    heroSubtitle: "Beach trips, barbecues, and holiday energy in every card.",
+    whatIsTitle: "What is the Summer deck?",
+    whatIsBody:
+      "The Summer deck is a themed pack of words about holidays, heat, and outdoor fun. Use it when you want a light party game that matches warm weather and vacation mood.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Beach, pool, and travel vibes",
+      "Seasonal words friends instantly recognize",
+      "Perfect for outdoor gatherings",
+      "Plays in both Tadado game modes",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: ["SUNSCREEN", "ICECREAM", "SURFING", "BBQ", "PALM TREE", "ROAD TRIP", "SUNSET", "HOLIDAY"],
+    playTitle: "Play the Summer deck in Tadado",
+    playBody: "Unlock the Summer pack once in the app and replay it all season.",
+    relatedSectionTitle: "More decks for game night",
+    imageAlt: "Tadado Summer themed party word game deck",
+  },
+  cinema: {
+    metaTitle: "Movie Party Game and Movie Guessing Cards | Tadado",
+    metaDescription:
+      "Movie night word game with blockbusters, series, and stars. Play Cinema in Tadado: Taboo, Forbidden Words, and Heads Up with film cards.",
+    h1: "Cinema deck for movie nights",
+    heroSubtitle: "Blockbusters, streaming hits, and iconic characters on every card.",
+    whatIsTitle: "What is the Cinema deck?",
+    whatIsBody:
+      "The Cinema deck is for film fans. Guess and describe movies, heroes, and pop culture moments. It is a movie guessing party game on your phone, ideal when you want something sharper than generic charades.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Current films and modern franchises",
+      "Classic cinema and fan favorites",
+      "Great for binge-watch groups and premiere nights",
+      "Works with Forbidden Words and Heads Up",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: [
+      "SPIDER-MAN",
+      "INTERSTELLAR",
+      "BARBIE",
+      "THE ODYSSEY",
+      "MARVEL",
+      "STREAMING",
+      "POPCORN",
+      "SUPERHERO",
+    ],
+    playTitle: "Play the Cinema deck in Tadado",
+    playBody: "Download Tadado and add the Cinema pack for your next movie night.",
+    relatedSectionTitle: "Explore more themed decks",
+    imageAlt: "Tadado Cinema movie party game deck",
+  },
+  travel: {
+    metaTitle: "Travel Trivia and World Culture Party Game | Tadado",
+    metaDescription:
+      "Countries, cities, food, and culture in one travel word game deck. Play Travel in Tadado with friends using Taboo or Heads Up.",
+    h1: "Travel deck: world culture on your phone",
+    heroSubtitle: "Countries, cuisines, landmarks, and wanderlust in every round.",
+    whatIsTitle: "What is the Travel deck?",
+    whatIsBody:
+      "The Travel deck turns your table into a mini geography and culture quiz. Describe destinations, dishes, and traditions without saying the forbidden words. Perfect for backpackers, families, and anyone who loves maps.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Countries and cities from every continent",
+      "Food, festivals, and local culture",
+      "Great for classrooms, trips, and hostels",
+      "Two game modes on one deck",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: ["ITALY", "JAPAN", "PAELLA", "EIFFEL TOWER", "PASSPORT", "SPAIN", "TURKEY", "PORTUGAL"],
+    playTitle: "Play the Travel deck in Tadado",
+    playBody: "Unlock Travel once and replay on every trip.",
+    relatedSectionTitle: "More decks for curious groups",
+    imageAlt: "Tadado Travel world culture party game deck",
+  },
+  sport: {
+    metaTitle: "Sports Stars Party Word Game | Tadado",
+    metaDescription:
+      "Football, basketball, and legendary athletes in a sports word game deck. Play Sport in Tadado with Taboo and Heads Up.",
+    h1: "Sport deck for fans and rivalries",
+    heroSubtitle: "Legends, clubs, and iconic moments from the world of sport.",
+    whatIsTitle: "What is the Sport deck?",
+    whatIsBody:
+      "The Sport deck is built for match days and watch parties. Describe players, teams, and moments without the banned words. From global icons to rising stars, it keeps competitive groups talking.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Football, basketball, and more",
+      "Legendary names fans debate every week",
+      "Ideal for pubs, living rooms, and tailgates",
+      "Same deck in Forbidden Words and Heads Up",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: ["MESSI", "RONALDO", "LEBRON JAMES", "CHAMPIONS LEAGUE", "PENALTY", "STADIUM", "ALPEREN ŞENGÜN", "GOAL"],
+    playTitle: "Play the Sport deck in Tadado",
+    playBody: "Add the Sport pack in Tadado before the next big match.",
+    relatedSectionTitle: "More decks for your crew",
+    imageAlt: "Tadado Sport athletes party word game deck",
+  },
+  heroes: {
+    metaTitle: "Superhero Guessing Game Deck | Marvel and DC | Tadado",
+    metaDescription:
+      "Marvel, DC, and comic heroes in a word guessing deck. Play Heroes in Tadado with Forbidden Words and Heads Up charades.",
+    h1: "Heroes deck: comics on your forehead",
+    heroSubtitle: "Marvel, DC, and superpowers for your next fan night.",
+    whatIsTitle: "What is the Heroes deck?",
+    whatIsBody:
+      "The Heroes deck is for comic and blockbuster fans. Iron Man, Scarlet Witch, Flash, and more appear as cards you describe or guess. It is a superhero party game that fits both team Taboo and Heads Up.",
+    insideTitle: "What is inside?",
+    insideBullets: [
+      "Marvel and DC icons",
+      "Powers, teams, and storylines",
+      "Perfect after premieres and binge sessions",
+      "One purchase, both game modes",
+    ],
+    samplesTitle: "Sample cards",
+    sampleWords: ["IRON MAN", "SCARLET WITCH", "SPIDER-MAN", "FLASH", "BATMAN", "AVENGERS", "WONDER WOMAN", "THOR"],
+    playTitle: "Play the Heroes deck in Tadado",
+    playBody: "Unlock Heroes in the app and run your own superhero game night.",
+    relatedSectionTitle: "More fan-favorite decks",
+    imageAlt: "Tadado Heroes Marvel and DC party game deck",
+  },
+  midnight: {
+    metaTitle: "Night Games for Couples and Friends | Tadado",
+    metaDescription:
+      "Looking for games to play with your boyfriend, girlfriend, or partner? Night Games in Tadado has flirty, funny, and late-night word cards for couples and friends.",
+    h1: "Night Games for couples",
+    heroSubtitle: "Fun, flirty, and unexpected cards for date night and close friends.",
+    whatIsTitle: "What is Night Games?",
+    whatIsBody:
+      "Night Games is the adults-only themed deck in Tadado (18+). It is for couples and close friends who want a party word game that goes beyond family-friendly cards. Play with your boyfriend, girlfriend, or partner using Forbidden Words or Heads Up on one phone.",
+    insideTitle: "Games to play with your partner",
+    insideBullets: [
+      "Couples and dating themes",
+      "Flirty and funny prompts",
+      "Late-night party energy",
+      "18+ content for mature groups",
+      "Works as a Taboo-style or Heads Up game for couples",
+    ],
+    samplesTitle: "Sample card themes",
+    sampleWords: ["DATE NIGHT", "CRUSH", "FIRST KISS", "TRUTH OR DARE", "FLIRT", "PARTNER", "MIDNIGHT", "SECRET"],
+    playTitle: "Play Night Games in Tadado",
+    playBody: "Download Tadado, unlock Night Games, and set the mood for your next night in.",
+    relatedSectionTitle: "More decks for couples and friends",
+    imageAlt: "Tadado Night Games deck for couples and friends",
+    faq: [
+      {
+        q: "Is Night Games good for couples?",
+        a: "Yes. Night Games is designed for couples and close friends who want a flirty word game on one phone. You can play Forbidden Words as a team or Heads Up with your partner giving clues.",
+      },
+      {
+        q: "Can we play Night Games with friends?",
+        a: "Yes. The deck works for small groups and late-night parties as long as everyone is 18+ and comfortable with mature themes.",
+      },
+    ],
+  },
+};

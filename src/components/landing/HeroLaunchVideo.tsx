@@ -1,13 +1,23 @@
 "use client";
 
-import { Volume2, VolumeX } from "lucide-react";
+import { Play } from "lucide-react";
 import { useReducedMotion } from "motion/react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useState } from "react";
 
 import type { Dictionary } from "@/lib/i18n";
-import { cn } from "@/lib/utils";
 
-const HERO_LAUNCH_VIDEO_SRC = "/videos/hero-launch.mp4";
+const HERO_YOUTUBE_VIDEO_ID = "P16dW8JZrco";
+
+function youtubeEmbedSrc(autoplay: boolean) {
+  const params = new URLSearchParams({
+    autoplay: autoplay ? "1" : "0",
+    mute: "0",
+    rel: "0",
+    modestbranding: "1",
+    playsinline: "1",
+  });
+  return `https://www.youtube-nocookie.com/embed/${HERO_YOUTUBE_VIDEO_ID}?${params.toString()}`;
+}
 
 interface HeroLaunchVideoProps {
   a11y: Dictionary["a11y"];
@@ -15,98 +25,65 @@ interface HeroLaunchVideoProps {
 
 export function HeroLaunchVideo({ a11y }: HeroLaunchVideoProps) {
   const reduceMotion = useReducedMotion();
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isReady, setIsReady] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
-  const [aspectRatio, setAspectRatio] = useState(9 / 16);
+  const [isActivated, setIsActivated] = useState(false);
+  const [isPosterReady, setIsPosterReady] = useState(false);
 
-  const playVideo = useCallback(() => {
-    const video = videoRef.current;
-    if (!video || reduceMotion) return;
-    void video.play().catch(() => {});
-  }, [reduceMotion]);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (reduceMotion) {
-      video.pause();
-      video.currentTime = 0;
-      return;
-    }
-
-    playVideo();
-  }, [playVideo, reduceMotion]);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-    video.muted = isMuted;
-    if (!isMuted) playVideo();
-  }, [isMuted, playVideo]);
-
-  function handleLoadedMetadata(event: React.SyntheticEvent<HTMLVideoElement>) {
-    const video = event.currentTarget;
-    if (video.videoWidth > 0 && video.videoHeight > 0) {
-      setAspectRatio(video.videoWidth / video.videoHeight);
-    }
-  }
+  const activate = useCallback(() => {
+    setIsActivated(true);
+  }, []);
 
   return (
     <div
       className="hero-launch-video relative mx-auto w-full max-w-[min(100%,340px)] sm:max-w-[380px] lg:max-w-none"
-      style={{ "--hero-video-aspect": aspectRatio } as React.CSSProperties}
+      style={{ "--hero-video-aspect": "16 / 9" } as React.CSSProperties}
     >
       <div className="hero-launch-video__glow" aria-hidden />
 
       <div className="hero-launch-video__frame">
         <div className="hero-launch-video__screen">
-          {!isReady ? <div className="hero-launch-video__shimmer" aria-hidden /> : null}
-
-          <div className="hero-launch-video__backdrop" aria-hidden>
-            <video
-              className="hero-launch-video__backdrop-media"
-              src={HERO_LAUNCH_VIDEO_SRC}
-              autoPlay={!reduceMotion}
-              muted
-              loop
-              playsInline
-              preload="auto"
-              tabIndex={-1}
+          {!isActivated ? (
+            <>
+              {!isPosterReady ? <div className="hero-launch-video__shimmer" aria-hidden /> : null}
+              <button
+                type="button"
+                className="hero-launch-video__poster"
+                onClick={activate}
+                aria-label={a11y.launchVideo}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element -- external YouTube thumbnail, loaded only once */}
+                <img
+                  className={isPosterReady ? "opacity-100" : "opacity-0"}
+                  src={`https://i.ytimg.com/vi/${HERO_YOUTUBE_VIDEO_ID}/hqdefault.jpg`}
+                  alt=""
+                  width={480}
+                  height={360}
+                  loading="eager"
+                  decoding="async"
+                  onLoad={() => setIsPosterReady(true)}
+                />
+                <span className="hero-launch-video__play" aria-hidden>
+                  <Play className="hero-launch-video__play-icon" fill="currentColor" />
+                </span>
+              </button>
+            </>
+          ) : (
+            <iframe
+              className="hero-launch-video__embed"
+              src={youtubeEmbedSrc(true)}
+              title={a11y.launchVideo}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             />
-          </div>
+          )}
 
-          <video
-            ref={videoRef}
-            className={cn(
-              "hero-launch-video__media",
-              isReady ? "opacity-100" : "opacity-0",
-            )}
-            src={HERO_LAUNCH_VIDEO_SRC}
-            autoPlay={!reduceMotion}
-            muted={isMuted}
-            loop
-            playsInline
-            preload="auto"
-            onLoadedData={() => setIsReady(true)}
-            onLoadedMetadata={handleLoadedMetadata}
-            aria-label={a11y.launchVideo}
-          />
-
-          <div className="hero-launch-video__vignette" aria-hidden />
-          <div className="hero-launch-video__edge-highlight" aria-hidden />
+          {!reduceMotion ? (
+            <>
+              <div className="hero-launch-video__vignette" aria-hidden />
+              <div className="hero-launch-video__edge-highlight" aria-hidden />
+            </>
+          ) : null}
         </div>
-
-        <button
-          type="button"
-          className="hero-launch-video__sound"
-          aria-label={isMuted ? a11y.unmuteVideo : a11y.muteVideo}
-          aria-pressed={!isMuted}
-          onClick={() => setIsMuted((current) => !current)}
-        >
-          {isMuted ? <VolumeX className="h-3.5 w-3.5" /> : <Volume2 className="h-3.5 w-3.5" />}
-        </button>
       </div>
     </div>
   );

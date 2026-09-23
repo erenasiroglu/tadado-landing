@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 
 import { BRAND, PRICING } from "@/lib/brand";
+import type { DeckKey } from "@/lib/deck-cards";
+import { deckLanguageAlternates } from "@/lib/deck-slugs";
+import type { DeckPageContent } from "@/lib/deck-page-types";
 import type { Dictionary } from "@/lib/i18n";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
 import { getKeywordsString, getMarketSeoProfile } from "@/lib/seo-keywords";
@@ -16,6 +19,96 @@ export function buildLanguageAlternates(path = ""): Record<string, string> {
     languages[locale] = `${BRAND.domain}/${locale}${clean}`;
   }
   return languages;
+}
+
+export function buildDeckLanguageAlternates(key: DeckKey): Record<string, string> {
+  const paths = deckLanguageAlternates(key);
+  const languages: Record<string, string> = {
+    "x-default": `${BRAND.domain}/${paths["x-default"]}`,
+  };
+  for (const locale of LOCALES) {
+    languages[locale] = `${BRAND.domain}/${paths[locale]}`;
+  }
+  return languages;
+}
+
+export function buildDeckHubLanguageAlternates(): Record<string, string> {
+  return buildLanguageAlternates("decks");
+}
+
+export function buildDeckPageJsonLd(
+  locale: Locale,
+  key: DeckKey,
+  content: DeckPageContent,
+  deckDisplayName: string,
+  slug: string,
+) {
+  const pageUrl = `${BRAND.domain}/${locale}/decks/${slug}`;
+  const hubUrl = `${BRAND.domain}/${locale}/decks`;
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: BRAND.name,
+          item: `${BRAND.domain}/${locale}`,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Decks",
+          item: hubUrl,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: deckDisplayName,
+          item: pageUrl,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: content.metaTitle,
+      description: content.metaDescription,
+      url: pageUrl,
+      inLanguage: locale,
+      isPartOf: { "@type": "WebSite", name: BRAND.name, url: BRAND.domain },
+      about: {
+        "@type": "SoftwareApplication",
+        name: BRAND.name,
+        applicationCategory: "GameApplication",
+        operatingSystem: "iOS, Android",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: BRAND.name,
+      operatingSystem: "iOS, Android",
+      applicationCategory: "GameApplication",
+      description: content.whatIsBody,
+      downloadUrl: [getAppStoreUrl(locale), getPlayStoreUrl(locale)],
+    },
+    ...(content.faq?.length
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: content.faq.map((item) => ({
+              "@type": "Question",
+              name: item.q,
+              acceptedAnswer: { "@type": "Answer", text: item.a },
+            })),
+          },
+        ]
+      : []),
+  ];
 }
 
 export function buildPageMetadata(

@@ -100,7 +100,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
         <CommunityMetrics metrics={dict.community.metrics} />
       </div>
 
-      <div className="mt-6">
+      <div className="mt-5">
         <LanguageDistribution
           title={dict.community.languagesTitle}
           caption={dict.community.languagesCaption}

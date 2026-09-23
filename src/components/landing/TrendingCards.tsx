@@ -24,7 +24,7 @@ interface TrendingCardsProps {
 }
 
 const TABOO_DEVICE_WIDTH = 208;
-const HEADS_UP_DEVICE_WIDTH = 340;
+const HEADS_UP_DEVICE_WIDTH = 372;
 const FEATURED_COUNT = 2;
 
 function toGameWord(value: string) {

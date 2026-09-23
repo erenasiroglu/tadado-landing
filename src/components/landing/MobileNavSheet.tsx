@@ -13,6 +13,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { ctaGradientClass } from "@/lib/cta-button";
+import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
+import { deckSlugFor } from "@/lib/deck-slugs";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
@@ -73,9 +75,18 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
   const playLinks: NavItem[] = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
-    { href: homeHref(locale, "#decks"), label: dict.nav.decks },
     { href: homeHref(locale, "#community"), label: dict.nav.community },
     { href: homeHref(locale, "#how-it-works"), label: dict.nav.howItWorks },
+  ];
+
+  const deckLinks: NavItem[] = [
+    { href: getDecksHubHref(locale), label: locale === "tr" ? "Tüm desteler" : "All decks", isPage: true },
+    ...SEO_DECK_KEYS.map((key) => ({
+      href: `/${locale}/decks/${deckSlugFor(locale, key)}`,
+      label: dict.decks.items[key].name,
+      isPage: true,
+    })),
+    { href: homeHref(locale, "#decks"), label: locale === "tr" ? "Ana sayfada desteler" : "Decks on homepage" },
   ];
 
   const discoverLinks: NavItem[] = [
@@ -123,6 +134,12 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
           <NavSection title={dict.footer.playTitle}>
             {playLinks.map((link) => (
               <MobileNavLink key={link.href} {...link} />
+            ))}
+          </NavSection>
+
+          <NavSection title={dict.nav.decks}>
+            {deckLinks.map((link) => (
+              <MobileNavLink key={link.href + link.label} {...link} />
             ))}
           </NavSection>
 

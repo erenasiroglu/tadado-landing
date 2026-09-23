@@ -34,6 +34,7 @@ function getFbq(): ((...args: unknown[]) => void) | undefined {
   return (window as Window & { fbq?: (...args: unknown[]) => void }).fbq;
 }
 
+/*
 function getTtq(): {
   track: (event: string, props?: Record<string, unknown>) => void;
   page: () => void;
@@ -41,6 +42,7 @@ function getTtq(): {
   if (typeof window === "undefined") return undefined;
   return (window as Window & { ttq?: { track: (event: string, props?: Record<string, unknown>) => void; page: () => void } }).ttq;
 }
+*/
 
 function buildPayload(
   properties: Record<string, string | number | boolean | undefined>,
@@ -50,6 +52,7 @@ function buildPayload(
   return { ...attributionToAnalyticsPayload(activeAttribution), ...properties };
 }
 
+/*
 async function sendTikTokServerEvent(event: string, properties: Record<string, string | number | boolean | undefined>) {
   if (typeof window === "undefined") return;
 
@@ -69,6 +72,7 @@ async function sendTikTokServerEvent(event: string, properties: Record<string, s
     // Ignore server-side measurement failures; client pixels remain as primary fallback.
   }
 }
+*/
 
 export function registerAttribution(attribution: AttributionData) {
   const payload = attributionToAnalyticsPayload(attribution);
@@ -117,6 +121,7 @@ export function trackEvent({ event, properties = {}, attribution }: TrackEventOp
     }
   }
 
+  /*
   const ttq = getTtq();
   if (ttq) {
     if (event === ANALYTICS_EVENTS.DOWNLOAD_CLICK || event === ANALYTICS_EVENTS.DECK_PLAY_CLICK) {
@@ -129,6 +134,7 @@ export function trackEvent({ event, properties = {}, attribution }: TrackEventOp
   }
 
   void sendTikTokServerEvent(event, payload);
+  */
 }
 
 export function trackSectionView(sectionId: SectionId) {
@@ -185,6 +191,7 @@ export function trackPageView(path: string, locale?: string) {
     fbq("track", "PageView", payload);
   }
 
+  /*
   const ttq = getTtq();
   if (ttq) {
     ttq.page();
@@ -192,4 +199,5 @@ export function trackPageView(path: string, locale?: string) {
   }
 
   void sendTikTokServerEvent("ViewContent", payload);
+  */
 }

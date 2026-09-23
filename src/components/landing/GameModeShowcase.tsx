@@ -153,7 +153,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 locale={locale}
                 previewLabels={dict.gamePreview}
                 portraitWidth={248}
-                landscapeWidth={380}
+                landscapeWidth={400}
               />
             </motion.div>
           </AnimatePresence>

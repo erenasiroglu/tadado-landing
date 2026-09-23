@@ -1,0 +1,185 @@
+import type { DeckPageContentMap } from "@/lib/deck-page-types";
+
+export const TR_DECK_PAGES: DeckPageContentMap = {
+  mix: {
+    metaTitle: "Tadado Mix Ücretsiz Deste | Tabu ve Heads Up Başlangıç",
+    metaDescription:
+      "Tadado'yu ücretsiz indir ve Tadado Mix ile arkadaşlarınla oyna. Tek telefonda Tabu, Yasaklı Kelimeler ve Heads Up için başlangıç destesi.",
+    h1: "Tadado Mix: ücretsiz parti başlangıç destesi",
+    heroSubtitle: "Her oyun gecesi için klasik hızlı başlangıç paketi. Tek telefon, grubunuz, anında kahkaha.",
+    whatIsTitle: "Tadado Mix nedir?",
+    whatIsBody:
+      "Tadado Mix, Tadado'daki ücretsiz başlangıç destesidir. Önce ödeme yapmadan Tabu tarzı kelime oyunu veya Heads Up oynamak isteyen gruplar için yapıldı. Telefonu paylaşın, takımları kurun ve aynı kartlarla Yasaklı Kelimeler veya Heads Up oynayın.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Karışık gruplar ve yeni oyuncular için dengeli kelimeler",
+      "Yasaklı Kelimeler ve Heads Up modlarında çalışır",
+      "Yolculuklar, yurt ve aile geceleri için ideal",
+      "iOS ve Android'de ücretsiz indirme",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: ["PİZZA", "DOĞUM GÜNÜ", "SELFİE", "DANS", "TATİL", "MÜZİK", "KAHVE", "ARKADAŞLIK"],
+    playTitle: "Tadado Mix'i ücretsiz oyna",
+    playBody: "Tadado'yu App Store veya Google Play'den indir. Tadado Mix ücretsiz dahildir.",
+    relatedSectionTitle: "Açılabilir diğer desteler",
+    imageAlt: "Tadado Mix ücretsiz parti kelime oyunu destesi",
+  },
+  summer: {
+    metaTitle: "Yaz Parti Kelime Oyunu Destesi | Tadado",
+    metaDescription:
+      "Güneş, plaj ve tatil kelimeleriyle yaz partisi. Tadado'da Yaz destesini Tabu ve Heads Up modlarında oyna.",
+    h1: "Yaz destesi: güneşli oyun geceleri",
+    heroSubtitle: "Plaj, mangal ve tatil enerjisi her kartta.",
+    whatIsTitle: "Yaz destesi nedir?",
+    whatIsBody:
+      "Yaz destesi tatil, sıcak hava ve açık hava eğlencesiyle ilgili kelimelerden oluşur. Sıcak havaya ve tatil moduna uygun hafif bir parti oyunu istediğinizde kullanın.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Plaj, havuz ve seyahat havası",
+      "Arkadaşların hemen tanıdığı mevsimlik kelimeler",
+      "Açık hava buluşmaları için ideal",
+      "Her iki Tadado modunda oynanır",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: ["GÜNEŞ KREMİ", "DONDURMA", "SÖRF", "MANGAL", "PALMİYE", "YOLCULUK", "GÜN BATIMI", "TATİL"],
+    playTitle: "Yaz destesini Tadado'da oyna",
+    playBody: "Uygulamada Yaz paketini bir kez açın ve tüm sezon tekrar oynayın.",
+    relatedSectionTitle: "Oyun gecesi için daha fazla deste",
+    imageAlt: "Tadado Yaz temalı parti kelime oyunu destesi",
+  },
+  cinema: {
+    metaTitle: "Film Gecesi Parti Oyunu ve Film Tahmin Kartları | Tadado",
+    metaDescription:
+      "Blockbuster filmler, diziler ve yıldızlarla film gecesi kelime oyunu. Tadado Sinema destesi: Tabu, Yasaklı Kelimeler ve Heads Up.",
+    h1: "Sinema destesi: film geceleri için",
+    heroSubtitle: "Blockbuster'lar, diziler ve ikonik karakterler her kartta.",
+    whatIsTitle: "Sinema destesi nedir?",
+    whatIsBody:
+      "Sinema destesi film tutkunları için. Filmleri, kahramanları ve pop kültürü anlatın ve tahmin edin. Telefonda film tahmin parti oyunu; klasik charades'ten daha keskin bir alternatif.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Güncel filmler ve modern franchise'lar",
+      "Klasik sinema ve fan favorileri",
+      "Dizi maratonu ve gala geceleri için ideal",
+      "Yasaklı Kelimeler ve Heads Up ile uyumlu",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: [
+      "SPIDER-MAN",
+      "INTERSTELLAR",
+      "BARBIE",
+      "THE ODYSSEY",
+      "MARVEL",
+      "DİZİ",
+      "POPCORN",
+      "SÜPER KAHRAMAN",
+    ],
+    playTitle: "Sinema destesini Tadado'da oyna",
+    playBody: "Tadado'yu indir ve bir sonraki film gecen için Sinema paketini ekle.",
+    relatedSectionTitle: "Diğer temalı desteleri keşfet",
+    imageAlt: "Tadado Sinema film parti oyunu destesi",
+  },
+  travel: {
+    metaTitle: "Seyahat Bilgi Yarışması ve Dünya Kültürü Parti Oyunu | Tadado",
+    metaDescription:
+      "Ülkeler, şehirler, yemek ve kültür kelimeleri. Tadado Seyahat destesini arkadaşlarla Tabu veya Heads Up ile oyna.",
+    h1: "Seyahat destesi: dünya kültürü telefonda",
+    heroSubtitle: "Ülkeler, mutfaklar, simgeler ve gezgin ruhu her turda.",
+    whatIsTitle: "Seyahat destesi nedir?",
+    whatIsBody:
+      "Seyahat destesi masanızı mini bir coğrafya ve kültür quizi yapar. Yasaklı kelimeleri söylemeden destinasyonları, yemekleri ve gelenekleri anlatın. Gezginler ve aileler için ideal.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Her kıtadan ülke ve şehirler",
+      "Yemek, festival ve yerel kültür",
+      "Sınıflar, geziler ve hosteller için uygun",
+      "Tek deste, iki oyun modu",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: ["İTALYA", "JAPONYA", "PAELLA", "EYFEL", "PASAPORT", "İSPANYA", "TÜRKİYE", "PORTEKİZ"],
+    playTitle: "Seyahat destesini Tadado'da oyna",
+    playBody: "Seyahat paketini bir kez açın, her yolculukta tekrar oynayın.",
+    relatedSectionTitle: "Meraklı gruplar için daha fazla deste",
+    imageAlt: "Tadado Seyahat dünya kültürü parti oyunu destesi",
+  },
+  sport: {
+    metaTitle: "Spor Yıldızları Parti Kelime Oyunu | Tadado",
+    metaDescription:
+      "Futbol, basketbol ve efsane sporcular. Tadado Spor destesini Tabu ve Heads Up ile oyna.",
+    h1: "Spor destesi: taraftarlar ve rekabet",
+    heroSubtitle: "Efsaneler, kulüpler ve spor dünyasının ikonik anları.",
+    whatIsTitle: "Spor destesi nedir?",
+    whatIsBody:
+      "Spor destesi maç günleri ve izleme partileri için. Yasaklı kelimeler olmadan oyuncuları, takımları ve anları anlatın. Messi'den Alperen Şengün'e, rekabetçi grupları konuşturur.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Futbol, basketbol ve daha fazlası",
+      "Her hafta tartışılan efsane isimler",
+      "Pub, ev ve maç öncesi buluşmalar için",
+      "Yasaklı Kelimeler ve Heads Up'ta aynı deste",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: ["MESSİ", "RONALDO", "LEBRON JAMES", "ŞAMPİYONLAR LİGİ", "PENALTI", "STADYUM", "ALPEREN ŞENGÜN", "GOL"],
+    playTitle: "Spor destesini Tadado'da oyna",
+    playBody: "Bir sonraki büyük maçtan önce Tadado'da Spor paketini ekle.",
+    relatedSectionTitle: "Ekibin için daha fazla deste",
+    imageAlt: "Tadado Spor sporcular parti kelime oyunu destesi",
+  },
+  heroes: {
+    metaTitle: "Süper Kahraman Tahmin Oyunu Destesi | Marvel ve DC | Tadado",
+    metaDescription:
+      "Marvel, DC ve çizgi roman kahramanları. Tadado Kahramanlar destesini Yasaklı Kelimeler ve Heads Up ile oyna.",
+    h1: "Kahramanlar destesi: çizgi romanlar alnında",
+    heroSubtitle: "Marvel, DC ve süper güçler fan geceniz için.",
+    whatIsTitle: "Kahramanlar destesi nedir?",
+    whatIsBody:
+      "Kahramanlar destesi çizgi roman ve blockbuster fanları için. Iron Man, Scarlet Witch, Flash ve daha fazlası kartlarda. Takım Tabu'su ve Heads Up için süper kahraman parti oyunu.",
+    insideTitle: "İçinde neler var?",
+    insideBullets: [
+      "Marvel ve DC ikonları",
+      "Güçler, takımlar ve hikayeler",
+      "Gala ve maraton sonrası ideal",
+      "Tek satın alma, iki mod",
+    ],
+    samplesTitle: "Örnek kartlar",
+    sampleWords: ["IRON MAN", "SCARLET WITCH", "SPIDER-MAN", "FLASH", "BATMAN", "AVENGERS", "WONDER WOMAN", "THOR"],
+    playTitle: "Kahramanlar destesini Tadado'da oyna",
+    playBody: "Uygulamada Kahramanlar'ı açın ve kendi süper kahraman gecenizi yapın.",
+    relatedSectionTitle: "Fan favorisi diğer desteler",
+    imageAlt: "Tadado Kahramanlar Marvel ve DC parti oyunu destesi",
+  },
+  midnight: {
+    metaTitle: "Çiftler ve Arkadaşlar için Gece Oyunları | Tadado",
+    metaDescription:
+      "Sevgilinle veya partnerinle oynanacak oyun arıyor musun? Tadado Gece Oyunları destesi çiftler ve yakın arkadaşlar için flörtöz ve gece kelime kartları sunar.",
+    h1: "Çiftler için Gece Oyunları",
+    heroSubtitle: "Date night ve yakın arkadaşlar için eğlenceli ve sürpriz kartlar.",
+    whatIsTitle: "Gece Oyunları nedir?",
+    whatIsBody:
+      "Gece Oyunları Tadado'daki yetişkinlere özel temalı destedir (18+). Çiftler ve yakın arkadaşlar için aile dostu kartların ötesinde bir parti kelime oyunu isteyenlere yöneliktir. Sevgilin, erkek arkadaşın veya partnerinle tek telefonda Yasaklı Kelimeler veya Heads Up oynayın.",
+    insideTitle: "Partnerinle oynanacak oyunlar",
+    insideBullets: [
+      "Çiftler ve flört temaları",
+      "Flörtöz ve komik ipuçları",
+      "Gece partisi enerjisi",
+      "18+ içerik",
+      "Çiftler için Tabu veya Heads Up tarzı oyun",
+    ],
+    samplesTitle: "Örnek kart temaları",
+    sampleWords: ["DATE NIGHT", "CRUSH", "İLK ÖPÜCÜK", "DOĞRULUK CESARETLİK", "FLÖRT", "PARTNER", "GECE", "SIR"],
+    playTitle: "Gece Oyunları'nı Tadado'da oyna",
+    playBody: "Tadado'yu indir, Gece Oyunları'nı aç ve bir sonraki gece için hazırlan.",
+    relatedSectionTitle: "Çiftler ve arkadaşlar için daha fazla deste",
+    imageAlt: "Tadado Gece Oyunları çiftler ve arkadaşlar destesi",
+    faq: [
+      {
+        q: "Gece Oyunları çiftler için uygun mu?",
+        a: "Evet. Gece Oyunları tek telefonda flörtöz bir kelime oyunu isteyen çiftler ve yakın arkadaşlar için tasarlandı. Takım olarak Yasaklı Kelimeler veya partnerinin ipucu verdiği Heads Up oynayabilirsiniz.",
+      },
+      {
+        q: "Gece Oyunları'nı arkadaşlarla oynayabilir miyiz?",
+        a: "Evet. Herkes 18+ ve yetişkin temalara uygun olduğu sürece küçük gruplar ve gece partileri için uygundur.",
+      },
+    ],
+  },
+};

@@ -2,7 +2,9 @@ export const BRAND = {
   name: "Tadado",
   developer: "Tadado Game Development",
   domain: "https://tadado.app",
-  supportEmail: "tadado.ai@gmail.com",
+  supportEmail:
+    (typeof process !== "undefined" && process.env.NEXT_PUBLIC_SUPPORT_EMAIL) ||
+    "tadado.ai@gmail.com",
   stats: {
     gamesPlayed: 300000,
   },

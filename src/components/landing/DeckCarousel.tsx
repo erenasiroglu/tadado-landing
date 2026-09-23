@@ -3,6 +3,7 @@
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
@@ -10,6 +11,7 @@ import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { DECK_CARD_CONFIGS, type DeckKey } from "@/lib/deck-cards";
+import { getDecksHubHref } from "@/lib/deck-catalog";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
@@ -114,6 +116,12 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                 <span className="font-bold text-cream">{dict.decks.countBadge}</span>
               </button>
               <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />
+              <Link
+                href={getDecksHubHref(locale)}
+                className="text-sm font-semibold text-amber hover:text-amber/90"
+              >
+                {locale === "tr" ? "Tüm desteleri keşfet" : "Explore all decks"}
+              </Link>
             </div>
             <div className="hidden gap-2 sm:flex">
               <CarouselButton label={dict.a11y.previousDeck} onClick={scrollPrev}>

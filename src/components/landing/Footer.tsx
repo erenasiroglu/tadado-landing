@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { BRAND } from "@/lib/brand";
+import { getDecksHubHref } from "@/lib/deck-catalog";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { SOCIAL_LINKS } from "@/lib/social";
 
@@ -64,7 +65,7 @@ export function Footer({ locale, dict }: FooterProps) {
             <FooterColumn title={dict.footer.playTitle}>
               <FooterLink href="#modes">{dict.nav.play}</FooterLink>
               <FooterLink href="#ai-decks">{dict.nav.aiDecks}</FooterLink>
-              <FooterLink href="#decks">{dict.nav.decks}</FooterLink>
+              <FooterLink href={getDecksHubHref(locale)}>{dict.nav.decks}</FooterLink>
               <FooterLink href="#community">{dict.nav.community}</FooterLink>
               <FooterLink href="#how-it-works">{dict.nav.howItWorks}</FooterLink>
             </FooterColumn>

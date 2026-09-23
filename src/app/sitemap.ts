@@ -3,7 +3,9 @@ import type { MetadataRoute } from "next";
 import { getAllBlogSlugs } from "@/lib/blog";
 import { BRAND } from "@/lib/brand";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
-import { buildLanguageAlternates } from "@/lib/seo";
+import { SEO_DECK_KEYS } from "@/lib/deck-catalog";
+import { deckSlugFor } from "@/lib/deck-slugs";
+import { buildDeckHubLanguageAlternates, buildDeckLanguageAlternates, buildLanguageAlternates } from "@/lib/seo";
 import { getSeoGuides } from "@/lib/seo-guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -121,6 +123,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     });
+  }
+
+  const deckHubLanguages = buildDeckHubLanguageAlternates();
+
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${base}/${locale}/decks`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+      alternates: { languages: deckHubLanguages },
+    });
+  }
+
+  for (const locale of LOCALES) {
+    for (const key of SEO_DECK_KEYS) {
+      const slug = deckSlugFor(locale as Locale, key);
+      entries.push({
+        url: `${base}/${locale}/decks/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: key === "midnight" ? 0.8 : 0.75,
+        alternates: { languages: buildDeckLanguageAlternates(key) },
+      });
+    }
   }
 
   for (const locale of LOCALES) {

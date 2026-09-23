@@ -1,8 +1,12 @@
-import Script from "next/script";
+// import Script from "next/script";
 
-const TIKTOK_PIXEL_ID = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID;
+// const TIKTOK_PIXEL_ID = process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID;
 
 export function TikTokPixel() {
+  // Temporarily disabled — restore when Events API env + content_type are fixed.
+  return null;
+
+  /*
   if (!TIKTOK_PIXEL_ID) return null;
 
   return (
@@ -24,4 +28,5 @@ export function TikTokPixel() {
       `}
     </Script>
   );
+  */
 }

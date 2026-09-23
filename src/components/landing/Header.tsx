@@ -4,6 +4,8 @@ import Link from "next/link";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
 
+import { DecksNavCrawlLinks } from "./DecksNavCrawlLinks";
+import { DecksNavMenu } from "./DecksNavMenu";
 import { LanguageMenu } from "./LanguageMenu";
 import { MobileNavSheet } from "./MobileNavSheet";
 
@@ -25,7 +27,6 @@ export function Header({ locale, dict }: HeaderProps) {
   const primaryLinks = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
-    { href: homeHref(locale, "#decks"), label: dict.nav.decks },
     { href: homeHref(locale, "#community"), label: dict.nav.community },
     { href: blogHref(locale), label: dict.nav.blog, isPage: true },
     { href: localeHref(locale, "team"), label: dict.nav.team, isPage: true },
@@ -49,6 +50,7 @@ export function Header({ locale, dict }: HeaderProps) {
           <span className="text-base font-extrabold tracking-wide text-cream">Tadado</span>
         </Link>
 
+        <DecksNavCrawlLinks locale={locale} dict={dict} />
         <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>
           {primaryLinks.map((link) =>
             "isPage" in link && link.isPage ? (
@@ -61,6 +63,7 @@ export function Header({ locale, dict }: HeaderProps) {
               </a>
             ),
           )}
+          <DecksNavMenu locale={locale} dict={dict} linkClassName={navLinkClass} />
           <LanguageMenu
             currentLocale={locale}
             label={dict.language.label}
