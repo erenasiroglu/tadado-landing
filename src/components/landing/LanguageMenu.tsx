@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { LOCALES, type Locale } from "@/lib/i18n-config";
+import { pathnameForLocale } from "@/lib/locale-switch";
 import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { cn } from "@/lib/utils";
 
@@ -22,9 +23,7 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
   const current = LANGUAGE_DISPLAY[currentLocale];
 
   function onSelect(next: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = next;
-    router.push(segments.join("/") || `/${next}`);
+    router.push(pathnameForLocale(pathname, currentLocale, next));
     setOpen(false);
   }
 

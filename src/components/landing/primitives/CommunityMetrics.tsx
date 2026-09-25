@@ -11,25 +11,25 @@ interface CommunityMetricsProps {
 
 export function CommunityMetrics({ metrics }: CommunityMetricsProps) {
   return (
-    <div className="grid grid-cols-3 gap-2 sm:gap-4">
+    <div className="grid grid-cols-3 divide-x divide-white/10">
       {metrics.map((metric) => (
         <div
           key={`${metric.value}-${metric.label}`}
-          className="surface-card flex min-w-0 flex-col items-center px-2 py-3 text-center sm:px-4 sm:py-4"
+          className="flex min-w-0 flex-col items-center justify-center px-2 py-5 text-center sm:px-4 sm:py-6"
         >
-          <p className="w-full text-sm font-extrabold leading-none tracking-tight text-cream sm:text-2xl md:text-3xl">
+          <p className="w-full text-xl font-extrabold tabular-nums leading-none tracking-tight text-cream sm:text-3xl">
             {"animate" in metric && metric.animate ? (
               <AnimatedNumber
                 value={BRAND.stats.gamesPlayed}
                 suffix="+"
                 className="tabular-nums"
-                compactBelowPx={640}
+                compactBelowPx={480}
               />
             ) : (
-              <span className="tabular-nums">{metric.value}</span>
+              metric.value
             )}
           </p>
-          <p className="mt-1.5 max-w-full text-[9px] font-semibold leading-tight text-lavender/80 sm:text-[11px] sm:uppercase sm:tracking-[0.08em]">
+          <p className="mt-2 max-w-[9rem] text-[11px] font-medium leading-snug text-cream/65 sm:mt-2.5 sm:max-w-none sm:text-sm">
             {metric.label}
           </p>
         </div>

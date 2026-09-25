@@ -21,6 +21,7 @@ interface ForbiddenWordsScreenProps {
   float?: boolean;
   animateWords?: boolean;
   showGlow?: boolean;
+  loading?: boolean;
   className?: string;
 }
 
@@ -32,6 +33,7 @@ export function ForbiddenWordsScreen({
   float = false,
   animateWords = false,
   showGlow = true,
+  loading = false,
   className,
 }: ForbiddenWordsScreenProps) {
   const reduceMotion = useReducedMotion();
@@ -40,28 +42,29 @@ export function ForbiddenWordsScreen({
   const [sampleIndex, setSampleIndex] = useState(0);
 
   useEffect(() => {
-    if (!animateWords || reduceMotion || word) return;
+    if (loading || !animateWords || reduceMotion || word) return;
 
     const timer = window.setInterval(() => {
       setSampleIndex((current) => (current + 1) % samples.length);
     }, 7000);
 
     return () => window.clearInterval(timer);
-  }, [animateWords, reduceMotion, samples.length, word]);
+  }, [loading, animateWords, reduceMotion, samples.length, word]);
 
   const activeSample = samples[sampleIndex] ?? samples[0];
   const displayWord = word ?? activeSample.word;
   const displayForbidden = forbidden ?? activeSample.forbidden;
+  const motionKey = loading ? "loading" : displayWord;
 
   return (
     <PortraitGameDevice width={width} float={float} showGlow={showGlow} className={className}>
       <AnimatePresence mode="wait">
         <motion.div
-          key={displayWord}
+          key={motionKey}
           className="h-full w-full"
-          initial={reduceMotion || !animateWords ? false : { opacity: 0.92, y: 6 }}
+          initial={reduceMotion || !animateWords || loading ? false : { opacity: 0.92, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={reduceMotion || !animateWords ? undefined : { opacity: 0.88, y: -4 }}
+          exit={reduceMotion || !animateWords || loading ? undefined : { opacity: 0.88, y: -4 }}
           transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
         >
           <ForbiddenWordsPreview
@@ -69,6 +72,7 @@ export function ForbiddenWordsScreen({
             word={displayWord}
             forbidden={[...displayForbidden]}
             labels={labels}
+            loading={loading}
           />
         </motion.div>
       </AnimatePresence>

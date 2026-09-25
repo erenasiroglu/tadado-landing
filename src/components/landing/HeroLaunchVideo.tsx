@@ -58,6 +58,7 @@ export function HeroLaunchVideo({ a11y }: HeroLaunchVideoProps) {
                   width={480}
                   height={360}
                   loading="eager"
+                  fetchPriority="high"
                   decoding="async"
                   onLoad={() => setIsPosterReady(true)}
                 />

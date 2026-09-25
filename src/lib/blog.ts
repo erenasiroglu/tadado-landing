@@ -12,6 +12,8 @@ import {
   getArticleAlternates,
   type ArticleId,
 } from "@/lib/article-registry";
+import { getArticleSlug } from "@/lib/article-registry";
+import { CONTENT_FALLBACK_LOCALE, mayUseEnglishContentFallback } from "@/lib/i18n-fallback";
 import { BLOG_LOCALES, type Locale } from "@/lib/i18n-config";
 
 export interface BlogPost {
@@ -27,25 +29,50 @@ export interface BlogPost {
 
 const CONTENT_DIR = path.join(process.cwd(), "content/blog");
 
-async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null> {
-  const filePath = path.join(CONTENT_DIR, locale, `${slug}.mdx`);
+async function readPostFile(
+  contentLocale: Locale,
+  slug: string,
+): Promise<{ data: Record<string, unknown>; contentHtml: string } | null> {
+  const filePath = path.join(CONTENT_DIR, contentLocale, `${slug}.mdx`);
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
   const processed = await remark().use(html).process(content);
+  return { data, contentHtml: processed.toString() };
+}
+
+async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null> {
   const match = findArticleBySlug(locale, slug);
+  let contentLocale: Locale = locale;
+  let contentSlug = slug;
+
+  let file = await readPostFile(contentLocale, contentSlug);
+  if (!file && mayUseEnglishContentFallback(locale) && match) {
+    const enSlug = getArticleSlug(match.articleId, CONTENT_FALLBACK_LOCALE);
+    if (enSlug) {
+      const enFile = await readPostFile(CONTENT_FALLBACK_LOCALE, enSlug);
+      if (enFile) {
+        contentLocale = CONTENT_FALLBACK_LOCALE;
+        contentSlug = enSlug;
+        file = enFile;
+      }
+    }
+  }
+
+  if (!file) return null;
+
   const alternates = match ? getArticleAlternates(match.articleId, locale) : [];
 
   return {
     slug,
     locale,
     articleId: match?.articleId,
-    title: String(data.title ?? slug),
-    description: String(data.description ?? ""),
-    date: String(data.date ?? new Date().toISOString().slice(0, 10)),
+    title: String(file.data.title ?? slug),
+    description: String(file.data.description ?? ""),
+    date: String(file.data.date ?? new Date().toISOString().slice(0, 10)),
     alternates,
-    contentHtml: processed.toString(),
+    contentHtml: file.contentHtml,
   };
 }
 

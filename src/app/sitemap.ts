@@ -5,7 +5,14 @@ import { BRAND } from "@/lib/brand";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
 import { SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
-import { buildDeckHubLanguageAlternates, buildDeckLanguageAlternates, buildLanguageAlternates } from "@/lib/seo";
+import {
+  buildAlternativeLanguageAlternates,
+  buildDeckHubLanguageAlternates,
+  buildDeckLanguageAlternates,
+  buildLanguageAlternates,
+} from "@/lib/seo";
+import { allAlternativeSlugParams } from "@/lib/alternative-pages";
+import { alternativeIdFromSlug } from "@/lib/alternative-pages/slugs";
 import { getSeoGuides } from "@/lib/seo-guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -28,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const compareLanguages = buildLanguageAlternates("compare");
   const guidesLanguages = buildLanguageAlternates("guides");
   const teamLanguages = buildLanguageAlternates("team");
+  const trendingLanguages = buildLanguageAlternates("trending");
 
   for (const locale of LOCALES) {
     entries.push(
@@ -65,6 +73,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: teamLanguages },
+      },
+      {
+        url: `${base}/${locale}/trending`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.8,
+        alternates: { languages: trendingLanguages },
       },
     );
   }
@@ -159,6 +174,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
       });
     }
+  }
+
+  for (const { lang, slug } of allAlternativeSlugParams()) {
+    const id = alternativeIdFromSlug(lang as Locale, slug);
+    entries.push({
+      url: `${base}/${lang}/alternatives/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: id === "nebuu" ? 0.78 : 0.72,
+      alternates: id ? { languages: buildAlternativeLanguageAlternates(id) } : undefined,
+    });
   }
 
   return entries;

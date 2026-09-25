@@ -366,12 +366,12 @@
     "title": "How it works",
     "steps": [
       {
-        "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
-      },
-      {
         "title": "Choose a deck",
         "body": "Play free with Mix or unlock themed packs and AI decks."
+      },
+      {
+        "title": "Pick a mode",
+        "body": "Forbidden Words for teams or Heads Up for forehead fun."
       },
       {
         "title": "Pass the phone & play",
@@ -388,7 +388,7 @@
       { "value": "2", "label": "game modes" }
     ],
     "languagesTitle": "Supported languages",
-    "languagesCaption": "Equal support across every app language. No fabricated usage data.",
+    "languagesCaption": "The app, decks, and store work in all 17 languages. Use the language menu in the header to switch.",
     "trendingLabel": "Trending tonight",
     "editorialLabel": "Latest from Tadado",
     "editorialItems": [

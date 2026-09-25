@@ -421,12 +421,12 @@
     "title": "Nasıl çalışır",
     "steps": [
       {
-        "title": "Mod seç",
-        "body": "Takım oyunu için Yasaklı Kelimeler veya alnında eğlence için Alnında Tahmin."
-      },
-      {
         "title": "Deste seç",
         "body": "Mix ile ücretsiz oyna veya temalı paketleri ve yapay zeka destelerini aç."
+      },
+      {
+        "title": "Mod seç",
+        "body": "Takım oyunu için Yasaklı Kelimeler veya alnında eğlence için Alnında Tahmin."
       },
       {
         "title": "Telefonu paylaş ve oyna",
@@ -453,7 +453,7 @@
       }
     ],
     "languagesTitle": "Desteklenen diller",
-    "languagesCaption": "Her uygulama dilinde eşit destek. Uydurma kullanım verisi yok.",
+    "languagesCaption": "Uygulama, desteler ve mağaza 17 dilde. Dili değiştirmek için üstteki dil menüsünü kullan.",
     "trendingLabel": "Bu akşam trend",
     "editorialLabel": "Tadado'dan son haberler",
     "editorialItems": [

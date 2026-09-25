@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 
 import { buildDeckOverlayStyle, DECK_CARD_CONFIGS } from "@/lib/deck-cards";
-import { getDecksHubHref, isFreeDeck, SEO_DECK_KEYS } from "@/lib/deck-catalog";
+import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -42,25 +42,22 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
             aria-label={dict.a11y.closeLanguageMenu}
             onClick={() => setOpen(false)}
           />
-          <div
-            className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,22rem)] rounded-2xl border border-white/12 bg-[#1c1129]/98 p-2 shadow-2xl shadow-black/50 backdrop-blur-xl lg:left-auto lg:right-0"
-          >
-            <ul className="max-h-[min(70vh,24rem)] overflow-y-auto">
+          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-white/10 bg-[#1c1129]/98 p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
+            <ul>
               {SEO_DECK_KEYS.map((key) => {
                 const item = dict.decks.items[key];
                 const config = DECK_CARD_CONFIGS[key];
                 const href = `/${locale}/decks/${deckSlugFor(locale, key)}`;
-                const free = isFreeDeck(key);
 
                 return (
                   <li key={key}>
                     <Link
                       href={href}
-                      className="flex items-center gap-3 rounded-xl px-2 py-2 transition hover:bg-white/[0.06]"
+                      className="flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-white/[0.06]"
                       onClick={() => setOpen(false)}
                     >
                       <div
-                        className="relative h-12 w-10 shrink-0 overflow-hidden rounded-lg"
+                        className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full ring-1 ring-white/10"
                         style={{ backgroundColor: config.illustrationBackgroundColor }}
                       >
                         <Image
@@ -68,16 +65,12 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                           alt=""
                           fill
                           className="object-cover"
-                          sizes="40px"
+                          sizes="36px"
                         />
                         <div className="absolute inset-0" style={buildDeckOverlayStyle(config)} />
                       </div>
-                      <div className="min-w-0 flex-1">
-                        <p className="truncate text-sm font-semibold text-cream">{item.name}</p>
-                        <p className="truncate text-xs text-cream/55">{item.desc}</p>
-                      </div>
-                      <span className="shrink-0 text-[10px] font-bold text-lavender">
-                        {free ? dict.decks.free : dict.decks.price}
+                      <span className="min-w-0 flex-1 truncate text-sm font-medium text-cream">
+                        {item.name}
                       </span>
                     </Link>
                   </li>
@@ -87,14 +80,11 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
             <div className="mt-1 border-t border-white/8 pt-1">
               <Link
                 href={getDecksHubHref(locale)}
-                className="block rounded-xl px-3 py-2.5 text-center text-sm font-semibold text-amber hover:bg-white/[0.06]"
+                className="block rounded-lg px-2 py-2 text-center text-xs font-semibold text-amber/90 hover:bg-white/[0.06] hover:text-amber"
                 onClick={() => setOpen(false)}
               >
                 {viewAllLabel}
               </Link>
-              <a href={`/${locale}#decks`} className="block rounded-xl px-3 py-2 text-center text-xs text-cream/50 hover:text-cream">
-                {locale === "tr" ? "Ana sayfada kaydır" : "Scroll on homepage"}
-              </a>
             </div>
           </div>
         </>

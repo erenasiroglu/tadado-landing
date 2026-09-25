@@ -136,25 +136,124 @@ body {
   }
 }
 
-.deck-carousel-viewport {
-  overflow: hidden;
+/* Pick your vibe — centered deck slider (symmetric, no edge clipping) */
+.deck-vibe-carousel {
+  --deck-vibe-gap: 0.875rem;
+  --deck-vibe-slide: min(240px, calc(100% - 2.5rem));
 }
 
-.deck-carousel-container {
+@media (min-width: 640px) {
+  .deck-vibe-carousel {
+    --deck-vibe-slide: min(252px, 42%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .deck-vibe-carousel {
+    --deck-vibe-slide: 240px;
+  }
+}
+
+.deck-vibe-carousel__viewport {
+  overflow: hidden;
+  padding-block: 0.625rem 0.375rem;
+  padding-inline: 0.125rem;
+}
+
+.deck-vibe-carousel__container {
   display: flex;
   touch-action: pan-y pinch-zoom;
-  margin-left: calc(var(--slide-spacing, 1rem) * -1);
+  margin-left: calc(var(--deck-vibe-gap) * -1);
 }
 
-.deck-carousel-slide {
-  flex: 0 0 var(--slide-size, min(78%, 220px));
+.deck-vibe-carousel__slide {
+  flex: 0 0 var(--deck-vibe-slide);
   min-width: 0;
-  padding-left: var(--slide-spacing, 0.625rem);
+  padding-left: var(--deck-vibe-gap);
 }
 
-@media (min-width: 768px) {
-  .deck-carousel-slide {
-    flex: 0 0 var(--slide-size, 220px);
+.deck-vibe-carousel__card {
+  transform-origin: center center;
+  will-change: transform, opacity;
+}
+
+.deck-vibe-carousel__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  padding-inline: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .deck-vibe-carousel__controls {
+    margin-top: 1rem;
+    gap: 1.25rem;
+  }
+}
+
+.reviews-carousel {
+  --reviews-slide-width: 100%;
+}
+
+.reviews-carousel__container {
+  touch-action: pan-y pinch-zoom;
+}
+
+.reviews-carousel__slide {
+  flex: 0 0 var(--reviews-slide-width);
+  min-width: 0;
+  box-sizing: border-box;
+  padding-inline: 0.125rem;
+}
+
+.reviews-carousel__viewport {
+  overflow: hidden;
+  padding-block: 0.25rem;
+}
+
+.language-marquee {
+  --language-marquee-duration: 42s;
+}
+
+.language-marquee__viewport {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 6%,
+    #000 94%,
+    transparent
+  );
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+
+.language-marquee__track {
+  animation: language-marquee-scroll var(--language-marquee-duration) linear infinite;
+  will-change: transform;
+}
+
+.language-marquee:hover .language-marquee__track {
+  animation-play-state: paused;
+}
+
+.language-marquee--static .language-marquee__track {
+  animation: none;
+}
+
+@keyframes language-marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .language-marquee__track {
+    animation: none;
   }
 }
 
@@ -333,38 +432,6 @@ body {
   padding-inline: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
 }
 
-/* Full-bleed deck carousel on mobile — avoids clipping card edges at section padding */
-.scroll-bleed-decks {
-  padding-inline: 0;
-}
-
-@media (min-width: 640px) {
-  .scroll-bleed-decks {
-    padding-inline: max(1.25rem, calc((100vw - 72rem) / 2 + 1.25rem));
-  }
-}
-
-.scroll-bleed-decks .deck-carousel-viewport {
-  --slide-spacing: 0.75rem;
-  --slide-size: min(calc(100vw - 2.5rem - 1.5rem), 260px);
-  padding-left: 1.25rem;
-  padding-right: 0.75rem;
-}
-
-@media (min-width: 640px) {
-  .scroll-bleed-decks .deck-carousel-viewport {
-    --slide-size: min(78%, 220px);
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .scroll-bleed-decks .deck-carousel-viewport {
-    --slide-size: 260px;
-  }
-}
-
 .brand-gradient-bg {
   background: linear-gradient(165deg, #1a0f28 0%, #2a0a3b 40%, #3d1f58 100%);
 }
@@ -518,6 +585,45 @@ body {
   );
   background-size: 200% 100%;
   animation: ai-shimmer 1.4s linear infinite;
+}
+
+@keyframes game-card-skeleton-shimmer {
+  0% {
+    background-position: 180% 0;
+  }
+  100% {
+    background-position: -80% 0;
+  }
+}
+
+/* AI demo: dark skeleton on orange (#faaa12) word / forbidden rows */
+.game-card-skeleton {
+  border: 1px solid rgba(26, 11, 40, 0.85);
+  background-color: #2a0a3b;
+  background-image: linear-gradient(
+    105deg,
+    #1a0f28 0%,
+    #1a0f28 36%,
+    #5b21b6 46%,
+    #7c3aed 50%,
+    #5b21b6 54%,
+    #1a0f28 64%,
+    #1a0f28 100%
+  );
+  background-size: 220% 100%;
+  background-repeat: no-repeat;
+  box-shadow:
+    inset 0 1px 0 rgba(0, 0, 0, 0.35),
+    0 2px 6px rgba(26, 11, 40, 0.45);
+  animation: game-card-skeleton-shimmer 1.6s ease-in-out infinite;
+}
+
+.game-card-skeleton--word {
+  background-color: #1f0d30;
+  border-color: rgba(15, 8, 28, 0.95);
+  box-shadow:
+    inset 0 1px 0 rgba(0, 0, 0, 0.4),
+    0 3px 8px rgba(26, 11, 40, 0.5);
 }
 
 .ai-card-reveal {

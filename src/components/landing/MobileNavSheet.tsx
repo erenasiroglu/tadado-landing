@@ -58,14 +58,14 @@ function MobileNavLink({ href, label, isPage }: NavItem) {
 
   if (isPage) {
     return (
-      <SheetClose render={<Link href={href} className={navItemClass} />}>
+      <SheetClose nativeButton={false} render={<Link href={href} className={navItemClass} />}>
         {content}
       </SheetClose>
     );
   }
 
   return (
-    <SheetClose render={<a href={href} className={navItemClass} />}>
+    <SheetClose nativeButton={false} render={<a href={href} className={navItemClass} />}>
       {content}
     </SheetClose>
   );
@@ -86,7 +86,6 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
       label: dict.decks.items[key].name,
       isPage: true,
     })),
-    { href: homeHref(locale, "#decks"), label: locale === "tr" ? "Ana sayfada desteler" : "Decks on homepage" },
   ];
 
   const discoverLinks: NavItem[] = [

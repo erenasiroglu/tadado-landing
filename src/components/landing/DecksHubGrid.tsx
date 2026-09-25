@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { buildDeckOverlayStyle, DECK_CARD_CONFIGS } from "@/lib/deck-cards";
-import { isFreeDeck, SEO_DECK_KEYS } from "@/lib/deck-catalog";
+import { SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { getDeckHubCopy } from "@/lib/deck-seo-content";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -25,7 +25,6 @@ export function DecksHubGrid({ locale, dict }: DecksHubGridProps) {
           const item = dict.decks.items[key];
           const config = DECK_CARD_CONFIGS[key];
           const href = `/${locale}/decks/${deckSlugFor(locale, key)}`;
-          const free = isFreeDeck(key);
 
           return (
             <li key={key}>
@@ -51,12 +50,7 @@ export function DecksHubGrid({ locale, dict }: DecksHubGridProps) {
                   <div className="absolute inset-0" style={buildDeckOverlayStyle(config)} />
                 </div>
                 <div className="p-5">
-                  <div className="flex items-center justify-between gap-2">
-                    <h2 className="text-lg font-bold text-cream group-hover:text-amber">{item.name}</h2>
-                    <span className="text-xs font-bold text-lavender">
-                      {free ? dict.decks.free : dict.decks.price}
-                    </span>
-                  </div>
+                  <h2 className="text-lg font-bold text-cream group-hover:text-amber">{item.name}</h2>
                   <p className="mt-2 text-sm text-cream/70">{item.desc}</p>
                 </div>
               </Link>

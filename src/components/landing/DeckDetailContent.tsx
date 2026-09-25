@@ -66,7 +66,7 @@ export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentPr
 
       <header className="mt-8">
         <div
-          className="relative mx-auto aspect-[4/3] max-w-md overflow-hidden"
+          className="relative mx-auto aspect-[4/3] max-w-md overflow-hidden md:mx-0 md:mr-auto"
           style={{ borderRadius: 20, backgroundColor: config.illustrationBackgroundColor }}
         >
           <Image

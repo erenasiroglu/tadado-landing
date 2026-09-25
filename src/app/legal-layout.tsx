@@ -1,25 +1,21 @@
-import Link from "next/link";
-
-import { BRAND } from "@/lib/brand";
+import { Footer } from "@/components/landing/Footer";
+import { Header } from "@/components/landing/Header";
+import type { Dictionary, Locale } from "@/lib/i18n";
 
 export function LegalPageShell({
+  locale,
+  dict,
   children,
 }: {
+  locale: Locale;
+  dict: Dictionary;
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen brand-gradient-bg">
-      <header className="border-b border-white/10 py-4">
-        <div className="section-shell">
-          <Link href="/en" className="font-extrabold text-cream">TADADO</Link>
-        </div>
-      </header>
+    <div className="flex min-h-screen flex-col brand-gradient-bg">
+      <Header locale={locale} dict={dict} />
       {children}
-      <footer className="section-shell py-8 text-center text-xs text-cream/45">
-        <a href={`mailto:${BRAND.supportEmail}`} className="text-lavender hover:text-amber">
-          {BRAND.supportEmail}
-        </a>
-      </footer>
+      <Footer locale={locale} dict={dict} />
     </div>
   );
 }

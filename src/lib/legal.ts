@@ -7,6 +7,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
+import { CONTENT_FALLBACK_LOCALE, mayUseEnglishContentFallback } from "@/lib/i18n-fallback";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
 
 export type LegalPageId = "terms-of-use" | "privacy-policy";
@@ -27,8 +28,11 @@ export async function getLegalPage(
   id: LegalPageId,
 ): Promise<LegalPage | null> {
   const localized = path.join(CONTENT_DIR, locale, `${id}.mdx`);
-  const fallback = path.join(CONTENT_DIR, "en", `${id}.mdx`);
-  const filePath = fs.existsSync(localized) ? localized : fallback;
+  let filePath = localized;
+  if (!fs.existsSync(filePath)) {
+    if (!mayUseEnglishContentFallback(locale)) return null;
+    filePath = path.join(CONTENT_DIR, CONTENT_FALLBACK_LOCALE, `${id}.mdx`);
+  }
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");

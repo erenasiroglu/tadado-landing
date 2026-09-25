@@ -12,7 +12,7 @@ import "./globals.css";
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
 
@@ -27,7 +27,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={cn("h-full antialiased", poppins.variable)}>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={cn("h-full antialiased", poppins.variable)}
+    >
       <body className="min-h-full flex flex-col font-sans">
         <AnalyticsScripts />
         <AttributionProvider />

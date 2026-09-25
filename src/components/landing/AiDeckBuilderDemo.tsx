@@ -1,10 +1,11 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion } from "motion/react";
-import { Bot, Sparkles } from "lucide-react";
+import { motion } from "motion/react";
+import { Sparkles } from "lucide-react";
 
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
+import { MotionButton } from "@/components/motion/MotionButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getAiDemoSample, type AiDemoDifficulty } from "@/lib/ai-demo-samples";
 import { trackEvent } from "@/lib/tracking";
@@ -126,7 +127,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
   }
 
   const isBusy = phase === "typing" || phase === "generating" || phase === "cards";
-  const showCard = phase === "cards" || phase === "ready";
+  const cardLoading = phase !== "ready";
 
   function stepState(stepKey: (typeof STEPS)[number]) {
     const order = STEPS.indexOf(stepKey);
@@ -153,7 +154,6 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
       <div className="rounded-xl border border-cream/10 bg-[#1c1129]/80 p-5 lg:p-7">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
           <div>
-            <BadgeRow label={dict.ai.simulationBadge} />
             <SectionHeading title={dict.ai.title} subtitle={dict.ai.subtitle} align="left" />
 
             <div className="mt-6 hidden gap-2 lg:flex">
@@ -237,81 +237,42 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                 ))}
               </div>
 
-              <button
-                type="button"
+              <MotionButton
                 disabled={isBusy}
                 onClick={onCreate}
                 className={cn(
-                  "mt-5 flex h-12 w-full items-center justify-center gap-2 rounded-xl text-[17px] font-bold transition sm:w-auto sm:min-w-[220px] sm:px-8",
+                  "mt-5 flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-xl text-[17px] font-bold transition-colors sm:w-auto sm:min-w-[220px] sm:px-8",
                   isBusy
-                    ? "bg-white/6 text-[#F5F0FF]/40"
+                    ? "cursor-not-allowed bg-white/6 text-[#F5F0FF]/40"
                     : "bg-violet-700/70 text-white shadow-lg shadow-violet-900/30 hover:bg-violet-600/80",
                 )}
               >
                 <Sparkles className="h-5 w-5" />
                 {isBusy ? dict.ai.generating : dict.ai.generateButton}
-              </button>
+              </MotionButton>
             </div>
           </div>
 
           <div className="relative flex min-h-[320px] items-center justify-center">
             <div className="preview-ambient-glow" aria-hidden />
-            <AnimatePresence mode="wait">
-              {phase === "generating" ? (
-                <motion.div
-                  key="generating"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="flex h-[320px] w-full max-w-[240px] flex-col items-center justify-center rounded-[28px] border border-white/10 bg-[#1C0B2E]/80 p-6"
-                >
-                  <div className="ai-shimmer-bar h-3 w-full rounded-full" />
-                  <div className="ai-shimmer-bar mt-3 h-3 w-4/5 rounded-full" />
-                  <div className="ai-shimmer-bar mt-3 h-3 w-3/5 rounded-full" />
-                  <p className="mt-6 text-sm text-lavender">{dict.ai.simulationWriting}</p>
-                </motion.div>
-              ) : showCard ? (
-                <motion.div
-                  key="card"
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0 }}
-                  className="relative w-full max-w-[240px]"
-                >
-                  <ForbiddenWordsScreen
-                    width={PHONE_WIDTH}
-                    word={heroCard.word}
-                    forbidden={heroCard.forbidden}
-                    showGlow
-                    className="relative z-[1] mx-auto"
-                  />
-                </motion.div>
-              ) : (
-                <motion.div
-                  key="idle"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="flex flex-col items-center gap-3 text-center text-lavender/70"
-                >
-                  <Bot className="h-10 w-10 text-lavender/50" />
-                  <p className="max-w-xs text-sm">{dict.ai.topicsEmpty}</p>
-                </motion.div>
-              )}
-            </AnimatePresence>
+            <motion.div
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="relative w-full max-w-[240px]"
+            >
+              <ForbiddenWordsScreen
+                width={PHONE_WIDTH}
+                word={cardLoading ? undefined : heroCard.word}
+                forbidden={cardLoading ? undefined : heroCard.forbidden}
+                loading={cardLoading}
+                showGlow
+                className="relative z-[1] mx-auto"
+              />
+            </motion.div>
           </div>
         </div>
       </div>
     </LandingSection>
-  );
-}
-
-function BadgeRow({ label }: { label: string }) {
-  return (
-    <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-amber/30 bg-amber/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-amber">
-      <Bot className="h-3.5 w-3.5" />
-      {label}
-    </div>
   );
 }
 

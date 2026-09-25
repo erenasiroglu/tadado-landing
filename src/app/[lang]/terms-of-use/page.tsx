@@ -40,8 +40,8 @@ export default async function TermsOfUsePage({ params }: PageProps) {
   if (!page) notFound();
 
   return (
-    <LegalPageShell>
-      <main className="section-shell max-w-3xl py-16 prose-blog">
+    <LegalPageShell locale={locale} dict={dict}>
+      <main className="section-shell max-w-3xl flex-1 py-16 prose-blog">
         <h1 className="mt-6 text-4xl font-extrabold text-cream">{page.title}</h1>
         {page.updated ? (
           <p className="text-sm text-lavender">

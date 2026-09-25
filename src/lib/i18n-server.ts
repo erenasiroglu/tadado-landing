@@ -9,6 +9,8 @@ import {
   LOCALES,
   type Locale,
 } from "@/lib/i18n-config";
+import { deepMerge } from "@/lib/deep-merge";
+import { CONTENT_FALLBACK_LOCALE, isFullContentLocale } from "@/lib/i18n-fallback";
 import type { Dictionary } from "@/lib/i18n-types";
 
 const dictionaries = {
@@ -32,7 +34,16 @@ const dictionaries = {
 } as const;
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {
-  return dictionaries[locale]();
+  if (isFullContentLocale(locale)) {
+    return dictionaries[locale]() as Promise<Dictionary>;
+  }
+
+  const [fallback, localized] = await Promise.all([
+    dictionaries[CONTENT_FALLBACK_LOCALE](),
+    dictionaries[locale](),
+  ]);
+
+  return deepMerge(fallback as Dictionary, localized as Dictionary);
 }
 
 export function getLocaleFromAcceptLanguage(header: string | null): Locale {

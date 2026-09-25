@@ -45,7 +45,11 @@ interface ForbiddenWordsPreviewProps {
   word?: string;
   forbidden?: readonly string[];
   labels?: GamePreviewLabels;
+  /** Shimmer placeholders for the main word and forbidden rows (AI demo loading). */
+  loading?: boolean;
 }
+
+const FORBIDDEN_SKELETON_WIDTHS = ["88%", "72%", "80%", "65%"] as const;
 
 function PreviewActionButton({
   variant,
@@ -133,6 +137,7 @@ export function ForbiddenWordsPreview({
   word = FORBIDDEN_WORDS_PREVIEW.word,
   forbidden = FORBIDDEN_WORDS_PREVIEW.forbidden,
   labels,
+  loading = false,
 }: ForbiddenWordsPreviewProps) {
   const t = {
     ...FORBIDDEN_WORDS_STYLE,
@@ -324,23 +329,35 @@ export function ForbiddenWordsPreview({
                   backgroundColor: t.wordBg,
                 }}
               >
-                <p
-                  className="font-black uppercase"
-                  style={{
-                    color: t.wordText,
-                    fontSize: m.wordFontSize,
-                    lineHeight: 1.05,
-                    letterSpacing: 0.2 * scale,
-                  }}
-                >
-                  {word}
-                </p>
+                {loading ? (
+                  <div
+                    className="game-card-skeleton game-card-skeleton--word mx-auto rounded-xl"
+                    style={{
+                      height: m.wordFontSize * 1.15,
+                      width: "68%",
+                      maxWidth: "100%",
+                    }}
+                    aria-hidden
+                  />
+                ) : (
+                  <p
+                    className="font-black uppercase"
+                    style={{
+                      color: t.wordText,
+                      fontSize: m.wordFontSize,
+                      lineHeight: 1.05,
+                      letterSpacing: 0.2 * scale,
+                    }}
+                  >
+                    {word}
+                  </p>
+                )}
               </div>
 
               <div className="flex w-full flex-col" style={{ gap: m.forbiddenGap }}>
                 {forbiddenWords.map((item, index) => (
                   <div
-                    key={`${item}-${index}`}
+                    key={loading ? `sk-${index}` : `${item}-${index}`}
                     className="flex w-full items-center justify-center text-center"
                     style={{
                       padding: `${m.forbiddenPadV}px ${m.forbiddenPadH}px`,
@@ -349,17 +366,28 @@ export function ForbiddenWordsPreview({
                       minHeight: forbiddenRowMinHeight,
                     }}
                   >
-                    <span
-                      className="w-full font-bold uppercase"
-                      style={{
-                        color: t.forbiddenWordText,
-                        fontSize: m.forbiddenFontSize,
-                        lineHeight: 1.05,
-                        letterSpacing: 0.15 * scale,
-                      }}
-                    >
-                      {item}
-                    </span>
+                    {loading ? (
+                      <div
+                        className="game-card-skeleton rounded-full"
+                        style={{
+                          height: m.forbiddenFontSize * 0.95,
+                          width: FORBIDDEN_SKELETON_WIDTHS[index] ?? "75%",
+                        }}
+                        aria-hidden
+                      />
+                    ) : (
+                      <span
+                        className="w-full font-bold uppercase"
+                        style={{
+                          color: t.forbiddenWordText,
+                          fontSize: m.forbiddenFontSize,
+                          lineHeight: 1.05,
+                          letterSpacing: 0.15 * scale,
+                        }}
+                      >
+                        {item}
+                      </span>
+                    )}
                   </div>
                 ))}
               </div>

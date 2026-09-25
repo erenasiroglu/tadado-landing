@@ -12,9 +12,10 @@ export const easeOut: Transition = {
   ease: [0.22, 1, 0.36, 1],
 };
 
+/** Subtle hover/tap scale for primary actions (Motion / Framer-style). */
 export const ctaInteraction = {
-  whileHover: { scale: 1.03, y: -1 },
-  whileTap: { scale: 0.97 },
+  whileHover: { scale: 1.02 },
+  whileTap: { scale: 0.98 },
   transition: springSnappy,
 };
 

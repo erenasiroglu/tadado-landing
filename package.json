@@ -15,7 +15,9 @@
     "locales:translate:mdx": "node scripts/translate-mdx.mjs",
     "locales:translate:all": "node scripts/patch-new-sections.mjs && node scripts/translate-locales.mjs && node scripts/translate-mdx.mjs --type=all",
     "locales:apply": "node scripts/apply-overrides.mjs",
-    "blog:seed": "node scripts/seed-blog-posts.mjs"
+    "blog:seed": "node scripts/seed-blog-posts.mjs",
+    "lighthouse:en": "lighthouse http://localhost:3000/en --only-categories=performance,seo,accessibility,best-practices --preset=desktop --chrome-flags='--headless=new'",
+    "lighthouse:en:mobile": "lighthouse http://localhost:3000/en --only-categories=performance,seo,accessibility,best-practices --form-factor=mobile --screenEmulation.mobile --chrome-flags='--headless=new'"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
@@ -32,7 +34,6 @@
     "motion": "^13.3.0",
     "negotiator": "^1.1.0",
     "next": "16.3.5",
-    "posthog-js": "^1.433.5",
     "posthog-node": "^5.21.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",

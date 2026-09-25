@@ -1,7 +1,14 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import Link from "next/link";
+
 import { CompareTable } from "@/components/landing/CompareTable";
+import {
+  getAlternativeHref,
+  getAlternativeLinkLabel,
+  SEO_ALTERNATIVE_IDS,
+} from "@/lib/alternative-pages";
 import { BackLink } from "@/components/landing/BackLink";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
@@ -44,6 +51,24 @@ export default async function ComparePage({ params }: PageProps<"/[lang]/compare
         <div className="mt-8">
           <CompareTable dict={dict} locale={locale} />
         </div>
+
+        <section className="mt-14 max-w-3xl">
+          <h2 className="text-lg font-bold text-cream">
+            {locale === "tr" ? "Popüler alternatif rehberleri" : "Popular alternative guides"}
+          </h2>
+          <ul className="mt-4 flex flex-col gap-2">
+            {SEO_ALTERNATIVE_IDS.map((id) => (
+              <li key={id}>
+                <Link
+                  href={getAlternativeHref(locale, id)}
+                  className="text-sm font-semibold text-amber hover:text-amber/80"
+                >
+                  {getAlternativeLinkLabel(locale, id)} →
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       </main>
       <Footer locale={locale} dict={dict} />
     </>

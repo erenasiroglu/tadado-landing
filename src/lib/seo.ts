@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import { alternativeLanguageAlternates } from "@/lib/alternative-pages/slugs";
+import type { AlternativeId } from "@/lib/alternative-pages/types";
 import { BRAND, PRICING } from "@/lib/brand";
 import type { DeckKey } from "@/lib/deck-cards";
 import { deckLanguageAlternates } from "@/lib/deck-slugs";
@@ -34,6 +36,17 @@ export function buildDeckLanguageAlternates(key: DeckKey): Record<string, string
 
 export function buildDeckHubLanguageAlternates(): Record<string, string> {
   return buildLanguageAlternates("decks");
+}
+
+export function buildAlternativeLanguageAlternates(id: AlternativeId): Record<string, string> {
+  const paths = alternativeLanguageAlternates(id);
+  const languages: Record<string, string> = {
+    "x-default": `${BRAND.domain}/${paths["x-default"]}`,
+  };
+  for (const locale of LOCALES) {
+    languages[locale] = `${BRAND.domain}/${paths[locale]}`;
+  }
+  return languages;
 }
 
 export function buildDeckPageJsonLd(

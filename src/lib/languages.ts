@@ -1,5 +1,26 @@
 import type { Locale } from "@/lib/i18n-config";
 
+/** Compact codes for minimal UI (header, community strip). */
+export const LOCALE_SHORT_CODE: Record<Locale, string> = {
+  ar: "AR",
+  de: "DE",
+  el: "EL",
+  en: "EN",
+  es: "ES",
+  fr: "FR",
+  hi: "HI",
+  id: "ID",
+  it: "IT",
+  ja: "JA",
+  ko: "KO",
+  pl: "PL",
+  "pt-BR": "PT",
+  ru: "RU",
+  tr: "TR",
+  vi: "VI",
+  zh: "ZH",
+};
+
 export const LANGUAGE_DISPLAY: Record<Locale, { flag: string; label: string }> = {
   ar: { flag: "🇸🇦", label: "العربية" },
   de: { flag: "🇩🇪", label: "Deutsch" },

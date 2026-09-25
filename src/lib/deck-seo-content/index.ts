@@ -1,5 +1,6 @@
 import type { DeckKey } from "@/lib/deck-cards";
 import type { DeckPageContent } from "@/lib/deck-page-types";
+import { isFullContentLocale } from "@/lib/i18n-fallback";
 import type { Locale } from "@/lib/i18n-config";
 
 import { EN_DECK_PAGES } from "./en";
@@ -33,39 +34,39 @@ export function getDeckPageContent(locale: Locale, key: DeckKey): DeckPageConten
   return en;
 }
 
+const DECK_HUB_COPY: Partial<Record<Locale, { title: string; description: string }>> = {
+  tr: {
+    title: "Tadado oyun desteleri",
+    description:
+      "Tadado Mix ücretsiz başlangıç destesi ve temalı paketler: Sinema, Seyahat, Spor, Kahramanlar, Yaz ve Gece Oyunları. Tabu ve Heads Up için tek telefon.",
+  },
+  es: {
+    title: "Mazos de juego Tadado",
+    description:
+      "Tadado Mix gratis y mazos temáticos: Cine, Viajes, Deporte, Héroes, Verano y Juegos nocturnos. Tabú y Heads Up en un móvil.",
+  },
+  de: {
+    title: "Tadado Spieldecks",
+    description:
+      "Tadado Mix kostenlos plus Themen-Decks: Kino, Reisen, Sport, Helden, Sommer und Nachtspiele. Tabu und Heads Up auf einem Handy.",
+  },
+  fr: {
+    title: "Paquets de jeu Tadado",
+    description:
+      "Tadado Mix gratuit et paquets thématiques : Cinéma, Voyage, Sport, Héros, Été et Jeux de nuit. Tabou et Heads Up sur un téléphone.",
+  },
+};
+
+const EN_DECK_HUB_COPY = {
+  title: "Tadado game decks",
+  description:
+    "Free Tadado Mix starter deck plus themed packs: Cinema, Travel, Sport, Heroes, Summer, and Night Games. Taboo and Heads Up on one phone.",
+} as const;
+
 export function getDeckHubCopy(locale: Locale): { title: string; description: string } {
-  if (locale === "tr") {
-    return {
-      title: "Tadado oyun desteleri",
-      description:
-        "Tadado Mix ücretsiz başlangıç destesi ve temalı paketler: Sinema, Seyahat, Spor, Kahramanlar, Yaz ve Gece Oyunları. Tabu ve Heads Up için tek telefon.",
-    };
-  }
-  if (locale === "es") {
-    return {
-      title: "Mazos de juego Tadado",
-      description:
-        "Tadado Mix gratis y mazos temáticos: Cine, Viajes, Deporte, Héroes, Verano y Juegos nocturnos. Tabú y Heads Up en un móvil.",
-    };
-  }
-  if (locale === "de") {
-    return {
-      title: "Tadado Spieldecks",
-      description:
-        "Tadado Mix kostenlos plus Themen-Decks: Kino, Reisen, Sport, Helden, Sommer und Nachtspiele. Tabu und Heads Up auf einem Handy.",
-    };
-  }
-  if (locale === "fr") {
-    return {
-      title: "Paquets de jeu Tadado",
-      description:
-        "Tadado Mix gratuit et paquets thématiques : Cinéma, Voyage, Sport, Héros, Été et Jeux de nuit. Tabou et Heads Up sur un téléphone.",
-    };
+  if (isFullContentLocale(locale)) {
+    return DECK_HUB_COPY[locale] ?? (locale === "en" ? EN_DECK_HUB_COPY : DECK_HUB_COPY.tr!);
   }
 
-  return {
-    title: "Tadado game decks",
-    description:
-      "Free Tadado Mix starter deck plus themed packs: Cinema, Travel, Sport, Heroes, Summer, and Night Games. Taboo and Heads Up on one phone.",
-  };
+  return DECK_HUB_COPY[locale] ?? EN_DECK_HUB_COPY;
 }
