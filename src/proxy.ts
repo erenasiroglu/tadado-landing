@@ -21,9 +21,10 @@ function getLocale(request: NextRequest): Locale {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (pathname === "/marketing") {
+  if (pathname === "/marketing" || pathname === "/support") {
     const locale = getLocale(request);
-    return NextResponse.redirect(new URL(`/${locale}`, request.url), 301);
+    const segment = pathname.slice(1);
+    return NextResponse.redirect(new URL(`/${locale}/${segment}`, request.url), 301);
   }
 
   if (pathname === "/link" || pathname.startsWith("/link/")) {

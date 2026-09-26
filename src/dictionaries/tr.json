@@ -509,6 +509,76 @@
     "back": "Tadado'ya dön",
     "pageNote": "Her başvuruyu birkaç iş günü içinde inceliyoruz. Komisyon, kişisel kodunla yapılan uygun uygulama içi satın alımlardan ödenir."
   },
+  "support": {
+    "title": "Yardım ve destek",
+    "subtitle": "Cevaplar, hesap yardımı ve Tadado ekibine doğrudan ulaşım.",
+    "back": "Tadado'ya dön",
+    "intro": "Soruların çoğu SSS'de. Geri kalanı—hata, satın alma, geri bildirim—için e-posta at; mümkünse cihaz ve uygulama sürümünü yaz.",
+    "responseNote": "Her mesajı okuyoruz; genelde birkaç iş günü içinde yanıtlıyoruz.",
+    "emailCta": "Destek e-postası",
+    "emailSubject": "Tadado destek talebi",
+    "topics": [
+      {
+        "title": "SSS ve nasıl oynanır",
+        "body": "Yasaklı Kelimeler ve Alnında Tahmin kuralları, fiyatlandırma ve çevrimdışı oyun.",
+        "cta": "SSS'yi aç",
+        "kind": "faq"
+      },
+      {
+        "title": "Satın alma ve geri yükleme",
+        "body": "Deste paketleri Apple veya Google üzerinden faturalandırılır. İçerik eksikse uygulama ayarlarından Satın Alımları Geri Yükle'yi kullan.",
+        "cta": "Fatura için e-posta",
+        "kind": "billing"
+      },
+      {
+        "title": "Gizlilik ve koşullar",
+        "body": "Veriler, Game Center ve hakların nasıl işlendiği.",
+        "cta": "Gizlilik politikası",
+        "kind": "privacy"
+      },
+      {
+        "title": "Hata bildir",
+        "body": "Ne olduğunu, hangi desteyi oynadığını ve telefon modelini yaz. Ekran görüntüsü işe yarar.",
+        "cta": "Hata bildir",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Pazarlama ve basın",
+    "subtitle": "İçerik üreticileri, marka desteleri ve Tadado basın materyalleri.",
+    "back": "Tadado'ya dön",
+    "intro": "Tadado gerçek gruplar için bir parti kelime oyunu—Tabu tarzı Yasaklı Kelimeler ve Alnında Tahmin tek telefonda, reklam yok, abonelik yok. İçerik, iş birliği veya haber için buradan başla.",
+    "statsLabel": "Özet",
+    "stats": [
+      { "value": "300.000+", "label": "oyun oynandı" },
+      { "value": "17", "label": "dil" },
+      { "value": "2", "label": "oyun modu" }
+    ],
+    "pillars": [
+      {
+        "title": "İçerik üreticileri ve affiliate",
+        "body": "Kısa videolar, oyun gecesi reaksiyonları ve paylaşılabilir landing linkleri.",
+        "cta": "Affiliate programı",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Marka ve deste iş birlikleri",
+        "body": "Ortak markalı desteler, sezon temaları ve kampanya fikirleri.",
+        "cta": "İş birlikleri",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Basın ve ürün bilgisi",
+        "body": "Logo, konumlandırma ve medya / bülten talepleri.",
+        "cta": "Basına e-posta",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado basın / medya talebi",
+    "compareCta": "Tadado'yu diğer parti uygulamalarıyla karşılaştır",
+    "trendingCta": "Trend desteleri gör"
+  },
   "partnerships": {
     "title": "Bizimle çalış",
     "subtitle": "Yeni deste fikri, marka iş birliği veya yatırım. E-posta atmak yeterli.",
@@ -723,6 +793,8 @@
     "socialTitle": "Sosyal",
     "help": "Yardım",
     "support": "Destek",
+    "supportPage": "Yardım merkezi",
+    "marketing": "Pazarlama",
     "partnerships": "İş birlikleri",
     "compare": "Uygulama karşılaştırması",
     "affiliate": "Affiliate programı",

@@ -36,6 +36,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const guidesLanguages = buildLanguageAlternates("guides");
   const teamLanguages = buildLanguageAlternates("team");
   const trendingLanguages = buildLanguageAlternates("trending");
+  const supportLanguages = buildLanguageAlternates("support");
+  const marketingLanguages = buildLanguageAlternates("marketing");
 
   for (const locale of LOCALES) {
     entries.push(
@@ -80,6 +82,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: trendingLanguages },
+      },
+      {
+        url: `${base}/${locale}/support`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.65,
+        alternates: { languages: supportLanguages },
+      },
+      {
+        url: `${base}/${locale}/marketing`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+        alternates: { languages: marketingLanguages },
       },
     );
   }

@@ -435,6 +435,76 @@
     "back": "Back to Tadado",
     "pageNote": "We review every application within a few business days. Commission is paid on qualifying in-app purchases made through your personal code."
   },
+  "support": {
+    "title": "Help & support",
+    "subtitle": "Answers, account help, and a direct line to the team behind Tadado.",
+    "back": "Back to Tadado",
+    "intro": "Most questions are covered in our FAQ. For anything else—bugs, purchases, or feedback—email us and include your device and app version if you can.",
+    "responseNote": "We read every message and usually reply within a few business days.",
+    "emailCta": "Email support",
+    "emailSubject": "Tadado support request",
+    "topics": [
+      {
+        "title": "FAQ & how to play",
+        "body": "Rules for Forbidden Words and Heads Up, pricing, and offline play.",
+        "cta": "Open FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Purchases & restores",
+        "body": "Deck packs and AI decks are billed through Apple or Google. Use Restore Purchases in the app settings if content is missing.",
+        "cta": "Email billing help",
+        "kind": "billing"
+      },
+      {
+        "title": "Privacy & terms",
+        "body": "How we handle data, Game Center, and your rights.",
+        "cta": "Privacy policy",
+        "kind": "privacy"
+      },
+      {
+        "title": "Report a bug",
+        "body": "Tell us what happened, which deck you played, and your phone model. Screenshots help.",
+        "cta": "Report a bug",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing & press",
+    "subtitle": "Creator campaigns, brand decks, and press assets for Tadado.",
+    "back": "Back to Tadado",
+    "intro": "Tadado is a party word game for real groups—Taboo-style Forbidden Words and Heads Up on one phone, no ads, no subscription. If you are planning content, a collab, or coverage, start here.",
+    "statsLabel": "At a glance",
+    "stats": [
+      { "value": "300,000+", "label": "games played" },
+      { "value": "17", "label": "languages" },
+      { "value": "2", "label": "game modes" }
+    ],
+    "pillars": [
+      {
+        "title": "Creators & affiliates",
+        "body": "Short-form clips, game-night reactions, and referral-friendly landing links.",
+        "cta": "Affiliate program",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Brand & deck partnerships",
+        "body": "Co-branded decks, seasonal themes, and campaign ideas with our team.",
+        "cta": "Partnerships",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Press & product facts",
+        "body": "Logos, positioning, and interview requests for media and newsletters.",
+        "cta": "Email press",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado press / media inquiry",
+    "compareCta": "Compare Tadado to other party apps",
+    "trendingCta": "See trending decks"
+  },
   "partnerships": {
     "title": "Work with us",
     "subtitle": "New deck ideas, brand collabs, or investment. Email is enough.",
@@ -635,6 +705,8 @@
     "socialTitle": "Social",
     "help": "Help",
     "support": "Support",
+    "supportPage": "Help center",
+    "marketing": "Marketing",
     "partnerships": "Partnerships",
     "compare": "Compare apps",
     "affiliate": "Affiliate program",
