@@ -42,7 +42,7 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
             aria-label={dict.a11y.closeLanguageMenu}
             onClick={() => setOpen(false)}
           />
-          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-white/10 bg-[#1c1129]/98 p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
+          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-border /98 p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
             <ul>
               {SEO_DECK_KEYS.map((key) => {
                 const item = dict.decks.items[key];
@@ -53,7 +53,7 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                   <li key={key}>
                     <Link
                       href={href}
-                      className="flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-white/[0.06]"
+                      className="flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-lilac"
                       onClick={() => setOpen(false)}
                     >
                       <div
@@ -69,7 +69,7 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                         />
                         <div className="absolute inset-0" style={buildDeckOverlayStyle(config)} />
                       </div>
-                      <span className="min-w-0 flex-1 truncate text-sm font-medium text-cream">
+                      <span className="min-w-0 flex-1 truncate text-sm font-medium text-foreground">
                         {item.name}
                       </span>
                     </Link>
@@ -77,10 +77,10 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                 );
               })}
             </ul>
-            <div className="mt-1 border-t border-white/8 pt-1">
+            <div className="mt-1 border-t border-border pt-1">
               <Link
                 href={getDecksHubHref(locale)}
-                className="block rounded-lg px-2 py-2 text-center text-xs font-semibold text-amber/90 hover:bg-white/[0.06] hover:text-amber"
+                className="block rounded-lg px-2 py-2 text-center text-xs font-semibold text-muted-foreground hover:bg-lilac hover:text-ink"
                 onClick={() => setOpen(false)}
               >
                 {viewAllLabel}

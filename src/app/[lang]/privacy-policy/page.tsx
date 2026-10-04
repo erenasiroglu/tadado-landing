@@ -42,19 +42,19 @@ export default async function PrivacyPolicyPage({ params }: PageProps) {
   return (
     <LegalPageShell locale={locale} dict={dict}>
       <main className="section-shell max-w-3xl flex-1 py-16 prose-blog">
-        <h1 className="mt-6 text-4xl font-extrabold text-cream">{page.title}</h1>
+        <h1 className="mt-6 text-4xl font-extrabold text-foreground">{page.title}</h1>
         {page.updated ? (
-          <p className="text-sm text-lavender">
+          <p className="text-sm text-muted-foreground">
             {dict.footer.legal}: {page.updated}
           </p>
         ) : null}
         <div dangerouslySetInnerHTML={{ __html: page.contentHtml }} />
-        <p className="mt-8 text-sm text-cream/65">
-          <Link href={localeHref(locale, "terms-of-use")} className="text-amber">
+        <p className="mt-8 text-sm text-muted-foreground">
+          <Link href={localeHref(locale, "terms-of-use")} className="text-ink">
             {dict.footer.terms}
           </Link>
           {" · "}
-          <a href={`mailto:${BRAND.supportEmail}`} className="text-amber">
+          <a href={`mailto:${BRAND.supportEmail}`} className="text-ink">
             {BRAND.supportEmail}
           </a>
         </p>

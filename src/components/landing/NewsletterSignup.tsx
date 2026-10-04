@@ -63,19 +63,19 @@ export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSi
     >
       <div
         className={cn(
-          "relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-[#3d1f58]/40 to-[#1a0f28]/90",
+          "relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-lilac to-mist",
           compact ? "p-5 sm:p-6" : "p-6 sm:p-8 md:p-10",
         )}
       >
         <div
-          className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-lavender/10 blur-3xl"
+          className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-lilac blur-3xl"
           aria-hidden
         />
 
         <div className={cn("relative grid gap-8", compact ? "lg:grid-cols-[1.1fr_1fr] lg:items-center" : "lg:grid-cols-2 lg:items-center")}>
           <div>
             {!compact ? (
-              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-amber/15 text-amber">
+              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-lilac text-ink">
                 <Mail className="h-5 w-5" aria-hidden />
               </div>
             ) : null}
@@ -98,7 +98,7 @@ export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSi
                     placeholder={content.placeholder}
                     required
                     autoComplete="email"
-                    className="h-12 flex-1 rounded-full border-white/12 bg-white/[0.06] px-5 text-cream placeholder:text-cream/40"
+                    className="h-12 flex-1 rounded-full border-border bg-lilac px-5 text-foreground placeholder:text-muted-foreground"
                   />
                   <MotionButton
                     type="submit"
@@ -119,7 +119,7 @@ export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSi
                     {errorKey === "invalid" ? content.errorInvalid : content.errorGeneric}
                   </p>
                 ) : null}
-                <p className="text-xs text-cream/50">{content.privacy}</p>
+                <p className="text-xs text-muted-foreground">{content.privacy}</p>
               </form>
             )}
           </div>

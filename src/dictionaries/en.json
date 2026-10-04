@@ -344,23 +344,49 @@
   "pricing": {
     "title": "Simple, honest pricing",
     "subtitle": "No hidden subscriptions. Pay once for what you want.",
-    "disclaimer": "Prices are in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
-    "mix": {
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
+    "trust": "No ads · No subscription · Restore purchases anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    },
+    "free": {
       "name": "Tadado Mix",
       "price": "Free",
       "desc": "Download free and play immediately with the classic starter deck."
     },
-    "theme": {
-      "name": "Theme decks",
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
+      "name": "Single premium deck",
       "price": "$0.99",
-      "desc": "One-time purchase per deck. Summer, Cinema, Travel, Sport, Heroes & more."
+      "desc": "One-time purchase per themed deck. Summer, Cinema, Travel, Sport, Heroes & more."
     },
-    "ai": {
-      "name": "AI deck creation",
-      "price": "$2.99",
-      "desc": "Generate a custom deck from any topic. Play in both game modes."
-    },
-    "trust": "No ads · No subscription · Restore purchases anytime"
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
+    }
   },
   "howItWorks": {
     "title": "How it works",

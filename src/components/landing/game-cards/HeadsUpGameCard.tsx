@@ -43,12 +43,12 @@ export function HeadsUpGameCard({
             backgroundColor: "rgba(255,255,255,0.08)",
           }}
         >
-          <span className="font-bold uppercase text-lavender" style={{ fontSize: compact ? 9 : 10 }}>
+          <span className="font-bold uppercase text-muted-foreground" style={{ fontSize: compact ? 9 : 10 }}>
             {teamName}
           </span>
         </div>
         <div
-          className="rounded-full border px-2 py-0.5 font-bold text-lavender/80"
+          className="rounded-full border px-2 py-0.5 font-bold text-muted-foreground"
           style={{
             fontSize: compact ? 9 : 10,
             borderColor: "rgba(255,255,255,0.1)",

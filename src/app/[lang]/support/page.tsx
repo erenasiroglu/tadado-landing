@@ -39,7 +39,7 @@ export default async function SupportPage({ params }: PageProps<"/[lang]/support
   return (
     <>
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#1a0f28]">
+      <main className="flex-1 ">
         <div className="section-shell py-12 md:py-14">
           <BackLink href={localeHref(locale)}>{dict.support.back}</BackLink>
           <div className="mt-8">

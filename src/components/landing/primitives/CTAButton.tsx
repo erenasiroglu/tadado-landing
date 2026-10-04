@@ -40,14 +40,14 @@ export type CTAButtonProps = CTAButtonLinkProps | CTAButtonStoreProps;
 
 function variantClass(variant: CTAButtonVariant, className?: string) {
   if (variant === "primary") {
-    return ctaGradientClass(cn("min-h-11 rounded-full px-6 text-sm shadow-lg shadow-violet-900/25", className));
+    return ctaGradientClass(cn("min-h-12 px-7 text-base", className));
   }
   if (variant === "secondary") {
-    return ctaAmberClass(cn("min-h-11 rounded-full px-6 text-sm", className));
+    return ctaAmberClass(cn("min-h-12 px-7 text-base", className));
   }
   return cn(
     pressableBase,
-    "min-h-11 rounded-full border border-white/15 bg-white/[0.04] px-6 text-sm text-cream transition-colors hover:border-amber/40 hover:bg-white/[0.08]",
+    "min-h-12 rounded-full px-7 text-base text-ink hover:bg-lilac hover:scale-[1.03]",
     className,
   );
 }

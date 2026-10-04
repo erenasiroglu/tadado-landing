@@ -79,7 +79,7 @@ export default async function AlternativePage({ params }: PageProps<"/[lang]/alt
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       ) : null}
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#1a0f28]">
+      <main className="flex-1 ">
         <div className="section-shell py-12 md:py-14">
           <AlternativeDetailContent locale={locale} dict={dict} content={content} />
         </div>

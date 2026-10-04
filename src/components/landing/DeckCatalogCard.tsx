@@ -30,6 +30,8 @@ interface DeckCatalogCardProps {
   newBadgeLabel?: string;
   isFree?: boolean;
   showPlayIcon?: boolean;
+  /** Carousel cards manage their own lift/scale. */
+  disableHoverMotion?: boolean;
   className?: string;
 }
 
@@ -45,6 +47,7 @@ export function DeckCatalogCard({
   newBadgeLabel = "NEW",
   isFree = false,
   showPlayIcon = false,
+  disableHoverMotion = false,
   className,
 }: DeckCatalogCardProps) {
   const reduceMotion = useReducedMotion();
@@ -96,7 +99,7 @@ export function DeckCatalogCard({
     <motion.div
       ref={cardRef}
       className={cn("relative w-full", className)}
-      {...(reduceMotion ? {} : cardHover)}
+      {...(reduceMotion || disableHoverMotion ? {} : cardHover)}
     >
       <div
         className="group relative w-full overflow-hidden text-left"
@@ -108,7 +111,7 @@ export function DeckCatalogCard({
       >
         <Link
           href={deckHref}
-          className="relative block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#1c1129]"
+          className="relative block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/30 focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
           aria-label={title}
         >
           <div
@@ -211,7 +214,7 @@ export function DeckCatalogCard({
 
               <div className="flex justify-center pt-2">
                 <span
-                  className="inline-flex min-h-8 min-w-[80px] max-w-[92%] items-center justify-center rounded-lg px-4 text-[11px] font-bold tracking-wide transition-colors group-hover:bg-amber/20"
+                  className="inline-flex min-h-8 min-w-[80px] max-w-[92%] items-center justify-center rounded-lg px-4 text-[11px] font-bold tracking-wide transition-colors group-hover:bg-ink/20"
                   style={{
                     backgroundColor: "rgba(196, 181, 253, 0.14)",
                     color: DECK_CHROME.subtitleColor,

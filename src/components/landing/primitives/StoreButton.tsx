@@ -43,7 +43,13 @@ export function StoreButton({
       locale={locale}
       downloadPlatform={platform}
       downloadSource={source}
-      className={cn(storeBadgeClass(), compact && "h-10 px-3 text-xs", className)}
+      className={cn(
+        storeBadgeClass(),
+        labelMode === "download" &&
+          "h-auto min-h-12 justify-center whitespace-normal px-4 py-2.5 text-center leading-snug",
+        compact && "h-10 px-3 text-xs",
+        className,
+      )}
       ariaLabel={platform === "ios" ? a11y.downloadOnAppStore : a11y.getOnGooglePlay}
     >
       <span className="mr-2 text-lg" aria-hidden>

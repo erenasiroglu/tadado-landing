@@ -13,7 +13,7 @@ interface StickyBarProps {
 export function StickyBar({ locale }: StickyBarProps) {
   const reduceMotion = useReducedMotion();
   const barClass =
-    "fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-[#1a0f28]/95 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))] backdrop-blur md:hidden";
+    "fixed inset-x-0 bottom-0 z-50 border-t border-border /95 p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))] backdrop-blur md:hidden";
 
   const cta = <MobileStoreDownloadCta locale={locale} source="sticky_bar" />;
 

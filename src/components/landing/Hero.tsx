@@ -38,73 +38,74 @@ export function Hero({ locale, dict }: HeroProps) {
   }
 
   return (
-    <section className="relative overflow-hidden bg-[#1a0f28] pb-10 pt-8 sm:pb-14 sm:pt-12">
+    <section className="stage relative overflow-hidden pb-12 pt-8 sm:pb-16 sm:pt-10 lg:pb-20 lg:pt-12">
+      <div
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-gradient-to-b from-transparent to-paper sm:h-28"
+        aria-hidden
+      />
       <SectionViewTracker sectionId="hero">
-        <div className="section-shell grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
-          <div className="relative">
-            <div
-              className="pointer-events-none absolute -left-6 top-6 h-28 w-28 rounded-full bg-violet-500/12 blur-3xl sm:hidden"
-              aria-hidden
-            />
-            <div
-              className="pointer-events-none absolute -right-4 bottom-12 h-24 w-24 rounded-full bg-amber/10 blur-3xl sm:hidden"
-              aria-hidden
-            />
-            <Stagger initial>
-            <StaggerItem>
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-lavender/75">
-                {dict.hero.brandLine}
-              </p>
-            </StaggerItem>
-            <StaggerItem>
-              <h1 className="mt-3 text-balance text-4xl font-extrabold leading-[1.06] tracking-tight text-cream sm:text-5xl lg:text-[3.35rem]">
-                {dict.hero.title}
-              </h1>
-            </StaggerItem>
-            <StaggerItem>
-              <p className="mt-4 max-w-xl text-lg text-cream/75">{dict.hero.subtitle}</p>
-            </StaggerItem>
-            <StaggerItem>
-              <div className="mt-6 flex flex-col gap-3">
-                <div className="flex flex-col gap-3 sm:hidden">
-                  <MobileStoreDownloadCta
-                    locale={locale}
-                    source="hero_primary"
-                    className="min-h-[44px]"
-                    onClick={handlePrimaryClick}
-                  />
-                  <CTAButton
-                    href="#how-it-works"
-                    variant="ghost"
-                    className="min-h-[44px] w-full"
-                    onClick={handleSecondaryClick}
-                  >
-                    {dict.hero.ctaSecondary}
-                  </CTAButton>
+        <div className="section-shell relative z-[2] grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-12 xl:gap-14">
+          <div className="flex min-w-0 flex-col gap-6 text-center lg:max-w-xl lg:text-start xl:max-w-2xl">
+            <Stagger
+              initial
+              className="flex w-full min-w-0 flex-col items-center gap-5 lg:items-start lg:gap-6"
+            >
+              <StaggerItem>
+                <p className="eyebrow text-balance">{dict.hero.brandLine}</p>
+              </StaggerItem>
+              <StaggerItem>
+                <h1 className="max-w-[16ch] text-balance text-[clamp(2rem,5.2vw,3.25rem)] font-extrabold leading-[1.08] tracking-[-0.035em] sm:max-w-[20ch] lg:max-w-none lg:text-[clamp(2.25rem,3.2vw,3.5rem)]">
+                  {dict.hero.title}
+                </h1>
+              </StaggerItem>
+              <StaggerItem>
+                <p className="max-w-lg text-lg leading-relaxed text-muted-foreground sm:text-xl">
+                  {dict.hero.subtitle}
+                </p>
+              </StaggerItem>
+              <StaggerItem className="w-full min-w-0 max-w-md lg:max-w-sm xl:max-w-md">
+                <div className="flex w-full min-w-0 flex-col gap-3">
+                  <div className="flex flex-col gap-3 sm:hidden">
+                    <MobileStoreDownloadCta
+                      locale={locale}
+                      source="hero_primary"
+                      label={dict.hero.ctaPrimary}
+                      className="min-h-12"
+                      onClick={handlePrimaryClick}
+                    />
+                    <CTAButton
+                      href="#how-it-works"
+                      variant="ghost"
+                      className="min-h-12 w-full"
+                      onClick={handleSecondaryClick}
+                    >
+                      {dict.hero.ctaSecondary}
+                    </CTAButton>
+                  </div>
+                  <div className="hidden min-w-0 flex-col gap-3 sm:flex">
+                    <StoreButtons
+                      locale={locale}
+                      source="hero_primary"
+                      a11y={dict.a11y}
+                      labelMode="short"
+                      className="w-full flex-col items-stretch sm:flex-row sm:items-center"
+                    />
+                    <CTAButton
+                      href="#how-it-works"
+                      variant="ghost"
+                      className="min-h-12 w-full sm:w-fit"
+                      onClick={handleSecondaryClick}
+                    >
+                      {dict.hero.ctaSecondary}
+                    </CTAButton>
+                  </div>
                 </div>
-                <div className="hidden flex-col gap-3 sm:flex">
-                  <StoreButtons
-                    locale={locale}
-                    source="hero_primary"
-                    a11y={dict.a11y}
-                    labelMode="download"
-                  />
-                  <CTAButton
-                    href="#how-it-works"
-                    variant="ghost"
-                    className="min-h-[44px] w-fit"
-                    onClick={handleSecondaryClick}
-                  >
-                    {dict.hero.ctaSecondary}
-                  </CTAButton>
-                </div>
-              </div>
-            </StaggerItem>
-          </Stagger>
+              </StaggerItem>
+            </Stagger>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[min(100%,460px)] lg:mx-0 lg:w-full lg:max-w-none lg:justify-self-end">
-            <div className="relative mx-auto w-full max-w-full px-0 sm:px-4 lg:px-0">
+          <div className="relative mx-auto w-full min-w-0 max-w-[min(100%,420px)] lg:mx-0 lg:max-w-none lg:justify-self-end">
+            <div className="relative mx-auto w-full">
               {reduceMotion ? (
                 <HeroProduct a11y={dict.a11y} />
               ) : (
@@ -117,7 +118,7 @@ export function Hero({ locale, dict }: HeroProps) {
                   <HeroProduct a11y={dict.a11y} />
                 </motion.div>
               )}
-              <HeroProofMetrics metrics={dict.hero.metrics} />
+              <HeroProofMetrics metrics={dict.hero.metrics} className="max-w-full" />
             </div>
           </div>
         </div>

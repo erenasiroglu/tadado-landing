@@ -400,22 +400,48 @@
     "title": "简单透明的定价",
     "subtitle": "无隐藏订阅。只为所需一次性付费。",
     "disclaimer": "价格为 USD，App Store 和 Google Play 可能因地区而异。购买由 Apple 或 Google 处理。",
-    "mix": {
+    "trust": "无广告 · 无订阅 · 随时恢复购买",
+    "free": {
       "name": "Tadado Mix",
       "price": "免费",
       "desc": "免费下载，立即用经典入门卡组开玩。"
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "主题卡组",
       "price": "$0.99",
       "desc": "每套卡组一次性购买。夏日、影院、旅行、运动、英雄等。"
     },
-    "ai": {
-      "name": "AI 卡组创建",
-      "price": "$2.99",
-      "desc": "从任意主题生成自定义卡组。两种游戏模式均可玩。"
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "无广告 · 无订阅 · 随时恢复购买"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "如何运作",

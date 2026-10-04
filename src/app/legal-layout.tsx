@@ -12,7 +12,7 @@ export function LegalPageShell({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col brand-gradient-bg">
+    <div className="flex min-h-screen flex-col">
       <Header locale={locale} dict={dict} />
       {children}
       <Footer locale={locale} dict={dict} />

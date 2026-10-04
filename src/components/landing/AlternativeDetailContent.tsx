@@ -36,13 +36,13 @@ function CompareCell({ value, dict }: { value: CellValue; dict: Dictionary }) {
   }
   if (value === "partial") {
     return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber/10 text-amber">
+      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-lilac text-ink">
         <Minus className="h-4 w-4" aria-hidden />
         <span className="sr-only">{dict.a11y.partial}</span>
       </span>
     );
   }
-  return <span className="text-sm text-cream/75">{value}</span>;
+  return <span className="text-sm text-muted-foreground">{value}</span>;
 }
 
 interface AlternativeDetailContentProps {
@@ -59,21 +59,21 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
 
   return (
     <article className="max-w-3xl">
-      <nav className="text-sm text-lavender/80" aria-label="Breadcrumb">
+      <nav className="text-sm text-muted-foreground" aria-label="Breadcrumb">
         <ol className="flex flex-wrap items-center gap-2">
           <li>
-            <Link href={localeHref(locale)} className="hover:text-amber">
+            <Link href={localeHref(locale)} className="hover:text-ink">
               Tadado
             </Link>
           </li>
           <li aria-hidden>/</li>
           <li>
-            <Link href={localeHref(locale, "compare")} className="hover:text-amber">
+            <Link href={localeHref(locale, "compare")} className="hover:text-ink">
               {compareLabel}
             </Link>
           </li>
           <li aria-hidden>/</li>
-          <li className="text-cream">{content.h1.split(":")[0]?.trim() ?? content.h1}</li>
+          <li className="text-foreground">{content.h1.split(":")[0]?.trim() ?? content.h1}</li>
         </ol>
       </nav>
 
@@ -82,25 +82,25 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
       </div>
 
       <header className="mt-8">
-        <p className="text-xs font-semibold uppercase tracking-widest text-amber/90">{hubLabel}</p>
-        <h1 className="mt-3 text-balance text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">
+        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{hubLabel}</p>
+        <h1 className="mt-3 text-balance text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
           {content.h1}
         </h1>
-        <p className="mt-4 text-lg leading-relaxed text-cream/75">{content.heroSubtitle}</p>
+        <p className="mt-4 text-lg leading-relaxed text-muted-foreground">{content.heroSubtitle}</p>
       </header>
 
       <section className="mt-10 space-y-4">
-        <h2 className="text-xl font-bold text-cream">{content.introTitle}</h2>
+        <h2 className="text-xl font-bold text-foreground">{content.introTitle}</h2>
         {content.introParagraphs.map((paragraph) => (
-          <p key={paragraph.slice(0, 48)} className="leading-relaxed text-cream/75">
+          <p key={paragraph.slice(0, 48)} className="leading-relaxed text-muted-foreground">
             {paragraph}
           </p>
         ))}
       </section>
 
       <section className="mt-10">
-        <h2 className="text-xl font-bold text-cream">{content.reasonsTitle}</h2>
-        <ul className="mt-4 list-disc space-y-2 pl-5 text-cream/75">
+        <h2 className="text-xl font-bold text-foreground">{content.reasonsTitle}</h2>
+        <ul className="mt-4 list-disc space-y-2 pl-5 text-muted-foreground">
           {content.reasons.map((reason) => (
             <li key={reason}>{reason}</li>
           ))}
@@ -108,14 +108,14 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-bold text-cream">{content.compareTitle}</h2>
-        <p className="mt-2 text-sm text-cream/60">{content.compareSubtitle}</p>
+        <h2 className="text-xl font-bold text-foreground">{content.compareTitle}</h2>
+        <p className="mt-2 text-sm text-muted-foreground">{content.compareSubtitle}</p>
 
-        <div className="mt-6 overflow-hidden rounded-3xl border border-white/10">
-          <div className="hidden md:grid md:grid-cols-[1.4fr_1fr_1fr] border-b border-white/10 bg-white/[0.04] px-6 py-4 text-sm font-semibold text-cream">
+        <div className="mt-6 overflow-hidden rounded-3xl border border-border">
+          <div className="hidden md:grid md:grid-cols-[1.4fr_1fr_1fr] border-b border-border surface-paper px-6 py-4 text-sm font-semibold text-foreground">
             <span>{dict.compare.columns.feature}</span>
-            <span className="text-center text-amber">{content.compareColumnTadado}</span>
-            <span className="text-center text-cream/60">{content.compareColumnOther}</span>
+            <span className="text-center text-ink">{content.compareColumnTadado}</span>
+            <span className="text-center text-muted-foreground">{content.compareColumnOther}</span>
           </div>
           <ul className="divide-y divide-white/8">
             {content.compareRows.map((row) => (
@@ -123,15 +123,15 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
                 key={row.feature}
                 className="grid gap-3 px-5 py-4 md:grid-cols-[1.4fr_1fr_1fr] md:items-center md:gap-6 md:px-6"
               >
-                <p className="text-sm font-medium text-cream md:text-[15px]">{row.feature}</p>
+                <p className="text-sm font-medium text-foreground md:text-[15px]">{row.feature}</p>
                 <div className="flex items-center justify-between gap-3 md:justify-center">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-amber md:hidden">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-ink md:hidden">
                     {content.compareColumnTadado}
                   </span>
                   <CompareCell value={row.tadado as CellValue} dict={dict} />
                 </div>
                 <div className="flex items-center justify-between gap-3 md:justify-center">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-cream/50 md:hidden">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground md:hidden">
                     {content.compareColumnOther}
                   </span>
                   <CompareCell value={row.alternative as CellValue} dict={dict} />
@@ -140,26 +140,26 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
             ))}
           </ul>
         </div>
-        <p className="mt-6 text-sm leading-relaxed text-cream/65">{content.compareNote}</p>
+        <p className="mt-6 text-sm leading-relaxed text-muted-foreground">{content.compareNote}</p>
       </section>
 
       {content.faq.length > 0 ? (
         <section className="mt-12">
-          <h2 className="text-xl font-bold text-cream">{content.faqTitle}</h2>
+          <h2 className="text-xl font-bold text-foreground">{content.faqTitle}</h2>
           <dl className="mt-6 space-y-6">
             {content.faq.map((item) => (
               <div key={item.q}>
-                <dt className="font-semibold text-cream">{item.q}</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-cream/70">{item.a}</dd>
+                <dt className="font-semibold text-foreground">{item.q}</dt>
+                <dd className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.a}</dd>
               </div>
             ))}
           </dl>
         </section>
       ) : null}
 
-      <section className="mt-12 rounded-2xl border border-amber/20 bg-amber/[0.06] px-6 py-8">
-        <h2 className="text-xl font-bold text-cream">{content.ctaTitle}</h2>
-        <p className="mt-3 text-cream/75">{content.ctaBody}</p>
+      <section className="mt-12 rounded-2xl border border-border bg-ink/[0.06] px-6 py-8">
+        <h2 className="text-xl font-bold text-foreground">{content.ctaTitle}</h2>
+        <p className="mt-3 text-muted-foreground">{content.ctaBody}</p>
         <TrackedOutboundLink
           href={downloadUrl}
           locale={locale}
@@ -172,13 +172,13 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
       </section>
 
       <section className="mt-12">
-        <h2 className="text-lg font-bold text-cream">{content.relatedTitle}</h2>
+        <h2 className="text-lg font-bold text-foreground">{content.relatedTitle}</h2>
         <ul className="mt-4 flex flex-col gap-2">
           {related.map((id) => (
             <li key={id}>
               <Link
                 href={getAlternativeHref(locale, id)}
-                className="text-sm font-semibold text-amber hover:text-amber/80"
+                className="text-sm font-semibold text-ink hover:text-muted-foreground"
               >
                 {getAlternativeLinkLabel(locale, id)} →
               </Link>
@@ -187,7 +187,7 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
           <li>
             <Link
               href={localeHref(locale, "compare")}
-              className="text-sm font-semibold text-lavender/90 hover:text-amber"
+              className="text-sm font-semibold text-muted-foreground hover:text-ink"
             >
               {compareLabel} →
             </Link>
@@ -195,7 +195,7 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
         </ul>
       </section>
 
-      <p className="mt-12 text-xs leading-relaxed text-cream/40">{content.disclaimer}</p>
+      <p className="mt-12 text-xs leading-relaxed text-muted-foreground">{content.disclaimer}</p>
     </article>
   );
 }

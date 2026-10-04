@@ -15,10 +15,10 @@ export function Cta({ locale, dict }: CtaProps) {
   return (
     <LandingSection analyticsSection="cta" reveal>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">
+        <h2 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
           {dict.cta.title}
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-lg text-cream/75">{dict.cta.subtitle}</p>
+        <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">{dict.cta.subtitle}</p>
         <TrackedOutboundLink
           href={getAppStoreUrl(locale)}
           locale={locale}

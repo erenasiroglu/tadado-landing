@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
+import { BrandLockup } from "@/components/brand/brand-lockup";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getAppStoreUrl } from "@/lib/store-links";
 
@@ -15,7 +15,7 @@ interface HeaderProps {
 }
 
 const navLinkClass =
-  "cursor-pointer text-sm font-medium text-cream/70 transition-colors hover:text-cream";
+  "cursor-pointer text-sm font-medium text-muted-foreground transition-colors hover:text-ink";
 
 function homeHref(locale: Locale, hash: string) {
   return `${localeHref(locale)}${hash}`;
@@ -34,21 +34,9 @@ export function Header({ locale, dict }: HeaderProps) {
   ] as const;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/8 bg-[#1a0f28]/85 backdrop-blur-md">
-      <div className="section-shell flex h-14 items-center justify-between gap-4">
-        <Link
-          href={localeHref(locale)}
-          className="flex shrink-0 cursor-pointer items-center gap-2.5"
-        >
-          <Image
-            src="/images/tadado_icon.png"
-            alt={dict.a11y.tadadoLogo}
-            width={32}
-            height={32}
-            className="rounded-lg"
-          />
-          <span className="text-base font-extrabold tracking-wide text-cream">Tadado</span>
-        </Link>
+    <header className="sticky top-0 z-50 border-b border-border/60 bg-paper/72 backdrop-blur-md">
+      <div className="section-shell flex h-14 items-center justify-between gap-4 md:h-16">
+        <BrandLockup locale={locale} logoAlt={dict.a11y.tadadoLogo} />
 
         <DecksNavCrawlLinks locale={locale} dict={dict} />
         <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>

@@ -10,6 +10,7 @@ import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
+import { ModeFilterButtons, type GameModeFilter } from "./primitives/ModeFilterButtons";
 import { SectionHeading } from "./SectionHeading";
 
 interface GameModeShowcaseProps {
@@ -17,14 +18,12 @@ interface GameModeShowcaseProps {
   dict: Dictionary;
 }
 
-type ActiveMode = "taboo" | "headsup";
-
 export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
   const reduceMotion = useReducedMotion();
-  const [activeMode, setActiveMode] = useState<ActiveMode>("taboo");
+  const [activeMode, setActiveMode] = useState<GameModeFilter>("taboo");
   const startedRef = useRef(false);
 
-  function selectMode(mode: ActiveMode) {
+  function selectMode(mode: GameModeFilter) {
     if (!startedRef.current) {
       startedRef.current = true;
       trackEvent({
@@ -40,7 +39,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
     });
   }
 
-  const modes: { key: ActiveMode; title: string; body: string; badge?: string }[] = [
+  const modes: { key: GameModeFilter; title: string; body: string; badge?: string }[] = [
     {
       key: "taboo",
       title: dict.modes.tabooTitle,
@@ -60,23 +59,14 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
     <LandingSection id="modes" analyticsSection="modes" tone="contrast" density="compact" reveal>
       <SectionHeading title={dict.modes.title} subtitle={dict.modes.subtitle} />
 
-      <div className="mt-6 flex flex-wrap justify-center gap-2 lg:justify-start">
-        {modes.map((mode) => (
-          <button
-            key={mode.key}
-            type="button"
-            onClick={() => selectMode(mode.key)}
-            className={cn(
-              "min-h-[44px] rounded-full px-5 text-sm font-bold transition-colors",
-              activeMode === mode.key
-                ? "bg-amber text-[#2a0a3b]"
-                : "border border-white/12 bg-white/[0.04] text-cream/75 hover:text-cream",
-            )}
-          >
-            {mode.title}
-          </button>
-        ))}
-      </div>
+      <ModeFilterButtons
+        className="mt-6"
+        activeMode={activeMode}
+        onSelect={selectMode}
+        tabooLabel={dict.modes.tabooTitle}
+        headsUpLabel={dict.modes.headsUpTitle}
+        ariaLabel={dict.modes.title}
+      />
 
       <div className="mt-8 flex flex-col gap-8 lg:grid lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] lg:items-center">
         <AnimatePresence mode="wait">
@@ -90,26 +80,26 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
           >
             {activeCopy ? (
               <div>
-                <p className="text-xs font-bold uppercase tracking-[0.16em] text-amber/80">
+                <p className="text-xs font-bold uppercase tracking-[0.16em] text-muted-foreground">
                   {activeMode === "taboo"
                     ? dict.modes.showcase.portraitGameplay
                     : dict.modes.showcase.landscapeGameplay}
                 </p>
                 <div className="mt-2 flex items-center gap-2">
-                  <h3 className="text-2xl font-bold text-cream">{activeCopy.title}</h3>
+                  <h3 className="text-2xl font-bold text-foreground">{activeCopy.title}</h3>
                   {activeCopy.badge ? (
-                    <span className="rounded-md border border-amber/30 bg-amber/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber">
+                    <span className="rounded-md border border-border bg-lilac px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-ink">
                       {activeCopy.badge}
                     </span>
                   ) : null}
                 </div>
-                <p className="mt-3 max-w-md text-base text-cream/75">{activeCopy.body}</p>
+                <p className="mt-3 max-w-md text-base text-muted-foreground">{activeCopy.body}</p>
                 {activeMode === "taboo" ? (
-                  <div className="mt-5 max-w-md rounded-xl border border-amber/20 bg-amber/[0.06] p-3.5">
-                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/90">
+                  <div className="mt-5 max-w-md rounded-xl border border-border bg-ink/[0.06] p-3.5">
+                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
                       {dict.modes.showcase.buildScoreTitle}
                     </p>
-                    <p className="mt-1.5 text-sm leading-relaxed text-cream/70">
+                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
                       {dict.modes.showcase.buildScoreBody}
                     </p>
                     <div
@@ -122,13 +112,13 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                             className={cn(
                               "inline-flex h-8 min-w-10 items-center justify-center rounded-lg border px-2 text-sm font-black",
                               index === 2
-                                ? "border-amber bg-amber text-[#2a0a3b]"
-                                : "border-amber/25 bg-white/[0.05] text-amber",
+                                ? "surface-obsidian border-transparent text-cream"
+                                : "border-border bg-mist text-ink",
                             )}
                           >
                             {multiplier}
                           </span>
-                          {index < 2 ? <span className="text-cream/35" aria-hidden>→</span> : null}
+                          {index < 2 ? <span className="text-muted-foreground" aria-hidden>→</span> : null}
                         </span>
                       ))}
                     </div>

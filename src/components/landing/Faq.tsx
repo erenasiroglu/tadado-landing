@@ -32,11 +32,11 @@ export function Faq({ dict }: FaqProps) {
               subtitle={dict.faq.subtitle}
               align="left"
             />
-            <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.03] p-5">
-              <p className="text-sm font-semibold text-cream">{dict.footer.support}</p>
+            <div className="mt-8 rounded-2xl border border-border bg-white/[0.03] p-5">
+              <p className="text-sm font-semibold text-foreground">{dict.footer.support}</p>
               <a
                 href={`mailto:${BRAND.supportEmail}`}
-                className="mt-2 inline-flex items-center gap-2 text-sm text-lavender transition-colors hover:text-amber"
+                className="mt-2 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-ink"
               >
                 <Mail className="h-4 w-4 shrink-0" aria-hidden />
                 {BRAND.supportEmail}
@@ -64,14 +64,14 @@ export function Faq({ dict }: FaqProps) {
               <AccordionItem
                 key={item.q}
                 value={`item-${index}`}
-                className="overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-b from-white/[0.05] to-white/[0.02] px-5 shadow-sm shadow-black/10 transition-colors hover:border-white/15 border-b-0"
+                className="overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-white/[0.05] to-white/[0.02] px-5 shadow-sm shadow-black/10 transition-colors hover:border-border border-b-0"
               >
                 <AccordionTrigger
-                  className="py-4 text-left text-[15px] font-semibold leading-snug text-cream hover:text-amber hover:no-underline sm:text-base"
+                  className="py-4 text-left text-[15px] font-semibold leading-snug text-foreground hover:text-ink hover:no-underline sm:text-base"
                 >
                   {item.q}
                 </AccordionTrigger>
-                <AccordionContent className="pb-4 text-sm leading-relaxed text-cream/70">
+                <AccordionContent className="pb-4 text-sm leading-relaxed text-muted-foreground">
                   {item.a}
                 </AccordionContent>
               </AccordionItem>

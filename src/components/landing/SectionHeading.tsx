@@ -12,18 +12,18 @@ export function SectionHeading({
   align = "center",
 }: SectionHeadingProps) {
   return (
-    <div className={align === "center" ? "text-center" : "text-start"}>
-      {eyebrow ? (
-        <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-amber/90">
-          {eyebrow}
-        </p>
-      ) : null}
-      <h2 className="text-balance text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">
-        {title}
-      </h2>
+    <div
+      className={
+        align === "center"
+          ? "flex flex-col items-center gap-6 text-center"
+          : "flex flex-col gap-4 text-start"
+      }
+    >
+      {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
+      <h2 className="text-display text-balance">{title}</h2>
       {subtitle ? (
         <p
-          className={`mt-3 max-w-2xl text-base text-cream/70 sm:text-lg ${
+          className={`max-w-2xl text-xl text-muted-foreground ${
             align === "center" ? "mx-auto" : ""
           }`}
         >

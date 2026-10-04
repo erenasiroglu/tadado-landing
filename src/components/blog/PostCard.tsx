@@ -12,16 +12,16 @@ interface PostCardProps {
 export function PostCard({ locale, post, readMore }: PostCardProps) {
   return (
     <article className="glass rounded-2xl p-6">
-      <time className="text-xs text-lavender" dateTime={post.date}>{post.date}</time>
-      <h2 className="mt-2 text-xl font-bold text-cream">
-        <Link href={localeHref(locale, `blog/${post.slug}`)} className="hover:text-amber">
+      <time className="text-xs text-muted-foreground" dateTime={post.date}>{post.date}</time>
+      <h2 className="mt-2 text-xl font-bold text-foreground">
+        <Link href={localeHref(locale, `blog/${post.slug}`)} className="hover:text-ink">
           {post.title}
         </Link>
       </h2>
-      <p className="mt-3 text-cream/70">{post.description}</p>
+      <p className="mt-3 text-muted-foreground">{post.description}</p>
       <Link
         href={localeHref(locale, `blog/${post.slug}`)}
-        className="mt-4 inline-block text-sm font-semibold text-amber hover:underline"
+        className="mt-4 inline-block text-sm font-semibold text-ink hover:underline"
       >
         {readMore}
       </Link>

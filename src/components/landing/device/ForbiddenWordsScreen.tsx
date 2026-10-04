@@ -69,8 +69,8 @@ export function ForbiddenWordsScreen({
         >
           <ForbiddenWordsPreview
             shellWidth={metrics.innerWidth}
-            word={displayWord}
-            forbidden={[...displayForbidden]}
+            word={loading ? "" : displayWord}
+            forbidden={loading ? [] : [...displayForbidden]}
             labels={labels}
             loading={loading}
           />

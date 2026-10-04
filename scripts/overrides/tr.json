@@ -344,23 +344,44 @@
   "pricing": {
     "title": "Basit, dürüst fiyatlandırma",
     "subtitle": "Gizli abonelik yok. İstediğin için bir kez öde.",
-    "disclaimer": "Fiyatlar USD cinsindendir ve App Store ile Google Play'de bölgeye göre değişebilir. Satın alımlar Apple veya Google üzerinden yapılır.",
-    "mix": {
+    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Satın alımlar Apple veya Google üzerinden yapılır.",
+    "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle",
+    "free": {
       "name": "Tadado Mix",
       "price": "Ücretsiz",
       "desc": "Ücretsiz indir ve klasik başlangıç destesiyle hemen oyna."
     },
-    "theme": {
-      "name": "Temalı desteler",
-      "price": "$0.99",
+    "aiSectionTitle": "Yapay zeka ile deste oluşturma",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "99,99 TL",
+        "desc": "10 yapay zeka deste oluşturma hakkı — istediğin konudan özel deste."
+      },
+      {
+        "name": "Plus",
+        "price": "199 TL",
+        "desc": "30 yapay zeka deste oluşturma hakkı.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "349,99 TL",
+        "desc": "100 yapay zeka deste oluşturma hakkı."
+      }
+    ],
+    "decksSectionTitle": "Premium desteler",
+    "singleDeck": {
+      "name": "Tek premium deste",
+      "price": "49,99 TL",
       "desc": "Deste başına tek seferlik satın alma. Yaz, Sinema, Seyahat, Spor, Kahramanlar ve daha fazlası."
     },
-    "ai": {
-      "name": "Yapay zeka deste oluşturma",
-      "price": "$2.99",
-      "desc": "Herhangi bir konudan özel deste üret. İki oyun modunda da oyna."
-    },
-    "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle"
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "499 TL",
+      "desc": "100+ premium deste — uygulamadaki tüm temalı paketler.",
+      "highlight": true
+    }
   },
   "howItWorks": {
     "title": "Nasıl çalışır",

@@ -55,8 +55,8 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
                 "inline-flex h-8 shrink-0 cursor-pointer items-center justify-center rounded-lg px-3",
                 "border text-xs font-semibold leading-none transition-colors",
                 isSelected
-                  ? "border-amber/55 bg-amber/15 text-cream shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
-                  : "border-white/12 bg-white/[0.04] text-cream/85 hover:border-white/22 hover:bg-white/[0.08] hover:text-cream",
+                  ? "border-border bg-lilac text-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
+                  : "border-border surface-paper text-muted-foreground hover:border-white/22 hover:bg-lilac hover:text-foreground",
               )}
             >
               {item.label}
@@ -75,7 +75,7 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
             >
-              <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/90">
+              <p className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
                 {selected.label}
               </p>
               <div className="mt-4 flex justify-center">
@@ -86,7 +86,7 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
                   showGlow
                 />
               </div>
-              <p className="mt-4 text-center text-sm text-lavender">{selected.topic}</p>
+              <p className="mt-4 text-center text-sm text-muted-foreground">{selected.topic}</p>
             </motion.div>
           </AnimatePresence>
         </div>

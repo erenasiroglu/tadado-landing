@@ -26,16 +26,16 @@ export function Team({ dict, locale }: TeamProps) {
             align="left"
           />
           <Reveal className="mt-5">
-            <p className="max-w-2xl text-base leading-relaxed text-cream/75 sm:text-lg">
+            <p className="max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
               {content.intro}
             </p>
           </Reveal>
         </div>
         <div className="team-page-intro__signal">
-          <span className="text-xs font-bold uppercase tracking-[0.16em] text-amber/85">
+          <span className="text-xs font-bold uppercase tracking-[0.16em] text-muted-foreground">
             {content.brandLine}
           </span>
-          <span className="mt-2 block text-sm leading-relaxed text-cream/70">{content.brandTagline}</span>
+          <span className="mt-2 block text-sm leading-relaxed text-muted-foreground">{content.brandTagline}</span>
         </div>
       </div>
 
@@ -53,10 +53,10 @@ export function Team({ dict, locale }: TeamProps) {
 
       <Reveal className="mt-10">
         <div className="surface-card max-w-2xl p-5 sm:p-6">
-          <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/85">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
             {content.joinCta.title}
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-cream/70">{content.joinCta.body}</p>
+          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{content.joinCta.body}</p>
           <div className="mt-5">
             <Link href={localeHref(locale, "partnerships")} className="team-join-button">
               {content.joinCta.link} →

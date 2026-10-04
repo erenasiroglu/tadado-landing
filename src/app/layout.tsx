@@ -11,8 +11,8 @@ import "./globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700", "800", "900"],
   display: "swap",
 });
 
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       data-scroll-behavior="smooth"
       className={cn("h-full antialiased", poppins.variable)}
     >
-      <body className="min-h-full flex flex-col font-sans">
+      <body className="flex min-h-full flex-col bg-paper font-sans text-foreground antialiased">
         <AnalyticsScripts />
         <AttributionProvider />
         <TooltipProvider>{children}</TooltipProvider>

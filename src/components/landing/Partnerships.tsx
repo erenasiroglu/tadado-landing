@@ -28,9 +28,9 @@ function ContactCard({
 
   return (
     <article className="surface-card p-5">
-      <h3 className="font-bold text-cream">{title}</h3>
-      <p className="mt-2 text-sm leading-relaxed text-cream/70">{body}</p>
-      <a href={href} className="mt-4 inline-block text-sm font-semibold text-amber hover:text-amber/80">
+      <h3 className="font-bold text-foreground">{title}</h3>
+      <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{body}</p>
+      <a href={href} className="mt-4 inline-block text-sm font-semibold text-ink hover:text-muted-foreground">
         {cta} →
       </a>
     </article>
@@ -54,7 +54,7 @@ export function Partnerships({
       />
 
       {isPage && content.pageNote ? (
-        <p className="mt-6 max-w-2xl text-cream/75 leading-relaxed">{content.pageNote}</p>
+        <p className="mt-6 max-w-2xl text-muted-foreground leading-relaxed">{content.pageNote}</p>
       ) : null}
 
       <div className={cn("grid gap-4 md:grid-cols-3", isPage ? "mt-10" : "mt-10")}>
@@ -79,8 +79,8 @@ export function Partnerships({
       </div>
 
       {isPage ? (
-        <p className="mt-8 text-sm text-lavender">
-          <a href={`mailto:${BRAND.supportEmail}`} className="hover:text-amber">
+        <p className="mt-8 text-sm text-muted-foreground">
+          <a href={`mailto:${BRAND.supportEmail}`} className="hover:text-ink">
             {BRAND.supportEmail}
           </a>
         </p>
@@ -90,7 +90,7 @@ export function Partnerships({
         <p className="mt-8 text-center">
           <Link
             href={localeHref(locale, "partnerships")}
-            className="text-sm font-semibold text-amber hover:text-amber/80"
+            className="text-sm font-semibold text-ink hover:text-muted-foreground"
           >
             {content.learnMore} →
           </Link>

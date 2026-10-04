@@ -36,7 +36,7 @@ export function BlogTeaser({ locale, dict, posts, compact = false }: BlogTeaserP
             <SectionHeading title={dict.blog.title} align="left" />
             <Link
               href={localeHref(locale, "blog")}
-              className={buttonVariants({ variant: "link", className: "px-0 text-amber" })}
+              className={buttonVariants({ variant: "link", className: "px-0 text-ink" })}
               onClick={() => {
                 trackEvent({
                   event: ANALYTICS_EVENTS.BLOG_VIEW_ALL_CLICK,
@@ -51,14 +51,14 @@ export function BlogTeaser({ locale, dict, posts, compact = false }: BlogTeaserP
         <div className={cn("grid gap-6", compact ? "mt-6 md:grid-cols-1" : "mt-12 md:grid-cols-3")}>
           {latest.map((post) => (
             <div key={post.slug} className="surface-card p-6">
-              <time className="text-xs text-lavender" dateTime={post.date}>
+              <time className="text-xs text-muted-foreground" dateTime={post.date}>
                 {post.date}
               </time>
-              <h3 className="mt-2 text-lg font-bold text-cream">{post.title}</h3>
-              <p className="mt-2 line-clamp-3 text-sm text-cream/70">{post.description}</p>
+              <h3 className="mt-2 text-lg font-bold text-foreground">{post.title}</h3>
+              <p className="mt-2 line-clamp-3 text-sm text-muted-foreground">{post.description}</p>
               <Link
                 href={localeHref(locale, `blog/${post.slug}`)}
-                className={cn(buttonVariants({ variant: "link" }), "mt-4 px-0 text-amber")}
+                className={cn(buttonVariants({ variant: "link" }), "mt-4 px-0 text-ink")}
                 onClick={() => {
                   trackEvent({
                     event: ANALYTICS_EVENTS.BLOG_POST_CLICK,
@@ -75,7 +75,7 @@ export function BlogTeaser({ locale, dict, posts, compact = false }: BlogTeaserP
           <div className="mt-8 text-center">
             <Link
               href={localeHref(locale, "blog")}
-              className={buttonVariants({ variant: "link", className: "text-amber" })}
+              className={buttonVariants({ variant: "link", className: "text-ink" })}
               onClick={() => {
                 trackEvent({
                   event: ANALYTICS_EVENTS.BLOG_VIEW_ALL_CLICK,

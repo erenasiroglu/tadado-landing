@@ -151,7 +151,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
 
   return (
     <LandingSection id="ai-decks" analyticsSection="ai_deck_builder" tone="contrast" density="compact">
-      <div className="rounded-xl border border-cream/10 bg-[#1c1129]/80 p-5 lg:p-7">
+      <div className="surface-paper rounded-xl p-5 lg:p-7">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
           <div>
             <SectionHeading title={dict.ai.title} subtitle={dict.ai.subtitle} align="left" />
@@ -166,10 +166,10 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                       className={cn(
                         "flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold",
                         done
-                          ? "bg-amber text-[#2a0a3b]"
+                          ? "bg-ink text-cream"
                           : active
-                            ? "border border-amber/50 bg-amber/15 text-amber"
-                            : "border border-white/10 bg-white/5 text-lavender/60",
+                            ? "border border-border bg-lilac text-ink"
+                            : "border border-border bg-mist text-muted-foreground",
                       )}
                     >
                       {index + 1}
@@ -177,7 +177,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                     <p
                       className={cn(
                         "truncate text-xs",
-                        active || done ? "font-semibold text-cream" : "text-lavender/65",
+                        active || done ? "font-semibold text-foreground" : "text-muted-foreground",
                       )}
                     >
                       {label}
@@ -203,20 +203,18 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
               })}
             </div>
 
-            <div className="mt-6 rounded-xl border border-white/10 bg-[#1C0B2E] px-4 py-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-lavender">
-                {dict.ai.inputLabel}
-              </p>
-              <div className="mt-3 min-h-[52px] font-medium text-cream">
+            <div className="mt-6 rounded-xl border border-input bg-paper px-4 py-4 shadow-pill">
+              <p className="eyebrow text-[0.6875rem]">{dict.ai.inputLabel}</p>
+              <div className="mt-3 min-h-[52px] text-lg font-medium text-ink">
                 <span>{typedTopic}</span>
                 {phase === "typing" ? (
-                  <span className="ai-typing-cursor ml-0.5 inline-block h-4 w-0.5 bg-amber" />
+                  <span className="ai-typing-cursor ml-0.5 inline-block h-5 w-0.5 bg-ink" />
                 ) : null}
               </div>
             </div>
 
             <div className="mt-5">
-              <p className="mb-2 text-sm font-medium text-cream">{dict.ai.difficulty}</p>
+              <p className="mb-2 text-sm font-medium text-foreground">{dict.ai.difficulty}</p>
               <div className="flex flex-wrap gap-2">
                 {difficulties.map((item) => (
                   <button
@@ -225,10 +223,10 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                     disabled={isBusy}
                     onClick={() => onDifficultyChange(item.key)}
                     className={cn(
-                      "rounded-xl border px-4 py-2 text-sm font-semibold transition",
+                      "rounded-full border px-5 py-2.5 text-sm font-extrabold tracking-tight transition",
                       difficulty === item.key
-                        ? "border-lavender/40 bg-white/10 text-cream"
-                        : "border-white/12 bg-white/5 text-lavender hover:text-cream",
+                        ? "surface-obsidian border-transparent text-cream"
+                        : "border-border bg-paper/90 text-ink shadow-pill hover:bg-paper",
                       isBusy && "cursor-not-allowed opacity-60",
                     )}
                   >
@@ -241,10 +239,10 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                 disabled={isBusy}
                 onClick={onCreate}
                 className={cn(
-                  "mt-5 flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-xl text-[17px] font-bold transition-colors sm:w-auto sm:min-w-[220px] sm:px-8",
+                  "mt-5 flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-full text-base font-extrabold transition sm:w-auto sm:min-w-[220px] sm:px-8",
                   isBusy
-                    ? "cursor-not-allowed bg-white/6 text-[#F5F0FF]/40"
-                    : "bg-violet-700/70 text-white shadow-lg shadow-violet-900/30 hover:bg-violet-600/80",
+                    ? "cursor-not-allowed bg-mist text-muted-foreground"
+                    : "surface-obsidian text-cream",
                 )}
               >
                 <Sparkles className="h-5 w-5" />
@@ -293,15 +291,15 @@ function SimulationStep({
         className={cn(
           "flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold transition",
           done
-            ? "bg-amber text-[#2a0a3b]"
+            ? "bg-ink text-cream"
             : active
-              ? "border border-amber/50 bg-amber/15 text-amber"
-              : "border border-white/10 bg-white/5 text-lavender/60",
+              ? "border border-border bg-lilac text-ink"
+              : "border border-border bg-mist text-muted-foreground",
         )}
       >
         {step}
       </div>
-      <p className={cn("text-sm", active || done ? "font-semibold text-cream" : "text-lavender/65")}>
+      <p className={cn("text-sm", active || done ? "font-semibold text-foreground" : "text-muted-foreground")}>
         {label}
       </p>
     </div>

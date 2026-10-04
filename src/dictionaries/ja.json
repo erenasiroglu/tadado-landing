@@ -400,22 +400,48 @@
     "title": "シンプルで正直な料金",
     "subtitle": "隠れたサブスクなし。必要なものだけ一度だけ購入。",
     "disclaimer": "価格はUSD表示。App StoreとGoogle Playで地域により異なる場合があります。購入はAppleまたはGoogleが処理します。",
-    "mix": {
+    "trust": "広告なし · サブスクなし · いつでも購入を復元",
+    "free": {
       "name": "Tadado Mix",
       "price": "無料",
       "desc": "無料ダウンロードですぐにクラシックスターターデッキでプレイ。"
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "テーマデッキ",
       "price": "$0.99",
       "desc": "デッキごとの買い切り。サマー、シネマ、トラベル、スポーツ、ヒーローズなど。"
     },
-    "ai": {
-      "name": "AIデッキ作成",
-      "price": "$2.99",
-      "desc": "任意のトピックからカスタムデッキを生成。両モードでプレイ。"
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "広告なし · サブスクなし · いつでも購入を復元"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "使い方",

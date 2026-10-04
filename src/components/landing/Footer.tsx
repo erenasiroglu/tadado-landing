@@ -22,7 +22,7 @@ interface FooterColumnProps {
 function FooterColumn({ title, children }: FooterColumnProps) {
   return (
     <div>
-      <p className="text-xs font-bold uppercase tracking-[0.14em] text-amber/80">{title}</p>
+      <p className="eyebrow text-[0.6875rem]">{title}</p>
       <ul className="mt-3 space-y-2 text-sm">{children}</ul>
     </div>
   );
@@ -31,7 +31,7 @@ function FooterColumn({ title, children }: FooterColumnProps) {
 function FooterLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <li>
-      <Link href={href} className="text-lavender transition-colors hover:text-amber">
+      <Link href={href} className="text-muted-foreground transition-colors hover:text-ink">
         {children}
       </Link>
     </li>
@@ -42,7 +42,7 @@ export function Footer({ locale, dict }: FooterProps) {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-cream/8 bg-[#1c1129] py-12">
+    <footer className="border-t border-border bg-mist py-12">
       <div className="section-shell">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
@@ -54,10 +54,12 @@ export function Footer({ locale, dict }: FooterProps) {
                 height={32}
                 className="rounded-lg"
               />
-              <span className="font-extrabold text-cream">TADADO</span>
+              <span className="text-xl font-black tracking-[-0.055em] text-ink lowercase">
+                tadado
+              </span>
             </div>
-            <p className="mt-3 text-sm text-cream/65">{dict.footer.tagline}</p>
-            <p className="mt-1 text-xs text-lavender/80">{dict.footer.developer}</p>
+            <p className="mt-3 text-sm text-muted-foreground">{dict.footer.tagline}</p>
+            <p className="mt-1 text-xs text-muted-foreground">{dict.footer.developer}</p>
             <StoreButtons locale={locale} source="hero_badges" a11y={dict.a11y} className="mt-6" />
           </div>
 
@@ -91,7 +93,7 @@ export function Footer({ locale, dict }: FooterProps) {
               <li>
                 <a
                   href={`mailto:${BRAND.supportEmail}`}
-                  className="text-lavender transition-colors hover:text-amber"
+                  className="text-muted-foreground transition-colors hover:text-ink"
                 >
                   {dict.footer.help}
                 </a>
@@ -141,7 +143,7 @@ export function Footer({ locale, dict }: FooterProps) {
           </div>
         </div>
 
-        <p className="mt-10 text-center text-xs text-cream/45">
+        <p className="mt-10 text-center text-xs text-muted-foreground">
           {dict.footer.copyright.replace("{{year}}", String(year))}
         </p>
       </div>

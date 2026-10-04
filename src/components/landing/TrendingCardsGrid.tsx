@@ -1,6 +1,7 @@
 "use client";
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useState } from "react";
+
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n-config";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
@@ -9,6 +10,7 @@ import { trackEvent } from "@/lib/tracking";
 
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
 import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
+import { ModeFilterButtons, type GameModeFilter } from "./primitives/ModeFilterButtons";
 import { TrendingDeckPlayButton } from "./TrendingDeckPlayButton";
 
 const TABOO_DEVICE_WIDTH = 208;
@@ -26,48 +28,43 @@ interface TrendingCardsGridProps {
 }
 
 export function TrendingCardsGrid({ locale, dict, maxPerMode }: TrendingCardsGridProps) {
+  const [activeMode, setActiveMode] = useState<GameModeFilter>("taboo");
   const content = getTrendingContent(locale);
   const tabooAll = content.groups.filter((g) => g.mode === "taboo");
   const headsUpAll = content.groups.filter((g) => g.mode === "headsup");
   const tabooGroups = maxPerMode ? tabooAll.slice(0, maxPerMode) : tabooAll;
   const headsUpGroups = maxPerMode ? headsUpAll.slice(0, maxPerMode) : headsUpAll;
 
-  return (
-    <Tabs
-      defaultValue="taboo"
-      onValueChange={(tab) => {
-        trackEvent({
-          event: ANALYTICS_EVENTS.TRENDING_TAB_SELECT,
-          properties: { tab, locale },
-        });
-      }}
-    >
-      <TabsList className="mb-8 grid w-full max-w-md grid-cols-2 bg-white/5">
-        <TabsTrigger
-          value="taboo"
-          className="data-[state=active]:bg-amber data-[state=active]:text-[#2a0a3b]"
-        >
-          {dict.modes.tabooTitle}
-        </TabsTrigger>
-        <TabsTrigger
-          value="headsup"
-          className="data-[state=active]:bg-amber data-[state=active]:text-[#2a0a3b]"
-        >
-          {dict.modes.headsUpTitle}
-        </TabsTrigger>
-      </TabsList>
+  function onModeSelect(mode: GameModeFilter) {
+    setActiveMode(mode);
+    trackEvent({
+      event: ANALYTICS_EVENTS.TRENDING_TAB_SELECT,
+      properties: { tab: mode, locale },
+    });
+  }
 
-      <TabsContent value="taboo" className="mt-0">
+  return (
+    <div>
+      <ModeFilterButtons
+        className="mb-8"
+        activeMode={activeMode}
+        onSelect={onModeSelect}
+        tabooLabel={dict.modes.tabooTitle}
+        headsUpLabel={dict.modes.headsUpTitle}
+        ariaLabel={dict.modes.title}
+      />
+
+      {activeMode === "taboo" ? (
         <div className="grid gap-6 md:grid-cols-2">
           {tabooGroups.map((group) => {
             const [word, ...forbidden] = group.words;
             return (
               <article key={group.id} className="surface-card relative overflow-hidden p-5 sm:p-6">
                 <div className="preview-ambient-glow" aria-hidden />
-                <p className="text-xs font-semibold uppercase tracking-wide text-lavender/80">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                   {group.label}
                 </p>
-                <h3 className="mt-1 text-lg font-bold text-cream">{group.deckLabel}</h3>
+                <h3 className="mt-1 text-lg font-bold text-foreground">{group.deckLabel}</h3>
                 <div className="relative mt-6 flex justify-center">
                   <ForbiddenWordsScreen
                     width={TABOO_DEVICE_WIDTH}
@@ -85,17 +82,15 @@ export function TrendingCardsGrid({ locale, dict, maxPerMode }: TrendingCardsGri
             );
           })}
         </div>
-      </TabsContent>
-
-      <TabsContent value="headsup" className="mt-0">
+      ) : (
         <div className="grid gap-6 md:grid-cols-2">
           {headsUpGroups.map((group) => (
             <article key={group.id} className="surface-card relative overflow-hidden p-5 sm:p-6">
               <div className="preview-ambient-glow" aria-hidden />
-              <p className="text-xs font-semibold uppercase tracking-wide text-lavender/80">
+              <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                 {group.label}
               </p>
-              <h3 className="mt-1 text-lg font-bold text-cream">{group.deckLabel}</h3>
+              <h3 className="mt-1 text-lg font-bold text-foreground">{group.deckLabel}</h3>
               <div className="relative mt-6 flex justify-center">
                 <HeadsUpScreen
                   locale={locale}
@@ -112,7 +107,7 @@ export function TrendingCardsGrid({ locale, dict, maxPerMode }: TrendingCardsGri
             </article>
           ))}
         </div>
-      </TabsContent>
-    </Tabs>
+      )}
+    </div>
   );
 }

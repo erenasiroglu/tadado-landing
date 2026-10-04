@@ -331,7 +331,7 @@ export function ForbiddenWordsPreview({
               >
                 {loading ? (
                   <div
-                    className="game-card-skeleton game-card-skeleton--word mx-auto rounded-xl"
+                    className="game-card-skeleton-glass mx-auto rounded-xl"
                     style={{
                       height: m.wordFontSize * 1.15,
                       width: "68%",
@@ -368,7 +368,7 @@ export function ForbiddenWordsPreview({
                   >
                     {loading ? (
                       <div
-                        className="game-card-skeleton rounded-full"
+                        className="game-card-skeleton-glass rounded-full"
                         style={{
                           height: m.forbiddenFontSize * 0.95,
                           width: FORBIDDEN_SKELETON_WIDTHS[index] ?? "75%",

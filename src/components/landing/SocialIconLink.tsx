@@ -42,7 +42,7 @@ export function SocialIconLink({
           variant: "ghost",
           size: showLabel || textOnly ? "sm" : "icon",
         }),
-        "text-cream/70 hover:text-amber",
+        "text-muted-foreground hover:text-ink",
         className,
       )}
     >

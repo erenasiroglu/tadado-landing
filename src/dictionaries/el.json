@@ -400,22 +400,48 @@
     "title": "Απλές, ειλικρινείς τιμές",
     "subtitle": "Χωρίς κρυφές συνδρομές. Πλήρωσε μία φορά για ό,τι θέλεις.",
     "disclaimer": "Οι τιμές είναι σε USD και μπορεί να διαφέρουν ανά περιοχή στο App Store και Google Play. Οι αγορές γίνονται από Apple ή Google.",
-    "mix": {
+    "trust": "Χωρίς διαφημίσεις · Χωρίς συνδρομή · Επαναφορά αγορών ανά πάσα στιγμή",
+    "free": {
       "name": "Tadado Mix",
       "price": "Free",
       "desc": "Κατέβασε δωρεάν και παίξε αμέσως με την κλασική τράπουλα εκκίνησης."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Θεματικές τράπουλες",
       "price": "$0.99",
       "desc": "Εφάπαξ αγορά ανά τράπουλα. Καλοκαίρι, Σινεμά, Ταξίδια, Αθλητισμός, Ήρωες και άλλα."
     },
-    "ai": {
-      "name": "Δημιουργία τράπουλας AI",
-      "price": "$2.99",
-      "desc": "Δημιούργησε προσαρμοσμένη τράπουλα από οποιοδήποτε θέμα. Παίξε και στις δύο λειτουργίες."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Χωρίς διαφημίσεις · Χωρίς συνδρομή · Επαναφορά αγορών ανά πάσα στιγμή"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Πώς λειτουργεί",

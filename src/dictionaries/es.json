@@ -400,22 +400,48 @@
     "title": "Precios claros y honestos",
     "subtitle": "Sin suscripciones ocultas. Paga una vez por lo que quieras.",
     "disclaimer": "Los precios están en USD y pueden variar según la región en el App Store y Google Play. Las compras las gestionan Apple o Google.",
-    "mix": {
+    "trust": "Sin anuncios · Sin suscripción · Restaura compras cuando quieras",
+    "free": {
       "name": "Tadado Mix",
       "price": "Gratis",
       "desc": "Descarga gratis y juega al instante con el mazo inicial clásico."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Mazos temáticos",
       "price": "$0.99",
       "desc": "Compra única por mazo. Verano, Cine, Viajes, Deporte, Héroes y más."
     },
-    "ai": {
-      "name": "Creación de mazos con IA",
-      "price": "$2.99",
-      "desc": "Genera un mazo personalizado sobre cualquier tema. Juega en ambos modos."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Sin anuncios · Sin suscripción · Restaura compras cuando quieras"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Cómo funciona",

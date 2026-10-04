@@ -39,7 +39,7 @@ export default async function TeamPage({ params }: PageProps<"/[lang]/team">) {
   return (
     <>
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#1a0f28]">
+      <main className="flex-1 ">
         <div className="section-shell py-12 md:py-14">
           <BackLink href={localeHref(locale)}>{dict.team.back}</BackLink>
           <div className="mt-8 max-w-6xl">

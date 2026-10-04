@@ -27,8 +27,8 @@ export function Modes({ locale, dict }: ModesProps) {
       <SectionHeading title={dict.modes.title} subtitle={dict.modes.subtitle} />
       <div className="mt-12 grid gap-10 lg:grid-cols-2 lg:items-stretch lg:gap-12">
         <div className="surface-card flex flex-col overflow-hidden p-6">
-          <h3 className="text-lg font-bold text-cream">{dict.modes.tabooTitle}</h3>
-          <p className="mt-2 text-cream/75">{dict.modes.tabooBody}</p>
+          <h3 className="text-lg font-bold text-foreground">{dict.modes.tabooTitle}</h3>
+          <p className="mt-2 text-muted-foreground">{dict.modes.tabooBody}</p>
           <div className="relative mt-6 flex flex-1 items-center justify-center">
             <div className="preview-ambient-glow" aria-hidden />
             <AnimatedPhoneShell>
@@ -40,11 +40,11 @@ export function Modes({ locale, dict }: ModesProps) {
         </div>
 
         <div className="surface-card relative flex flex-col overflow-hidden p-6">
-          <Badge className="absolute right-4 top-4 border-amber/30 bg-amber/15 text-amber">
+          <Badge className="absolute right-4 top-4 border-border bg-lilac text-ink">
             {dict.modes.newBadge}
           </Badge>
-          <h3 className="text-lg font-bold text-cream">{dict.modes.headsUpTitle}</h3>
-          <p className="mt-2 text-cream/75">{dict.modes.headsUpBody}</p>
+          <h3 className="text-lg font-bold text-foreground">{dict.modes.headsUpTitle}</h3>
+          <p className="mt-2 text-muted-foreground">{dict.modes.headsUpBody}</p>
           <div className="relative mt-6 flex flex-1 items-center justify-center">
             <div className="preview-ambient-glow" aria-hidden />
             <AnimatedPhoneShell delay="short">

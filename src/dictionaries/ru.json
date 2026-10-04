@@ -400,22 +400,48 @@
     "title": "Простые и честные цены",
     "subtitle": "Без скрытых подписок. Платите один раз за то, что нужно.",
     "disclaimer": "Цены в USD и могут отличаться по регионам в App Store и Google Play. Покупки обрабатываются Apple или Google.",
-    "mix": {
+    "trust": "Без рекламы · Без подписки · Восстановление покупок в любой момент",
+    "free": {
       "name": "Tadado Mix",
       "price": "Бесплатно",
       "desc": "Скачайте бесплатно и играйте сразу со стартовой колодой."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Тематические колоды",
       "price": "$0.99",
       "desc": "Разовая покупка за колоду. Лето, Кино, Путешествия, Спорт, Герои и другие."
     },
-    "ai": {
-      "name": "Создание колод ИИ",
-      "price": "$2.99",
-      "desc": "Сгенерируйте колоду на любую тему. Играйте в обоих режимах."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Без рекламы · Без подписки · Восстановление покупок в любой момент"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Как это работает",

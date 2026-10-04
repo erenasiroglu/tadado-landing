@@ -11,13 +11,13 @@ interface CommunityMetricsProps {
 
 export function CommunityMetrics({ metrics }: CommunityMetricsProps) {
   return (
-    <div className="grid grid-cols-3 divide-x divide-white/10">
+    <div className="grid grid-cols-3 divide-x divide-border">
       {metrics.map((metric) => (
         <div
           key={`${metric.value}-${metric.label}`}
           className="flex min-w-0 flex-col items-center justify-center px-2 py-5 text-center sm:px-4 sm:py-6"
         >
-          <p className="w-full text-xl font-extrabold tabular-nums leading-none tracking-tight text-cream sm:text-3xl">
+          <p className="w-full text-xl font-extrabold tabular-nums leading-none tracking-tight text-foreground sm:text-3xl">
             {"animate" in metric && metric.animate ? (
               <AnimatedNumber
                 value={BRAND.stats.gamesPlayed}
@@ -29,7 +29,7 @@ export function CommunityMetrics({ metrics }: CommunityMetricsProps) {
               metric.value
             )}
           </p>
-          <p className="mt-2 max-w-[9rem] text-[11px] font-medium leading-snug text-cream/65 sm:mt-2.5 sm:max-w-none sm:text-sm">
+          <p className="mt-2 max-w-[9rem] text-[11px] font-medium leading-snug text-muted-foreground sm:mt-2.5 sm:max-w-none sm:text-sm">
             {metric.label}
           </p>
         </div>

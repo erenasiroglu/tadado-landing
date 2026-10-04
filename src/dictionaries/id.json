@@ -400,22 +400,48 @@
     "title": "Harga sederhana dan jujur",
     "subtitle": "Tanpa langganan tersembunyi. Bayar sekali untuk yang kamu mau.",
     "disclaimer": "Harga dalam USD dan dapat bervariasi menurut wilayah di App Store dan Google Play. Pembelian ditangani Apple atau Google.",
-    "mix": {
+    "trust": "Tanpa iklan · Tanpa langganan · Pulihkan pembelian kapan saja",
+    "free": {
       "name": "Tadado Mix",
       "price": "Gratis",
       "desc": "Unduh gratis dan main segera dengan deste starter klasik."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Deste bertema",
       "price": "$0.99",
       "desc": "Pembelian sekali per deste. Summer, Cinema, Travel, Sport, Heroes & lainnya."
     },
-    "ai": {
-      "name": "Pembuatan deste AI",
-      "price": "$2.99",
-      "desc": "Hasilkan deste kustom dari topik apa pun. Main di kedua mode permainan."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Tanpa iklan · Tanpa langganan · Pulihkan pembelian kapan saja"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Cara kerjanya",

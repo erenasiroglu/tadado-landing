@@ -45,14 +45,14 @@ function CompareCell({
 
   if (value === "partial") {
     return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber/10 text-amber">
+      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-lilac text-ink">
         <Minus className="h-4 w-4" aria-hidden />
         <span className="sr-only">{dict.a11y.partial}</span>
       </span>
     );
   }
 
-  return <span className="text-sm text-cream/75">{value}</span>;
+  return <span className="text-sm text-muted-foreground">{value}</span>;
 }
 
 export function CompareTable({
@@ -70,11 +70,11 @@ export function CompareTable({
         <SectionHeading title={content.title} subtitle={content.subtitle} align="left" />
       ) : null}
 
-      <div className={cn("overflow-hidden rounded-3xl border border-white/10", showHeading ? "mt-10" : "")}>
-        <div className="hidden md:grid md:grid-cols-[1.4fr_1fr_1fr] border-b border-white/10 bg-white/[0.04] px-6 py-4 text-sm font-semibold text-cream">
+      <div className={cn("overflow-hidden rounded-3xl border border-border", showHeading ? "mt-10" : "")}>
+        <div className="hidden md:grid md:grid-cols-[1.4fr_1fr_1fr] border-b border-border surface-paper px-6 py-4 text-sm font-semibold text-foreground">
           <span>{content.columns.feature}</span>
-          <span className="text-center text-amber">{content.columns.tadado}</span>
-          <span className="text-center text-cream/60">{content.columns.others}</span>
+          <span className="text-center text-ink">{content.columns.tadado}</span>
+          <span className="text-center text-muted-foreground">{content.columns.others}</span>
         </div>
 
         <ul className="divide-y divide-white/8">
@@ -83,15 +83,15 @@ export function CompareTable({
               key={row.feature}
               className="grid gap-3 px-5 py-4 md:grid-cols-[1.4fr_1fr_1fr] md:items-center md:gap-6 md:px-6"
             >
-              <p className="text-sm font-medium text-cream md:text-[15px]">{row.feature}</p>
+              <p className="text-sm font-medium text-foreground md:text-[15px]">{row.feature}</p>
               <div className="flex items-center justify-between gap-3 md:justify-center">
-                <span className="text-xs font-semibold uppercase tracking-wide text-amber md:hidden">
+                <span className="text-xs font-semibold uppercase tracking-wide text-ink md:hidden">
                   {content.columns.tadado}
                 </span>
                 <CompareCell value={row.tadado as CellValue} dict={dict} />
               </div>
               <div className="flex items-center justify-between gap-3 md:justify-center">
-                <span className="text-xs font-semibold uppercase tracking-wide text-cream/50 md:hidden">
+                <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground md:hidden">
                   {content.columns.others}
                 </span>
                 <CompareCell value={row.others as CellValue} dict={dict} />
@@ -101,7 +101,7 @@ export function CompareTable({
         </ul>
       </div>
 
-      <p className="mt-6 max-w-2xl text-sm leading-relaxed text-cream/65">{content.note}</p>
+      <p className="mt-6 max-w-2xl text-sm leading-relaxed text-muted-foreground">{content.note}</p>
 
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
         <TrackedOutboundLink
@@ -116,7 +116,7 @@ export function CompareTable({
         {showFullPageLink ? (
           <Link
             href={localeHref(locale, "compare")}
-            className="text-sm font-semibold text-amber hover:text-amber/80"
+            className="text-sm font-semibold text-ink hover:text-muted-foreground"
           >
             {content.viewFull} →
           </Link>

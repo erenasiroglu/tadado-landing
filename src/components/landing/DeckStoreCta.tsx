@@ -44,7 +44,7 @@ export function DeckStoreCta({
         href={getAppStoreUrl(locale)}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/14 bg-white/[0.05] px-6 text-sm font-semibold text-cream transition hover:border-amber/35"
+        className="inline-flex min-h-12 items-center justify-center rounded-full border border-border bg-mist px-6 text-sm font-semibold text-foreground transition hover:border-border"
       >
         {appStoreLabel}
       </a>
@@ -52,7 +52,7 @@ export function DeckStoreCta({
         href={playUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/14 bg-white/[0.05] px-6 text-sm font-semibold text-cream transition hover:border-amber/35"
+        className="inline-flex min-h-12 items-center justify-center rounded-full border border-border bg-mist px-6 text-sm font-semibold text-foreground transition hover:border-border"
       >
         {playStoreLabel}
       </a>

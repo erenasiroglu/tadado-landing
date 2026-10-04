@@ -20,16 +20,16 @@ export function WhatMakesSpecial({ dict }: WhatMakesSpecialProps) {
           const Icon = icons[index] ?? Sparkles;
           return (
             <div key={item.title} className="surface-card h-full p-6 sm:p-7">
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-amber/15 text-amber">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-lilac text-ink">
                 <Icon className="h-5 w-5" aria-hidden />
               </div>
-              <h3 className="mt-4 text-lg font-bold text-cream">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-cream/70">{item.body}</p>
+              <h3 className="mt-4 text-lg font-bold text-foreground">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
             </div>
           );
         })}
       </div>
-      <p className="mt-8 text-center text-xs font-medium uppercase tracking-wider text-lavender/70">
+      <p className="mt-8 text-center text-xs font-medium uppercase tracking-wider text-muted-foreground">
         {dict.special.developer}
       </p>
     </LandingSection>

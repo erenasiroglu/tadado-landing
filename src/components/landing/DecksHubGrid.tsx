@@ -17,8 +17,8 @@ export function DecksHubGrid({ locale, dict }: DecksHubGridProps) {
 
   return (
     <div>
-      <h1 className="text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">{hub.title}</h1>
-      <p className="mt-4 max-w-2xl text-lg text-cream/75">{hub.description}</p>
+      <h1 className="text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">{hub.title}</h1>
+      <p className="mt-4 max-w-2xl text-lg text-muted-foreground">{hub.description}</p>
 
       <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {SEO_DECK_KEYS.map((key) => {
@@ -30,7 +30,7 @@ export function DecksHubGrid({ locale, dict }: DecksHubGridProps) {
             <li key={key}>
               <Link
                 href={href}
-                className="group surface-card block overflow-hidden transition hover:border-amber/30"
+                className="group surface-card block overflow-hidden transition hover:border-border"
               >
                 <div
                   className="relative aspect-[4/3] overflow-hidden"
@@ -50,8 +50,8 @@ export function DecksHubGrid({ locale, dict }: DecksHubGridProps) {
                   <div className="absolute inset-0" style={buildDeckOverlayStyle(config)} />
                 </div>
                 <div className="p-5">
-                  <h2 className="text-lg font-bold text-cream group-hover:text-amber">{item.name}</h2>
-                  <p className="mt-2 text-sm text-cream/70">{item.desc}</p>
+                  <h2 className="text-lg font-bold text-foreground group-hover:text-ink">{item.name}</h2>
+                  <p className="mt-2 text-sm text-muted-foreground">{item.desc}</p>
                 </div>
               </Link>
             </li>

@@ -15,7 +15,7 @@ export function Catalog({ dict, locale }: CatalogProps) {
   const keys = Object.keys(dict.decks.items) as DeckKey[];
 
   return (
-    <section id="decks" className="relative isolate bg-[#1c1129] py-20">
+    <section id="decks" className="relative isolate py-20">
       <SectionViewTracker sectionId="decks">
         <div className="section-shell">
           <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />

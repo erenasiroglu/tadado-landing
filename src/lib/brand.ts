@@ -20,8 +20,17 @@ export const BRAND = {
   },
 } as const;
 
+/** USD list prices for SEO / llms; store may show local currency (e.g. TRY in Turkey). */
 export const PRICING = {
   mixFree: true,
-  themeDeckUsd: 0.99,
-  aiDeckUsd: 2.99,
+  singleDeckUsd: 0.99,
+  singleDeckTry: 49.99,
+  aiStarterUsd: 2.99,
+  aiStarterTry: 99.99,
+  aiPlusUsd: 5.99,
+  aiPlusTry: 199,
+  aiProUsd: 9.99,
+  aiProTry: 349.99,
+  fullAccessUsd: 14.99,
+  fullAccessTry: 499,
 } as const;

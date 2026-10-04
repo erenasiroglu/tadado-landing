@@ -31,7 +31,7 @@ interface NavItem {
 }
 
 const navItemClass =
-  "flex min-h-12 w-full items-center justify-between gap-3 rounded-xl px-3.5 text-[15px] font-medium text-cream/90 transition-colors hover:bg-white/[0.06] active:bg-white/[0.1]";
+  "flex min-h-12 w-full items-center justify-between gap-3 rounded-xl px-3.5 text-[15px] font-medium text-muted-foreground transition-colors hover:bg-lilac active:bg-white/[0.1]";
 
 function homeHref(locale: Locale, hash: string) {
   return `${localeHref(locale)}${hash}`;
@@ -40,7 +40,7 @@ function homeHref(locale: Locale, hash: string) {
 function NavSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-5 first:mt-0">
-      <p className="px-3.5 pb-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-amber/80">
+      <p className="px-3.5 pb-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
         {title}
       </p>
       <div className="flex flex-col gap-0.5">{children}</div>
@@ -52,7 +52,7 @@ function MobileNavLink({ href, label, isPage }: NavItem) {
   const content = (
     <>
       <span>{label}</span>
-      <ChevronRight className="h-4 w-4 shrink-0 text-cream/25" aria-hidden />
+      <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden />
     </>
   );
 
@@ -100,7 +100,7 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
       <SheetTrigger
         className={cn(
           buttonVariants({ variant: "outline", size: "icon" }),
-          "h-9 w-9 cursor-pointer border-white/12 bg-white/[0.04] text-cream",
+          "h-9 w-9 cursor-pointer border-border surface-paper text-foreground",
         )}
         aria-label={dict.a11y.openMenu}
       >
@@ -110,9 +110,9 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
       <SheetContent
         side="right"
         overlayClassName="bg-black/60 supports-backdrop-filter:backdrop-blur-sm"
-        className="flex w-[min(100vw,20rem)] max-w-none flex-col gap-0 border-white/10 bg-[#1a0f28] p-0 text-cream sm:max-w-xs"
+        className="flex w-[min(100vw,20rem)] max-w-none flex-col gap-0 border-border p-0 text-foreground sm:max-w-xs"
       >
-        <div className="flex shrink-0 items-center gap-3 border-b border-white/8 px-5 py-4 pr-14">
+        <div className="flex shrink-0 items-center gap-3 border-b border-border px-5 py-4 pr-14">
           <Image
             src="/images/tadado_icon.png"
             alt=""
@@ -121,8 +121,8 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
             className="rounded-xl"
           />
           <div className="min-w-0">
-            <p className="text-base font-extrabold tracking-wide text-cream">Tadado</p>
-            <p className="truncate text-xs text-cream/50">{dict.footer.tagline}</p>
+            <p className="text-base font-extrabold tracking-wide text-foreground">Tadado</p>
+            <p className="truncate text-xs text-muted-foreground">{dict.footer.tagline}</p>
           </div>
         </div>
 
@@ -150,7 +150,7 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
         </nav>
 
         <div
-          className="shrink-0 border-t border-white/8 bg-[#1a0f28] px-5 py-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]"
+          className="shrink-0 border-t border-border px-5 py-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]"
         >
           <TrackedOutboundLink
             href={downloadUrl}

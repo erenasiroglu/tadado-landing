@@ -20,7 +20,7 @@ function Stars({ className }: { className?: string }) {
   return (
     <div className={cn("flex gap-0.5", className)} aria-hidden>
       {Array.from({ length: 5 }).map((_, i) => (
-        <Star key={i} className="h-3.5 w-3.5 fill-amber text-amber sm:h-4 sm:w-4" />
+        <Star key={i} className="h-3.5 w-3.5 fill-ink text-ink sm:h-4 sm:w-4" />
       ))}
     </div>
   );
@@ -76,17 +76,17 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
         <div className="reviews-carousel__container flex">
           {items.map((review) => (
             <div key={review.author} className="reviews-carousel__slide">
-              <figure className="mx-auto flex h-full w-full max-w-2xl flex-col rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-7 sm:px-8 sm:py-8">
+              <figure className="mx-auto flex h-full w-full max-w-2xl flex-col rounded-2xl surface-paper px-6 py-7 sm:px-8 sm:py-8">
                 <Stars />
-                <blockquote className="mt-5 flex-1 text-base leading-relaxed text-cream sm:text-lg sm:leading-relaxed">
+                <blockquote className="mt-5 flex-1 text-base leading-relaxed text-foreground sm:text-lg sm:leading-relaxed">
                   &ldquo;{review.quote}&rdquo;
                 </blockquote>
-                <figcaption className="mt-6 flex items-center justify-between gap-4 border-t border-white/8 pt-5">
+                <figcaption className="mt-6 flex items-center justify-between gap-4 border-t border-border pt-5">
                   <div className="min-w-0">
-                    <p className="truncate font-semibold text-cream">{review.author}</p>
-                    <p className="mt-0.5 text-sm text-cream/50">{review.context}</p>
+                    <p className="truncate font-semibold text-foreground">{review.author}</p>
+                    <p className="mt-0.5 text-sm text-muted-foreground">{review.context}</p>
                   </div>
-                  <span className="shrink-0 rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-cream/55">
+                  <span className="shrink-0 rounded-full border border-border surface-paper px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">
                     {sourceLabel}
                   </span>
                 </figcaption>
@@ -113,7 +113,7 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
                 onClick={() => scrollTo(index)}
                 className={cn(
                   "h-1.5 rounded-full transition-all duration-300",
-                  index === selectedIndex ? "w-7 bg-amber" : "w-1.5 bg-white/25 hover:bg-white/40",
+                  index === selectedIndex ? "w-7 bg-ink" : "w-1.5 bg-ink/25 hover:bg-ink/40",
                 )}
               />
             ))}
@@ -142,7 +142,7 @@ function CarouselIconButton({
       type="button"
       aria-label={label}
       onClick={onClick}
-      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-white/12 bg-white/[0.04] text-cream transition-colors hover:border-amber/40 hover:bg-white/[0.08] hover:text-amber"
+      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-border surface-paper text-foreground transition-colors hover:bg-lilac hover:bg-lilac hover:text-ink"
     >
       {children}
     </button>

@@ -45,7 +45,7 @@ export function SupportPageContent({ dict, locale }: SupportPageContentProps) {
   return (
     <div className="max-w-3xl">
       <SectionHeading title={content.title} subtitle={content.subtitle} align="left" />
-      <p className="mt-6 leading-relaxed text-cream/75">{content.intro}</p>
+      <p className="mt-6 leading-relaxed text-muted-foreground">{content.intro}</p>
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2">
         {content.topics.map((topic) => {
@@ -55,22 +55,22 @@ export function SupportPageContent({ dict, locale }: SupportPageContentProps) {
 
           return (
             <article key={topic.kind} className="surface-card flex h-full flex-col p-5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber/15 text-amber">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-lilac text-ink">
                 <Icon className="h-5 w-5" aria-hidden />
               </div>
-              <h2 className="mt-4 text-lg font-bold text-cream">{topic.title}</h2>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-cream/70">{topic.body}</p>
+              <h2 className="mt-4 text-lg font-bold text-foreground">{topic.title}</h2>
+              <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">{topic.body}</p>
               {isMail ? (
                 <a
                   href={href}
-                  className="mt-4 inline-block text-sm font-semibold text-amber hover:text-amber/80"
+                  className="mt-4 inline-block text-sm font-semibold text-ink hover:text-muted-foreground"
                 >
                   {topic.cta} →
                 </a>
               ) : (
                 <Link
                   href={href}
-                  className="mt-4 inline-block text-sm font-semibold text-amber hover:text-amber/80"
+                  className="mt-4 inline-block text-sm font-semibold text-ink hover:text-muted-foreground"
                 >
                   {topic.cta} →
                 </Link>
@@ -80,17 +80,17 @@ export function SupportPageContent({ dict, locale }: SupportPageContentProps) {
         })}
       </div>
 
-      <div className="mt-10 rounded-2xl border border-amber/25 bg-amber/[0.06] p-6 sm:p-8">
+      <div className="mt-10 rounded-2xl border border-border bg-ink/[0.06] p-6 sm:p-8">
         <div className="flex items-start gap-4">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber/15 text-amber">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-lilac text-ink">
             <Mail className="h-5 w-5" aria-hidden />
           </div>
           <div>
-            <h2 className="text-lg font-bold text-cream">{content.emailCta}</h2>
-            <p className="mt-2 text-sm text-cream/70">{content.responseNote}</p>
+            <h2 className="text-lg font-bold text-foreground">{content.emailCta}</h2>
+            <p className="mt-2 text-sm text-muted-foreground">{content.responseNote}</p>
             <a
               href={mailHref}
-              className="mt-4 inline-flex text-sm font-semibold text-amber hover:text-amber/80"
+              className="mt-4 inline-flex text-sm font-semibold text-ink hover:text-muted-foreground"
             >
               {BRAND.supportEmail} →
             </a>

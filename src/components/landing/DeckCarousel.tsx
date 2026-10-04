@@ -114,7 +114,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
   }, [emblaApi, locale]);
 
   return (
-    <section id="decks" className="relative isolate bg-[#1c1129] py-12 md:py-14">
+    <section id="decks" className="relative isolate py-12 md:py-14">
       <SectionViewTracker sectionId="decks">
         <div className="section-shell">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -126,12 +126,12 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                   document.getElementById("decks")?.scrollIntoView({ behavior: "smooth", block: "start" })
                 }
               >
-                <span className="font-bold text-cream">{dict.decks.countBadge}</span>
+                <span className="font-bold text-foreground">{dict.decks.countBadge}</span>
               </button>
               <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />
               <Link
                 href={getDecksHubHref(locale)}
-                className="text-sm font-semibold text-amber hover:text-amber/90"
+                className="text-sm font-semibold text-ink hover:text-muted-foreground"
               >
                 {locale === "tr" ? "Tüm desteleri keşfet" : "Explore all decks"}
               </Link>
@@ -151,34 +151,39 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
 
                   return (
                     <div key={key} className="deck-vibe-carousel__slide">
-                      <motion.div
-                        className="deck-vibe-carousel__card"
-                        animate={
-                          reduceMotion
-                            ? undefined
-                            : {
-                                opacity: isActive ? 1 : 0.72,
-                                scale: isActive ? 1 : 0.96,
-                              }
-                        }
-                        transition={{ type: "spring", stiffness: 420, damping: 32 }}
+                      <div
+                        className={cn(
+                          "deck-vibe-carousel__card",
+                          isActive && "deck-vibe-carousel__card--active",
+                        )}
                       >
-                        <DeckCatalogCard
-                          deckKey={key}
-                          locale={locale}
-                          config={DECK_CARD_CONFIGS[key]}
-                          title={item.name}
-                          subtitle={item.desc}
-                          playLabel={dict.decks.play}
-                          newBadgeLabel={dict.decks.newBadge}
-                          isFree={key === "mix"}
-                          showPlayIcon
-                          className={cn(
-                            "w-full",
-                            isActive && "shadow-xl shadow-violet-900/25",
-                          )}
-                        />
-                      </motion.div>
+                        <motion.div
+                          className="deck-vibe-carousel__card-inner"
+                          animate={
+                            reduceMotion
+                              ? undefined
+                              : {
+                                  opacity: isActive ? 1 : 0.78,
+                                  scale: isActive ? 1 : 0.96,
+                                }
+                          }
+                          transition={{ type: "spring", stiffness: 420, damping: 32 }}
+                        >
+                          <DeckCatalogCard
+                            deckKey={key}
+                            locale={locale}
+                            config={DECK_CARD_CONFIGS[key]}
+                            title={item.name}
+                            subtitle={item.desc}
+                            playLabel={dict.decks.play}
+                            newBadgeLabel={dict.decks.newBadge}
+                            isFree={key === "mix"}
+                            showPlayIcon
+                            disableHoverMotion
+                            className="w-full"
+                          />
+                        </motion.div>
+                      </div>
                     </div>
                   );
                 })}
@@ -202,8 +207,8 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                     className={cn(
                       "h-1.5 rounded-full transition-all duration-300",
                       index === selectedIndex
-                        ? "w-7 bg-amber"
-                        : "w-1.5 bg-white/25 hover:bg-white/40",
+                        ? "w-7 bg-ink"
+                        : "w-1.5 bg-ink/20 hover:bg-ink/35",
                     )}
                   />
                 ))}
@@ -234,7 +239,7 @@ function CarouselButton({
       type="button"
       aria-label={label}
       onClick={onClick}
-      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-white/12 bg-white/[0.04] text-cream transition-colors hover:border-amber/40 hover:bg-white/[0.08] hover:text-amber"
+      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-border surface-paper text-foreground transition-colors hover:bg-lilac hover:bg-lilac hover:text-ink"
     >
       {children}
     </button>

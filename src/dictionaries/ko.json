@@ -400,22 +400,48 @@
     "title": "간단하고 정직한 요금",
     "subtitle": "숨겨진 구독 없음. 원하는 것만 한 번 결제.",
     "disclaimer": "가격은 USD이며 App Store와 Google Play에서 지역별로 다를 수 있습니다. 구매는 Apple 또는 Google이 처리합니다.",
-    "mix": {
+    "trust": "광고 없음 · 구독 없음 · 언제든 구매 복원",
+    "free": {
       "name": "Tadado Mix",
       "price": "무료",
       "desc": "무료 다운로드 후 클래식 스타터 덱으로 바로 플레이."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "테마 덱",
       "price": "$0.99",
       "desc": "덱당 일회성 구매. 썸머, 시네마, 트래블, 스포츠, 히어로즈 등."
     },
-    "ai": {
-      "name": "AI 덱 생성",
-      "price": "$2.99",
-      "desc": "아무 주제에서 맞춤 덱 생성. 두 게임 모드 모두 플레이."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "광고 없음 · 구독 없음 · 언제든 구매 복원"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "이용 방법",

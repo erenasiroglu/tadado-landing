@@ -400,22 +400,48 @@
     "title": "Preços simples e honestos",
     "subtitle": "Sem assinaturas escondidas. Pague uma vez pelo que quiser.",
     "disclaimer": "Preços em USD; podem variar por região na App Store e Google Play. Compras processadas pela Apple ou Google.",
-    "mix": {
+    "trust": "Sem anúncios · Sem assinatura · Restaure compras a qualquer momento",
+    "free": {
       "name": "Tadado Mix",
       "price": "Free",
       "desc": "Baixe grátis e jogue na hora com o baralho clássico inicial."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Baralhos temáticos",
       "price": "$0.99",
       "desc": "Compra única por baralho. Verão, Cinema, Viagem, Esporte, Heróis e mais."
     },
-    "ai": {
-      "name": "Criação de baralho IA",
-      "price": "$2.99",
-      "desc": "Gere um baralho personalizado de qualquer tema. Jogue nos dois modos."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Sem anúncios · Sem assinatura · Restaure compras a qualquer momento"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Como funciona",

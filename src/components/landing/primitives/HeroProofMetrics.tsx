@@ -58,7 +58,7 @@ function ProofBadge({
             }
       }
     >
-      <span className="font-bold text-cream">
+      <span className="font-bold text-foreground">
         <MetricValue metric={metric} />
       </span>
       <span className="hero-proof-badge__label">{metric.label}</span>
@@ -86,7 +86,7 @@ function InlineBadge({
           : { duration: 0.35, delay: 0.2 + index * 0.05, ease: [0.22, 1, 0.36, 1] }
       }
     >
-      <span className="font-bold text-cream">
+      <span className="font-bold text-foreground">
         <MetricValue metric={metric} />
       </span>
       <span className="hero-proof-badge__label">{metric.label}</span>
@@ -101,7 +101,7 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
 
   return (
     <div className={cn(className)} aria-label="Tadado product proof">
-      <div className="mt-5 hidden flex-wrap justify-center gap-2 sm:flex" aria-hidden>
+      <div className="mt-5 hidden max-w-full flex-wrap justify-center gap-2 lg:justify-start" aria-hidden>
         {[...leftMetrics, ...rightMetrics].map((metric) => (
           <ProofBadge
             key={`${metric.value}-${metric.label}`}
@@ -111,7 +111,7 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
         ))}
       </div>
 
-      <div className="mt-5 flex flex-wrap justify-center gap-2 sm:hidden">
+      <div className="mt-5 flex max-w-full flex-wrap justify-center gap-1.5 sm:hidden">
         {metrics.map((metric, index) => (
           <InlineBadge
             key={`mobile-${metric.value}-${metric.label}`}

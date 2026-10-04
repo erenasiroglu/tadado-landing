@@ -400,22 +400,48 @@
     "title": "Giá đơn giản, minh bạch",
     "subtitle": "Không đăng ký ẩn. Trả một lần cho những gì bạn muốn.",
     "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
-    "mix": {
+    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào",
+    "free": {
       "name": "Tadado Mix",
       "price": "Miễn phí",
       "desc": "Tải miễn phí và chơi ngay với bộ bài khởi đầu cổ điển."
     },
-    "theme": {
+    "aiSectionTitle": "AI deck creation",
+    "aiTiers": [
+      {
+        "name": "Starter",
+        "price": "$2.99",
+        "desc": "10 AI deck creations — build custom decks from any topic."
+      },
+      {
+        "name": "Plus",
+        "price": "$5.99",
+        "desc": "30 AI deck creations for regular game nights.",
+        "highlight": true
+      },
+      {
+        "name": "Pro",
+        "price": "$9.99",
+        "desc": "100 AI deck creations for hosts who never run out of ideas."
+      }
+    ],
+    "decksSectionTitle": "Premium decks",
+    "singleDeck": {
       "name": "Bộ bài theo chủ đề",
       "price": "$0.99",
       "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
     },
-    "ai": {
-      "name": "Tạo bộ bài AI",
-      "price": "$2.99",
-      "desc": "Tạo bộ bài tùy chỉnh từ bất kỳ chủ đề nào. Chơi cả hai chế độ."
+    "fullAccess": {
+      "name": "Tadado Full Access",
+      "price": "$14.99",
+      "desc": "100+ premium decks — every themed pack in the app.",
+      "highlight": true
     },
-    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào"
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best value"
+    }
   },
   "howItWorks": {
     "title": "Cách hoạt động",

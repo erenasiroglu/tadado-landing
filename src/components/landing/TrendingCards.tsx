@@ -38,7 +38,7 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
           </Link>
           <Link
             href={blogHref(locale)}
-            className="text-sm font-semibold text-lavender hover:text-amber"
+            className="text-sm font-semibold text-muted-foreground hover:text-ink"
           >
             {dict.trending.compare.guides}
           </Link>

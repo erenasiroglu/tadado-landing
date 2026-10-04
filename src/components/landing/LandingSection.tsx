@@ -34,13 +34,13 @@ export function LandingSection({
     <section
       id={id}
       className={cn(
-        "relative isolate",
-        density === "compact" ? "py-10 md:py-12" : "py-12 md:py-14",
-        tone === "contrast" ? "bg-[#1c1129]" : "bg-[#2a0a3b]",
+        "landing-section-band",
+        tone === "contrast" && "landing-section-band--mist",
+        density === "compact" ? "py-10 md:py-12" : "section-gap",
         className,
       )}
     >
-      {tracked}
+      <div className="landing-section-band__inner">{tracked}</div>
     </section>
   );
 }

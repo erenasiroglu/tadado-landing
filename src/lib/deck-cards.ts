@@ -24,7 +24,7 @@ export interface DeckCardConfig {
 export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   mix: {
     key: "mix",
-    image: "/images/deck-cards/classic-mix-deck-illustration.png",
+    image: "/images/deck-cards/classic-mix-deck-illustration.webp",
     overlayColors: [
       "rgba(251, 170, 18, 0.12)",
       "rgba(56, 20, 93, 0.02)",

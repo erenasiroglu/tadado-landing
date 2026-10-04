@@ -23,7 +23,7 @@ import { cn } from "@/lib/utils";
 function SectionFallback({ className }: { className?: string }) {
   return (
     <div
-      className={cn("mx-auto max-w-6xl animate-pulse rounded-2xl bg-white/[0.04]", className)}
+      className={cn("mx-auto max-w-6xl animate-pulse rounded-2xl surface-paper", className)}
       aria-hidden
     />
   );

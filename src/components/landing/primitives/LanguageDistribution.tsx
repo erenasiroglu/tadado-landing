@@ -20,10 +20,8 @@ function LanguagePill({ locale, isActive }: { locale: Locale; isActive: boolean 
     <span
       aria-current={isActive ? "true" : undefined}
       className={cn(
-        "inline-flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-medium leading-none",
-        isActive
-          ? "border-amber/45 bg-amber/12 text-cream"
-          : "border-white/10 bg-white/[0.04] text-cream/85",
+        "inline-flex shrink-0 items-center gap-2 bg-transparent px-2 py-1.5 text-sm leading-none",
+        isActive ? "font-extrabold text-ink" : "font-medium text-muted-foreground",
       )}
     >
       <span className="text-base leading-none" aria-hidden>
@@ -63,10 +61,10 @@ export function LanguageDistribution({ title, caption, currentLocale }: Language
   const reduceMotion = useReducedMotion();
 
   return (
-    <div className="border-t border-white/10">
+    <div className="border-t border-border bg-transparent">
       <div className="px-4 pb-3 pt-4 sm:px-6">
-        <h3 className="text-sm font-bold tracking-tight text-cream sm:text-base">{title}</h3>
-        <p className="mt-1 line-clamp-2 text-xs leading-snug text-cream/60 sm:line-clamp-1">{caption}</p>
+        <h3 className="text-sm font-bold tracking-tight text-foreground sm:text-base">{title}</h3>
+        <p className="mt-1 line-clamp-2 text-xs leading-snug text-muted-foreground sm:line-clamp-1">{caption}</p>
       </div>
 
       <div

@@ -78,9 +78,9 @@ export default async function BlogPostPage({
       <main className="section-shell flex-1 py-16">
         <BackLink href={localeHref(locale, "blog")}>{dict.blog.title}</BackLink>
         <article className="prose-blog mx-auto mt-8 max-w-3xl">
-          <time className="text-sm text-lavender" dateTime={post.date}>{post.date}</time>
-          <h1 className="mt-2 text-4xl font-extrabold text-cream">{post.title}</h1>
-          <p className="mt-4 text-lg text-cream/75">{post.description}</p>
+          <time className="text-sm text-muted-foreground" dateTime={post.date}>{post.date}</time>
+          <h1 className="mt-2 text-4xl font-extrabold text-foreground">{post.title}</h1>
+          <p className="mt-4 text-lg text-muted-foreground">{post.description}</p>
           <div className="mt-10" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
           <PostCta locale={locale} dict={dict} />
         </article>

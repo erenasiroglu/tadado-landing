@@ -53,7 +53,7 @@ export default async function ComparePage({ params }: PageProps<"/[lang]/compare
         </div>
 
         <section className="mt-14 max-w-3xl">
-          <h2 className="text-lg font-bold text-cream">
+          <h2 className="text-lg font-bold text-foreground">
             {locale === "tr" ? "Popüler alternatif rehberleri" : "Popular alternative guides"}
           </h2>
           <ul className="mt-4 flex flex-col gap-2">
@@ -61,7 +61,7 @@ export default async function ComparePage({ params }: PageProps<"/[lang]/compare
               <li key={id}>
                 <Link
                   href={getAlternativeHref(locale, id)}
-                  className="text-sm font-semibold text-amber hover:text-amber/80"
+                  className="text-sm font-semibold text-ink hover:text-muted-foreground"
                 >
                   {getAlternativeLinkLabel(locale, id)} →
                 </Link>

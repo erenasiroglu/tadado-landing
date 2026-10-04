@@ -60,7 +60,7 @@ export default async function DeckDetailPage({ params }: PageProps<"/[lang]/deck
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#1a0f28]">
+      <main className="flex-1 ">
         <div className="section-shell py-12 md:py-14">
           <DeckDetailContent locale={locale} deckKey={deckKey} dict={dict} />
         </div>

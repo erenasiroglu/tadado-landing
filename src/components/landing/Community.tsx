@@ -54,17 +54,17 @@ export function Community({ dict }: CommunityProps) {
             rel="noopener noreferrer"
             className="group"
           >
-            <div className="surface-card h-full p-8 transition hover:border-amber/30">
+            <div className="surface-card h-full p-8 transition hover:border-border">
               <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber/15 text-amber">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-lilac text-ink">
                   {card.icon}
                 </div>
                 <div>
-                  <p className="font-bold text-cream group-hover:text-amber">{card.title}</p>
-                  <p className="text-sm text-lavender">{card.handle}</p>
+                  <p className="font-bold text-foreground group-hover:text-ink">{card.title}</p>
+                  <p className="text-sm text-muted-foreground">{card.handle}</p>
                 </div>
               </div>
-              <p className="mt-4 text-cream/70">{card.desc}</p>
+              <p className="mt-4 text-muted-foreground">{card.desc}</p>
             </div>
           </a>
         ))}

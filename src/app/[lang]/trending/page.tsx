@@ -40,18 +40,18 @@ export default async function TrendingPage({ params }: PageProps<"/[lang]/trendi
   return (
     <>
       <Header locale={locale} dict={dict} />
-      <main className="flex-1 bg-[#1c1129] py-12 md:py-16">
+      <main className="flex-1 py-12 md:py-16">
         <div className="section-shell">
           <BackLink href={localeHref(locale)}>{dict.compare.back}</BackLink>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">
-              <h1 className="text-balance text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">
+              <h1 className="text-balance text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
                 {dict.trending.title}
               </h1>
-              <p className="mt-3 text-base text-cream/70 sm:text-lg">{dict.trending.subtitle}</p>
+              <p className="mt-3 text-base text-muted-foreground sm:text-lg">{dict.trending.subtitle}</p>
             </div>
-            <Badge variant="outline" className="w-fit border-amber/30 bg-amber/10 text-amber">
+            <Badge variant="outline" className="w-fit border-border bg-lilac text-ink">
               {dict.trending.badge}
             </Badge>
           </div>
