@@ -2,7 +2,7 @@
 
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
+import { getSmartStoreUrl } from "@/lib/store-links";
 import { trackEvent } from "@/lib/tracking";
 
 import { LandingSection } from "./LandingSection";
@@ -25,7 +25,7 @@ export function FinalCTA({ locale, dict }: FinalCTAProps) {
           <p className="mx-auto mt-4 max-w-xl text-xl text-cream/72">{copy.subtitle}</p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <CTAButton
-              href={getAppStoreUrl(locale)}
+              href={getSmartStoreUrl(locale)}
               locale={locale}
               downloadPlatform="ios"
               downloadSource="final_cta"

@@ -5,7 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { LOCALES, type Locale } from "@/lib/i18n-config";
-import { pathnameForLocale } from "@/lib/locale-switch";
+import { pathnameForLocale, rememberLocale } from "@/lib/locale-switch";
 import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { cn } from "@/lib/utils";
 
@@ -23,6 +23,7 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
   const current = LANGUAGE_DISPLAY[currentLocale];
 
   function onSelect(next: Locale) {
+    rememberLocale(next);
     router.push(pathnameForLocale(pathname, currentLocale, next));
     setOpen(false);
   }
@@ -59,7 +60,7 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
           <div
             role="listbox"
             aria-label={label}
-            className="absolute right-0 z-50 mt-2 w-64 rounded-2xl border border-border /98 p-2 shadow-2xl shadow-black/50 backdrop-blur-xl"
+            className="absolute right-0 z-50 mt-2 w-64 rounded-2xl border border-border bg-paper p-2 shadow-2xl shadow-black/50 backdrop-blur-xl"
           >
             <p className="px-2 pb-2 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
               {label}

@@ -42,7 +42,7 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
             aria-label={dict.a11y.closeLanguageMenu}
             onClick={() => setOpen(false)}
           />
-          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-border /98 p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
+          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-border bg-paper p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
             <ul>
               {SEO_DECK_KEYS.map((key) => {
                 const item = dict.decks.items[key];

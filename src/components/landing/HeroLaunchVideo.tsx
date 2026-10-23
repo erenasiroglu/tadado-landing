@@ -5,9 +5,9 @@ import { useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import type { Dictionary } from "@/lib/i18n";
-import { cn } from "@/lib/utils";
 
-export const HERO_BRAND_FILM_SRC = "/videos/tadado-brand-film-v5-pulse.mp4";
+export const HERO_BRAND_FILM_SRC = "/videos/tadado-brand-film-v5-pulse-720.mp4";
+export const HERO_BRAND_FILM_POSTER = "/videos/tadado-brand-film-poster.jpg";
 
 interface HeroLaunchVideoProps {
   a11y: Dictionary["a11y"];
@@ -16,7 +16,6 @@ interface HeroLaunchVideoProps {
 export function HeroLaunchVideo({ a11y }: HeroLaunchVideoProps) {
   const reduceMotion = useReducedMotion();
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isReady, setIsReady] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [soundOn, setSoundOn] = useState(false);
 
@@ -80,22 +79,18 @@ export function HeroLaunchVideo({ a11y }: HeroLaunchVideoProps) {
 
       <div className="hero-launch-video__frame">
         <div className="hero-launch-video__screen">
-          {!isReady ? <div className="hero-launch-video__shimmer" aria-hidden /> : null}
 
           <video
             ref={videoRef}
-            className={cn(
-              "hero-launch-video__video",
-              isReady ? "opacity-100" : "opacity-0",
-            )}
+            className="hero-launch-video__video"
             src={HERO_BRAND_FILM_SRC}
-            preload={reduceMotion ? "metadata" : "auto"}
+            poster={HERO_BRAND_FILM_POSTER}
+            preload="metadata"
             muted
             playsInline
             loop={!soundOn}
             controls={soundOn}
             aria-label={a11y.launchVideo}
-            onLoadedData={() => setIsReady(true)}
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
             onEnded={() => {

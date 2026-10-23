@@ -20,7 +20,7 @@
     "download": "Télécharger"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Jeu de mots pour soirées · ★ 5.0 sur l'App Store",
     "title": "Un téléphone. Tes amis. Que le chaos commence.",
     "subtitle": "Taboo, Heads Up et decks personnalisés IA conçus pour les soirées jeux.",
     "ctaPrimary": "TÉLÉCHARGER TADADO · GRATUIT",
@@ -30,7 +30,7 @@
       { "value": "2", "label": "modes de jeu" },
       { "value": "IA", "label": "intégrée" },
       { "value": "17", "label": "langues" },
-      { "value": "8", "label": "decks de jeu", "href": "#decks" },
+      { "value": "7+", "label": "decks de jeu", "href": "#decks" },
       { "value": "Hors ligne", "label": "jouer" },
       { "value": "Sans", "label": "pub" }
     ]
@@ -607,7 +607,7 @@
     "title": "Ne manque jamais d'idées pour tes soirées jeux.",
     "subtitle": "Nouveaux thèmes, fonctionnalités et conseils de soirées jeux. Pas de spam.",
     "placeholder": "toi@email.com",
-    "button": "Rejoindre la liste",
+    "button": "Recevoir les nouveautés",
     "success": "Tu es inscrit. On t'écrira quand il y aura du nouveau.",
     "privacy": "On n'envoie des emails que pour les actus Tadado. Désabonnement à tout moment.",
     "errorInvalid": "Entre une adresse email valide.",

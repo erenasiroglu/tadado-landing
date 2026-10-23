@@ -38,7 +38,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   summer: {
     key: "summer",
-    image: "/images/deck-cards/summer-deck-illustration.png",
+    image: "/images/deck-cards/summer-deck-illustration.webp",
     overlayColors: [
       "rgba(255, 107, 74, 0.22)",
       "rgba(0, 0, 0, 0.02)",
@@ -52,7 +52,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   cinema: {
     key: "cinema",
-    image: "/images/deck-cards/cinema-deck-illustration.png",
+    image: "/images/deck-cards/cinema-deck-illustration.webp",
     overlayColors: [
       "rgba(87, 134, 111, 0.18)",
       "rgba(56, 20, 93, 0.06)",
@@ -65,7 +65,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   travel: {
     key: "travel",
-    image: "/images/deck-cards/travel-deck-illustration.png",
+    image: "/images/deck-cards/travel-deck-illustration.webp",
     overlayColors: [
       "rgba(117, 42, 195, 0.16)",
       "rgba(56, 20, 93, 0.06)",
@@ -78,7 +78,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   sport: {
     key: "sport",
-    image: "/images/deck-cards/sport-deck-illustration.png",
+    image: "/images/deck-cards/sport-deck-illustration.webp",
     overlayColors: [
       "rgba(251, 170, 18, 0.2)",
       "rgba(56, 20, 93, 0.05)",
@@ -91,7 +91,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   heroes: {
     key: "heroes",
-    image: "/images/deck-cards/heroes-deck-illustration.png",
+    image: "/images/deck-cards/heroes-deck-illustration.webp",
     overlayColors: [
       "rgba(215, 26, 39, 0.15)",
       "rgba(37, 99, 235, 0.1)",
@@ -104,7 +104,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   midnight: {
     key: "midnight",
-    image: "/images/deck-cards/midnight-deck-illustration.png",
+    image: "/images/deck-cards/midnight-deck-illustration.webp",
     overlayColors: [
       "rgba(195, 4, 93, 0.14)",
       "rgba(56, 20, 93, 0.08)",

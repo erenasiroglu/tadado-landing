@@ -20,11 +20,11 @@
     "download": "Λήψη"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Παιχνίδι λέξεων για πάρτι · ★ 5.0 στο App Store",
     "title": "Ένα κινητό. Οι φίλοι σου. Ας ξεκινήσει το χάος.",
     "subtitle": "Taboo, Heads Up και προσαρμοσμένες τράπουλες AI για βραδιές παιχνιδιού.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "ΚΑΤΕΒΑΣΕ ΤΟ TADADO · ΔΩΡΕΑΝ",
+    "ctaSecondary": "ΔΕΣ ΠΩΣ ΛΕΙΤΟΥΡΓΕΙ",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "γλώσσες"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "τράπουλες",
         "href": "#decks"
       },
@@ -403,29 +403,29 @@
     "trust": "Χωρίς διαφημίσεις · Χωρίς συνδρομή · Επαναφορά αγορών ανά πάσα στιγμή",
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
+      "price": "Δωρεάν",
       "desc": "Κατέβασε δωρεάν και παίξε αμέσως με την κλασική τράπουλα εκκίνησης."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Δημιουργία τράπουλας με AI",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 δημιουργίες τράπουλας με AI — δική σου τράπουλα για κάθε θέμα."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 δημιουργίες τράπουλας με AI για τακτικές βραδιές παιχνιδιών.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 δημιουργίες τράπουλας με AI για οικοδεσπότες που δεν ξεμένουν ποτέ από ιδέες."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Premium τράπουλες",
     "singleDeck": {
       "name": "Θεματικές τράπουλες",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Όλες οι premium θεματικές τράπουλες της εφαρμογής με μία αγορά.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Δωρεάν λήψη",
+      "popular": "Πιο δημοφιλές",
+      "bestValue": "Καλύτερη αξία"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Μην ξεμείνεις ποτέ από ιδέες για βραδιά παιχνιδιού.",
     "subtitle": "Νέα themes, features και tips για πάρτι. Χωρίς spam.",
     "placeholder": "you@email.com",
-    "button": "Μπες στη λίστα αναμονής",
+    "button": "Λάβε νέα",
     "success": "Είσαι στη λίστα. Θα σου στείλουμε email όταν βγει κάτι νέο.",
     "privacy": "Στέλνουμε email μόνο για ενημερώσεις Tadado. Απεγγραφή ανά πάσα στιγμή.",
     "errorInvalid": "Εισήγαγε έγκυρη διεύθυνση email.",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "Η επόμενη βραδιά παιχνιδιού χρειάζεται Tadado.",
     "subtitle": "Ένα κινητό. Όλοι καλούνται.",
-    "button": "GET TADADO · FREE",
+    "button": "ΚΑΤΕΒΑΣΕ ΤΟ TADADO · ΔΩΡΕΑΝ",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Η επόμενη βραδιά παιχνιδιού χρειάζεται Tadado.",
     "subtitle": "Ένα κινητό. Όλοι καλούνται.",
-    "button": "GET TADADO · FREE",
+    "button": "ΚΑΤΕΒΑΣΕ ΤΟ TADADO · ΔΩΡΕΑΝ",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "ΚΑΤΕΒΑΣΕ ΤΟ TADADO · ΔΩΡΕΑΝ"
   },
   "language": {
     "label": "Γλώσσα"

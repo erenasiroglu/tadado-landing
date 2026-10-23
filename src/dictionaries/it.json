@@ -20,7 +20,7 @@
     "download": "Scarica"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Gioco di parole per feste · ★ 5.0 su App Store",
     "title": "Un telefono. I tuoi amici. Che cominci il caos.",
     "subtitle": "Taboo, Heads Up e mazzi personalizzati con IA fatti per le serate di gioco.",
     "ctaPrimary": "SCARICA TADADO · GRATIS",
@@ -44,7 +44,7 @@
         "label": "lingue"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "mazzi di gioco",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "Gratis",
       "desc": "Scarica gratis e gioca subito con il mazzo iniziale classico."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Creazione mazzi con IA",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 creazioni di mazzi con IA: mazzi su misura su qualsiasi tema."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 creazioni di mazzi con IA per serate di gioco frequenti.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 creazioni di mazzi con IA per chi non resta mai senza idee."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Mazzi premium",
     "singleDeck": {
       "name": "Mazzi tematici",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Tutti i mazzi tematici premium dell'app, con un solo acquisto.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Download gratuito",
+      "popular": "Il più scelto",
+      "bestValue": "Miglior valore"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Non restare mai senza idee per la serata di gioco.",
     "subtitle": "Nuovi temi, funzionalità e consigli per giochi da festa. Niente spam.",
     "placeholder": "tu@email.com",
-    "button": "Iscriviti alla lista",
+    "button": "Ricevi novità",
     "success": "Sei in lista. Ti scriveremo quando c'è qualcosa di nuovo.",
     "privacy": "Inviamo email solo sugli aggiornamenti Tadado. Disiscriviti quando vuoi.",
     "errorInvalid": "Inserisci un indirizzo email valido.",

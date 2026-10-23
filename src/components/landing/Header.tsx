@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { BrandLockup } from "@/components/brand/brand-lockup";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
 
 import { DecksNavCrawlLinks } from "./DecksNavCrawlLinks";
 import { DecksNavMenu } from "./DecksNavMenu";
@@ -22,8 +21,6 @@ function homeHref(locale: Locale, hash: string) {
 }
 
 export function Header({ locale, dict }: HeaderProps) {
-  const appStoreUrl = getAppStoreUrl(locale);
-
   const primaryLinks = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
@@ -65,7 +62,7 @@ export function Header({ locale, dict }: HeaderProps) {
             label={dict.language.label}
             closeLabel={dict.a11y.closeLanguageMenu}
           />
-          <MobileNavSheet locale={locale} dict={dict} downloadUrl={appStoreUrl} />
+          <MobileNavSheet locale={locale} dict={dict} />
         </div>
       </div>
     </header>

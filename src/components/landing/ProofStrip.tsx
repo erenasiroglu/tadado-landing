@@ -15,7 +15,7 @@ export function ProofStrip({ dict }: ProofStripProps) {
   ];
 
   return (
-    <section className="border-y border-border /60 py-4">
+    <section className="border-y border-border/60 bg-paper/60 py-4">
       <SectionViewTracker sectionId="proof">
         <div className="section-shell">
           <p className="mb-3 text-center text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">

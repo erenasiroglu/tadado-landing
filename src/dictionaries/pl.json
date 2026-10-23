@@ -20,11 +20,11 @@
     "download": "Pobierz"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Imprezowa gra słowna · ★ 5.0 w App Store",
     "title": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
     "subtitle": "Taboo, Heads Up i talie AI stworzone na wieczory gier.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "POBIERZ TADADO · ZA DARMO",
+    "ctaSecondary": "ZOBACZ, JAK TO DZIAŁA",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "języków"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "talii gry",
         "href": "#decks"
       },
@@ -403,29 +403,29 @@
     "trust": "Bez reklam · Bez subskrypcji · Przywracaj zakupy w każdej chwili",
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
+      "price": "Za darmo",
       "desc": "Pobierz za darmo i graj od razu z klasyczną talią startową."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Tworzenie talii z AI",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 kreacji talii z AI — własne talie na dowolny temat."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 kreacji talii z AI na regularne wieczory gier.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 kreacji talii z AI dla gospodarzy, którym nigdy nie brakuje pomysłów."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Talie premium",
     "singleDeck": {
       "name": "Talie tematyczne",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Wszystkie tematyczne talie premium w aplikacji w jednym zakupie.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Pobierz za darmo",
+      "popular": "Najpopularniejszy",
+      "bestValue": "Najlepsza wartość"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Nigdy nie zabraknie pomysłów na wieczór gier.",
     "subtitle": "Nowe motywy, funkcje i wskazówki imprezowe. Bez spamu.",
     "placeholder": "ty@email.com",
-    "button": "Dołącz do listy",
+    "button": "Otrzymuj nowości",
     "success": "Jesteś na liście. Napiszemy, gdy pojawi się coś nowego.",
     "privacy": "Wysyłamy tylko aktualizacje Tadado. Wypisz się w każdej chwili.",
     "errorInvalid": "Wpisz prawidłowy adres e-mail.",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
-    "button": "GET TADADO · FREE",
+    "button": "POBIERZ TADADO · ZA DARMO",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
-    "button": "GET TADADO · FREE",
+    "button": "POBIERZ TADADO · ZA DARMO",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "POBIERZ TADADO · ZA DARMO"
   },
   "language": {
     "label": "Język"

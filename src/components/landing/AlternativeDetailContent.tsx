@@ -11,7 +11,7 @@ import {
 import { ctaGradientClass } from "@/lib/cta-button";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localeHref } from "@/lib/i18n-config";
-import { getAppStoreUrl } from "@/lib/store-links";
+import { getSmartStoreUrl } from "@/lib/store-links";
 
 import { BackLink } from "./BackLink";
 
@@ -52,7 +52,7 @@ interface AlternativeDetailContentProps {
 }
 
 export function AlternativeDetailContent({ locale, dict, content }: AlternativeDetailContentProps) {
-  const downloadUrl = getAppStoreUrl(locale);
+  const downloadUrl = getSmartStoreUrl(locale);
   const related = getRelatedAlternativeIds(content.id);
   const hubLabel = locale === "tr" ? "Alternatifler" : "Alternatives";
   const compareLabel = dict.footer.compare;

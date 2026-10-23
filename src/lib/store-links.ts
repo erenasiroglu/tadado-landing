@@ -53,3 +53,8 @@ export function getPlayStoreUrl(locale: string): string {
 }
 
 export const APP_STORE_ID_EXPORT = APP_STORE_ID;
+
+/** Smart store link: `/link` picks App Store or Google Play from the visitor's device. */
+export function getSmartStoreUrl(locale: string): string {
+  return `https://tadado.app/link?lang=${encodeURIComponent(locale)}`;
+}

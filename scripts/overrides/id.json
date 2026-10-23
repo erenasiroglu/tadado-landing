@@ -20,7 +20,7 @@
     "download": "Unduh"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Game kata untuk pesta · ★ 5.0 di App Store",
     "title": "Satu ponsel. Teman-temanmu. Biarkan kekacauan dimulai.",
     "subtitle": "Taboo, Heads Up, dan deste AI khusus untuk malam permainan.",
     "ctaPrimary": "UNDUH TADADO · GRATIS",
@@ -30,7 +30,7 @@
       { "value": "2", "label": "mode permainan" },
       { "value": "AI", "label": "didukung" },
       { "value": "17", "label": "bahasa" },
-      { "value": "8", "label": "deste permainan", "href": "#decks" },
+      { "value": "7+", "label": "deste permainan", "href": "#decks" },
       { "value": "Offline", "label": "main" },
       { "value": "No", "label": "iklan" }
     ]
@@ -607,7 +607,7 @@
     "title": "Jangan pernah kehabisan ide malam permainan.",
     "subtitle": "Tema baru, fitur, dan tips game pesta. Tanpa spam.",
     "placeholder": "email@kamu.com",
-    "button": "Gabung waitlist",
+    "button": "Dapatkan kabar terbaru",
     "success": "Kamu sudah terdaftar. Kami akan email saat ada yang baru.",
     "privacy": "Kami hanya email tentang update Tadado. Berhenti berlangganan kapan saja.",
     "errorInvalid": "Masukkan alamat email yang valid.",

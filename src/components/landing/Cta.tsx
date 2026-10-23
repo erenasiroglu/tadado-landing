@@ -1,7 +1,7 @@
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { ctaGradientClass } from "@/lib/cta-button";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
+import { getSmartStoreUrl } from "@/lib/store-links";
 
 import { LandingSection } from "./LandingSection";
 import { StoreBadges } from "./StoreBadges";
@@ -20,7 +20,7 @@ export function Cta({ locale, dict }: CtaProps) {
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">{dict.cta.subtitle}</p>
         <TrackedOutboundLink
-          href={getAppStoreUrl(locale)}
+          href={getSmartStoreUrl(locale)}
           locale={locale}
           downloadPlatform="ios"
           downloadSource="cta_bottom"

@@ -24,6 +24,25 @@ export async function POST(request: Request) {
     return Response.json({ error: "generic" }, { status: 503 });
   }
 
+  // Keep a real list (Resend Audience) instead of only an inbox notification.
+  const audienceId = process.env.RESEND_AUDIENCE_ID;
+  if (audienceId) {
+    const contact = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${resendKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email, unsubscribed: false }),
+    });
+    if (!contact.ok && contact.status !== 409) {
+      console.error("[waitlist] Resend audience rejected the contact", {
+        status: contact.status,
+        body: await contact.text(),
+      });
+    }
+  }
+
   const fromEmail = process.env.WAITLIST_FROM_EMAIL ?? "onboarding@resend.dev";
   const notifyEmail = process.env.WAITLIST_NOTIFY_EMAIL ?? BRAND.supportEmail;
 

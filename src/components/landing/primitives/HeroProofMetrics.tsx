@@ -100,8 +100,8 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
   const rightMetrics = metrics.filter((_, index) => index % 2 === 1);
 
   return (
-    <div className={cn(className)} aria-label="Tadado product proof">
-      <div className="mt-5 hidden max-w-full flex-wrap justify-center gap-2 lg:justify-start" aria-hidden>
+    <div className={cn(className)}>
+      <div className="mt-5 hidden max-w-full flex-wrap justify-center gap-2 sm:flex lg:justify-start">
         {[...leftMetrics, ...rightMetrics].map((metric) => (
           <ProofBadge
             key={`${metric.value}-${metric.label}`}

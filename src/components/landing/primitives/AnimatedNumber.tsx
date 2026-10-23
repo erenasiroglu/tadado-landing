@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useReducedMotion } from "motion/react";
 
 interface AnimatedNumberProps {
@@ -13,7 +13,11 @@ interface AnimatedNumberProps {
   compactBelowPx?: number;
 }
 
-function formatNumber(amount: number, compact: boolean) {
+function subscribeToNothing() {
+  return () => {};
+}
+
+function formatNumber(amount: number, compact: boolean, locale: string) {
   if (compact && amount >= 1000) {
     const rounded = amount >= 1_000_000
       ? `${Math.round(amount / 1_000_000)}M`
@@ -21,7 +25,7 @@ function formatNumber(amount: number, compact: boolean) {
     return rounded;
   }
 
-  return amount.toLocaleString();
+  return amount.toLocaleString(locale);
 }
 
 export function AnimatedNumber({
@@ -33,7 +37,13 @@ export function AnimatedNumber({
   compactBelowPx,
 }: AnimatedNumberProps) {
   const reduceMotion = useReducedMotion();
-  const [display, setDisplay] = useState(reduceMotion ? value : 0);
+  // Server HTML carries the real number so crawlers and no-JS readers never see "0".
+  const [display, setDisplay] = useState(value);
+  const numberLocale = useSyncExternalStore(
+    subscribeToNothing,
+    () => document.documentElement.lang || "en-US",
+    () => "en-US",
+  );
   const [useCompact, setUseCompact] = useState(false);
   const startedRef = useRef(false);
   const nodeRef = useRef<HTMLSpanElement>(null);
@@ -79,7 +89,7 @@ export function AnimatedNumber({
     return () => observer.disconnect();
   }, [value, durationMs, reduceMotion]);
 
-  const formatted = formatNumber(reduceMotion ? value : display, useCompact);
+  const formatted = formatNumber(reduceMotion ? value : display, useCompact, numberLocale);
 
   return (
     <span ref={nodeRef} className={className}>

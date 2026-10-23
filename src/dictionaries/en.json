@@ -20,7 +20,7 @@
     "download": "Download"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Party word game · ★ 5.0 on the App Store",
     "title": "One phone. Your friends. Let the chaos begin.",
     "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
     "ctaPrimary": "GET TADADO · FREE",
@@ -30,7 +30,7 @@
       { "value": "2", "label": "game modes" },
       { "value": "AI", "label": "powered" },
       { "value": "17", "label": "languages" },
-      { "value": "8", "label": "game decks", "href": "#decks" },
+      { "value": "7+", "label": "game decks", "href": "#decks" },
       { "value": "Offline", "label": "play" },
       { "value": "No", "label": "ads" }
     ]
@@ -98,7 +98,7 @@
   },
   "reviews": {
     "title": "Loved at game night",
-    "subtitle": "Real App Store reviews from players who tried Tadado with friends.",
+    "subtitle": "Real App Store reviews from players who tried Tadado with friends. Some are translated from Turkish.",
     "appStoreRating": "5.0 on the App Store",
     "appStoreCount": "8 ratings",
     "sourceLabel": "App Store review",
@@ -384,7 +384,7 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Every premium themed deck in the app, unlocked with one purchase.",
       "highlight": true
     }
   },
@@ -703,7 +703,7 @@
     "title": "Never run out of game night ideas.",
     "subtitle": "New themes, features, and party game tips. No spam.",
     "placeholder": "you@email.com",
-    "button": "Join waitlist",
+    "button": "Get updates",
     "success": "You're on the list. We'll email you when something new drops.",
     "privacy": "We only email about Tadado updates. Unsubscribe anytime.",
     "errorInvalid": "Enter a valid email address.",

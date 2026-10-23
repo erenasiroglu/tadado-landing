@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Parti Kelime Oyunu | Taboo, Heads Up ve Yapay Zeka Desteleri",
-    "description": "Tek telefon. Arkadaşların. Taboo, Heads Up ve oyun geceleri için yapay zeka desteleri. Ücretsiz başla. Reklamsız. iOS ve Android."
+    "title": "Tadado: Tabu ve Alnında Tahmin Oyunu | Yapay Zeka Desteleri",
+    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve yapay zeka ile kendi desten. Ücretsiz başla, reklam ve abonelik yok. iOS ve Android."
   },
   "nav": {
     "play": "Oyna",
@@ -20,14 +20,14 @@
     "download": "İndir"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Parti kelime oyunu · App Store'da ★ 5.0",
     "title": "Tek telefon. Arkadaşların. Kaos başlasın.",
-    "subtitle": "Oyun geceleri için Taboo, Heads Up ve yapay zeka desteleri.",
+    "subtitle": "Oyun geceleri için Yasaklı Kelimeler (Tabu), Alnında Tahmin ve yapay zeka desteleri.",
     "ctaPrimary": "TADADO'YU İNDİR · ÜCRETSİZ",
     "ctaSecondary": "NASIL OYNANIR",
     "metrics": [
       {
-        "value": "300,000+",
+        "value": "300.000+",
         "label": "oyun oynandı",
         "animate": true
       },
@@ -44,17 +44,17 @@
         "label": "dil"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "oyun destesi",
         "href": "#decks"
       },
       {
-        "value": "Offline",
+        "value": "Çevrimdışı",
         "label": "oyna"
       },
       {
-        "value": "No",
-        "label": "reklam"
+        "value": "Reklam",
+        "label": "yok"
       }
     ]
   },
@@ -90,7 +90,7 @@
     ]
   },
   "stats": {
-    "gamesPlayed": "300,000+",
+    "gamesPlayed": "300.000+",
     "gamesPlayedLabel": "dünya genelinde oynanan oyun",
     "modes": "2",
     "modesLabel": "oyun modu",
@@ -169,7 +169,7 @@
         "context": "Ağu 2025 · App Store"
       },
       {
-        "quote": "Taboo gibi arkadaşlarla oynamak için çok eğlenceli bir oyun.",
+        "quote": "Tabu gibi, arkadaşlarla oynamak için çok eğlenceli bir oyun.",
         "author": "Silenzi.O",
         "context": "Tem 2025 · App Store"
       },
@@ -182,7 +182,7 @@
   },
   "modes": {
     "title": "İki farklı oyun",
-    "subtitle": "Klasik Taboo tarzı yasaklı kelimeler veya alnında Heads Up. Aynı desteler, farklı enerji.",
+    "subtitle": "Klasik Tabu tarzı Yasaklı Kelimeler ya da telefon alnında Alnında Tahmin. Aynı desteler, farklı enerji.",
     "tabooTitle": "Yasaklı Kelimeler",
     "tabooBody": "Ana kelimeyi anlat, daha fazla risk al ve skorunu büyüt. Daha zor kelimeler ×2'den ×5'e kadar daha yüksek çarpanlar açar.",
     "headsUpTitle": "Alnında Tahmin",
@@ -326,7 +326,7 @@
     "topics": "90'lar Türk pop'u, Marvel kötüleri, ofis kaosu, arkadaş grubumuzun sürekli söyledikleri",
     "demoTitle": "Yapay Zeka Deste Oluşturucu",
     "demoHeadline": "Desteni 30 saniyede oluştur.",
-    "demoSubtitle": "Herhangi bir konuyu yaz. Yapay zeka Taboo kartları üretir: hedef kelime ve yasaklı ipuçları. Grubun hemen oynar.",
+    "demoSubtitle": "Herhangi bir konu yaz. Yapay zeka Tabu kartları üretir: hedef kelime ve yasaklı ipuçları. Grubun hemen oynar.",
     "inputLabel": "Konun",
     "inputPlaceholder": "ör. Marvel filmleri, 90'lar pop hitleri, ofis şakaları…",
     "quickIdeas": "Hızlı fikirler",
@@ -439,7 +439,7 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "499 TL",
-      "desc": "100+ premium deste — uygulamadaki tüm temalı paketler.",
+      "desc": "Uygulamadaki tüm premium temalı desteler, tek satın alımla.",
       "highlight": true
     }
   },
@@ -465,7 +465,7 @@
     "subtitle": "Klipler, deste fikirleri ve parti oyunu ilhamı için Tadado'yu takip et.",
     "metrics": [
       {
-        "value": "300,000+",
+        "value": "300.000+",
         "label": "oyun oynandı",
         "animate": true
       },
@@ -500,7 +500,7 @@
     "instagramCta": "Instagram",
     "instagramDesc": "Reels, oyun gecesi klipleri ve deste fikirleri",
     "tiktokCta": "TikTok",
-    "tiktokDesc": "Heads Up videoları ve parti meydan okumaları",
+    "tiktokDesc": "Alnında Tahmin videoları ve parti akımları",
     "linkedinCta": "LinkedIn",
     "linkedinDesc": "Tadado Game Development'tan güncellemeler",
     "productHuntCta": "Product Hunt",
@@ -638,31 +638,31 @@
   },
   "seoGuides": {
     "title": "Nasıl oynanır ve en iyi kelime oyunu rehberleri",
-    "subtitle": "Taboo, Heads Up charades için adım adım kurallar ve en iyi mobil kelime oyunu uygulamaları."
+    "subtitle": "Tabu ve Alnında Tahmin için adım adım kurallar ve en iyi mobil kelime oyunu uygulamaları."
   },
   "faq": {
-    "title": "Sorular, cevaplandı.",
+    "title": "Merak edilenler",
     "subtitle": "Bir sonraki oyun gecen öncesi bilmen gereken her şey.",
     "items": [
       {
-        "q": "Taboo (Yasaklı Kelimeler) nasıl oynanır?",
+        "q": "Tabu (Yasaklı Kelimeler) nasıl oynanır?",
         "a": "Takımlara bölün. Sıradaki oyuncu, karttaki yasaklı ipuçlarını söylemeden hedef kelimeyi anlatır. Takımın süre dolmadan bilmesi gerekir. Pas hakkı sınırlıdır. Tadado'da süre, skor ve temalı desteler hazır gelir; saniyeler içinde başlayabilirsin."
       },
       {
-        "q": "Heads Up charades nasıl oynanır?",
-        "a": "Telefonu alnına koy ki kelimeyi göremeyesin. Arkadaşların kelimeyi söylemeden ipucu verir. Doğru bildiğinde aşağı, pas geçmek için yukarı eğ. Tadado aynı desteleri Heads Up ve Taboo modlarında kullanır."
+        "q": "Alnında Tahmin nasıl oynanır?",
+        "a": "Telefonu alnına koy, kelimeyi sen göremezsin. Arkadaşların kelimeyi söylemeden ipucu verir. Bildiğinde telefonu aşağı, pas geçmek için yukarı eğ. Tadado aynı desteleri Alnında Tahmin ve Yasaklı Kelimeler modlarında kullanır."
       },
       {
         "q": "Tadado en iyi ücretsiz kelime oyunu uygulamalarından biri mi?",
-        "a": "Tadado oyun geceleri için tasarlandı: Taboo, Heads Up charades, ücretsiz Tadado Mix, isteğe bağlı temalı desteler ve yapay zeka deste oluşturma. Reklamsız ve abonelik yok; iOS ve Android'de en iyi değeri sunan kelime oyunlarından biri."
+        "a": "Tadado oyun geceleri için tasarlandı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, ücretsiz Tadado Mix, isteğe bağlı temalı desteler ve yapay zeka ile deste oluşturma. Reklam ve abonelik yok; iOS ve Android'de en iyi fiyat/performans sunan kelime oyunlarından biri."
       },
       {
         "q": "Tadado ücretsiz mi?",
         "a": "Evet. Tadado Mix ücretsiz oynanır. İsteğe bağlı temalı desteler ve yapay zeka deste oluşturma tek seferlik satın alımlardır. Detaylar için Fiyatlar bölümüne bak. Abonelik yoktur."
       },
       {
-        "q": "Taboo ile Heads Up arasındaki fark nedir?",
-        "a": "Yasaklı Kelimeler takım tabanlı Taboo'dur: yasaklı kelimeleri kullanmadan anlatırsın. Heads Up telefonu alnına koyar, arkadaşların ipucu verir. İkisi de aynı desteleri kullanır."
+        "q": "Tabu ile Alnında Tahmin arasındaki fark nedir?",
+        "a": "Yasaklı Kelimeler takımla oynanan Tabu'dur: yasaklı kelimeleri kullanmadan anlatırsın. Alnında Tahmin'de telefon alnındadır, arkadaşların ipucu verir. İkisi de aynı desteleri kullanır."
       },
       {
         "q": "Tadado'da reklam var mı?",
@@ -679,8 +679,8 @@
     ]
   },
   "compare": {
-    "title": "Tadado nasıl karşılaştırılır?",
-    "subtitle": "Oyuncuların tek modlu Taboo veya Heads Up uygulamalarından Tadado'ya geçmesinin nedenlerini gör.",
+    "title": "Tadado'yu farklı kılan ne?",
+    "subtitle": "Oyuncuların tek modlu Tabu veya Alnında Tahmin uygulamalarından Tadado'ya geçme nedenleri.",
     "back": "Tadado'ya dön",
     "columns": {
       "feature": "Özellik",
@@ -689,7 +689,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up tek uygulamada",
+        "feature": "Tabu + Alnında Tahmin tek uygulamada",
         "tadado": "yes",
         "others": "no"
       },
@@ -791,20 +791,20 @@
     "title": "Oyun gecesi fikirlerin hiç bitmesin.",
     "subtitle": "Yeni temalar, özellikler ve parti oyunu ipuçları. Spam yok.",
     "placeholder": "sen@email.com",
-    "button": "Bekleme listesine katıl",
+    "button": "Haberdar ol",
     "success": "Listedesin. Yeni bir şey çıktığında sana e-posta atacağız.",
-    "privacy": "Yalnızca Tadado güncellemeleri göndeririz. İstediğin zaman abonelikten çıkabilirsin.",
+    "privacy": "Yalnızca Tadado yenilikleri için e-posta atarız. İstediğin zaman listeden çıkabilirsin.",
     "errorInvalid": "Geçerli bir e-posta adresi gir.",
     "errorGeneric": "Bir şeyler ters gitti. Lütfen tekrar dene."
   },
   "cta": {
-    "title": "Bir sonraki oyun gecen Tadado'yu hak ediyor.",
+    "title": "Bir sonraki oyun gecende Tadado olsun.",
     "subtitle": "Tek telefon. Herkes davetli.",
     "button": "TADADO'YU İNDİR · ÜCRETSİZ",
     "secondary": "DESTELERİ KEŞFET"
   },
   "finalCta": {
-    "title": "Bir sonraki oyun gecen Tadado'yu hak ediyor.",
+    "title": "Bir sonraki oyun gecende Tadado olsun.",
     "subtitle": "Tek telefon. Herkes davetli.",
     "button": "TADADO'YU İNDİR · ÜCRETSİZ",
     "secondary": "DESTELERİ KEŞFET"

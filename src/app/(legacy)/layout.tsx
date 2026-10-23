@@ -7,7 +7,7 @@ import { AttributionProvider } from "@/components/analytics/AttributionProvider"
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
-import "./globals.css";
+import "../globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",

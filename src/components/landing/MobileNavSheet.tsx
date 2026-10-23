@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight, Menu } from "lucide-react";
 
-import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
 import { buttonVariants } from "@/components/ui/button";
 import {
   Sheet,
@@ -12,7 +12,6 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { ctaGradientClass } from "@/lib/cta-button";
 import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
@@ -21,7 +20,6 @@ import { cn } from "@/lib/utils";
 interface MobileNavSheetProps {
   locale: Locale;
   dict: Dictionary;
-  downloadUrl: string;
 }
 
 interface NavItem {
@@ -71,7 +69,7 @@ function MobileNavLink({ href, label, isPage }: NavItem) {
   );
 }
 
-export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProps) {
+export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
   const playLinks: NavItem[] = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
@@ -152,17 +150,12 @@ export function MobileNavSheet({ locale, dict, downloadUrl }: MobileNavSheetProp
         <div
           className="shrink-0 border-t border-border px-5 py-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]"
         >
-          <TrackedOutboundLink
-            href={downloadUrl}
+          <MobileStoreDownloadCta
             locale={locale}
-            downloadPlatform="ios"
-            downloadSource="header_mobile"
-            className={ctaGradientClass(
-              "h-12 w-full cursor-pointer rounded-full text-sm shadow-lg shadow-violet-900/30",
-            )}
-          >
-            {dict.nav.getTadado}
-          </TrackedOutboundLink>
+            source="header_mobile"
+            label={dict.nav.getTadado}
+            className="h-12 shadow-lg shadow-violet-900/30"
+          />
         </div>
       </SheetContent>
     </Sheet>

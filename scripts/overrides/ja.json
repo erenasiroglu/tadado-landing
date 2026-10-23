@@ -20,17 +20,17 @@
     "download": "ダウンロード"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "パーティー向けワードゲーム · App Storeで★5.0",
     "title": "スマホ1台。友だちと一緒に。カオスを始めよう。",
     "subtitle": "Taboo、Heads Up、ゲームナイト向けのAIカスタムデッキ。",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "TADADOを無料で入手",
+    "ctaSecondary": "遊び方を見る",
     "metrics": [
       { "value": "300,000+", "label": "プレイ回数", "animate": true },
       { "value": "2", "label": "ゲームモード" },
       { "value": "AI", "label": "搭載" },
       { "value": "17", "label": "言語" },
-      { "value": "8", "label": "デッキ", "href": "#decks" },
+      { "value": "7+", "label": "デッキ", "href": "#decks" },
       { "value": "Offline", "label": "プレイ" },
       { "value": "No", "label": "広告" }
     ]
@@ -575,7 +575,7 @@
     "title": "ゲームナイトのアイデアが尽きない。",
     "subtitle": "新テーマ、新機能、パーティーゲームのヒント。スパムなし。",
     "placeholder": "you@email.com",
-    "button": "ウェイトリストに参加",
+    "button": "最新情報を受け取る",
     "success": "リストに登録されました。新しい情報があればメールします。",
     "privacy": "Tadadoの更新情報のみメール。いつでも配信停止可能。",
     "errorInvalid": "有効なメールアドレスを入力してください。",
@@ -584,13 +584,13 @@
   "cta": {
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
-    "button": "GET TADADO · FREE",
+    "button": "TADADOを無料で入手",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
-    "button": "GET TADADO · FREE",
+    "button": "TADADOを無料で入手",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -613,7 +613,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "TADADOを無料で入手"
   },
   "language": {
     "label": "言語"

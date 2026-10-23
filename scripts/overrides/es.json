@@ -20,7 +20,7 @@
     "download": "Descargar"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Juego de palabras para fiestas · ★ 5.0 en App Store",
     "title": "Un móvil. Tus amigos. Que empiece el caos.",
     "subtitle": "Taboo, Heads Up y mazos personalizados con IA hechos para las noches de juego.",
     "ctaPrimary": "DESCARGAR TADADO · GRATIS",
@@ -30,7 +30,7 @@
       { "value": "2", "label": "modos de juego" },
       { "value": "IA", "label": "potenciado" },
       { "value": "17", "label": "idiomas" },
-      { "value": "8", "label": "mazos de juego", "href": "#decks" },
+      { "value": "7+", "label": "mazos de juego", "href": "#decks" },
       { "value": "Sin conexión", "label": "juega" },
       { "value": "Sin", "label": "anuncios" }
     ]
@@ -607,7 +607,7 @@
     "title": "Nunca te quedes sin ideas para la noche de juegos.",
     "subtitle": "Nuevos temas, funciones y consejos para juegos de fiesta. Sin spam.",
     "placeholder": "tu@email.com",
-    "button": "Unirme a la lista",
+    "button": "Recibir novedades",
     "success": "Estás en la lista. Te escribiremos cuando haya novedades.",
     "privacy": "Solo enviamos emails sobre novedades de Tadado. Date de baja cuando quieras.",
     "errorInvalid": "Introduce una dirección de email válida.",

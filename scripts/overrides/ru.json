@@ -20,17 +20,17 @@
     "download": "Скачать"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Словесная игра для вечеринок · ★ 5.0 в App Store",
     "title": "Один телефон. Ваши друзья. Пусть начнётся хаос.",
     "subtitle": "Taboo, Heads Up и пользовательские колоды ИИ для игровых вечеров.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
+    "ctaSecondary": "КАК ЭТО РАБОТАЕТ",
     "metrics": [
       { "value": "300,000+", "label": "сыгранных игр", "animate": true },
       { "value": "2", "label": "режима игры" },
       { "value": "AI", "label": "на базе ИИ" },
       { "value": "17", "label": "языков" },
-      { "value": "8", "label": "колод", "href": "#decks" },
+      { "value": "7+", "label": "колод", "href": "#decks" },
       { "value": "Offline", "label": "игра" },
       { "value": "No", "label": "рекламы" }
     ]
@@ -575,7 +575,7 @@
     "title": "Идеи для игровых вечеров никогда не закончатся.",
     "subtitle": "Новые темы, функции и советы для вечеринок. Без спама.",
     "placeholder": "you@email.com",
-    "button": "Встать в очередь",
+    "button": "Получать новости",
     "success": "Вы в списке. Напишем, когда появится что-то новое.",
     "privacy": "Пишем только об обновлениях Tadado. Отписаться можно в любой момент.",
     "errorInvalid": "Введите корректный email.",
@@ -584,13 +584,13 @@
   "cta": {
     "title": "Вашему следующему игровому вечеру нужен Tadado.",
     "subtitle": "Один телефон. Все приглашены.",
-    "button": "GET TADADO · FREE",
+    "button": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Вашему следующему игровому вечеру нужен Tadado.",
     "subtitle": "Один телефон. Все приглашены.",
-    "button": "GET TADADO · FREE",
+    "button": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -613,7 +613,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "СКАЧАТЬ TADADO · БЕСПЛАТНО"
   },
   "language": {
     "label": "Язык"

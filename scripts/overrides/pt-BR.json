@@ -20,17 +20,17 @@
     "download": "Download"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Jogo de palavras para festas · ★ 5.0 na App Store",
     "title": "Um celular. Seus amigos. Deixa o caos começar.",
     "subtitle": "Taboo, Heads Up e baralhos IA personalizados feitos para noites de jogo.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "BAIXE O TADADO · GRÁTIS",
+    "ctaSecondary": "VEJA COMO FUNCIONA",
     "metrics": [
       { "value": "300,000+", "label": "partidas jogadas", "animate": true },
       { "value": "2", "label": "modos de jogo" },
       { "value": "AI", "label": "powered" },
       { "value": "17", "label": "idiomas" },
-      { "value": "8", "label": "baralhos", "href": "#decks" },
+      { "value": "7+", "label": "baralhos", "href": "#decks" },
       { "value": "Offline", "label": "jogo" },
       { "value": "No", "label": "ads" }
     ]
@@ -607,7 +607,7 @@
     "title": "Nunca fique sem ideias para noite de jogo.",
     "subtitle": "Novos temas, recursos e dicas de jogos de festa. Sem spam.",
     "placeholder": "voce@email.com",
-    "button": "Entrar na lista de espera",
+    "button": "Receber novidades",
     "success": "Você está na lista. Vamos te avisar por e-mail quando sair algo novo.",
     "privacy": "Só enviamos e-mails sobre atualizações do Tadado. Cancele quando quiser.",
     "errorInvalid": "Digite um endereço de e-mail válido.",
@@ -616,13 +616,13 @@
   "cta": {
     "title": "Sua próxima noite de jogo precisa do Tadado.",
     "subtitle": "Um celular. Todo mundo convidado.",
-    "button": "GET TADADO · FREE",
+    "button": "BAIXE O TADADO · GRÁTIS",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Sua próxima noite de jogo precisa do Tadado.",
     "subtitle": "Um celular. Todo mundo convidado.",
-    "button": "GET TADADO · FREE",
+    "button": "BAIXE O TADADO · GRÁTIS",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -645,7 +645,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "BAIXE O TADADO · GRÁTIS"
   },
   "language": {
     "label": "Idioma"

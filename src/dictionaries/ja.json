@@ -20,11 +20,11 @@
     "download": "ダウンロード"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "パーティー向けワードゲーム · App Storeで★5.0",
     "title": "スマホ1台。友だちと一緒に。カオスを始めよう。",
     "subtitle": "Taboo、Heads Up、ゲームナイト向けのAIカスタムデッキ。",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "TADADOを無料で入手",
+    "ctaSecondary": "遊び方を見る",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "言語"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "デッキ",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "無料",
       "desc": "無料ダウンロードですぐにクラシックスターターデッキでプレイ。"
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "AIデッキ作成",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "AIデッキ作成10回 — どんなテーマでもオリジナルデッキに。"
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "AIデッキ作成30回 — ゲームナイトを定期的に開く人に。",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "AIデッキ作成100回 — アイデアが尽きないホストに。"
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "プレミアムデッキ",
     "singleDeck": {
       "name": "テーマデッキ",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "アプリ内のすべてのプレミアムテーマデッキを一度の購入で。",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "無料ダウンロード",
+      "popular": "人気No.1",
+      "bestValue": "いちばんお得"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "ゲームナイトのアイデアが尽きない。",
     "subtitle": "新テーマ、新機能、パーティーゲームのヒント。スパムなし。",
     "placeholder": "you@email.com",
-    "button": "ウェイトリストに参加",
+    "button": "最新情報を受け取る",
     "success": "リストに登録されました。新しい情報があればメールします。",
     "privacy": "Tadadoの更新情報のみメール。いつでも配信停止可能。",
     "errorInvalid": "有効なメールアドレスを入力してください。",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
-    "button": "GET TADADO · FREE",
+    "button": "TADADOを無料で入手",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
-    "button": "GET TADADO · FREE",
+    "button": "TADADOを無料で入手",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "TADADOを無料で入手"
   },
   "language": {
     "label": "言語"

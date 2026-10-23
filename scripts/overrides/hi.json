@@ -20,17 +20,17 @@
     "download": "डाउनलोड"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "पार्टी वर्ड गेम · App Store पर ★ 5.0",
     "title": "एक फ़ोन। आपके दोस्त। अब शुरू हो हंगामा।",
     "subtitle": "Taboo, Heads Up और गेम नाइट के लिए AI कस्टम डेक।",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "TADADO डाउनलोड करें · मुफ़्त",
+    "ctaSecondary": "देखें कैसे काम करता है",
     "metrics": [
       { "value": "300,000+", "label": "खेले गए गेम", "animate": true },
       { "value": "2", "label": "गेम मोड" },
       { "value": "AI", "label": "संचालित" },
       { "value": "17", "label": "भाषाएँ" },
-      { "value": "8", "label": "गेम डेक", "href": "#decks" },
+      { "value": "7+", "label": "गेम डेक", "href": "#decks" },
       { "value": "Offline", "label": "खेल" },
       { "value": "No", "label": "विज्ञापन" }
     ]
@@ -607,7 +607,7 @@
     "title": "गेम नाइट विचार कभी खत्म न हों।",
     "subtitle": "नए थीम, फ़ीचर और पार्टी गेम टिप्स। कोई spam नहीं।",
     "placeholder": "you@email.com",
-    "button": "वेटलिस्ट में शामिल हों",
+    "button": "अपडेट पाएं",
     "success": "आप सूची में हैं। कुछ नया आए तो ईमेल करेंगे।",
     "privacy": "हम सिर्फ़ Tadado अपडेट के बारे में ईमेल करते हैं। कभी भी unsubscribe करें।",
     "errorInvalid": "वैध ईमेल पता दर्ज करें।",
@@ -616,13 +616,13 @@
   "cta": {
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO डाउनलोड करें · मुफ़्त",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO डाउनलोड करें · मुफ़्त",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -645,7 +645,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "TADADO डाउनलोड करें · मुफ़्त"
   },
   "language": {
     "label": "भाषा"

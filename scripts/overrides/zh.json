@@ -20,17 +20,17 @@
     "download": "下载"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "派对猜词游戏 · App Store 评分 ★ 5.0",
     "title": "一部手机。你的朋友们。让混乱开始吧。",
     "subtitle": "Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "免费下载 TADADO",
+    "ctaSecondary": "了解玩法",
     "metrics": [
       { "value": "300,000+", "label": "局游戏", "animate": true },
       { "value": "2", "label": "游戏模式" },
       { "value": "AI", "label": "驱动" },
       { "value": "17", "label": "种语言" },
-      { "value": "8", "label": "套卡组", "href": "#decks" },
+      { "value": "7+", "label": "套卡组", "href": "#decks" },
       { "value": "Offline", "label": "游玩" },
       { "value": "No", "label": "广告" }
     ]
@@ -575,7 +575,7 @@
     "title": "游戏之夜灵感永不枯竭。",
     "subtitle": "新主题、新功能与派对游戏技巧。无垃圾邮件。",
     "placeholder": "you@email.com",
-    "button": "加入等候名单",
+    "button": "获取更新",
     "success": "你已在名单中。有新内容时我们会发邮件。",
     "privacy": "我们只发送 Tadado 更新。随时可退订。",
     "errorInvalid": "请输入有效的邮箱地址。",
@@ -584,13 +584,13 @@
   "cta": {
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
-    "button": "GET TADADO · FREE",
+    "button": "免费下载 TADADO",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
-    "button": "GET TADADO · FREE",
+    "button": "免费下载 TADADO",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -613,7 +613,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "免费下载 TADADO"
   },
   "language": {
     "label": "语言"

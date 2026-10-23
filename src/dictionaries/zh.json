@@ -20,11 +20,11 @@
     "download": "下载"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "派对猜词游戏 · App Store 评分 ★ 5.0",
     "title": "一部手机。你的朋友们。让混乱开始吧。",
     "subtitle": "Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "免费下载 TADADO",
+    "ctaSecondary": "了解玩法",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "种语言"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "套卡组",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "免费",
       "desc": "免费下载，立即用经典入门卡组开玩。"
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "AI 卡组创建",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 次 AI 卡组创建：任何主题都能生成专属卡组。"
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 次 AI 卡组创建，适合经常组织游戏之夜。",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 次 AI 卡组创建，创意永不枯竭。"
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "高级卡组",
     "singleDeck": {
       "name": "主题卡组",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "一次购买，解锁应用内所有高级主题卡组。",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "免费下载",
+      "popular": "最受欢迎",
+      "bestValue": "最超值"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "游戏之夜灵感永不枯竭。",
     "subtitle": "新主题、新功能与派对游戏技巧。无垃圾邮件。",
     "placeholder": "you@email.com",
-    "button": "加入等候名单",
+    "button": "获取更新",
     "success": "你已在名单中。有新内容时我们会发邮件。",
     "privacy": "我们只发送 Tadado 更新。随时可退订。",
     "errorInvalid": "请输入有效的邮箱地址。",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
-    "button": "GET TADADO · FREE",
+    "button": "免费下载 TADADO",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
-    "button": "GET TADADO · FREE",
+    "button": "免费下载 TADADO",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "免费下载 TADADO"
   },
   "language": {
     "label": "语言"

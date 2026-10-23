@@ -78,15 +78,15 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
       <main className="flex-1 pb-safe md:pb-0">
         <Hero locale={locale} dict={dict} />
         <GameModeShowcase locale={locale} dict={dict} />
+        <Testimonials dict={dict} />
         <AiDeckBuilderDemo locale={locale} dict={dict} />
-        <PersonalizationSection dict={dict} />
         <DeckCarousel dict={dict} locale={locale} />
+        <HowItWorks dict={dict} />
+        <Pricing locale={locale} dict={dict} />
+        <PersonalizationSection dict={dict} />
         <ProductBenefits dict={dict} />
         <CommunitySection dict={dict} locale={locale} />
         <TrendingCards locale={locale} dict={dict} />
-        <HowItWorks dict={dict} />
-        <Testimonials dict={dict} />
-        <Pricing locale={locale} dict={dict} />
         <Faq dict={dict} />
         <BlogTeaser locale={locale} dict={dict} posts={posts.slice(0, 1)} compact />
         <NewsletterSignup dict={dict} locale={locale} compact />

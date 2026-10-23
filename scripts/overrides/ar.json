@@ -20,17 +20,17 @@
     "download": "تنزيل"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "لعبة كلمات للحفلات · ★ 5.0 على App Store",
     "title": "هاتف واحد. أصدقاؤك. ليبدأ الفوضى.",
     "subtitle": "Taboo وHeads Up ومجموعات AI مخصصة لأمسيات اللعب.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "حمّل Tadado · مجانًا",
+    "ctaSecondary": "شاهد طريقة اللعب",
     "metrics": [
       { "value": "300,000+", "label": "لعبة تم لعبها", "animate": true },
       { "value": "2", "label": "وضع لعب" },
       { "value": "AI", "label": "مدعوم" },
       { "value": "17", "label": "لغة" },
-      { "value": "8", "label": "مجموعات لعب", "href": "#decks" },
+      { "value": "7+", "label": "مجموعات لعب", "href": "#decks" },
       { "value": "Offline", "label": "لعب" },
       { "value": "No", "label": "إعلانات" }
     ]
@@ -607,7 +607,7 @@
     "title": "لن تنفد أفكار أمسيات اللعب.",
     "subtitle": "موضوعات جديدة وميزات ونصائح لألعاب الحفلات. بدون رسائل مزعجة.",
     "placeholder": "you@email.com",
-    "button": "انضم لقائمة الانتظار",
+    "button": "تلقَّ التحديثات",
     "success": "أنت في القائمة. سنراسلك عند ظهور شيء جديد.",
     "privacy": "نراسلك فقط بتحديثات Tadado. يمكنك إلغاء الاشتراك في أي وقت.",
     "errorInvalid": "أدخل عنوان بريد إلكتروني صالحًا.",
@@ -616,13 +616,13 @@
   "cta": {
     "title": "أمسية اللعب القادمة تحتاج Tadado.",
     "subtitle": "هاتف واحد. الجميع مدعو.",
-    "button": "GET TADADO · FREE",
+    "button": "حمّل Tadado · مجانًا",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "أمسية اللعب القادمة تحتاج Tadado.",
     "subtitle": "هاتف واحد. الجميع مدعو.",
-    "button": "GET TADADO · FREE",
+    "button": "حمّل Tadado · مجانًا",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -645,7 +645,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "حمّل Tadado · مجانًا"
   },
   "language": {
     "label": "اللغة"

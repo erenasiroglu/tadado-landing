@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
-import { getAllBlogSlugs } from "@/lib/blog";
+import { findArticleBySlug, getArticleAlternates } from "@/lib/article-registry";
+import { getAllBlogSlugs, getBlogPostDate } from "@/lib/blog";
 import { BRAND } from "@/lib/brand";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
 import { SEO_DECK_KEYS } from "@/lib/deck-catalog";
@@ -23,7 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of LOCALES) {
     entries.push({
       url: `${base}/${locale}`,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: locale === "en" ? 1 : 0.9,
       alternates: { languages: landingLanguages },
@@ -43,57 +43,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push(
       {
         url: `${base}/${locale}/affiliate`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: affiliateLanguages },
       },
       {
         url: `${base}/${locale}/partnerships`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: partnershipsLanguages },
       },
       {
         url: `${base}/${locale}/compare`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.75,
         alternates: { languages: compareLanguages },
       },
       {
         url: `${base}/${locale}/guides`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.75,
         alternates: { languages: guidesLanguages },
       },
       {
         url: `${base}/${locale}/team`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: teamLanguages },
       },
       {
         url: `${base}/${locale}/trending`,
-        lastModified: new Date(),
-        changeFrequency: "weekly",
+          changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: trendingLanguages },
       },
       {
         url: `${base}/${locale}/support`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: supportLanguages },
       },
       {
         url: `${base}/${locale}/marketing`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: marketingLanguages },
       },
@@ -102,14 +94,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   entries.push({
     url: `${base}/llms.txt`,
-    lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.5,
   });
 
   entries.push({
     url: `${base}/llms-full.txt`,
-    lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.5,
   });
@@ -121,15 +111,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push(
       {
         url: `${base}/${locale}/terms-of-use`,
-        lastModified: new Date(),
-        changeFrequency: "yearly",
+          changeFrequency: "yearly",
         priority: 0.3,
         alternates: { languages: termsLanguages },
       },
       {
         url: `${base}/${locale}/privacy-policy`,
-        lastModified: new Date(),
-        changeFrequency: "yearly",
+          changeFrequency: "yearly",
         priority: 0.3,
         alternates: { languages: privacyLanguages },
       },
@@ -139,18 +127,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogLocales = new Set<string>();
   for (const { locale, slug } of getAllBlogSlugs()) {
     blogLocales.add(locale);
+    const article = findArticleBySlug(locale, slug);
+    const date = getBlogPostDate(locale, slug);
     entries.push({
       url: `${base}/${locale}/blog/${slug}`,
-      lastModified: new Date(),
+      ...(date ? { lastModified: new Date(date) } : {}),
       changeFrequency: "monthly",
       priority: 0.7,
+      ...(article
+        ? {
+            alternates: {
+              languages: Object.fromEntries(
+                getArticleAlternates(article.articleId, locale).map((alt) => [
+                  alt.locale,
+                  `${base}/${alt.locale}/blog/${alt.slug}`,
+                ]),
+              ),
+            },
+          }
+        : {}),
     });
   }
 
   for (const locale of blogLocales) {
     entries.push({
       url: `${base}/${locale}/blog`,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     });
@@ -161,7 +162,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of LOCALES) {
     entries.push({
       url: `${base}/${locale}/decks`,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.85,
       alternates: { languages: deckHubLanguages },
@@ -173,8 +173,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const slug = deckSlugFor(locale as Locale, key);
       entries.push({
         url: `${base}/${locale}/decks/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: key === "midnight" ? 0.8 : 0.75,
         alternates: { languages: buildDeckLanguageAlternates(key) },
       });
@@ -185,8 +184,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const guide of getSeoGuides(locale as Locale)) {
       entries.push({
         url: `${base}/${locale}/guides/${guide.slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
+          changeFrequency: "monthly",
         priority: 0.7,
       });
     }
@@ -196,7 +194,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const id = alternativeIdFromSlug(lang as Locale, slug);
     entries.push({
       url: `${base}/${lang}/alternatives/${slug}`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: id === "nebuu" ? 0.78 : 0.72,
       alternates: id ? { languages: buildAlternativeLanguageAlternates(id) } : undefined,

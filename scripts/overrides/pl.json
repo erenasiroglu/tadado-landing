@@ -20,17 +20,17 @@
     "download": "Pobierz"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Imprezowa gra słowna · ★ 5.0 w App Store",
     "title": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
     "subtitle": "Taboo, Heads Up i talie AI stworzone na wieczory gier.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "POBIERZ TADADO · ZA DARMO",
+    "ctaSecondary": "ZOBACZ, JAK TO DZIAŁA",
     "metrics": [
       { "value": "300,000+", "label": "rozegranych gier", "animate": true },
       { "value": "2", "label": "tryby gry" },
       { "value": "AI", "label": "powered" },
       { "value": "17", "label": "języków" },
-      { "value": "8", "label": "talii gry", "href": "#decks" },
+      { "value": "7+", "label": "talii gry", "href": "#decks" },
       { "value": "Offline", "label": "gra" },
       { "value": "No", "label": "ads" }
     ]
@@ -607,7 +607,7 @@
     "title": "Nigdy nie zabraknie pomysłów na wieczór gier.",
     "subtitle": "Nowe motywy, funkcje i wskazówki imprezowe. Bez spamu.",
     "placeholder": "ty@email.com",
-    "button": "Dołącz do listy",
+    "button": "Otrzymuj nowości",
     "success": "Jesteś na liście. Napiszemy, gdy pojawi się coś nowego.",
     "privacy": "Wysyłamy tylko aktualizacje Tadado. Wypisz się w każdej chwili.",
     "errorInvalid": "Wpisz prawidłowy adres e-mail.",
@@ -616,13 +616,13 @@
   "cta": {
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
-    "button": "GET TADADO · FREE",
+    "button": "POBIERZ TADADO · ZA DARMO",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
-    "button": "GET TADADO · FREE",
+    "button": "POBIERZ TADADO · ZA DARMO",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -645,7 +645,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "POBIERZ TADADO · ZA DARMO"
   },
   "language": {
     "label": "Język"

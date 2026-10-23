@@ -20,11 +20,11 @@
     "download": "Скачать"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Словесная игра для вечеринок · ★ 5.0 в App Store",
     "title": "Один телефон. Ваши друзья. Пусть начнётся хаос.",
     "subtitle": "Taboo, Heads Up и пользовательские колоды ИИ для игровых вечеров.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
+    "ctaSecondary": "КАК ЭТО РАБОТАЕТ",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "языков"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "колод",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "Бесплатно",
       "desc": "Скачайте бесплатно и играйте сразу со стартовой колодой."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Создание колод с ИИ",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 созданий колод с ИИ — своя колода на любую тему."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 созданий колод с ИИ для регулярных игровых вечеров.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 созданий колод с ИИ для тех, у кого идеи не заканчиваются."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Премиум-колоды",
     "singleDeck": {
       "name": "Тематические колоды",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Все премиум-колоды приложения одной покупкой.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Бесплатно",
+      "popular": "Популярное",
+      "bestValue": "Выгоднее всего"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Идеи для игровых вечеров никогда не закончатся.",
     "subtitle": "Новые темы, функции и советы для вечеринок. Без спама.",
     "placeholder": "you@email.com",
-    "button": "Встать в очередь",
+    "button": "Получать новости",
     "success": "Вы в списке. Напишем, когда появится что-то новое.",
     "privacy": "Пишем только об обновлениях Tadado. Отписаться можно в любой момент.",
     "errorInvalid": "Введите корректный email.",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "Вашему следующему игровому вечеру нужен Tadado.",
     "subtitle": "Один телефон. Все приглашены.",
-    "button": "GET TADADO · FREE",
+    "button": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Вашему следующему игровому вечеру нужен Tadado.",
     "subtitle": "Один телефон. Все приглашены.",
-    "button": "GET TADADO · FREE",
+    "button": "СКАЧАТЬ TADADO · БЕСПЛАТНО",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "СКАЧАТЬ TADADO · БЕСПЛАТНО"
   },
   "language": {
     "label": "Язык"

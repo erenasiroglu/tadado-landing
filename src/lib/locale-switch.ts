@@ -41,3 +41,8 @@ export function pathnameForLocale(pathname: string, fromLocale: Locale, toLocale
   segments[0] = toLocale;
   return `/${segments.join("/")}`;
 }
+
+/** Remembered by the proxy so tadado.app opens in the chosen language next time. */
+export function rememberLocale(locale: Locale): void {
+  document.cookie = `NEXT_LOCALE=${locale}; path=/; max-age=31536000; samesite=lax`;
+}

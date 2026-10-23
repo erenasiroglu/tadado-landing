@@ -1,11 +1,10 @@
-import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { AccentPill } from "@/components/brand/accent-pill";
-import { primarySolidClass } from "@/lib/cta-button";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
+import { MobileStoreDownloadCta } from "./primitives/MobileStoreDownloadCta";
+import { StoreButtons } from "./primitives/StoreButton";
 import { SectionHeading } from "./SectionHeading";
 
 interface PricingProps {
@@ -122,15 +121,16 @@ export function Pricing({ locale, dict }: PricingProps) {
       </PricingGroup>
 
       <div className="mt-12 flex flex-col items-center gap-4 rounded-2xl border border-border/80 bg-paper/60 px-6 py-8 text-center sm:mt-14 sm:px-10">
-        <TrackedOutboundLink
-          href={getAppStoreUrl(locale)}
+        <div className="w-full max-w-sm sm:hidden">
+          <MobileStoreDownloadCta locale={locale} source="pricing" label={dict.hero.ctaPrimary} />
+        </div>
+        <StoreButtons
           locale={locale}
-          downloadPlatform="ios"
-          downloadSource="pricing"
-          className={primarySolidClass("h-12 min-w-[240px] px-8 text-sm sm:text-base")}
-        >
-          {dict.hero.ctaPrimary}
-        </TrackedOutboundLink>
+          source="pricing"
+          a11y={dict.a11y}
+          labelMode="download"
+          className="hidden justify-center sm:flex"
+        />
         <p className="text-sm font-semibold text-ink">{pricing.trust}</p>
         <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
           {pricing.disclaimer}

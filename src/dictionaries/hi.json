@@ -20,11 +20,11 @@
     "download": "डाउनलोड"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "पार्टी वर्ड गेम · App Store पर ★ 5.0",
     "title": "एक फ़ोन। आपके दोस्त। अब शुरू हो हंगामा।",
     "subtitle": "Taboo, Heads Up और गेम नाइट के लिए AI कस्टम डेक।",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "TADADO डाउनलोड करें · मुफ़्त",
+    "ctaSecondary": "देखें कैसे काम करता है",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "भाषाएँ"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "गेम डेक",
         "href": "#decks"
       },
@@ -403,29 +403,29 @@
     "trust": "कोई विज्ञापन नहीं · कोई सब्सक्रिप्शन नहीं · कभी भी खरीद पुनर्स्थापित करें",
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
+      "price": "मुफ़्त",
       "desc": "मुफ़्त डाउनलोड करें और क्लासिक स्टार्टर डेक के साथ तुरंत खेलें।"
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "AI डेक निर्माण",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 AI डेक निर्माण — किसी भी विषय पर अपना डेक बनाएं।"
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 AI डेक निर्माण, नियमित गेम नाइट्स के लिए।",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 AI डेक निर्माण, उन होस्ट के लिए जिनके आइडिया कभी खत्म नहीं होते।"
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "प्रीमियम डेक",
     "singleDeck": {
       "name": "थीम डेक",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "एक ही खरीद में ऐप के सभी प्रीमियम थीम डेक।",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "मुफ़्त डाउनलोड",
+      "popular": "सबसे लोकप्रिय",
+      "bestValue": "सबसे अच्छी वैल्यू"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "गेम नाइट विचार कभी खत्म न हों।",
     "subtitle": "नए थीम, फ़ीचर और पार्टी गेम टिप्स। कोई spam नहीं।",
     "placeholder": "you@email.com",
-    "button": "वेटलिस्ट में शामिल हों",
+    "button": "अपडेट पाएं",
     "success": "आप सूची में हैं। कुछ नया आए तो ईमेल करेंगे।",
     "privacy": "हम सिर्फ़ Tadado अपडेट के बारे में ईमेल करते हैं। कभी भी unsubscribe करें।",
     "errorInvalid": "वैध ईमेल पता दर्ज करें।",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO डाउनलोड करें · मुफ़्त",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO डाउनलोड करें · मुफ़्त",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "TADADO डाउनलोड करें · मुफ़्त"
   },
   "language": {
     "label": "भाषा"

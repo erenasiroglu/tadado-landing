@@ -20,7 +20,7 @@
     "download": "Télécharger"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Jeu de mots pour soirées · ★ 5.0 sur l'App Store",
     "title": "Un téléphone. Tes amis. Que le chaos commence.",
     "subtitle": "Taboo, Heads Up et decks personnalisés IA conçus pour les soirées jeux.",
     "ctaPrimary": "TÉLÉCHARGER TADADO · GRATUIT",
@@ -44,7 +44,7 @@
         "label": "langues"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "decks de jeu",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "Gratuit",
       "desc": "Télécharge gratuitement et joue immédiatement avec le deck de démarrage classique."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Création de decks par IA",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 créations de decks par IA : des decks sur mesure, sur n'importe quel thème."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 créations de decks par IA pour les soirées jeux régulières.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 créations de decks par IA pour les hôtes qui ne manquent jamais d'idées."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Decks premium",
     "singleDeck": {
       "name": "Decks thématiques",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Tous les decks thématiques premium de l'app, en un seul achat.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Téléchargement gratuit",
+      "popular": "Le plus populaire",
+      "bestValue": "Meilleure offre"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Ne manque jamais d'idées pour tes soirées jeux.",
     "subtitle": "Nouveaux thèmes, fonctionnalités et conseils de soirées jeux. Pas de spam.",
     "placeholder": "toi@email.com",
-    "button": "Rejoindre la liste",
+    "button": "Recevoir les nouveautés",
     "success": "Tu es inscrit. On t'écrira quand il y aura du nouveau.",
     "privacy": "On n'envoie des emails que pour les actus Tadado. Désabonnement à tout moment.",
     "errorInvalid": "Entre une adresse email valide.",

@@ -110,3 +110,11 @@ export function getAllBlogSlugs(): { locale: Locale; slug: string }[] {
   }
   return result;
 }
+
+/** Front-matter `date` of a post, for sitemap `lastModified`. */
+export function getBlogPostDate(locale: Locale, slug: string): string | undefined {
+  const filePath = path.join(CONTENT_DIR, locale, `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return undefined;
+  const { data } = matter(fs.readFileSync(filePath, "utf8"));
+  return typeof data.date === "string" ? data.date : undefined;
+}

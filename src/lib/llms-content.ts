@@ -41,9 +41,9 @@ export function buildLlmsTxt(): string {
   const lines: string[] = [
     `# ${BRAND.name}`,
     "",
-    `> ${BRAND.name} is a free mobile word game app that combines Taboo (Forbidden Words), Heads Up charades, and AI deck creation in one place. Available in 17 languages on iOS and Android. No ads. No subscription. ${BRAND.stats.gamesPlayed.toLocaleString("en-US")}+ games played.`,
+    `> ${BRAND.name} is a free-to-start mobile party word game app that combines Taboo (Forbidden Words), Heads Up charades, and AI deck creation in one place. Available in 17 languages on iOS and Android. No ads. No subscription. ${BRAND.stats.gamesPlayed.toLocaleString("en-US")}+ games played.`,
     "",
-    `Developed by ${BRAND.developer}. Pricing: free Tadado Mix; AI packs Starter $${PRICING.aiStarterUsd}, Plus $${PRICING.aiPlusUsd}, Pro $${PRICING.aiProUsd}; single premium deck $${PRICING.singleDeckUsd}; Full Access (100+ decks) $${PRICING.fullAccessUsd}. Turkey store prices in TRY.`,
+    `Developed by ${BRAND.developer}. Pricing: free Tadado Mix; AI packs Starter $${PRICING.aiStarterUsd}, Plus $${PRICING.aiPlusUsd}, Pro $${PRICING.aiProUsd}; single premium deck $${PRICING.singleDeckUsd}; Full Access (every premium themed deck) $${PRICING.fullAccessUsd}. All purchases are one-time; no subscription. Turkey store prices in TRY (deck ₺${PRICING.singleDeckTry}, Full Access ₺${PRICING.fullAccessTry}).`,
     "",
     "## Download",
     "",

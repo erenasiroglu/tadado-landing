@@ -20,11 +20,11 @@
     "download": "تنزيل"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "لعبة كلمات للحفلات · ★ 5.0 على App Store",
     "title": "هاتف واحد. أصدقاؤك. ليبدأ الفوضى.",
     "subtitle": "Taboo وHeads Up ومجموعات AI مخصصة لأمسيات اللعب.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "حمّل Tadado · مجانًا",
+    "ctaSecondary": "شاهد طريقة اللعب",
     "metrics": [
       {
         "value": "300,000+",
@@ -44,7 +44,7 @@
         "label": "لغة"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "مجموعات لعب",
         "href": "#decks"
       },
@@ -403,29 +403,29 @@
     "trust": "بدون إعلانات · بدون اشتراك · استعادة المشتريات في أي وقت",
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
+      "price": "مجاني",
       "desc": "نزّل مجانًا والعب فورًا بمجموعة البداية الكلاسيكية."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "إنشاء مجموعات بالذكاء الاصطناعي",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 عمليات إنشاء بالذكاء الاصطناعي — مجموعات مخصصة لأي موضوع."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 عملية إنشاء بالذكاء الاصطناعي لليالي اللعب المنتظمة.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 عملية إنشاء بالذكاء الاصطناعي لمن لا تنفد أفكاره أبدًا."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "مجموعات مميزة",
     "singleDeck": {
       "name": "مجموعات موضوعية",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "كل المجموعات المميزة في التطبيق بعملية شراء واحدة.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "تنزيل مجاني",
+      "popular": "الأكثر شيوعًا",
+      "bestValue": "أفضل قيمة"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "لن تنفد أفكار أمسيات اللعب.",
     "subtitle": "موضوعات جديدة وميزات ونصائح لألعاب الحفلات. بدون رسائل مزعجة.",
     "placeholder": "you@email.com",
-    "button": "انضم لقائمة الانتظار",
+    "button": "تلقَّ التحديثات",
     "success": "أنت في القائمة. سنراسلك عند ظهور شيء جديد.",
     "privacy": "نراسلك فقط بتحديثات Tadado. يمكنك إلغاء الاشتراك في أي وقت.",
     "errorInvalid": "أدخل عنوان بريد إلكتروني صالحًا.",
@@ -730,13 +730,13 @@
   "cta": {
     "title": "أمسية اللعب القادمة تحتاج Tadado.",
     "subtitle": "هاتف واحد. الجميع مدعو.",
-    "button": "GET TADADO · FREE",
+    "button": "حمّل Tadado · مجانًا",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "أمسية اللعب القادمة تحتاج Tadado.",
     "subtitle": "هاتف واحد. الجميع مدعو.",
-    "button": "GET TADADO · FREE",
+    "button": "حمّل Tadado · مجانًا",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -759,7 +759,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "حمّل Tadado · مجانًا"
   },
   "language": {
     "label": "اللغة"

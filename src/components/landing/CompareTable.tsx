@@ -4,7 +4,7 @@ import { Check, Minus, X } from "lucide-react";
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { ctaGradientClass } from "@/lib/cta-button";
 import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
+import { getSmartStoreUrl } from "@/lib/store-links";
 import { cn } from "@/lib/utils";
 
 import { SectionHeading } from "./SectionHeading";
@@ -62,7 +62,7 @@ export function CompareTable({
   showFullPageLink = false,
 }: CompareTableProps) {
   const content = dict.compare;
-  const downloadUrl = getAppStoreUrl(locale);
+  const downloadUrl = getSmartStoreUrl(locale);
 
   return (
     <div>

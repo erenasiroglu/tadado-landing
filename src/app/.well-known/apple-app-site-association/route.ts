@@ -10,7 +10,7 @@ export function GET() {
       details: [
         {
           appID: `${teamId}.${bundleId}`,
-          paths: ["/", "/en/*", "/tr/*", "/download"],
+          paths: ["/link", "/link/*"],
         },
       ],
     },

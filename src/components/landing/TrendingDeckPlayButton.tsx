@@ -5,7 +5,7 @@ import { Play } from "lucide-react";
 import { ctaGradientClass } from "@/lib/cta-button";
 import { useTrackedHref } from "@/hooks/use-tracked-href";
 import type { Locale } from "@/lib/i18n";
-import { getAppStoreUrl } from "@/lib/store-links";
+import { getSmartStoreUrl } from "@/lib/store-links";
 import { trackDeckPlayClick, trackDownloadClick } from "@/lib/tracking";
 
 interface TrendingDeckPlayButtonProps {
@@ -21,7 +21,7 @@ export function TrendingDeckPlayButton({
   playLabel,
   locale,
 }: TrendingDeckPlayButtonProps) {
-  const storeUrl = useTrackedHref(getAppStoreUrl(locale));
+  const storeUrl = useTrackedHref(getSmartStoreUrl(locale));
 
   function handleClick() {
     trackDeckPlayClick({

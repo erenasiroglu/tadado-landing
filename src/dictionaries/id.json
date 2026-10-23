@@ -20,7 +20,7 @@
     "download": "Unduh"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Game kata untuk pesta · ★ 5.0 di App Store",
     "title": "Satu ponsel. Teman-temanmu. Biarkan kekacauan dimulai.",
     "subtitle": "Taboo, Heads Up, dan deste AI khusus untuk malam permainan.",
     "ctaPrimary": "UNDUH TADADO · GRATIS",
@@ -44,7 +44,7 @@
         "label": "bahasa"
       },
       {
-        "value": "8",
+        "value": "7+",
         "label": "deste permainan",
         "href": "#decks"
       },
@@ -406,26 +406,26 @@
       "price": "Gratis",
       "desc": "Unduh gratis dan main segera dengan deste starter klasik."
     },
-    "aiSectionTitle": "AI deck creation",
+    "aiSectionTitle": "Pembuatan deck AI",
     "aiTiers": [
       {
         "name": "Starter",
         "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "desc": "10 pembuatan deck AI — deck khusus dari topik apa pun."
       },
       {
         "name": "Plus",
         "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "desc": "30 pembuatan deck AI untuk malam permainan rutin.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "100 pembuatan deck AI untuk tuan rumah yang tak pernah kehabisan ide."
       }
     ],
-    "decksSectionTitle": "Premium decks",
+    "decksSectionTitle": "Deck premium",
     "singleDeck": {
       "name": "Deste bertema",
       "price": "$0.99",
@@ -434,13 +434,13 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "100+ premium decks — every themed pack in the app.",
+      "desc": "Semua deck tema premium di aplikasi, dengan satu kali pembelian.",
       "highlight": true
     },
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best value"
+      "free": "Unduh gratis",
+      "popular": "Paling populer",
+      "bestValue": "Nilai terbaik"
     }
   },
   "howItWorks": {
@@ -721,7 +721,7 @@
     "title": "Jangan pernah kehabisan ide malam permainan.",
     "subtitle": "Tema baru, fitur, dan tips game pesta. Tanpa spam.",
     "placeholder": "email@kamu.com",
-    "button": "Gabung waitlist",
+    "button": "Dapatkan kabar terbaru",
     "success": "Kamu sudah terdaftar. Kami akan email saat ada yang baru.",
     "privacy": "Kami hanya email tentang update Tadado. Berhenti berlangganan kapan saja.",
     "errorInvalid": "Masukkan alamat email yang valid.",

@@ -20,17 +20,17 @@
     "download": "Download"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Party-Wortspiel · ★ 5.0 im App Store",
     "title": "Ein Handy. Deine Freunde. Lass das Chaos beginnen.",
     "subtitle": "Taboo, Heads Up und KI-Decks – gemacht für Spieleabende.",
-    "ctaPrimary": "GET TADADO · FREE",
-    "ctaSecondary": "SEE HOW IT WORKS",
+    "ctaPrimary": "TADADO LADEN · GRATIS",
+    "ctaSecondary": "SO FUNKTIONIERT'S",
     "metrics": [
       { "value": "300,000+", "label": "Spiele gespielt", "animate": true },
       { "value": "2", "label": "Spielmodi" },
       { "value": "AI", "label": "powered" },
       { "value": "17", "label": "Sprachen" },
-      { "value": "8", "label": "Spiel-Decks", "href": "#decks" },
+      { "value": "7+", "label": "Spiel-Decks", "href": "#decks" },
       { "value": "Offline", "label": "spielen" },
       { "value": "No", "label": "ads" }
     ]
@@ -607,7 +607,7 @@
     "title": "Nie wieder ohne Spieleabend-Ideen.",
     "subtitle": "Neue Themes, Features und Partyspiel-Tipps. Kein Spam.",
     "placeholder": "du@email.com",
-    "button": "Auf Warteliste",
+    "button": "Updates erhalten",
     "success": "Du bist auf der Liste. Wir mailen dir, wenn etwas Neues kommt.",
     "privacy": "Wir mailen nur über Tadado-Updates. Jederzeit abmelden.",
     "errorInvalid": "Gib eine gültige E-Mail-Adresse ein.",
@@ -616,13 +616,13 @@
   "cta": {
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO LADEN · GRATIS",
     "secondary": "EXPLORE DECKS"
   },
   "finalCta": {
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
-    "button": "GET TADADO · FREE",
+    "button": "TADADO LADEN · GRATIS",
     "secondary": "EXPLORE DECKS"
   },
   "footer": {
@@ -645,7 +645,7 @@
     "copyright": "© {{year}} Tadado Game Development"
   },
   "sticky": {
-    "download": "GET TADADO · FREE"
+    "download": "TADADO LADEN · GRATIS"
   },
   "language": {
     "label": "Sprache"

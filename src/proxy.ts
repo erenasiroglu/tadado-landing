@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
+import { detectLocaleFromAcceptLanguage } from "@/lib/smart-app-link";
 import {
   DEFAULT_LOCALE,
   hasLocale,
@@ -15,7 +16,10 @@ function getLocale(request: NextRequest): Locale {
     return segment;
   }
 
-  return DEFAULT_LOCALE;
+  const preferred = request.cookies.get("NEXT_LOCALE")?.value;
+  if (preferred && hasLocale(preferred)) return preferred;
+
+  return detectLocaleFromAcceptLanguage(request.headers.get("accept-language")) ?? DEFAULT_LOCALE;
 }
 
 export function proxy(request: NextRequest) {

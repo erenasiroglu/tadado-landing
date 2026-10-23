@@ -20,7 +20,7 @@
     "download": "Tải xuống"
   },
   "hero": {
-    "brandLine": "Tadado Game Development 2026",
+    "brandLine": "Trò chơi đoán từ cho buổi tiệc · ★ 5.0 trên App Store",
     "title": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
     "subtitle": "Taboo, Heads Up và bộ bài AI dành cho đêm chơi game.",
     "ctaPrimary": "TẢI TADADO · MIỄN PHÍ",
@@ -30,7 +30,7 @@
       { "value": "2", "label": "chế độ chơi" },
       { "value": "AI", "label": "hỗ trợ" },
       { "value": "17", "label": "ngôn ngữ" },
-      { "value": "8", "label": "bộ bài", "href": "#decks" },
+      { "value": "7+", "label": "bộ bài", "href": "#decks" },
       { "value": "Offline", "label": "chơi" },
       { "value": "No", "label": "quảng cáo" }
     ]
@@ -607,7 +607,7 @@
     "title": "Không bao giờ hết ý tưởng đêm chơi game.",
     "subtitle": "Chủ đề mới, tính năng và mẹo game tiệc tùng. Không spam.",
     "placeholder": "email@cua-ban.com",
-    "button": "Tham gia waitlist",
+    "button": "Nhận tin mới",
     "success": "Bạn đã trong danh sách. Chúng tôi sẽ email khi có gì mới.",
     "privacy": "Chúng tôi chỉ email về cập nhật Tadado. Hủy đăng ký bất cứ lúc nào.",
     "errorInvalid": "Nhập địa chỉ email hợp lệ.",
