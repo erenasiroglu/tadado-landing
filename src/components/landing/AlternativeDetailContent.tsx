@@ -54,7 +54,7 @@ interface AlternativeDetailContentProps {
 export function AlternativeDetailContent({ locale, dict, content }: AlternativeDetailContentProps) {
   const downloadUrl = getSmartStoreUrl(locale);
   const related = getRelatedAlternativeIds(content.id);
-  const hubLabel = locale === "tr" ? "Alternatifler" : "Alternatives";
+  const hubLabel = dict.ui.alternativesHub;
   const compareLabel = dict.footer.compare;
 
   return (

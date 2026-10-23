@@ -260,7 +260,7 @@
           "body": "Nói cho đội từ ở trên. Không bao giờ nói 4 từ cấm bên dưới. Đoán càng nhiều thẻ càng tốt trước khi hết giờ."
         },
         {
-          "title": "Taboo!",
+          "title": "Phạm luật!",
           "body": "Nói từ cấm và bạn mất thẻ. Không điểm. Đội kia giữ đà."
         },
         {
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Game di động",
           "FinTech"
         ],
         "websiteCta": "Truy cập erennasiroglu.de"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Thiết kế tương tác",
+          "Trải nghiệm game",
+          "Thiết kế không gian",
           "Procreate"
         ],
         "websiteCta": "Truy cập nurgunen.com"
@@ -756,12 +756,103 @@
     "legal": "Pháp lý",
     "terms": "Điều khoản sử dụng",
     "privacy": "Chính sách quyền riêng tư",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Trung tâm trợ giúp",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "TẢI TADADO · MIỄN PHÍ"
   },
   "language": {
     "label": "Ngôn ngữ"
+  },
+  "support": {
+    "title": "Trợ giúp và hỗ trợ",
+    "subtitle": "Câu trả lời, hỗ trợ tài khoản và liên hệ trực tiếp với đội ngũ Tadado.",
+    "back": "Quay lại Tadado",
+    "intro": "Phần lớn câu hỏi đã có trong mục Câu hỏi thường gặp. Với mọi vấn đề khác (lỗi, mua hàng hoặc góp ý), hãy gửi email cho chúng tôi và ghi rõ thiết bị cùng phiên bản ứng dụng nếu có thể.",
+    "responseNote": "Chúng tôi đọc mọi tin nhắn và thường phản hồi trong vài ngày làm việc.",
+    "emailCta": "Gửi email hỗ trợ",
+    "emailSubject": "Yêu cầu hỗ trợ Tadado",
+    "topics": [
+      {
+        "title": "Câu hỏi thường gặp và cách chơi",
+        "body": "Luật Từ Cấm và Heads Up, giá và chơi ngoại tuyến.",
+        "cta": "Mở câu hỏi thường gặp",
+        "kind": "faq"
+      },
+      {
+        "title": "Mua hàng và khôi phục",
+        "body": "Gói bộ bài và bộ bài AI được thanh toán qua Apple hoặc Google. Nếu thiếu nội dung, hãy dùng Khôi phục giao dịch trong cài đặt ứng dụng.",
+        "cta": "Hỗ trợ thanh toán",
+        "kind": "billing"
+      },
+      {
+        "title": "Quyền riêng tư và điều khoản",
+        "body": "Cách chúng tôi xử lý dữ liệu, Game Center và quyền của bạn.",
+        "cta": "Chính sách quyền riêng tư",
+        "kind": "privacy"
+      },
+      {
+        "title": "Báo lỗi",
+        "body": "Cho chúng tôi biết chuyện gì đã xảy ra, bạn đang chơi bộ bài nào và mẫu điện thoại của bạn. Ảnh chụp màn hình rất hữu ích.",
+        "cta": "Báo lỗi",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing và báo chí",
+    "subtitle": "Chiến dịch với nhà sáng tạo, bộ bài thương hiệu và tài liệu báo chí về Tadado.",
+    "back": "Quay lại Tadado",
+    "intro": "Tadado là trò chơi đoán từ cho những nhóm bạn thật sự: Từ Cấm kiểu Taboo và Heads Up trên một điện thoại, không quảng cáo, không gói đăng ký. Nếu bạn đang lên kế hoạch nội dung, hợp tác hay bài viết, hãy bắt đầu tại đây.",
+    "statsLabel": "Tóm tắt",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "ván đã chơi"
+      },
+      {
+        "value": "17",
+        "label": "ngôn ngữ"
+      },
+      {
+        "value": "2",
+        "label": "chế độ chơi"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Nhà sáng tạo và tiếp thị liên kết",
+        "body": "Clip ngắn, phản ứng trong buổi chơi và liên kết sẵn sàng giới thiệu.",
+        "cta": "Chương trình tiếp thị liên kết",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Hợp tác thương hiệu và bộ bài",
+        "body": "Bộ bài đồng thương hiệu, chủ đề theo mùa và ý tưởng chiến dịch cùng đội ngũ của chúng tôi.",
+        "cta": "Hợp tác",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Báo chí và thông tin sản phẩm",
+        "body": "Logo, định vị và yêu cầu phỏng vấn cho báo chí và bản tin.",
+        "cta": "Email báo chí",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Yêu cầu báo chí / truyền thông về Tadado",
+    "compareCta": "So sánh Tadado với các ứng dụng tiệc khác",
+    "trendingCta": "Xem bộ bài thịnh hành"
+  },
+  "ui": {
+    "viewAllDecks": "Xem tất cả bộ bài",
+    "allDecks": "Tất cả bộ bài",
+    "exploreAllDecks": "Khám phá tất cả bộ bài",
+    "decksHub": "Bộ bài",
+    "exploreDeck": "Khám phá bộ bài {{name}}",
+    "home": "Trang chủ",
+    "popularAlternatives": "Hướng dẫn lựa chọn thay thế phổ biến",
+    "alternativesHub": "Lựa chọn thay thế"
   }
 }

@@ -45,7 +45,7 @@ export default async function DecksHubPage({ params }: PageProps<"/[lang]/decks"
       <main className="flex-1 ">
         <div className="section-shell py-12 md:py-14">
           <BackLink href={localeHref(locale)}>
-            {locale === "tr" ? "Ana sayfa" : "Home"}
+            {dict.ui.home}
           </BackLink>
           <div className="mt-8">
             <DecksHubGrid locale={locale} dict={dict} />

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 
 import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
+import { MotionProvider } from "@/components/motion/MotionProvider";
 import { AttributionProvider } from "@/components/analytics/AttributionProvider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { hasLocale, isRtlLocale, LOCALES, type Locale } from "@/lib/i18n";
@@ -17,6 +18,8 @@ const poppins = Poppins({
   subsets: ["latin", "latin-ext"],
   weight: ["500", "600", "700", "800", "900"],
   display: "swap",
+  // CSS is inlined, so faces are discovered at once; skip preloading all 10 files and fetch only what the page uses.
+  preload: false,
 });
 
 export async function generateStaticParams() {
@@ -53,7 +56,9 @@ export default async function LangLayout({
       <body className="flex min-h-full flex-col bg-paper font-sans text-foreground antialiased">
         <AnalyticsScripts />
         <AttributionProvider />
-        <TooltipProvider>{children}</TooltipProvider>
+        <MotionProvider>
+          <TooltipProvider>{children}</TooltipProvider>
+        </MotionProvider>
         <Analytics />
       </body>
     </html>

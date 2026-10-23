@@ -4,7 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
@@ -133,7 +133,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                 href={getDecksHubHref(locale)}
                 className="text-sm font-semibold text-ink hover:text-muted-foreground"
               >
-                {locale === "tr" ? "Tüm desteleri keşfet" : "Explore all decks"}
+                {dict.ui.exploreAllDecks}
               </Link>
             </div>
           </div>
@@ -157,7 +157,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                           isActive && "deck-vibe-carousel__card--active",
                         )}
                       >
-                        <motion.div
+                        <m.div
                           className="deck-vibe-carousel__card-inner"
                           animate={
                             reduceMotion
@@ -182,7 +182,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                             disableHoverMotion
                             className="w-full"
                           />
-                        </motion.div>
+                        </m.div>
                       </div>
                     </div>
                   );
@@ -195,7 +195,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                 <ChevronLeft className="h-4 w-4" />
               </CarouselButton>
 
-              <div className="flex items-center gap-1.5" role="tablist" aria-label={dict.decks.title}>
+              <div className="flex items-center" role="tablist" aria-label={dict.decks.title}>
                 {keys.map((key, index) => (
                   <button
                     key={key}
@@ -204,13 +204,19 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                     aria-selected={index === selectedIndex}
                     aria-label={`${dict.decks.items[key].name} (${index + 1}/${keys.length})`}
                     onClick={() => scrollTo(index)}
-                    className={cn(
-                      "h-1.5 rounded-full transition-all duration-300",
-                      index === selectedIndex
-                        ? "w-7 bg-ink"
-                        : "w-1.5 bg-ink/20 hover:bg-ink/35",
-                    )}
-                  />
+                    className="group flex h-6 min-w-6 items-center justify-center px-[3px]"
+                  >
+                    {/* Small visual dot inside a 24px tap target. */}
+                    <span
+                      aria-hidden
+                      className={cn(
+                        "h-1.5 rounded-full transition-all duration-300",
+                        index === selectedIndex
+                          ? "w-7 bg-ink"
+                          : "w-1.5 bg-ink/20 group-hover:bg-ink/35",
+                      )}
+                    />
+                  </button>
                 ))}
               </div>
 

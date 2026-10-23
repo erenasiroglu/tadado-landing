@@ -6,10 +6,10 @@
   "nav": {
     "play": "Jouer",
     "aiDecks": "Decks IA",
-    "decks": "Decks",
+    "decks": "Paquets",
     "community": "Communauté",
     "howItWorks": "Comment ça marche",
-    "faq": "FAQ",
+    "faq": "Questions",
     "getTadado": "Télécharger Tadado",
     "pricing": "Tarifs",
     "blog": "Blog",
@@ -260,7 +260,7 @@
           "body": "Donne le mot en haut à ton équipe. Ne dis jamais les 4 mots interdits en dessous. Devine un maximum de cartes avant la fin du temps."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabou !",
           "body": "Tu dis un mot interdit et tu perds la carte. Aucun point. L'autre équipe garde l'élan."
         },
         {
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Jeux mobiles",
           "FinTech"
         ],
         "websiteCta": "Visiter erennasiroglu.de"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Design d'interaction",
+          "Expérience de jeu",
+          "Design spatial",
           "Procreate"
         ],
         "websiteCta": "Visiter nurgunen.com"
@@ -745,10 +745,10 @@
     "playTitle": "Jouer",
     "discoverTitle": "Découvrir",
     "growTitle": "Grandir avec Tadado",
-    "supportTitle": "Support",
+    "supportTitle": "Assistance",
     "socialTitle": "Réseaux",
     "help": "Aide",
-    "support": "Support",
+    "support": "Contact",
     "partnerships": "Partenariats",
     "compare": "Comparer les apps",
     "affiliate": "Programme d'affiliation",
@@ -756,12 +756,103 @@
     "legal": "Mentions légales",
     "terms": "Conditions d'utilisation",
     "privacy": "Politique de confidentialité",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Centre d'aide",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "TÉLÉCHARGER TADADO · GRATUIT"
   },
   "language": {
     "label": "Langue"
+  },
+  "support": {
+    "title": "Aide et support",
+    "subtitle": "Réponses, aide sur votre compte et contact direct avec l'équipe Tadado.",
+    "back": "Retour à Tadado",
+    "intro": "La plupart des questions sont traitées dans la FAQ. Pour le reste (bugs, achats ou retours), écrivez-nous en indiquant si possible votre appareil et la version de l'app.",
+    "responseNote": "Nous lisons chaque message et répondons généralement sous quelques jours ouvrés.",
+    "emailCta": "Écrire au support",
+    "emailSubject": "Demande de support Tadado",
+    "topics": [
+      {
+        "title": "FAQ et règles du jeu",
+        "body": "Règles de Mots interdits et Heads Up, tarifs et jeu hors ligne.",
+        "cta": "Ouvrir la FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Achats et restauration",
+        "body": "Les packs de decks et les decks IA sont facturés par Apple ou Google. S'il manque du contenu, utilisez Restaurer les achats dans les réglages de l'app.",
+        "cta": "Aide facturation",
+        "kind": "billing"
+      },
+      {
+        "title": "Confidentialité et conditions",
+        "body": "Comment nous traitons les données, Game Center et vos droits.",
+        "cta": "Politique de confidentialité",
+        "kind": "privacy"
+      },
+      {
+        "title": "Signaler un bug",
+        "body": "Dites-nous ce qui s'est passé, le deck joué et votre modèle de téléphone. Les captures d'écran aident.",
+        "cta": "Signaler un bug",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing et presse",
+    "subtitle": "Campagnes créateurs, decks de marque et ressources presse de Tadado.",
+    "back": "Retour à Tadado",
+    "intro": "Tadado est un jeu de mots pour de vrais groupes : Mots interdits façon Tabou et Heads Up sur un seul téléphone, sans pub ni abonnement. Pour un contenu, une collaboration ou un article, commencez ici.",
+    "statsLabel": "En bref",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "parties jouées"
+      },
+      {
+        "value": "17",
+        "label": "langues"
+      },
+      {
+        "value": "2",
+        "label": "modes de jeu"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Créateurs et affiliés",
+        "body": "Clips courts, réactions de soirées jeux et liens prêts pour le parrainage.",
+        "cta": "Programme d'affiliation",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Partenariats de marque et decks",
+        "body": "Decks co-brandés, thèmes saisonniers et idées de campagne avec notre équipe.",
+        "cta": "Partenariats",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Presse et infos produit",
+        "body": "Logos, positionnement et demandes d'interview pour médias et newsletters.",
+        "cta": "Écrire à la presse",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Demande presse / médias Tadado",
+    "compareCta": "Comparer Tadado aux autres apps de soirée",
+    "trendingCta": "Voir les decks tendance"
+  },
+  "ui": {
+    "viewAllDecks": "Voir tous les paquets",
+    "allDecks": "Tous les paquets",
+    "exploreAllDecks": "Découvrir tous les paquets",
+    "decksHub": "Paquets",
+    "exploreDeck": "Découvrir le paquet {{name}}",
+    "home": "Accueil",
+    "popularAlternatives": "Guides d'alternatives populaires",
+    "alternativesHub": "Alternatives à Tadado"
   }
 }

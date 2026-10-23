@@ -1,7 +1,7 @@
-import { CONTENT_FALLBACK_LOCALE, isFullContentLocale } from "@/lib/i18n-fallback";
 import type { Locale } from "@/lib/i18n-config";
 
 import { getEnAlternativePage } from "./en";
+import { LOCALE_ALTERNATIVE_PAGES } from "./locales";
 import {
   alternativeIdFromSlug,
   alternativeSlugFor,
@@ -22,6 +22,10 @@ export {
 export function getAlternativePageContent(locale: Locale, id: AlternativeId): AlternativePageContent {
   if (locale === "tr") {
     return getTrAlternativePage(id);
+  }
+  const localized = LOCALE_ALTERNATIVE_PAGES[locale]?.[id];
+  if (localized) {
+    return { id, ...localized };
   }
   return getEnAlternativePage(id);
 }
@@ -45,12 +49,6 @@ export function getAlternativeHref(locale: Locale, id: AlternativeId): string {
 
 /** Label for related links in UI. */
 export function getAlternativeLinkLabel(locale: Locale, id: AlternativeId): string {
-  const content = getAlternativePageContent(
-    isFullContentLocale(locale) ? locale : CONTENT_FALLBACK_LOCALE,
-    id,
-  );
-  if (locale === "tr") {
-    return content.h1.split(":")[0]?.trim() ?? content.h1;
-  }
+  const content = getAlternativePageContent(locale, id);
   return content.h1.split(":")[0]?.trim() ?? content.h1;
 }

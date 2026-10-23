@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import { cn } from "@/lib/utils";
 
@@ -24,12 +24,12 @@ export function DeviceFloat({
   }
 
   return (
-    <motion.div
+    <m.div
       className={cn("mx-auto w-fit", className)}
       animate={{ y: [0, -amplitude, 0] }}
       transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }

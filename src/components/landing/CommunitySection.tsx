@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -87,7 +87,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
         </p>
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           {trending.map((group, index) => (
-            <motion.div
+            <m.div
               key={group.id}
               initial={reduceMotion ? false : { opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
                   forbidden={group.words.slice(1, 5)}
                 />
               </div>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>
@@ -117,7 +117,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
         </p>
         <div className="mt-4 grid gap-4 md:grid-cols-3">
           {dict.community.editorialItems.map((item, index) => (
-            <motion.div
+            <m.div
               key={item.title}
               initial={reduceMotion ? false : { opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -127,7 +127,7 @@ export function CommunitySection({ dict, locale }: CommunitySectionProps) {
             >
               <h3 className="font-bold text-foreground">{item.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground">{item.body}</p>
-            </motion.div>
+            </m.div>
           ))}
         </div>
       </div>

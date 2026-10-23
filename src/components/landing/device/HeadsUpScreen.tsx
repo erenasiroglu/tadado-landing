@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, m, useReducedMotion } from "motion/react";
 
 import { HeadsUpPreview } from "@/components/landing/previews/HeadsUpPreview";
 import { DEFAULT_LANDSCAPE_DEVICE_WIDTH, getDeviceMetrics } from "@/lib/device-mockup-tokens";
@@ -56,7 +56,7 @@ export function HeadsUpScreen({
   return (
     <LandscapeGameDevice width={width} float={float} showGlow={showGlow} className={className}>
       <AnimatePresence mode="wait">
-        <motion.div
+        <m.div
           key={displayWord}
           className="h-full w-full"
           initial={reduceMotion || !animateWords ? false : { opacity: 0.92, scale: 0.985 }}
@@ -72,7 +72,7 @@ export function HeadsUpScreen({
             pauseLabel={getHeadsUpPauseShortLabel(locale)}
             labels={previewLabels}
           />
-        </motion.div>
+        </m.div>
       </AnimatePresence>
     </LandscapeGameDevice>
   );

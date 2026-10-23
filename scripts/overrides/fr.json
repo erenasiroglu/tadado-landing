@@ -6,7 +6,7 @@
   "nav": {
     "play": "Jouer",
     "aiDecks": "Decks IA",
-    "decks": "Decks",
+    "decks": "Paquets",
     "community": "Communauté",
     "howItWorks": "Comment ça marche",
     "faq": "FAQ",
@@ -26,13 +26,36 @@
     "ctaPrimary": "TÉLÉCHARGER TADADO · GRATUIT",
     "ctaSecondary": "VOIR COMMENT ÇA MARCHE",
     "metrics": [
-      { "value": "300,000+", "label": "parties jouées", "animate": true },
-      { "value": "2", "label": "modes de jeu" },
-      { "value": "IA", "label": "intégrée" },
-      { "value": "17", "label": "langues" },
-      { "value": "7+", "label": "decks de jeu", "href": "#decks" },
-      { "value": "Hors ligne", "label": "jouer" },
-      { "value": "Sans", "label": "pub" }
+      {
+        "value": "300,000+",
+        "label": "parties jouées",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "modes de jeu"
+      },
+      {
+        "value": "IA",
+        "label": "intégrée"
+      },
+      {
+        "value": "17",
+        "label": "langues"
+      },
+      {
+        "value": "7+",
+        "label": "decks de jeu",
+        "href": "#decks"
+      },
+      {
+        "value": "Hors ligne",
+        "label": "jouer"
+      },
+      {
+        "value": "Sans",
+        "label": "pub"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Conçu pour de vraies soirées jeux",
     "title": "Un téléphone. Des équipes. Un chrono. Des manches.",
     "statement": "Un téléphone. Des équipes. Un chrono. Des manches. Jeu hors ligne. Sans pub.",
-    "details": ["Jeu hors ligne", "Équipes et chrono", "Sans pub", "Sans abonnement"]
+    "details": [
+      "Jeu hors ligne",
+      "Équipes et chrono",
+      "Sans pub",
+      "Sans abonnement"
+    ]
   },
   "personalization": {
     "title": "Fais-le à ta façon.",
     "subtitle": "Ce n'est pas le même jeu à chaque fois. Chaque groupe peut créer sa propre expérience.",
     "items": [
-      { "label": "Amis", "topic": "Chaos du week-end" },
-      { "label": "Famille", "topic": "Dîner du dimanche" },
-      { "label": "Anniversaires", "topic": "Classiques de fête" },
-      { "label": "Soirée ciné", "topic": "Films oscarisés" },
-      { "label": "Sport", "topic": "Ligue des champions" },
-      { "label": "Voyage", "topic": "Jeux de route" },
-      { "label": "Bureau", "topic": "Chaos au bureau" },
-      { "label": "Université", "topic": "Légendes du campus" },
-      { "label": "Blagues internes", "topic": "Ce qu'on dit toujours" }
+      {
+        "label": "Amis",
+        "topic": "Chaos du week-end"
+      },
+      {
+        "label": "Famille",
+        "topic": "Dîner du dimanche"
+      },
+      {
+        "label": "Anniversaires",
+        "topic": "Classiques de fête"
+      },
+      {
+        "label": "Soirée ciné",
+        "topic": "Films oscarisés"
+      },
+      {
+        "label": "Sport",
+        "topic": "Ligue des champions"
+      },
+      {
+        "label": "Voyage",
+        "topic": "Jeux de route"
+      },
+      {
+        "label": "Bureau",
+        "topic": "Chaos au bureau"
+      },
+      {
+        "label": "Université",
+        "topic": "Légendes du campus"
+      },
+      {
+        "label": "Blagues internes",
+        "topic": "Ce qu'on dit toujours"
+      }
     ]
   },
   "reviews": {
@@ -205,7 +260,7 @@
           "body": "Donne le mot en haut à ton équipe. Ne dis jamais les 4 mots interdits en dessous. Devine un maximum de cartes avant la fin du temps."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabou !",
           "body": "Tu dis un mot interdit et tu perds la carte. Aucun point. L'autre équipe garde l'élan."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Des soirées jeux partout dans le monde",
     "subtitle": "Suis Tadado pour des clips, des idées de decks et de l'inspiration pour tes soirées jeux.",
     "metrics": [
-      { "value": "300,000+", "label": "parties jouées", "animate": true },
-      { "value": "17", "label": "langues" },
-      { "value": "2", "label": "modes de jeu" }
+      {
+        "value": "300,000+",
+        "label": "parties jouées",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "langues"
+      },
+      {
+        "value": "2",
+        "label": "modes de jeu"
+      }
     ],
     "languagesTitle": "Langues prises en charge",
     "languagesCaption": "Support égal dans chaque langue de l'app. Aucune donnée d'usage inventée.",
     "trendingLabel": "Tendances ce soir",
     "editorialLabel": "Les dernières actus Tadado",
     "editorialItems": [
-      { "title": "Saison des decks d'été", "body": "Soleil, mer et vacances pour les soirées chaudes." },
-      { "title": "Decks soirée ciné", "body": "Cartes cinéma pour cinéphiles et binge-watchers." },
-      { "title": "Crée le tien", "body": "Transforme n'importe quel sujet en deck jouable avec l'IA." }
+      {
+        "title": "Saison des decks d'été",
+        "body": "Soleil, mer et vacances pour les soirées chaudes."
+      },
+      {
+        "title": "Decks soirée ciné",
+        "body": "Cartes cinéma pour cinéphiles et binge-watchers."
+      },
+      {
+        "title": "Crée le tien",
+        "body": "Transforme n'importe quel sujet en deck jouable avec l'IA."
+      }
     ],
     "socialCta": "Rejoins la communauté Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Débuggera la prod à 2 h du matin, mais seulement si le chrono compte encore correctement.",
           "Pense que les meilleurs jeux de soirée demandent zéro tutoriel et un maximum de rejouabilité."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Jeux mobiles",
+          "FinTech"
+        ],
         "websiteCta": "Visiter erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "A piloté le design produit de Tadado de bout en bout, du premier wireframe aux écrans finis.",
           "Remarquera si le rayon d'un bouton est décalé de 2 pixels. Avec politesse."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Design d'interaction",
+          "Expérience de jeu",
+          "Design spatial",
+          "Procreate"
+        ],
         "websiteCta": "Visiter nurgunen.com"
       }
     },
@@ -631,10 +719,10 @@
     "playTitle": "Jouer",
     "discoverTitle": "Découvrir",
     "growTitle": "Grandir avec Tadado",
-    "supportTitle": "Support",
+    "supportTitle": "Assistance",
     "socialTitle": "Réseaux",
     "help": "Aide",
-    "support": "Support",
+    "support": "Contact",
     "partnerships": "Partenariats",
     "compare": "Comparer les apps",
     "affiliate": "Programme d'affiliation",

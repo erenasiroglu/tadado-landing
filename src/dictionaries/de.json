@@ -15,9 +15,9 @@
     "blog": "Blog",
     "guides": "Guides",
     "compare": "Vergleich",
-    "affiliate": "Affiliate",
+    "affiliate": "Partnerprogramm",
     "team": "Team",
-    "download": "Download"
+    "download": "Herunterladen"
   },
   "hero": {
     "brandLine": "Party-Wortspiel · ★ 5.0 im App Store",
@@ -36,8 +36,8 @@
         "label": "Spielmodi"
       },
       {
-        "value": "AI",
-        "label": "powered"
+        "value": "KI",
+        "label": "KI-gestützt"
       },
       {
         "value": "17",
@@ -53,8 +53,8 @@
         "label": "spielen"
       },
       {
-        "value": "No",
-        "label": "ads"
+        "value": "Keine",
+        "label": "Werbung"
       }
     ]
   },
@@ -260,7 +260,7 @@
           "body": "Sag deinem Team das Wort oben. Sag niemals die 4 verbotenen Wörter darunter. Errate so viele Karten wie möglich, bevor die Zeit abläuft."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Sagst du ein verbotenes Wort, verlierst du die Karte. Keine Punkte. Das andere Team behält die Dynamik."
         },
         {
@@ -349,7 +349,7 @@
   },
   "trending": {
     "title": "Was spielen wir heute Abend?",
-    "badge": "Trending",
+    "badge": "Im Trend",
     "subtitle": "Wenn etwas durchstartet, wird es zur Taboo-Karte. Spider-Man: Brand New Day und Obsession sind gerade im Trend, plus The Odyssey, Fußball und mehr. Sieh die echten Zielwörter, bevor du das kostenlose Taboo-Spiel herunterlädst.",
     "allCards": "Alle Trend-Karten →",
     "compare": {
@@ -362,9 +362,9 @@
     "subtitle": "Starte gratis mit Tadado Mix und schalte thematische Packs frei, wenn du bereit bist.",
     "countBadge": "8 Spiel-Decks",
     "free": "Gratis",
-    "play": "PLAY",
+    "play": "SPIELEN",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "NEU",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -674,7 +674,7 @@
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
+        "role": "Softwareentwickler",
         "bio": "Full-Stack-Entwickler, der Tadado und Mobile Apps mit React Native, Next.js und Node.js baut. Absolvent Wirtschaftsinformatik mit Fokus auf sauberen Code und spielerfreundliches Design.",
         "funFacts": [
           "Hat Tadado von der Idee bis in den App Store gebracht – neben Fintech-Arbeit bei Pulse FinTech.",
@@ -693,7 +693,7 @@
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
+        "role": "Produktdesignerin",
         "bio": "Product UI/UX Designerin für Tadado und Architekturstudentin an der İzmir Democracy University. Gestaltet visuelle Sprache, Interaktionsfluss und Spielerlebnis von Karten bis Screens.",
         "funFacts": [
           "Denkt tagsüber über räumliche Wahrnehmung im Kindermaßstab nach, nachts über Kartenlayouts.",
@@ -704,7 +704,7 @@
           "UI/UX",
           "Figma",
           "Interaction Design",
-          "Game Experience",
+          "Spielerlebnis",
           "Spatial Design",
           "Procreate"
         ],
@@ -731,13 +731,13 @@
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
     "button": "TADADO LADEN · GRATIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "DECKS ENTDECKEN"
   },
   "finalCta": {
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
     "button": "TADADO LADEN · GRATIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "DECKS ENTDECKEN"
   },
   "footer": {
     "tagline": "Ein Handy. Deine Freunde. Lass das Chaos beginnen.",
@@ -745,10 +745,10 @@
     "playTitle": "Spielen",
     "discoverTitle": "Entdecken",
     "growTitle": "Wachse mit Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
+    "supportTitle": "Hilfe",
+    "socialTitle": "Soziale Medien",
     "help": "Hilfe",
-    "support": "Support",
+    "support": "Kontakt",
     "partnerships": "Partnerschaften",
     "compare": "Apps vergleichen",
     "affiliate": "Affiliate-Programm",
@@ -756,12 +756,103 @@
     "legal": "Rechtliches",
     "terms": "Nutzungsbedingungen",
     "privacy": "Datenschutz",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Hilfe-Center",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "TADADO LADEN · GRATIS"
   },
   "language": {
     "label": "Sprache"
+  },
+  "support": {
+    "title": "Hilfe und Support",
+    "subtitle": "Antworten, Hilfe zu deinem Konto und ein direkter Draht zum Tadado-Team.",
+    "back": "Zurück zu Tadado",
+    "intro": "Die meisten Fragen beantwortet unsere FAQ. Für alles andere (Fehler, Käufe oder Feedback) schreib uns eine E-Mail, am besten mit Gerät und App-Version.",
+    "responseNote": "Wir lesen jede Nachricht und antworten meist innerhalb weniger Werktage.",
+    "emailCta": "Support anschreiben",
+    "emailSubject": "Tadado Support-Anfrage",
+    "topics": [
+      {
+        "title": "FAQ und Spielregeln",
+        "body": "Regeln für Verbotene Wörter und Heads Up, Preise und Offline-Spiel.",
+        "cta": "FAQ öffnen",
+        "kind": "faq"
+      },
+      {
+        "title": "Käufe und Wiederherstellen",
+        "body": "Deck-Pakete und KI-Decks werden über Apple oder Google abgerechnet. Fehlen Inhalte, nutze „Käufe wiederherstellen“ in den App-Einstellungen.",
+        "cta": "Hilfe zur Abrechnung",
+        "kind": "billing"
+      },
+      {
+        "title": "Datenschutz und Bedingungen",
+        "body": "Wie wir mit Daten, Game Center und deinen Rechten umgehen.",
+        "cta": "Datenschutzerklärung",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fehler melden",
+        "body": "Beschreib, was passiert ist, welches Deck du gespielt hast und dein Handymodell. Screenshots helfen.",
+        "cta": "Fehler melden",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing und Presse",
+    "subtitle": "Creator-Kampagnen, Marken-Decks und Pressematerial zu Tadado.",
+    "back": "Zurück zu Tadado",
+    "intro": "Tadado ist ein Wortspiel für echte Gruppen: Verbotene Wörter im Tabu-Stil und Heads Up auf einem Handy, ohne Werbung und ohne Abo. Wenn du Content, eine Kooperation oder einen Artikel planst, starte hier.",
+    "statsLabel": "Auf einen Blick",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "Spiele gespielt"
+      },
+      {
+        "value": "17",
+        "label": "Sprachen"
+      },
+      {
+        "value": "2",
+        "label": "Spielmodi"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Creator und Affiliates",
+        "body": "Kurze Clips, Spieleabend-Reaktionen und empfehlungsfreundliche Links.",
+        "cta": "Affiliate-Programm",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Marken- und Deck-Kooperationen",
+        "body": "Co-Branding-Decks, saisonale Themen und Kampagnenideen mit unserem Team.",
+        "cta": "Kooperationen",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Presse und Produktfakten",
+        "body": "Logos, Positionierung und Interviewanfragen für Medien und Newsletter.",
+        "cta": "Presse anschreiben",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado Presse- / Medienanfrage",
+    "compareCta": "Tadado mit anderen Party-Apps vergleichen",
+    "trendingCta": "Trend-Decks ansehen"
+  },
+  "ui": {
+    "viewAllDecks": "Alle Decks ansehen",
+    "allDecks": "Alle Decks",
+    "exploreAllDecks": "Alle Decks entdecken",
+    "decksHub": "Decks",
+    "exploreDeck": "{{name}} Deck entdecken",
+    "home": "Startseite",
+    "popularAlternatives": "Beliebte Alternativen-Ratgeber",
+    "alternativesHub": "Alternativen"
   }
 }

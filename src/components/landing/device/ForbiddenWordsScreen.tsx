@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, m, useReducedMotion } from "motion/react";
 
 import { ForbiddenWordsPreview } from "@/components/landing/previews/ForbiddenWordsPreview";
 import {
@@ -59,7 +59,7 @@ export function ForbiddenWordsScreen({
   return (
     <PortraitGameDevice width={width} float={float} showGlow={showGlow} className={className}>
       <AnimatePresence mode="wait">
-        <motion.div
+        <m.div
           key={motionKey}
           className="h-full w-full"
           initial={reduceMotion || !animateWords || loading ? false : { opacity: 0.92, y: 6 }}
@@ -74,7 +74,7 @@ export function ForbiddenWordsScreen({
             labels={labels}
             loading={loading}
           />
-        </motion.div>
+        </m.div>
       </AnimatePresence>
     </PortraitGameDevice>
   );

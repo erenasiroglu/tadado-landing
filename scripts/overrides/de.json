@@ -15,9 +15,9 @@
     "blog": "Blog",
     "guides": "Guides",
     "compare": "Vergleich",
-    "affiliate": "Affiliate",
+    "affiliate": "Partnerprogramm",
     "team": "Team",
-    "download": "Download"
+    "download": "Herunterladen"
   },
   "hero": {
     "brandLine": "Party-Wortspiel · ★ 5.0 im App Store",
@@ -26,13 +26,36 @@
     "ctaPrimary": "TADADO LADEN · GRATIS",
     "ctaSecondary": "SO FUNKTIONIERT'S",
     "metrics": [
-      { "value": "300,000+", "label": "Spiele gespielt", "animate": true },
-      { "value": "2", "label": "Spielmodi" },
-      { "value": "AI", "label": "powered" },
-      { "value": "17", "label": "Sprachen" },
-      { "value": "7+", "label": "Spiel-Decks", "href": "#decks" },
-      { "value": "Offline", "label": "spielen" },
-      { "value": "No", "label": "ads" }
+      {
+        "value": "300,000+",
+        "label": "Spiele gespielt",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "Spielmodi"
+      },
+      {
+        "value": "KI",
+        "label": "KI-gestützt"
+      },
+      {
+        "value": "17",
+        "label": "Sprachen"
+      },
+      {
+        "value": "7+",
+        "label": "Spiel-Decks",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "spielen"
+      },
+      {
+        "value": "Keine",
+        "label": "Werbung"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Für echte Spieleabende",
     "title": "Ein Handy. Teams. Timer. Runden.",
     "statement": "Ein Handy. Teams. Timer. Runden. Offline spielen. Keine Werbung.",
-    "details": ["Offline spielen", "Teams & Timer", "Keine Werbung", "Kein Abo"]
+    "details": [
+      "Offline spielen",
+      "Teams & Timer",
+      "Keine Werbung",
+      "Kein Abo"
+    ]
   },
   "personalization": {
     "title": "Mach es zu deinem.",
     "subtitle": "Nicht jedes Mal dasselbe Spiel. Jede Gruppe kann ihr eigenes Erlebnis schaffen.",
     "items": [
-      { "label": "Freunde", "topic": "Wochenend-Chaos" },
-      { "label": "Familie", "topic": "Sonntagsessen" },
-      { "label": "Geburtstage", "topic": "Party-Klassiker" },
-      { "label": "Filmabend", "topic": "Oscar-Filme" },
-      { "label": "Sport", "topic": "Champions League" },
-      { "label": "Reisen", "topic": "Roadtrip-Spiele" },
-      { "label": "Büro", "topic": "Büro-Chaos" },
-      { "label": "Uni", "topic": "Campus-Legenden" },
-      { "label": "Insider-Witze", "topic": "Was wir immer sagen" }
+      {
+        "label": "Freunde",
+        "topic": "Wochenend-Chaos"
+      },
+      {
+        "label": "Familie",
+        "topic": "Sonntagsessen"
+      },
+      {
+        "label": "Geburtstage",
+        "topic": "Party-Klassiker"
+      },
+      {
+        "label": "Filmabend",
+        "topic": "Oscar-Filme"
+      },
+      {
+        "label": "Sport",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Reisen",
+        "topic": "Roadtrip-Spiele"
+      },
+      {
+        "label": "Büro",
+        "topic": "Büro-Chaos"
+      },
+      {
+        "label": "Uni",
+        "topic": "Campus-Legenden"
+      },
+      {
+        "label": "Insider-Witze",
+        "topic": "Was wir immer sagen"
+      }
     ]
   },
   "reviews": {
@@ -205,7 +260,7 @@
           "body": "Sag deinem Team das Wort oben. Sag niemals die 4 verbotenen Wörter darunter. Errate so viele Karten wie möglich, bevor die Zeit abläuft."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Sagst du ein verbotenes Wort, verlierst du die Karte. Keine Punkte. Das andere Team behält die Dynamik."
         },
         {
@@ -294,7 +349,7 @@
   },
   "trending": {
     "title": "Was spielen wir heute Abend?",
-    "badge": "Trending",
+    "badge": "Im Trend",
     "subtitle": "Wenn etwas durchstartet, wird es zur Taboo-Karte. Spider-Man: Brand New Day und Obsession sind gerade im Trend, plus The Odyssey, Fußball und mehr. Sieh die echten Zielwörter, bevor du das kostenlose Taboo-Spiel herunterlädst.",
     "allCards": "Alle Trend-Karten →",
     "compare": {
@@ -383,18 +438,37 @@
     "title": "Spieleabende auf der ganzen Welt",
     "subtitle": "Folge Tadado für Clips, Deck-Ideen und Inspiration für Partyspiele.",
     "metrics": [
-      { "value": "300,000+", "label": "Spiele gespielt", "animate": true },
-      { "value": "17", "label": "Sprachen" },
-      { "value": "2", "label": "Spielmodi" }
+      {
+        "value": "300,000+",
+        "label": "Spiele gespielt",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "Sprachen"
+      },
+      {
+        "value": "2",
+        "label": "Spielmodi"
+      }
     ],
     "languagesTitle": "Unterstützte Sprachen",
     "languagesCaption": "Gleiche Unterstützung in jeder App-Sprache. Keine erfundenen Nutzungsdaten.",
     "trendingLabel": "Heute Abend im Trend",
     "editorialLabel": "Neu von Tadado",
     "editorialItems": [
-      { "title": "Sommer-Deck-Saison", "body": "Sonne, Meer und Urlaubsfeeling für warme Abende." },
-      { "title": "Filmabend-Decks", "body": "Kino-Karten für Filmfans und Serien-Binger." },
-      { "title": "Erstelle dein eigenes", "body": "Verwandle jedes Thema mit KI in ein spielbares Deck." }
+      {
+        "title": "Sommer-Deck-Saison",
+        "body": "Sonne, Meer und Urlaubsfeeling für warme Abende."
+      },
+      {
+        "title": "Filmabend-Decks",
+        "body": "Kino-Karten für Filmfans und Serien-Binger."
+      },
+      {
+        "title": "Erstelle dein eigenes",
+        "body": "Verwandle jedes Thema mit KI in ein spielbares Deck."
+      }
     ],
     "socialCta": "Tritt der Tadado-Community bei",
     "instagramCta": "Instagram",
@@ -581,19 +655,33 @@
           "Debuggt Production um 2 Uhr nachts – aber nur, wenn der Timer noch korrekt runterzählt.",
           "Glaubt, die besten Partyspiele brauchen null Tutorial und maximale Wiederspielbarkeit."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Mobile Games",
+          "FinTech"
+        ],
         "websiteCta": "erenasiroglu.de besuchen"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
+        "role": "Produktdesignerin",
         "bio": "Product UI/UX Designerin für Tadado und Architekturstudentin an der İzmir Democracy University. Gestaltet visuelle Sprache, Interaktionsfluss und Spielerlebnis von Karten bis Screens.",
         "funFacts": [
           "Denkt tagsüber über räumliche Wahrnehmung im Kindermaßstab nach, nachts über Kartenlayouts.",
           "Hat Tadados End-to-End-Produktdesign vom ersten Wireframe bis zu polierten Spielscreens geleitet.",
           "Merkt, wenn dein Button-Radius um 2 Pixel abweicht. Höflich."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Interaction Design",
+          "Spielerlebnis",
+          "Spatial Design",
+          "Procreate"
+        ],
         "websiteCta": "nurgunen.com besuchen"
       }
     },
@@ -617,13 +705,13 @@
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
     "button": "TADADO LADEN · GRATIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "DECKS ENTDECKEN"
   },
   "finalCta": {
     "title": "Dein nächster Spieleabend braucht Tadado.",
     "subtitle": "Ein Handy. Alle sind eingeladen.",
     "button": "TADADO LADEN · GRATIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "DECKS ENTDECKEN"
   },
   "footer": {
     "tagline": "Ein Handy. Deine Freunde. Lass das Chaos beginnen.",
@@ -631,10 +719,10 @@
     "playTitle": "Spielen",
     "discoverTitle": "Entdecken",
     "growTitle": "Wachse mit Tadado",
-    "supportTitle": "Support",
-    "socialTitle": "Social",
+    "supportTitle": "Hilfe",
+    "socialTitle": "Soziale Medien",
     "help": "Hilfe",
-    "support": "Support",
+    "support": "Kontakt",
     "partnerships": "Partnerschaften",
     "compare": "Apps vergleichen",
     "affiliate": "Affiliate-Programm",

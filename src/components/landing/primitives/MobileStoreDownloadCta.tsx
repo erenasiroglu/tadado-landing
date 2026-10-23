@@ -44,7 +44,8 @@ export function MobileStoreDownloadCta({
           className,
         ),
       )}
-      ariaLabel={ariaLabel}
+      // The accessible name must start with the visible label (WCAG 2.5.3).
+      ariaLabel={label && label !== ariaLabel ? `${label} (${ariaLabel})` : undefined}
     >
       <StoreBrandIcon platform={platform} className="h-5 w-5 shrink-0" />
       <span className="min-w-0 text-center">{buttonLabel}</span>

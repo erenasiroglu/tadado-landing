@@ -1,6 +1,6 @@
 "use client";
 
-import { LayoutGroup, motion, useReducedMotion } from "motion/react";
+import { LayoutGroup, m, useReducedMotion } from "motion/react";
 
 import type { Locale } from "@/lib/i18n";
 import type { GamePreviewLabels } from "@/lib/game-preview-tokens";
@@ -44,12 +44,12 @@ export function ModeDeviceStage({
       >
         <div className="preview-ambient-glow" aria-hidden />
 
-        <motion.div
+        <m.div
           layout={!reduceMotion}
           className="relative z-[1] w-full max-w-full"
           transition={{ type: "spring", stiffness: 280, damping: 30 }}
         >
-          <motion.div
+          <m.div
             layout={!reduceMotion}
             initial={reduceMotion ? false : { opacity: 0, rotate: isPortrait ? -1.5 : 1.5, scale: 0.97 }}
             animate={{ opacity: 1, rotate: 0, scale: 1 }}
@@ -76,8 +76,8 @@ export function ModeDeviceStage({
                 animateWords={animateWords}
               />
             )}
-          </motion.div>
-        </motion.div>
+          </m.div>
+        </m.div>
       </div>
     </LayoutGroup>
   );

@@ -7,7 +7,7 @@
     "play": "Gioca",
     "aiDecks": "Mazzi IA",
     "decks": "Mazzi",
-    "community": "Community",
+    "community": "Comunità",
     "howItWorks": "Come funziona",
     "faq": "FAQ",
     "getTadado": "Scarica Tadado",
@@ -16,7 +16,7 @@
     "guides": "Guide",
     "compare": "Confronta",
     "affiliate": "Affiliati",
-    "team": "Team",
+    "team": "Il team",
     "download": "Scarica"
   },
   "hero": {
@@ -26,13 +26,36 @@
     "ctaPrimary": "SCARICA TADADO · GRATIS",
     "ctaSecondary": "SCOPRI COME FUNZIONA",
     "metrics": [
-      { "value": "300,000+", "label": "partite giocate", "animate": true },
-      { "value": "2", "label": "modalità di gioco" },
-      { "value": "IA", "label": "integrata" },
-      { "value": "17", "label": "lingue" },
-      { "value": "7+", "label": "mazzi di gioco", "href": "#decks" },
-      { "value": "Offline", "label": "gioca" },
-      { "value": "Senza", "label": "pubblicità" }
+      {
+        "value": "300,000+",
+        "label": "partite giocate",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "modalità di gioco"
+      },
+      {
+        "value": "IA",
+        "label": "integrata"
+      },
+      {
+        "value": "17",
+        "label": "lingue"
+      },
+      {
+        "value": "7+",
+        "label": "mazzi di gioco",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "gioca"
+      },
+      {
+        "value": "Senza",
+        "label": "pubblicità"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Pensato per vere serate di gioco",
     "title": "Un telefono. Squadre. Timer. Round.",
     "statement": "Un telefono. Squadre. Timer. Round. Gioco offline. Senza pubblicità.",
-    "details": ["Gioco offline", "Squadre e timer", "Senza pubblicità", "Senza abbonamento"]
+    "details": [
+      "Gioco offline",
+      "Squadre e timer",
+      "Senza pubblicità",
+      "Senza abbonamento"
+    ]
   },
   "personalization": {
     "title": "Rendilo tuo.",
     "subtitle": "Non è lo stesso gioco ogni volta. Ogni gruppo può creare la propria esperienza.",
     "items": [
-      { "label": "Amici", "topic": "Caos del weekend" },
-      { "label": "Famiglia", "topic": "Pranzo della domenica" },
-      { "label": "Compleanni", "topic": "Classici da festa" },
-      { "label": "Serata cinema", "topic": "Film Oscar" },
-      { "label": "Sport", "topic": "Champions League" },
-      { "label": "Viaggi", "topic": "Giochi in auto" },
-      { "label": "Ufficio", "topic": "Caos in ufficio" },
-      { "label": "Università", "topic": "Leggende del campus" },
-      { "label": "Battute interne", "topic": "Quello che diciamo sempre" }
+      {
+        "label": "Amici",
+        "topic": "Caos del weekend"
+      },
+      {
+        "label": "Famiglia",
+        "topic": "Pranzo della domenica"
+      },
+      {
+        "label": "Compleanni",
+        "topic": "Classici da festa"
+      },
+      {
+        "label": "Serata cinema",
+        "topic": "Film Oscar"
+      },
+      {
+        "label": "Sport",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Viaggi",
+        "topic": "Giochi in auto"
+      },
+      {
+        "label": "Ufficio",
+        "topic": "Caos in ufficio"
+      },
+      {
+        "label": "Università",
+        "topic": "Leggende del campus"
+      },
+      {
+        "label": "Battute interne",
+        "topic": "Quello che diciamo sempre"
+      }
     ]
   },
   "reviews": {
@@ -165,7 +220,7 @@
     "openMenu": "Apri menu",
     "closeLanguageMenu": "Chiudi menu lingue",
     "mainNav": "Principale",
-    "mobileNav": "Mobile",
+    "mobileNav": "Navigazione mobile",
     "previousDeck": "Mazzo precedente",
     "nextDeck": "Mazzo successivo",
     "launchVideo": "Video di lancio Tadado",
@@ -205,7 +260,7 @@
           "body": "Dì alla squadra la parola in alto. Non dire mai le 4 parole vietate sotto. Indovina più carte possibile prima che scada il tempo."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabù!",
           "body": "Dici una parola vietata e perdi la carta. Nessun punto. L'altra squadra mantiene lo slancio."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Serate di gioco in tutto il mondo",
     "subtitle": "Segui Tadado per clip, idee mazzi e ispirazione per giochi da festa.",
     "metrics": [
-      { "value": "300,000+", "label": "partite giocate", "animate": true },
-      { "value": "17", "label": "lingue" },
-      { "value": "2", "label": "modalità di gioco" }
+      {
+        "value": "300,000+",
+        "label": "partite giocate",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "lingue"
+      },
+      {
+        "value": "2",
+        "label": "modalità di gioco"
+      }
     ],
     "languagesTitle": "Lingue supportate",
     "languagesCaption": "Supporto uguale in ogni lingua dell'app. Nessun dato d'uso inventato.",
     "trendingLabel": "Di tendenza stasera",
     "editorialLabel": "Ultime novità da Tadado",
     "editorialItems": [
-      { "title": "Stagione mazzi estate", "body": "Sole, mare e vacanze per le serate calde." },
-      { "title": "Mazzi serata cinema", "body": "Carte cinema per appassionati di film e binge watcher." },
-      { "title": "Crea il tuo", "body": "Trasforma qualsiasi argomento in un mazzo giocabile con l'IA." }
+      {
+        "title": "Stagione mazzi estate",
+        "body": "Sole, mare e vacanze per le serate calde."
+      },
+      {
+        "title": "Mazzi serata cinema",
+        "body": "Carte cinema per appassionati di film e binge watcher."
+      },
+      {
+        "title": "Crea il tuo",
+        "body": "Trasforma qualsiasi argomento in un mazzo giocabile con l'IA."
+      }
     ],
     "socialCta": "Unisciti alla community Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Debugga la produzione alle 2 di notte, ma solo se il timer conta ancora correttamente.",
           "Crede che i migliori giochi da festa richiedano zero tutorial e massima rigiocabilità."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Giochi mobile",
+          "FinTech"
+        ],
         "websiteCta": "Visita erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "Ha guidato il design prodotto di Tadado end-to-end, dal primo wireframe agli schermi rifiniti.",
           "Noterà se il raggio di un pulsante è sbagliato di 2 pixel. Con educazione."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Interaction design",
+          "Esperienza di gioco",
+          "Design spaziale",
+          "Procreate"
+        ],
         "websiteCta": "Visita nurgunen.com"
       }
     },
@@ -632,7 +720,7 @@
     "discoverTitle": "Scopri",
     "growTitle": "Cresci con Tadado",
     "supportTitle": "Supporto",
-    "socialTitle": "Social",
+    "socialTitle": "Social network",
     "help": "Aiuto",
     "support": "Supporto",
     "partnerships": "Partnership",

@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   turbopack: {
     root,
   },
+  experimental: {
+    // Inline the (small) global CSS into the HTML so it no longer blocks first paint.
+    inlineCss: true,
+    optimizePackageImports: ["motion"],
+  },
   images: {
     formats: ["image/avif", "image/webp"],
   },

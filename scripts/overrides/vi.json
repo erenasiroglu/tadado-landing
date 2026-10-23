@@ -26,13 +26,36 @@
     "ctaPrimary": "TẢI TADADO · MIỄN PHÍ",
     "ctaSecondary": "XEM CÁCH HOẠT ĐỘNG",
     "metrics": [
-      { "value": "300,000+", "label": "ván đã chơi", "animate": true },
-      { "value": "2", "label": "chế độ chơi" },
-      { "value": "AI", "label": "hỗ trợ" },
-      { "value": "17", "label": "ngôn ngữ" },
-      { "value": "7+", "label": "bộ bài", "href": "#decks" },
-      { "value": "Offline", "label": "chơi" },
-      { "value": "No", "label": "quảng cáo" }
+      {
+        "value": "300,000+",
+        "label": "ván đã chơi",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "chế độ chơi"
+      },
+      {
+        "value": "AI",
+        "label": "hỗ trợ"
+      },
+      {
+        "value": "17",
+        "label": "ngôn ngữ"
+      },
+      {
+        "value": "7+",
+        "label": "bộ bài",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "chơi"
+      },
+      {
+        "value": "No",
+        "label": "quảng cáo"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Dành cho đêm chơi game thật sự",
     "title": "Một điện thoại. Đội. Hẹn giờ. Vòng.",
     "statement": "Một điện thoại. Đội. Hẹn giờ. Vòng. Chơi offline. Không quảng cáo.",
-    "details": ["Chơi offline", "Đội & hẹn giờ", "Không quảng cáo", "Không đăng ký"]
+    "details": [
+      "Chơi offline",
+      "Đội & hẹn giờ",
+      "Không quảng cáo",
+      "Không đăng ký"
+    ]
   },
   "personalization": {
     "title": "Tùy chỉnh theo cách của bạn.",
     "subtitle": "Đây không phải trò chơi giống nhau mỗi lần. Mỗi nhóm có thể tạo trải nghiệm riêng.",
     "items": [
-      { "label": "Bạn bè", "topic": "Hỗn loạn cuối tuần" },
-      { "label": "Gia đình", "topic": "Bữa tối Chủ nhật" },
-      { "label": "Sinh nhật", "topic": "Kinh điển tiệc tùng" },
-      { "label": "Đêm phim", "topic": "Phim Oscar" },
-      { "label": "Thể thao", "topic": "Champions League" },
-      { "label": "Du lịch", "topic": "Game road trip" },
-      { "label": "Văn phòng", "topic": "Hỗn loạn công sở" },
-      { "label": "Đại học", "topic": "Huyền thoại campus" },
-      { "label": "Trò đùa nội bộ", "topic": "Những gì chúng ta hay nói" }
+      {
+        "label": "Bạn bè",
+        "topic": "Hỗn loạn cuối tuần"
+      },
+      {
+        "label": "Gia đình",
+        "topic": "Bữa tối Chủ nhật"
+      },
+      {
+        "label": "Sinh nhật",
+        "topic": "Kinh điển tiệc tùng"
+      },
+      {
+        "label": "Đêm phim",
+        "topic": "Phim Oscar"
+      },
+      {
+        "label": "Thể thao",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Du lịch",
+        "topic": "Game road trip"
+      },
+      {
+        "label": "Văn phòng",
+        "topic": "Hỗn loạn công sở"
+      },
+      {
+        "label": "Đại học",
+        "topic": "Huyền thoại campus"
+      },
+      {
+        "label": "Trò đùa nội bộ",
+        "topic": "Những gì chúng ta hay nói"
+      }
     ]
   },
   "reviews": {
@@ -205,7 +260,7 @@
           "body": "Nói cho đội từ ở trên. Không bao giờ nói 4 từ cấm bên dưới. Đoán càng nhiều thẻ càng tốt trước khi hết giờ."
         },
         {
-          "title": "Taboo!",
+          "title": "Phạm luật!",
           "body": "Nói từ cấm và bạn mất thẻ. Không điểm. Đội kia giữ đà."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Đêm chơi game khắp thế giới",
     "subtitle": "Theo dõi Tadado để xem clip, ý tưởng bộ bài và cảm hứng game tiệc tùng.",
     "metrics": [
-      { "value": "300,000+", "label": "ván đã chơi", "animate": true },
-      { "value": "17", "label": "ngôn ngữ" },
-      { "value": "2", "label": "chế độ chơi" }
+      {
+        "value": "300,000+",
+        "label": "ván đã chơi",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "ngôn ngữ"
+      },
+      {
+        "value": "2",
+        "label": "chế độ chơi"
+      }
     ],
     "languagesTitle": "Ngôn ngữ hỗ trợ",
     "languagesCaption": "Hỗ trợ đồng đều cho mọi ngôn ngữ ứng dụng. Không dữ liệu sử dụng giả.",
     "trendingLabel": "Trending tối nay",
     "editorialLabel": "Mới nhất từ Tadado",
     "editorialItems": [
-      { "title": "Mùa bộ bài mùa hè", "body": "Nắng, biển và vibe kỳ nghỉ cho đêm ấm." },
-      { "title": "Bộ bài đêm phim", "body": "Thẻ Cinema cho fan phim và binge watcher." },
-      { "title": "Tạo của riêng bạn", "body": "Biến bất kỳ chủ đề nào thành bộ bài chơi được bằng AI." }
+      {
+        "title": "Mùa bộ bài mùa hè",
+        "body": "Nắng, biển và vibe kỳ nghỉ cho đêm ấm."
+      },
+      {
+        "title": "Bộ bài đêm phim",
+        "body": "Thẻ Cinema cho fan phim và binge watcher."
+      },
+      {
+        "title": "Tạo của riêng bạn",
+        "body": "Biến bất kỳ chủ đề nào thành bộ bài chơi được bằng AI."
+      }
     ],
     "socialCta": "Tham gia cộng đồng Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Sẽ debug production lúc 2 giờ sáng, nhưng chỉ khi timer vẫn đếm ngược đúng.",
           "Tin rằng game tiệc tùng hay nhất cần zero tutorial và replayability tối đa."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Game di động",
+          "FinTech"
+        ],
         "websiteCta": "Truy cập erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "Dẫn dắt thiết kế sản phẩm end-to-end Tadado từ wireframe đầu tiên đến màn hình game hoàn thiện.",
           "Sẽ để ý nếu bán kính nút lệch 2 pixel. Một cách lịch sự."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Thiết kế tương tác",
+          "Trải nghiệm game",
+          "Thiết kế không gian",
+          "Procreate"
+        ],
         "websiteCta": "Truy cập nurgunen.com"
       }
     },

@@ -49,7 +49,7 @@ export function Footer({ locale, dict }: FooterProps) {
             <div className="flex items-center gap-2">
               <Image
                 src="/images/tadado_icon.png"
-                alt="Tadado"
+                alt=""
                 width={32}
                 height={32}
                 className="rounded-lg"

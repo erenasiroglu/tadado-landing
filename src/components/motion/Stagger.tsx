@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import { fadeUp, staggerContainer } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -19,7 +19,7 @@ export function Stagger({ children, className, initial = false }: StaggerProps) 
   }
 
   return (
-    <motion.div
+    <m.div
       className={cn(className)}
       variants={staggerContainer}
       initial="hidden"
@@ -28,7 +28,7 @@ export function Stagger({ children, className, initial = false }: StaggerProps) 
       viewport={initial ? undefined : { once: true, margin: "-40px" }}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -46,8 +46,8 @@ export function StaggerItem({
   }
 
   return (
-    <motion.div className={cn(className)} variants={fadeUp}>
+    <m.div className={cn(className)} variants={fadeUp}>
       {children}
-    </motion.div>
+    </m.div>
   );
 }

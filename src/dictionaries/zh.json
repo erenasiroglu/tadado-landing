@@ -9,7 +9,7 @@
     "decks": "卡组",
     "community": "社区",
     "howItWorks": "如何运作",
-    "faq": "FAQ",
+    "faq": "常见问题",
     "getTadado": "获取 Tadado",
     "pricing": "定价",
     "blog": "博客",
@@ -183,7 +183,7 @@
   "modes": {
     "title": "两种玩法",
     "subtitle": "经典 Taboo 风格禁词，或额头 Heads Up。同一套卡组，不同氛围。",
-    "tabooTitle": "Forbidden Words",
+    "tabooTitle": "禁忌词",
     "tabooBody": "描述主词，承担更大风险，提升得分。越难的词解锁越高倍率，从 ×2 到 ×5。",
     "headsUpTitle": "Heads Up",
     "headsUpBody": "手机放在额头上。朋友给出提示。猜对时向下倾斜。",
@@ -213,8 +213,8 @@
     "nextUpLabel": "下一个",
     "continue": "继续",
     "pauseGame": "暂停游戏",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "A 队",
+    "teamB": "B 队"
   },
   "a11y": {
     "openMenu": "打开菜单",
@@ -253,14 +253,14 @@
       "tabooPenalty": "说了禁词？失去这张卡。本轮不得分。"
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "禁忌词",
       "steps": [
         {
           "title": "描述词语",
           "body": "告诉队伍顶部的词。绝不说下面 4 个禁词。在时间结束前尽量猜更多卡。"
         },
         {
-          "title": "Taboo!",
+          "title": "犯规！",
           "body": "说了禁词就失去这张卡。不得分。对方队伍保持势头。"
         },
         {
@@ -364,7 +364,7 @@
     "free": "免费",
     "play": "开始玩",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "新",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "移动游戏",
           "FinTech"
         ],
         "websiteCta": "访问 erennasiroglu.de"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "交互设计",
+          "游戏体验",
+          "空间设计",
           "Procreate"
         ],
         "websiteCta": "访问 nurgunen.com"
@@ -720,7 +720,7 @@
   "newsletter": {
     "title": "游戏之夜灵感永不枯竭。",
     "subtitle": "新主题、新功能与派对游戏技巧。无垃圾邮件。",
-    "placeholder": "you@email.com",
+    "placeholder": "you@example.com",
     "button": "获取更新",
     "success": "你已在名单中。有新内容时我们会发邮件。",
     "privacy": "我们只发送 Tadado 更新。随时可退订。",
@@ -731,13 +731,13 @@
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
     "button": "免费下载 TADADO",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "探索卡组"
   },
   "finalCta": {
     "title": "你的下一个游戏之夜需要 Tadado。",
     "subtitle": "一部手机。全员邀请。",
     "button": "免费下载 TADADO",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "探索卡组"
   },
   "footer": {
     "tagline": "一部手机。你的朋友们。让混乱开始吧。",
@@ -756,12 +756,103 @@
     "legal": "法律",
     "terms": "使用条款",
     "privacy": "隐私政策",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "帮助中心",
+    "marketing": "市场"
   },
   "sticky": {
     "download": "免费下载 TADADO"
   },
   "language": {
     "label": "语言"
+  },
+  "support": {
+    "title": "帮助与支持",
+    "subtitle": "常见解答、账户帮助，以及与 Tadado 团队的直接联系。",
+    "back": "返回 Tadado",
+    "intro": "大多数问题都能在常见问题中找到答案。其他问题（错误、购买或反馈）请发邮件给我们，如可以请注明设备和应用版本。",
+    "responseNote": "我们会阅读每一条消息，通常在几个工作日内回复。",
+    "emailCta": "发邮件给客服",
+    "emailSubject": "Tadado 支持请求",
+    "topics": [
+      {
+        "title": "常见问题与玩法",
+        "body": "禁忌词和 Heads Up 的规则、价格以及离线游玩。",
+        "cta": "打开常见问题",
+        "kind": "faq"
+      },
+      {
+        "title": "购买与恢复",
+        "body": "卡组包和 AI 卡组通过 Apple 或 Google 计费。如有内容缺失，请在应用设置中使用“恢复购买”。",
+        "cta": "账单帮助",
+        "kind": "billing"
+      },
+      {
+        "title": "隐私与条款",
+        "body": "我们如何处理数据、Game Center 以及你的权利。",
+        "cta": "隐私政策",
+        "kind": "privacy"
+      },
+      {
+        "title": "报告问题",
+        "body": "告诉我们发生了什么、你在玩哪个卡组以及手机型号。截图会很有帮助。",
+        "cta": "报告问题",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "市场与媒体",
+    "subtitle": "创作者合作、品牌卡组以及 Tadado 媒体资料。",
+    "back": "返回 Tadado",
+    "intro": "Tadado 是一款为真实朋友聚会打造的派对猜词游戏：禁忌词玩法和 Heads Up 在一部手机上即可畅玩，无广告、无订阅。如果你正在策划内容、合作或报道，请从这里开始。",
+    "statsLabel": "速览",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "局游戏"
+      },
+      {
+        "value": "17",
+        "label": "种语言"
+      },
+      {
+        "value": "2",
+        "label": "游戏模式"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "创作者与联盟推广",
+        "body": "短视频、游戏之夜反应和便于推荐的链接。",
+        "cta": "联盟计划",
+        "kind": "affiliate"
+      },
+      {
+        "title": "品牌与卡组合作",
+        "body": "联名卡组、季节主题以及与我们团队共同策划的活动创意。",
+        "cta": "合作",
+        "kind": "partnerships"
+      },
+      {
+        "title": "媒体与产品资料",
+        "body": "Logo、产品定位，以及媒体和通讯的采访请求。",
+        "cta": "联系媒体",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado 媒体 / 采访咨询",
+    "compareCta": "将 Tadado 与其他派对应用比较",
+    "trendingCta": "查看热门卡组"
+  },
+  "ui": {
+    "viewAllDecks": "查看全部卡组",
+    "allDecks": "全部卡组",
+    "exploreAllDecks": "探索全部卡组",
+    "decksHub": "卡组",
+    "exploreDeck": "探索 {{name}} 卡组",
+    "home": "首页",
+    "popularAlternatives": "热门替代应用指南",
+    "alternativesHub": "替代应用"
   }
 }

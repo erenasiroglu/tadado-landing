@@ -55,15 +55,15 @@ export const LOCALE_DECK_STUBS: Partial<Record<Locale, Partial<Record<DeckKey, S
   },
   fr: {
     midnight: {
-      metaTitle: "Jeux de nuit pour couples et amis | Tadado",
+      metaTitle: "Jeux nocturnes pour couples et amis | Tadado",
       metaDescription:
-        "Jeux à jouer avec votre copain, copine ou partenaire. Jeux de nuit dans Tadado avec Taboo et Heads Up.",
-      h1: "Jeux de nuit pour couples",
+        "Jeux à jouer avec votre copain, copine ou partenaire. Jeux nocturnes dans Tadado avec Tabou et Heads Up.",
+      h1: "Jeux nocturnes pour couples",
       heroSubtitle: "Cartes fun et inattendues pour une soirée à deux.",
-      whatIsTitle: "Qu'est-ce que Jeux de nuit ?",
+      whatIsTitle: "Qu'est-ce que Jeux nocturnes ?",
       whatIsBody:
-        "Jeux de nuit est le paquet 18+ de Tadado pour couples et amis proches. Tabou et mime sur un seul téléphone.",
-      imageAlt: "Paquet Jeux de nuit Tadado pour couples",
+        "Jeux nocturnes est le paquet 18+ de Tadado pour couples et amis proches. Tabou et mime sur un seul téléphone.",
+      imageAlt: "Paquet Jeux nocturnes Tadado pour couples",
     },
     cinema: {
       metaTitle: "Jeu de soirée cinéma | Tadado",

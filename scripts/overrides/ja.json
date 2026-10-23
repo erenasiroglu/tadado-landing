@@ -26,13 +26,36 @@
     "ctaPrimary": "TADADOを無料で入手",
     "ctaSecondary": "遊び方を見る",
     "metrics": [
-      { "value": "300,000+", "label": "プレイ回数", "animate": true },
-      { "value": "2", "label": "ゲームモード" },
-      { "value": "AI", "label": "搭載" },
-      { "value": "17", "label": "言語" },
-      { "value": "7+", "label": "デッキ", "href": "#decks" },
-      { "value": "Offline", "label": "プレイ" },
-      { "value": "No", "label": "広告" }
+      {
+        "value": "300,000+",
+        "label": "プレイ回数",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "ゲームモード"
+      },
+      {
+        "value": "AI",
+        "label": "搭載"
+      },
+      {
+        "value": "17",
+        "label": "言語"
+      },
+      {
+        "value": "7+",
+        "label": "デッキ",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "プレイ"
+      },
+      {
+        "value": "No",
+        "label": "広告"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "本物のゲームナイト向け",
     "title": "スマホ1台。チーム。タイマー。ラウンド。",
     "statement": "スマホ1台。チーム。タイマー。ラウンド。オフライン。広告なし。",
-    "details": ["オフラインプレイ", "チーム＆タイマー", "広告なし", "サブスクなし"]
+    "details": [
+      "オフラインプレイ",
+      "チーム＆タイマー",
+      "広告なし",
+      "サブスクなし"
+    ]
   },
   "personalization": {
     "title": "自分好みにカスタマイズ。",
     "subtitle": "毎回同じゲームではありません。グループごとに独自の体験を作れます。",
     "items": [
-      { "label": "友だち", "topic": "週末のカオス" },
-      { "label": "家族", "topic": "日曜ディナー" },
-      { "label": "誕生日", "topic": "パーティークラシック" },
-      { "label": "映画の夜", "topic": "アカデミー作品" },
-      { "label": "スポーツ", "topic": "Champions League" },
-      { "label": "旅行", "topic": "ロードトリップゲーム" },
-      { "label": "オフィス", "topic": "オフィスのカオス" },
-      { "label": "大学", "topic": "キャンパス伝説" },
-      { "label": "内輪ネタ", "topic": "いつも言ってること" }
+      {
+        "label": "友だち",
+        "topic": "週末のカオス"
+      },
+      {
+        "label": "家族",
+        "topic": "日曜ディナー"
+      },
+      {
+        "label": "誕生日",
+        "topic": "パーティークラシック"
+      },
+      {
+        "label": "映画の夜",
+        "topic": "アカデミー作品"
+      },
+      {
+        "label": "スポーツ",
+        "topic": "Champions League"
+      },
+      {
+        "label": "旅行",
+        "topic": "ロードトリップゲーム"
+      },
+      {
+        "label": "オフィス",
+        "topic": "オフィスのカオス"
+      },
+      {
+        "label": "大学",
+        "topic": "キャンパス伝説"
+      },
+      {
+        "label": "内輪ネタ",
+        "topic": "いつも言ってること"
+      }
     ]
   },
   "reviews": {
@@ -158,8 +213,8 @@
     "nextUpLabel": "次は",
     "continue": "続ける",
     "pauseGame": "ゲームを一時停止",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "チームA",
+    "teamB": "チームB"
   },
   "a11y": {
     "openMenu": "メニューを開く",
@@ -205,7 +260,7 @@
           "body": "上の単語をチームに伝える。下の4つの禁止ワードは絶対に言わない。時間内にできるだけ多く当てよう。"
         },
         {
-          "title": "Taboo!",
+          "title": "タブー！",
           "body": "禁止ワードを言うとカードを失う。得点なし。相手チームが勢いを保つ。"
         },
         {
@@ -309,7 +364,7 @@
     "free": "無料",
     "play": "プレイ",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "新着",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -383,18 +438,37 @@
     "title": "世界中のゲームナイト",
     "subtitle": "Tadadoをフォロー：クリップ、デッキのアイデア、パーティーゲームのインスピレーション。",
     "metrics": [
-      { "value": "300,000+", "label": "プレイ回数", "animate": true },
-      { "value": "17", "label": "言語" },
-      { "value": "2", "label": "ゲームモード" }
+      {
+        "value": "300,000+",
+        "label": "プレイ回数",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "言語"
+      },
+      {
+        "value": "2",
+        "label": "ゲームモード"
+      }
     ],
     "languagesTitle": "対応言語",
     "languagesCaption": "すべてのアプリ言語で同等のサポート。虚偽の使用データなし。",
     "trendingLabel": "今夜のトレンド",
     "editorialLabel": "Tadadoの最新情報",
     "editorialItems": [
-      { "title": "サマーデッキシーズン", "body": "暖かい夜にぴったりの太陽、海、バカンスの雰囲気。" },
-      { "title": "映画の夜デッキ", "body": "映画ファンと一気見派向けのシネマカード。" },
-      { "title": "自分で作る", "body": "AIで任意のトピックをプレイ可能なデッキに。" }
+      {
+        "title": "サマーデッキシーズン",
+        "body": "暖かい夜にぴったりの太陽、海、バカンスの雰囲気。"
+      },
+      {
+        "title": "映画の夜デッキ",
+        "body": "映画ファンと一気見派向けのシネマカード。"
+      },
+      {
+        "title": "自分で作る",
+        "body": "AIで任意のトピックをプレイ可能なデッキに。"
+      }
     ],
     "socialCta": "Tadadoコミュニティに参加",
     "instagramCta": "Instagram",
@@ -518,14 +592,46 @@
       "others": "一般的なアプリ"
     },
     "rows": [
-      { "feature": "Taboo + Heads Upが1アプリ", "tadado": "yes", "others": "no" },
-      { "feature": "AIカスタムデッキビルダー", "tadado": "yes", "others": "partial" },
-      { "feature": "無料スターターデッキ（Tadado Mix）", "tadado": "yes", "others": "partial" },
-      { "feature": "広告なし", "tadado": "yes", "others": "no" },
-      { "feature": "サブスクなし", "tadado": "yes", "others": "no" },
-      { "feature": "テーマデッキパック", "tadado": "yes", "others": "partial" },
-      { "feature": "17言語", "tadado": "yes", "others": "partial" },
-      { "feature": "単語難易度スコアリング", "tadado": "yes", "others": "no" }
+      {
+        "feature": "Taboo + Heads Upが1アプリ",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "AIカスタムデッキビルダー",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "無料スターターデッキ（Tadado Mix）",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "広告なし",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "サブスクなし",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "テーマデッキパック",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17言語",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "単語難易度スコアリング",
+        "tadado": "yes",
+        "others": "no"
+      }
     ],
     "note": "多くのアプリは1モードに特化、広告を表示、またはサブスクでコンテンツをロック。Tadadoは本物のゲームナイト向け：両モード、無料スターターデッキ、買い切り追加。",
     "cta": "Tadadoを無料ダウンロード",
@@ -549,7 +655,14 @@
           "深夜2時でも本番デバッグする — ただしタイマーが正しくカウントダウンしている場合のみ。",
           "最高のパーティーゲームはチュートリアルゼロで最大のリプレイ性が必要、と信じている。"
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "モバイルゲーム",
+          "FinTech"
+        ],
         "websiteCta": "erennasiroglu.deを訪問"
       },
       "nur": {
@@ -561,7 +674,14 @@
           "最初のワイヤーフレームから洗練されたゲーム画面まで、Tadadoのエンドツーエンドプロダクトデザインをリード。",
           "ボタンの角丸が2ピクセルずれていたら気づく。丁寧に。"
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "インタラクションデザイン",
+          "ゲーム体験",
+          "空間デザイン",
+          "Procreate"
+        ],
         "websiteCta": "nurgunen.comを訪問"
       }
     },
@@ -574,7 +694,7 @@
   "newsletter": {
     "title": "ゲームナイトのアイデアが尽きない。",
     "subtitle": "新テーマ、新機能、パーティーゲームのヒント。スパムなし。",
-    "placeholder": "you@email.com",
+    "placeholder": "you@example.com",
     "button": "最新情報を受け取る",
     "success": "リストに登録されました。新しい情報があればメールします。",
     "privacy": "Tadadoの更新情報のみメール。いつでも配信停止可能。",

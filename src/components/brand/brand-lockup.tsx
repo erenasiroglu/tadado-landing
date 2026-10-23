@@ -6,17 +6,16 @@ import { cn } from "@/lib/utils";
 
 interface BrandLockupProps {
   locale: Locale;
-  logoAlt: string;
   className?: string;
   href?: boolean;
 }
 
-export function BrandLockup({ locale, logoAlt, className, href = true }: BrandLockupProps) {
+export function BrandLockup({ locale, className, href = true }: BrandLockupProps) {
   const content = (
     <>
       <Image
         src="/images/tadado_icon.png"
-        alt={logoAlt}
+        alt=""
         width={40}
         height={40}
         className="rounded-[27%] shadow-icon"

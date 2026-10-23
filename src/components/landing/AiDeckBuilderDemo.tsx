@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { motion } from "motion/react";
+import { m } from "motion/react";
 import { Sparkles } from "lucide-react";
 
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
@@ -253,7 +253,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
 
           <div className="relative flex min-h-[320px] items-center justify-center">
             <div className="preview-ambient-glow" aria-hidden />
-            <motion.div
+            <m.div
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               className="relative w-full max-w-[240px]"
@@ -266,7 +266,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
                 showGlow
                 className="relative z-[1] mx-auto"
               />
-            </motion.div>
+            </m.div>
           </div>
         </div>
       </div>

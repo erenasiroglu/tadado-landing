@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
 import { slideUpBar } from "@/lib/motion";
@@ -22,8 +22,8 @@ export function StickyBar({ locale }: StickyBarProps) {
   }
 
   return (
-    <motion.div className={barClass} initial="hidden" animate="visible" variants={slideUpBar}>
+    <m.div className={barClass} initial="hidden" animate="visible" variants={slideUpBar}>
       {cta}
-    </motion.div>
+    </m.div>
   );
 }

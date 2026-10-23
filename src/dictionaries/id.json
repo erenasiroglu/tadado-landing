@@ -260,7 +260,7 @@
           "body": "Beritahu timmu kata di atas. Jangan pernah ucapkan 4 kata terlarang di bawahnya. Tebak sebanyak mungkin kartu sebelum waktu habis."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Mengucapkan kata terlarang dan kamu kehilangan kartu. Tanpa poin. Tim lawan mempertahankan momentum."
         },
         {
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Game seluler",
           "FinTech"
         ],
         "websiteCta": "Kunjungi erennasiroglu.de"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Desain interaksi",
+          "Pengalaman bermain",
+          "Desain spasial",
           "Procreate"
         ],
         "websiteCta": "Kunjungi nurgunen.com"
@@ -756,12 +756,103 @@
     "legal": "Hukum",
     "terms": "Ketentuan Penggunaan",
     "privacy": "Kebijakan Privasi",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Pusat bantuan",
+    "marketing": "Pemasaran"
   },
   "sticky": {
     "download": "UNDUH TADADO · GRATIS"
   },
   "language": {
     "label": "Bahasa"
+  },
+  "support": {
+    "title": "Bantuan dan dukungan",
+    "subtitle": "Jawaban, bantuan akun, dan kontak langsung dengan tim Tadado.",
+    "back": "Kembali ke Tadado",
+    "intro": "Sebagian besar pertanyaan sudah dijawab di FAQ. Untuk hal lain (bug, pembelian, atau masukan), kirim email dan sertakan perangkat serta versi aplikasi jika bisa.",
+    "responseNote": "Kami membaca setiap pesan dan biasanya membalas dalam beberapa hari kerja.",
+    "emailCta": "Email dukungan",
+    "emailSubject": "Permintaan dukungan Tadado",
+    "topics": [
+      {
+        "title": "FAQ dan cara bermain",
+        "body": "Aturan Kata Terlarang dan Heads Up, harga, dan main offline.",
+        "cta": "Buka FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Pembelian dan pemulihan",
+        "body": "Paket deck dan deck AI ditagih lewat Apple atau Google. Jika ada konten yang hilang, gunakan Pulihkan Pembelian di pengaturan aplikasi.",
+        "cta": "Bantuan tagihan",
+        "kind": "billing"
+      },
+      {
+        "title": "Privasi dan ketentuan",
+        "body": "Cara kami menangani data, Game Center, dan hak Anda.",
+        "cta": "Kebijakan privasi",
+        "kind": "privacy"
+      },
+      {
+        "title": "Laporkan bug",
+        "body": "Ceritakan apa yang terjadi, deck yang dimainkan, dan model ponselmu. Tangkapan layar sangat membantu.",
+        "cta": "Laporkan bug",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Pemasaran dan pers",
+    "subtitle": "Kampanye kreator, deck bermerek, dan materi pers Tadado.",
+    "back": "Kembali ke Tadado",
+    "intro": "Tadado adalah game kata untuk grup sungguhan: Kata Terlarang ala Tabu dan Heads Up di satu ponsel, tanpa iklan dan tanpa langganan. Jika kamu merencanakan konten, kolaborasi, atau liputan, mulai dari sini.",
+    "statsLabel": "Sekilas",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "permainan dimainkan"
+      },
+      {
+        "value": "17",
+        "label": "bahasa"
+      },
+      {
+        "value": "2",
+        "label": "mode permainan"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Kreator dan afiliasi",
+        "body": "Klip pendek, reaksi malam permainan, dan tautan siap referal.",
+        "cta": "Program afiliasi",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Kemitraan merek dan deck",
+        "body": "Deck co-branding, tema musiman, dan ide kampanye bersama tim kami.",
+        "cta": "Kemitraan",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Pers dan fakta produk",
+        "body": "Logo, positioning, dan permintaan wawancara untuk media dan newsletter.",
+        "cta": "Email pers",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Pertanyaan pers / media Tadado",
+    "compareCta": "Bandingkan Tadado dengan aplikasi pesta lain",
+    "trendingCta": "Lihat deck yang sedang tren"
+  },
+  "ui": {
+    "viewAllDecks": "Lihat semua deck",
+    "allDecks": "Semua deck",
+    "exploreAllDecks": "Jelajahi semua deck",
+    "decksHub": "Deck",
+    "exploreDeck": "Jelajahi deck {{name}}",
+    "home": "Beranda",
+    "popularAlternatives": "Panduan alternatif populer",
+    "alternativesHub": "Alternatif"
   }
 }

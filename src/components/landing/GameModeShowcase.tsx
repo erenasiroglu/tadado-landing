@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, m, useReducedMotion } from "motion/react";
 
 import { ModeDeviceStage } from "@/components/landing/device/ModeDeviceStage";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
@@ -70,7 +70,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
 
       <div className="mt-8 flex flex-col gap-8 lg:grid lg:grid-cols-[minmax(0,0.88fr)_minmax(0,1.12fr)] lg:items-center">
         <AnimatePresence mode="wait">
-          <motion.div
+          <m.div
             key={activeMode}
             initial={reduceMotion ? false : { opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -126,12 +126,12 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 ) : null}
               </div>
             ) : null}
-          </motion.div>
+          </m.div>
         </AnimatePresence>
 
         <div className="order-2 lg:order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2">
           <AnimatePresence mode="wait">
-            <motion.div
+            <m.div
               key={activeMode}
               initial={reduceMotion ? false : { opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -145,7 +145,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 portraitWidth={248}
                 landscapeWidth={400}
               />
-            </motion.div>
+            </m.div>
           </AnimatePresence>
         </div>
       </div>

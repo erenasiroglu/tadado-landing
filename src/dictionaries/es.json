@@ -260,7 +260,7 @@
           "body": "Dile a tu equipo la palabra de arriba. Nunca digas las 4 palabras prohibidas de abajo. Acierta tantas cartas como puedas antes de que se acabe el tiempo."
         },
         {
-          "title": "Taboo!",
+          "title": "¡Tabú!",
           "body": "Si dices una palabra prohibida, pierdes la carta. Sin puntos. El otro equipo mantiene el ritmo."
         },
         {
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Juegos móviles",
           "FinTech"
         ],
         "websiteCta": "Visitar erennasiroglu.de"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Diseño de interacción",
+          "Experiencia de juego",
+          "Diseño espacial",
           "Procreate"
         ],
         "websiteCta": "Visitar nurgunen.com"
@@ -753,15 +753,106 @@
     "compare": "Comparar apps",
     "affiliate": "Programa de afiliados",
     "team": "Nuestro equipo",
-    "legal": "Legal",
+    "legal": "Aviso legal",
     "terms": "Términos de uso",
     "privacy": "Política de privacidad",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Centro de ayuda",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "DESCARGAR TADADO · GRATIS"
   },
   "language": {
     "label": "Idioma"
+  },
+  "support": {
+    "title": "Ayuda y soporte",
+    "subtitle": "Respuestas, ayuda con tu cuenta y contacto directo con el equipo de Tadado.",
+    "back": "Volver a Tadado",
+    "intro": "La mayoría de las dudas están en las preguntas frecuentes. Para todo lo demás (errores, compras o comentarios), escríbenos e incluye tu dispositivo y la versión de la app si puedes.",
+    "responseNote": "Leemos todos los mensajes y solemos responder en pocos días hábiles.",
+    "emailCta": "Escribir a soporte",
+    "emailSubject": "Solicitud de soporte de Tadado",
+    "topics": [
+      {
+        "title": "Preguntas frecuentes y cómo jugar",
+        "body": "Reglas de Palabras Prohibidas y Heads Up, precios y juego sin conexión.",
+        "cta": "Abrir preguntas frecuentes",
+        "kind": "faq"
+      },
+      {
+        "title": "Compras y restauración",
+        "body": "Los mazos y los mazos con IA se cobran a través de Apple o Google. Si falta contenido, usa Restaurar compras en los ajustes de la app.",
+        "cta": "Ayuda con pagos",
+        "kind": "billing"
+      },
+      {
+        "title": "Privacidad y términos",
+        "body": "Cómo tratamos los datos, Game Center y tus derechos.",
+        "cta": "Política de privacidad",
+        "kind": "privacy"
+      },
+      {
+        "title": "Informar de un error",
+        "body": "Cuéntanos qué pasó, qué mazo jugabas y el modelo de tu teléfono. Las capturas ayudan.",
+        "cta": "Informar de un error",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing y prensa",
+    "subtitle": "Campañas con creadores, mazos de marca y recursos de prensa de Tadado.",
+    "back": "Volver a Tadado",
+    "intro": "Tadado es un juego de palabras para grupos reales: Palabras Prohibidas al estilo Tabú y Heads Up en un solo móvil, sin anuncios ni suscripción. Si preparas contenido, una colaboración o un artículo, empieza aquí.",
+    "statsLabel": "En resumen",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "partidas jugadas"
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "2",
+        "label": "modos de juego"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Creadores y afiliados",
+        "body": "Clips cortos, reacciones de noches de juego y enlaces listos para referidos.",
+        "cta": "Programa de afiliados",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Alianzas de marca y mazos",
+        "body": "Mazos co-brandeados, temas de temporada e ideas de campaña con nuestro equipo.",
+        "cta": "Alianzas",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Prensa y datos del producto",
+        "body": "Logos, posicionamiento y solicitudes de entrevista para medios y newsletters.",
+        "cta": "Escribir a prensa",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Consulta de prensa / medios sobre Tadado",
+    "compareCta": "Compara Tadado con otras apps de fiesta",
+    "trendingCta": "Ver mazos en tendencia"
+  },
+  "ui": {
+    "viewAllDecks": "Ver todos los mazos",
+    "allDecks": "Todos los mazos",
+    "exploreAllDecks": "Explorar todos los mazos",
+    "decksHub": "Mazos",
+    "exploreDeck": "Explorar el mazo {{name}}",
+    "home": "Inicio",
+    "popularAlternatives": "Guías de alternativas populares",
+    "alternativesHub": "Alternativas"
   }
 }

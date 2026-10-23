@@ -7,7 +7,7 @@
     "play": "Gioca",
     "aiDecks": "Mazzi IA",
     "decks": "Mazzi",
-    "community": "Community",
+    "community": "Comunità",
     "howItWorks": "Come funziona",
     "faq": "FAQ",
     "getTadado": "Scarica Tadado",
@@ -16,7 +16,7 @@
     "guides": "Guide",
     "compare": "Confronta",
     "affiliate": "Affiliati",
-    "team": "Team",
+    "team": "Il team",
     "download": "Scarica"
   },
   "hero": {
@@ -199,7 +199,7 @@
   "gamePreview": {
     "timeLeft": "42 secondi rimasti",
     "passStatus": "2 / 3 pass rimasti",
-    "roundLabel": "Round 1/3",
+    "roundLabel": "Turno 1/3",
     "tabooLabel": "Vietato!",
     "passLabel": "Passa",
     "correctLabel": "Corretto",
@@ -220,7 +220,7 @@
     "openMenu": "Apri menu",
     "closeLanguageMenu": "Chiudi menu lingue",
     "mainNav": "Principale",
-    "mobileNav": "Mobile",
+    "mobileNav": "Navigazione mobile",
     "previousDeck": "Mazzo precedente",
     "nextDeck": "Mazzo successivo",
     "launchVideo": "Video di lancio Tadado",
@@ -260,7 +260,7 @@
           "body": "Dì alla squadra la parola in alto. Non dire mai le 4 parole vietate sotto. Indovina più carte possibile prima che scada il tempo."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabù!",
           "body": "Dici una parola vietata e perdi la carta. Nessun punto. L'altra squadra mantiene lo slancio."
         },
         {
@@ -341,7 +341,7 @@
     "demoPreviewLabel": "Anteprima carta",
     "simulationBadge": "Demo interattiva",
     "simulationHint": "Guarda l'IA trasformare un argomento in una carta giocabile di Parole vietate. Scegli una difficoltà e avvia la simulazione.",
-    "simulationStepTopic": "Input",
+    "simulationStepTopic": "Argomento",
     "simulationStepGenerate": "Generazione",
     "simulationStepPreview": "Le carte appaiono",
     "simulationStepReady": "Pronto a giocare",
@@ -686,14 +686,14 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Giochi mobile",
           "FinTech"
         ],
         "websiteCta": "Visita erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
+        "role": "Product designer",
         "bio": "Product UI/UX designer per Tadado e studentessa di architettura all'Università della Democrazia di İzmir. Definisce linguaggio visivo, flusso di interazione ed esperienza di gioco, dalle carte agli schermi.",
         "funFacts": [
           "Pensa alla percezione spaziale in scala infantile di giorno, ai layout delle carte di notte.",
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Interaction design",
+          "Esperienza di gioco",
+          "Design spaziale",
           "Procreate"
         ],
         "websiteCta": "Visita nurgunen.com"
@@ -746,7 +746,7 @@
     "discoverTitle": "Scopri",
     "growTitle": "Cresci con Tadado",
     "supportTitle": "Supporto",
-    "socialTitle": "Social",
+    "socialTitle": "Social network",
     "help": "Aiuto",
     "support": "Supporto",
     "partnerships": "Partnership",
@@ -756,12 +756,103 @@
     "legal": "Legale",
     "terms": "Termini d'uso",
     "privacy": "Informativa privacy",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Centro assistenza",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "SCARICA TADADO · GRATIS"
   },
   "language": {
     "label": "Lingua"
+  },
+  "support": {
+    "title": "Aiuto e supporto",
+    "subtitle": "Risposte, aiuto sull'account e contatto diretto con il team di Tadado.",
+    "back": "Torna a Tadado",
+    "intro": "La maggior parte delle domande trova risposta nelle FAQ. Per tutto il resto (bug, acquisti o feedback) scrivici, indicando se puoi dispositivo e versione dell'app.",
+    "responseNote": "Leggiamo ogni messaggio e di solito rispondiamo entro pochi giorni lavorativi.",
+    "emailCta": "Scrivi al supporto",
+    "emailSubject": "Richiesta di supporto Tadado",
+    "topics": [
+      {
+        "title": "FAQ e come si gioca",
+        "body": "Regole di Parole vietate e Heads Up, prezzi e gioco offline.",
+        "cta": "Apri le FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Acquisti e ripristino",
+        "body": "I pacchetti di mazzi e i mazzi IA sono addebitati tramite Apple o Google. Se manca qualcosa, usa Ripristina acquisti nelle impostazioni dell'app.",
+        "cta": "Aiuto pagamenti",
+        "kind": "billing"
+      },
+      {
+        "title": "Privacy e termini",
+        "body": "Come gestiamo i dati, Game Center e i tuoi diritti.",
+        "cta": "Informativa sulla privacy",
+        "kind": "privacy"
+      },
+      {
+        "title": "Segnala un bug",
+        "body": "Raccontaci cosa è successo, quale mazzo stavi giocando e il modello del telefono. Gli screenshot aiutano.",
+        "cta": "Segnala un bug",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing e stampa",
+    "subtitle": "Campagne con creator, mazzi brandizzati e materiali stampa di Tadado.",
+    "back": "Torna a Tadado",
+    "intro": "Tadado è un gioco di parole per gruppi veri: Parole vietate in stile Tabù e Heads Up su un solo telefono, senza pubblicità né abbonamento. Se stai pianificando contenuti, una collaborazione o un articolo, parti da qui.",
+    "statsLabel": "In breve",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "partite giocate"
+      },
+      {
+        "value": "17",
+        "label": "lingue"
+      },
+      {
+        "value": "2",
+        "label": "modalità di gioco"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Creator e affiliati",
+        "body": "Clip brevi, reazioni alle serate di gioco e link pronti per i referral.",
+        "cta": "Programma di affiliazione",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Partnership di brand e mazzi",
+        "body": "Mazzi co-brandizzati, temi stagionali e idee di campagna con il nostro team.",
+        "cta": "Partnership",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Stampa e dati di prodotto",
+        "body": "Loghi, posizionamento e richieste di intervista per media e newsletter.",
+        "cta": "Scrivi alla stampa",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Richiesta stampa / media Tadado",
+    "compareCta": "Confronta Tadado con altre app per feste",
+    "trendingCta": "Vedi i mazzi di tendenza"
+  },
+  "ui": {
+    "viewAllDecks": "Vedi tutti i mazzi",
+    "allDecks": "Tutti i mazzi",
+    "exploreAllDecks": "Esplora tutti i mazzi",
+    "decksHub": "Mazzi",
+    "exploreDeck": "Esplora il mazzo {{name}}",
+    "home": "Pagina iniziale",
+    "popularAlternatives": "Guide alle alternative più popolari",
+    "alternativesHub": "Alternative"
   }
 }

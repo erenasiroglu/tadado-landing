@@ -9,7 +9,7 @@
     "decks": "デッキ",
     "community": "コミュニティ",
     "howItWorks": "使い方",
-    "faq": "FAQ",
+    "faq": "よくある質問",
     "getTadado": "Tadadoを入手",
     "pricing": "料金",
     "blog": "ブログ",
@@ -183,7 +183,7 @@
   "modes": {
     "title": "2つの遊び方",
     "subtitle": "Tabooスタイルの禁止ワード、またはおでこのHeads Up。同じデッキ、違う盛り上がり。",
-    "tabooTitle": "Forbidden Words",
+    "tabooTitle": "禁止ワード",
     "tabooBody": "メインワードを説明し、リスクを取ってスコアを伸ばそう。難しい単語ほど×2から×5までの倍率が上がる。",
     "headsUpTitle": "Heads Up",
     "headsUpBody": "スマホをおでこに。友だちがヒントを出す。正解したら下に傾ける。",
@@ -213,8 +213,8 @@
     "nextUpLabel": "次は",
     "continue": "続ける",
     "pauseGame": "ゲームを一時停止",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "チームA",
+    "teamB": "チームB"
   },
   "a11y": {
     "openMenu": "メニューを開く",
@@ -253,14 +253,14 @@
       "tabooPenalty": "禁止ワードを言った？カードを失う。このラウンドは得点なし。"
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "禁止ワード",
       "steps": [
         {
           "title": "単語を説明",
           "body": "上の単語をチームに伝える。下の4つの禁止ワードは絶対に言わない。時間内にできるだけ多く当てよう。"
         },
         {
-          "title": "Taboo!",
+          "title": "タブー！",
           "body": "禁止ワードを言うとカードを失う。得点なし。相手チームが勢いを保つ。"
         },
         {
@@ -364,7 +364,7 @@
     "free": "無料",
     "play": "プレイ",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "新着",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "モバイルゲーム",
           "FinTech"
         ],
         "websiteCta": "erennasiroglu.deを訪問"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "インタラクションデザイン",
+          "ゲーム体験",
+          "空間デザイン",
           "Procreate"
         ],
         "websiteCta": "nurgunen.comを訪問"
@@ -720,7 +720,7 @@
   "newsletter": {
     "title": "ゲームナイトのアイデアが尽きない。",
     "subtitle": "新テーマ、新機能、パーティーゲームのヒント。スパムなし。",
-    "placeholder": "you@email.com",
+    "placeholder": "you@example.com",
     "button": "最新情報を受け取る",
     "success": "リストに登録されました。新しい情報があればメールします。",
     "privacy": "Tadadoの更新情報のみメール。いつでも配信停止可能。",
@@ -731,13 +731,13 @@
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
     "button": "TADADOを無料で入手",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "デッキを見る"
   },
   "finalCta": {
     "title": "次のゲームナイトにTadadoを。",
     "subtitle": "スマホ1台。みんな招待。",
     "button": "TADADOを無料で入手",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "デッキを見る"
   },
   "footer": {
     "tagline": "スマホ1台。友だちと一緒に。カオスを始めよう。",
@@ -756,12 +756,103 @@
     "legal": "法的情報",
     "terms": "利用規約",
     "privacy": "プライバシーポリシー",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "ヘルプセンター",
+    "marketing": "マーケティング"
   },
   "sticky": {
     "download": "TADADOを無料で入手"
   },
   "language": {
     "label": "言語"
+  },
+  "support": {
+    "title": "ヘルプとサポート",
+    "subtitle": "よくある質問への回答、アカウントのサポート、Tadadoチームへの直接の連絡窓口。",
+    "back": "Tadadoに戻る",
+    "intro": "ほとんどの質問はFAQで解決できます。それ以外(不具合、購入、ご意見)はメールでご連絡ください。可能であれば端末とアプリのバージョンもお知らせください。",
+    "responseNote": "すべてのメッセージに目を通し、通常は数営業日以内に返信します。",
+    "emailCta": "サポートにメール",
+    "emailSubject": "Tadadoサポートへのお問い合わせ",
+    "topics": [
+      {
+        "title": "FAQと遊び方",
+        "body": "禁止ワードとHeads Upのルール、料金、オフラインプレイについて。",
+        "cta": "FAQを開く",
+        "kind": "faq"
+      },
+      {
+        "title": "購入と復元",
+        "body": "デッキパックとAIデッキはAppleまたはGoogle経由で請求されます。コンテンツが表示されない場合は、アプリ設定の「購入を復元」を使ってください。",
+        "cta": "請求についてメール",
+        "kind": "billing"
+      },
+      {
+        "title": "プライバシーと利用規約",
+        "body": "データ、Game Center、あなたの権利の取り扱いについて。",
+        "cta": "プライバシーポリシー",
+        "kind": "privacy"
+      },
+      {
+        "title": "不具合を報告",
+        "body": "何が起きたか、どのデッキで遊んでいたか、スマホの機種を教えてください。スクリーンショットがあると助かります。",
+        "cta": "不具合を報告",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "マーケティングとプレス",
+    "subtitle": "クリエイター施策、ブランドデッキ、Tadadoのプレス素材。",
+    "back": "Tadadoに戻る",
+    "intro": "Tadadoはリアルな仲間と遊ぶパーティー向けワードゲームです。タブー風の禁止ワードとHeads Upを1台のスマホで、広告なし・サブスクなしで楽しめます。コンテンツ制作、コラボ、取材をご検討の方はこちらから。",
+    "statsLabel": "概要",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "プレイ回数"
+      },
+      {
+        "value": "17",
+        "label": "言語"
+      },
+      {
+        "value": "2",
+        "label": "ゲームモード"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "クリエイターとアフィリエイト",
+        "body": "ショート動画、ゲームナイトのリアクション、紹介に使えるリンク。",
+        "cta": "アフィリエイトプログラム",
+        "kind": "affiliate"
+      },
+      {
+        "title": "ブランド・デッキのコラボ",
+        "body": "コラボデッキ、季節のテーマ、キャンペーン企画をチームと一緒に。",
+        "cta": "パートナーシップ",
+        "kind": "partnerships"
+      },
+      {
+        "title": "プレスと製品情報",
+        "body": "ロゴ、ポジショニング、メディアやニュースレターからの取材依頼。",
+        "cta": "プレス窓口にメール",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado プレス・メディアのお問い合わせ",
+    "compareCta": "Tadadoを他のパーティーアプリと比較",
+    "trendingCta": "トレンドのデッキを見る"
+  },
+  "ui": {
+    "viewAllDecks": "すべてのデッキを見る",
+    "allDecks": "すべてのデッキ",
+    "exploreAllDecks": "すべてのデッキを見る",
+    "decksHub": "デッキ",
+    "exploreDeck": "{{name}}デッキを見る",
+    "home": "ホーム",
+    "popularAlternatives": "人気の代替アプリガイド",
+    "alternativesHub": "代替アプリ"
   }
 }

@@ -9,7 +9,7 @@
     "decks": "덱",
     "community": "커뮤니티",
     "howItWorks": "이용 방법",
-    "faq": "FAQ",
+    "faq": "자주 묻는 질문",
     "getTadado": "Tadado 받기",
     "pricing": "요금",
     "blog": "블로그",
@@ -183,7 +183,7 @@
   "modes": {
     "title": "두 가지 플레이 방식",
     "subtitle": "Taboo 스타일 금지 단어 또는 이마 Heads Up. 같은 덱, 다른 에너지.",
-    "tabooTitle": "Forbidden Words",
+    "tabooTitle": "금지어",
     "tabooBody": "주 단어를 설명하고 더 큰 리스크를 감수해 점수를 키우세요. 어려운 단어일수록 ×2에서 ×5까지 배율이 올라갑니다.",
     "headsUpTitle": "Heads Up",
     "headsUpBody": "스마트폰을 이마에. 친구들이 힌트를 줍니다. 맞히면 아래로 기울이세요.",
@@ -213,8 +213,8 @@
     "nextUpLabel": "다음",
     "continue": "계속",
     "pauseGame": "게임 일시정지",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "A팀",
+    "teamB": "B팀"
   },
   "a11y": {
     "openMenu": "메뉴 열기",
@@ -253,14 +253,14 @@
       "tabooPenalty": "금지 단어를 말했나요? 카드를 잃습니다. 이 라운드는 점수 없음."
     },
     "forbiddenWords": {
-      "modeLabel": "Forbidden Words",
+      "modeLabel": "금지어",
       "steps": [
         {
           "title": "단어 설명하기",
           "body": "위 단어를 팀에게 알려주세요. 아래 4개 금지 단어는 절대 말하지 마세요. 시간이 다하기 전에 최대한 많이 맞히세요."
         },
         {
-          "title": "Taboo!",
+          "title": "터부!",
           "body": "금지 단어를 말하면 카드를 잃습니다. 점수 없음. 상대 팀이 momentum을 유지합니다."
         },
         {
@@ -364,7 +364,7 @@
     "free": "무료",
     "play": "플레이",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "신규",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "모바일 게임",
           "FinTech"
         ],
         "websiteCta": "erennasiroglu.de 방문"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "인터랙션 디자인",
+          "게임 경험",
+          "공간 디자인",
           "Procreate"
         ],
         "websiteCta": "nurgunen.com 방문"
@@ -720,7 +720,7 @@
   "newsletter": {
     "title": "게임 나이트 아이디어가 떨어지지 않아요.",
     "subtitle": "새 테마, 기능, 파티 게임 팁. 스팸 없음.",
-    "placeholder": "you@email.com",
+    "placeholder": "you@example.com",
     "button": "소식 받기",
     "success": "목록에 등록되었습니다. 새 소식이 있으면 이메일 드립니다.",
     "privacy": "Tadado 업데이트만 이메일. 언제든 구독 취소.",
@@ -731,13 +731,13 @@
     "title": "다음 게임 나이트에 Tadado가 필요해요.",
     "subtitle": "스마트폰 하나. 모두 초대.",
     "button": "TADADO 무료로 받기",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "덱 둘러보기"
   },
   "finalCta": {
     "title": "다음 게임 나이트에 Tadado가 필요해요.",
     "subtitle": "스마트폰 하나. 모두 초대.",
     "button": "TADADO 무료로 받기",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "덱 둘러보기"
   },
   "footer": {
     "tagline": "스마트폰 하나. 친구들과 함께. 혼돈을 시작하세요.",
@@ -756,12 +756,103 @@
     "legal": "법적 고지",
     "terms": "이용약관",
     "privacy": "개인정보 처리방침",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "고객센터",
+    "marketing": "마케팅"
   },
   "sticky": {
     "download": "TADADO 무료로 받기"
   },
   "language": {
     "label": "언어"
+  },
+  "support": {
+    "title": "도움말 및 지원",
+    "subtitle": "답변, 계정 도움말, 그리고 Tadado 팀과의 직접 연락.",
+    "back": "Tadado로 돌아가기",
+    "intro": "대부분의 질문은 FAQ에서 답을 찾을 수 있어요. 그 밖의 문의(버그, 결제, 의견)는 이메일로 보내 주세요. 가능하면 기기와 앱 버전도 함께 알려 주세요.",
+    "responseNote": "모든 메시지를 읽으며 보통 영업일 기준 며칠 안에 답장해요.",
+    "emailCta": "지원팀에 이메일",
+    "emailSubject": "Tadado 지원 요청",
+    "topics": [
+      {
+        "title": "FAQ 및 플레이 방법",
+        "body": "금지어와 Heads Up 규칙, 가격, 오프라인 플레이.",
+        "cta": "FAQ 열기",
+        "kind": "faq"
+      },
+      {
+        "title": "구매 및 복원",
+        "body": "덱 팩과 AI 덱은 Apple 또는 Google을 통해 결제돼요. 콘텐츠가 보이지 않으면 앱 설정에서 구매 복원을 눌러 주세요.",
+        "cta": "결제 문의",
+        "kind": "billing"
+      },
+      {
+        "title": "개인정보 및 약관",
+        "body": "데이터, Game Center, 그리고 사용자 권리를 어떻게 다루는지 안내해요.",
+        "cta": "개인정보 처리방침",
+        "kind": "privacy"
+      },
+      {
+        "title": "버그 신고",
+        "body": "무슨 일이 있었는지, 어떤 덱을 플레이했는지, 휴대폰 모델을 알려 주세요. 스크린샷이 있으면 큰 도움이 돼요.",
+        "cta": "버그 신고",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "마케팅 및 언론",
+    "subtitle": "크리에이터 캠페인, 브랜드 덱, Tadado 보도 자료.",
+    "back": "Tadado로 돌아가기",
+    "intro": "Tadado는 진짜 친구들과 즐기는 파티 단어 게임이에요. 터부 스타일 금지어와 Heads Up을 휴대폰 한 대로, 광고도 구독도 없이 즐길 수 있어요. 콘텐츠, 협업, 취재를 계획 중이라면 여기서 시작하세요.",
+    "statsLabel": "한눈에 보기",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "플레이"
+      },
+      {
+        "value": "17",
+        "label": "언어"
+      },
+      {
+        "value": "2",
+        "label": "게임 모드"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "크리에이터 및 제휴",
+        "body": "숏폼 클립, 게임 나이트 리액션, 추천용 링크.",
+        "cta": "제휴 프로그램",
+        "kind": "affiliate"
+      },
+      {
+        "title": "브랜드 및 덱 협업",
+        "body": "공동 브랜드 덱, 시즌 테마, 우리 팀과 함께하는 캠페인 아이디어.",
+        "cta": "파트너십",
+        "kind": "partnerships"
+      },
+      {
+        "title": "언론 및 제품 정보",
+        "body": "로고, 포지셔닝, 언론과 뉴스레터를 위한 인터뷰 요청.",
+        "cta": "언론 문의 이메일",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado 언론 / 미디어 문의",
+    "compareCta": "Tadado와 다른 파티 앱 비교하기",
+    "trendingCta": "인기 덱 보기"
+  },
+  "ui": {
+    "viewAllDecks": "모든 덱 보기",
+    "allDecks": "모든 덱",
+    "exploreAllDecks": "모든 덱 둘러보기",
+    "decksHub": "덱",
+    "exploreDeck": "{{name}} 덱 둘러보기",
+    "home": "홈",
+    "popularAlternatives": "인기 대안 가이드",
+    "alternativesHub": "대안"
   }
 }

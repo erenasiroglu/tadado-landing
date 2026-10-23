@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Lock, Play } from "lucide-react";
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 import { useEffect, useRef } from "react";
 
 import {
@@ -96,7 +96,7 @@ export function DeckCatalogCard({
   }
 
   return (
-    <motion.div
+    <m.div
       ref={cardRef}
       className={cn("relative w-full", className)}
       {...(reduceMotion || disableHoverMotion ? {} : cardHover)}
@@ -112,7 +112,6 @@ export function DeckCatalogCard({
         <Link
           href={deckHref}
           className="relative block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/30 focus-visible:ring-offset-2 focus-visible:ring-offset-paper"
-          aria-label={title}
         >
           <div
             className="relative aspect-[3/4] overflow-hidden"
@@ -123,7 +122,7 @@ export function DeckCatalogCard({
           >
             <Image
               src={config.image}
-              alt={title}
+              alt=""
               fill
               className="object-cover transition-transform duration-300 group-hover:scale-105"
               style={{
@@ -243,6 +242,6 @@ export function DeckCatalogCard({
           tabIndex={-1}
         />
       </div>
-    </motion.div>
+    </m.div>
   );
 }

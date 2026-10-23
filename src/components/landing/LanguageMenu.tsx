@@ -32,7 +32,6 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
     <div className={cn("relative", className)}>
       <button
         type="button"
-        aria-label={label}
         aria-expanded={open}
         aria-haspopup="listbox"
         onClick={() => setOpen((value) => !value)}
@@ -43,6 +42,7 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
         <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
           {currentLocale === "pt-BR" ? "PT" : currentLocale.toUpperCase()}
         </span>
+        <span className="sr-only">{label}</span>
         <ChevronDown
           className={cn("h-3.5 w-3.5 text-muted-foreground transition", open && "rotate-180")}
           aria-hidden

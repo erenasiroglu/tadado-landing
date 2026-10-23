@@ -20,12 +20,8 @@ interface DeckDetailContentProps {
   dict: Dictionary;
 }
 
-function relatedLinkLabel(locale: Locale, deckName: string): string {
-  if (locale === "tr") return `${deckName} destesini keşfet`;
-  if (locale === "es") return `Explorar mazo ${deckName}`;
-  if (locale === "de") return `${deckName} Deck entdecken`;
-  if (locale === "fr") return `Découvrir le paquet ${deckName}`;
-  return `Explore ${deckName} party cards`;
+function relatedLinkLabel(dict: Dictionary, deckName: string): string {
+  return dict.ui.exploreDeck.replace("{{name}}", deckName);
 }
 
 export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentProps) {
@@ -35,8 +31,7 @@ export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentPr
   const free = isFreeDeck(deckKey);
   const related = getRelatedDeckKeys(deckKey);
 
-  const hubLabel =
-    locale === "tr" ? "Desteler" : locale === "de" ? "Decks" : locale === "fr" ? "Paquets" : "Decks";
+  const hubLabel = dict.ui.decksHub;
 
   return (
     <article className="max-w-3xl">
@@ -60,7 +55,7 @@ export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentPr
 
       <div className="mt-6">
         <BackLink href={getDecksHubHref(locale)}>
-          {locale === "tr" ? "Tüm desteler" : "All decks"}
+          {dict.ui.allDecks}
         </BackLink>
       </div>
 
@@ -163,7 +158,7 @@ export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentPr
             return (
               <li key={key}>
                 <Link href={href} className="font-semibold text-ink hover:text-muted-foreground">
-                  {relatedLinkLabel(locale, relatedItem.name)}
+                  {relatedLinkLabel(dict, relatedItem.name)}
                 </Link>
               </li>
             );

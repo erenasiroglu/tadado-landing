@@ -15,9 +15,9 @@
     "blog": "Blog",
     "guides": "Guias",
     "compare": "Comparar",
-    "affiliate": "Affiliate",
+    "affiliate": "Afiliados",
     "team": "Equipe",
-    "download": "Download"
+    "download": "Baixar"
   },
   "hero": {
     "brandLine": "Jogo de palavras para festas · ★ 5.0 na App Store",
@@ -26,13 +26,36 @@
     "ctaPrimary": "BAIXE O TADADO · GRÁTIS",
     "ctaSecondary": "VEJA COMO FUNCIONA",
     "metrics": [
-      { "value": "300,000+", "label": "partidas jogadas", "animate": true },
-      { "value": "2", "label": "modos de jogo" },
-      { "value": "AI", "label": "powered" },
-      { "value": "17", "label": "idiomas" },
-      { "value": "7+", "label": "baralhos", "href": "#decks" },
-      { "value": "Offline", "label": "jogo" },
-      { "value": "No", "label": "ads" }
+      {
+        "value": "300,000+",
+        "label": "partidas jogadas",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "modos de jogo"
+      },
+      {
+        "value": "IA",
+        "label": "com IA"
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "7+",
+        "label": "baralhos",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "jogo"
+      },
+      {
+        "value": "Sem",
+        "label": "anúncios"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Para noites de jogo de verdade",
     "title": "Um celular. Times. Timers. Rodadas.",
     "statement": "Um celular. Times. Timers. Rodadas. Jogo offline. Sem anúncios.",
-    "details": ["Jogo offline", "Times e timers", "Sem anúncios", "Sem assinatura"]
+    "details": [
+      "Jogo offline",
+      "Times e timers",
+      "Sem anúncios",
+      "Sem assinatura"
+    ]
   },
   "personalization": {
     "title": "Faça do seu jeito.",
     "subtitle": "Não é o mesmo jogo toda vez. Cada grupo pode criar sua própria experiência.",
     "items": [
-      { "label": "Amigos", "topic": "Caos de fim de semana" },
-      { "label": "Família", "topic": "Almoço de domingo" },
-      { "label": "Aniversários", "topic": "Clássicos de festa" },
-      { "label": "Noite de filme", "topic": "Filmes do Oscar" },
-      { "label": "Esportes", "topic": "Champions League" },
-      { "label": "Viagem", "topic": "Jogos na estrada" },
-      { "label": "Escritório", "topic": "Caos no escritório" },
-      { "label": "Faculdade", "topic": "Lendas do campus" },
-      { "label": "Piadas internas", "topic": "Coisas que a gente sempre fala" }
+      {
+        "label": "Amigos",
+        "topic": "Caos de fim de semana"
+      },
+      {
+        "label": "Família",
+        "topic": "Almoço de domingo"
+      },
+      {
+        "label": "Aniversários",
+        "topic": "Clássicos de festa"
+      },
+      {
+        "label": "Noite de filme",
+        "topic": "Filmes do Oscar"
+      },
+      {
+        "label": "Esportes",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Viagem",
+        "topic": "Jogos na estrada"
+      },
+      {
+        "label": "Escritório",
+        "topic": "Caos no escritório"
+      },
+      {
+        "label": "Faculdade",
+        "topic": "Lendas do campus"
+      },
+      {
+        "label": "Piadas internas",
+        "topic": "Coisas que a gente sempre fala"
+      }
     ]
   },
   "reviews": {
@@ -158,14 +213,14 @@
     "nextUpLabel": "Próximo",
     "continue": "Continuar",
     "pauseGame": "Pausar jogo",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "EQUIPE A",
+    "teamB": "EQUIPE B"
   },
   "a11y": {
     "openMenu": "Abrir menu",
     "closeLanguageMenu": "Fechar menu de idiomas",
     "mainNav": "Principal",
-    "mobileNav": "Mobile",
+    "mobileNav": "Celular",
     "previousDeck": "Baralho anterior",
     "nextDeck": "Próximo baralho",
     "launchVideo": "Vídeo de lançamento Tadado",
@@ -205,7 +260,7 @@
           "body": "Diga ao time a palavra no topo. Nunca diga as 4 palavras proibidas embaixo. Acerte o máximo de cartas antes do tempo acabar."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Disse uma palavra proibida e perde a carta. Zero pontos. O outro time mantém o ritmo."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Noites de jogo pelo mundo",
     "subtitle": "Siga o Tadado para clips, ideias de baralho e inspiração para festas.",
     "metrics": [
-      { "value": "300,000+", "label": "partidas jogadas", "animate": true },
-      { "value": "17", "label": "idiomas" },
-      { "value": "2", "label": "modos de jogo" }
+      {
+        "value": "300,000+",
+        "label": "partidas jogadas",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "2",
+        "label": "modos de jogo"
+      }
     ],
     "languagesTitle": "Idiomas suportados",
     "languagesCaption": "Suporte igual em todos os idiomas do app. Sem dados de uso inventados.",
     "trendingLabel": "Em alta hoje à noite",
     "editorialLabel": "Novidades do Tadado",
     "editorialItems": [
-      { "title": "Temporada de baralhos de verão", "body": "Sol, mar e clima de férias para noites quentes." },
-      { "title": "Baralhos de noite de filme", "body": "Cartas de cinema para fãs de filmes e maratonistas de séries." },
-      { "title": "Crie o seu", "body": "Transforme qualquer tema em baralho jogável com IA." }
+      {
+        "title": "Temporada de baralhos de verão",
+        "body": "Sol, mar e clima de férias para noites quentes."
+      },
+      {
+        "title": "Baralhos de noite de filme",
+        "body": "Cartas de cinema para fãs de filmes e maratonistas de séries."
+      },
+      {
+        "title": "Crie o seu",
+        "body": "Transforme qualquer tema em baralho jogável com IA."
+      }
     ],
     "socialCta": "Entre na comunidade Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Debugga produção às 2 da manhã — mas só se o timer ainda contar corretamente.",
           "Acredita que os melhores jogos de festa precisam de zero tutorial e máxima rejogabilidade."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Jogos mobile",
+          "FinTech"
+        ],
         "websiteCta": "Visitar erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "Liderou o design de produto end-to-end do Tadado do primeiro wireframe às telas de jogo polidas.",
           "Vai notar se o raio do botão estiver 2 pixels fora. Educadamente."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Design de interação",
+          "Experiência de jogo",
+          "Design espacial",
+          "Procreate"
+        ],
         "websiteCta": "Visitar nurgunen.com"
       }
     },
@@ -632,14 +720,14 @@
     "discoverTitle": "Descobrir",
     "growTitle": "Cresça com Tadado",
     "supportTitle": "Suporte",
-    "socialTitle": "Social",
+    "socialTitle": "Redes sociais",
     "help": "Ajuda",
     "support": "Suporte",
     "partnerships": "Parcerias",
     "compare": "Comparar apps",
     "affiliate": "Programa de affiliate",
     "team": "Nossa equipe",
-    "legal": "Legal",
+    "legal": "Jurídico",
     "terms": "Termos de Uso",
     "privacy": "Política de Privacidade",
     "copyright": "© {{year}} Tadado Game Development"

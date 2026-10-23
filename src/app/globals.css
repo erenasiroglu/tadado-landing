@@ -663,6 +663,54 @@ html {
   animation: typing-cursor 1s step-end infinite;
 }
 
+@keyframes hero-rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero-rise {
+  animation: hero-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--i, 0) * 70ms + 40ms);
+}
+
+@keyframes proof-in {
+  from {
+    opacity: 0;
+    scale: 0.95;
+  }
+}
+
+@keyframes proof-float {
+  50% {
+    translate: 0 -2.5px;
+  }
+}
+
+.hero-proof-badge--float {
+  animation:
+    proof-in 0.4s ease-out both,
+    proof-float 4.2s ease-in-out 0.8s infinite;
+}
+
+.hero-proof-badge--in {
+  animation: proof-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(0.2s + var(--i, 0) * 50ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-rise,
+  .hero-proof-badge--float,
+  .hero-proof-badge--in {
+    animation: none;
+  }
+}
+
 .hero-launch-video {
   user-select: none;
 }
@@ -702,6 +750,20 @@ html {
   border-radius: 2.1rem;
   background: var(--ink);
   box-shadow: inset 0 0 0 1px rgb(255 244 214 / 0.08);
+}
+
+.hero-launch-video__still {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-launch-video__video[data-ready="false"] {
+  opacity: 0;
 }
 
 .hero-launch-video__video {

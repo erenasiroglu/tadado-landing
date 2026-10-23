@@ -747,5 +747,15 @@
   },
   "language": {
     "label": "Language"
+  },
+  "ui": {
+    "viewAllDecks": "View all decks",
+    "allDecks": "All decks",
+    "exploreAllDecks": "Explore all decks",
+    "decksHub": "Decks",
+    "exploreDeck": "Explore {{name}} party cards",
+    "home": "Home",
+    "popularAlternatives": "Popular alternative guides",
+    "alternativesHub": "Alternatives"
   }
 }

@@ -213,8 +213,8 @@
     "nextUpLabel": "अगला",
     "continue": "जारी रखें",
     "pauseGame": "गेम रोकें",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "टीम A",
+    "teamB": "टीम B"
   },
   "a11y": {
     "openMenu": "मेनू खोलें",
@@ -260,7 +260,7 @@
           "body": "अपनी टीम को ऊपर का शब्द बताएँ। नीचे के 4 निषिद्ध शब्द कभी न बोलें। समय खत्म होने से पहले जितने कार्ड हो सकें अनुमान लगाएँ।"
         },
         {
-          "title": "Taboo!",
+          "title": "टैबू!",
           "body": "निषिद्ध शब्द बोला तो कार्ड खो दें। कोई अंक नहीं। दूसरी टीम गति बनाए रखती है।"
         },
         {
@@ -362,9 +362,9 @@
     "subtitle": "Tadado Mix से मुफ़्त शुरू करें, तैयार हों तो थीम पैक अनलॉक करें।",
     "countBadge": "8 गेम डेक",
     "free": "मुफ़्त",
-    "play": "PLAY",
+    "play": "खेलें",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "नया",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -686,7 +686,7 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "मोबाइल गेम्स",
           "FinTech"
         ],
         "websiteCta": "erennasiroglu.de देखें"
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "इंटरैक्शन डिज़ाइन",
+          "गेम एक्सपीरियंस",
+          "स्पेशियल डिज़ाइन",
           "Procreate"
         ],
         "websiteCta": "nurgunen.com देखें"
@@ -720,7 +720,7 @@
   "newsletter": {
     "title": "गेम नाइट विचार कभी खत्म न हों।",
     "subtitle": "नए थीम, फ़ीचर और पार्टी गेम टिप्स। कोई spam नहीं।",
-    "placeholder": "you@email.com",
+    "placeholder": "aap@email.com",
     "button": "अपडेट पाएं",
     "success": "आप सूची में हैं। कुछ नया आए तो ईमेल करेंगे।",
     "privacy": "हम सिर्फ़ Tadado अपडेट के बारे में ईमेल करते हैं। कभी भी unsubscribe करें।",
@@ -731,13 +731,13 @@
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
     "button": "TADADO डाउनलोड करें · मुफ़्त",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "डेक एक्सप्लोर करें"
   },
   "finalCta": {
     "title": "आपकी अगली गेम नाइट को Tadado चाहिए।",
     "subtitle": "एक फ़ोन। सब आमंत्रित।",
     "button": "TADADO डाउनलोड करें · मुफ़्त",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "डेक एक्सप्लोर करें"
   },
   "footer": {
     "tagline": "एक फ़ोन। आपके दोस्त। अब शुरू हो हंगामा।",
@@ -756,12 +756,103 @@
     "legal": "कानूनी",
     "terms": "उपयोग की शर्तें",
     "privacy": "गोपनीयता नीति",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "हेल्प सेंटर",
+    "marketing": "मार्केटिंग"
   },
   "sticky": {
     "download": "TADADO डाउनलोड करें · मुफ़्त"
   },
   "language": {
     "label": "भाषा"
+  },
+  "support": {
+    "title": "मदद और सपोर्ट",
+    "subtitle": "जवाब, अकाउंट में मदद और Tadado टीम से सीधा संपर्क।",
+    "back": "Tadado पर वापस",
+    "intro": "ज़्यादातर सवालों के जवाब FAQ में हैं। बाकी किसी भी चीज़ (बग, खरीदारी या फ़ीडबैक) के लिए हमें ईमेल करें और हो सके तो अपना डिवाइस और ऐप वर्शन लिखें।",
+    "responseNote": "हम हर संदेश पढ़ते हैं और आमतौर पर कुछ कामकाजी दिनों में जवाब देते हैं।",
+    "emailCta": "सपोर्ट को ईमेल करें",
+    "emailSubject": "Tadado सपोर्ट अनुरोध",
+    "topics": [
+      {
+        "title": "FAQ और कैसे खेलें",
+        "body": "Forbidden Words और Heads Up के नियम, कीमतें और ऑफ़लाइन खेल।",
+        "cta": "FAQ खोलें",
+        "kind": "faq"
+      },
+      {
+        "title": "खरीदारी और रीस्टोर",
+        "body": "डेक पैक और AI डेक का बिल Apple या Google के ज़रिए होता है। कुछ कंटेंट गायब हो तो ऐप सेटिंग्स में Restore Purchases इस्तेमाल करें।",
+        "cta": "बिलिंग मदद",
+        "kind": "billing"
+      },
+      {
+        "title": "प्राइवेसी और शर्तें",
+        "body": "हम डेटा, Game Center और आपके अधिकारों को कैसे संभालते हैं।",
+        "cta": "प्राइवेसी पॉलिसी",
+        "kind": "privacy"
+      },
+      {
+        "title": "बग रिपोर्ट करें",
+        "body": "बताएं क्या हुआ, कौन-सा डेक खेल रहे थे और आपका फ़ोन मॉडल क्या है। स्क्रीनशॉट मदद करते हैं।",
+        "cta": "बग रिपोर्ट करें",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "मार्केटिंग और प्रेस",
+    "subtitle": "क्रिएटर कैंपेन, ब्रांड डेक और Tadado की प्रेस सामग्री।",
+    "back": "Tadado पर वापस",
+    "intro": "Tadado असली ग्रुप्स के लिए पार्टी वर्ड गेम है: Taboo स्टाइल Forbidden Words और Heads Up एक ही फ़ोन पर, बिना विज्ञापन और बिना सब्सक्रिप्शन। अगर आप कंटेंट, कोलैब या कवरेज की योजना बना रहे हैं, तो यहां से शुरू करें।",
+    "statsLabel": "एक नज़र में",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "खेले गए गेम"
+      },
+      {
+        "value": "17",
+        "label": "भाषाएँ"
+      },
+      {
+        "value": "2",
+        "label": "गेम मोड"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "क्रिएटर और एफ़िलिएट",
+        "body": "छोटे क्लिप, गेम नाइट रिएक्शन और रेफ़रल के लिए तैयार लिंक।",
+        "cta": "एफ़िलिएट प्रोग्राम",
+        "kind": "affiliate"
+      },
+      {
+        "title": "ब्रांड और डेक पार्टनरशिप",
+        "body": "को-ब्रांडेड डेक, सीज़नल थीम और हमारी टीम के साथ कैंपेन आइडिया।",
+        "cta": "पार्टनरशिप",
+        "kind": "partnerships"
+      },
+      {
+        "title": "प्रेस और प्रोडक्ट जानकारी",
+        "body": "लोगो, पोज़िशनिंग और मीडिया व न्यूज़लेटर के लिए इंटरव्यू अनुरोध।",
+        "cta": "प्रेस को ईमेल करें",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Tadado प्रेस / मीडिया पूछताछ",
+    "compareCta": "Tadado की तुलना दूसरे पार्टी ऐप्स से करें",
+    "trendingCta": "ट्रेंडिंग डेक देखें"
+  },
+  "ui": {
+    "viewAllDecks": "सभी डेक देखें",
+    "allDecks": "सभी डेक",
+    "exploreAllDecks": "सभी डेक एक्सप्लोर करें",
+    "decksHub": "डेक",
+    "exploreDeck": "{{name}} डेक एक्सप्लोर करें",
+    "home": "होम",
+    "popularAlternatives": "लोकप्रिय विकल्प गाइड",
+    "alternativesHub": "विकल्प"
   }
 }

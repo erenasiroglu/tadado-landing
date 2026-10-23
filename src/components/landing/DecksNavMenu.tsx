@@ -19,7 +19,7 @@ interface DecksNavMenuProps {
 
 export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps) {
   const [open, setOpen] = useState(false);
-  const viewAllLabel = locale === "tr" ? "Tüm desteleri gör" : "View all decks";
+  const viewAllLabel = dict.ui.viewAllDecks;
 
   return (
     <div className="relative">

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import type { MascotVariant } from "@/lib/team";
 import { springSnappy } from "@/lib/motion";
@@ -188,7 +188,7 @@ export function TadadoMascotSvg({ variant, className }: TadadoMascotSvgProps) {
       };
 
   return (
-    <motion.svg
+    <m.svg
       viewBox="0 0 160 220"
       className={cn("h-auto w-full max-w-[180px]", className)}
       aria-hidden
@@ -215,7 +215,7 @@ export function TadadoMascotSvg({ variant, className }: TadadoMascotSvgProps) {
       <Shoe x={102} y={188} />
 
       {/* Left arm — points up */}
-      <motion.g style={{ originX: "68px", originY: "132px" }} {...armMotion}>
+      <m.g style={{ originX: "68px", originY: "132px" }} {...armMotion}>
         <path
           d="M42 120 Q22 100 18 72"
           stroke={STROKE}
@@ -226,7 +226,7 @@ export function TadadoMascotSvg({ variant, className }: TadadoMascotSvgProps) {
         <Glove cx={18} cy={68} />
         {variant === "eren" ? <Laptop /> : null}
         {variant === "nur" ? <Stylus /> : null}
-      </motion.g>
+      </m.g>
 
       {/* Right arm — hand to face */}
       <path
@@ -243,6 +243,6 @@ export function TadadoMascotSvg({ variant, className }: TadadoMascotSvgProps) {
         {variant === "nur" ? <NurFace /> : null}
         {variant === "base" ? <BaseFace /> : null}
       </CardBody>
-    </motion.svg>
+    </m.svg>
   );
 }

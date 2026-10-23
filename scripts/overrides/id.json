@@ -26,13 +26,36 @@
     "ctaPrimary": "UNDUH TADADO · GRATIS",
     "ctaSecondary": "LIHAT CARA KERJANYA",
     "metrics": [
-      { "value": "300,000+", "label": "permainan dimainkan", "animate": true },
-      { "value": "2", "label": "mode permainan" },
-      { "value": "AI", "label": "didukung" },
-      { "value": "17", "label": "bahasa" },
-      { "value": "7+", "label": "deste permainan", "href": "#decks" },
-      { "value": "Offline", "label": "main" },
-      { "value": "No", "label": "iklan" }
+      {
+        "value": "300,000+",
+        "label": "permainan dimainkan",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "mode permainan"
+      },
+      {
+        "value": "AI",
+        "label": "didukung"
+      },
+      {
+        "value": "17",
+        "label": "bahasa"
+      },
+      {
+        "value": "7+",
+        "label": "deste permainan",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "main"
+      },
+      {
+        "value": "No",
+        "label": "iklan"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Dibuat untuk malam permainan sungguhan",
     "title": "Satu ponsel. Tim. Timer. Ronde.",
     "statement": "Satu ponsel. Tim. Timer. Ronde. Main offline. Tanpa iklan.",
-    "details": ["Main offline", "Tim & timer", "Tanpa iklan", "Tanpa langganan"]
+    "details": [
+      "Main offline",
+      "Tim & timer",
+      "Tanpa iklan",
+      "Tanpa langganan"
+    ]
   },
   "personalization": {
     "title": "Buat jadi milikmu.",
     "subtitle": "Ini bukan permainan yang sama setiap kali. Setiap grup bisa menciptakan pengalaman sendiri.",
     "items": [
-      { "label": "Teman", "topic": "Kekacauan akhir pekan" },
-      { "label": "Keluarga", "topic": "Makan malam Minggu" },
-      { "label": "Ulang tahun", "topic": "Klasik pesta" },
-      { "label": "Malam film", "topic": "Film Oscar" },
-      { "label": "Olahraga", "topic": "Liga Champions" },
-      { "label": "Perjalanan", "topic": "Game road trip" },
-      { "label": "Kantor", "topic": "Kekacauan kantor" },
-      { "label": "Universitas", "topic": "Legenda kampus" },
-      { "label": "Lelucon internal", "topic": "Hal yang selalu kita ucapkan" }
+      {
+        "label": "Teman",
+        "topic": "Kekacauan akhir pekan"
+      },
+      {
+        "label": "Keluarga",
+        "topic": "Makan malam Minggu"
+      },
+      {
+        "label": "Ulang tahun",
+        "topic": "Klasik pesta"
+      },
+      {
+        "label": "Malam film",
+        "topic": "Film Oscar"
+      },
+      {
+        "label": "Olahraga",
+        "topic": "Liga Champions"
+      },
+      {
+        "label": "Perjalanan",
+        "topic": "Game road trip"
+      },
+      {
+        "label": "Kantor",
+        "topic": "Kekacauan kantor"
+      },
+      {
+        "label": "Universitas",
+        "topic": "Legenda kampus"
+      },
+      {
+        "label": "Lelucon internal",
+        "topic": "Hal yang selalu kita ucapkan"
+      }
     ]
   },
   "reviews": {
@@ -205,7 +260,7 @@
           "body": "Beritahu timmu kata di atas. Jangan pernah ucapkan 4 kata terlarang di bawahnya. Tebak sebanyak mungkin kartu sebelum waktu habis."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Mengucapkan kata terlarang dan kamu kehilangan kartu. Tanpa poin. Tim lawan mempertahankan momentum."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Malam permainan di seluruh dunia",
     "subtitle": "Ikuti Tadado untuk klip, ide deste, dan inspirasi game pesta.",
     "metrics": [
-      { "value": "300,000+", "label": "permainan dimainkan", "animate": true },
-      { "value": "17", "label": "bahasa" },
-      { "value": "2", "label": "mode permainan" }
+      {
+        "value": "300,000+",
+        "label": "permainan dimainkan",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "bahasa"
+      },
+      {
+        "value": "2",
+        "label": "mode permainan"
+      }
     ],
     "languagesTitle": "Bahasa yang didukung",
     "languagesCaption": "Dukungan setara di setiap bahasa aplikasi. Tanpa data penggunaan palsu.",
     "trendingLabel": "Trending malam ini",
     "editorialLabel": "Terbaru dari Tadado",
     "editorialItems": [
-      { "title": "Musim deste musim panas", "body": "Matahari, laut, dan vibes liburan untuk malam hangat." },
-      { "title": "Deste malam film", "body": "Kartu Cinema untuk penggemar film dan binge watcher." },
-      { "title": "Buat sendiri", "body": "Ubah topik apa pun jadi deste siap main dengan AI." }
+      {
+        "title": "Musim deste musim panas",
+        "body": "Matahari, laut, dan vibes liburan untuk malam hangat."
+      },
+      {
+        "title": "Deste malam film",
+        "body": "Kartu Cinema untuk penggemar film dan binge watcher."
+      },
+      {
+        "title": "Buat sendiri",
+        "body": "Ubah topik apa pun jadi deste siap main dengan AI."
+      }
     ],
     "socialCta": "Gabung komunitas Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Akan debug production jam 2 pagi, tapi hanya jika timer masih menghitung mundur dengan benar.",
           "Percaya game pesta terbaik butuh nol tutorial dan replayability maksimal."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Game seluler",
+          "FinTech"
+        ],
         "websiteCta": "Kunjungi erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "Memimpin desain produk end-to-end Tadado dari wireframe pertama ke layar game yang polished.",
           "Akan memperhatikan jika radius tombolmu meleset 2 piksel. Dengan sopan."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Desain interaksi",
+          "Pengalaman bermain",
+          "Desain spasial",
+          "Procreate"
+        ],
         "websiteCta": "Kunjungi nurgunen.com"
       }
     },

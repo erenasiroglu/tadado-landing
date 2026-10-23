@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useReducedMotion } from "motion/react";
 
+import { cn } from "@/lib/utils";
+
 interface AnimatedNumberProps {
   value: number;
   suffix?: string;
@@ -90,12 +92,21 @@ export function AnimatedNumber({
   }, [value, durationMs, reduceMotion]);
 
   const formatted = formatNumber(reduceMotion ? value : display, useCompact, numberLocale);
+  const finalText = formatNumber(value, useCompact, numberLocale);
 
+  // The hidden final value reserves the width, so counting up never shifts the layout.
   return (
-    <span ref={nodeRef} className={className}>
-      {prefix}
-      {formatted}
-      {suffix}
+    <span ref={nodeRef} className={cn("inline-grid", className)}>
+      <span aria-hidden className="invisible [grid-area:1/1]">
+        {prefix}
+        {finalText}
+        {suffix}
+      </span>
+      <span className="[grid-area:1/1]">
+        {prefix}
+        {formatted}
+        {suffix}
+      </span>
     </span>
   );
 }

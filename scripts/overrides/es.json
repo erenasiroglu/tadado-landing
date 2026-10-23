@@ -26,13 +26,36 @@
     "ctaPrimary": "DESCARGAR TADADO · GRATIS",
     "ctaSecondary": "VER CÓMO FUNCIONA",
     "metrics": [
-      { "value": "300,000+", "label": "partidas jugadas", "animate": true },
-      { "value": "2", "label": "modos de juego" },
-      { "value": "IA", "label": "potenciado" },
-      { "value": "17", "label": "idiomas" },
-      { "value": "7+", "label": "mazos de juego", "href": "#decks" },
-      { "value": "Sin conexión", "label": "juega" },
-      { "value": "Sin", "label": "anuncios" }
+      {
+        "value": "300,000+",
+        "label": "partidas jugadas",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "modos de juego"
+      },
+      {
+        "value": "IA",
+        "label": "potenciado"
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "7+",
+        "label": "mazos de juego",
+        "href": "#decks"
+      },
+      {
+        "value": "Sin conexión",
+        "label": "juega"
+      },
+      {
+        "value": "Sin",
+        "label": "anuncios"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "Hecho para noches de juego de verdad",
     "title": "Un móvil. Equipos. Temporizador. Rondas.",
     "statement": "Un móvil. Equipos. Temporizador. Rondas. Juego sin conexión. Sin anuncios.",
-    "details": ["Juego sin conexión", "Equipos y temporizador", "Sin anuncios", "Sin suscripción"]
+    "details": [
+      "Juego sin conexión",
+      "Equipos y temporizador",
+      "Sin anuncios",
+      "Sin suscripción"
+    ]
   },
   "personalization": {
     "title": "Hazlo tuyo.",
     "subtitle": "No es el mismo juego cada vez. Cada grupo puede crear su propia experiencia.",
     "items": [
-      { "label": "Amigos", "topic": "Caos de fin de semana" },
-      { "label": "Familia", "topic": "Comida dominical" },
-      { "label": "Cumpleaños", "topic": "Clásicos de fiesta" },
-      { "label": "Noche de cine", "topic": "Películas del Oscar" },
-      { "label": "Deportes", "topic": "Champions League" },
-      { "label": "Viajes", "topic": "Juegos de carretera" },
-      { "label": "Oficina", "topic": "Caos de oficina" },
-      { "label": "Universidad", "topic": "Leyendas del campus" },
-      { "label": "Chistes internos", "topic": "Lo que siempre decimos" }
+      {
+        "label": "Amigos",
+        "topic": "Caos de fin de semana"
+      },
+      {
+        "label": "Familia",
+        "topic": "Comida dominical"
+      },
+      {
+        "label": "Cumpleaños",
+        "topic": "Clásicos de fiesta"
+      },
+      {
+        "label": "Noche de cine",
+        "topic": "Películas del Oscar"
+      },
+      {
+        "label": "Deportes",
+        "topic": "Champions League"
+      },
+      {
+        "label": "Viajes",
+        "topic": "Juegos de carretera"
+      },
+      {
+        "label": "Oficina",
+        "topic": "Caos de oficina"
+      },
+      {
+        "label": "Universidad",
+        "topic": "Leyendas del campus"
+      },
+      {
+        "label": "Chistes internos",
+        "topic": "Lo que siempre decimos"
+      }
     ]
   },
   "reviews": {
@@ -205,7 +260,7 @@
           "body": "Dile a tu equipo la palabra de arriba. Nunca digas las 4 palabras prohibidas de abajo. Acierta tantas cartas como puedas antes de que se acabe el tiempo."
         },
         {
-          "title": "Taboo!",
+          "title": "¡Tabú!",
           "body": "Si dices una palabra prohibida, pierdes la carta. Sin puntos. El otro equipo mantiene el ritmo."
         },
         {
@@ -383,18 +438,37 @@
     "title": "Noches de juego en todo el mundo",
     "subtitle": "Sigue a Tadado para clips, ideas de mazos e inspiración para juegos de fiesta.",
     "metrics": [
-      { "value": "300,000+", "label": "partidas jugadas", "animate": true },
-      { "value": "17", "label": "idiomas" },
-      { "value": "2", "label": "modos de juego" }
+      {
+        "value": "300,000+",
+        "label": "partidas jugadas",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "2",
+        "label": "modos de juego"
+      }
     ],
     "languagesTitle": "Idiomas compatibles",
     "languagesCaption": "Soporte igual en todos los idiomas de la app. Sin datos de uso inventados.",
     "trendingLabel": "Tendencias de esta noche",
     "editorialLabel": "Lo último de Tadado",
     "editorialItems": [
-      { "title": "Temporada de mazos de verano", "body": "Sol, mar y vacaciones para noches cálidas." },
-      { "title": "Mazos para noche de cine", "body": "Cartas de cine para cinéfilos y maratonianos." },
-      { "title": "Crea el tuyo", "body": "Convierte cualquier tema en un mazo jugable con IA." }
+      {
+        "title": "Temporada de mazos de verano",
+        "body": "Sol, mar y vacaciones para noches cálidas."
+      },
+      {
+        "title": "Mazos para noche de cine",
+        "body": "Cartas de cine para cinéfilos y maratonianos."
+      },
+      {
+        "title": "Crea el tuyo",
+        "body": "Convierte cualquier tema en un mazo jugable con IA."
+      }
     ],
     "socialCta": "Únete a la comunidad Tadado",
     "instagramCta": "Instagram",
@@ -581,7 +655,14 @@
           "Depurará producción a las 2 de la madrugada, pero solo si el temporizador sigue contando bien.",
           "Cree que los mejores juegos de fiesta necesitan cero tutorial y máxima rejugabilidad."
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Juegos móviles",
+          "FinTech"
+        ],
         "websiteCta": "Visitar erennasiroglu.de"
       },
       "nur": {
@@ -593,7 +674,14 @@
           "Lideró el diseño de producto de Tadado de punta a punta, del primer wireframe a las pantallas pulidas.",
           "Notará si el radio de un botón está 2 píxeles desviado. Con educación."
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Diseño de interacción",
+          "Experiencia de juego",
+          "Diseño espacial",
+          "Procreate"
+        ],
         "websiteCta": "Visitar nurgunen.com"
       }
     },

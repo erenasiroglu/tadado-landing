@@ -1,7 +1,3 @@
-"use client";
-
-import { motion, useReducedMotion } from "motion/react";
-
 import { BRAND } from "@/lib/brand";
 import type { Dictionary } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -23,79 +19,18 @@ function MetricValue({ metric }: { metric: Metric }) {
   return <span className="tabular-nums">{metric.value}</span>;
 }
 
-function ProofBadge({
-  metric,
-  reduceMotion,
-}: {
-  metric: Metric;
-  reduceMotion: boolean | null;
-}) {
+function BadgeContent({ metric }: { metric: Metric }) {
   return (
-    <motion.span
-      className="hero-proof-badge inline-flex"
-      initial={reduceMotion ? false : { opacity: 0, y: 8, scale: 0.94 }}
-      animate={
-        reduceMotion
-          ? undefined
-          : {
-              opacity: 1,
-              y: [0, -2.5, 0],
-              scale: 1,
-            }
-      }
-      transition={
-        reduceMotion
-          ? undefined
-          : {
-              opacity: { duration: 0.4 },
-              y: {
-                duration: 4.2,
-                repeat: Infinity,
-                ease: "easeInOut",
-                delay: 0.8,
-              },
-              scale: { duration: 0.4 },
-            }
-      }
-    >
+    <>
       <span className="font-bold text-foreground">
         <MetricValue metric={metric} />
       </span>
       <span className="hero-proof-badge__label">{metric.label}</span>
-    </motion.span>
-  );
-}
-
-function InlineBadge({
-  metric,
-  index,
-  reduceMotion,
-}: {
-  metric: Metric;
-  index: number;
-  reduceMotion: boolean | null;
-}) {
-  return (
-    <motion.span
-      className="hero-proof-badge inline-flex sm:hidden"
-      initial={reduceMotion ? false : { opacity: 0, y: 6, scale: 0.96 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      transition={
-        reduceMotion
-          ? undefined
-          : { duration: 0.35, delay: 0.2 + index * 0.05, ease: [0.22, 1, 0.36, 1] }
-      }
-    >
-      <span className="font-bold text-foreground">
-        <MetricValue metric={metric} />
-      </span>
-      <span className="hero-proof-badge__label">{metric.label}</span>
-    </motion.span>
+    </>
   );
 }
 
 export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) {
-  const reduceMotion = useReducedMotion();
   const leftMetrics = metrics.filter((_, index) => index % 2 === 0);
   const rightMetrics = metrics.filter((_, index) => index % 2 === 1);
 
@@ -103,22 +38,24 @@ export function HeroProofMetrics({ metrics, className }: HeroProofMetricsProps) 
     <div className={cn(className)}>
       <div className="mt-5 hidden max-w-full flex-wrap justify-center gap-2 sm:flex lg:justify-start">
         {[...leftMetrics, ...rightMetrics].map((metric) => (
-          <ProofBadge
+          <span
             key={`${metric.value}-${metric.label}`}
-            metric={metric}
-            reduceMotion={reduceMotion}
-          />
+            className="hero-proof-badge hero-proof-badge--float inline-flex"
+          >
+            <BadgeContent metric={metric} />
+          </span>
         ))}
       </div>
 
       <div className="mt-5 flex max-w-full flex-wrap justify-center gap-1.5 sm:hidden">
         {metrics.map((metric, index) => (
-          <InlineBadge
+          <span
             key={`mobile-${metric.value}-${metric.label}`}
-            metric={metric}
-            index={index}
-            reduceMotion={reduceMotion}
-          />
+            className="hero-proof-badge hero-proof-badge--in inline-flex"
+            style={{ "--i": index } as React.CSSProperties}
+          >
+            <BadgeContent metric={metric} />
+          </span>
         ))}
       </div>
     </div>

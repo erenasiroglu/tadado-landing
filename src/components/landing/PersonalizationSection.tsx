@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, m } from "motion/react";
 import { useState } from "react";
 
 import { LandingSection } from "@/components/landing/LandingSection";
@@ -68,7 +68,7 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
       <div className="mt-6">
         <div className="surface-card mx-auto max-w-lg p-4 sm:p-6">
           <AnimatePresence mode="wait">
-            <motion.div
+            <m.div
               key={selectedIndex}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -87,7 +87,7 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
                 />
               </div>
               <p className="mt-4 text-center text-sm text-muted-foreground">{selected.topic}</p>
-            </motion.div>
+            </m.div>
           </AnimatePresence>
         </div>
       </div>

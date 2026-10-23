@@ -835,5 +835,15 @@
   },
   "language": {
     "label": "Dil"
+  },
+  "ui": {
+    "viewAllDecks": "Tüm desteleri gör",
+    "allDecks": "Tüm desteler",
+    "exploreAllDecks": "Tüm desteleri keşfet",
+    "decksHub": "Desteler",
+    "exploreDeck": "{{name}} destesini keşfet",
+    "home": "Ana sayfa",
+    "popularAlternatives": "Popüler alternatif rehberleri",
+    "alternativesHub": "Alternatifler"
   }
 }

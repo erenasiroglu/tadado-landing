@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, type HTMLMotionProps } from "motion/react";
+import { m, useReducedMotion, type HTMLMotionProps } from "motion/react";
 
 import { ctaInteraction } from "@/lib/motion";
 import { cn } from "@/lib/utils";
@@ -15,7 +15,7 @@ export function MotionButton({
   const interaction = reduceMotion || disabled ? {} : ctaInteraction;
 
   return (
-    <motion.button
+    <m.button
       type="button"
       disabled={disabled}
       className={cn("box-border", className)}
@@ -23,6 +23,6 @@ export function MotionButton({
       {...props}
     >
       {children}
-    </motion.button>
+    </m.button>
   );
 }

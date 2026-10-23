@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useReducedMotion, type HTMLMotionProps } from "motion/react";
+import { m, useReducedMotion, type HTMLMotionProps } from "motion/react";
 
 import { ctaInteraction } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 
-const MotionNextLink = motion.create(Link);
+const MotionNextLink = m.create(Link);
 
 interface MotionLinkProps extends Omit<HTMLMotionProps<"a">, "href"> {
   href: string;
@@ -30,8 +30,8 @@ export function MotionLink({ href, children, className, ...props }: MotionLinkPr
   }
 
   return (
-    <motion.a href={href} className={classes} {...interaction} {...props}>
+    <m.a href={href} className={classes} {...interaction} {...props}>
       {children}
-    </motion.a>
+    </m.a>
   );
 }

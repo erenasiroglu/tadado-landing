@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m, useReducedMotion } from "motion/react";
 
 import { MotionLink } from "@/components/motion/MotionLink";
 import { cardHover } from "@/lib/motion";
@@ -18,7 +18,7 @@ export function TeamMemberCard({ member, content, funFactsLabel }: TeamMemberCar
   const reduceMotion = useReducedMotion();
 
   return (
-    <motion.article
+    <m.article
       className={cn(
         "group surface-card relative flex h-full flex-col overflow-hidden p-4 sm:p-5",
         "transition-colors hover:border-border",
@@ -74,6 +74,6 @@ export function TeamMemberCard({ member, content, funFactsLabel }: TeamMemberCar
         {content.websiteCta}
         <span aria-hidden>↗</span>
       </MotionLink>
-    </motion.article>
+    </m.article>
   );
 }

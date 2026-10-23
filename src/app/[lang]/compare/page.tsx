@@ -54,7 +54,7 @@ export default async function ComparePage({ params }: PageProps<"/[lang]/compare
 
         <section className="mt-14 max-w-3xl">
           <h2 className="text-lg font-bold text-foreground">
-            {locale === "tr" ? "Popüler alternatif rehberleri" : "Popular alternative guides"}
+            {dict.ui.popularAlternatives}
           </h2>
           <ul className="mt-4 flex flex-col gap-2">
             {SEO_ALTERNATIVE_IDS.map((id) => (

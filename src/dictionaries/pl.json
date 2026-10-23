@@ -9,13 +9,13 @@
     "decks": "Talie",
     "community": "Społeczność",
     "howItWorks": "Jak to działa",
-    "faq": "FAQ",
+    "faq": "Pytania",
     "getTadado": "Pobierz Tadado",
     "pricing": "Cennik",
     "blog": "Blog",
     "guides": "Poradniki",
     "compare": "Porównanie",
-    "affiliate": "Affiliate",
+    "affiliate": "Program partnerski",
     "team": "Zespół",
     "download": "Pobierz"
   },
@@ -37,7 +37,7 @@
       },
       {
         "value": "AI",
-        "label": "powered"
+        "label": "z AI"
       },
       {
         "value": "17",
@@ -53,8 +53,8 @@
         "label": "gra"
       },
       {
-        "value": "No",
-        "label": "ads"
+        "value": "Bez",
+        "label": "reklam"
       }
     ]
   },
@@ -201,7 +201,7 @@
     "passStatus": "Pozostało 2 / 3 pasów",
     "roundLabel": "Runda 1/3",
     "tabooLabel": "Zakazane!",
-    "passLabel": "Pass",
+    "passLabel": "Pas",
     "correctLabel": "Trafione",
     "foreheadTitle": "Połóż telefon na czole",
     "tiltUp": "Unieś, aby pominąć",
@@ -213,8 +213,8 @@
     "nextUpLabel": "Następny",
     "continue": "Kontynuuj",
     "pauseGame": "Wstrzymaj grę",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "DRUŻYNA A",
+    "teamB": "DRUŻYNA B"
   },
   "a11y": {
     "openMenu": "Otwórz menu",
@@ -260,11 +260,11 @@
           "body": "Powiedz drużynie słowo u góry. Nigdy nie wymawiaj 4 zakazanych słów poniżej. Zgadnij jak najwięcej kart, zanim skończy się czas."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Powiesz zakazane słowo i tracisz kartę. Zero punktów. Druga drużyna utrzymuje tempo."
         },
         {
-          "title": "Pass",
+          "title": "Pas",
           "body": "Utknąłeś? Passuj kartę. Masz tylko kilka pasów na turę – oszczędzaj je na trudne."
         },
         {
@@ -362,9 +362,9 @@
     "subtitle": "Zacznij za darmo z Tadado Mix, a potem odblokuj paczki tematyczne, gdy będziesz gotowy.",
     "countBadge": "8 talii gry",
     "free": "Za darmo",
-    "play": "PLAY",
+    "play": "GRAJ",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "NOWOŚĆ",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -674,7 +674,7 @@
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
+        "role": "Programista",
         "bio": "Full-stack developer tworzący Tadado i aplikacje mobilne w React Native, Next.js i Node.js. Absolwent systemów informacji zarządczych, skupiony na czystym kodzie i designie przyjaznym graczom.",
         "funFacts": [
           "Doprowadził Tadado od pomysłu do App Store, łącząc pracę w fintechu w Pulse FinTech.",
@@ -686,14 +686,14 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Gry mobilne",
           "FinTech"
         ],
         "websiteCta": "Odwiedź erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
+        "role": "Projektantka produktu",
         "bio": "Projektantka UI/UX produktu Tadado i studentka architektury na İzmir Democracy University. Kształtuje język wizualny, przepływ interakcji i doświadczenie gry od kart po ekrany.",
         "funFacts": [
           "Dniem myśli o percepcji przestrzeni w skali dziecka, nocą o układach kart.",
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Projektowanie interakcji",
+          "Doświadczenie gry",
+          "Projektowanie przestrzenne",
           "Procreate"
         ],
         "websiteCta": "Odwiedź nurgunen.com"
@@ -731,13 +731,13 @@
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
     "button": "POBIERZ TADADO · ZA DARMO",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "ODKRYJ TALIE"
   },
   "finalCta": {
     "title": "Twój następny wieczór gier potrzebuje Tadado.",
     "subtitle": "Jeden telefon. Wszyscy zaproszeni.",
     "button": "POBIERZ TADADO · ZA DARMO",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "ODKRYJ TALIE"
   },
   "footer": {
     "tagline": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
@@ -746,7 +746,7 @@
     "discoverTitle": "Odkrywaj",
     "growTitle": "Rozwijaj się z Tadado",
     "supportTitle": "Wsparcie",
-    "socialTitle": "Social",
+    "socialTitle": "Media społecznościowe",
     "help": "Pomoc",
     "support": "Wsparcie",
     "partnerships": "Partnerstwa",
@@ -756,12 +756,103 @@
     "legal": "Prawne",
     "terms": "Regulamin",
     "privacy": "Polityka prywatności",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Centrum pomocy",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "POBIERZ TADADO · ZA DARMO"
   },
   "language": {
     "label": "Język"
+  },
+  "support": {
+    "title": "Pomoc i wsparcie",
+    "subtitle": "Odpowiedzi, pomoc z kontem i bezpośredni kontakt z zespołem Tadado.",
+    "back": "Wróć do Tadado",
+    "intro": "Większość pytań znajdziesz w FAQ. W pozostałych sprawach (błędy, zakupy, opinie) napisz do nas i podaj, jeśli możesz, model urządzenia i wersję aplikacji.",
+    "responseNote": "Czytamy każdą wiadomość i zwykle odpowiadamy w ciągu kilku dni roboczych.",
+    "emailCta": "Napisz do wsparcia",
+    "emailSubject": "Prośba o wsparcie Tadado",
+    "topics": [
+      {
+        "title": "FAQ i zasady gry",
+        "body": "Zasady Zakazanych Słów i Heads Up, ceny i gra offline.",
+        "cta": "Otwórz FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Zakupy i przywracanie",
+        "body": "Pakiety talii i talie AI są rozliczane przez Apple lub Google. Jeśli czegoś brakuje, użyj opcji Przywróć zakupy w ustawieniach aplikacji.",
+        "cta": "Pomoc z płatnościami",
+        "kind": "billing"
+      },
+      {
+        "title": "Prywatność i regulamin",
+        "body": "Jak przetwarzamy dane, Game Center i Twoje prawa.",
+        "cta": "Polityka prywatności",
+        "kind": "privacy"
+      },
+      {
+        "title": "Zgłoś błąd",
+        "body": "Opisz, co się stało, w którą talię grałeś i jaki masz telefon. Zrzuty ekranu pomagają.",
+        "cta": "Zgłoś błąd",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing i prasa",
+    "subtitle": "Kampanie z twórcami, talie markowe i materiały prasowe Tadado.",
+    "back": "Wróć do Tadado",
+    "intro": "Tadado to gra słowna dla prawdziwych ekip: Zakazane Słowa w stylu Tabu i Heads Up na jednym telefonie, bez reklam i bez subskrypcji. Jeśli planujesz treści, współpracę lub publikację, zacznij tutaj.",
+    "statsLabel": "W skrócie",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "rozegranych gier"
+      },
+      {
+        "value": "17",
+        "label": "języków"
+      },
+      {
+        "value": "2",
+        "label": "tryby gry"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Twórcy i afilianci",
+        "body": "Krótkie klipy, reakcje z wieczorów gier i linki gotowe do polecania.",
+        "cta": "Program partnerski",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Współprace marek i talie",
+        "body": "Talie co-brandingowe, motywy sezonowe i pomysły na kampanie z naszym zespołem.",
+        "cta": "Współprace",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Prasa i fakty o produkcie",
+        "body": "Logo, pozycjonowanie i prośby o wywiad dla mediów i newsletterów.",
+        "cta": "Napisz do działu prasowego",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Zapytanie prasowe / medialne Tadado",
+    "compareCta": "Porównaj Tadado z innymi aplikacjami imprezowymi",
+    "trendingCta": "Zobacz popularne talie"
+  },
+  "ui": {
+    "viewAllDecks": "Zobacz wszystkie talie",
+    "allDecks": "Wszystkie talie",
+    "exploreAllDecks": "Odkryj wszystkie talie",
+    "decksHub": "Talie",
+    "exploreDeck": "Odkryj talię {{name}}",
+    "home": "Strona główna",
+    "popularAlternatives": "Popularne poradniki o alternatywach",
+    "alternativesHub": "Alternatywy"
   }
 }

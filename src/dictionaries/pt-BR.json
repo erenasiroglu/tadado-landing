@@ -9,15 +9,15 @@
     "decks": "Baralhos",
     "community": "Comunidade",
     "howItWorks": "Como funciona",
-    "faq": "FAQ",
+    "faq": "Perguntas",
     "getTadado": "Baixar Tadado",
     "pricing": "Preços",
     "blog": "Blog",
     "guides": "Guias",
     "compare": "Comparar",
-    "affiliate": "Affiliate",
+    "affiliate": "Afiliados",
     "team": "Equipe",
-    "download": "Download"
+    "download": "Baixar"
   },
   "hero": {
     "brandLine": "Jogo de palavras para festas · ★ 5.0 na App Store",
@@ -36,8 +36,8 @@
         "label": "modos de jogo"
       },
       {
-        "value": "AI",
-        "label": "powered"
+        "value": "IA",
+        "label": "com IA"
       },
       {
         "value": "17",
@@ -53,8 +53,8 @@
         "label": "jogo"
       },
       {
-        "value": "No",
-        "label": "ads"
+        "value": "Sem",
+        "label": "anúncios"
       }
     ]
   },
@@ -213,14 +213,14 @@
     "nextUpLabel": "Próximo",
     "continue": "Continuar",
     "pauseGame": "Pausar jogo",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "EQUIPE A",
+    "teamB": "EQUIPE B"
   },
   "a11y": {
     "openMenu": "Abrir menu",
     "closeLanguageMenu": "Fechar menu de idiomas",
     "mainNav": "Principal",
-    "mobileNav": "Mobile",
+    "mobileNav": "Celular",
     "previousDeck": "Baralho anterior",
     "nextDeck": "Próximo baralho",
     "launchVideo": "Vídeo de lançamento Tadado",
@@ -260,7 +260,7 @@
           "body": "Diga ao time a palavra no topo. Nunca diga as 4 palavras proibidas embaixo. Acerte o máximo de cartas antes do tempo acabar."
         },
         {
-          "title": "Taboo!",
+          "title": "Tabu!",
           "body": "Disse uma palavra proibida e perde a carta. Zero pontos. O outro time mantém o ritmo."
         },
         {
@@ -362,9 +362,9 @@
     "subtitle": "Comece grátis com Tadado Mix e desbloqueie packs temáticos quando estiver pronto.",
     "countBadge": "8 baralhos de jogo",
     "free": "Grátis",
-    "play": "PLAY",
+    "play": "JOGAR",
     "price": "$0.99",
-    "newBadge": "NEW",
+    "newBadge": "NOVO",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -674,7 +674,7 @@
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
-        "role": "Software Developer",
+        "role": "Desenvolvedor de software",
         "bio": "Desenvolvedor full-stack construindo Tadado e apps mobile com React Native, Next.js e Node.js. Formado em Sistemas de Informação Gerencial, focado em código limpo e design amigável ao jogador.",
         "funFacts": [
           "Lançou o Tadado da ideia à App Store enquanto trabalhava em fintech na Pulse FinTech.",
@@ -686,14 +686,14 @@
           "Next.js",
           "Expo",
           "Node.js",
-          "Mobile Games",
+          "Jogos mobile",
           "FinTech"
         ],
         "websiteCta": "Visitar erennasiroglu.de"
       },
       "nur": {
         "name": "Nur Günen",
-        "role": "Product Designer",
+        "role": "Designer de produto",
         "bio": "Designer UI/UX de produto do Tadado e estudante de arquitetura na İzmir Democracy University. Molda linguagem visual, fluxo de interação e experiência de jogo das cartas às telas.",
         "funFacts": [
           "Pensa em percepção espacial em escala infantil de dia, layouts de cartas à noite.",
@@ -703,9 +703,9 @@
         "skills": [
           "UI/UX",
           "Figma",
-          "Interaction Design",
-          "Game Experience",
-          "Spatial Design",
+          "Design de interação",
+          "Experiência de jogo",
+          "Design espacial",
           "Procreate"
         ],
         "websiteCta": "Visitar nurgunen.com"
@@ -731,13 +731,13 @@
     "title": "Sua próxima noite de jogo precisa do Tadado.",
     "subtitle": "Um celular. Todo mundo convidado.",
     "button": "BAIXE O TADADO · GRÁTIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "EXPLORAR BARALHOS"
   },
   "finalCta": {
     "title": "Sua próxima noite de jogo precisa do Tadado.",
     "subtitle": "Um celular. Todo mundo convidado.",
     "button": "BAIXE O TADADO · GRÁTIS",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "EXPLORAR BARALHOS"
   },
   "footer": {
     "tagline": "Um celular. Seus amigos. Deixa o caos começar.",
@@ -746,22 +746,113 @@
     "discoverTitle": "Descobrir",
     "growTitle": "Cresça com Tadado",
     "supportTitle": "Suporte",
-    "socialTitle": "Social",
+    "socialTitle": "Redes sociais",
     "help": "Ajuda",
     "support": "Suporte",
     "partnerships": "Parcerias",
     "compare": "Comparar apps",
     "affiliate": "Programa de affiliate",
     "team": "Nossa equipe",
-    "legal": "Legal",
+    "legal": "Jurídico",
     "terms": "Termos de Uso",
     "privacy": "Política de Privacidade",
-    "copyright": "© {{year}} Tadado Game Development"
+    "copyright": "© {{year}} Tadado Game Development",
+    "supportPage": "Central de ajuda",
+    "marketing": "Marketing"
   },
   "sticky": {
     "download": "BAIXE O TADADO · GRÁTIS"
   },
   "language": {
     "label": "Idioma"
+  },
+  "support": {
+    "title": "Ajuda e suporte",
+    "subtitle": "Respostas, ajuda com a conta e contato direto com a equipe do Tadado.",
+    "back": "Voltar ao Tadado",
+    "intro": "A maioria das dúvidas está no FAQ. Para o resto (bugs, compras ou feedback), mande um e-mail e informe o aparelho e a versão do app, se puder.",
+    "responseNote": "Lemos todas as mensagens e costumamos responder em poucos dias úteis.",
+    "emailCta": "Enviar e-mail ao suporte",
+    "emailSubject": "Pedido de suporte do Tadado",
+    "topics": [
+      {
+        "title": "FAQ e como jogar",
+        "body": "Regras de Palavras Proibidas e Heads Up, preços e jogo offline.",
+        "cta": "Abrir FAQ",
+        "kind": "faq"
+      },
+      {
+        "title": "Compras e restauração",
+        "body": "Pacotes de baralhos e baralhos com IA são cobrados pela Apple ou pelo Google. Se faltar conteúdo, use Restaurar compras nas configurações do app.",
+        "cta": "Ajuda com cobrança",
+        "kind": "billing"
+      },
+      {
+        "title": "Privacidade e termos",
+        "body": "Como tratamos dados, Game Center e seus direitos.",
+        "cta": "Política de privacidade",
+        "kind": "privacy"
+      },
+      {
+        "title": "Relatar um bug",
+        "body": "Conte o que aconteceu, qual baralho você jogava e o modelo do celular. Prints ajudam.",
+        "cta": "Relatar um bug",
+        "kind": "bug"
+      }
+    ]
+  },
+  "marketing": {
+    "title": "Marketing e imprensa",
+    "subtitle": "Campanhas com criadores, baralhos de marca e materiais de imprensa do Tadado.",
+    "back": "Voltar ao Tadado",
+    "intro": "Tadado é um jogo de palavras para grupos de verdade: Palavras Proibidas no estilo Tabu e Heads Up em um só celular, sem anúncios e sem assinatura. Se você está planejando conteúdo, uma parceria ou uma matéria, comece aqui.",
+    "statsLabel": "Em resumo",
+    "stats": [
+      {
+        "value": "300,000+",
+        "label": "partidas jogadas"
+      },
+      {
+        "value": "17",
+        "label": "idiomas"
+      },
+      {
+        "value": "2",
+        "label": "modos de jogo"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Criadores e afiliados",
+        "body": "Vídeos curtos, reações de noites de jogo e links prontos para indicação.",
+        "cta": "Programa de afiliados",
+        "kind": "affiliate"
+      },
+      {
+        "title": "Parcerias de marca e baralhos",
+        "body": "Baralhos co-branded, temas sazonais e ideias de campanha com nossa equipe.",
+        "cta": "Parcerias",
+        "kind": "partnerships"
+      },
+      {
+        "title": "Imprensa e dados do produto",
+        "body": "Logos, posicionamento e pedidos de entrevista para mídia e newsletters.",
+        "cta": "E-mail para imprensa",
+        "kind": "press"
+      }
+    ],
+    "pressSubject": "Contato de imprensa / mídia sobre o Tadado",
+    "compareCta": "Compare o Tadado com outros apps de festa",
+    "trendingCta": "Ver baralhos em alta"
+  },
+  "ui": {
+    "viewAllDecks": "Ver todos os baralhos",
+    "allDecks": "Todos os baralhos",
+    "exploreAllDecks": "Explorar todos os baralhos",
+    "decksHub": "Baralhos",
+    "exploreDeck": "Explorar o baralho {{name}}",
+    "home": "Início",
+    "popularAlternatives": "Guias de alternativas populares",
+    "alternativesHub": "Alternativas"
   }
 }

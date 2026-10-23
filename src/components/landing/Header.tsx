@@ -33,7 +33,7 @@ export function Header({ locale, dict }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-paper/72 backdrop-blur-md">
       <div className="section-shell flex h-14 items-center justify-between gap-4 md:h-16">
-        <BrandLockup locale={locale} logoAlt={dict.a11y.tadadoLogo} />
+        <BrandLockup locale={locale} />
 
         <DecksNavCrawlLinks locale={locale} dict={dict} />
         <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>

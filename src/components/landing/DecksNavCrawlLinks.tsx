@@ -11,7 +11,7 @@ export function DecksNavCrawlLinks({ locale, dict }: { locale: Locale; dict: Dic
       <ul>
         <li>
           <Link href={getDecksHubHref(locale)}>
-            {locale === "tr" ? "Tüm desteler" : "All decks"}
+            {dict.ui.allDecks}
           </Link>
         </li>
         {SEO_DECK_KEYS.map((key) => (

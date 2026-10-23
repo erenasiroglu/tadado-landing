@@ -26,13 +26,36 @@
     "ctaPrimary": "免费下载 TADADO",
     "ctaSecondary": "了解玩法",
     "metrics": [
-      { "value": "300,000+", "label": "局游戏", "animate": true },
-      { "value": "2", "label": "游戏模式" },
-      { "value": "AI", "label": "驱动" },
-      { "value": "17", "label": "种语言" },
-      { "value": "7+", "label": "套卡组", "href": "#decks" },
-      { "value": "Offline", "label": "游玩" },
-      { "value": "No", "label": "广告" }
+      {
+        "value": "300,000+",
+        "label": "局游戏",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "游戏模式"
+      },
+      {
+        "value": "AI",
+        "label": "驱动"
+      },
+      {
+        "value": "17",
+        "label": "种语言"
+      },
+      {
+        "value": "7+",
+        "label": "套卡组",
+        "href": "#decks"
+      },
+      {
+        "value": "Offline",
+        "label": "游玩"
+      },
+      {
+        "value": "No",
+        "label": "广告"
+      }
     ]
   },
   "proof": {
@@ -79,21 +102,53 @@
     "eyebrow": "为真正的游戏之夜而生",
     "title": "一部手机。分队。计时。回合。",
     "statement": "一部手机。分队。计时。回合。离线游玩。无广告。",
-    "details": ["离线游玩", "分队与计时", "无广告", "无订阅"]
+    "details": [
+      "离线游玩",
+      "分队与计时",
+      "无广告",
+      "无订阅"
+    ]
   },
   "personalization": {
     "title": "打造专属体验。",
     "subtitle": "每次都不是同样的游戏。每个小组都能创造自己的玩法。",
     "items": [
-      { "label": "朋友", "topic": "周末混乱" },
-      { "label": "家人", "topic": "周日晚餐" },
-      { "label": "生日", "topic": "派对经典" },
-      { "label": "电影之夜", "topic": "奥斯卡影片" },
-      { "label": "体育", "topic": "Champions League" },
-      { "label": "旅行", "topic": "公路旅行游戏" },
-      { "label": "办公室", "topic": "办公室混乱" },
-      { "label": "大学", "topic": "校园传奇" },
-      { "label": "内部梗", "topic": "我们常说的话" }
+      {
+        "label": "朋友",
+        "topic": "周末混乱"
+      },
+      {
+        "label": "家人",
+        "topic": "周日晚餐"
+      },
+      {
+        "label": "生日",
+        "topic": "派对经典"
+      },
+      {
+        "label": "电影之夜",
+        "topic": "奥斯卡影片"
+      },
+      {
+        "label": "体育",
+        "topic": "Champions League"
+      },
+      {
+        "label": "旅行",
+        "topic": "公路旅行游戏"
+      },
+      {
+        "label": "办公室",
+        "topic": "办公室混乱"
+      },
+      {
+        "label": "大学",
+        "topic": "校园传奇"
+      },
+      {
+        "label": "内部梗",
+        "topic": "我们常说的话"
+      }
     ]
   },
   "reviews": {
@@ -158,8 +213,8 @@
     "nextUpLabel": "下一个",
     "continue": "继续",
     "pauseGame": "暂停游戏",
-    "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamA": "A 队",
+    "teamB": "B 队"
   },
   "a11y": {
     "openMenu": "打开菜单",
@@ -205,7 +260,7 @@
           "body": "告诉队伍顶部的词。绝不说下面 4 个禁词。在时间结束前尽量猜更多卡。"
         },
         {
-          "title": "Taboo!",
+          "title": "犯规！",
           "body": "说了禁词就失去这张卡。不得分。对方队伍保持势头。"
         },
         {
@@ -383,18 +438,37 @@
     "title": "全球游戏之夜",
     "subtitle": "关注 Tadado：短片、卡组灵感与派对游戏创意。",
     "metrics": [
-      { "value": "300,000+", "label": "局游戏", "animate": true },
-      { "value": "17", "label": "种语言" },
-      { "value": "2", "label": "游戏模式" }
+      {
+        "value": "300,000+",
+        "label": "局游戏",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "种语言"
+      },
+      {
+        "value": "2",
+        "label": "游戏模式"
+      }
     ],
     "languagesTitle": "支持的语言",
     "languagesCaption": "每种应用语言均同等支持。无虚构使用数据。",
     "trendingLabel": "今晚热门",
     "editorialLabel": "Tadado 最新动态",
     "editorialItems": [
-      { "title": "夏日卡组季", "body": "温暖夜晚的阳光、大海与度假 vibe。" },
-      { "title": "电影之夜卡组", "body": "为影迷和连续追剧爱好者准备的影院卡牌。" },
-      { "title": "自己创建", "body": "用 AI 将任意主题变成可玩卡组。" }
+      {
+        "title": "夏日卡组季",
+        "body": "温暖夜晚的阳光、大海与度假 vibe。"
+      },
+      {
+        "title": "电影之夜卡组",
+        "body": "为影迷和连续追剧爱好者准备的影院卡牌。"
+      },
+      {
+        "title": "自己创建",
+        "body": "用 AI 将任意主题变成可玩卡组。"
+      }
     ],
     "socialCta": "加入 Tadado 社区",
     "instagramCta": "Instagram",
@@ -518,14 +592,46 @@
       "others": "常见应用"
     },
     "rows": [
-      { "feature": "Taboo + Heads Up 一个应用", "tadado": "yes", "others": "no" },
-      { "feature": "AI 自定义卡组构建器", "tadado": "yes", "others": "partial" },
-      { "feature": "免费入门卡组（Tadado Mix）", "tadado": "yes", "others": "partial" },
-      { "feature": "无广告", "tadado": "yes", "others": "no" },
-      { "feature": "无订阅", "tadado": "yes", "others": "no" },
-      { "feature": "主题卡组包", "tadado": "yes", "others": "partial" },
-      { "feature": "17 种语言", "tadado": "yes", "others": "partial" },
-      { "feature": "词语难度计分", "tadado": "yes", "others": "no" }
+      {
+        "feature": "Taboo + Heads Up 一个应用",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "AI 自定义卡组构建器",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "免费入门卡组（Tadado Mix）",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "无广告",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "无订阅",
+        "tadado": "yes",
+        "others": "no"
+      },
+      {
+        "feature": "主题卡组包",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "17 种语言",
+        "tadado": "yes",
+        "others": "partial"
+      },
+      {
+        "feature": "词语难度计分",
+        "tadado": "yes",
+        "others": "no"
+      }
     ],
     "note": "许多应用只专注一种模式、展示广告或将内容锁在订阅后。Tadado 为真正的游戏之夜打造：两种模式、免费入门卡组、一次性额外内容。",
     "cta": "免费下载 Tadado",
@@ -549,7 +655,14 @@
           "会在凌晨 2 点调试生产环境——但前提是计时器仍在正确倒计时。",
           "相信最好的派对游戏零教程、最大可重玩性。"
         ],
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "移动游戏",
+          "FinTech"
+        ],
         "websiteCta": "访问 erennasiroglu.de"
       },
       "nur": {
@@ -561,7 +674,14 @@
           "从首个线框图到精致游戏界面，主导 Tadado 端到端产品设计。",
           "会发现按钮圆角差 2 像素。会礼貌地指出。"
         ],
-        "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "交互设计",
+          "游戏体验",
+          "空间设计",
+          "Procreate"
+        ],
         "websiteCta": "访问 nurgunen.com"
       }
     },
@@ -574,7 +694,7 @@
   "newsletter": {
     "title": "游戏之夜灵感永不枯竭。",
     "subtitle": "新主题、新功能与派对游戏技巧。无垃圾邮件。",
-    "placeholder": "you@email.com",
+    "placeholder": "you@example.com",
     "button": "获取更新",
     "success": "你已在名单中。有新内容时我们会发邮件。",
     "privacy": "我们只发送 Tadado 更新。随时可退订。",

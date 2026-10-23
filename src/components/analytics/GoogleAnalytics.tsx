@@ -1,5 +1,6 @@
 import Script from "next/script";
 
+import { deferredScriptLoader } from "@/lib/deferred-script";
 import { GA_MEASUREMENT_ID } from "@/lib/ga4";
 
 export function GoogleAnalytics() {
@@ -9,10 +10,6 @@ export function GoogleAnalytics() {
 
   return (
     <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
-      />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -24,6 +21,7 @@ export function GoogleAnalytics() {
             allow_ad_personalization_signals: false,
             ${isDev ? "debug_mode: true," : ""}
           });
+          ${deferredScriptLoader(`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`)}
         `}
       </Script>
     </>

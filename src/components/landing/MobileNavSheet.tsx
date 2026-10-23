@@ -78,7 +78,7 @@ export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
   ];
 
   const deckLinks: NavItem[] = [
-    { href: getDecksHubHref(locale), label: locale === "tr" ? "Tüm desteler" : "All decks", isPage: true },
+    { href: getDecksHubHref(locale), label: dict.ui.allDecks, isPage: true },
     ...SEO_DECK_KEYS.map((key) => ({
       href: `/${locale}/decks/${deckSlugFor(locale, key)}`,
       label: dict.decks.items[key].name,
