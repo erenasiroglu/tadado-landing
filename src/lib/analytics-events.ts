@@ -68,7 +68,8 @@ export type DownloadSource =
   | "compare"
   | "deck_catalog"
   | "trending_deck"
-  | "ai_demo";
+  | "ai_demo"
+  | "share_link";
 
 export type SectionId =
   | "hero"
