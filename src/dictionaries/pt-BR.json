@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Feito para você",
-    "title": "Feito para rir junto. Não para os seus dados.",
+    "title": "Feito para rir junto.",
     "subtitle": "O Tadado existe por um só motivo: para você e seus amigos jogarem, conversarem e rirem em volta de um celular. Esta é a nossa promessa.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Todos os baralhos temáticos premium do app, em uma única compra.",
+      "desc": "Todos os baralhos temáticos premium e 100 criações de baralhos com IA, em uma única compra.",
+      "aiCredits": "100 criações de baralhos com IA incluídas",
       "highlight": true
     },
     "badges": {

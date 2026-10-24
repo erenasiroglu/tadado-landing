@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Pensato per te",
-    "title": "Fatto per ridere insieme. Non per i tuoi dati.",
+    "title": "Fatto per ridere insieme.",
     "subtitle": "Tadado esiste per un solo motivo: farti giocare, chiacchierare e ridere con i tuoi amici attorno a un solo telefono. Ecco la nostra promessa.",
     "items": [
       {
@@ -436,7 +436,7 @@
     "subtitle": "Scarica gratis e gioca subito. Aggiungi mazzi premium o pacchetti IA con acquisti una tantum. Mai abbonamenti.",
     "oneTime": "una tantum",
     "disclaimer": "I prezzi sono in USD e possono variare per regione su App Store e Google Play. Gli acquisti sono gestiti da Apple o Google.",
-    "trust": "Senza pubblicità · Senza abonnamento · Ripristina acquisti quando vuoi",
+    "trust": "Senza pubblicità · Senza abbonamento · Ripristina acquisti quando vuoi",
     "free": {
       "name": "Tadado Mix",
       "price": "Gratis",
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tutti i mazzi tematici premium dell'app, con un solo acquisto.",
+      "desc": "Tutti i mazzi tematici premium e 100 creazioni di mazzi con IA, con un solo acquisto.",
+      "aiCredits": "100 creazioni di mazzi con IA incluse",
       "highlight": true
     },
     "badges": {

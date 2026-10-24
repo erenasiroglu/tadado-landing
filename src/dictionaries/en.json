@@ -311,7 +311,7 @@
   },
   "trust": {
     "eyebrow": "Made for you",
-    "title": "Made for laughing together. Not for your data.",
+    "title": "Made for laughing together.",
     "subtitle": "Tadado exists for one reason: so you and your friends can play, talk and laugh around one phone. Here is our promise.",
     "items": [
       {
@@ -420,7 +420,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Every premium themed deck in the app, unlocked with one purchase.",
+      "desc": "Every premium themed deck plus 100 AI deck creations, unlocked with one purchase.",
+      "aiCredits": "100 AI deck creations included",
       "highlight": true
     }
   },

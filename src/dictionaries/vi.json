@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Dành cho bạn",
-    "title": "Tạo ra để cùng nhau cười. Không phải vì dữ liệu của bạn.",
+    "title": "Tạo ra để cùng nhau cười.",
     "subtitle": "Tadado tồn tại chỉ vì một lý do: để bạn và bạn bè cùng chơi, trò chuyện và cười quanh một chiếc điện thoại. Đây là lời hứa của chúng tôi.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tất cả bộ bài chủ đề cao cấp trong ứng dụng, chỉ với một lần mua.",
+      "desc": "Tất cả bộ bài chủ đề cao cấp cùng 100 lượt tạo bộ bài AI, chỉ với một lần mua.",
+      "aiCredits": "Bao gồm 100 lượt tạo bộ bài AI",
       "highlight": true
     },
     "badges": {

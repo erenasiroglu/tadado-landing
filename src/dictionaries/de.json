@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Für dich gemacht",
-    "title": "Gemacht zum gemeinsamen Lachen. Nicht für deine Daten.",
+    "title": "Gemacht zum gemeinsamen Lachen.",
     "subtitle": "Tadado gibt es aus einem einzigen Grund: damit du und deine Freunde rund um ein Handy spielen, reden und lachen. Das ist unser Versprechen.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Alle Premium-Themendecks der App mit einem einzigen Kauf.",
+      "desc": "Alle Premium-Themendecks plus 100 KI-Deck-Erstellungen mit einem einzigen Kauf.",
+      "aiCredits": "100 KI-Deck-Erstellungen inklusive",
       "highlight": true
     },
     "badges": {

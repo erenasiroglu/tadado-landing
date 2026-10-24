@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Pensé pour vous",
-    "title": "Fait pour rire ensemble. Pas pour vos données.",
+    "title": "Fait pour rire ensemble.",
     "subtitle": "Tadado existe pour une seule raison : que vous et vos amis jouiez, discutiez et riiez autour d'un seul téléphone. Voici notre promesse.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tous les decks thématiques premium de l'app, en un seul achat.",
+      "desc": "Tous les decks thématiques premium et 100 créations de decks IA, en un seul achat.",
+      "aiCredits": "100 créations de decks IA incluses",
       "highlight": true
     },
     "badges": {

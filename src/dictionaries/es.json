@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Hecho para ti",
-    "title": "Hecho para reír juntos. No para tus datos.",
+    "title": "Hecho para reír juntos.",
     "subtitle": "Tadado existe por una sola razón: que tú y tus amigos jueguen, charlen y se rían alrededor de un móvil. Esta es nuestra promesa.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Todos los mazos temáticos premium de la app, con una sola compra.",
+      "desc": "Todos los mazos temáticos premium y 100 creaciones de mazos con IA, con una sola compra.",
+      "aiCredits": "100 creaciones de mazos con IA incluidas",
       "highlight": true
     },
     "badges": {

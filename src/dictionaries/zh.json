@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "为你而做",
-    "title": "为一起欢笑而生，不为你的数据。",
+    "title": "为一起欢笑而生。",
     "subtitle": "Tadado 只为一件事而存在：让你和朋友围着一部手机一起玩、一起聊、一起笑。这是我们的承诺。",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "一次购买，解锁应用内所有高级主题卡组。",
+      "desc": "一次购买，解锁所有高级主题卡组，并附赠 100 次 AI 卡组创建。",
+      "aiCredits": "含 100 次 AI 卡组创建",
       "highlight": true
     },
     "badges": {

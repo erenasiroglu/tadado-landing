@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Stworzone dla ciebie",
-    "title": "Stworzone do wspólnego śmiechu. Nie dla twoich danych.",
+    "title": "Stworzone do wspólnego śmiechu.",
     "subtitle": "Tadado istnieje z jednego powodu: żebyś ty i twoi znajomi grali, rozmawiali i śmiali się wokół jednego telefonu. Oto nasza obietnica.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Wszystkie tematyczne talie premium w aplikacji w jednym zakupie.",
+      "desc": "Wszystkie tematyczne talie premium i 100 tworzeń talii z AI w jednym zakupie.",
+      "aiCredits": "100 tworzeń talii z AI w zestawie",
       "highlight": true
     },
     "badges": {

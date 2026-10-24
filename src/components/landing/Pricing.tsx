@@ -104,7 +104,7 @@ export function Pricing({ locale, dict }: PricingProps) {
             <Price value={pricing.fullAccess.price} suffix={pricing.oneTime} dark />
             <p className="mt-3 text-sm leading-relaxed text-cream/70">{pricing.fullAccess.desc}</p>
           </div>
-          <Checklist items={trustItems} dark />
+          <Checklist items={[pricing.fullAccess.aiCredits, ...trustItems]} dark />
         </article>
 
         {/* AI packs: three sizes in one card so the comparison is instant. */}

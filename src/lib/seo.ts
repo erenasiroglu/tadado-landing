@@ -277,6 +277,7 @@ export function buildLandingJsonLd(locale: Locale, dict: Dictionary) {
           price: String(PRICING.fullAccessUsd),
           priceCurrency: "USD",
           name: "Tadado Full Access",
+          description: "Every premium themed deck plus 100 AI deck creations",
         },
       ],
       description: dict.meta.description,

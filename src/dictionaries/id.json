@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Dibuat untukmu",
-    "title": "Dibuat untuk tertawa bersama. Bukan untuk datamu.",
+    "title": "Dibuat untuk tertawa bersama.",
     "subtitle": "Tadado ada untuk satu alasan: supaya kamu dan teman-teman bisa main, ngobrol, dan tertawa di sekitar satu ponsel. Ini janji kami.",
     "items": [
       {
@@ -470,7 +470,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Semua deck tema premium di aplikasi, dengan satu kali pembelian.",
+      "desc": "Semua deck tema premium plus 100 pembuatan deck AI, dengan satu kali pembelian.",
+      "aiCredits": "Termasuk 100 pembuatan deck AI",
       "highlight": true
     },
     "badges": {

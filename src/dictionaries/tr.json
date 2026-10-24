@@ -366,7 +366,7 @@
   },
   "trust": {
     "eyebrow": "Senin için tasarlandı",
-    "title": "Birlikte gülmek için yapıldı. Verilerin için değil.",
+    "title": "Birlikte gülmek için yapıldı.",
     "subtitle": "Tadado'nun tek bir amacı var: sen ve arkadaşların tek telefon etrafında oynayın, sohbet edin ve gülün. İşte sözümüz.",
     "items": [
       {
@@ -475,7 +475,8 @@
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "499 TL",
-      "desc": "Uygulamadaki tüm premium temalı desteler, tek satın alımla.",
+      "desc": "Tüm premium temalı desteler ve 100 AI deste oluşturma hakkı, tek satın alımla.",
+      "aiCredits": "100 AI deste oluşturma hakkı dahil",
       "highlight": true
     }
   },
