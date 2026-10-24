@@ -357,6 +357,37 @@
       "guides": "Guides et idées de soirées jeux →"
     }
   },
+  "geniusEvent": {
+    "tag": "Nouvel événement",
+    "title": "Genius Only : les mots les plus durs",
+    "body": "Les 150 mots les plus difficiles dans chaque langue, des termes scientifiques aux concepts pointus. Seul l'ami le plus vif arrive à les faire deviner.",
+    "note": "Retrouvez l'événement Genius Only sur l'App Store et Google Play.",
+    "cta": "Découvrir le deck"
+  },
+  "trust": {
+    "eyebrow": "Pensé pour vous",
+    "title": "Fait pour rire ensemble. Pas pour vos données.",
+    "subtitle": "Tadado existe pour une seule raison : que vous et vos amis jouiez, discutiez et riiez autour d'un seul téléphone. Voici notre promesse.",
+    "items": [
+      {
+        "title": "Jouez sans compte",
+        "body": "Téléchargez et lancez une partie tout de suite. Le jeu de base ne demande aucune inscription. Vous ne vous connectez que pour sauvegarder des decks IA ou des achats."
+      },
+      {
+        "title": "Zéro pub, zéro abonnement",
+        "body": "Aucune pub n'interrompt votre soirée et rien ne se renouvelle dans votre dos. Des decks gratuits sont inclus dès le premier jour."
+      },
+      {
+        "title": "Achetez une fois, c'est à vous",
+        "body": "Chaque deck et pack IA est un achat unique lié à votre compte Apple ou Google. Restaurez-le sur vos appareils à tout moment."
+      },
+      {
+        "title": "Les paiements restent chez Apple et Google",
+        "body": "Les achats sont entièrement gérés par l'App Store et Google Play. Nous ne voyons ni ne stockons jamais vos données de carte."
+      }
+    ],
+    "privacyLink": "Lire notre politique de confidentialité"
+  },
   "decks": {
     "title": "Choisis ton ambiance",
     "subtitle": "Commence gratuitement avec Tadado Mix, puis débloque des packs thématiques quand tu veux.",
@@ -369,6 +400,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "Le deck express pour chaque groupe !"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "Les 150 mots les plus durs. Réservé aux cerveaux !"
       },
       "summer": {
         "name": "Été",
@@ -397,8 +432,9 @@
     }
   },
   "pricing": {
-    "title": "Des tarifs simples et honnêtes",
-    "subtitle": "Pas d'abonnements cachés. Paie une fois pour ce que tu veux.",
+    "title": "Commencez gratuitement. Débloquez plus quand la fête grandit.",
+    "subtitle": "Téléchargez gratuitement et jouez tout de suite. Ajoutez des decks premium ou des packs IA en achat unique. Jamais d'abonnement.",
+    "oneTime": "achat unique",
     "disclaimer": "Les prix sont en USD et peuvent varier selon la région sur l'App Store et Google Play. Les achats sont gérés par Apple ou Google.",
     "trust": "Sans pub · Sans abonnement · Restaure tes achats à tout moment",
     "free": {
@@ -670,17 +706,11 @@
     "subtitle": "La petite équipe derrière les cartes.",
     "intro": "Nous sommes une équipe de deux créateurs qui préfère lancer des jeux de soirée plutôt qu'écrire des bios corporate. L'un code le chaos, l'autre designe les cartes.",
     "back": "Retour à Tadado",
-    "funFactsLabel": "Anecdotes",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Développeur logiciel",
         "bio": "Développeur full-stack qui construit Tadado et des apps mobiles avec React Native, Next.js et Node.js. Diplômé en systèmes d'information de gestion, focalisé sur un code propre et un design pensé pour le joueur.",
-        "funFacts": [
-          "A sorti Tadado de l'idée à l'App Store tout en jonglant avec la fintech chez Pulse FinTech.",
-          "Débuggera la prod à 2 h du matin, mais seulement si le chrono compte encore correctement.",
-          "Pense que les meilleurs jeux de soirée demandent zéro tutoriel et un maximum de rejouabilité."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -695,11 +725,6 @@
         "name": "Nur Günen",
         "role": "Designer produit",
         "bio": "Designer UI/UX produit pour Tadado et étudiante en architecture à l'université de la Démocratie d'İzmir. Façonne le langage visuel, le flux d'interaction et l'expérience de jeu, des cartes aux écrans.",
-        "funFacts": [
-          "Pense à la perception spatiale à l'échelle enfant le jour, aux mises en page de cartes la nuit.",
-          "A piloté le design produit de Tadado de bout en bout, du premier wireframe aux écrans finis.",
-          "Remarquera si le rayon d'un bouton est décalé de 2 pixels. Avec politesse."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

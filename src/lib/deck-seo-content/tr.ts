@@ -1,5 +1,7 @@
 import type { DeckPageContentMap } from "@/lib/deck-page-types";
 
+import { GENIUS_DECK_PAGES } from "./genius";
+
 export const TR_DECK_PAGES: DeckPageContentMap = {
   mix: {
     metaTitle: "Tadado Mix Ücretsiz Deste | Tabu ve Heads Up Başlangıç",
@@ -182,4 +184,5 @@ export const TR_DECK_PAGES: DeckPageContentMap = {
       },
     ],
   },
+  genius: GENIUS_DECK_PAGES.tr,
 };

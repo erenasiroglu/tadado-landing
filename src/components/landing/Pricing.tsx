@@ -1,4 +1,6 @@
-import { AccentPill } from "@/components/brand/accent-pill";
+import { Check, Crown, Download, Sparkles } from "lucide-react";
+
+import { Tag } from "@/components/brand/tag";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
@@ -12,115 +14,147 @@ interface PricingProps {
   dict: Dictionary;
 }
 
-type PricingTier = {
-  name: string;
-  price: string;
-  desc: string;
-  highlight?: boolean;
-};
-
-type PriceCardProps = {
-  tier: PricingTier;
-  badge?: string;
-  className?: string;
-  size?: "default" | "featured";
-};
-
-function PriceCard({ tier, badge, className, size = "default" }: PriceCardProps) {
-  const featured = size === "featured" || tier.highlight;
-
+function Checklist({ items, dark }: { items: string[]; dark?: boolean }) {
   return (
-    <div
+    <ul
       className={cn(
-        "relative flex flex-col rounded-2xl surface-paper p-6 sm:p-8",
-        featured && "ring-2 ring-ink/20 md:-translate-y-1",
-        className,
+        "mt-6 space-y-3 border-t pt-6 text-sm",
+        dark ? "border-cream/15" : "border-border",
       )}
     >
-      {badge ? (
-        <div className="mb-4 flex justify-start">
-          <AccentPill className="text-[0.6875rem]">{badge}</AccentPill>
-        </div>
-      ) : null}
-
-      <p className="text-sm font-extrabold uppercase tracking-tight text-muted-foreground">
-        {tier.name}
-      </p>
-      <p
-        className={cn(
-          "mt-3 font-extrabold tracking-tight text-foreground tabular-nums",
-          featured ? "text-4xl sm:text-5xl" : "text-3xl sm:text-4xl",
-        )}
-      >
-        {tier.price}
-      </p>
-      <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">{tier.desc}</p>
-    </div>
+      {items.map((item) => (
+        <li key={item} className="flex items-start gap-3">
+          <span
+            className={cn(
+              "mt-px flex size-5 shrink-0 items-center justify-center rounded-full",
+              dark ? "bg-cream text-ink" : "bg-ink text-cream",
+            )}
+            aria-hidden
+          >
+            <Check className="size-3" strokeWidth={3} />
+          </span>
+          <span className={dark ? "text-cream/85" : "text-foreground/80"}>{item}</span>
+        </li>
+      ))}
+    </ul>
   );
 }
 
-function PricingGroup({
-  title,
-  children,
-  className,
-}: {
-  title: string;
-  children: React.ReactNode;
-  className?: string;
-}) {
+function PlanName({ children, dark }: { children: React.ReactNode; dark?: boolean }) {
   return (
-    <div className={cn("mt-14", className)}>
-      <div className="mx-auto max-w-3xl text-center">
-        <p className="eyebrow text-[0.6875rem]">{title}</p>
-        <div className="mx-auto mt-3 h-px max-w-xs bg-border" aria-hidden />
-      </div>
-      <div className="mt-8">{children}</div>
-    </div>
+    <p
+      className={cn(
+        "text-sm font-extrabold tracking-tight uppercase",
+        dark ? "text-cream/70" : "text-muted-foreground",
+      )}
+    >
+      {children}
+    </p>
+  );
+}
+
+function Price({ value, suffix, dark }: { value: string; suffix?: string; dark?: boolean }) {
+  return (
+    <p className="mt-3 flex items-baseline gap-2">
+      <span
+        className={cn(
+          "text-5xl font-extrabold tracking-[-0.04em] tabular-nums",
+          dark ? "text-cream" : "text-foreground",
+        )}
+      >
+        {value}
+      </span>
+      {suffix ? (
+        <span className={cn("text-sm font-semibold", dark ? "text-cream/60" : "text-muted-foreground")}>
+          {suffix}
+        </span>
+      ) : null}
+    </p>
   );
 }
 
 export function Pricing({ locale, dict }: PricingProps) {
-  const { pricing } = dict;
+  const { pricing, proof } = dict;
   const { badges } = pricing;
+  const trustItems = pricing.trust.split("·").map((item) => item.trim()).filter(Boolean);
 
   return (
     <LandingSection id="pricing" analyticsSection="pricing" tone="contrast" reveal>
       <SectionHeading title={pricing.title} subtitle={pricing.subtitle} />
 
-      <div className="mt-12 flex justify-center">
-        <PriceCard
-          tier={pricing.free}
-          badge={badges.free}
-          size="featured"
-          className="w-full max-w-lg"
-        />
+      <div className="mt-14 grid gap-5 lg:grid-cols-3 lg:items-stretch">
+        {/* Free: the entry point, so it keeps the lightest treatment. */}
+        <article className="flex flex-col rounded-lg surface-paper p-7 sm:p-8">
+          <Tag icon={<Download aria-hidden />}>{badges.free}</Tag>
+          <div className="mt-6">
+            <PlanName>{pricing.free.name}</PlanName>
+            <Price value={pricing.free.price} />
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{pricing.free.desc}</p>
+          </div>
+          <Checklist items={[proof.modes, proof.languages, proof.offline, proof.noAds]} />
+        </article>
+
+        {/* Full Access: the plan we want people to pick, so it is the dark anchor. */}
+        <article className="relative flex flex-col rounded-lg surface-obsidian p-7 sm:p-8 lg:-my-4 lg:py-12">
+          <Tag tone="onDark" icon={<Crown aria-hidden />}>
+            {badges.bestValue}
+          </Tag>
+          <div className="mt-6">
+            <PlanName dark>{pricing.fullAccess.name}</PlanName>
+            <Price value={pricing.fullAccess.price} suffix={pricing.oneTime} dark />
+            <p className="mt-3 text-sm leading-relaxed text-cream/70">{pricing.fullAccess.desc}</p>
+          </div>
+          <Checklist items={trustItems} dark />
+        </article>
+
+        {/* AI packs: three sizes in one card so the comparison is instant. */}
+        <article className="flex flex-col rounded-lg surface-paper p-7 sm:p-8">
+          <Tag icon={<Sparkles aria-hidden />}>{pricing.aiSectionTitle}</Tag>
+          <ul className="mt-6 flex flex-1 flex-col gap-2">
+            {pricing.aiTiers.map((tier) => (
+              <li
+                key={tier.name}
+                className={cn(
+                  "rounded-sm px-4 py-3.5",
+                  tier.highlight ? "bg-lilac/70 ring-1 ring-ink/10 ring-inset" : "bg-mist/80",
+                )}
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex min-w-0 items-center gap-2">
+                    <span className="text-sm font-extrabold tracking-tight text-foreground uppercase">
+                      {tier.name}
+                    </span>
+                    {tier.highlight ? (
+                      <Tag tone="solid" className="h-5 px-2 text-[0.625rem]">
+                        {badges.popular}
+                      </Tag>
+                    ) : null}
+                  </div>
+                  <span className="text-lg font-extrabold tracking-tight text-foreground tabular-nums">
+                    {tier.price}
+                  </span>
+                </div>
+                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{tier.desc}</p>
+              </li>
+            ))}
+          </ul>
+        </article>
       </div>
 
-      <PricingGroup title={pricing.aiSectionTitle}>
-        <div className="grid gap-5 md:grid-cols-3 md:items-stretch">
-          {pricing.aiTiers.map((tier) => (
-            <PriceCard
-              key={tier.name}
-              tier={tier}
-              badge={tier.highlight ? badges.popular : undefined}
-              size={tier.highlight ? "featured" : "default"}
-            />
-          ))}
+      <div className="mt-5 flex flex-col gap-3 rounded-lg surface-paper px-7 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:mt-9">
+        <div className="min-w-0">
+          <PlanName>{pricing.singleDeck.name}</PlanName>
+          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{pricing.singleDeck.desc}</p>
         </div>
-      </PricingGroup>
+        <p className="flex shrink-0 items-baseline gap-2">
+          <span className="text-3xl font-extrabold tracking-[-0.04em] text-foreground tabular-nums">
+            {pricing.singleDeck.price}
+          </span>
+          <span className="text-sm font-semibold text-muted-foreground">{pricing.oneTime}</span>
+        </p>
+      </div>
 
-      <PricingGroup title={pricing.decksSectionTitle}>
-        <div className="mx-auto grid max-w-4xl gap-5 md:grid-cols-2 md:items-stretch">
-          <PriceCard tier={pricing.singleDeck} />
-          <PriceCard
-            tier={pricing.fullAccess}
-            badge={badges.bestValue}
-            size="featured"
-          />
-        </div>
-      </PricingGroup>
-
-      <div className="mt-12 flex flex-col items-center gap-4 rounded-2xl border border-border/80 bg-paper/60 px-6 py-8 text-center sm:mt-14 sm:px-10">
+      <div className="mt-12 flex flex-col items-center gap-4 text-center">
         <div className="w-full max-w-sm sm:hidden">
           <MobileStoreDownloadCta locale={locale} source="pricing" label={dict.hero.ctaPrimary} />
         </div>
@@ -131,10 +165,7 @@ export function Pricing({ locale, dict }: PricingProps) {
           labelMode="download"
           className="hidden justify-center sm:flex"
         />
-        <p className="text-sm font-semibold text-ink">{pricing.trust}</p>
-        <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-          {pricing.disclaimer}
-        </p>
+        <p className="max-w-2xl text-xs leading-relaxed text-muted-foreground">{pricing.disclaimer}</p>
       </div>
     </LandingSection>
   );

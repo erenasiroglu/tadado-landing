@@ -6,6 +6,7 @@ import { Faq } from "@/components/landing/Faq";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { GameModeShowcase } from "@/components/landing/GameModeShowcase";
+import { GeniusEvent } from "@/components/landing/GeniusEvent";
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { HowItWorks } from "@/components/landing/HowItWorks";
@@ -13,6 +14,7 @@ import { NewsletterSignup } from "@/components/landing/NewsletterSignup";
 import { Pricing } from "@/components/landing/Pricing";
 import { ProductBenefits } from "@/components/landing/ProductBenefits";
 import { StickyBar } from "@/components/landing/StickyBar";
+import { TrustPromise } from "@/components/landing/TrustPromise";
 import { getBlogPosts } from "@/lib/blog";
 import { hasLocale, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
@@ -78,11 +80,13 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
       <main className="flex-1 pb-safe md:pb-0">
         <Hero locale={locale} dict={dict} />
         <GameModeShowcase locale={locale} dict={dict} />
+        <GeniusEvent locale={locale} dict={dict} />
         <Testimonials dict={dict} />
         <AiDeckBuilderDemo locale={locale} dict={dict} />
         <DeckCarousel dict={dict} locale={locale} />
         <HowItWorks dict={dict} />
         <Pricing locale={locale} dict={dict} />
+        <TrustPromise locale={locale} dict={dict} />
         <PersonalizationSection dict={dict} />
         <ProductBenefits dict={dict} />
         <CommunitySection dict={dict} locale={locale} />

@@ -233,12 +233,24 @@ html {
   flex: 0 0 var(--reviews-slide-width);
   min-width: 0;
   box-sizing: border-box;
-  padding-inline: 0.125rem;
+  /* Room for the card's paper shadow so the viewport never clips it. */
+  padding-inline: 1rem;
 }
 
 .reviews-carousel__viewport {
   overflow: hidden;
-  padding-block: 0.25rem;
+  margin: -1.5rem -1rem -3.5rem;
+  padding: 1.5rem 0 3.5rem;
+}
+
+@media (min-width: 768px) {
+  .reviews-carousel__slide {
+    padding-inline: 1.5rem;
+  }
+
+  .reviews-carousel__viewport {
+    margin-inline: -1.5rem;
+  }
 }
 
 .language-marquee {
@@ -380,6 +392,38 @@ html {
   transform: scale(0.98);
 }
 
+.genius-event::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 1px 1px, rgb(255 244 214 / 0.08) 1px, transparent 0) 0 0 / 22px 22px,
+    radial-gradient(36rem circle at 85% 50%, rgb(255 216 74 / 0.16) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.genius-event__glow {
+  position: absolute;
+  inset: 8% -6%;
+  border-radius: 999px;
+  background: radial-gradient(closest-side, rgb(255 154 46 / 0.45), transparent);
+  filter: blur(24px);
+}
+
+.team-member-stage--dark {
+  background:
+    radial-gradient(circle at 1px 1px, rgb(255 244 214 / 0.12) 1px, transparent 0) 0 0 / 22px 22px,
+    radial-gradient(22rem circle at 50% 110%, #4a1f6b 0%, transparent 70%),
+    linear-gradient(155deg, var(--plum-light) 0%, var(--ink) 70%);
+}
+
+.team-member-stage--light {
+  background:
+    radial-gradient(circle at 1px 1px, rgb(26 15 41 / 0.1) 1px, transparent 0) 0 0 / 22px 22px,
+    radial-gradient(22rem circle at 50% 110%, #ffffff 0%, transparent 70%),
+    linear-gradient(155deg, #f1ecf7 0%, var(--lilac) 100%);
+}
+
 .team-page-intro {
   display: grid;
   gap: 1.25rem;
@@ -483,9 +527,32 @@ html {
   font-weight: 500;
 }
 
-.prose-blog ul {
-  padding-left: 1.25rem;
+.prose-blog p {
+  margin: 0.75rem 0;
+}
+
+.prose-blog ul,
+.prose-blog ol {
+  padding-inline-start: 1.5rem;
   margin: 1rem 0;
+}
+
+.prose-blog ul {
+  list-style: disc;
+}
+
+.prose-blog ol {
+  list-style: decimal;
+}
+
+.prose-blog li {
+  margin: 0.375rem 0;
+  padding-inline-start: 0.25rem;
+}
+
+.prose-blog li::marker {
+  color: var(--muted-foreground);
+  font-weight: 700;
 }
 
 .prose-blog a {

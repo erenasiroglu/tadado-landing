@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "简单透明的定价",
-    "subtitle": "无隐藏订阅。只为所需一次性付费。",
+    "title": "免费开始，派对升温再解锁更多。",
+    "subtitle": "免费下载，立即开玩。高级卡组或 AI 卡包一次购买即可拥有。永远没有订阅。",
+    "oneTime": "一次性",
     "disclaimer": "价格为 USD，App Store 和 Google Play 可能因地区而异。购买由 Apple 或 Google 处理。",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "卡牌背后的小团队。",
     "intro": "我们是两个更愿意发布派对游戏而不是写公司介绍的创作者。一个编写混乱，一个设计卡牌。",
     "back": "返回 Tadado",
-    "funFactsLabel": "趣闻",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "软件开发工程师",
         "bio": "全栈开发者，用 React Native、Next.js 和 Node.js 构建 Tadado 与移动应用。Management Information Systems 毕业生，专注 clean code 与玩家友好设计。",
-        "funFacts": [
-          "在 Pulse FinTech 从事 fintech 工作的同时，将 Tadado 从想法发布到 App Store。",
-          "会在凌晨 2 点调试生产环境——但前提是计时器仍在正确倒计时。",
-          "相信最好的派对游戏零教程、最大可重玩性。"
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "产品设计师",
         "bio": "Tadado UI/UX 设计师，İzmir Democracy University 建筑系学生。塑造从卡牌到屏幕的视觉语言、交互流程与游戏体验。",
-        "funFacts": [
-          "白天思考儿童尺度的空间感知，晚上思考卡牌布局。",
-          "从首个线框图到精致游戏界面，主导 Tadado 端到端产品设计。",
-          "会发现按钮圆角差 2 像素。会礼貌地指出。"
-        ],
         "skills": [
           "UI/UX",
           "Figma",

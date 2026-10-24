@@ -4,6 +4,7 @@ import { LOCALES, type Locale } from "@/lib/i18n-config";
 /** Public SEO deck pages (excludes mix from paid carousel order but includes mix). */
 export const SEO_DECK_KEYS: DeckKey[] = [
   "mix",
+  "genius",
   "summer",
   "cinema",
   "travel",
@@ -21,6 +22,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   tr: {
     mix: "tadado-mix",
@@ -30,6 +32,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "spor",
     heroes: "kahramanlar",
     midnight: "gece-oyunlari",
+    genius: "genius-only",
   },
   es: {
     mix: "tadado-mix",
@@ -39,6 +42,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "deporte",
     heroes: "heroes",
     midnight: "juegos-nocturnos",
+    genius: "genius-only",
   },
   "pt-BR": {
     mix: "tadado-mix",
@@ -48,6 +52,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "esporte",
     heroes: "herois",
     midnight: "jogos-noturnos",
+    genius: "genius-only",
   },
   fr: {
     mix: "tadado-mix",
@@ -57,6 +62,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heros",
     midnight: "jeux-de-nuit",
+    genius: "genius-only",
   },
   de: {
     mix: "tadado-mix",
@@ -66,6 +72,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "helden",
     midnight: "nachtspiele",
+    genius: "genius-only",
   },
   zh: {
     mix: "tadado-mix",
@@ -75,6 +82,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   hi: {
     mix: "tadado-mix",
@@ -84,6 +92,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   id: {
     mix: "tadado-mix",
@@ -93,6 +102,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "olahraga",
     heroes: "pahlawan",
     midnight: "permainan-malam",
+    genius: "genius-only",
   },
   vi: {
     mix: "tadado-mix",
@@ -102,6 +112,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "the-thao",
     heroes: "anh-hung",
     midnight: "tro-choi-dem",
+    genius: "genius-only",
   },
   ar: {
     mix: "tadado-mix",
@@ -111,6 +122,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   ru: {
     mix: "tadado-mix",
@@ -120,6 +132,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "geroi",
     midnight: "nochnye-igry",
+    genius: "genius-only",
   },
   ja: {
     mix: "tadado-mix",
@@ -129,6 +142,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   ko: {
     mix: "tadado-mix",
@@ -138,6 +152,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "heroes",
     midnight: "night-games",
+    genius: "genius-only",
   },
   it: {
     mix: "tadado-mix",
@@ -147,6 +162,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "eroi",
     midnight: "giochi-notturni",
+    genius: "genius-only",
   },
   pl: {
     mix: "tadado-mix",
@@ -156,6 +172,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "sport",
     heroes: "bohaterow",
     midnight: "gry-nocne",
+    genius: "genius-only",
   },
   el: {
     mix: "tadado-mix",
@@ -165,6 +182,7 @@ const SLUGS: Record<Locale, Record<DeckKey, string>> = {
     sport: "athlitismos",
     heroes: "iroes",
     midnight: "nychterina-paichnidia",
+    genius: "genius-only",
   },
 };
 

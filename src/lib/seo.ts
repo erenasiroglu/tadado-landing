@@ -306,6 +306,7 @@ export function buildBlogPostJsonLd(
     date: string;
     alternateSlug?: string;
     alternateLocale?: Locale;
+    contentHtml?: string;
   },
 ) {
   const url = `${BRAND.domain}/${locale}/blog/${post.slug}`;
@@ -348,5 +349,30 @@ export function buildBlogPostJsonLd(
     },
   ];
 
+  const faq = post.contentHtml ? extractFaqPairs(post.contentHtml) : [];
+  if (faq.length >= 2) {
+    graph.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map(({ q, a }) => ({
+        "@type": "Question",
+        name: q,
+        acceptedAnswer: { "@type": "Answer", text: a },
+      })),
+    });
+  }
+
   return graph;
+}
+
+/** Question-style `<h3>` headings followed by a paragraph, as written in blog FAQ sections. */
+function extractFaqPairs(html: string): { q: string; a: string }[] {
+  const strip = (value: string) => value.replace(/<[^>]+>/g, "").trim();
+  const pairs: { q: string; a: string }[] = [];
+  const pattern = /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g;
+  for (const match of html.matchAll(pattern)) {
+    const q = strip(match[1]);
+    if (/[?？]$/.test(q)) pairs.push({ q, a: strip(match[2]) });
+  }
+  return pairs;
 }

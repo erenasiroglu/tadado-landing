@@ -72,6 +72,8 @@ export type DownloadSource =
 
 export type SectionId =
   | "hero"
+  | "genius_event"
+  | "trust"
   | "proof"
   | "modes"
   | "how_to_play"

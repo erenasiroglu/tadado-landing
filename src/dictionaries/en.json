@@ -302,6 +302,37 @@
       "guides": "Guides and game night ideas →"
     }
   },
+  "geniusEvent": {
+    "tag": "New event",
+    "title": "Genius Only: Hardest Words",
+    "body": "150 of the hardest words in every language, from science terms to tricky concepts. Only the sharpest friend gets them across.",
+    "note": "Look for the Genius Only event on the App Store and Google Play.",
+    "cta": "Explore the deck"
+  },
+  "trust": {
+    "eyebrow": "Made for you",
+    "title": "Made for laughing together. Not for your data.",
+    "subtitle": "Tadado exists for one reason: so you and your friends can play, talk and laugh around one phone. Here is our promise.",
+    "items": [
+      {
+        "title": "Play without an account",
+        "body": "Download and start a round right away. The core game needs no sign-up. You only sign in if you want to save AI decks or purchases."
+      },
+      {
+        "title": "Zero ads, zero subscriptions",
+        "body": "No ads interrupt your game night and nothing renews behind your back. Free decks are included from day one."
+      },
+      {
+        "title": "Buy once, keep it",
+        "body": "Every deck and AI pack is a one-time purchase linked to your Apple or Google account. Restore it on your devices anytime."
+      },
+      {
+        "title": "Payments stay with Apple and Google",
+        "body": "Purchases are handled entirely by the App Store and Google Play. We never see or store your card details."
+      }
+    ],
+    "privacyLink": "Read our privacy policy"
+  },
   "decks": {
     "title": "Pick your vibe",
     "subtitle": "Start with Tadado Mix free, then unlock themed packs when you are ready.",
@@ -314,6 +345,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "The quick start deck for every group!"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "150 of the hardest words. Big brains only!"
       },
       "summer": {
         "name": "Summer",
@@ -342,8 +377,9 @@
     }
   },
   "pricing": {
-    "title": "Simple, honest pricing",
-    "subtitle": "No hidden subscriptions. Pay once for what you want.",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Download free and play right away. Add premium decks or AI packs with one-time purchases. No subscription, ever.",
+    "oneTime": "one-time",
     "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Purchases are handled by Apple or Google.",
     "trust": "No ads · No subscription · Restore purchases anytime",
     "badges": {
@@ -666,17 +702,11 @@
     "subtitle": "The tiny team behind the cards.",
     "intro": "We're a team of two builders who'd rather ship party games than write corporate bios. One codes the chaos, one designs the cards.",
     "back": "Back to Tadado",
-    "funFactsLabel": "Fun facts",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Software Developer",
         "bio": "Full-stack developer building Tadado and mobile apps with React Native, Next.js, and Node.js. Management Information Systems graduate focused on clean code and player-friendly design.",
-        "funFacts": [
-          "Shipped Tadado from idea to App Store while juggling fintech work at Pulse FinTech.",
-          "Will debug production at 2 a.m., but only if the timer still counts down correctly.",
-          "Believes the best party games need zero tutorial and maximum replayability."
-        ],
         "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobile Games", "FinTech"],
         "websiteCta": "Visit erennasiroglu.de"
       },
@@ -684,11 +714,6 @@
         "name": "Nur Günen",
         "role": "Product Designer",
         "bio": "Product UI/UX designer for Tadado and architecture student at İzmir Democracy University. Shapes visual language, interaction flow, and game experience from cards to screens.",
-        "funFacts": [
-          "Thinks about child-scale spatial perception by day, card layouts by night.",
-          "Led Tadado's end-to-end product design from first wireframe to polished game screens.",
-          "Will notice if your button radius is off by 2 pixels. Politely."
-        ],
         "skills": ["UI/UX", "Figma", "Interaction Design", "Game Experience", "Spatial Design", "Procreate"],
         "websiteCta": "Visit nurgunen.com"
       }

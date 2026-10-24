@@ -357,6 +357,37 @@
       "guides": "Rehberler ve oyun gecesi fikirleri →"
     }
   },
+  "geniusEvent": {
+    "tag": "Yeni etkinlik",
+    "title": "Genius Only: En Zor Kelimeler",
+    "body": "Her dilde en zor 150 kelime: bilim terimlerinden zorlu kavramlara. Sadece en keskin zekâ anlatabilir.",
+    "note": "Genius Only etkinliğini App Store ve Google Play'de bul.",
+    "cta": "Desteyi keşfet"
+  },
+  "trust": {
+    "eyebrow": "Senin için tasarlandı",
+    "title": "Birlikte gülmek için yapıldı. Verilerin için değil.",
+    "subtitle": "Tadado'nun tek bir amacı var: sen ve arkadaşların tek telefon etrafında oynayın, sohbet edin ve gülün. İşte sözümüz.",
+    "items": [
+      {
+        "title": "Hesap açmadan oyna",
+        "body": "İndir ve hemen bir tur başlat. Oyunun temeli kayıt gerektirmez. Sadece yapay zeka destelerini veya satın alımlarını kaydetmek istersen giriş yaparsın."
+      },
+      {
+        "title": "Sıfır reklam, sıfır abonelik",
+        "body": "Oyun gecen reklamla bölünmez, arkandan hiçbir şey yenilenmez. Ücretsiz desteler ilk günden itibaren seninle."
+      },
+      {
+        "title": "Bir kez al, senin olsun",
+        "body": "Her deste ve yapay zeka paketi Apple veya Google hesabına bağlı tek seferlik bir satın alımdır. Cihazlarında istediğin zaman geri yükle."
+      },
+      {
+        "title": "Ödemeler Apple ve Google'da kalır",
+        "body": "Satın alımlar tamamen App Store ve Google Play üzerinden yapılır. Kart bilgilerini asla görmeyiz ve saklamayız."
+      }
+    ],
+    "privacyLink": "Gizlilik politikamızı oku"
+  },
   "decks": {
     "title": "Tarzını seç",
     "subtitle": "Tadado Mix ile ücretsiz başla, hazır olduğunda temalı paketleri aç.",
@@ -369,6 +400,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "Her grup için hızlı başlangıç destesi!"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "En zor 150 kelime. Sadece dâhiler için!"
       },
       "summer": {
         "name": "Yaz",
@@ -397,8 +432,9 @@
     }
   },
   "pricing": {
-    "title": "Basit, dürüst fiyatlandırma",
-    "subtitle": "Gizli abonelik yok. İstediğin için bir kez öde.",
+    "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
+    "subtitle": "Ücretsiz indir, hemen oyna. Premium desteleri veya yapay zeka paketlerini tek seferlik satın alımla ekle. Abonelik asla yok.",
+    "oneTime": "tek seferlik",
     "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Satın alımlar Apple veya Google üzerinden yapılır.",
     "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle",
     "badges": {
@@ -740,17 +776,11 @@
     "subtitle": "Kartların arkasındaki minik ekip.",
     "intro": "Kurumsal biyografi yazmak yerine parti oyunu çıkarmayı tercih eden iki kişilik minik bir ekibiz. Biri kaosu kodluyor, biri kartları tasarlıyor.",
     "back": "Tadado'ya dön",
-    "funFactsLabel": "Eğlenceli gerçekler",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Yazılım Geliştirici",
         "bio": "Tadado'yu ve mobil uygulamaları React Native, Next.js ve Node.js ile geliştiren full-stack developer. Yönetim Bilişim Sistemleri mezunu; temiz kod ve oyuncu dostu tasarımı ön planda tutuyor.",
-        "funFacts": [
-          "Pulse FinTech'te çalışırken Tadado'yu fikirden App Store'a taşıdı.",
-          "Saat 02:00'de production debug yapar, ama yalnızca süre doğru sayıyorsa.",
-          "En iyi parti oyununun sıfır tutorial ve maksimum tekrar oynanabilirlik gerektiğine inanıyor."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -765,11 +795,6 @@
         "name": "Nur Günen",
         "role": "Ürün Tasarımcısı",
         "bio": "Tadado için ürün UI/UX tasarımcısı ve İzmir Demokrasi Üniversitesi mimarlık öğrencisi. Görsel dili, etkileşim akışını ve oyun deneyimini kartlardan ekranlara taşıyor.",
-        "funFacts": [
-          "Gündüz çocuk ölçeğinde mekân algısını, gece kart düzenlerini düşünüyor.",
-          "Tadado'nun uçtan uca ürün tasarımını ilk wireframe'den cilalı oyun ekranlarına kadar yönetti.",
-          "Buton radius'un 2 piksel kaydığını fark eder. Nazikçe."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

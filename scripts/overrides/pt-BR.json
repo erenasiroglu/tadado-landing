@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "Preços simples e honestos",
-    "subtitle": "Sem assinaturas escondidas. Pague uma vez pelo que quiser.",
+    "title": "Comece grátis. Desbloqueie mais quando a festa crescer.",
+    "subtitle": "Baixe grátis e jogue na hora. Adicione baralhos premium ou pacotes de IA com compras únicas. Sem assinatura, nunca.",
+    "oneTime": "pagamento único",
     "disclaimer": "Preços em USD; podem variar por região na App Store e Google Play. Compras processadas pela Apple ou Google.",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "O time pequeno por trás das cartas.",
     "intro": "Somos um time de dois que prefere lançar jogos de festa a escrever bios corporativas. Um codifica o caos, outro desenha as cartas.",
     "back": "Voltar ao Tadado",
-    "funFactsLabel": "Curiosidades",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Software Developer",
         "bio": "Desenvolvedor full-stack construindo Tadado e apps mobile com React Native, Next.js e Node.js. Formado em Sistemas de Informação Gerencial, focado em código limpo e design amigável ao jogador.",
-        "funFacts": [
-          "Lançou o Tadado da ideia à App Store enquanto trabalhava em fintech na Pulse FinTech.",
-          "Debugga produção às 2 da manhã — mas só se o timer ainda contar corretamente.",
-          "Acredita que os melhores jogos de festa precisam de zero tutorial e máxima rejogabilidade."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "Product Designer",
         "bio": "Designer UI/UX de produto do Tadado e estudante de arquitetura na İzmir Democracy University. Molda linguagem visual, fluxo de interação e experiência de jogo das cartas às telas.",
-        "funFacts": [
-          "Pensa em percepção espacial em escala infantil de dia, layouts de cartas à noite.",
-          "Liderou o design de produto end-to-end do Tadado do primeiro wireframe às telas de jogo polidas.",
-          "Vai notar se o raio do botão estiver 2 pixels fora. Educadamente."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

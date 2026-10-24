@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "Giá đơn giản, minh bạch",
-    "subtitle": "Không đăng ký ẩn. Trả một lần cho những gì bạn muốn.",
+    "title": "Bắt đầu miễn phí. Mở khóa thêm khi bữa tiệc thêm vui.",
+    "subtitle": "Tải miễn phí và chơi ngay. Thêm bộ bài cao cấp hoặc gói AI bằng giao dịch mua một lần. Không bao giờ có gói đăng ký.",
+    "oneTime": "mua một lần",
     "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "Đội nhỏ đằng sau những thẻ bài.",
     "intro": "Chúng tôi là đội hai người thích ra mắt game tiệc tùng hơn viết bio công ty. Một người code sự hỗn loạn, một người thiết kế thẻ bài.",
     "back": "Quay lại Tadado",
-    "funFactsLabel": "Sự thật thú vị",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Lập trình viên",
         "bio": "Full-stack developer xây Tadado và app mobile với React Native, Next.js và Node.js. Tốt nghiệp Management Information Systems, tập trung vào code sạch và thiết kế thân thiện người chơi.",
-        "funFacts": [
-          "Ra mắt Tadado từ ý tưởng lên App Store trong khi làm fintech tại Pulse FinTech.",
-          "Sẽ debug production lúc 2 giờ sáng, nhưng chỉ khi timer vẫn đếm ngược đúng.",
-          "Tin rằng game tiệc tùng hay nhất cần zero tutorial và replayability tối đa."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "Thiết kế sản phẩm",
         "bio": "Product UI/UX designer cho Tadado và sinh viên kiến trúc tại İzmir Democracy University. Định hình ngôn ngữ thị giác, luồng tương tác và trải nghiệm game từ thẻ đến màn hình.",
-        "funFacts": [
-          "Nghĩ về nhận thức không gian quy mô trẻ em ban ngày, bố cục thẻ ban đêm.",
-          "Dẫn dắt thiết kế sản phẩm end-to-end Tadado từ wireframe đầu tiên đến màn hình game hoàn thiện.",
-          "Sẽ để ý nếu bán kính nút lệch 2 pixel. Một cách lịch sự."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

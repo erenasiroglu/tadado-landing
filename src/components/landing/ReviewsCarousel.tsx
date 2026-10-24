@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useReducedMotion } from "motion/react";
 
+import { Tag } from "@/components/brand/tag";
 import type { Dictionary } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
@@ -86,9 +87,7 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
                     <p className="truncate font-semibold text-foreground">{review.author}</p>
                     <p className="mt-0.5 text-sm text-muted-foreground">{review.context}</p>
                   </div>
-                  <span className="shrink-0 rounded-full border border-border surface-paper px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">
-                    {sourceLabel}
-                  </span>
+                  <Tag>{sourceLabel}</Tag>
                 </figcaption>
               </figure>
             </div>
@@ -97,12 +96,12 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
       </div>
 
       {items.length > 1 ? (
-        <div className="mt-6 flex items-center justify-center gap-4">
+        <div className="mt-4 flex items-center justify-center gap-4">
           <CarouselIconButton label="Previous review" onClick={scrollPrev}>
             <ChevronLeft className="h-4 w-4" />
           </CarouselIconButton>
 
-          <div className="flex items-center gap-1.5" role="tablist" aria-label="Reviews">
+          <div className="flex items-center" role="tablist" aria-label="Reviews">
             {items.map((review, index) => (
               <button
                 key={review.author}
@@ -111,11 +110,17 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
                 aria-selected={index === selectedIndex}
                 aria-label={`Review ${index + 1}`}
                 onClick={() => scrollTo(index)}
-                className={cn(
-                  "h-1.5 rounded-full transition-all duration-300",
-                  index === selectedIndex ? "w-7 bg-ink" : "w-1.5 bg-ink/25 hover:bg-ink/40",
-                )}
-              />
+                className="group flex h-6 min-w-6 cursor-pointer items-center justify-center"
+              >
+                <span
+                  className={cn(
+                    "h-1.5 rounded-full transition-all duration-300",
+                    index === selectedIndex
+                      ? "w-7 bg-ink"
+                      : "w-1.5 bg-ink/25 group-hover:bg-ink/40",
+                  )}
+                />
+              </button>
             ))}
           </div>
 
@@ -142,7 +147,7 @@ function CarouselIconButton({
       type="button"
       aria-label={label}
       onClick={onClick}
-      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-border surface-paper text-foreground transition-colors hover:bg-lilac hover:bg-lilac hover:text-ink"
+      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-border surface-paper text-foreground transition-colors hover:bg-lilac hover:text-ink"
     >
       {children}
     </button>

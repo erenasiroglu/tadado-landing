@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "सरल, ईमानदार कीमत",
-    "subtitle": "कोई छिपी सब्सक्रिप्शन नहीं। जो चाहिए उसके लिए एक बार भुगतान।",
+    "title": "मुफ़्त में शुरू करें। पार्टी बढ़े तो और अनलॉक करें।",
+    "subtitle": "मुफ़्त डाउनलोड करें और तुरंत खेलें। प्रीमियम डेक या AI पैक एक बार की खरीद से जोड़ें। कोई सब्सक्रिप्शन नहीं, कभी नहीं।",
+    "oneTime": "एक बार",
     "disclaimer": "कीमतें USD में हैं और App Store व Google Play में क्षेत्र के अनुसार बदल सकती हैं। खरीद Apple या Google द्वारा संभाली जाती है।",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "कार्डों के पीछे की छोटी टीम।",
     "intro": "हम दो निर्माताओं की टीम हैं जो कॉर्पोरेट bio लिखने से ज़्यादा पार्टी गेम लॉन्च करना पसंद करते हैं। एक chaos कोड करता है, एक कार्ड डिज़ाइन करता है।",
     "back": "Tadado पर वापस",
-    "funFactsLabel": "मज़ेदार तथ्य",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "सॉफ़्टवेयर डेवलपर",
         "bio": "React Native, Next.js और Node.js से Tadado और मोबाइल ऐप बनाने वाला full-stack डेवलपर। Management Information Systems स्नातक, साफ़ कोड और खिलाड़ी-अनुकूल डिज़ाइन पर केंद्रित।",
-        "funFacts": [
-          "Pulse FinTech में fintech काम के साथ Tadado को विचार से App Store तक पहुँचाया।",
-          "रात 2 बजे production debug करेगा — लेकिन सिर्फ़ अगर टाइमर सही गिनती कर रहा हो।",
-          "मानते हैं सर्वश्रेष्ठ पार्टी गेम को zero tutorial और maximum replayability चाहिए।"
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "उत्पाद डिज़ाइनर",
         "bio": "Tadado के लिए उत्पाद UI/UX डिज़ाइनर और İzmir Democracy University में वास्तुकला छात्रा। कार्ड से स्क्रीन तक दृश्य भाषा, इंटरैक्शन प्रवाह और गेम अनुभव आकार देती हैं।",
-        "funFacts": [
-          "दिन में बच्चे के पैमाने की spatial perception, रात में कार्ड layouts के बारे में सोचती हैं।",
-          "Tadado के end-to-end उत्पाद डिज़ाइन का नेतृत्व — पहले wireframe से polished गेम स्क्रीन तक।",
-          "अगर button radius 2 pixels off है तो notice करेंगी। विनम्रता से।"
-        ],
         "skills": [
           "UI/UX",
           "Figma",

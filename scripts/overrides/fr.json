@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "Des tarifs simples et honnêtes",
-    "subtitle": "Pas d'abonnements cachés. Paie une fois pour ce que tu veux.",
+    "title": "Commencez gratuitement. Débloquez plus quand la fête grandit.",
+    "subtitle": "Téléchargez gratuitement et jouez tout de suite. Ajoutez des decks premium ou des packs IA en achat unique. Jamais d'abonnement.",
+    "oneTime": "achat unique",
     "disclaimer": "Les prix sont en USD et peuvent varier selon la région sur l'App Store et Google Play. Les achats sont gérés par Apple ou Google.",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "La petite équipe derrière les cartes.",
     "intro": "Nous sommes une équipe de deux créateurs qui préfère lancer des jeux de soirée plutôt qu'écrire des bios corporate. L'un code le chaos, l'autre designe les cartes.",
     "back": "Retour à Tadado",
-    "funFactsLabel": "Anecdotes",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Développeur logiciel",
         "bio": "Développeur full-stack qui construit Tadado et des apps mobiles avec React Native, Next.js et Node.js. Diplômé en systèmes d'information de gestion, focalisé sur un code propre et un design pensé pour le joueur.",
-        "funFacts": [
-          "A sorti Tadado de l'idée à l'App Store tout en jonglant avec la fintech chez Pulse FinTech.",
-          "Débuggera la prod à 2 h du matin, mais seulement si le chrono compte encore correctement.",
-          "Pense que les meilleurs jeux de soirée demandent zéro tutoriel et un maximum de rejouabilité."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "Designer produit",
         "bio": "Designer UI/UX produit pour Tadado et étudiante en architecture à l'université de la Démocratie d'İzmir. Façonne le langage visuel, le flux d'interaction et l'expérience de jeu, des cartes aux écrans.",
-        "funFacts": [
-          "Pense à la perception spatiale à l'échelle enfant le jour, aux mises en page de cartes la nuit.",
-          "A piloté le design produit de Tadado de bout en bout, du premier wireframe aux écrans finis.",
-          "Remarquera si le rayon d'un bouton est décalé de 2 pixels. Avec politesse."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

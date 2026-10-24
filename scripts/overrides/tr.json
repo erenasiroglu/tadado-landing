@@ -342,8 +342,9 @@
     }
   },
   "pricing": {
-    "title": "Basit, dürüst fiyatlandırma",
-    "subtitle": "Gizli abonelik yok. İstediğin için bir kez öde.",
+    "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
+    "subtitle": "Ücretsiz indir, hemen oyna. Premium desteleri veya yapay zeka paketlerini tek seferlik satın alımla ekle. Abonelik asla yok.",
+    "oneTime": "tek seferlik",
     "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Satın alımlar Apple veya Google üzerinden yapılır.",
     "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle",
     "free": {
@@ -591,17 +592,11 @@
     "subtitle": "Kartların arkasındaki minik ekip.",
     "intro": "Kurumsal biyografi yazmak yerine parti oyunu çıkarmayı tercih eden iki kişilik minik bir ekibiz. Biri kaosu kodluyor, biri kartları tasarlıyor.",
     "back": "Tadado'ya dön",
-    "funFactsLabel": "Eğlenceli gerçekler",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Yazılım Geliştirici",
         "bio": "Tadado'yu ve mobil uygulamaları React Native, Next.js ve Node.js ile geliştiren full-stack developer. Yönetim Bilişim Sistemleri mezunu; temiz kod ve oyuncu dostu tasarımı ön planda tutuyor.",
-        "funFacts": [
-          "Pulse FinTech'te çalışırken Tadado'yu fikirden App Store'a taşıdı.",
-          "Saat 02:00'de production debug yapar, ama yalnızca süre doğru sayıyorsa.",
-          "En iyi parti oyununun sıfır tutorial ve maksimum tekrar oynanabilirlik gerektiğine inanıyor."
-        ],
         "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobil Oyunlar", "FinTech"],
         "websiteCta": "erenasiroglu.de'yi ziyaret et"
       },
@@ -609,11 +604,6 @@
         "name": "Nur Günen",
         "role": "Ürün Tasarımcısı",
         "bio": "Tadado için ürün UI/UX tasarımcısı ve İzmir Demokrasi Üniversitesi mimarlık öğrencisi. Görsel dili, etkileşim akışını ve oyun deneyimini kartlardan ekranlara taşıyor.",
-        "funFacts": [
-          "Gündüz çocuk ölçeğinde mekân algısını, gece kart düzenlerini düşünüyor.",
-          "Tadado'nun uçtan uca ürün tasarımını ilk wireframe'den cilalı oyun ekranlarına kadar yönetti.",
-          "Buton radius'un 2 piksel kaydığını fark eder. Nazikçe."
-        ],
         "skills": ["UI/UX", "Figma", "Etkileşim Tasarımı", "Oyun Deneyimi", "Mekân Tasarımı", "Procreate"],
         "websiteCta": "nurgunen.com'u ziyaret et"
       }

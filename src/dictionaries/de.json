@@ -357,6 +357,37 @@
       "guides": "Guides und Spieleabend-Ideen →"
     }
   },
+  "geniusEvent": {
+    "tag": "Neues Event",
+    "title": "Genius Only: Die schwersten Wörter",
+    "body": "Die 150 schwersten Wörter in jeder Sprache, von Fachbegriffen bis zu kniffligen Konzepten. Nur die klügste Person bringt sie rüber.",
+    "note": "Finde das Genius-Only-Event im App Store und bei Google Play.",
+    "cta": "Deck entdecken"
+  },
+  "trust": {
+    "eyebrow": "Für dich gemacht",
+    "title": "Gemacht zum gemeinsamen Lachen. Nicht für deine Daten.",
+    "subtitle": "Tadado gibt es aus einem einzigen Grund: damit du und deine Freunde rund um ein Handy spielen, reden und lachen. Das ist unser Versprechen.",
+    "items": [
+      {
+        "title": "Spielen ohne Konto",
+        "body": "Herunterladen und sofort eine Runde starten. Das Grundspiel braucht keine Anmeldung. Anmelden musst du dich nur, wenn du KI-Decks oder Käufe speichern willst."
+      },
+      {
+        "title": "Null Werbung, null Abos",
+        "body": "Keine Werbung unterbricht deinen Spieleabend und nichts verlängert sich heimlich. Gratis-Decks sind vom ersten Tag an dabei."
+      },
+      {
+        "title": "Einmal kaufen, für immer deins",
+        "body": "Jedes Deck und KI-Paket ist ein Einmalkauf, verknüpft mit deinem Apple- oder Google-Konto. Jederzeit auf deinen Geräten wiederherstellen."
+      },
+      {
+        "title": "Zahlungen bleiben bei Apple und Google",
+        "body": "Käufe laufen komplett über den App Store und Google Play. Wir sehen und speichern deine Kartendaten nie."
+      }
+    ],
+    "privacyLink": "Datenschutzerklärung lesen"
+  },
   "decks": {
     "title": "Wähle deinen Vibe",
     "subtitle": "Starte gratis mit Tadado Mix und schalte thematische Packs frei, wenn du bereit bist.",
@@ -369,6 +400,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "Das Schnellstart-Deck für jede Gruppe!"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "Die 150 schwersten Wörter. Nur für helle Köpfe!"
       },
       "summer": {
         "name": "Sommer",
@@ -397,8 +432,9 @@
     }
   },
   "pricing": {
-    "title": "Einfache, ehrliche Preise",
-    "subtitle": "Keine versteckten Abos. Einmal zahlen für das, was du willst.",
+    "title": "Kostenlos starten. Mehr freischalten, wenn die Runde wächst.",
+    "subtitle": "Kostenlos herunterladen und sofort losspielen. Premium-Decks oder KI-Pakete per Einmalkauf dazunehmen. Nie ein Abo.",
+    "oneTime": "einmalig",
     "disclaimer": "Preise in USD; im App Store und bei Google Play können sie je nach Region variieren. Käufe werden von Apple oder Google abgewickelt.",
     "trust": "Keine Werbung · Kein Abo · Käufe jederzeit wiederherstellen",
     "free": {
@@ -670,17 +706,11 @@
     "subtitle": "Das kleine Team hinter den Karten.",
     "intro": "Wir sind ein Zweier-Team, das lieber Partyspiele shipped als Corporate-Bios schreibt. Einer coded das Chaos, einer designt die Karten.",
     "back": "Zurück zu Tadado",
-    "funFactsLabel": "Fun Facts",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Softwareentwickler",
         "bio": "Full-Stack-Entwickler, der Tadado und Mobile Apps mit React Native, Next.js und Node.js baut. Absolvent Wirtschaftsinformatik mit Fokus auf sauberen Code und spielerfreundliches Design.",
-        "funFacts": [
-          "Hat Tadado von der Idee bis in den App Store gebracht – neben Fintech-Arbeit bei Pulse FinTech.",
-          "Debuggt Production um 2 Uhr nachts – aber nur, wenn der Timer noch korrekt runterzählt.",
-          "Glaubt, die besten Partyspiele brauchen null Tutorial und maximale Wiederspielbarkeit."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -695,11 +725,6 @@
         "name": "Nur Günen",
         "role": "Produktdesignerin",
         "bio": "Product UI/UX Designerin für Tadado und Architekturstudentin an der İzmir Democracy University. Gestaltet visuelle Sprache, Interaktionsfluss und Spielerlebnis von Karten bis Screens.",
-        "funFacts": [
-          "Denkt tagsüber über räumliche Wahrnehmung im Kindermaßstab nach, nachts über Kartenlayouts.",
-          "Hat Tadados End-to-End-Produktdesign vom ersten Wireframe bis zu polierten Spielscreens geleitet.",
-          "Merkt, wenn dein Button-Radius um 2 Pixel abweicht. Höflich."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

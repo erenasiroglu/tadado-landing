@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "Prosty, uczciwy cennik",
-    "subtitle": "Bez ukrytych subskrypcji. Płać raz za to, czego chcesz.",
+    "title": "Zacznij za darmo. Odblokuj więcej, gdy impreza się rozkręci.",
+    "subtitle": "Pobierz za darmo i graj od razu. Dodaj talie premium lub pakiety AI jednorazowym zakupem. Nigdy żadnej subskrypcji.",
+    "oneTime": "jednorazowo",
     "disclaimer": "Ceny w USD; w App Store i Google Play mogą się różnić w zależności od regionu. Zakupy obsługują Apple lub Google.",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "Mały zespół za kartami.",
     "intro": "Jesteśmy dwuosobowym zespołem, który woli wypuszczać gry imprezowe niż pisać korporacyjne bio. Jeden koduje chaos, drugi projektuje karty.",
     "back": "Wróć do Tadado",
-    "funFactsLabel": "Ciekawostki",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Software Developer",
         "bio": "Full-stack developer tworzący Tadado i aplikacje mobilne w React Native, Next.js i Node.js. Absolwent systemów informacji zarządczych, skupiony na czystym kodzie i designie przyjaznym graczom.",
-        "funFacts": [
-          "Doprowadził Tadado od pomysłu do App Store, łącząc pracę w fintechu w Pulse FinTech.",
-          "Debuguje produkcję o 2 w nocy – ale tylko jeśli timer nadal poprawnie odlicza.",
-          "Wierzy, że najlepsze gry imprezowe potrzebują zero tutorialu i maksymalnej powtarzalności."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "Product Designer",
         "bio": "Projektantka UI/UX produktu Tadado i studentka architektury na İzmir Democracy University. Kształtuje język wizualny, przepływ interakcji i doświadczenie gry od kart po ekrany.",
-        "funFacts": [
-          "Dniem myśli o percepcji przestrzeni w skali dziecka, nocą o układach kart.",
-          "Poprowadziła end-to-end design produktu Tadado od pierwszego wireframe'u do dopracowanych ekranów gry.",
-          "Zauważy, jeśli promień przycisku jest przesunięty o 2 piksele. Grzecznie."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

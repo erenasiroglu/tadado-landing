@@ -357,6 +357,37 @@
       "guides": "Guide e idee per serate di gioco →"
     }
   },
+  "geniusEvent": {
+    "tag": "Nuovo evento",
+    "title": "Genius Only: le parole più difficili",
+    "body": "Le 150 parole più difficili in ogni lingua, dai termini scientifici ai concetti più ostici. Solo l'amico più sveglio riesce a farle indovinare.",
+    "note": "Cerca l'evento Genius Only su App Store e Google Play.",
+    "cta": "Scopri il mazzo"
+  },
+  "trust": {
+    "eyebrow": "Pensato per te",
+    "title": "Fatto per ridere insieme. Non per i tuoi dati.",
+    "subtitle": "Tadado esiste per un solo motivo: farti giocare, chiacchierare e ridere con i tuoi amici attorno a un solo telefono. Ecco la nostra promessa.",
+    "items": [
+      {
+        "title": "Gioca senza account",
+        "body": "Scarica e inizia subito una partita. Il gioco base non richiede registrazione. Accedi solo se vuoi salvare mazzi IA o acquisti."
+      },
+      {
+        "title": "Zero pubblicità, zero abbonamenti",
+        "body": "Nessuna pubblicità interrompe la tua serata e niente si rinnova a tua insaputa. I mazzi gratuiti sono inclusi fin dal primo giorno."
+      },
+      {
+        "title": "Compri una volta, resta tuo",
+        "body": "Ogni mazzo e pacchetto IA è un acquisto una tantum collegato al tuo account Apple o Google. Ripristinalo sui tuoi dispositivi quando vuoi."
+      },
+      {
+        "title": "I pagamenti restano ad Apple e Google",
+        "body": "Gli acquisti sono gestiti interamente da App Store e Google Play. Non vediamo né conserviamo mai i dati della tua carta."
+      }
+    ],
+    "privacyLink": "Leggi la nostra informativa sulla privacy"
+  },
   "decks": {
     "title": "Scegli il tuo stile",
     "subtitle": "Inizia gratis con Tadado Mix, poi sblocca pacchetti tematici quando vuoi.",
@@ -369,6 +400,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "Il mazzo rapido per ogni gruppo!"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "Le 150 parole più difficili. Solo per geni!"
       },
       "summer": {
         "name": "Estate",
@@ -397,8 +432,9 @@
     }
   },
   "pricing": {
-    "title": "Prezzi semplici e onesti",
-    "subtitle": "Nessun abbonamento nascosto. Paga una volta per quello che vuoi.",
+    "title": "Inizia gratis. Sblocca di più quando la festa cresce.",
+    "subtitle": "Scarica gratis e gioca subito. Aggiungi mazzi premium o pacchetti IA con acquisti una tantum. Mai abbonamenti.",
+    "oneTime": "una tantum",
     "disclaimer": "I prezzi sono in USD e possono variare per regione su App Store e Google Play. Gli acquisti sono gestiti da Apple o Google.",
     "trust": "Senza pubblicità · Senza abonnamento · Ripristina acquisti quando vuoi",
     "free": {
@@ -670,17 +706,11 @@
     "subtitle": "Il piccolo team dietro le carte.",
     "intro": "Siamo un team di due maker che preferisce lanciare giochi da festa piuttosto che scrivere bio corporate. Uno programma il caos, l'altra disegna le carte.",
     "back": "Torna a Tadado",
-    "funFactsLabel": "Curiosità",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Sviluppatore software",
         "bio": "Sviluppatore full-stack che costruisce Tadado e app mobile con React Native, Next.js e Node.js. Laureato in Sistemi Informativi Aziendali, focalizzato su codice pulito e design pensato per il giocatore.",
-        "funFacts": [
-          "Ha portato Tadado dall'idea all'App Store mentre lavorava in fintech da Pulse FinTech.",
-          "Debugga la produzione alle 2 di notte, ma solo se il timer conta ancora correttamente.",
-          "Crede che i migliori giochi da festa richiedano zero tutorial e massima rigiocabilità."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -695,11 +725,6 @@
         "name": "Nur Günen",
         "role": "Product designer",
         "bio": "Product UI/UX designer per Tadado e studentessa di architettura all'Università della Democrazia di İzmir. Definisce linguaggio visivo, flusso di interazione ed esperienza di gioco, dalle carte agli schermi.",
-        "funFacts": [
-          "Pensa alla percezione spaziale in scala infantile di giorno, ai layout delle carte di notte.",
-          "Ha guidato il design prodotto di Tadado end-to-end, dal primo wireframe agli schermi rifiniti.",
-          "Noterà se il raggio di un pulsante è sbagliato di 2 pixel. Con educazione."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

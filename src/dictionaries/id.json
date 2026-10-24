@@ -357,6 +357,37 @@
       "guides": "Panduan dan ide malam permainan →"
     }
   },
+  "geniusEvent": {
+    "tag": "Event baru",
+    "title": "Genius Only: Kata Tersulit",
+    "body": "150 kata tersulit di setiap bahasa, dari istilah sains sampai konsep rumit. Hanya teman paling cerdas yang bisa menjelaskannya.",
+    "note": "Cari event Genius Only di App Store dan Google Play.",
+    "cta": "Lihat deknya"
+  },
+  "trust": {
+    "eyebrow": "Dibuat untukmu",
+    "title": "Dibuat untuk tertawa bersama. Bukan untuk datamu.",
+    "subtitle": "Tadado ada untuk satu alasan: supaya kamu dan teman-teman bisa main, ngobrol, dan tertawa di sekitar satu ponsel. Ini janji kami.",
+    "items": [
+      {
+        "title": "Main tanpa akun",
+        "body": "Unduh dan langsung mulai ronde. Game utamanya tidak perlu daftar. Kamu hanya masuk kalau ingin menyimpan dek AI atau pembelian."
+      },
+      {
+        "title": "Nol iklan, nol langganan",
+        "body": "Tidak ada iklan yang mengganggu malam permainanmu dan tidak ada yang diperpanjang diam-diam. Dek gratis sudah ada sejak hari pertama."
+      },
+      {
+        "title": "Sekali beli, jadi milikmu",
+        "body": "Setiap dek dan paket AI adalah pembelian sekali yang terhubung ke akun Apple atau Google-mu. Pulihkan di perangkatmu kapan saja."
+      },
+      {
+        "title": "Pembayaran tetap di Apple dan Google",
+        "body": "Pembelian sepenuhnya diproses oleh App Store dan Google Play. Kami tidak pernah melihat atau menyimpan data kartumu."
+      }
+    ],
+    "privacyLink": "Baca kebijakan privasi kami"
+  },
   "decks": {
     "title": "Pilih vibemu",
     "subtitle": "Mulai gratis dengan Tadado Mix, lalu buka paket bertema saat kamu siap.",
@@ -369,6 +400,10 @@
       "mix": {
         "name": "Tadado Mix",
         "desc": "Deste cepat untuk setiap grup!"
+      },
+      "genius": {
+        "name": "Genius Only",
+        "desc": "150 kata tersulit. Khusus otak encer!"
       },
       "summer": {
         "name": "Musim Panas",
@@ -397,8 +432,9 @@
     }
   },
   "pricing": {
-    "title": "Harga sederhana dan jujur",
-    "subtitle": "Tanpa langganan tersembunyi. Bayar sekali untuk yang kamu mau.",
+    "title": "Mulai gratis. Buka lebih banyak saat pesta makin seru.",
+    "subtitle": "Unduh gratis dan langsung main. Tambahkan dek premium atau paket AI dengan sekali beli. Tanpa langganan, selamanya.",
+    "oneTime": "sekali beli",
     "disclaimer": "Harga dalam USD dan dapat bervariasi menurut wilayah di App Store dan Google Play. Pembelian ditangani Apple atau Google.",
     "trust": "Tanpa iklan · Tanpa langganan · Pulihkan pembelian kapan saja",
     "free": {
@@ -670,17 +706,11 @@
     "subtitle": "Tim kecil di balik kartu-kartu.",
     "intro": "Kami tim dua pengembang yang lebih suka merilis game pesta daripada menulis bio korporat. Satu mengode kekacauan, satu mendesain kartu.",
     "back": "Kembali ke Tadado",
-    "funFactsLabel": "Fakta seru",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Pengembang Perangkat Lunak",
         "bio": "Full-stack developer yang membangun Tadado dan aplikasi mobile dengan React Native, Next.js, dan Node.js. Lulusan Management Information Systems yang fokus pada kode bersih dan desain ramah pemain.",
-        "funFacts": [
-          "Merilis Tadado dari ide ke App Store sambil juggling pekerjaan fintech di Pulse FinTech.",
-          "Akan debug production jam 2 pagi, tapi hanya jika timer masih menghitung mundur dengan benar.",
-          "Percaya game pesta terbaik butuh nol tutorial dan replayability maksimal."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -695,11 +725,6 @@
         "name": "Nur Günen",
         "role": "Desainer Produk",
         "bio": "Product UI/UX designer untuk Tadado dan mahasiswa arsitektur di İzmir Democracy University. Membentuk bahasa visual, alur interaksi, dan pengalaman game dari kartu ke layar.",
-        "funFacts": [
-          "Memikirkan persepsi spasial skala anak di siang hari, tata letak kartu di malam hari.",
-          "Memimpin desain produk end-to-end Tadado dari wireframe pertama ke layar game yang polished.",
-          "Akan memperhatikan jika radius tombolmu meleset 2 piksel. Dengan sopan."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

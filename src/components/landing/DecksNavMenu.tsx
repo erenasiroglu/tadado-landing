@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { buildDeckOverlayStyle, DECK_CARD_CONFIGS } from "@/lib/deck-cards";
 import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
@@ -20,6 +20,15 @@ interface DecksNavMenuProps {
 export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps) {
   const [open, setOpen] = useState(false);
   const viewAllLabel = dict.ui.viewAllDecks;
+
+  useEffect(() => {
+    if (!open) return;
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") setOpen(false);
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [open]);
 
   return (
     <div className="relative">
@@ -42,7 +51,7 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
             aria-label={dict.a11y.closeLanguageMenu}
             onClick={() => setOpen(false)}
           />
-          <div className="absolute left-0 z-50 mt-2 w-[min(100vw-2rem,16rem)] rounded-xl border border-border bg-paper p-1.5 shadow-xl shadow-black/40 backdrop-blur-xl lg:left-auto lg:right-0">
+          <div className="absolute left-0 z-50 mt-2 w-[min(calc(100vw-2rem),17rem)] rounded-[1.25rem] border border-border bg-paper p-2 shadow-[0_24px_48px_rgb(26_15_41/0.18)] lg:left-auto lg:right-0">
             <ul>
               {SEO_DECK_KEYS.map((key) => {
                 const item = dict.decks.items[key];
@@ -53,11 +62,11 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                   <li key={key}>
                     <Link
                       href={href}
-                      className="flex items-center gap-2.5 rounded-lg px-2 py-1.5 transition hover:bg-lilac"
+                      className="flex items-center gap-3 rounded-sm px-2 py-1.5 transition hover:bg-lilac"
                       onClick={() => setOpen(false)}
                     >
                       <div
-                        className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full ring-1 ring-white/10"
+                        className="relative h-9 w-9 shrink-0 overflow-hidden rounded-full ring-1 ring-ink/10"
                         style={{ backgroundColor: config.illustrationBackgroundColor }}
                       >
                         <Image
@@ -77,10 +86,10 @@ export function DecksNavMenu({ locale, dict, linkClassName }: DecksNavMenuProps)
                 );
               })}
             </ul>
-            <div className="mt-1 border-t border-border pt-1">
+            <div className="mt-1.5 border-t border-border pt-1.5">
               <Link
                 href={getDecksHubHref(locale)}
-                className="block rounded-lg px-2 py-2 text-center text-xs font-semibold text-muted-foreground hover:bg-lilac hover:text-ink"
+                className="block rounded-sm px-2 py-2.5 text-center text-xs font-semibold text-muted-foreground hover:bg-lilac hover:text-ink"
                 onClick={() => setOpen(false)}
               >
                 {viewAllLabel}

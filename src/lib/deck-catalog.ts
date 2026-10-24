@@ -9,7 +9,7 @@ export function isFreeDeck(key: DeckKey): boolean {
 }
 
 export function deckHasNewBadge(key: DeckKey): boolean {
-  return key === "summer";
+  return key === "genius";
 }
 
 export function getDeckHref(locale: Locale, key: DeckKey): string {
@@ -23,7 +23,8 @@ export function getDecksHubHref(locale: Locale): string {
 /** Related decks for internal linking (2–3 per page). */
 export function getRelatedDeckKeys(key: DeckKey): DeckKey[] {
   const related: Record<DeckKey, DeckKey[]> = {
-    mix: ["cinema", "sport", "summer"],
+    mix: ["genius", "cinema", "sport"],
+    genius: ["cinema", "travel", "heroes"],
     summer: ["cinema", "travel", "mix"],
     cinema: ["heroes", "summer", "midnight"],
     travel: ["summer", "sport", "cinema"],

@@ -8,7 +8,8 @@ export type ArticleId =
   | "create-ai-deck"
   | "icebreaker-games"
   | "word-games-like-taboo"
-  | "best-word-game-apps";
+  | "best-word-game-apps"
+  | "halloween-party-games";
 
 export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>> = {
   "how-to-play-taboo": {
@@ -162,6 +163,17 @@ export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>
     hi: "best-word-game-apps",
     id: "aplikasi-game-kata-terbaik",
     vi: "ung-dung-tro-choi-tu-tot-nhat",
+  },
+  "halloween-party-games": {
+    en: "halloween-games-to-play-with-friends",
+    tr: "cadilar-bayrami-arkadaslarla-oyunlar",
+    es: "juegos-de-halloween-con-amigos",
+    "pt-BR": "jogos-de-halloween-com-amigos",
+    de: "halloween-spiele-mit-freunden",
+    fr: "jeux-halloween-entre-amis",
+    it: "giochi-di-halloween-con-amici",
+    pl: "gry-na-halloween-ze-znajomymi",
+    ja: "halloween-game-tomodachi",
   },
 };
 

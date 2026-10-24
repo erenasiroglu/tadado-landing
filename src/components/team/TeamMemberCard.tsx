@@ -1,8 +1,10 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
 import { m, useReducedMotion } from "motion/react";
 
-import { MotionLink } from "@/components/motion/MotionLink";
+import { Tag } from "@/components/brand/tag";
+import { TadadoMascotSvg } from "@/components/team/TadadoMascotSvg";
 import { cardHover } from "@/lib/motion";
 import type { TeamMemberId, TeamMemberMeta } from "@/lib/team";
 import type { Dictionary } from "@/lib/i18n";
@@ -11,69 +13,65 @@ import { cn } from "@/lib/utils";
 interface TeamMemberCardProps {
   member: TeamMemberMeta;
   content: Dictionary["team"]["members"][TeamMemberId];
-  funFactsLabel: string;
 }
 
-export function TeamMemberCard({ member, content, funFactsLabel }: TeamMemberCardProps) {
+export function TeamMemberCard({ member, content }: TeamMemberCardProps) {
   const reduceMotion = useReducedMotion();
+  const dark = member.id === "eren";
 
   return (
     <m.article
-      className={cn(
-        "group surface-card relative flex h-full flex-col overflow-hidden p-4 sm:p-5",
-        "transition-colors hover:border-border",
-      )}
-      whileHover={reduceMotion ? undefined : { y: -3 }}
+      className="group flex h-full flex-col overflow-hidden rounded-lg surface-paper"
+      whileHover={reduceMotion ? undefined : { y: -4 }}
       transition={cardHover.transition}
     >
-      <div className="flex flex-wrap items-start justify-between gap-3">
-        <div>
-          <p className="text-xs font-bold uppercase tracking-[0.16em] text-muted-foreground">{content.role}</p>
-          <h3 className="mt-1 text-xl font-extrabold text-foreground sm:text-2xl">{content.name}</h3>
-        </div>
-        <span className="detail-chip py-1 text-[11px]">{member.id === "eren" ? "BUILD" : "DESIGN"}</span>
+      <div
+        className={cn(
+          "team-member-stage relative flex h-60 items-end justify-center overflow-hidden sm:h-64",
+          dark ? "team-member-stage--dark" : "team-member-stage--light",
+        )}
+      >
+        <Tag tone={dark ? "onDark" : "solid"} className="absolute top-5 left-5">
+          {member.id === "eren" ? "Build" : "Design"}
+        </Tag>
+        <TadadoMascotSvg
+          variant={member.mascotVariant}
+          className="relative -mb-2 max-w-[10.5rem] drop-shadow-[0_18px_24px_rgb(26_15_41/0.28)]"
+        />
       </div>
 
-      <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{content.bio}</p>
+      <div className="flex flex-1 flex-col p-6 sm:p-8">
+        <p className="eyebrow text-[0.6875rem]">{content.role}</p>
+        <h3 className="mt-2 text-2xl font-extrabold tracking-[-0.03em] text-foreground sm:text-3xl">
+          {content.name}
+        </h3>
+        <p className="mt-3 text-sm leading-relaxed text-muted-foreground sm:text-base sm:leading-relaxed">
+          {content.bio}
+        </p>
 
-      <div className="mt-4 flex flex-wrap gap-1.5">
-        {content.skills.map((skill) => (
-          <span key={skill} className="topic-pill text-[11px]">
-            {skill}
-          </span>
-        ))}
-      </div>
-
-      <details className="mt-5 group/details">
-        <summary className="cursor-pointer text-sm font-semibold text-ink transition-colors hover:text-muted-foreground marker:content-none [&::-webkit-details-marker]:hidden">
-          <span className="inline-flex items-center gap-1.5">
-            {funFactsLabel}
-            <span className="text-muted-foreground transition-transform group-open/details:rotate-90">
-              →
-            </span>
-          </span>
-        </summary>
-        <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-          {content.funFacts.map((fact) => (
-            <li key={fact} className="flex gap-2">
-              <span className="text-ink" aria-hidden>
-                •
-              </span>
-              <span>{fact}</span>
+        <ul className="mt-5 flex flex-wrap gap-2">
+          {content.skills.map((skill) => (
+            <li
+              key={skill}
+              className="rounded-full bg-mist px-3 py-1.5 text-xs font-semibold text-ink/80 ring-1 ring-ink/10 ring-inset"
+            >
+              {skill}
             </li>
           ))}
         </ul>
-      </details>
 
-      <MotionLink
-        href={member.websiteUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-auto inline-flex cursor-pointer items-center gap-2 pt-6 text-sm font-semibold text-ink transition-colors hover:text-muted-foreground"
-      >
-        {content.websiteCta}
-        <span aria-hidden>↗</span>
-      </MotionLink>
+        <a
+          href={member.websiteUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-auto inline-flex w-fit items-center gap-1.5 pt-7 text-sm font-bold text-ink transition-colors hover:text-plum"
+        >
+          <span className="underline decoration-ink/20 underline-offset-4 transition-colors group-hover:decoration-ink">
+            {content.websiteCta}
+          </span>
+          <ArrowUpRight className="size-4" aria-hidden />
+        </a>
+      </div>
     </m.article>
   );
 }

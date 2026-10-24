@@ -1,5 +1,7 @@
 import type { DeckPageContentMap } from "@/lib/deck-page-types";
 
+import { GENIUS_DECK_PAGES } from "./genius";
+
 export const EN_DECK_PAGES: DeckPageContentMap = {
   mix: {
     metaTitle: "Tadado Mix Free Party Deck | Taboo and Heads Up Starter",
@@ -182,4 +184,5 @@ export const EN_DECK_PAGES: DeckPageContentMap = {
       },
     ],
   },
+  genius: GENIUS_DECK_PAGES.en,
 };

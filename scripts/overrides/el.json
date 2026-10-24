@@ -397,8 +397,9 @@
     }
   },
   "pricing": {
-    "title": "Απλές, ειλικρινείς τιμές",
-    "subtitle": "Χωρίς κρυφές συνδρομές. Πλήρωσε μία φορά για ό,τι θέλεις.",
+    "title": "Ξεκίνα δωρεάν. Ξεκλείδωσε περισσότερα όσο μεγαλώνει το πάρτι.",
+    "subtitle": "Κατέβασε δωρεάν και παίξε αμέσως. Πρόσθεσε premium τράπουλες ή πακέτα AI με εφάπαξ αγορές. Ποτέ συνδρομή.",
+    "oneTime": "εφάπαξ",
     "disclaimer": "Οι τιμές είναι σε USD και μπορεί να διαφέρουν ανά περιοχή στο App Store και Google Play. Οι αγορές γίνονται από Apple ή Google.",
     "mix": {
       "name": "Tadado Mix",
@@ -644,17 +645,11 @@
     "subtitle": "Η μικρή ομάδα πίσω από τις κάρτες.",
     "intro": "Είμαστε δύο builders που προτιμούν να κυκλοφορούν party games παρά να γράφουν corporate bios. Ο ένας κωδικοποιεί το χάος, η άλλη σχεδιάζει τις κάρτες.",
     "back": "Πίσω στο Tadado",
-    "funFactsLabel": "Fun facts",
     "members": {
       "eren": {
         "name": "Eren Nasıroğlu",
         "role": "Software Developer",
         "bio": "Full-stack developer που χτίζει Tadado και mobile apps με React Native, Next.js και Node.js. Απόφοιτος Πληροφοριακών Συστημάτων Διοίκησης, με έμφαση σε καθαρό κώδικα και design φιλικό στον παίκτη.",
-        "funFacts": [
-          "Έφτασε το Tadado από ιδέα στο App Store ενώ δούλευε σε fintech στην Pulse FinTech.",
-          "Θα κάνει debug production στις 2 π.μ., αλλά μόνο αν ο χρονόμετρος μετράει σωστά.",
-          "Πιστεύει ότι τα καλύτερα party games χρειάζονται μηδέν tutorial και μέγιστη επαναληψιμότητα."
-        ],
         "skills": [
           "React Native",
           "Next.js",
@@ -669,11 +664,6 @@
         "name": "Nur Günen",
         "role": "Product Designer",
         "bio": "Product UI/UX designer για Tadado και φοιτήτρια αρχιτεκτονικής στο İzmir Democracy University. Διαμορφώνει οπτική γλώσσα, ροή αλληλεπίδρασης και εμπειρία παιχνιδιού από κάρτες σε οθόνες.",
-        "funFacts": [
-          "Σκέφτεται χωρική αντίληψη παιδικής κλίμακας μέρα, layouts καρτών νύχτα.",
-          "Ηγήθηκε του end-to-end product design του Tadado από το πρώτο wireframe μέχρι τις polished οθόνες παιχνιδιού.",
-          "Θα παρατηρήσει αν η ακτίνα του κουμπιού είναι 2 pixels εκτός. Ευγενικά."
-        ],
         "skills": [
           "UI/UX",
           "Figma",

@@ -4,6 +4,7 @@ import { isFullContentLocale } from "@/lib/i18n-fallback";
 import type { Locale } from "@/lib/i18n-config";
 
 import { EN_DECK_PAGES } from "./en";
+import { GENIUS_DECK_PAGES } from "./genius";
 import { LOCALE_DECK_BODIES } from "./locale-bodies";
 import { LOCALE_DECK_STUBS } from "./locale-stubs";
 import { LOCALE_DECK_STUBS_BUILT } from "./locale-stubs-build";
@@ -14,6 +15,10 @@ function mergeStub(base: DeckPageContent, stub: Partial<DeckPageContent>): DeckP
 }
 
 export function getDeckPageContent(locale: Locale, key: DeckKey): DeckPageContent {
+  if (key === "genius") {
+    return GENIUS_DECK_PAGES[locale];
+  }
+
   if (locale === "tr") {
     return TR_DECK_PAGES[key];
   }

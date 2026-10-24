@@ -7,7 +7,8 @@ export type DeckKey =
   | "travel"
   | "sport"
   | "heroes"
-  | "midnight";
+  | "midnight"
+  | "genius";
 
 export interface DeckCardConfig {
   key: DeckKey;
@@ -114,6 +115,19 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
     overlayLocations: [0, 0.26, 0.68, 1],
     illustrationBackgroundColor: "#120408",
     illustrationScale: 1.06,
+  },
+  genius: {
+    key: "genius",
+    image: "/images/deck-cards/genius-only-deck-illustration.webp",
+    overlayColors: [
+      "rgba(255, 216, 74, 0.1)",
+      "rgba(56, 20, 93, 0.04)",
+      "rgba(42, 15, 92, 0.55)",
+      "rgba(12, 6, 36, 0.94)",
+    ],
+    overlayLocations: [0, 0.24, 0.66, 1],
+    illustrationBackgroundColor: "#0c0624",
+    illustrationScale: 1.04,
   },
 };
 
