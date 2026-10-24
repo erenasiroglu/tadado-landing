@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "محبوب في أمسيات اللعب",
-    "subtitle": "مراجعات حقيقية من App Store من لاعبين جربوا Tadado مع الأصدقاء.",
-    "appStoreRating": "5.0 على App Store",
-    "appStoreCount": "8 تقييمات",
+    "subtitle": "مراجعات حقيقية من App Store وGoogle Play من لاعبين جربوا Tadado مع الأصدقاء.",
+    "appStoreRating": "{rating} على App Store",
+    "appStoreCount": "عدد التقييمات: {count}",
     "sourceLabel": "مراجعة App Store",
+    "playRating": "{rating} على Google Play",
+    "playAvailable": "متوفر الآن على Google Play",
+    "playSourceLabel": "مراجعة Google Play",
     "items": [
       {
         "quote": "وجدناه مع الأصدقاء ونزلناه. التصميم والواجهة رائعان حقًا. إنشاء بطاقات بالذكاء الاصطناعي حسب اهتماماتنا أسعدنا كثيرًا. يمكن للجميع إنشاء بطاقات لاهتماماتهم ولا تتكرر الكلمات. مبروك.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "جاري الإنشاء",
     "simulationStepPreview": "ظهور البطاقات",
     "simulationStepReady": "جاهز للعب",
-    "simulationWriting": "AI يكتب الكلمات المحظورة…"
+    "simulationWriting": "AI يكتب الكلمات المحظورة…",
+    "bothModesTitle": "مجموعة واحدة، وضعان للعب",
+    "bothModesBody": "كل مجموعة تنشئها بالذكاء الاصطناعي تعمل في الكلمات المحظورة وفي Heads Up. أنشئها مرة واحدة وبدّل الوضع متى شاءت المجموعة.",
+    "sameDeck": "المجموعة نفسها"
   },
   "trending": {
     "title": "ماذا نلعب الليلة؟",
@@ -356,6 +362,31 @@
       "title": "تقارنها بلعبة أخرى؟",
       "guides": "أدلة وأفكار لأمسيات اللعب →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "قارن ألعاب السهرات",
+    "hubTitle": "Tadado مقابل الألعاب التي يحبها أصدقاؤك",
+    "hubSubtitle": "برا السالفة، المافيا وغيرها. نقارن بصدق أين تتألق كل لعبة، ولماذا تختار المجموعات Tadado لسهرة الألعاب.",
+    "localTitle": "الألعاب الأكثر شعبية في العالم العربي",
+    "localSubtitle": "ألعاب الكلمات والورق والسهرات الأكثر بحثًا. كل صفحة تضع اللعبة المعروفة بجانب Tadado.",
+    "classicTitle": "بدائل لتطبيقات ألعاب السهرات",
+    "tableTitle": "Tadado مقابل تطبيقات السهرات المعتادة",
+    "compareLink": "قارن",
+    "vs": "VS",
+    "pickThem": "اختر {game} عندما",
+    "pickTadado": "اختر Tadado عندما",
+    "aboutTitle": "ما هي {game}؟",
+    "tableHeading": "{game} مقابل Tadado باختصار",
+    "feature": "الميزة",
+    "varies": "حسب التطبيق",
+    "stepsTitle": "انقل أجواء {game} إلى Tadado الليلة",
+    "faqTitle": "{game} مقابل Tadado: أسئلة شائعة",
+    "relatedTitle": "مقارنات أخرى",
+    "ctaTitle": "سهرة الألعاب القادمة تبدأ مجانًا",
+    "ctaBody": "حمّل Tadado، وافتح مجموعة Tadado Mix المجانية، والعب الكلمات المحظورة أو Heads Up خلال ثوانٍ. هاتف واحد يكفي.",
+    "ctaButton": "حمّل Tadado مجانًا",
+    "freeNote": "تحميل مجاني · بدون إعلانات · بدون اشتراك",
+    "disclaimer": "يُذكر اسم {game} فقط لوصف لعبة أو طريقة لعب معروفة. جميع العلامات التجارية مملوكة لأصحابها، وTadado غير تابع لهم ولا يحظى بتأييدهم. الملاحظات حول {game} تصف الطريقة الكلاسيكية والإصدارات الشائعة، وقد تختلف التطبيقات والإصدارات، لذا راجع صفحة كل متجر."
   },
   "geniusEvent": {
     "tag": "فعالية جديدة",

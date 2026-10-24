@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 
-import { findArticleBySlug, getArticleAlternates } from "@/lib/article-registry";
+import {
+  findArticleBySlug,
+  getArticleAlternates,
+} from "@/lib/article-registry";
 import { getAllBlogSlugs, getBlogPostDate } from "@/lib/blog";
 import { BRAND } from "@/lib/brand";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
@@ -13,6 +16,11 @@ import {
   buildLanguageAlternates,
 } from "@/lib/seo";
 import { allAlternativeSlugParams } from "@/lib/alternative-pages";
+import {
+  getGameComparisons,
+  gameComparisonHref,
+  gameComparisonLanguageAlternates,
+} from "@/lib/game-comparisons";
 import { alternativeIdFromSlug } from "@/lib/alternative-pages/slugs";
 import { getSeoGuides } from "@/lib/seo-guides";
 
@@ -43,49 +51,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push(
       {
         url: `${base}/${locale}/affiliate`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: affiliateLanguages },
       },
       {
         url: `${base}/${locale}/partnerships`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: partnershipsLanguages },
       },
       {
         url: `${base}/${locale}/compare`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.75,
         alternates: { languages: compareLanguages },
       },
       {
         url: `${base}/${locale}/guides`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.75,
         alternates: { languages: guidesLanguages },
       },
       {
         url: `${base}/${locale}/team`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: teamLanguages },
       },
       {
         url: `${base}/${locale}/trending`,
-          changeFrequency: "weekly",
+        changeFrequency: "weekly",
         priority: 0.8,
         alternates: { languages: trendingLanguages },
       },
       {
         url: `${base}/${locale}/support`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.65,
         alternates: { languages: supportLanguages },
       },
       {
         url: `${base}/${locale}/marketing`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: marketingLanguages },
       },
@@ -111,13 +119,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push(
       {
         url: `${base}/${locale}/terms-of-use`,
-          changeFrequency: "yearly",
+        changeFrequency: "yearly",
         priority: 0.3,
         alternates: { languages: termsLanguages },
       },
       {
         url: `${base}/${locale}/privacy-policy`,
-          changeFrequency: "yearly",
+        changeFrequency: "yearly",
         priority: 0.3,
         alternates: { languages: privacyLanguages },
       },
@@ -173,7 +181,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       const slug = deckSlugFor(locale as Locale, key);
       entries.push({
         url: `${base}/${locale}/decks/${slug}`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: key === "midnight" ? 0.8 : 0.75,
         alternates: { languages: buildDeckLanguageAlternates(key) },
       });
@@ -184,8 +192,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const guide of getSeoGuides(locale as Locale)) {
       entries.push({
         url: `${base}/${locale}/guides/${guide.slug}`,
-          changeFrequency: "monthly",
+        changeFrequency: "monthly",
         priority: 0.7,
+      });
+    }
+  }
+
+  for (const locale of LOCALES) {
+    for (const page of getGameComparisons(locale as Locale)) {
+      entries.push({
+        url: `${base}${gameComparisonHref(locale as Locale, page.slug)}`,
+        changeFrequency: "monthly",
+        priority: 0.75,
+        alternates: { languages: gameComparisonLanguageAlternates(page.id) },
       });
     }
   }
@@ -196,7 +215,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${base}/${lang}/alternatives/${slug}`,
       changeFrequency: "monthly",
       priority: id === "nebuu" ? 0.78 : 0.72,
-      alternates: id ? { languages: buildAlternativeLanguageAlternates(id) } : undefined,
+      alternates: id
+        ? { languages: buildAlternativeLanguageAlternates(id) }
+        : undefined,
     });
   }
 

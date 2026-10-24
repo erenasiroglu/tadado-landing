@@ -98,10 +98,13 @@
   },
   "reviews": {
     "title": "Loved at game night",
-    "subtitle": "Real App Store reviews from players who tried Tadado with friends. Some are translated from Turkish.",
-    "appStoreRating": "5.0 on the App Store",
-    "appStoreCount": "8 ratings",
+    "subtitle": "Real reviews from App Store and Google Play players who tried Tadado with friends.",
+    "appStoreRating": "{rating} on the App Store",
+    "appStoreCount": "{count} ratings",
     "sourceLabel": "App Store review",
+    "playRating": "{rating} on Google Play",
+    "playAvailable": "Now on Google Play",
+    "playSourceLabel": "Google Play review",
     "items": [
       {
         "quote": "We found it with friends and downloaded it. The design and UI are really good. Creating cards with AI for our own interests made us very happy. Everyone can create cards for their interests and words do not repeat. Congratulations.",
@@ -290,7 +293,10 @@
     "simulationStepGenerate": "Generating",
     "simulationStepPreview": "Cards appear",
     "simulationStepReady": "Ready to play",
-    "simulationWriting": "AI is writing forbidden words…"
+    "simulationWriting": "AI is writing forbidden words…",
+    "bothModesTitle": "One deck, both game modes",
+    "bothModesBody": "Every AI deck you create works in Forbidden Words and in Heads Up. Create it once, then switch modes whenever the group wants.",
+    "sameDeck": "Same deck"
   },
   "trending": {
     "title": "What are we playing tonight?",
@@ -301,6 +307,31 @@
       "title": "Weighing it up against another game?",
       "guides": "Guides and game night ideas →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Compare party games",
+    "hubTitle": "Tadado vs the games your friends already love",
+    "hubSubtitle": "Imposter, Codenames, Pictionary, Scattergories and more. See honestly where each one shines and why groups keep picking Tadado for game night.",
+    "localTitle": "Popular games where you play",
+    "localSubtitle": "The word, card and party games people search for most. Each page shows the classic game next to Tadado.",
+    "classicTitle": "Party game app alternatives",
+    "tableTitle": "Tadado vs typical party game apps",
+    "compareLink": "Compare",
+    "vs": "VS",
+    "pickThem": "Pick {game} when",
+    "pickTadado": "Pick Tadado when",
+    "aboutTitle": "What is {game}?",
+    "tableHeading": "{game} vs Tadado at a glance",
+    "feature": "Feature",
+    "varies": "Varies by app",
+    "stepsTitle": "Bring the {game} energy to Tadado tonight",
+    "faqTitle": "{game} vs Tadado: questions",
+    "relatedTitle": "Compare more games",
+    "ctaTitle": "Your next game night starts free",
+    "ctaBody": "Download Tadado, open the free Tadado Mix deck and play Forbidden Words or Heads Up in seconds. One phone is enough.",
+    "ctaButton": "Download Tadado free",
+    "freeNote": "Free download · No ads · No subscription",
+    "disclaimer": "{game} is mentioned only to describe a well-known game or format. All trademarks belong to their respective owners, and Tadado is not affiliated with or endorsed by them. Notes about {game} describe the classic format and typical versions; individual apps and editions can differ, so check each store listing."
   },
   "geniusEvent": {
     "tag": "New event",

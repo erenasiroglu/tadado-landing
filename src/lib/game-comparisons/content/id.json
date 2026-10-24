@@ -1,0 +1,232 @@
+[
+  {
+    "id": "impostor",
+    "slug": "game-impostor",
+    "game": "Game Impostor",
+    "tagline": "Game tebak-tebakan siapa penyusup vs game di mana semua orang bicara.",
+    "metaTitle": "Game Impostor vs Tadado: Mana yang Bikin Nongkrong Lebih Seru?",
+    "metaDescription": "Suka game Impostor? Bandingkan dengan mode Kata Terlarang dan Heads Up di Tadado: satu ponsel, tanpa iklan, deck AI, dan deck awal gratis.",
+    "h1": "Game Impostor vs Tadado",
+    "hook": "Impostor itu soal curiga. Tadado itu soal teriak jawaban sebelum waktu habis. Yuk lihat mana yang cocok buat malam ini.",
+    "about": [
+      "Game Impostor viral karena hampir tidak butuh apa-apa: satu ponsel diputar, semua melihat kata yang sama kecuali satu orang, lalu tiap pemain memberi petunjuk satu kata sampai grup memilih siapa impostornya.",
+      "Ini terutama game gertakan. Serunya ada di membaca wajah, membela diri, dan momen pengungkapan. Cocok untuk grup yang suka debat, tapi terasa lebih santai bagi yang ingin menebak dan tertawa setiap beberapa detik."
+    ],
+    "pickThem": [
+      "grupmu suka menggertak, menuduh, dan kejutan dramatis",
+      "kamu ingin ronde santai dengan banyak diskusi",
+      "semua lebih suka ngobrol daripada balapan dengan waktu"
+    ],
+    "pickTadado": [
+      "kamu ingin tertawa tanpa henti dengan kata baru tiap beberapa detik",
+      "ada teman pemalu yang lebih suka menebak daripada berbohong",
+      "kamu ingin Kata Terlarang (gaya Tabu) dan Heads Up dalam satu aplikasi"
+    ],
+    "rows": [
+      {
+        "feature": "Main dengan satu ponsel bergiliran",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Peran rahasia dan gertakan",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Ronde berwaktu dan skor otomatis",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Mode gaya Tabu dan Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Deck AI untuk topik apa pun",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Tanpa iklan dan langganan",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 bahasa dan main offline",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Unduh Tadado dan buka deck gratis Tadado Mix.",
+      "Pilih Kata Terlarang untuk tim atau Heads Up dengan ponsel di dahi.",
+      "Kangen candaan internal ala Impostor? Ketik topik grupmu di pembuat deck AI."
+    ],
+    "faq": [
+      {
+        "q": "Apakah Tadado punya mode Impostor?",
+        "a": "Tidak. Tadado punya dua mode: Kata Terlarang (gaya Tabu) dan Heads Up. Ini game tebak cepat, bukan game peran rahasia, jadi cocok dimainkan bersama Impostor di malam yang sama."
+      },
+      {
+        "q": "Mana yang lebih baik untuk grup besar?",
+        "a": "Keduanya cukup satu ponsel. Ronde Impostor makin lama kalau pemainnya banyak, sedangkan Tadado membagi grup menjadi tim sehingga semua tetap main tiap ronde."
+      },
+      {
+        "q": "Apakah Tadado gratis?",
+        "a": "Tadado gratis diunduh dengan deck Tadado Mix, tanpa iklan dan tanpa langganan. Deck tema dan paket AI adalah pembelian sekali bayar yang opsional."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "werewolf",
+    "game": "Werewolf",
+    "tagline": "Peran rahasia dan fase malam vs game tanpa pemain yang tersingkir.",
+    "metaTitle": "Werewolf vs Tadado: Game Pesta Mana yang Cocok untuk Grupmu?",
+    "metaDescription": "Werewolf dan Mafia adalah game peran rahasia legendaris. Tadado adalah game tebak kata cepat tanpa eliminasi. Bandingkan sebelum pesta berikutnya.",
+    "h1": "Werewolf vs Tadado",
+    "hook": "Di Werewolf, pemain yang tersingkir harus menunggu. Di Tadado, semua main sampai ronde terakhir.",
+    "about": [
+      "Werewolf, juga dikenal sebagai Mafia, adalah game deduksi sosial. Seorang moderator membagikan peran rahasia, para werewolf memilih korban setiap malam, dan warga desa berdebat di siang hari untuk menemukan mereka.",
+      "Di grup besar game ini menciptakan drama yang tak terlupakan. Tapi butuh moderator, banyak pemain, dan yang tersingkir hanya bisa menonton."
+    ],
+    "pickThem": [
+      "kalian banyak dan ada yang mau jadi moderator",
+      "teman-temanmu suka tuduhan, aliansi, dan plot twist",
+      "ada waktu untuk ronde panjang penuh cerita"
+    ],
+    "pickTadado": [
+      "kamu ingin semua main di tiap ronde tanpa ada yang tersingkir",
+      "kamu ingin mulai tanpa moderator atau kartu peran",
+      "grupnya kecil, atau campuran pemain pemalu dan heboh"
+    ],
+    "rows": [
+      {
+        "feature": "Butuh moderator",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Tidak ada yang tersingkir",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Seru untuk grup kecil",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Peran rahasia dan gertakan",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Giliran singkat berwaktu",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Deck AI untuk topik apa pun",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Unduh Tadado dan buka Tadado Mix.",
+      "Bagi jadi tim dan mainkan satu ronde Kata Terlarang untuk pemanasan.",
+      "Simpan Werewolf untuk akhir malam saat grup siap ronde panjang."
+    ],
+    "faq": [
+      {
+        "q": "Apakah Tadado punya peran rahasia?",
+        "a": "Tidak. Tadado adalah game tebak kata dengan mode Kata Terlarang dan Heads Up. Serunya berbeda dari Werewolf, dan keduanya saling melengkapi."
+      },
+      {
+        "q": "Mana yang lebih baik untuk 4 orang?",
+        "a": "Tadado. Werewolf biasanya butuh grup lebih besar, sedangkan Tadado tetap seru dengan beberapa teman."
+      },
+      {
+        "q": "Apakah Tadado butuh moderator?",
+        "a": "Tidak. Tadado mengatur waktu, kartu, dan skor sendiri."
+      }
+    ]
+  },
+  {
+    "id": "picture",
+    "slug": "tebak-gambar",
+    "game": "Tebak Gambar",
+    "tagline": "Teka-teki gambar yang dimainkan sendiri vs tebak kata ramai-ramai.",
+    "metaTitle": "Tebak Gambar vs Tadado: Game Tebakan Mana yang Lebih Seru Bareng Teman?",
+    "metaDescription": "Tebak Gambar seru untuk mengasah otak sendirian. Tadado dibuat untuk ditebak ramai-ramai dengan tim, waktu, dan deck AI. Bandingkan keduanya.",
+    "h1": "Tebak Gambar vs Tadado",
+    "hook": "Tebak Gambar asyik dimainkan sendiri di sela waktu. Tadado dibuat supaya satu tongkrongan teriak bareng.",
+    "about": [
+      "Tebak Gambar adalah teka-teki di mana kamu menebak kata atau peribahasa dari kumpulan gambar. Banyak aplikasinya dimainkan sendiri, level demi level, dengan petunjuk saat buntu.",
+      "Cocok untuk mengisi waktu dan mengasah otak, tapi kurang dirancang untuk dimainkan bersama satu grup dengan tim, waktu, dan skor."
+    ],
+    "pickThem": [
+      "kamu ingin teka-teki santai untuk dimainkan sendiri",
+      "kamu suka memecahkan level satu per satu",
+      "kamu sedang di perjalanan dan ingin main sendirian"
+    ],
+    "pickTadado": [
+      "kamu sedang kumpul dan ingin semua orang ikut main",
+      "kamu ingin tim, waktu, dan skor tanpa repot",
+      "kamu ingin deck tentang topik apa pun, termasuk candaan grup"
+    ],
+    "rows": [
+      {
+        "feature": "Dimainkan bersama secara bersuara",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Tim, waktu, dan skor",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Teka-teki gambar",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Deck AI untuk topik apa pun",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Tanpa iklan",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 bahasa",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Unduh Tadado dan buka Tadado Mix gratis.",
+      "Bagi tongkrongan jadi dua tim dan mainkan Kata Terlarang.",
+      "Ganti ke Heads Up kalau semua ingin tertawa lebih keras."
+    ],
+    "faq": [
+      {
+        "q": "Apakah Tadado punya teka-teki gambar?",
+        "a": "Tidak. Tadado adalah game tebak kata untuk grup dengan mode Kata Terlarang dan Heads Up."
+      },
+      {
+        "q": "Bisa main Tadado sendirian?",
+        "a": "Tadado paling seru dengan minimal dua orang, karena satu orang memberi petunjuk dan yang lain menebak."
+      },
+      {
+        "q": "Butuh internet?",
+        "a": "Setelah diunduh, deck yang kamu miliki bisa dimainkan offline."
+      }
+    ]
+  }
+]

@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Được yêu thích trong đêm chơi game",
-    "subtitle": "Đánh giá App Store thật từ người chơi đã thử Tadado cùng bạn bè.",
-    "appStoreRating": "5.0 trên App Store",
-    "appStoreCount": "8 đánh giá",
+    "subtitle": "Đánh giá thật trên App Store và Google Play từ người chơi đã thử Tadado cùng bạn bè.",
+    "appStoreRating": "{rating} trên App Store",
+    "appStoreCount": "{count} lượt đánh giá",
     "sourceLabel": "Đánh giá App Store",
+    "playRating": "{rating} trên Google Play",
+    "playAvailable": "Đã có trên Google Play",
+    "playSourceLabel": "Đánh giá Google Play",
     "items": [
       {
         "quote": "Chúng tôi tìm thấy game này cùng bạn và tải về. Thiết kế và giao diện rất tốt. Tạo thẻ bài bằng AI theo sở thích của chúng tôi khiến mọi người rất vui. Ai cũng có thể tạo thẻ theo sở thích và từ vựng không lặp lại. Chúc mừng.",

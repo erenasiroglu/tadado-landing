@@ -1,49 +1,18 @@
 import Link from "next/link";
-import { Check, Minus, X } from "lucide-react";
 
-import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { Tag } from "@/components/brand/tag";
 import {
   getAlternativeHref,
   getAlternativeLinkLabel,
   getRelatedAlternativeIds,
   type AlternativePageContent,
 } from "@/lib/alternative-pages";
-import { ctaGradientClass } from "@/lib/cta-button";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localeHref } from "@/lib/i18n-config";
-import { getSmartStoreUrl } from "@/lib/store-links";
 
 import { BackLink } from "./BackLink";
-
-type CellValue = "yes" | "no" | "partial" | string;
-
-function CompareCell({ value, dict }: { value: CellValue; dict: Dictionary }) {
-  if (value === "yes") {
-    return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-300">
-        <Check className="h-4 w-4" aria-hidden />
-        <span className="sr-only">{dict.a11y.yes}</span>
-      </span>
-    );
-  }
-  if (value === "no") {
-    return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-red-500/10 text-red-300/80">
-        <X className="h-4 w-4" aria-hidden />
-        <span className="sr-only">{dict.a11y.no}</span>
-      </span>
-    );
-  }
-  if (value === "partial") {
-    return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-lilac text-ink">
-        <Minus className="h-4 w-4" aria-hidden />
-        <span className="sr-only">{dict.a11y.partial}</span>
-      </span>
-    );
-  }
-  return <span className="text-sm text-muted-foreground">{value}</span>;
-}
+import { CompareDownload, VersusCard } from "./compare/CompareParts";
+import { ComparisonTable } from "./compare/ComparisonTable";
 
 interface AlternativeDetailContentProps {
   locale: Locale;
@@ -51,14 +20,17 @@ interface AlternativeDetailContentProps {
   content: AlternativePageContent;
 }
 
-export function AlternativeDetailContent({ locale, dict, content }: AlternativeDetailContentProps) {
-  const downloadUrl = getSmartStoreUrl(locale);
+export function AlternativeDetailContent({
+  locale,
+  dict,
+  content,
+}: AlternativeDetailContentProps) {
   const related = getRelatedAlternativeIds(content.id);
   const hubLabel = dict.ui.alternativesHub;
   const compareLabel = dict.footer.compare;
 
   return (
-    <article className="max-w-3xl">
+    <article className="max-w-5xl">
       <nav className="text-sm text-muted-foreground" aria-label="Breadcrumb">
         <ol className="flex flex-wrap items-center gap-2">
           <li>
@@ -68,38 +40,63 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
           </li>
           <li aria-hidden>/</li>
           <li>
-            <Link href={localeHref(locale, "compare")} className="hover:text-ink">
+            <Link
+              href={localeHref(locale, "compare")}
+              className="hover:text-ink"
+            >
               {compareLabel}
             </Link>
           </li>
           <li aria-hidden>/</li>
-          <li className="text-foreground">{content.h1.split(":")[0]?.trim() ?? content.h1}</li>
+          <li className="text-foreground">
+            {content.h1.split(":")[0]?.trim() ?? content.h1}
+          </li>
         </ol>
       </nav>
 
       <div className="mt-6">
-        <BackLink href={localeHref(locale, "compare")}>{dict.compare.back}</BackLink>
+        <BackLink href={localeHref(locale, "compare")}>
+          {dict.compare.back}
+        </BackLink>
       </div>
 
-      <header className="mt-8">
-        <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{hubLabel}</p>
-        <h1 className="mt-3 text-balance text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
-          {content.h1}
-        </h1>
-        <p className="mt-4 text-lg leading-relaxed text-muted-foreground">{content.heroSubtitle}</p>
+      <header className="mt-8 grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-14">
+        <div>
+          <Tag>{hubLabel}</Tag>
+          <h1 className="mt-5 text-4xl leading-[1.05] font-extrabold tracking-[-0.045em] text-balance text-foreground sm:text-5xl">
+            {content.h1}
+          </h1>
+          <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
+            {content.heroSubtitle}
+          </p>
+          <CompareDownload
+            locale={locale}
+            dict={dict}
+            label={content.ctaButton}
+            className="mt-8"
+          />
+        </div>
+        <VersusCard game={content.compareColumnOther} dict={dict} />
       </header>
 
       <section className="mt-10 space-y-4">
-        <h2 className="text-xl font-bold text-foreground">{content.introTitle}</h2>
+        <h2 className="text-xl font-bold text-foreground">
+          {content.introTitle}
+        </h2>
         {content.introParagraphs.map((paragraph) => (
-          <p key={paragraph.slice(0, 48)} className="leading-relaxed text-muted-foreground">
+          <p
+            key={paragraph.slice(0, 48)}
+            className="leading-relaxed text-muted-foreground"
+          >
             {paragraph}
           </p>
         ))}
       </section>
 
       <section className="mt-10">
-        <h2 className="text-xl font-bold text-foreground">{content.reasonsTitle}</h2>
+        <h2 className="text-xl font-bold text-foreground">
+          {content.reasonsTitle}
+        </h2>
         <ul className="mt-4 list-disc space-y-2 pl-5 text-muted-foreground">
           {content.reasons.map((reason) => (
             <li key={reason}>{reason}</li>
@@ -108,71 +105,74 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
       </section>
 
       <section className="mt-12">
-        <h2 className="text-xl font-bold text-foreground">{content.compareTitle}</h2>
-        <p className="mt-2 text-sm text-muted-foreground">{content.compareSubtitle}</p>
+        <h2 className="text-xl font-bold text-foreground">
+          {content.compareTitle}
+        </h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          {content.compareSubtitle}
+        </p>
 
-        <div className="mt-6 overflow-hidden rounded-3xl border border-border">
-          <div className="hidden md:grid md:grid-cols-[1.4fr_1fr_1fr] border-b border-border surface-paper px-6 py-4 text-sm font-semibold text-foreground">
-            <span>{dict.compare.columns.feature}</span>
-            <span className="text-center text-ink">{content.compareColumnTadado}</span>
-            <span className="text-center text-muted-foreground">{content.compareColumnOther}</span>
-          </div>
-          <ul className="divide-y divide-white/8">
-            {content.compareRows.map((row) => (
-              <li
-                key={row.feature}
-                className="grid gap-3 px-5 py-4 md:grid-cols-[1.4fr_1fr_1fr] md:items-center md:gap-6 md:px-6"
-              >
-                <p className="text-sm font-medium text-foreground md:text-[15px]">{row.feature}</p>
-                <div className="flex items-center justify-between gap-3 md:justify-center">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-ink md:hidden">
-                    {content.compareColumnTadado}
-                  </span>
-                  <CompareCell value={row.tadado as CellValue} dict={dict} />
-                </div>
-                <div className="flex items-center justify-between gap-3 md:justify-center">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground md:hidden">
-                    {content.compareColumnOther}
-                  </span>
-                  <CompareCell value={row.alternative as CellValue} dict={dict} />
-                </div>
-              </li>
-            ))}
-          </ul>
+        <div className="mt-6">
+          <ComparisonTable
+            rows={content.compareRows.map((row) => ({
+              feature: row.feature,
+              tadado: row.tadado,
+              other: row.alternative,
+            }))}
+            featureLabel={dict.compare.columns.feature}
+            tadadoLabel={content.compareColumnTadado}
+            otherLabel={content.compareColumnOther}
+            labels={{
+              yes: dict.a11y.yes,
+              no: dict.a11y.no,
+              partial: dict.a11y.partial,
+              varies: dict.compareHub.varies,
+            }}
+          />
         </div>
-        <p className="mt-6 text-sm leading-relaxed text-muted-foreground">{content.compareNote}</p>
+        <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+          {content.compareNote}
+        </p>
       </section>
 
       {content.faq.length > 0 ? (
         <section className="mt-12">
-          <h2 className="text-xl font-bold text-foreground">{content.faqTitle}</h2>
+          <h2 className="text-xl font-bold text-foreground">
+            {content.faqTitle}
+          </h2>
           <dl className="mt-6 space-y-6">
             {content.faq.map((item) => (
               <div key={item.q}>
                 <dt className="font-semibold text-foreground">{item.q}</dt>
-                <dd className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.a}</dd>
+                <dd className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {item.a}
+                </dd>
               </div>
             ))}
           </dl>
         </section>
       ) : null}
 
-      <section className="mt-12 rounded-2xl border border-border bg-ink/[0.06] px-6 py-8">
-        <h2 className="text-xl font-bold text-foreground">{content.ctaTitle}</h2>
-        <p className="mt-3 text-muted-foreground">{content.ctaBody}</p>
-        <TrackedOutboundLink
-          href={downloadUrl}
+      <section className="mt-12 overflow-hidden rounded-lg surface-obsidian p-7 sm:p-10">
+        <h2 className="text-2xl leading-tight font-extrabold tracking-[-0.03em] text-cream sm:text-3xl">
+          {content.ctaTitle}
+        </h2>
+        <p className="mt-3 text-base leading-relaxed text-cream/75">
+          {content.ctaBody}
+        </p>
+        <CompareDownload
           locale={locale}
-          downloadPlatform="ios"
-          downloadSource="compare"
-          className={ctaGradientClass("mt-6 inline-flex min-h-12 items-center rounded-full px-8 text-sm font-bold")}
-        >
-          {content.ctaButton}
-        </TrackedOutboundLink>
+          dict={dict}
+          label={content.ctaButton}
+          className="mt-7"
+          dark
+        />
       </section>
 
       <section className="mt-12">
-        <h2 className="text-lg font-bold text-foreground">{content.relatedTitle}</h2>
+        <h2 className="text-lg font-bold text-foreground">
+          {content.relatedTitle}
+        </h2>
         <ul className="mt-4 flex flex-col gap-2">
           {related.map((id) => (
             <li key={id}>
@@ -195,7 +195,9 @@ export function AlternativeDetailContent({ locale, dict, content }: AlternativeD
         </ul>
       </section>
 
-      <p className="mt-12 text-xs leading-relaxed text-muted-foreground">{content.disclaimer}</p>
+      <p className="mt-12 text-xs leading-relaxed text-muted-foreground">
+        {content.disclaimer}
+      </p>
     </article>
   );
 }

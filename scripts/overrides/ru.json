@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Любимая игра на вечеринках",
-    "subtitle": "Настоящие отзывы из App Store от игроков, которые попробовали Tadado с друзьями.",
-    "appStoreRating": "5.0 в App Store",
-    "appStoreCount": "8 оценок",
+    "subtitle": "Настоящие отзывы из App Store и Google Play от игроков, которые попробовали Tadado с друзьями.",
+    "appStoreRating": "{rating} в App Store",
+    "appStoreCount": "Оценок: {count}",
     "sourceLabel": "Отзыв App Store",
+    "playRating": "{rating} в Google Play",
+    "playAvailable": "Уже в Google Play",
+    "playSourceLabel": "Отзыв Google Play",
     "items": [
       {
         "quote": "Нашли с друзьями и скачали. Дизайн и интерфейс очень хорошие. Создание карт с ИИ под наши интересы нас очень порадовало. Каждый может создавать карты по своим интересам, и слова не повторяются. Поздравляю.",

@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "游戏之夜的最爱",
-    "subtitle": "来自在 App Store 上与好友一起体验 Tadado 的玩家真实评价。",
-    "appStoreRating": "App Store 5.0 分",
-    "appStoreCount": "8 条评分",
+    "subtitle": "来自 App Store 和 Google Play、与好友一起体验 Tadado 的玩家真实评价。",
+    "appStoreRating": "App Store {rating} 分",
+    "appStoreCount": "{count} 条评分",
     "sourceLabel": "App Store 评价",
+    "playRating": "Google Play {rating} 分",
+    "playAvailable": "现已登陆 Google Play",
+    "playSourceLabel": "Google Play 评价",
     "items": [
       {
         "quote": "和朋友一起发现并下载了。设计和 UI 真的很好。用 AI 根据我们的兴趣创建卡牌让我们非常开心。每个人都可以为自己的兴趣创建卡牌，词语不会重复。恭喜。",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "生成中",
     "simulationStepPreview": "卡牌出现",
     "simulationStepReady": "准备开玩",
-    "simulationWriting": "AI 正在编写禁词…"
+    "simulationWriting": "AI 正在编写禁词…",
+    "bothModesTitle": "一副卡组，两种玩法",
+    "bothModesBody": "你用 AI 创建的每副卡组都能在禁忌词和 Heads Up 中使用。创建一次，大家想换玩法随时切换。",
+    "sameDeck": "同一副卡组"
   },
   "trending": {
     "title": "今晚玩什么？",
@@ -356,6 +362,31 @@
       "title": "在和其他游戏比较？",
       "guides": "指南与游戏之夜灵感 →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "聚会游戏对比",
+    "hubTitle": "Tadado 与朋友们早已爱上的游戏",
+    "hubSubtitle": "谁是卧底、狼人杀、你画我猜等。坦诚对比每款游戏的亮点，以及大家为什么在游戏之夜选择 Tadado。",
+    "localTitle": "最受欢迎的聚会游戏",
+    "localSubtitle": "大家搜索最多的文字、卡牌和聚会游戏。每个页面都把经典游戏和 Tadado 放在一起对比。",
+    "classicTitle": "聚会游戏 App 的替代选择",
+    "tableTitle": "Tadado 与常见聚会游戏 App 对比",
+    "compareLink": "查看对比",
+    "vs": "VS",
+    "pickThem": "这些时候选{game}",
+    "pickTadado": "这些时候选 Tadado",
+    "aboutTitle": "{game}是什么？",
+    "tableHeading": "{game}与 Tadado 一览",
+    "feature": "对比项",
+    "varies": "视 App 而定",
+    "stepsTitle": "今晚就用 Tadado 玩出{game}的热闹",
+    "faqTitle": "{game}与 Tadado：常见问题",
+    "relatedTitle": "更多对比",
+    "ctaTitle": "下一个游戏之夜，免费开始",
+    "ctaBody": "下载 Tadado，打开免费卡组 Tadado Mix，几秒内就能玩禁忌词或 Heads Up。一部手机就够了。",
+    "ctaButton": "免费下载 Tadado",
+    "freeNote": "免费下载 · 无广告 · 无订阅",
+    "disclaimer": "提及{game}仅用于描述一种知名游戏或玩法。所有商标均归其各自所有者，Tadado 与其无关联，也未获其认可。关于{game}的说明基于经典玩法和常见版本，不同 App 或版本可能有所差异，请以各商店页面为准。"
   },
   "geniusEvent": {
     "tag": "新活动",

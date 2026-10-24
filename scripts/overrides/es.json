@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Triunfa en la noche de juegos",
-    "subtitle": "Reseñas reales del App Store de jugadores que probaron Tadado con amigos.",
-    "appStoreRating": "5.0 en el App Store",
-    "appStoreCount": "8 valoraciones",
+    "subtitle": "Reseñas reales de App Store y Google Play de jugadores que probaron Tadado con amigos.",
+    "appStoreRating": "{rating} en el App Store",
+    "appStoreCount": "{count} valoraciones",
     "sourceLabel": "Reseña del App Store",
+    "playRating": "{rating} en Google Play",
+    "playAvailable": "Ya en Google Play",
+    "playSourceLabel": "Reseña de Google Play",
     "items": [
       {
         "quote": "Lo descubrimos con amigos y lo descargamos. El diseño y la interfaz son muy buenos. Crear cartas con IA según nuestros intereses nos encantó. Cada uno puede crear cartas de lo que le gusta y las palabras no se repiten. Enhorabuena.",

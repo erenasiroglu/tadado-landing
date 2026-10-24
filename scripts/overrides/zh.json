@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "游戏之夜的最爱",
-    "subtitle": "来自在 App Store 上与好友一起体验 Tadado 的玩家真实评价。",
-    "appStoreRating": "App Store 5.0 分",
-    "appStoreCount": "8 条评分",
+    "subtitle": "来自 App Store 和 Google Play、与好友一起体验 Tadado 的玩家真实评价。",
+    "appStoreRating": "App Store {rating} 分",
+    "appStoreCount": "{count} 条评分",
     "sourceLabel": "App Store 评价",
+    "playRating": "Google Play {rating} 分",
+    "playAvailable": "现已登陆 Google Play",
+    "playSourceLabel": "Google Play 评价",
     "items": [
       {
         "quote": "和朋友一起发现并下载了。设计和 UI 真的很好。用 AI 根据我们的兴趣创建卡牌让我们非常开心。每个人都可以为自己的兴趣创建卡牌，词语不会重复。恭喜。",

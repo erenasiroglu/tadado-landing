@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "गेम नाइट पर पसंदीदा",
-    "subtitle": "App Store की असली समीक्षाएँ — जिन्होंने दोस्तों के साथ Tadado आज़माया।",
-    "appStoreRating": "App Store पर 5.0",
-    "appStoreCount": "8 रेटिंग",
+    "subtitle": "App Store और Google Play की असली समीक्षाएँ, उन खिलाड़ियों से जिन्होंने दोस्तों के साथ Tadado आज़माया।",
+    "appStoreRating": "App Store पर {rating}",
+    "appStoreCount": "{count} रेटिंग",
     "sourceLabel": "App Store समीक्षा",
+    "playRating": "Google Play पर {rating}",
+    "playAvailable": "अब Google Play पर",
+    "playSourceLabel": "Google Play समीक्षा",
     "items": [
       {
         "quote": "दोस्तों के साथ मिला और डाउनलोड किया। डिज़ाइन और इंटरफ़ेस बहुत अच्छे हैं। AI से अपनी रुचियों के लिए कार्ड बनाना हमें बहुत खुश किया। हर कोई अपनी रुचि के कार्ड बना सकता है और शब्द दोहराते नहीं। बधाई।",

@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Adoré en soirée jeux",
-    "subtitle": "De vrais avis App Store de joueurs qui ont testé Tadado entre amis.",
-    "appStoreRating": "5,0 sur l'App Store",
-    "appStoreCount": "8 avis",
+    "subtitle": "De vrais avis App Store et Google Play de joueurs qui ont testé Tadado entre amis.",
+    "appStoreRating": "{rating} sur l'App Store",
+    "appStoreCount": "{count} notes",
     "sourceLabel": "Avis App Store",
+    "playRating": "{rating} sur Google Play",
+    "playAvailable": "Disponible sur Google Play",
+    "playSourceLabel": "Avis Google Play",
     "items": [
       {
         "quote": "On l'a découvert entre amis et on l'a téléchargé. Le design et l'interface sont vraiment bien. Créer des cartes avec l'IA selon nos centres d'intérêt nous a rendus très heureux. Chacun peut créer des cartes pour ses passions et les mots ne se répètent pas. Bravo.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Génération",
     "simulationStepPreview": "Les cartes apparaissent",
     "simulationStepReady": "Prêt à jouer",
-    "simulationWriting": "L'IA écrit des mots interdits…"
+    "simulationWriting": "L'IA écrit des mots interdits…",
+    "bothModesTitle": "Un deck, deux modes de jeu",
+    "bothModesBody": "Chaque deck créé par IA se joue en Mots interdits et en Heads Up. Créez-le une fois, puis changez de mode quand le groupe le veut.",
+    "sameDeck": "Même deck"
   },
   "trending": {
     "title": "On joue à quoi ce soir ?",
@@ -356,6 +362,31 @@
       "title": "Tu hésites avec un autre jeu ?",
       "guides": "Guides et idées de soirées jeux →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Comparer les jeux de soirée",
+    "hubTitle": "Tadado face aux jeux que vos amis adorent déjà",
+    "hubSubtitle": "Jeu de l'imposteur, Petit Bac, Time's Up, Loups-Garous, Codenames et plus. Voyez honnêtement où chacun brille et pourquoi les groupes choisissent Tadado pour leurs soirées jeux.",
+    "localTitle": "Les jeux les plus joués en France",
+    "localSubtitle": "Les jeux de mots, de cartes et de soirée les plus recherchés. Chaque page met le jeu classique face à Tadado.",
+    "classicTitle": "Alternatives aux applis de jeux de soirée",
+    "tableTitle": "Tadado face aux applis de soirée classiques",
+    "compareLink": "Comparer",
+    "vs": "VS",
+    "pickThem": "Choisissez {game} si",
+    "pickTadado": "Choisissez Tadado si",
+    "aboutTitle": "Qu'est-ce que {game} ?",
+    "tableHeading": "{game} face à Tadado en un coup d'œil",
+    "feature": "Critère",
+    "varies": "Selon l'appli",
+    "stepsTitle": "Retrouvez l'énergie de {game} dans Tadado ce soir",
+    "faqTitle": "{game} face à Tadado : questions",
+    "relatedTitle": "Comparer d'autres jeux",
+    "ctaTitle": "Votre prochaine soirée jeux commence gratuitement",
+    "ctaBody": "Téléchargez Tadado, ouvrez le deck gratuit Tadado Mix et jouez aux Mots interdits ou à Heads Up en quelques secondes. Un seul téléphone suffit.",
+    "ctaButton": "Télécharger Tadado gratuitement",
+    "freeNote": "Téléchargement gratuit · Sans pub · Sans abonnement",
+    "disclaimer": "{game} est cité uniquement pour décrire un jeu ou un format connu. Toutes les marques appartiennent à leurs propriétaires ; Tadado n'est ni affilié ni approuvé par eux. Les notes sur {game} décrivent le format classique et les versions courantes ; chaque appli ou édition peut différer, consultez sa fiche en boutique."
   },
   "geniusEvent": {
     "tag": "Nouvel événement",

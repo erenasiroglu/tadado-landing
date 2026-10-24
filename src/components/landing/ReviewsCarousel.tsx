@@ -7,27 +7,43 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useReducedMotion } from "motion/react";
 
 import { Tag } from "@/components/brand/tag";
-import type { Dictionary } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-type ReviewItem = Dictionary["reviews"]["items"][number];
-
-interface ReviewsCarouselProps {
-  items: ReviewItem[];
-  sourceLabel: string;
+export interface ReviewSlide {
+  id: string;
+  quote: string;
+  author: string;
+  context: string;
+  source: string;
+  rating: number;
 }
 
-function Stars({ className }: { className?: string }) {
+interface ReviewsCarouselProps {
+  items: ReviewSlide[];
+}
+
+function Stars({ rating, className }: { rating: number; className?: string }) {
   return (
-    <div className={cn("flex gap-0.5", className)} aria-hidden>
+    <div
+      className={cn("flex gap-0.5", className)}
+      role="img"
+      aria-label={`${rating}/5`}
+    >
       {Array.from({ length: 5 }).map((_, i) => (
-        <Star key={i} className="h-3.5 w-3.5 fill-ink text-ink sm:h-4 sm:w-4" />
+        <Star
+          key={i}
+          className={cn(
+            "h-3.5 w-3.5 sm:h-4 sm:w-4",
+            i < rating ? "fill-ink text-ink" : "text-ink/25",
+          )}
+          aria-hidden
+        />
       ))}
     </div>
   );
 }
 
-export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
+export function ReviewsCarousel({ items }: ReviewsCarouselProps) {
   const reduceMotion = useReducedMotion();
   const [selectedIndex, setSelectedIndex] = useState(0);
 
@@ -52,7 +68,10 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
-  const scrollTo = useCallback((index: number) => emblaApi?.scrollTo(index), [emblaApi]);
+  const scrollTo = useCallback(
+    (index: number) => emblaApi?.scrollTo(index),
+    [emblaApi],
+  );
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -76,18 +95,22 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
       <div ref={emblaRef} className="reviews-carousel__viewport">
         <div className="reviews-carousel__container flex">
           {items.map((review) => (
-            <div key={review.author} className="reviews-carousel__slide">
+            <div key={review.id} className="reviews-carousel__slide">
               <figure className="mx-auto flex h-full w-full max-w-2xl flex-col rounded-2xl surface-paper px-6 py-7 sm:px-8 sm:py-8">
-                <Stars />
-                <blockquote className="mt-5 flex-1 text-base leading-relaxed text-foreground sm:text-lg sm:leading-relaxed">
+                <Stars rating={review.rating} />
+                <blockquote className="mt-5 line-clamp-[8] flex-1 text-base leading-relaxed text-foreground sm:text-lg sm:leading-relaxed">
                   &ldquo;{review.quote}&rdquo;
                 </blockquote>
                 <figcaption className="mt-6 flex items-center justify-between gap-4 border-t border-border pt-5">
                   <div className="min-w-0">
-                    <p className="truncate font-semibold text-foreground">{review.author}</p>
-                    <p className="mt-0.5 text-sm text-muted-foreground">{review.context}</p>
+                    <p className="truncate font-semibold text-foreground">
+                      {review.author}
+                    </p>
+                    <p className="mt-0.5 text-sm text-muted-foreground">
+                      {review.context}
+                    </p>
                   </div>
-                  <Tag>{sourceLabel}</Tag>
+                  <Tag>{review.source}</Tag>
                 </figcaption>
               </figure>
             </div>
@@ -101,10 +124,14 @@ export function ReviewsCarousel({ items, sourceLabel }: ReviewsCarouselProps) {
             <ChevronLeft className="h-4 w-4" />
           </CarouselIconButton>
 
-          <div className="flex items-center" role="tablist" aria-label="Reviews">
+          <div
+            className="flex items-center"
+            role="tablist"
+            aria-label="Reviews"
+          >
             {items.map((review, index) => (
               <button
-                key={review.author}
+                key={review.id}
                 type="button"
                 role="tab"
                 aria-selected={index === selectedIndex}

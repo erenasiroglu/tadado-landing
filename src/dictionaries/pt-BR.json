@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Amado na noite de jogo",
-    "subtitle": "Avaliações reais da App Store de jogadores que testaram o Tadado com amigos.",
-    "appStoreRating": "5,0 na App Store",
-    "appStoreCount": "8 avaliações",
+    "subtitle": "Avaliações reais da App Store e do Google Play de jogadores que testaram o Tadado com amigos.",
+    "appStoreRating": "{rating} na App Store",
+    "appStoreCount": "{count} avaliações",
     "sourceLabel": "Avaliação App Store",
+    "playRating": "{rating} no Google Play",
+    "playAvailable": "Já no Google Play",
+    "playSourceLabel": "Avaliação do Google Play",
     "items": [
       {
         "quote": "Achamos com amigos e baixamos. O design e a interface são muito bons. Criar cartas com IA para nossos interesses nos deixou muito felizes. Cada um pode criar cartas para seus interesses e as palavras não se repetem. Parabéns.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Gerando",
     "simulationStepPreview": "Cartas aparecem",
     "simulationStepReady": "Pronto para jogar",
-    "simulationWriting": "IA escrevendo palavras proibidas…"
+    "simulationWriting": "IA escrevendo palavras proibidas…",
+    "bothModesTitle": "Um baralho, dois modos de jogo",
+    "bothModesBody": "Todo baralho criado com IA funciona em Palavras Proibidas e no Heads Up. Crie uma vez e troque de modo quando a turma quiser.",
+    "sameDeck": "Mesmo baralho"
   },
   "trending": {
     "title": "O que vamos jogar hoje à noite?",
@@ -356,6 +362,31 @@
       "title": "Comparando com outro jogo?",
       "guides": "Guias e ideias para noite de jogo →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Compare jogos de festa",
+    "hubTitle": "Tadado vs os jogos que seus amigos já amam",
+    "hubSubtitle": "Jogo do Impostor, Stop (Adedonha), Imagem & Ação, Codenames e mais. Veja com honestidade onde cada um brilha e por que os grupos escolhem o Tadado para a noite de jogos.",
+    "localTitle": "Os jogos mais populares no Brasil",
+    "localSubtitle": "Os jogos de palavras, cartas e festa mais buscados. Cada página coloca o jogo clássico ao lado do Tadado.",
+    "classicTitle": "Alternativas a apps de jogos de festa",
+    "tableTitle": "Tadado vs apps de festa típicos",
+    "compareLink": "Comparar",
+    "vs": "VS",
+    "pickThem": "Escolha {game} se",
+    "pickTadado": "Escolha o Tadado se",
+    "aboutTitle": "O que é {game}?",
+    "tableHeading": "{game} vs Tadado num relance",
+    "feature": "Recurso",
+    "varies": "Depende do app",
+    "stepsTitle": "Leve a energia de {game} para o Tadado hoje à noite",
+    "faqTitle": "{game} vs Tadado: perguntas",
+    "relatedTitle": "Compare mais jogos",
+    "ctaTitle": "Sua próxima noite de jogos começa grátis",
+    "ctaBody": "Baixe o Tadado, abra o baralho grátis Tadado Mix e jogue Palavras Proibidas ou Heads Up em segundos. Um celular basta.",
+    "ctaButton": "Baixe o Tadado grátis",
+    "freeNote": "Download grátis · Sem anúncios · Sem assinatura",
+    "disclaimer": "{game} é citado apenas para descrever um jogo ou formato conhecido. Todas as marcas pertencem aos seus donos, e o Tadado não é afiliado nem endossado por eles. As notas sobre {game} descrevem o formato clássico e versões típicas; apps e edições podem variar, então confira a página de cada loja."
   },
   "geniusEvent": {
     "tag": "Novo evento",

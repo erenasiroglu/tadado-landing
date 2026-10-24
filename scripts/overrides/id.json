@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Disukai di malam permainan",
-    "subtitle": "Ulasan App Store asli dari pemain yang mencoba Tadado bersama teman.",
-    "appStoreRating": "5.0 di App Store",
-    "appStoreCount": "8 ulasan",
+    "subtitle": "Ulasan asli App Store dan Google Play dari pemain yang mencoba Tadado bersama teman.",
+    "appStoreRating": "{rating} di App Store",
+    "appStoreCount": "{count} rating",
     "sourceLabel": "Ulasan App Store",
+    "playRating": "{rating} di Google Play",
+    "playAvailable": "Kini di Google Play",
+    "playSourceLabel": "Ulasan Google Play",
     "items": [
       {
         "quote": "Kami menemukannya bersama teman dan mengunduhnya. Desain dan UI-nya sangat bagus. Membuat kartu dengan AI untuk minat kami sendiri membuat kami sangat senang. Semua orang bisa membuat kartu sesuai minat mereka dan kata-kata tidak berulang. Selamat.",

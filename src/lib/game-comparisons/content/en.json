@@ -1,0 +1,457 @@
+[
+  {
+    "id": "impostor",
+    "slug": "imposter-game",
+    "game": "Imposter",
+    "tagline": "The viral hidden-word bluffing game vs a party game where everyone talks.",
+    "metaTitle": "Imposter Game vs Tadado: Which Party Game Wins Game Night?",
+    "metaDescription": "Love the Imposter word game? See how it compares with Tadado's Forbidden Words and Heads Up modes: one phone, no ads, AI decks and a free starter deck.",
+    "h1": "Imposter game vs Tadado",
+    "hook": "Imposter is all about suspicion. Tadado is all about shouting the answer before the timer runs out. Here is when each one makes the night.",
+    "about": [
+      "Imposter (also called Who's the Spy or the impostor word game) went viral because it needs almost nothing: one phone is passed around, everyone secretly sees the same word except one player, and the group gives one-word hints until someone gets voted out as the impostor.",
+      "It is a bluffing game first. The fun comes from reading faces, defending yourself and the big reveal at the end of a round. That makes it brilliant for groups who love debate, and quieter for players who would rather be guessing and laughing every few seconds."
+    ],
+    "pickThem": [
+      "Your group loves bluffing, accusing and dramatic reveals",
+      "You want a slow-burn round with lots of discussion",
+      "Everyone is happy to sit and talk rather than race a timer"
+    ],
+    "pickTadado": [
+      "You want nonstop laughing with a new word every few seconds",
+      "Some friends are shy and prefer guessing to lying",
+      "You want two modes, Forbidden Words and Heads Up, in one app"
+    ],
+    "rows": [
+      {
+        "feature": "Works with one phone passed around",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Hidden roles and bluffing",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Timed rounds with automatic scoring",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Taboo-style and Heads Up modes",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "AI decks on any topic",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "No ads, no subscription",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 languages and offline play",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Download Tadado and open the free Tadado Mix deck.",
+      "Pick Forbidden Words for teams or Heads Up for forehead guessing.",
+      "Want the Imposter vibe of inside jokes? Type your group's topic into the AI deck builder."
+    ],
+    "faq": [
+      {
+        "q": "Does Tadado have an Imposter mode?",
+        "a": "No. Tadado has two modes: Forbidden Words (Taboo-style) and Heads Up. It is a fast guessing game rather than a hidden-role game, so it pairs well with Imposter on the same night."
+      },
+      {
+        "q": "Which is better for big groups?",
+        "a": "Both work with one phone. Imposter rounds get longer as the group grows, while Tadado splits big groups into teams so everyone keeps playing every round."
+      },
+      {
+        "q": "Is Tadado free like most Imposter apps?",
+        "a": "Tadado is free to download with the free Tadado Mix deck, no ads and no subscription. Extra themed decks and AI packs are optional one-time purchases."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "The clever board game of one-word clues vs instant word guessing on one phone.",
+    "metaTitle": "Codenames vs Tadado: Board Game Classic or Phone Party Game?",
+    "metaDescription": "Codenames is a modern classic. Tadado is a phone party game with Forbidden Words, Heads Up, AI decks and no setup. Compare them honestly before game night.",
+    "h1": "Codenames vs Tadado",
+    "hook": "Codenames makes you think. Tadado makes you shout. If your table has both kinds of players, this comparison is for you.",
+    "about": [
+      "Codenames is a team word game where two spymasters give one-word clues that link several cards on a grid of 25 words. Teammates guess which cards belong to their side while avoiding the assassin card.",
+      "It rewards clever, careful thinking and works beautifully at a table with the box laid out. The flip side is setup time and long pauses while a spymaster thinks of the perfect clue."
+    ],
+    "pickThem": [
+      "Your group loves puzzles and clever wordplay",
+      "You have a table, the box and time to set up",
+      "You enjoy slower, strategic turns"
+    ],
+    "pickTadado": [
+      "You want to start in seconds, anywhere, with one phone",
+      "You want fast rounds with constant guessing and laughing",
+      "You want decks on any topic, including your own inside jokes"
+    ],
+    "rows": [
+      {
+        "feature": "Setup time",
+        "tadado": "Seconds",
+        "other": "Lay out a 25-card grid"
+      },
+      {
+        "feature": "Needs a box or board",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Clue style",
+        "tadado": "Describe one word freely",
+        "other": "One word linking several cards"
+      },
+      {
+        "feature": "Timed, fast-paced rounds",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "New decks and AI topics",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Plays in 17 languages",
+        "tadado": "yes",
+        "other": "Localized editions"
+      }
+    ],
+    "steps": [
+      "Split into two teams, just like Codenames.",
+      "Choose Forbidden Words and pick a deck such as Genius Only for a brain-teasing challenge.",
+      "Race the timer and let Tadado keep score so nobody argues."
+    ],
+    "faq": [
+      {
+        "q": "Is Tadado a Codenames app?",
+        "a": "No. Tadado is an independent party word game. It shares the team spirit of Codenames, but each turn you describe a single word without saying its forbidden clues."
+      },
+      {
+        "q": "Which is better for travel?",
+        "a": "Tadado, because it lives on your phone and works offline once downloaded. Codenames needs the box and space to lay out the cards."
+      },
+      {
+        "q": "Can we play both on the same night?",
+        "a": "Of course. Many groups start with fast Tadado rounds to warm up, then switch to a slower strategy game later."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "scattergories",
+    "game": "Scattergories",
+    "tagline": "The pen-and-paper categories game vs a loud, fast guessing game.",
+    "metaTitle": "Scattergories vs Tadado: The Better Word Game for Your Group?",
+    "metaDescription": "Scattergories and Stop-style categories games are quiet writing races. Tadado is a loud guessing game with timers, scoring and AI decks. Compare them here.",
+    "h1": "Scattergories vs Tadado",
+    "hook": "One game is heads down with a pen. The other is heads up with a phone on your forehead. Here is which one fits your crowd.",
+    "about": [
+      "Scattergories, and the Stop or categories games it is based on, give everyone a letter and a list of categories. Players race to write an answer for each one, then compare lists and score the unique answers.",
+      "It is great for word lovers and a quiet table. Because everyone writes alone, the laughing mostly happens at the end of a round when answers get read out and challenged."
+    ],
+    "pickThem": [
+      "You enjoy writing races and checking answers together",
+      "You have pens, paper and a calm table",
+      "Your group likes debating whether an answer counts"
+    ],
+    "pickTadado": [
+      "You want the whole group talking, acting and guessing out loud",
+      "You do not want to hunt for pens or check score sheets",
+      "You want themed and AI decks instead of the same categories"
+    ],
+    "rows": [
+      {
+        "feature": "Works without pen and paper",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Out-loud, team-based rounds",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Timer and scoring handled for you",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Ready-made themed decks",
+        "tadado": "yes",
+        "other": "Categories you choose"
+      },
+      {
+        "feature": "AI decks on any topic",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Free to start",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Download Tadado and open Tadado Mix for free.",
+      "Play Forbidden Words in two teams for a fast, loud word challenge.",
+      "Missing your favorite categories? Ask the AI deck builder for a deck on any topic."
+    ],
+    "faq": [
+      {
+        "q": "Is Tadado like Scattergories?",
+        "a": "Both are word games, but they play very differently. Scattergories is a writing race, while Tadado is a spoken guessing game with Forbidden Words and Heads Up."
+      },
+      {
+        "q": "Which is better for kids and family?",
+        "a": "Both work. Tadado has no reading-and-writing race, so younger players can join by acting and guessing."
+      },
+      {
+        "q": "Do we need anything besides a phone?",
+        "a": "No. Tadado handles the timer, cards and score on one phone."
+      }
+    ]
+  },
+  {
+    "id": "drawing",
+    "slug": "pictionary",
+    "game": "Pictionary",
+    "tagline": "Drawing to guess vs describing and acting to guess.",
+    "metaTitle": "Pictionary vs Tadado: Drawing Game or Word Guessing Game?",
+    "metaDescription": "Pictionary needs a pen and some drawing nerve. Tadado needs one phone and a loud voice. Compare the two party games for your next game night.",
+    "h1": "Pictionary vs Tadado",
+    "hook": "Bad at drawing? Good news: in Tadado nobody needs to draw a horse. Here is how the two classics compare.",
+    "about": [
+      "Pictionary is the classic drawing game: one player sketches a word while their team guesses before the timer ends. Online drawing games such as Gartic Phone have made the format popular again on phones and laptops.",
+      "Drawing games are wonderfully chaotic, but they need pens, paper or a screen to draw on, and some players freeze when it is their turn to sketch."
+    ],
+    "pickThem": [
+      "Your group has budding artists and loves sketch chaos",
+      "You have a whiteboard, paper or a drawing app ready",
+      "You want quieter turns where only one person draws"
+    ],
+    "pickTadado": [
+      "You want nobody to feel put on the spot about drawing",
+      "You want to play anywhere, with no pens or extra screens",
+      "You want faster turns and more words per round"
+    ],
+    "rows": [
+      {
+        "feature": "Drawing skills needed",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Needs pens, paper or a drawing screen",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Describe and act-out rounds",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Timer and scoring",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "AI decks on any topic",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Plays in 17 languages",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Open the free Tadado Mix deck.",
+      "Choose Heads Up for an acting-style round that feels like Pictionary without the pen.",
+      "Switch to Forbidden Words when the group wants to talk instead of act."
+    ],
+    "faq": [
+      {
+        "q": "Can you draw in Tadado?",
+        "a": "No. Tadado focuses on describing (Forbidden Words) and Heads Up guessing. You can still act out clues in Heads Up rounds."
+      },
+      {
+        "q": "Which works better on a video call?",
+        "a": "Online drawing games are built for that. Tadado is designed for friends in the same room sharing one phone."
+      },
+      {
+        "q": "Is Tadado good for people who hate drawing?",
+        "a": "Yes. That is one of the most common reasons groups switch: everyone can play without feeling judged on their art."
+      }
+    ]
+  },
+  {
+    "id": "fishbowl",
+    "slug": "fishbowl-game",
+    "game": "Fishbowl",
+    "tagline": "The salad bowl word game with paper slips vs ready-made decks on one phone.",
+    "metaTitle": "Fishbowl (Salad Bowl) Game vs Tadado: Skip the Paper Slips",
+    "metaDescription": "Fishbowl, Salad Bowl and Time's Up are party favorites. See how they compare with Tadado's Forbidden Words and Heads Up modes, timers and decks.",
+    "h1": "Fishbowl game vs Tadado",
+    "hook": "Love Fishbowl but hate writing 60 paper slips? Tadado keeps the chaos and skips the prep.",
+    "about": [
+      "Fishbowl, also known as Salad Bowl, Monikers or Time's Up, starts with every player writing words on slips of paper. Teams then go through the same slips over several rounds: describe freely, then use one word, then act it out.",
+      "The repeated words turn into running jokes, which is why people love it. The cost is prep time, a bowl, a timer and someone keeping score."
+    ],
+    "pickThem": [
+      "You love running jokes from the same words across rounds",
+      "Your group enjoys writing its own words before playing",
+      "You have time to prep slips and a bowl"
+    ],
+    "pickTadado": [
+      "You want to start right now without writing anything",
+      "You want fresh words every round from themed decks",
+      "You still want custom words, made in seconds with AI"
+    ],
+    "rows": [
+      {
+        "feature": "Writing paper slips before playing",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Ready-made word decks",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Describe and act-out style rounds",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Timer and scoring built in",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Custom words on your topic",
+        "tadado": "AI decks in seconds",
+        "other": "Write them by hand"
+      },
+      {
+        "feature": "Works with one phone",
+        "tadado": "yes",
+        "other": "partial"
+      }
+    ],
+    "steps": [
+      "Make two teams like you would for Fishbowl.",
+      "Play a Forbidden Words round, then a Heads Up round for the acting part.",
+      "Want your own words? Create an AI deck about your friends, a trip or a TV show."
+    ],
+    "faq": [
+      {
+        "q": "Is Tadado the same as Fishbowl?",
+        "a": "Not exactly. Fishbowl reuses your own paper slips across rounds. Tadado gives you ready-made or AI decks with Forbidden Words and Heads Up modes."
+      },
+      {
+        "q": "Can we still play with our own words?",
+        "a": "Yes, through the AI deck builder: describe a topic and Tadado creates a playable deck in seconds."
+      },
+      {
+        "q": "Is it good for large parties?",
+        "a": "Yes. Split into teams and pass the phone at the end of each turn."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "werewolf-mafia",
+    "game": "Werewolf (Mafia)",
+    "tagline": "Hidden roles and night phases vs a game where nobody sits out.",
+    "metaTitle": "Werewolf and Mafia vs Tadado: Which Party Game Fits Your Group?",
+    "metaDescription": "Werewolf and Mafia are legendary hidden-role games. Tadado is a fast word guessing game where nobody gets eliminated. Compare them for your next party.",
+    "h1": "Werewolf and Mafia vs Tadado",
+    "hook": "In Werewolf, eliminated players wait. In Tadado, everyone stays in until the last round. Here is when to pick each.",
+    "about": [
+      "Werewolf, also played as Mafia, is a social deduction game. A moderator hands out secret roles, the werewolves pick a victim each night, and the village debates by day to find them.",
+      "It creates unforgettable drama in big groups. It also needs a moderator, works best with many players and leaves eliminated players watching for the rest of the round."
+    ],
+    "pickThem": [
+      "You have a big group and someone happy to moderate",
+      "Your friends love accusations, alliances and plot twists",
+      "You have time for long, story-driven rounds"
+    ],
+    "pickTadado": [
+      "You want everyone playing every round, with nobody knocked out",
+      "You want to start without a moderator or role cards",
+      "You have a small group, or a mix of shy and loud players"
+    ],
+    "rows": [
+      {
+        "feature": "Needs a moderator",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Nobody gets eliminated",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Fun in small groups",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Hidden roles and bluffing",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Short, timed turns",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "AI decks on any topic",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Download Tadado and open Tadado Mix.",
+      "Split into teams and play Forbidden Words as a fast warm-up.",
+      "Save Werewolf for later in the night when the group is ready for a long round."
+    ],
+    "faq": [
+      {
+        "q": "Does Tadado have hidden roles?",
+        "a": "No. Tadado is a word guessing game with Forbidden Words and Heads Up modes. It is a different kind of fun from Werewolf, and the two work well together."
+      },
+      {
+        "q": "Which is better for 4 players?",
+        "a": "Tadado. Werewolf usually needs a bigger group to work well, while Tadado is fun with a handful of friends."
+      },
+      {
+        "q": "Do we need a game master in Tadado?",
+        "a": "No. Tadado runs the timer, cards and score itself."
+      }
+    ]
+  }
+]

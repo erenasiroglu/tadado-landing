@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "ゲームナイトで大人気",
-    "subtitle": "友だちとTadadoを試したプレイヤーのApp Storeレビュー。",
-    "appStoreRating": "App Storeで5.0",
-    "appStoreCount": "8件の評価",
+    "subtitle": "友だちと Tadado を遊んだプレイヤーの、App Store と Google Play の本物のレビュー。",
+    "appStoreRating": "App Store で {rating}",
+    "appStoreCount": "{count} 件の評価",
     "sourceLabel": "App Storeレビュー",
+    "playRating": "Google Play で {rating}",
+    "playAvailable": "Google Play で配信中",
+    "playSourceLabel": "Google Play レビュー",
     "items": [
       {
         "quote": "友だちと見つけてダウンロードしました。デザインとUIが本当に良い。AIで自分たちの興味に合わせてカードを作れるのがとても嬉しかった。誰もが自分の興味のカードを作れて、単語が重複しない。おめでとう。",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "生成中",
     "simulationStepPreview": "カード表示",
     "simulationStepReady": "プレイ準備完了",
-    "simulationWriting": "AIが禁止ワードを作成中…"
+    "simulationWriting": "AIが禁止ワードを作成中…",
+    "bothModesTitle": "1つのデッキで、2つのモード",
+    "bothModesBody": "AI で作ったデッキは、禁止ワードでも Heads Up でも遊べます。一度作れば、みんなの気分でモードを切り替えられます。",
+    "sameDeck": "同じデッキ"
   },
   "trending": {
     "title": "今夜は何をプレイする？",
@@ -356,6 +362,31 @@
       "title": "他のゲームと比較中？",
       "guides": "ガイドとゲームナイトのアイデア →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "パーティーゲームを比較",
+    "hubTitle": "Tadado と、みんながもう大好きなゲームを比べてみた",
+    "hubSubtitle": "ワードウルフ、人狼、コードネームなど。それぞれの魅力と、ゲームナイトに Tadado が選ばれる理由を正直に比較します。",
+    "localTitle": "日本で人気のゲーム",
+    "localSubtitle": "よく検索されている言葉・カード・パーティーゲーム。各ページで定番ゲームと Tadado を並べて紹介します。",
+    "classicTitle": "パーティーゲームアプリの代わりに",
+    "tableTitle": "Tadado と一般的なパーティーアプリの比較",
+    "compareLink": "比較する",
+    "vs": "VS",
+    "pickThem": "{game}がおすすめなのは",
+    "pickTadado": "Tadado がおすすめなのは",
+    "aboutTitle": "{game}とは？",
+    "tableHeading": "{game}と Tadado をひと目で比較",
+    "feature": "項目",
+    "varies": "アプリによる",
+    "stepsTitle": "今夜、{game}の盛り上がりを Tadado で",
+    "faqTitle": "{game}と Tadado：よくある質問",
+    "relatedTitle": "ほかの比較",
+    "ctaTitle": "次のゲームナイトは無料で始めよう",
+    "ctaBody": "Tadado をダウンロードして無料デッキ Tadado Mix を開けば、禁止ワードや Heads Up をすぐに遊べます。スマホ1台で十分です。",
+    "ctaButton": "Tadado を無料でダウンロード",
+    "freeNote": "無料ダウンロード · 広告なし · サブスクなし",
+    "disclaimer": "{game}という名称は、よく知られたゲームや遊び方を説明するためだけに使用しています。すべての商標はそれぞれの権利者に帰属し、Tadado はそれらと提携・承認関係にありません。{game}に関する説明は一般的な遊び方と代表的なバージョンに基づくもので、アプリや版によって異なる場合があります。各ストアの説明をご確認ください。"
   },
   "geniusEvent": {
     "tag": "新イベント",

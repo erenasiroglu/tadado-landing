@@ -1,10 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { m } from "motion/react";
+import { AnimatePresence, m, useReducedMotion } from "motion/react";
 import { Sparkles } from "lucide-react";
 
+import { Tag } from "@/components/brand/tag";
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
+import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
 import { MotionButton } from "@/components/motion/MotionButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { getAiDemoSample, type AiDemoDifficulty } from "@/lib/ai-demo-samples";
@@ -22,19 +24,44 @@ interface AiDeckBuilderDemoProps {
 
 type SimulationPhase = "idle" | "typing" | "generating" | "cards" | "ready";
 
-const PHONE_WIDTH = 220;
 const TYPING_MS = 28;
 const GENERATING_MS = 1400;
 
 const STEPS = ["typing", "generating", "cards", "ready"] as const;
 
+/** The two-device stage is laid out at this size and scaled down to fit narrow columns. */
+const STAGE_WIDTH = 460;
+const STAGE_HEIGHT = 470;
+
+function useStageScale() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+    const observer = new ResizeObserver(([entry]) => {
+      setScale(Math.min(1, entry.contentRect.width / STAGE_WIDTH));
+    });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  return { ref, scale };
+}
+
 export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
+  const reduceMotion = useReducedMotion();
   const [difficulty, setDifficulty] = useState<AiDemoDifficulty>("medium");
+  /** The deck on the devices only changes once a run finishes, so they never show an empty state. */
+  const [shownDifficulty, setShownDifficulty] =
+    useState<AiDemoDifficulty>("medium");
   const [phase, setPhase] = useState<SimulationPhase>("idle");
   const [typedTopic, setTypedTopic] = useState("");
   const runIdRef = useRef(0);
+  const { ref: stageRef, scale: stageScale } = useStageScale();
 
-  const heroCard = getAiDemoSample(locale, difficulty);
+  const card = getAiDemoSample(locale, shownDifficulty);
 
   const difficulties: { key: AiDemoDifficulty; label: string }[] = [
     { key: "easy", label: dict.ai.difficultyEasy },
@@ -73,6 +100,7 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
             setPhase("generating");
             window.setTimeout(() => {
               if (runId !== runIdRef.current) return;
+              setShownDifficulty(nextDifficulty);
               setPhase("cards");
               window.setTimeout(() => {
                 if (runId !== runIdRef.current) return;
@@ -126,182 +154,222 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
     runSimulation(difficulty);
   }
 
-  const isBusy = phase === "typing" || phase === "generating" || phase === "cards";
-  const cardLoading = phase !== "ready";
-
-  function stepState(stepKey: (typeof STEPS)[number]) {
-    const order = STEPS.indexOf(stepKey);
-    const currentKey =
-      phase === "idle"
-        ? null
-        : phase === "typing"
-          ? "typing"
-          : phase === "generating"
-            ? "generating"
-            : phase === "cards"
-              ? "cards"
-              : "ready";
-    if (!currentKey) return { active: false, done: false };
-    const current = STEPS.indexOf(currentKey);
-    return {
-      active: order === current,
-      done: order < current,
-    };
-  }
+  const isBusy =
+    phase === "typing" || phase === "generating" || phase === "cards";
+  const isWriting = phase === "generating";
+  const currentStep = phase === "idle" ? -1 : STEPS.indexOf(phase);
 
   return (
-    <LandingSection id="ai-decks" analyticsSection="ai_deck_builder" tone="contrast" density="compact">
-      <div className="surface-paper rounded-xl p-5 lg:p-7">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-10">
-          <div>
-            <SectionHeading title={dict.ai.title} subtitle={dict.ai.subtitle} align="left" />
+    <LandingSection
+      id="ai-decks"
+      analyticsSection="ai_deck_builder"
+      tone="contrast"
+      density="compact"
+    >
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center lg:gap-14">
+        <div>
+          <SectionHeading
+            title={dict.ai.title}
+            subtitle={dict.ai.subtitle}
+            align="left"
+          />
 
-            <div className="mt-6 hidden gap-2 lg:flex">
-              {stepLabels.map((label, index) => {
-                const key = STEPS[index];
-                const { active, done } = stepState(key);
-                return (
-                  <div key={label} className="flex min-w-0 flex-1 items-center gap-2">
-                    <div
-                      className={cn(
-                        "flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-[11px] font-bold",
-                        done
-                          ? "bg-ink text-cream"
-                          : active
-                            ? "border border-border bg-lilac text-ink"
-                            : "border border-border bg-mist text-muted-foreground",
-                      )}
-                    >
-                      {index + 1}
-                    </div>
-                    <p
-                      className={cn(
-                        "truncate text-xs",
-                        active || done ? "font-semibold text-foreground" : "text-muted-foreground",
-                      )}
-                    >
-                      {label}
-                    </p>
-                  </div>
-                );
-              })}
-            </div>
-
-            <div className="mt-6 space-y-3 lg:hidden">
-              {stepLabels.map((label, index) => {
-                const key = STEPS[index];
-                const { active, done } = stepState(key);
-                return (
-                  <SimulationStep
-                    key={label}
-                    step={index + 1}
-                    label={label}
-                    active={active}
-                    done={done}
-                  />
-                );
-              })}
-            </div>
-
-            <div className="mt-6 rounded-xl border border-input bg-paper px-4 py-4 shadow-pill">
+          <div className="mt-8 rounded-lg surface-paper p-5 sm:p-6">
+            <div className="flex items-center justify-between gap-3">
               <p className="eyebrow text-[0.6875rem]">{dict.ai.inputLabel}</p>
-              <div className="mt-3 min-h-[52px] text-lg font-medium text-ink">
-                <span>{typedTopic}</span>
-                {phase === "typing" ? (
-                  <span className="ai-typing-cursor ml-0.5 inline-block h-5 w-0.5 bg-ink" />
-                ) : null}
-              </div>
+              <Tag icon={<Sparkles aria-hidden />}>AI</Tag>
+            </div>
+            <div className="mt-3 flex min-h-14 items-center rounded-sm bg-mist/80 px-4 text-lg font-bold text-ink ring-1 ring-ink/10 ring-inset">
+              <span className="truncate">{typedTopic || " "}</span>
+              {phase === "typing" ? (
+                <span
+                  className="ai-typing-cursor ms-0.5 inline-block h-5 w-0.5 shrink-0 bg-ink"
+                  aria-hidden
+                />
+              ) : null}
             </div>
 
-            <div className="mt-5">
-              <p className="mb-2 text-sm font-medium text-foreground">{dict.ai.difficulty}</p>
-              <div className="flex flex-wrap gap-2">
-                {difficulties.map((item) => (
-                  <button
-                    key={item.key}
-                    type="button"
-                    disabled={isBusy}
-                    onClick={() => onDifficultyChange(item.key)}
+            <ol
+              className="mt-4 grid grid-cols-4 gap-1.5"
+              aria-label={dict.ai.simulationBadge}
+            >
+              {stepLabels.map((label, index) => (
+                <li key={label} className="min-w-0">
+                  <span
                     className={cn(
-                      "rounded-full border px-5 py-2.5 text-sm font-extrabold tracking-tight transition",
-                      difficulty === item.key
-                        ? "surface-obsidian border-transparent text-cream"
-                        : "border-border bg-paper/90 text-ink shadow-pill hover:bg-paper",
-                      isBusy && "cursor-not-allowed opacity-60",
+                      "block h-1 rounded-full transition-colors duration-300",
+                      index <= currentStep ? "bg-ink" : "bg-ink/12",
                     )}
+                    aria-hidden
+                  />
+                  <span
+                    className={cn(
+                      "mt-2 hidden truncate text-[0.6875rem] font-bold transition-colors duration-300 sm:block",
+                      index === currentStep
+                        ? "text-foreground"
+                        : "text-muted-foreground",
+                    )}
+                    aria-current={index === currentStep ? "step" : undefined}
                   >
-                    {item.label}
-                  </button>
-                ))}
+                    {label}
+                  </span>
+                </li>
+              ))}
+            </ol>
+            <p
+              className="mt-2 text-xs font-bold text-foreground sm:hidden"
+              aria-hidden
+            >
+              {stepLabels[Math.max(0, currentStep)]}
+            </p>
+
+            <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="mb-2 text-xs font-bold text-muted-foreground">
+                  {dict.ai.difficulty}
+                </p>
+                <div className="inline-flex rounded-full bg-mist/80 p-1 ring-1 ring-ink/10 ring-inset">
+                  {difficulties.map((item) => (
+                    <button
+                      key={item.key}
+                      type="button"
+                      disabled={isBusy}
+                      aria-pressed={difficulty === item.key}
+                      onClick={() => onDifficultyChange(item.key)}
+                      className={cn(
+                        "h-9 cursor-pointer rounded-full px-4 text-sm font-extrabold tracking-tight transition-colors",
+                        difficulty === item.key
+                          ? "surface-obsidian text-cream"
+                          : "text-ink hover:bg-paper",
+                        isBusy && "cursor-not-allowed",
+                        isBusy && difficulty !== item.key && "opacity-50",
+                      )}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               <MotionButton
                 disabled={isBusy}
                 onClick={onCreate}
                 className={cn(
-                  "mt-5 flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-full text-base font-extrabold transition sm:w-auto sm:min-w-[220px] sm:px-8",
+                  "flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-full px-7 text-base font-extrabold transition sm:w-auto",
                   isBusy
                     ? "cursor-not-allowed bg-mist text-muted-foreground"
                     : "surface-obsidian text-cream",
                 )}
               >
-                <Sparkles className="h-5 w-5" />
+                <Sparkles className="size-5" aria-hidden />
                 {isBusy ? dict.ai.generating : dict.ai.generateButton}
               </MotionButton>
             </div>
           </div>
 
-          <div className="relative flex min-h-[320px] items-center justify-center">
+          <div className="mt-5 flex items-start gap-4 rounded-lg surface-obsidian p-5 sm:p-6">
+            <span
+              className="flex size-10 shrink-0 items-center justify-center rounded-sm bg-cream text-sm font-black text-ink"
+              aria-hidden
+            >
+              2×
+            </span>
+            <div>
+              <p className="text-base font-extrabold tracking-[-0.01em] text-cream">
+                {dict.ai.bothModesTitle}
+              </p>
+              <p className="mt-1 text-sm leading-relaxed text-cream/75">
+                {dict.ai.bothModesBody}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          ref={stageRef}
+          className="relative w-full"
+          style={{ height: STAGE_HEIGHT * stageScale }}
+        >
+          <div
+            className="absolute top-0 left-1/2 origin-top"
+            style={{
+              width: STAGE_WIDTH,
+              height: STAGE_HEIGHT,
+              transform: `translateX(-50%) scale(${stageScale})`,
+            }}
+          >
             <div className="preview-ambient-glow" aria-hidden />
-            <m.div
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="relative w-full max-w-[240px]"
+
+            <div
+              className={cn(
+                "absolute top-9 left-2 transition-opacity duration-300",
+                isWriting && "opacity-60",
+              )}
             >
               <ForbiddenWordsScreen
-                width={PHONE_WIDTH}
-                word={cardLoading ? undefined : heroCard.word}
-                forbidden={cardLoading ? undefined : heroCard.forbidden}
-                loading={cardLoading}
-                showGlow
-                className="relative z-[1] mx-auto"
+                width={196}
+                word={card.word}
+                forbidden={card.forbidden}
+                showGlow={false}
+                className="relative z-[1]"
               />
-            </m.div>
+            </div>
+            <div className="absolute top-0 left-2 z-[2]">
+              <Tag tone="solid">{dict.modes.tabooTitle}</Tag>
+            </div>
+
+            <div
+              className={cn(
+                "absolute right-0 bottom-9 z-[3] transition-opacity duration-300",
+                isWriting && "opacity-60",
+              )}
+            >
+              <HeadsUpScreen
+                locale={locale}
+                width={290}
+                word={card.word}
+                showGlow={false}
+              />
+            </div>
+            <div className="absolute right-0 bottom-0 z-[3]">
+              <Tag tone="solid">{dict.modes.headsUpTitle}</Tag>
+            </div>
+
+            <div className="absolute top-[15.5rem] left-[13.5rem] z-[4] flex items-center gap-2 rounded-full surface-paper py-1.5 ps-1.5 pe-3.5">
+              <span
+                className="flex size-7 items-center justify-center rounded-full bg-ink text-cream"
+                aria-hidden
+              >
+                <Sparkles className="size-3.5" />
+              </span>
+              <span className="text-xs font-extrabold text-foreground">
+                {dict.ai.sameDeck}
+              </span>
+            </div>
+
+            <AnimatePresence>
+              {isWriting ? (
+                <m.div
+                  key="writing"
+                  initial={
+                    reduceMotion ? false : { opacity: 0, y: 6, scale: 0.96 }
+                  }
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={reduceMotion ? undefined : { opacity: 0, y: -4 }}
+                  transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+                  className="absolute top-1/2 left-1/2 z-[5] flex -translate-x-1/2 -translate-y-1/2 items-center gap-2.5 rounded-full surface-obsidian py-2.5 ps-3 pe-5"
+                  role="status"
+                >
+                  <Sparkles className="ai-writing-spark size-4" aria-hidden />
+                  <span className="text-sm font-extrabold whitespace-nowrap">
+                    {dict.ai.simulationWriting}
+                  </span>
+                </m.div>
+              ) : null}
+            </AnimatePresence>
           </div>
         </div>
       </div>
     </LandingSection>
-  );
-}
-
-function SimulationStep({
-  step,
-  label,
-  active,
-  done,
-}: {
-  step: number;
-  label: string;
-  active: boolean;
-  done: boolean;
-}) {
-  return (
-    <div className="flex items-center gap-3">
-      <div
-        className={cn(
-          "flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold transition",
-          done
-            ? "bg-ink text-cream"
-            : active
-              ? "border border-border bg-lilac text-ink"
-              : "border border-border bg-mist text-muted-foreground",
-        )}
-      >
-        {step}
-      </div>
-      <p className={cn("text-sm", active || done ? "font-semibold text-foreground" : "text-muted-foreground")}>
-        {label}
-      </p>
-    </div>
   );
 }

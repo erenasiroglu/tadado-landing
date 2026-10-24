@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Adoré en soirée jeux",
-    "subtitle": "De vrais avis App Store de joueurs qui ont testé Tadado entre amis.",
-    "appStoreRating": "5,0 sur l'App Store",
-    "appStoreCount": "8 avis",
+    "subtitle": "De vrais avis App Store et Google Play de joueurs qui ont testé Tadado entre amis.",
+    "appStoreRating": "{rating} sur l'App Store",
+    "appStoreCount": "{count} notes",
     "sourceLabel": "Avis App Store",
+    "playRating": "{rating} sur Google Play",
+    "playAvailable": "Disponible sur Google Play",
+    "playSourceLabel": "Avis Google Play",
     "items": [
       {
         "quote": "On l'a découvert entre amis et on l'a téléchargé. Le design et l'interface sont vraiment bien. Créer des cartes avec l'IA selon nos centres d'intérêt nous a rendus très heureux. Chacun peut créer des cartes pour ses passions et les mots ne se répètent pas. Bravo.",

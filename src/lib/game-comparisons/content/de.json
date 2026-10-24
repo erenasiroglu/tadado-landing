@@ -1,0 +1,457 @@
+[
+  {
+    "id": "impostor",
+    "slug": "imposter-spiel",
+    "game": "Imposter",
+    "tagline": "Das virale Bluffspiel mit geheimem Wort gegen ein Spiel, bei dem alle reden.",
+    "metaTitle": "Imposter-Spiel oder Tadado: Was rettet den Spieleabend?",
+    "metaDescription": "Du liebst das Imposter-Spiel? Vergleiche es mit Tadados Modi Verbotene Wörter und Heads Up: ein Handy, keine Werbung, KI-Decks und ein kostenloses Starterdeck.",
+    "h1": "Imposter-Spiel oder Tadado",
+    "hook": "Bei Imposter geht es ums Misstrauen. Bei Tadado darum, die Antwort zu rufen, bevor die Zeit abläuft. So weißt du, was deinen Abend rettet.",
+    "about": [
+      "Das Imposter-Spiel, auch als \"Wer ist der Spion?\" bekannt, ging viral, weil es fast nichts braucht: Ein Handy wird herumgereicht, alle sehen dasselbe Wort außer einer Person, und die Gruppe gibt Ein-Wort-Hinweise, bis der Imposter rausgewählt wird.",
+      "Es ist vor allem ein Bluffspiel. Der Spaß kommt vom Gesichterlesen, vom Verteidigen und von der großen Auflösung. Perfekt für Gruppen, die gern diskutieren, und ruhiger für alle, die lieber alle paar Sekunden raten und lachen."
+    ],
+    "pickThem": [
+      "deine Gruppe Bluffen, Beschuldigen und dramatische Auflösungen liebt",
+      "ihr langsame Runden mit viel Diskussion wollt",
+      "alle lieber reden als gegen die Uhr zu spielen"
+    ],
+    "pickTadado": [
+      "ihr ohne Pause lachen wollt, mit einem neuen Wort alle paar Sekunden",
+      "schüchterne Freunde lieber raten als lügen",
+      "du Verbotene Wörter (Tabu-Stil) und Heads Up in einer App willst"
+    ],
+    "rows": [
+      {
+        "feature": "Mit einem einzigen Handy spielbar",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Geheime Rollen und Bluffen",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Runden mit Timer und automatischer Wertung",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Tabu-Stil und Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "KI-Decks zu jedem Thema",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Keine Werbung, kein Abo",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 Sprachen und offline spielbar",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Lade Tadado und öffne das kostenlose Deck Tadado Mix.",
+      "Wähle Verbotene Wörter für Teams oder Heads Up mit dem Handy auf der Stirn.",
+      "Du vermisst die Insider-Witze aus Imposter? Gib das Thema deiner Gruppe in den KI-Deck-Builder ein."
+    ],
+    "faq": [
+      {
+        "q": "Hat Tadado einen Imposter-Modus?",
+        "a": "Nein. Tadado hat zwei Modi: Verbotene Wörter (Tabu-Stil) und Heads Up. Es ist ein schnelles Ratespiel, kein Spiel mit geheimen Rollen, und passt deshalb gut zu Imposter am selben Abend."
+      },
+      {
+        "q": "Was ist besser für große Gruppen?",
+        "a": "Beide funktionieren mit einem Handy. Imposter-Runden werden mit mehr Leuten länger, Tadado teilt große Gruppen in Teams, sodass alle in jeder Runde mitspielen."
+      },
+      {
+        "q": "Ist Tadado kostenlos wie viele Imposter-Apps?",
+        "a": "Tadado ist kostenlos mit dem Deck Tadado Mix, ohne Werbung und ohne Abo. Themen-Decks und KI-Pakete sind optionale Einmalkäufe."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "stadt-land-fluss",
+    "game": "Stadt Land Fluss",
+    "tagline": "Der Stift-und-Papier-Klassiker gegen ein lautes, schnelles Ratespiel.",
+    "metaTitle": "Stadt Land Fluss oder Tadado: Welches Wortspiel passt zu euch?",
+    "metaDescription": "Stadt Land Fluss spielt man leise mit Stift und Papier. Tadado ist ein lautes Ratespiel mit Timer, Punkten und KI-Decks. Hier der ehrliche Vergleich.",
+    "h1": "Stadt Land Fluss oder Tadado",
+    "hook": "Beim einen schaut man aufs Papier, beim anderen klebt das Handy an der Stirn und alle rufen durcheinander. Was passt zu deiner Runde?",
+    "about": [
+      "Bei Stadt Land Fluss wird ein Buchstabe bestimmt und alle schreiben so schnell wie möglich zu jeder Kategorie ein passendes Wort: Stadt, Land, Fluss, Name, Tier. Wer zuerst fertig ist, ruft \"Stopp!\", dann werden die Antworten verglichen.",
+      "Ideal für Wortfans und einen ruhigen Tisch. Weil jeder für sich schreibt, wird meist erst am Ende einer Runde gelacht, wenn Antworten vorgelesen und angezweifelt werden."
+    ],
+    "pickThem": [
+      "ihr Schreibrennen und das gemeinsame Prüfen der Antworten mögt",
+      "Stifte, Papier und ein ruhiger Tisch bereitliegen",
+      "deine Gruppe gern diskutiert, ob eine Antwort zählt"
+    ],
+    "pickTadado": [
+      "die ganze Gruppe laut erklären, spielen und raten soll",
+      "du keine Stifte suchen und keine Punktelisten führen willst",
+      "ihr Themen- und KI-Decks statt immer derselben Kategorien wollt"
+    ],
+    "rows": [
+      {
+        "feature": "Ohne Stift und Papier",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Laute Runden im Team",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Timer und Punkte automatisch",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Fertige Themen-Decks",
+        "tadado": "yes",
+        "other": "Kategorien nach Wahl"
+      },
+      {
+        "feature": "KI-Decks zu jedem Thema",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Kostenlos starten",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Lade Tadado und öffne Tadado Mix kostenlos.",
+      "Spielt Verbotene Wörter in zwei Teams für eine schnelle, laute Wort-Challenge.",
+      "Dir fehlen deine Lieblingskategorien? Lass dir vom KI-Builder ein Deck zu jedem Thema erstellen."
+    ],
+    "faq": [
+      {
+        "q": "Ist Tadado wie Stadt Land Fluss?",
+        "a": "Beides sind Wortspiele, aber sie spielen sich sehr unterschiedlich. Stadt Land Fluss ist ein Schreibrennen, Tadado ein gesprochenes Ratespiel mit Verbotene Wörter und Heads Up."
+      },
+      {
+        "q": "Was ist besser für Familien mit Kindern?",
+        "a": "Beides funktioniert. Bei Tadado gibt es kein Schreibrennen, deshalb können auch Jüngere mit Erklären und Raten mitspielen."
+      },
+      {
+        "q": "Braucht man außer dem Handy noch etwas?",
+        "a": "Nein. Tadado übernimmt Timer, Karten und Punkte auf einem Handy."
+      }
+    ]
+  },
+  {
+    "id": "activity",
+    "slug": "activity",
+    "game": "Activity",
+    "tagline": "Erklären, Zeichnen und Pantomime auf dem Brett gegen Raten mit einem Handy.",
+    "metaTitle": "Activity oder Tadado: Brettspiel-Klassiker oder Handy-Partyspiel?",
+    "metaDescription": "Activity ist der Klassiker mit Erklären, Zeichnen und Pantomime. Tadado bringt Verbotene Wörter, Heads Up und KI-Decks aufs Handy. Der ehrliche Vergleich.",
+    "h1": "Activity oder Tadado",
+    "hook": "Activity hat Brett, Sanduhr und Zeichenblock. Tadado hat nur ein Handy und trotzdem alle am Lachen. So unterscheiden sie sich.",
+    "about": [
+      "Bei Activity ziehen die Teams über ein Spielbrett und müssen Begriffe erklären, zeichnen oder pantomimisch darstellen, bevor die Sanduhr abläuft. Seit Jahrzehnten ist es eines der beliebtesten Partyspiele im deutschsprachigen Raum.",
+      "Die Mischung der drei Disziplinen macht es abwechslungsreich. Dafür braucht man die Schachtel, Stifte, Papier, eine Sanduhr und etwas Platz auf dem Tisch."
+    ],
+    "pickThem": [
+      "ihr Erklären, Zeichnen und Pantomime in einem Spiel wollt",
+      "ihr die Schachtel habt und gern über ein Brett zieht",
+      "deine Gruppe gern zeichnet"
+    ],
+    "pickTadado": [
+      "ihr sofort und überall ohne Aufbau loslegen wollt",
+      "niemand zeichnen muss, der das nicht mag",
+      "ihr neue Begriffe aus Themen- und KI-Decks wollt"
+    ],
+    "rows": [
+      {
+        "feature": "Begriffe erklären",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Pantomime",
+        "tadado": "Heads Up-Modus",
+        "other": "yes"
+      },
+      {
+        "feature": "Zeichnen",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Brett, Stifte und Sanduhr nötig",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "KI-Decks zu jedem Thema",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Aufbauzeit",
+        "tadado": "Sekunden",
+        "other": "Brett und Karten auslegen"
+      }
+    ],
+    "steps": [
+      "Bildet zwei Teams wie bei Activity.",
+      "Spielt Verbotene Wörter für die Erklärrunden und Heads Up für das Pantomime-Gefühl.",
+      "Eigene Begriffe? Erstelle ein KI-Deck über eure Clique, einen Urlaub oder eine Serie."
+    ],
+    "faq": [
+      {
+        "q": "Kann man in Tadado zeichnen?",
+        "a": "Nein. Tadado konzentriert sich aufs Erklären (Verbotene Wörter) und aufs Raten mit Heads Up, bei dem du auch pantomimisch helfen kannst."
+      },
+      {
+        "q": "Was ist besser für unterwegs?",
+        "a": "Tadado, weil es auf dem Handy läuft und nach dem Download offline funktioniert. Activity braucht Schachtel und Tisch."
+      },
+      {
+        "q": "Können wir beides am selben Abend spielen?",
+        "a": "Klar. Viele starten mit schnellen Tadado-Runden und holen später das Brett raus."
+      }
+    ]
+  },
+  {
+    "id": "alias",
+    "slug": "alias",
+    "game": "Alias",
+    "tagline": "Begriffe erklären auf dem Spielbrett gegen Verbotene Wörter und Heads Up.",
+    "metaTitle": "Alias oder Tadado: Welches Erklärspiel passt zu eurer Runde?",
+    "metaDescription": "Alias ist ein beliebtes Erklärspiel mit Brett und Sanduhr. Tadado bietet Verbotene Wörter, Heads Up und KI-Decks auf einem Handy. Vergleiche beide.",
+    "h1": "Alias oder Tadado",
+    "hook": "Wer Alias mag, mag Erklären unter Zeitdruck. Tadado legt verbotene Wörter und Heads Up obendrauf.",
+    "about": [
+      "Bei Alias erklären Spieler Begriffe mit anderen Worten, ohne das Wort selbst zu nennen, und ihr Team rät, bevor die Sanduhr abläuft. Jeder richtige Begriff bringt die Figur auf dem Brett voran.",
+      "Es ist einfach zu lernen und funktioniert in fast jeder Gruppe. Die Karten sind aber irgendwann bekannt, und man braucht Brett, Figuren und Sanduhr."
+    ],
+    "pickThem": [
+      "ihr ein klassisches Brettspiel mit Figuren mögt",
+      "deine Gruppe nur frei erklären will, ohne verbotene Wörter",
+      "ihr die Schachtel ohnehin im Regal habt"
+    ],
+    "pickTadado": [
+      "ihr eine Extraportion Herausforderung durch verbotene Wörter wollt",
+      "ihr zwischendurch Heads Up mit dem Handy an der Stirn spielen wollt",
+      "ihr ständig neue Begriffe aus Themen- und KI-Decks wollt"
+    ],
+    "rows": [
+      {
+        "feature": "Begriffe erklären, ohne sie zu nennen",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Verbotene Wörter auf der Karte",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Heads Up-Modus",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Brett und Figuren nötig",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Timer und Punkte automatisch",
+        "tadado": "yes",
+        "other": "Sanduhr"
+      },
+      {
+        "feature": "KI-Decks zu jedem Thema",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Bildet Teams wie bei Alias.",
+      "Startet mit Verbotene Wörter und probiert dann die Genius Only-Begriffe für Profis.",
+      "Wechselt zu Heads Up, wenn alle eine Pause vom Erklären brauchen."
+    ],
+    "faq": [
+      {
+        "q": "Ist Tadado eine Alias-App?",
+        "a": "Nein. Tadado ist ein unabhängiges Partyspiel. Es teilt das Erklären unter Zeitdruck mit Alias, ergänzt es aber um verbotene Wörter und einen Heads Up-Modus."
+      },
+      {
+        "q": "Was ist schwieriger?",
+        "a": "Tadados Verbotene Wörter sind meist kniffliger, weil die naheliegendsten Hinweise tabu sind."
+      },
+      {
+        "q": "Brauchen wir mehrere Handys?",
+        "a": "Nein. Ein Handy wird einfach im Team weitergegeben."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "werwolf",
+    "game": "Werwölfe",
+    "tagline": "Geheime Rollen und Nachtphasen gegen ein Spiel, bei dem niemand rausfliegt.",
+    "metaTitle": "Werwölfe oder Tadado: Welches Partyspiel passt zu eurer Gruppe?",
+    "metaDescription": "Die Werwölfe von Düsterwald und Mafia sind legendäre Rollenspiele. Tadado ist ein schnelles Wortspiel, bei dem niemand ausscheidet. Der Vergleich.",
+    "h1": "Werwölfe oder Tadado",
+    "hook": "Bei den Werwölfen warten Ausgeschiedene. Bei Tadado bleiben alle bis zur letzten Runde dabei. Wann passt was?",
+    "about": [
+      "Werwölfe, auch als Mafia bekannt, ist ein Spiel der sozialen Deduktion. Eine Spielleitung verteilt geheime Rollen, die Werwölfe wählen nachts ein Opfer und das Dorf diskutiert tagsüber, wer verdächtig ist.",
+      "In großen Gruppen entsteht unvergessliche Spannung. Dafür braucht es eine Spielleitung, viele Mitspielende, und wer rausfliegt, schaut nur noch zu."
+    ],
+    "pickThem": [
+      "ihr viele seid und jemand gern die Spielleitung übernimmt",
+      "deine Freunde Anschuldigungen, Bündnisse und Wendungen lieben",
+      "ihr Zeit für lange, erzählerische Runden habt"
+    ],
+    "pickTadado": [
+      "alle in jeder Runde mitspielen sollen und niemand ausscheidet",
+      "ihr ohne Spielleitung und Rollenkarten starten wollt",
+      "ihr eine kleine Runde seid oder schüchterne und laute Spieler mischt"
+    ],
+    "rows": [
+      {
+        "feature": "Spielleitung nötig",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Niemand scheidet aus",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Spaß auch in kleiner Runde",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Geheime Rollen und Bluffen",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Kurze Runden mit Timer",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "KI-Decks zu jedem Thema",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Lade Tadado und öffne Tadado Mix.",
+      "Teilt euch in Teams und spielt zum Aufwärmen eine schnelle Runde Verbotene Wörter.",
+      "Hebt euch die Werwölfe für später auf, wenn die Gruppe Lust auf eine lange Runde hat."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es in Tadado geheime Rollen?",
+        "a": "Nein. Tadado ist ein Ratespiel mit den Modi Verbotene Wörter und Heads Up. Es macht auf andere Art Spaß als Werwölfe, und beides ergänzt sich gut."
+      },
+      {
+        "q": "Was ist besser zu viert?",
+        "a": "Tadado. Werwölfe braucht meist eine größere Gruppe, Tadado macht schon mit wenigen Freunden Spaß."
+      },
+      {
+        "q": "Braucht Tadado eine Spielleitung?",
+        "a": "Nein. Tadado übernimmt Timer, Karten und Punkte selbst."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "Das Brettspiel mit Ein-Wort-Hinweisen gegen schnelles Raten auf dem Handy.",
+    "metaTitle": "Codenames oder Tadado: Brettspiel oder Partyspiel fürs Handy?",
+    "metaDescription": "Codenames ist ein moderner Klassiker. Tadado ist ein Handy-Partyspiel mit Verbotene Wörter, Heads Up, KI-Decks und ohne Aufbau. Ehrlich verglichen.",
+    "h1": "Codenames oder Tadado",
+    "hook": "Codenames bringt zum Grübeln, Tadado zum Schreien. Wenn an eurem Tisch beide Typen sitzen, ist dieser Vergleich für euch.",
+    "about": [
+      "Bei Codenames geben zwei Geheimdienstchefs Ein-Wort-Hinweise, die mehrere Karten in einem Raster aus 25 Wörtern verbinden. Ihre Teams suchen die eigenen Karten und meiden den Attentäter.",
+      "Es belohnt cleveres Denken und funktioniert wunderbar mit der Schachtel auf dem Tisch. Der Preis: Aufbau und lange Pausen, während der Chef den perfekten Hinweis sucht."
+    ],
+    "pickThem": [
+      "deine Gruppe Rätsel und Denkspiele liebt",
+      "ihr Tisch, Schachtel und Zeit zum Aufbauen habt",
+      "ihr langsamere, strategische Züge mögt"
+    ],
+    "pickTadado": [
+      "ihr in Sekunden überall mit einem Handy starten wollt",
+      "ihr schnelle Runden mit viel Raten und Lachen wollt",
+      "ihr Decks zu jedem Thema wollt, auch zu euren Insider-Witzen"
+    ],
+    "rows": [
+      {
+        "feature": "Aufbauzeit",
+        "tadado": "Sekunden",
+        "other": "25 Karten auslegen"
+      },
+      {
+        "feature": "Schachtel oder Brett nötig",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Art der Hinweise",
+        "tadado": "Ein Wort frei erklären",
+        "other": "Ein Wort für mehrere Karten"
+      },
+      {
+        "feature": "Schnelle Runden mit Timer",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Neue Decks und KI-Themen",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "In 17 Sprachen spielbar",
+        "tadado": "yes",
+        "other": "Lokale Ausgaben"
+      }
+    ],
+    "steps": [
+      "Bildet zwei Teams, genau wie bei Codenames.",
+      "Wählt Verbotene Wörter und öffnet ein Deck wie Genius Only für eine echte Denk-Challenge.",
+      "Spielt gegen die Uhr und lasst Tadado die Punkte zählen."
+    ],
+    "faq": [
+      {
+        "q": "Ist Tadado eine Codenames-App?",
+        "a": "Nein. Tadado ist ein unabhängiges Wortspiel. Es teilt den Teamgeist von Codenames, aber in jedem Zug erklärst du ein einzelnes Wort, ohne seine verbotenen Hinweise zu nennen."
+      },
+      {
+        "q": "Was ist besser für Reisen?",
+        "a": "Tadado, denn es ist auf dem Handy und funktioniert nach dem Download offline. Codenames braucht Schachtel und Platz."
+      },
+      {
+        "q": "Können wir beides an einem Abend spielen?",
+        "a": "Natürlich. Viele wärmen sich mit Tadado auf und wechseln später zu einem ruhigeren Strategiespiel."
+      }
+    ]
+  }
+]

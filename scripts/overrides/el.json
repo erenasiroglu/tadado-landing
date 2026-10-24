@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Αγαπημένο σε βραδιές παιχνιδιού",
-    "subtitle": "Πραγματικές κριτικές App Store από παίκτες που δοκίμασαν το Tadado με φίλους.",
-    "appStoreRating": "5,0 στο App Store",
-    "appStoreCount": "8 αξιολογήσεις",
+    "subtitle": "Πραγματικές κριτικές από App Store και Google Play από παίκτες που δοκίμασαν το Tadado με φίλους.",
+    "appStoreRating": "{rating} στο App Store",
+    "appStoreCount": "{count} αξιολογήσεις",
     "sourceLabel": "Κριτική App Store",
+    "playRating": "{rating} στο Google Play",
+    "playAvailable": "Τώρα στο Google Play",
+    "playSourceLabel": "Κριτική Google Play",
     "items": [
       {
         "quote": "Το βρήκαμε με φίλους και το κατεβάσαμε. Το design και το UI είναι πολύ καλά. Η δημιουργία καρτών με AI για τα ενδιαφέροντά μας μας έκανε πολύ χαρούμενους. Ο καθένας μπορεί να φτιάξει κάρτες για τα ενδιαφέροντά του και οι λέξεις δεν επαναλαμβάνονται. Συγχαρητήρια.",

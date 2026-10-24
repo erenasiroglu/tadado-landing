@@ -2,8 +2,8 @@ import { getCampaignUrl } from "@/lib/utm-campaigns";
 
 export const SOCIAL_LINKS = {
   instagram: {
-    href: "https://www.instagram.com/tadado.game/",
-    handle: "@tadado.game",
+    href: "https://www.instagram.com/playtadado/",
+    handle: "@playtadado",
     landingUrl: getCampaignUrl("instagramBio", "/en"),
   },
   tiktok: {

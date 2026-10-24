@@ -1,0 +1,307 @@
+[
+  {
+    "id": "impostor",
+    "slug": "imposter-oyunu",
+    "game": "İmposter",
+    "tagline": "Viral blöf ve casus oyunu ile herkesin konuştuğu bir parti oyunu.",
+    "metaTitle": "İmposter Oyunu ve Tadado: Oyun Gecesinde Hangisi?",
+    "metaDescription": "İmposter (Casus) kelime oyununu seviyor musunuz? Tadado'nun Tabu ve Alnında Tahmin modlarıyla karşılaştırın: tek telefon, reklamsız, AI desteler ve ücretsiz başlangıç destesi.",
+    "h1": "İmposter oyunu ve Tadado",
+    "hook": "İmposter şüpheyle oynanır. Tadado'da ise süre bitmeden cevabı bağırırsınız. Hangisi geceyi kurtarır, birlikte bakalım.",
+    "about": [
+      "İmposter, Casus ya da \"Kim Sahtekar?\" adlarıyla da bilinen bu oyun neredeyse hiçbir şey gerektirmediği için viral oldu. Tek telefon elden ele dolaşır, bir kişi hariç herkes aynı kelimeyi görür ve grup sırayla tek kelimelik ipuçları verir. Sonunda da sahtekarı oylarsınız.",
+      "Bu her şeyden önce bir blöf oyunu. Eğlence yüz okumaktan, kendini savunmaktan ve tur sonundaki büyük açıklamadan gelir. Tartışmayı seven gruplar için harika; her birkaç saniyede bir tahmin edip gülmek isteyenler için ise daha sakin kalır."
+    ],
+    "pickThem": [
+      "Grubunuz blöf yapmayı, suçlamayı ve dramatik açıklamaları seviyor",
+      "Bol tartışmalı, yavaş ilerleyen turlar istiyorsunuz",
+      "Herkes süreye karşı yarışmak yerine oturup konuşmaktan keyif alıyor"
+    ],
+    "pickTadado": [
+      "Birkaç saniyede bir yeni kelimeyle durmadan gülmek istiyorsunuz",
+      "Bazı arkadaşlarınız utangaç ve yalan söylemek yerine tahmin etmeyi seviyor",
+      "Tabu ve Alnında Tahmin'ı tek uygulamada istiyorsunuz"
+    ],
+    "rows": [
+      {
+        "feature": "Elden ele tek telefonla oynanır",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Gizli roller ve blöf",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Süreli turlar ve otomatik puanlama",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Tabu ve Alnında Tahmin modları",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Her konuda AI desteler",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Reklam ve abonelik yok",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 dil ve çevrimdışı oyun",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Tadado'yu indir ve ücretsiz Tadado Mix destesini aç.",
+      "Takımlar için Yasaklı Kelimeler'i (Tabu) ya da alında tahmin için Alnında Tahmin'ı seç.",
+      "İmposter'daki iç şakaları mı özledin? Grubunun konusunu AI deste oluşturucuya yaz."
+    ],
+    "faq": [
+      {
+        "q": "Tadado'da İmposter modu var mı?",
+        "a": "Hayır. Tadado'nun iki modu var: Yasaklı Kelimeler (Tabu tarzı) ve Alnında Tahmin. Gizli rol oyunu değil, hızlı bir tahmin oyunu; bu yüzden aynı gecede İmposter ile çok iyi gider."
+      },
+      {
+        "q": "Kalabalık gruplar için hangisi daha iyi?",
+        "a": "İkisi de tek telefonla oynanır. İmposter turları grup büyüdükçe uzar; Tadado ise kalabalığı takımlara ayırır ve herkes her turda oynamaya devam eder."
+      },
+      {
+        "q": "Tadado da İmposter uygulamaları gibi ücretsiz mi?",
+        "a": "Tadado ücretsiz indirilir, Tadado Mix destesi bedavadır, reklam ve abonelik yoktur. Ek temalı desteler ve AI paketleri isteğe bağlı, tek seferlik satın alımlardır."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "isim-sehir",
+    "game": "İsim Şehir",
+    "tagline": "Kağıt kalemle oynanan klasik ile sesli ve hızlı bir tahmin oyunu.",
+    "metaTitle": "İsim Şehir ve Tadado: Arkadaşlarla Hangi Kelime Oyunu?",
+    "metaDescription": "İsim Şehir (İsim Şehir Hayvan Bitki) kağıt kalemle sessizce oynanır. Tadado ise süre, puan ve AI destelerle sesli bir tahmin oyunu. İkisini karşılaştırın.",
+    "h1": "İsim Şehir ve Tadado",
+    "hook": "Birinde başlar eğik, elde kalem. Diğerinde telefon alında, herkes bağırıyor. Hangisi sizin ekibe uyar?",
+    "about": [
+      "İsim Şehir Hayvan Bitki'de bir harf seçilir ve herkes her kategori için o harfle başlayan bir cevabı en hızlı şekilde yazmaya çalışır. Biri \"Stop!\" dediğinde kalemler bırakılır, cevaplar okunur ve farklı cevaplar puan kazanır.",
+      "Kelime sevenler ve sakin bir masa için harikadır. Herkes kendi kağıdına yazdığı için kahkahalar genelde tur sonunda, cevaplar okunup tartışılırken gelir."
+    ],
+    "pickThem": [
+      "Yazma yarışlarını ve cevapları birlikte kontrol etmeyi seviyorsunuz",
+      "Kalem, kağıt ve sakin bir masanız var",
+      "Grubunuz bir cevabın sayılıp sayılmayacağını tartışmaktan keyif alıyor"
+    ],
+    "pickTadado": [
+      "Tüm grubun sesli konuşmasını, anlatmasını ve tahmin etmesini istiyorsunuz",
+      "Kalem aramak ya da puan tablosu tutmakla uğraşmak istemiyorsunuz",
+      "Hep aynı kategoriler yerine temalı ve AI desteler istiyorsunuz"
+    ],
+    "rows": [
+      {
+        "feature": "Kağıt kalem gerekmez",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Sesli, takım halinde turlar",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Süre ve puanı uygulama tutar",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Hazır temalı desteler",
+        "tadado": "yes",
+        "other": "Kategorileri siz seçersiniz"
+      },
+      {
+        "feature": "Her konuda AI desteler",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Ücretsiz başlanır",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Tadado'yu indir, Tadado Mix'i ücretsiz aç.",
+      "İki takım kurup hızlı ve gürültülü bir Yasaklı Kelimeler turu oyna.",
+      "Sevdiğin kategoriler mi eksik? AI deste oluşturucudan istediğin konuda deste iste."
+    ],
+    "faq": [
+      {
+        "q": "Tadado, İsim Şehir'e benziyor mu?",
+        "a": "İkisi de kelime oyunu ama çok farklı oynanır. İsim Şehir bir yazma yarışıdır; Tadado ise Yasaklı Kelimeler ve Alnında Tahmin modlarıyla sesli bir tahmin oyunudur."
+      },
+      {
+        "q": "Çocuklar ve aile için hangisi daha uygun?",
+        "a": "İkisi de olur. Tadado'da yazma yarışı olmadığı için küçükler de anlatarak ve tahmin ederek katılabilir."
+      },
+      {
+        "q": "Telefon dışında bir şeye ihtiyaç var mı?",
+        "a": "Hayır. Süreyi, kartları ve puanı tek telefonda Tadado tutar."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "Tek kelimelik ipuçlarıyla oynanan zeka kutusu ile tek telefonda anlık tahmin.",
+    "metaTitle": "Codenames ve Tadado: Kutu Oyunu mu, Telefonda Parti Oyunu mu?",
+    "metaDescription": "Codenames modern bir klasik. Tadado ise Tabu, Alnında Tahmin ve AI destelerle kurulumsuz bir telefon parti oyunu. Oyun gecesinden önce dürüstçe karşılaştırın.",
+    "h1": "Codenames ve Tadado",
+    "hook": "Codenames düşündürür. Tadado bağırtır. Masanızda iki tip oyuncu da varsa bu karşılaştırma tam size göre.",
+    "about": [
+      "Codenames'te iki takımın birer casus şefi, 25 kelimelik bir ızgarada birden fazla kartı birbirine bağlayan tek kelimelik ipuçları verir. Takım arkadaşları suikastçı kartından kaçınarak kendi kartlarını bulmaya çalışır.",
+      "Zekice ve dikkatli düşünmeyi ödüllendirir ve kutusu masaya açıldığında harika oynanır. Bedeli ise kurulum süresi ve casus şefin mükemmel ipucunu düşündüğü uzun sessizliklerdir."
+    ],
+    "pickThem": [
+      "Grubunuz bulmacaları ve kelime oyunlarını seviyor",
+      "Bir masanız, kutunuz ve kurulum için vaktiniz var",
+      "Daha yavaş, stratejik turlardan keyif alıyorsunuz"
+    ],
+    "pickTadado": [
+      "Her yerde, tek telefonla saniyeler içinde başlamak istiyorsunuz",
+      "Sürekli tahmin ve kahkaha dolu hızlı turlar istiyorsunuz",
+      "İç şakalarınız dahil her konuda deste istiyorsunuz"
+    ],
+    "rows": [
+      {
+        "feature": "Kurulum süresi",
+        "tadado": "Saniyeler",
+        "other": "25 kartlık ızgara dizilir"
+      },
+      {
+        "feature": "Kutu ya da tahta gerekir",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "İpucu tarzı",
+        "tadado": "Tek kelimeyi serbestçe anlat",
+        "other": "Birkaç kartı bağlayan tek kelime"
+      },
+      {
+        "feature": "Süreli, hızlı turlar",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Yeni desteler ve AI konular",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "17 dilde oynanır",
+        "tadado": "yes",
+        "other": "Yerel baskılar"
+      }
+    ],
+    "steps": [
+      "Codenames'teki gibi iki takıma ayrılın.",
+      "Yasaklı Kelimeler'i seçin ve zorlayıcı bir meydan okuma için Genius Only destesini açın.",
+      "Süreye karşı yarışın, puanı Tadado tutsun, kimse tartışmasın."
+    ],
+    "faq": [
+      {
+        "q": "Tadado bir Codenames uygulaması mı?",
+        "a": "Hayır. Tadado bağımsız bir parti kelime oyunudur. Codenames'in takım ruhunu paylaşır ama her turda tek bir kelimeyi yasaklı ipuçlarını söylemeden anlatırsınız."
+      },
+      {
+        "q": "Yolculuk için hangisi daha iyi?",
+        "a": "Tadado; çünkü telefonunuzda durur ve indirildikten sonra çevrimdışı çalışır. Codenames'e kutu ve kartları dizecek alan gerekir."
+      },
+      {
+        "q": "Aynı gece ikisini de oynayabilir miyiz?",
+        "a": "Elbette. Birçok grup ısınmak için hızlı Tadado turlarıyla başlar, gecenin ilerleyen saatlerinde daha yavaş bir strateji oyununa geçer."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "vampir-koylu",
+    "game": "Vampir Köylü",
+    "tagline": "Gizli roller ve gece turları ile kimsenin dışarıda kalmadığı bir oyun.",
+    "metaTitle": "Vampir Köylü (Mafya) ve Tadado: Hangi Parti Oyunu Size Uygun?",
+    "metaDescription": "Vampir Köylü ve Mafya efsanevi gizli rol oyunları. Tadado ise kimsenin elenmediği hızlı bir kelime tahmin oyunu. Bir sonraki parti için karşılaştırın.",
+    "h1": "Vampir Köylü ve Tadado",
+    "hook": "Vampir Köylü'de elenen oyuncu bekler. Tadado'da ise herkes son tura kadar oyunda kalır. Hangisini ne zaman seçmeli?",
+    "about": [
+      "Vampir Köylü, Mafya ya da Werewolf adlarıyla da oynanan bir sosyal çıkarım oyunudur. Bir yönetici gizli rolleri dağıtır, vampirler her gece bir kurban seçer ve köylüler gündüz tartışarak onları bulmaya çalışır.",
+      "Kalabalık gruplarda unutulmaz dramlar yaratır. Öte yandan bir yöneticiye ihtiyaç duyar, çok oyuncuyla en iyi oynanır ve elenen oyuncular turun geri kalanını izleyerek geçirir."
+    ],
+    "pickThem": [
+      "Kalabalık bir grubunuz ve yönetmeye gönüllü biri var",
+      "Arkadaşlarınız suçlamaları, ittifakları ve sürpriz dönüşleri seviyor",
+      "Uzun, hikaye dolu turlar için vaktiniz var"
+    ],
+    "pickTadado": [
+      "Herkesin her turda oynamasını, kimsenin elenmemesini istiyorsunuz",
+      "Yönetici ya da rol kartı olmadan başlamak istiyorsunuz",
+      "Küçük bir grubunuz ya da utangaç ve enerjik oyunculardan oluşan bir karışımınız var"
+    ],
+    "rows": [
+      {
+        "feature": "Yönetici gerekir",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Kimse elenmez",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Küçük gruplarda da eğlenceli",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Gizli roller ve blöf",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Kısa, süreli turlar",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Her konuda AI desteler",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Tadado'yu indir ve Tadado Mix'i aç.",
+      "Takımlara ayrılıp ısınmak için hızlı bir Yasaklı Kelimeler turu oyna.",
+      "Grup uzun bir tura hazır olduğunda Vampir Köylü'yü gecenin sonuna sakla."
+    ],
+    "faq": [
+      {
+        "q": "Tadado'da gizli roller var mı?",
+        "a": "Hayır. Tadado, Yasaklı Kelimeler ve Alnında Tahmin modlarıyla bir kelime tahmin oyunudur. Vampir Köylü'den farklı bir eğlence sunar ve ikisi birlikte çok iyi gider."
+      },
+      {
+        "q": "4 kişi için hangisi daha iyi?",
+        "a": "Tadado. Vampir Köylü genelde iyi işlemesi için daha kalabalık bir grup ister; Tadado ise bir avuç arkadaşla da eğlencelidir."
+      },
+      {
+        "q": "Tadado'da oyun yöneticisi gerekir mi?",
+        "a": "Hayır. Süreyi, kartları ve puanı Tadado kendisi yönetir."
+      }
+    ]
+  }
+]

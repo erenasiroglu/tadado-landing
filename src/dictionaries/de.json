@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Beliebt beim Spieleabend",
-    "subtitle": "Echte App Store-Bewertungen von Spielern, die Tadado mit Freunden ausprobiert haben.",
-    "appStoreRating": "5,0 im App Store",
-    "appStoreCount": "8 Bewertungen",
+    "subtitle": "Echte Bewertungen aus App Store und Google Play von Spielern, die Tadado mit Freunden ausprobiert haben.",
+    "appStoreRating": "{rating} im App Store",
+    "appStoreCount": "{count} Bewertungen",
     "sourceLabel": "App Store-Bewertung",
+    "playRating": "{rating} bei Google Play",
+    "playAvailable": "Jetzt bei Google Play",
+    "playSourceLabel": "Google Play-Bewertung",
     "items": [
       {
         "quote": "Wir haben es mit Freunden entdeckt und heruntergeladen. Design und UI sind wirklich gut. Karten mit KI für unsere Interessen zu erstellen, hat uns sehr gefreut. Jeder kann Karten für seine Interessen erstellen und Wörter wiederholen sich nicht. Glückwunsch.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Generieren",
     "simulationStepPreview": "Karten erscheinen",
     "simulationStepReady": "Spielbereit",
-    "simulationWriting": "KI schreibt verbotene Wörter…"
+    "simulationWriting": "KI schreibt verbotene Wörter…",
+    "bothModesTitle": "Ein Deck, zwei Spielmodi",
+    "bothModesBody": "Jedes KI-Deck, das du erstellst, funktioniert in Verbotene Wörter und in Heads Up. Einmal erstellen, dann jederzeit den Modus wechseln.",
+    "sameDeck": "Gleiches Deck"
   },
   "trending": {
     "title": "Was spielen wir heute Abend?",
@@ -356,6 +362,31 @@
       "title": "Vergleichst du mit einem anderen Spiel?",
       "guides": "Guides und Spieleabend-Ideen →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Partyspiele vergleichen",
+    "hubTitle": "Tadado im Vergleich mit den Spielen, die deine Freunde schon lieben",
+    "hubSubtitle": "Imposter, Stadt Land Fluss, Activity, Alias, Werwölfe, Codenames und mehr. Ehrlich verglichen: wo jedes Spiel glänzt und warum Gruppen beim Spieleabend Tadado wählen.",
+    "localTitle": "Die beliebtesten Spiele in Deutschland",
+    "localSubtitle": "Die meistgesuchten Wort-, Karten- und Partyspiele. Jede Seite stellt den Klassiker neben Tadado.",
+    "classicTitle": "Alternativen zu Partyspiel-Apps",
+    "tableTitle": "Tadado im Vergleich mit typischen Partyspiel-Apps",
+    "compareLink": "Vergleichen",
+    "vs": "VS",
+    "pickThem": "Nimm {game}, wenn",
+    "pickTadado": "Nimm Tadado, wenn",
+    "aboutTitle": "Was ist {game}?",
+    "tableHeading": "{game} und Tadado auf einen Blick",
+    "feature": "Merkmal",
+    "varies": "Je nach App",
+    "stepsTitle": "Hol dir das {game}-Gefühl heute Abend in Tadado",
+    "faqTitle": "{game} oder Tadado: Fragen",
+    "relatedTitle": "Weitere Vergleiche",
+    "ctaTitle": "Dein nächster Spieleabend startet kostenlos",
+    "ctaBody": "Lade Tadado, öffne das kostenlose Deck Tadado Mix und spiel in Sekunden Verbotene Wörter oder Heads Up. Ein Handy reicht.",
+    "ctaButton": "Tadado kostenlos laden",
+    "freeNote": "Kostenlos laden · Keine Werbung · Kein Abo",
+    "disclaimer": "{game} wird nur genannt, um ein bekanntes Spiel oder Spielformat zu beschreiben. Alle Marken gehören ihren Inhabern; Tadado ist nicht mit ihnen verbunden und wird nicht von ihnen unterstützt. Die Angaben zu {game} beschreiben das klassische Format und typische Versionen; einzelne Apps und Ausgaben können abweichen, prüfe daher den jeweiligen Store-Eintrag."
   },
   "geniusEvent": {
     "tag": "Neues Event",

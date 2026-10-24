@@ -1,0 +1,307 @@
+[
+  {
+    "id": "impostor",
+    "slug": "gra-w-impostora",
+    "game": "Impostor",
+    "tagline": "Viralowa gra w blef z tajnym słowem kontra gra, w której wszyscy mówią.",
+    "metaTitle": "Gra w Impostora czy Tadado: co wygra wieczór gier?",
+    "metaDescription": "Lubisz grę w Impostora? Porównaj ją z trybami Zakazane słowa i Heads Up w Tadado: jeden telefon, bez reklam, talie z AI i darmowa talia startowa.",
+    "h1": "Gra w Impostora czy Tadado",
+    "hook": "Impostor to podejrzenia. Tadado to krzyczenie odpowiedzi, zanim skończy się czas. Zobacz, co uratuje wasz wieczór.",
+    "about": [
+      "Gra w Impostora stała się viralem, bo prawie nic nie wymaga: jeden telefon krąży z rąk do rąk, wszyscy widzą to samo słowo oprócz jednej osoby, a grupa podaje jednowyrazowe podpowiedzi, aż wybierze impostora.",
+      "To przede wszystkim gra w blef. Radość daje czytanie twarzy, obrona i wielkie odkrycie na końcu. Świetna dla grup, które lubią dyskutować, spokojniejsza dla tych, którzy wolą zgadywać i śmiać się co kilka sekund."
+    ],
+    "pickThem": [
+      "wasza grupa uwielbia blefować, oskarżać i dramatyczne zwroty",
+      "chcecie wolniejszych rund z dużą ilością dyskusji",
+      "wszyscy wolą rozmawiać niż ścigać się z czasem"
+    ],
+    "pickTadado": [
+      "chcesz śmiać się bez przerwy, z nowym słowem co kilka sekund",
+      "nieśmiali znajomi wolą zgadywać niż kłamać",
+      "chcesz Zakazane słowa (w stylu Tabu) i Heads Up w jednej aplikacji"
+    ],
+    "rows": [
+      {
+        "feature": "Gra z jednym telefonem",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Ukryte role i blef",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Rundy na czas i automatyczne punkty",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Tryby w stylu Tabu i Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Talie z AI na dowolny temat",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Bez reklam i subskrypcji",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 języków i gra offline",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Pobierz Tadado i otwórz darmową talię Tadado Mix.",
+      "Wybierz Zakazane słowa dla drużyn albo Heads Up z telefonem na czole.",
+      "Brakuje ci wewnętrznych żartów z Impostora? Wpisz temat swojej paczki w kreatorze talii AI."
+    ],
+    "faq": [
+      {
+        "q": "Czy Tadado ma tryb Impostora?",
+        "a": "Nie. Tadado ma dwa tryby: Zakazane słowa (w stylu Tabu) i Heads Up. To szybka gra w zgadywanie, a nie gra z ukrytymi rolami, więc świetnie łączy się z Impostorem tego samego wieczoru."
+      },
+      {
+        "q": "Co jest lepsze dla dużej grupy?",
+        "a": "Obie gry działają z jednym telefonem. Rundy Impostora wydłużają się wraz z liczbą graczy, a Tadado dzieli grupę na drużyny i wszyscy grają w każdej rundzie."
+      },
+      {
+        "q": "Czy Tadado jest darmowe jak wiele aplikacji z Impostorem?",
+        "a": "Tadado pobierasz za darmo z talią Tadado Mix, bez reklam i subskrypcji. Talie tematyczne i pakiety AI to opcjonalne jednorazowe zakupy."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "panstwa-miasta",
+    "game": "Państwa-Miasta",
+    "tagline": "Klasyka z kartką i długopisem kontra głośna, szybka gra w zgadywanie.",
+    "metaTitle": "Państwa-Miasta czy Tadado: jaka gra słowna dla znajomych?",
+    "metaDescription": "W Państwa-Miasta gra się w ciszy z kartką i długopisem. Tadado to głośna gra w zgadywanie z czasem, punktami i taliami z AI. Porównaj obie.",
+    "h1": "Państwa-Miasta czy Tadado",
+    "hook": "W jednej grze siedzisz z nosem w kartce. W drugiej telefon ląduje na czole i wszyscy krzyczą. Co pasuje do waszej ekipy?",
+    "about": [
+      "W Państwa-Miasta losuje się literę, a każdy jak najszybciej wpisuje słowo do każdej kategorii: państwo, miasto, zwierzę, rzecz, imię. Gdy ktoś krzyknie \"Stop!\", długopisy idą w odstawkę i porównuje się odpowiedzi.",
+      "To świetna gra dla miłośników słów i spokojnego stołu. Ponieważ każdy pisze sam, śmiech pojawia się głównie na koniec rundy, przy czytaniu i kwestionowaniu odpowiedzi."
+    ],
+    "pickThem": [
+      "lubicie wyścigi w pisaniu i wspólne sprawdzanie odpowiedzi",
+      "macie kartki, długopisy i spokojny stół",
+      "wasza grupa uwielbia spory, czy odpowiedź się liczy"
+    ],
+    "pickTadado": [
+      "chcesz, żeby cała grupa mówiła, pokazywała i zgadywała na głos",
+      "nie chcesz szukać długopisów ani liczyć punktów",
+      "chcesz talii tematycznych i z AI zamiast wciąż tych samych kategorii"
+    ],
+    "rows": [
+      {
+        "feature": "Bez kartki i długopisu",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Głośne rundy drużynowe",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Czas i punkty liczone automatycznie",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Gotowe talie tematyczne",
+        "tadado": "yes",
+        "other": "Kategorie do wyboru"
+      },
+      {
+        "feature": "Talie z AI na dowolny temat",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Darmowy start",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Pobierz Tadado i otwórz za darmo Tadado Mix.",
+      "Zagrajcie w Zakazane słowa w dwóch drużynach dla szybkiego, głośnego wyzwania.",
+      "Brakuje ulubionych kategorii? Poproś kreator AI o talię na dowolny temat."
+    ],
+    "faq": [
+      {
+        "q": "Czy Tadado przypomina Państwa-Miasta?",
+        "a": "Obie to gry słowne, ale gra się w nie zupełnie inaczej. Państwa-Miasta to wyścig w pisaniu, a Tadado to mówiona gra w zgadywanie z trybami Zakazane słowa i Heads Up."
+      },
+      {
+        "q": "Co lepsze dla rodziny z dziećmi?",
+        "a": "Obie się sprawdzą. W Tadado nie ma wyścigu w pisaniu, więc młodsi mogą grać, pokazując i zgadując."
+      },
+      {
+        "q": "Czy potrzeba czegoś poza telefonem?",
+        "a": "Nie. Tadado pilnuje czasu, kart i punktów na jednym telefonie."
+      }
+    ]
+  },
+  {
+    "id": "alias",
+    "slug": "alias",
+    "game": "Alias",
+    "tagline": "Objaśnianie słów na planszy kontra Zakazane słowa i Heads Up.",
+    "metaTitle": "Alias czy Tadado: która gra w objaśnianie słów?",
+    "metaDescription": "Alias to lubiana gra w objaśnianie słów z planszą i klepsydrą. Tadado ma Zakazane słowa, Heads Up i talie z AI na jednym telefonie. Porównaj je.",
+    "h1": "Alias czy Tadado",
+    "hook": "Kto lubi Alias, lubi tłumaczyć pod presją czasu. Tadado dorzuca do tego zakazane słowa i Heads Up.",
+    "about": [
+      "W Alias gracze objaśniają słowa innymi słowami, nie mówiąc ich wprost, a drużyna zgaduje, zanim przesypie się klepsydra. Każde odgadnięte słowo przesuwa pionek po planszy.",
+      "Łatwo się jej nauczyć i sprawdza się w niemal każdej grupie. Z czasem karty się powtarzają, a do gry potrzebna jest plansza, pionki i klepsydra."
+    ],
+    "pickThem": [
+      "lubicie klasyczną planszówkę z pionkami",
+      "wasza grupa chce tylko swobodnie objaśniać, bez zakazanych słów",
+      "pudełko i tak stoi na półce"
+    ],
+    "pickTadado": [
+      "chcecie dodatkowego wyzwania dzięki zakazanym słowom",
+      "chcecie przerywnika z Heads Up i telefonem na czole",
+      "chcecie wciąż nowych słów z talii tematycznych i AI"
+    ],
+    "rows": [
+      {
+        "feature": "Objaśnianie słów bez ich wypowiadania",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Zakazane słowa na karcie",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Tryb Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Potrzebna plansza i pionki",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Czas i punkty automatycznie",
+        "tadado": "yes",
+        "other": "Klepsydra"
+      },
+      {
+        "feature": "Talie z AI na dowolny temat",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Podzielcie się na drużyny jak w Alias.",
+      "Zacznijcie od Zakazanych słów, a potem spróbujcie talii Genius Only dla mistrzów.",
+      "Przejdźcie na Heads Up, gdy wszyscy potrzebują przerwy od tłumaczenia."
+    ],
+    "faq": [
+      {
+        "q": "Czy Tadado to aplikacja Alias?",
+        "a": "Nie. Tadado to niezależna gra imprezowa. Łączy ją z Alias objaśnianie pod presją czasu, ale dodaje zakazane słowa i tryb Heads Up."
+      },
+      {
+        "q": "Co jest trudniejsze?",
+        "a": "Zakazane słowa w Tadado są zwykle trudniejsze, bo najbardziej oczywiste podpowiedzi są zablokowane."
+      },
+      {
+        "q": "Czy potrzebujemy kilku telefonów?",
+        "a": "Nie. Jeden telefon krąży w drużynie."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "tajniacy",
+    "game": "Tajniacy",
+    "tagline": "Planszówka z jednowyrazowymi wskazówkami kontra błyskawiczne zgadywanie na telefonie.",
+    "metaTitle": "Tajniacy (Codenames) czy Tadado: planszówka czy gra na telefon?",
+    "metaDescription": "Tajniacy to nowoczesny klasyk. Tadado to imprezowa gra na telefon z Zakazanymi słowami, Heads Up, taliami z AI i bez rozkładania. Porównaj je.",
+    "h1": "Tajniacy czy Tadado",
+    "hook": "Tajniacy zmuszają do myślenia. Tadado do krzyczenia. Jeśli przy waszym stole siedzą oba typy graczy, to porównanie jest dla was.",
+    "about": [
+      "W Tajniakach (Codenames) dwóch szefów wywiadu podaje jednowyrazowe wskazówki łączące kilka kart na siatce 25 słów. Drużyny szukają swoich kart i unikają zabójcy.",
+      "Gra nagradza sprytne myślenie i świetnie działa z pudełkiem na stole. Ceną jest rozkładanie i długie chwile ciszy, gdy szef szuka idealnej wskazówki."
+    ],
+    "pickThem": [
+      "wasza grupa kocha zagadki i gry logiczne",
+      "macie stół, pudełko i czas na rozłożenie",
+      "lubicie wolniejsze, strategiczne tury"
+    ],
+    "pickTadado": [
+      "chcesz zacząć w kilka sekund, gdziekolwiek, z jednym telefonem",
+      "chcesz szybkich rund pełnych zgadywania i śmiechu",
+      "chcesz talii na dowolny temat, także o waszych żartach"
+    ],
+    "rows": [
+      {
+        "feature": "Czas przygotowania",
+        "tadado": "Sekundy",
+        "other": "Rozłożenie 25 kart"
+      },
+      {
+        "feature": "Potrzebne pudełko lub plansza",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Rodzaj wskazówki",
+        "tadado": "Swobodne opisanie słowa",
+        "other": "Jedno słowo dla kilku kart"
+      },
+      {
+        "feature": "Szybkie rundy na czas",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Nowe talie i tematy z AI",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Gra w 17 językach",
+        "tadado": "yes",
+        "other": "Lokalne wydania"
+      }
+    ],
+    "steps": [
+      "Podzielcie się na dwie drużyny, jak w Tajniakach.",
+      "Wybierz Zakazane słowa i otwórz talię Genius Only dla prawdziwego wyzwania.",
+      "Grajcie na czas i pozwólcie Tadado liczyć punkty."
+    ],
+    "faq": [
+      {
+        "q": "Czy Tadado to aplikacja Tajniaków?",
+        "a": "Nie. Tadado to niezależna gra słowna. Ma drużynowego ducha Tajniaków, ale w każdej turze opisujesz jedno słowo bez użycia zakazanych podpowiedzi."
+      },
+      {
+        "q": "Co lepsze w podróży?",
+        "a": "Tadado, bo jest w telefonie i po pobraniu działa offline. Tajniacy wymagają pudełka i miejsca."
+      },
+      {
+        "q": "Możemy zagrać w obie gry jednego wieczoru?",
+        "a": "Jasne. Wiele grup rozgrzewa się szybkimi rundami Tadado, a potem przechodzi do spokojniejszej gry strategicznej."
+      }
+    ]
+  }
+]

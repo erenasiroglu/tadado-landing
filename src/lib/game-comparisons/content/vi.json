@@ -1,0 +1,232 @@
+[
+  {
+    "id": "impostor",
+    "slug": "ke-mao-danh",
+    "game": "Kẻ mạo danh",
+    "tagline": "Trò tìm kẻ không biết từ khóa so với trò mà ai cũng được nói.",
+    "metaTitle": "Trò Kẻ mạo danh và Tadado: trò nào làm buổi tụ tập vui hơn?",
+    "metaDescription": "Thích trò Kẻ mạo danh (Impostor)? So sánh với chế độ Từ cấm và Heads Up của Tadado: một điện thoại, không quảng cáo, bộ bài AI và bộ bài khởi đầu miễn phí.",
+    "h1": "Trò Kẻ mạo danh và Tadado",
+    "hook": "Kẻ mạo danh là trò của sự nghi ngờ. Tadado là trò hét đáp án trước khi hết giờ. Xem trò nào hợp với tối nay.",
+    "about": [
+      "Kẻ mạo danh (Impostor, Ai là gián điệp) lan truyền nhanh vì gần như không cần gì: một chiếc điện thoại được chuyền tay, mọi người thấy cùng một từ trừ một người, rồi lần lượt đưa gợi ý một từ trước khi bỏ phiếu tìm kẻ mạo danh.",
+      "Đây trước hết là trò đánh lừa. Cái vui nằm ở việc đọc nét mặt, tự bào chữa và khoảnh khắc lật mặt. Rất hợp với nhóm thích tranh luận, nhưng hơi chậm với người muốn đoán và cười mỗi vài giây."
+    ],
+    "pickThem": [
+      "nhóm bạn thích đánh lừa, buộc tội và những pha lật mặt",
+      "bạn muốn các vòng chậm rãi, bàn luận nhiều",
+      "mọi người thích ngồi nói chuyện hơn là chạy đua với đồng hồ"
+    ],
+    "pickTadado": [
+      "bạn muốn cười không ngớt với từ mới mỗi vài giây",
+      "có bạn nhút nhát, thích đoán hơn là nói dối",
+      "bạn muốn Từ cấm (kiểu Taboo) và Heads Up trong cùng một ứng dụng"
+    ],
+    "rows": [
+      {
+        "feature": "Chơi bằng một điện thoại chuyền tay",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Vai trò bí mật và đánh lừa",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Vòng chơi có giờ và tự tính điểm",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Chế độ kiểu Taboo và Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Bộ bài AI cho mọi chủ đề",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Không quảng cáo, không đăng ký",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 ngôn ngữ và chơi ngoại tuyến",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Tải Tadado và mở bộ bài miễn phí Tadado Mix.",
+      "Chọn Từ cấm để chơi theo đội hoặc Heads Up để đặt điện thoại lên trán.",
+      "Nhớ những câu đùa riêng của nhóm? Gõ chủ đề vào trình tạo bộ bài AI."
+    ],
+    "faq": [
+      {
+        "q": "Tadado có chế độ Kẻ mạo danh không?",
+        "a": "Không. Tadado có hai chế độ: Từ cấm (kiểu Taboo) và Heads Up. Đây là trò đoán từ nhanh, không phải trò vai trò bí mật, nên chơi chung với Kẻ mạo danh trong một tối rất hợp."
+      },
+      {
+        "q": "Nhóm đông thì trò nào tốt hơn?",
+        "a": "Cả hai đều chỉ cần một điện thoại. Vòng Kẻ mạo danh dài hơn khi đông người; Tadado chia nhóm thành đội nên ai cũng được chơi mỗi vòng."
+      },
+      {
+        "q": "Tadado có miễn phí không?",
+        "a": "Tadado tải miễn phí kèm bộ bài Tadado Mix, không quảng cáo, không đăng ký. Bộ bài chủ đề và gói AI là mua một lần, tùy chọn."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "ma-soi",
+    "game": "Ma sói",
+    "tagline": "Vai trò bí mật và đêm ngày so với trò không ai bị loại.",
+    "metaTitle": "Ma sói và Tadado: trò chơi nhóm nào hợp với hội bạn?",
+    "metaDescription": "Ma sói là trò chơi vai trò bí mật kinh điển. Tadado là trò đoán từ nhanh mà không ai bị loại. So sánh trước buổi tụ tập tiếp theo.",
+    "h1": "Ma sói và Tadado",
+    "hook": "Trong Ma sói, người bị loại phải ngồi chờ. Trong Tadado, ai cũng chơi đến vòng cuối.",
+    "about": [
+      "Ma sói là trò suy luận xã hội: quản trò chia vai bí mật, sói chọn nạn nhân mỗi đêm, còn dân làng tranh luận ban ngày để tìm ra sói.",
+      "Với nhóm đông, trò này tạo ra những màn kịch tính khó quên. Nhưng nó cần quản trò, cần nhiều người, và ai bị loại chỉ còn ngồi xem."
+    ],
+    "pickThem": [
+      "nhóm đông và có người thích làm quản trò",
+      "bạn bè mê buộc tội, liên minh và những cú lật kèo",
+      "có thời gian cho những ván dài nhiều tình tiết"
+    ],
+    "pickTadado": [
+      "bạn muốn ai cũng chơi mỗi vòng, không ai bị loại",
+      "bạn muốn bắt đầu ngay mà không cần quản trò hay thẻ vai",
+      "nhóm nhỏ, hoặc có cả người nhút nhát lẫn người sôi nổi"
+    ],
+    "rows": [
+      {
+        "feature": "Cần quản trò",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Không ai bị loại",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Vui cả khi ít người",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Vai trò bí mật và đánh lừa",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Lượt ngắn có giờ",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Bộ bài AI cho mọi chủ đề",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Tải Tadado và mở Tadado Mix.",
+      "Chia đội và khởi động bằng một vòng Từ cấm thật nhanh.",
+      "Để dành Ma sói cho cuối buổi khi cả nhóm sẵn sàng cho một ván dài."
+    ],
+    "faq": [
+      {
+        "q": "Tadado có vai trò bí mật không?",
+        "a": "Không. Tadado là trò đoán từ với chế độ Từ cấm và Heads Up. Niềm vui khác với Ma sói, và hai trò bổ sung cho nhau rất tốt."
+      },
+      {
+        "q": "4 người thì nên chơi trò nào?",
+        "a": "Tadado. Ma sói thường cần nhóm đông hơn, còn Tadado vẫn vui với vài người bạn."
+      },
+      {
+        "q": "Tadado có cần quản trò không?",
+        "a": "Không. Tadado tự lo thời gian, thẻ bài và điểm số."
+      }
+    ]
+  },
+  {
+    "id": "picture",
+    "slug": "duoi-hinh-bat-chu",
+    "game": "Đuổi hình bắt chữ",
+    "tagline": "Câu đố hình ảnh chơi một mình so với đoán từ cả nhóm cùng hét.",
+    "metaTitle": "Đuổi hình bắt chữ và Tadado: trò đoán nào vui hơn khi đi cùng bạn bè?",
+    "metaDescription": "Đuổi hình bắt chữ là câu đố hình ảnh quen thuộc. Tadado là trò đoán từ cho cả nhóm với đội, đồng hồ và bộ bài AI. So sánh hai trò.",
+    "h1": "Đuổi hình bắt chữ và Tadado",
+    "hook": "Đuổi hình bắt chữ hợp để giải đố một mình lúc rảnh. Tadado được làm để cả hội cùng hét to.",
+    "about": [
+      "Đuổi hình bắt chữ, nổi tiếng từ gameshow truyền hình, yêu cầu bạn đoán một từ hoặc thành ngữ từ những bức hình gợi ý. Nhiều ứng dụng của trò này được chơi một mình qua từng màn.",
+      "Trò rất hợp để giết thời gian và luyện đầu óc, nhưng không được thiết kế cho cả nhóm chơi cùng nhau với đội, đồng hồ và điểm số."
+    ],
+    "pickThem": [
+      "bạn muốn giải đố nhẹ nhàng một mình",
+      "bạn thích vượt qua từng màn chơi",
+      "bạn đang trên đường và chỉ có một mình"
+    ],
+    "pickTadado": [
+      "bạn đang tụ tập và muốn ai cũng được tham gia",
+      "bạn muốn đội, đồng hồ và điểm số mà không phải lo",
+      "bạn muốn bộ bài về bất kỳ chủ đề nào, kể cả chuyện riêng của nhóm"
+    ],
+    "rows": [
+      {
+        "feature": "Chơi cùng nhau và nói to",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Đội, đồng hồ và điểm",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Câu đố hình ảnh",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Bộ bài AI cho mọi chủ đề",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Không quảng cáo",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 ngôn ngữ",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Tải Tadado và mở Tadado Mix miễn phí.",
+      "Chia hội bạn thành hai đội và chơi Từ cấm.",
+      "Đổi sang Heads Up khi cả nhóm muốn cười to hơn nữa."
+    ],
+    "faq": [
+      {
+        "q": "Tadado có câu đố hình ảnh không?",
+        "a": "Không. Tadado là trò đoán từ cho nhóm với chế độ Từ cấm và Heads Up."
+      },
+      {
+        "q": "Có chơi Tadado một mình được không?",
+        "a": "Tadado vui nhất từ hai người trở lên, vì một người gợi ý và người khác đoán."
+      },
+      {
+        "q": "Có cần internet không?",
+        "a": "Sau khi tải, các bộ bài bạn sở hữu có thể chơi ngoại tuyến."
+      }
+    ]
+  }
+]

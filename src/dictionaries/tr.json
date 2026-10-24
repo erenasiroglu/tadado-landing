@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Oyun gecesinde sevilen",
-    "subtitle": "Tadado'yu arkadaşlarıyla deneyen oyuncuların gerçek App Store yorumları.",
-    "appStoreRating": "App Store'da 5.0",
-    "appStoreCount": "8 değerlendirme",
+    "subtitle": "Tadado'yu arkadaşlarıyla deneyen oyuncuların App Store ve Google Play'deki gerçek yorumları.",
+    "appStoreRating": "App Store'da {rating}",
+    "appStoreCount": "{count} değerlendirme",
     "sourceLabel": "App Store yorumu",
+    "playRating": "Google Play'de {rating}",
+    "playAvailable": "Artık Google Play'de",
+    "playSourceLabel": "Google Play yorumu",
     "items": [
       {
         "quote": "Arkadaşlarımızla bulduk ve indirdik. Tasarım ve arayüz gerçekten iyi. Yapay zeka ile kendi ilgi alanlarımıza kart oluşturmamız bizi çok mutlu etti. Herkes kendi ilgi alanına kart oluşturabiliyor ve kelimeler tekrar etmiyor. Tebrikler.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Oluşturuluyor",
     "simulationStepPreview": "Kartlar beliriyor",
     "simulationStepReady": "Oynamaya hazır",
-    "simulationWriting": "Yapay zeka yasaklı kelimeleri yazıyor…"
+    "simulationWriting": "Yapay zeka yasaklı kelimeleri yazıyor…",
+    "bothModesTitle": "Tek deste, iki oyun modu",
+    "bothModesBody": "Oluşturduğun her AI destesi hem Yasaklı Kelimeler'de hem Alnında Tahmin'de oynanır. Bir kez oluştur, grup ne isterse o moda geç.",
+    "sameDeck": "Aynı deste"
   },
   "trending": {
     "title": "Bu akşam ne oynuyoruz?",
@@ -356,6 +362,31 @@
       "title": "Başka bir oyunla karşılaştırıyor musun?",
       "guides": "Rehberler ve oyun gecesi fikirleri →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Parti oyunlarını karşılaştır",
+    "hubTitle": "Tadado ve arkadaşlarınızın zaten sevdiği oyunlar",
+    "hubSubtitle": "İmposter, İsim Şehir, Codenames, Vampir Köylü ve daha fazlası. Hangisi nerede parlıyor, gruplar oyun gecesinde neden Tadado'yu seçiyor, dürüstçe karşılaştırdık.",
+    "localTitle": "Türkiye'de en çok oynanan oyunlar",
+    "localSubtitle": "En çok aranan kelime, kart ve parti oyunları. Her sayfada klasik oyun ile Tadado yan yana.",
+    "classicTitle": "Parti oyunu uygulaması alternatifleri",
+    "tableTitle": "Tadado ve tipik parti oyunu uygulamaları",
+    "compareLink": "Karşılaştır",
+    "vs": "VS",
+    "pickThem": "{game} seçin, eğer",
+    "pickTadado": "Tadado seçin, eğer",
+    "aboutTitle": "{game} nedir?",
+    "tableHeading": "Bir bakışta {game} ve Tadado",
+    "feature": "Özellik",
+    "varies": "Uygulamaya göre değişir",
+    "stepsTitle": "{game} enerjisini bu akşam Tadado'ya taşıyın",
+    "faqTitle": "{game} ve Tadado: sık sorulanlar",
+    "relatedTitle": "Diğer karşılaştırmalar",
+    "ctaTitle": "Bir sonraki oyun geceniz ücretsiz başlıyor",
+    "ctaBody": "Tadado'yu indir, ücretsiz Tadado Mix destesini aç ve saniyeler içinde Tabu ya da Alnında Tahmin oyna. Tek telefon yeter.",
+    "ctaButton": "Tadado'yu ücretsiz indir",
+    "freeNote": "Ücretsiz indir · Reklamsız · Abonelik yok",
+    "disclaimer": "{game} adı yalnızca bilinen bir oyunu veya oyun biçimini tanımlamak için kullanılmıştır. Tüm markalar sahiplerine aittir; Tadado bu markalarla bağlantılı değildir ve onlar tarafından desteklenmez. {game} hakkındaki notlar klasik oyunu ve tipik sürümleri anlatır; uygulamalar ve baskılar farklılık gösterebilir, mağaza sayfalarını kontrol edin."
   },
   "geniusEvent": {
     "tag": "Yeni etkinlik",

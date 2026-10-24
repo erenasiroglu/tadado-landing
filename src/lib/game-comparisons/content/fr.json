@@ -1,0 +1,382 @@
+[
+  {
+    "id": "impostor",
+    "slug": "jeu-de-l-imposteur",
+    "game": "Jeu de l'imposteur",
+    "tagline": "Le jeu viral de bluff au mot secret face à un jeu où tout le monde parle.",
+    "metaTitle": "Jeu de l'imposteur vs Tadado : lequel gagne la soirée ?",
+    "metaDescription": "Fan du jeu de l'imposteur ? Comparez-le aux modes Mots interdits et Heads Up de Tadado : un seul téléphone, sans pub, decks IA et deck de départ gratuit.",
+    "h1": "Jeu de l'imposteur face à Tadado",
+    "hook": "L'imposteur, c'est le soupçon. Tadado, c'est crier la réponse avant la fin du chrono. Voici lequel sauvera votre soirée.",
+    "about": [
+      "Le jeu de l'imposteur est devenu viral parce qu'il ne demande presque rien : un téléphone passe de main en main, tout le monde voit le même mot sauf un joueur, puis chacun donne un indice d'un mot avant de voter pour démasquer l'imposteur.",
+      "C'est avant tout un jeu de bluff. Le plaisir vient de la lecture des visages, de la défense et de la grande révélation. Idéal pour les groupes qui aiment débattre, plus calme pour ceux qui préfèrent deviner et rire toutes les trois secondes."
+    ],
+    "pickThem": [
+      "Votre groupe adore bluffer, accuser et les révélations dramatiques",
+      "Vous voulez des manches lentes avec beaucoup de discussion",
+      "Tout le monde préfère discuter plutôt que courir contre le chrono"
+    ],
+    "pickTadado": [
+      "Vous voulez rire sans arrêt avec un nouveau mot toutes les quelques secondes",
+      "Certains amis sont timides et préfèrent deviner que mentir",
+      "Vous voulez Mots interdits (style Taboo) et Heads Up dans une seule appli"
+    ],
+    "rows": [
+      {
+        "feature": "Se joue avec un seul téléphone",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Rôles cachés et bluff",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Manches chronométrées et score automatique",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Modes style Taboo et Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Decks IA sur n'importe quel thème",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Sans pub ni abonnement",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 langues et jeu hors ligne",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Téléchargez Tadado et ouvrez le deck gratuit Tadado Mix.",
+      "Choisissez Mots interdits en équipes ou Heads Up, le téléphone sur le front.",
+      "Les blagues internes de l'imposteur vous manquent ? Tapez le thème de votre groupe dans le créateur de decks IA."
+    ],
+    "faq": [
+      {
+        "q": "Tadado a-t-il un mode imposteur ?",
+        "a": "Non. Tadado propose deux modes : Mots interdits (style Taboo) et Heads Up. C'est un jeu de devinettes rapide, pas un jeu à rôles cachés, donc il se marie très bien avec l'imposteur dans la même soirée."
+      },
+      {
+        "q": "Lequel est le meilleur pour un grand groupe ?",
+        "a": "Les deux se jouent avec un téléphone. Les manches de l'imposteur s'allongent avec le nombre de joueurs ; Tadado répartit le groupe en équipes et tout le monde joue à chaque manche."
+      },
+      {
+        "q": "Tadado est-il gratuit comme beaucoup d'applis d'imposteur ?",
+        "a": "Tadado se télécharge gratuitement avec le deck Tadado Mix, sans pub ni abonnement. Les decks thématiques et packs IA sont des achats uniques optionnels."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "petit-bac",
+    "game": "Petit Bac",
+    "tagline": "Le classique papier-crayon face à un jeu de devinettes à voix haute.",
+    "metaTitle": "Petit Bac vs Tadado : quel jeu de mots choisir entre amis ?",
+    "metaDescription": "Le Petit Bac se joue en silence avec papier et crayon. Tadado est un jeu de devinettes à voix haute avec chrono, score et decks IA. Comparez les deux.",
+    "h1": "Petit Bac face à Tadado",
+    "hook": "Dans l'un, on a la tête baissée et le crayon à la main. Dans l'autre, le téléphone sur le front et tout le monde crie. Lequel pour votre bande ?",
+    "about": [
+      "Au Petit Bac, on tire une lettre et chacun écrit un mot par catégorie : prénom, pays, animal, fruit. Dès que quelqu'un crie \"Stop !\", les crayons s'arrêtent et on compare les réponses.",
+      "Parfait pour les amoureux des mots et une table calme. Comme chacun écrit sur sa feuille, les fous rires arrivent surtout à la fin de la manche, quand on lit et conteste les réponses."
+    ],
+    "pickThem": [
+      "Vous aimez les courses d'écriture et vérifier les réponses ensemble",
+      "Vous avez papier, crayons et une table tranquille",
+      "Votre groupe adore débattre pour savoir si un mot compte"
+    ],
+    "pickTadado": [
+      "Vous voulez que tout le groupe parle, mime et devine à voix haute",
+      "Vous ne voulez pas chercher de crayons ni tenir les scores",
+      "Vous voulez des decks thématiques et IA plutôt que les mêmes catégories"
+    ],
+    "rows": [
+      {
+        "feature": "Sans papier ni crayon",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Manches à voix haute en équipes",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Chrono et score gérés pour vous",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Decks thématiques prêts à jouer",
+        "tadado": "yes",
+        "other": "Catégories au choix"
+      },
+      {
+        "feature": "Decks IA sur n'importe quel thème",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Gratuit pour commencer",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Téléchargez Tadado et ouvrez gratuitement Tadado Mix.",
+      "Jouez aux Mots interdits en deux équipes pour un défi rapide et bruyant.",
+      "Vos catégories préférées vous manquent ? Demandez au créateur IA un deck sur n'importe quel thème."
+    ],
+    "faq": [
+      {
+        "q": "Tadado ressemble-t-il au Petit Bac ?",
+        "a": "Ce sont deux jeux de mots, mais ils se jouent très différemment. Le Petit Bac est une course d'écriture ; Tadado est un jeu de devinettes parlé, avec Mots interdits et Heads Up."
+      },
+      {
+        "q": "Lequel est le meilleur en famille ?",
+        "a": "Les deux fonctionnent. Tadado n'a pas de course d'écriture, donc les plus jeunes peuvent jouer en mimant et en devinant."
+      },
+      {
+        "q": "Faut-il autre chose qu'un téléphone ?",
+        "a": "Non. Tadado gère le chrono, les cartes et le score sur un seul téléphone."
+      }
+    ]
+  },
+  {
+    "id": "fishbowl",
+    "slug": "times-up",
+    "game": "Time's Up",
+    "tagline": "Les trois manches avec les mêmes cartes face à des decks neufs sur un téléphone.",
+    "metaTitle": "Time's Up vs Tadado : le jeu de soirée sans sablier ni feuille de score",
+    "metaDescription": "Time's Up est un incontournable des soirées. Comparez-le aux modes Mots interdits et Heads Up de Tadado : chrono, score automatique et decks IA.",
+    "h1": "Time's Up face à Tadado",
+    "hook": "Vous adorez Time's Up mais pas le sablier ni la feuille de score ? Tadado garde le chaos et supprime la logistique.",
+    "about": [
+      "Dans Time's Up, les équipes font deviner le même paquet de cartes sur plusieurs manches : d'abord en parlant librement, puis avec un seul mot, enfin uniquement en mimant.",
+      "Les mots qui reviennent deviennent des running gags, d'où son succès. En contrepartie, il faut la boîte, un sablier et quelqu'un pour compter les points."
+    ],
+    "pickThem": [
+      "Vous adorez les running gags d'une manche à l'autre",
+      "Vous avez la boîte et aimez les manches de mime",
+      "Votre groupe aime rejouer les mêmes cartes"
+    ],
+    "pickTadado": [
+      "Vous voulez commencer tout de suite, sans rien installer sur la table",
+      "Vous voulez des mots neufs à chaque manche grâce aux decks thématiques",
+      "Vous voulez des mots perso, créés en quelques secondes par l'IA"
+    ],
+    "rows": [
+      {
+        "feature": "Boîte de cartes nécessaire",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Decks de mots prêts",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Manches description et mime",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Chrono et score intégrés",
+        "tadado": "yes",
+        "other": "Sablier"
+      },
+      {
+        "feature": "Mots sur votre thème",
+        "tadado": "Decks IA en quelques secondes",
+        "other": "Cartes de la boîte"
+      },
+      {
+        "feature": "Joue avec un seul téléphone",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Formez deux équipes comme pour Time's Up.",
+      "Jouez une manche de Mots interdits, puis une manche de Heads Up pour le côté mime.",
+      "Envie de vos propres mots ? Créez un deck IA sur vos amis, un voyage ou une série."
+    ],
+    "faq": [
+      {
+        "q": "Tadado, c'est comme Time's Up ?",
+        "a": "Pas exactement. Time's Up réutilise les mêmes cartes sur plusieurs manches. Tadado propose des decks prêts ou créés par IA avec les modes Mots interdits et Heads Up."
+      },
+      {
+        "q": "Peut-on jouer avec nos propres mots ?",
+        "a": "Oui, grâce au créateur de decks IA : décrivez un thème et Tadado crée un deck jouable en quelques secondes."
+      },
+      {
+        "q": "Ça marche pour les grandes soirées ?",
+        "a": "Oui. Répartissez-vous en équipes et passez le téléphone à la fin de chaque tour."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "loup-garou",
+    "game": "Loups-Garous",
+    "tagline": "Rôles cachés et phases de nuit face à un jeu où personne n'est éliminé.",
+    "metaTitle": "Loups-Garous vs Tadado : quel jeu de soirée pour votre groupe ?",
+    "metaDescription": "Les Loups-Garous de Thiercelieux sont un classique du jeu à rôles cachés. Tadado est un jeu de mots rapide où personne n'est éliminé. Comparez-les.",
+    "h1": "Loups-Garous face à Tadado",
+    "hook": "Aux Loups-Garous, les éliminés attendent. Dans Tadado, tout le monde joue jusqu'à la dernière manche. Voici quand choisir l'un ou l'autre.",
+    "about": [
+      "Les Loups-Garous (ou Mafia) sont un jeu de déduction sociale. Un meneur distribue des rôles secrets, les loups choisissent une victime chaque nuit et le village débat le jour pour les démasquer.",
+      "Le jeu crée des moments inoubliables dans les grands groupes. Il demande en revanche un meneur, beaucoup de joueurs, et les éliminés regardent la fin de la partie."
+    ],
+    "pickThem": [
+      "Vous êtes nombreux et quelqu'un aime mener la partie",
+      "Vos amis adorent les accusations, alliances et retournements",
+      "Vous avez du temps pour de longues parties pleines d'histoires"
+    ],
+    "pickTadado": [
+      "Vous voulez que tout le monde joue à chaque manche, sans élimination",
+      "Vous voulez démarrer sans meneur ni cartes de rôle",
+      "Vous êtes peu nombreux, ou mélangez joueurs timides et extravertis"
+    ],
+    "rows": [
+      {
+        "feature": "Meneur nécessaire",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Personne n'est éliminé",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Fun en petit groupe",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Rôles cachés et bluff",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Tours courts et chronométrés",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Decks IA sur n'importe quel thème",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Téléchargez Tadado et ouvrez Tadado Mix.",
+      "Formez des équipes et lancez une manche rapide de Mots interdits pour chauffer l'ambiance.",
+      "Gardez les Loups-Garous pour la fin de soirée, quand le groupe est prêt pour une longue partie."
+    ],
+    "faq": [
+      {
+        "q": "Tadado a-t-il des rôles cachés ?",
+        "a": "Non. Tadado est un jeu de devinettes avec les modes Mots interdits et Heads Up. C'est un plaisir différent des Loups-Garous, et les deux se complètent bien."
+      },
+      {
+        "q": "Lequel choisir à 4 joueurs ?",
+        "a": "Tadado. Les Loups-Garous demandent généralement un groupe plus grand, alors que Tadado est drôle même à quelques amis."
+      },
+      {
+        "q": "Faut-il un meneur dans Tadado ?",
+        "a": "Non. Tadado gère lui-même le chrono, les cartes et le score."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "Le jeu de plateau aux indices d'un mot face aux devinettes instantanées sur téléphone.",
+    "metaTitle": "Codenames vs Tadado : jeu de société ou jeu de soirée sur mobile ?",
+    "metaDescription": "Codenames est un classique moderne. Tadado est un jeu de soirée sur mobile avec Mots interdits, Heads Up, decks IA et zéro installation. Comparez-les.",
+    "h1": "Codenames face à Tadado",
+    "hook": "Codenames fait réfléchir. Tadado fait crier. Si votre table compte les deux types de joueurs, cette page est pour vous.",
+    "about": [
+      "Dans Codenames, deux maîtres-espions donnent des indices d'un seul mot reliant plusieurs cartes d'une grille de 25 mots. Leurs équipes cherchent leurs cartes en évitant l'assassin.",
+      "Il récompense la réflexion astucieuse et brille avec la boîte sur la table. Le revers : la mise en place et les longs silences pendant que le maître-espion cherche l'indice parfait."
+    ],
+    "pickThem": [
+      "Votre groupe adore les énigmes et les jeux de réflexion",
+      "Vous avez une table, la boîte et le temps d'installer",
+      "Vous aimez les tours plus lents et stratégiques"
+    ],
+    "pickTadado": [
+      "Vous voulez démarrer en quelques secondes, partout, avec un téléphone",
+      "Vous voulez des manches rapides pleines de rires",
+      "Vous voulez des decks sur n'importe quel thème, même vos blagues internes"
+    ],
+    "rows": [
+      {
+        "feature": "Temps de mise en place",
+        "tadado": "Quelques secondes",
+        "other": "Poser 25 cartes"
+      },
+      {
+        "feature": "Boîte ou plateau nécessaire",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Type d'indice",
+        "tadado": "Décrire un mot librement",
+        "other": "Un mot reliant plusieurs cartes"
+      },
+      {
+        "feature": "Manches rapides chronométrées",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Nouveaux decks et thèmes IA",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Joue en 17 langues",
+        "tadado": "yes",
+        "other": "Éditions locales"
+      }
+    ],
+    "steps": [
+      "Formez deux équipes, comme dans Codenames.",
+      "Choisissez Mots interdits et ouvrez un deck comme Genius Only pour un vrai défi.",
+      "Courez contre le chrono et laissez Tadado compter les points."
+    ],
+    "faq": [
+      {
+        "q": "Tadado est-il une appli Codenames ?",
+        "a": "Non. Tadado est un jeu de mots indépendant. Il partage l'esprit d'équipe de Codenames, mais à chaque tour vous décrivez un seul mot sans dire ses mots interdits."
+      },
+      {
+        "q": "Lequel emporter en voyage ?",
+        "a": "Tadado, car il tient dans votre téléphone et fonctionne hors ligne une fois téléchargé. Codenames demande la boîte et de la place."
+      },
+      {
+        "q": "Peut-on jouer aux deux le même soir ?",
+        "a": "Bien sûr. Beaucoup de groupes s'échauffent avec Tadado puis passent à un jeu de stratégie plus posé."
+      }
+    ]
+  }
+]

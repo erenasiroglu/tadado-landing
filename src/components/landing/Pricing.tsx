@@ -33,14 +33,22 @@ function Checklist({ items, dark }: { items: string[]; dark?: boolean }) {
           >
             <Check className="size-3" strokeWidth={3} />
           </span>
-          <span className={dark ? "text-cream/85" : "text-foreground/80"}>{item}</span>
+          <span className={dark ? "text-cream/85" : "text-foreground/80"}>
+            {item}
+          </span>
         </li>
       ))}
     </ul>
   );
 }
 
-function PlanName({ children, dark }: { children: React.ReactNode; dark?: boolean }) {
+function PlanName({
+  children,
+  dark,
+}: {
+  children: React.ReactNode;
+  dark?: boolean;
+}) {
   return (
     <p
       className={cn(
@@ -53,7 +61,15 @@ function PlanName({ children, dark }: { children: React.ReactNode; dark?: boolea
   );
 }
 
-function Price({ value, suffix, dark }: { value: string; suffix?: string; dark?: boolean }) {
+function Price({
+  value,
+  suffix,
+  dark,
+}: {
+  value: string;
+  suffix?: string;
+  dark?: boolean;
+}) {
   return (
     <p className="mt-3 flex items-baseline gap-2">
       <span
@@ -65,7 +81,12 @@ function Price({ value, suffix, dark }: { value: string; suffix?: string; dark?:
         {value}
       </span>
       {suffix ? (
-        <span className={cn("text-sm font-semibold", dark ? "text-cream/60" : "text-muted-foreground")}>
+        <span
+          className={cn(
+            "text-sm font-semibold",
+            dark ? "text-cream/60" : "text-muted-foreground",
+          )}
+        >
           {suffix}
         </span>
       ) : null}
@@ -76,10 +97,18 @@ function Price({ value, suffix, dark }: { value: string; suffix?: string; dark?:
 export function Pricing({ locale, dict }: PricingProps) {
   const { pricing, proof } = dict;
   const { badges } = pricing;
-  const trustItems = pricing.trust.split("·").map((item) => item.trim()).filter(Boolean);
+  const trustItems = pricing.trust
+    .split("·")
+    .map((item) => item.trim())
+    .filter(Boolean);
 
   return (
-    <LandingSection id="pricing" analyticsSection="pricing" tone="contrast" reveal>
+    <LandingSection
+      id="pricing"
+      analyticsSection="pricing"
+      tone="contrast"
+      reveal
+    >
       <SectionHeading title={pricing.title} subtitle={pricing.subtitle} />
 
       <div className="mt-14 grid gap-5 lg:grid-cols-3 lg:items-stretch">
@@ -89,9 +118,13 @@ export function Pricing({ locale, dict }: PricingProps) {
           <div className="mt-6">
             <PlanName>{pricing.free.name}</PlanName>
             <Price value={pricing.free.price} />
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{pricing.free.desc}</p>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              {pricing.free.desc}
+            </p>
           </div>
-          <Checklist items={[proof.modes, proof.languages, proof.offline, proof.noAds]} />
+          <Checklist
+            items={[proof.modes, proof.languages, proof.offline, proof.noAds]}
+          />
         </article>
 
         {/* Full Access: the plan we want people to pick, so it is the dark anchor. */}
@@ -101,10 +134,19 @@ export function Pricing({ locale, dict }: PricingProps) {
           </Tag>
           <div className="mt-6">
             <PlanName dark>{pricing.fullAccess.name}</PlanName>
-            <Price value={pricing.fullAccess.price} suffix={pricing.oneTime} dark />
-            <p className="mt-3 text-sm leading-relaxed text-cream/70">{pricing.fullAccess.desc}</p>
+            <Price
+              value={pricing.fullAccess.price}
+              suffix={pricing.oneTime}
+              dark
+            />
+            <p className="mt-3 text-sm leading-relaxed text-cream/70">
+              {pricing.fullAccess.desc}
+            </p>
           </div>
-          <Checklist items={[pricing.fullAccess.aiCredits, ...trustItems]} dark />
+          <Checklist
+            items={[pricing.fullAccess.aiCredits, ...trustItems]}
+            dark
+          />
         </article>
 
         {/* AI packs: three sizes in one card so the comparison is instant. */}
@@ -116,7 +158,9 @@ export function Pricing({ locale, dict }: PricingProps) {
                 key={tier.name}
                 className={cn(
                   "rounded-sm px-4 py-3.5",
-                  tier.highlight ? "bg-lilac/70 ring-1 ring-ink/10 ring-inset" : "bg-mist/80",
+                  tier.highlight
+                    ? "bg-lilac/70 ring-1 ring-ink/10 ring-inset"
+                    : "bg-mist/80",
                 )}
               >
                 <div className="flex items-center justify-between gap-3">
@@ -134,7 +178,9 @@ export function Pricing({ locale, dict }: PricingProps) {
                     {tier.price}
                   </span>
                 </div>
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{tier.desc}</p>
+                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                  {tier.desc}
+                </p>
               </li>
             ))}
           </ul>
@@ -144,19 +190,27 @@ export function Pricing({ locale, dict }: PricingProps) {
       <div className="mt-5 flex flex-col gap-3 rounded-lg surface-paper px-7 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:mt-9">
         <div className="min-w-0">
           <PlanName>{pricing.singleDeck.name}</PlanName>
-          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{pricing.singleDeck.desc}</p>
+          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+            {pricing.singleDeck.desc}
+          </p>
         </div>
         <p className="flex shrink-0 items-baseline gap-2">
           <span className="text-3xl font-extrabold tracking-[-0.04em] text-foreground tabular-nums">
             {pricing.singleDeck.price}
           </span>
-          <span className="text-sm font-semibold text-muted-foreground">{pricing.oneTime}</span>
+          <span className="text-sm font-semibold text-muted-foreground">
+            {pricing.oneTime}
+          </span>
         </p>
       </div>
 
       <div className="mt-12 flex flex-col items-center gap-4 text-center">
         <div className="w-full max-w-sm sm:hidden">
-          <MobileStoreDownloadCta locale={locale} source="pricing" label={dict.hero.ctaPrimary} />
+          <MobileStoreDownloadCta
+            locale={locale}
+            source="pricing"
+            label={dict.hero.ctaPrimary}
+          />
         </div>
         <StoreButtons
           locale={locale}
@@ -165,7 +219,9 @@ export function Pricing({ locale, dict }: PricingProps) {
           labelMode="download"
           className="hidden justify-center sm:flex"
         />
-        <p className="max-w-2xl text-xs leading-relaxed text-muted-foreground">{pricing.disclaimer}</p>
+        <p className="max-w-2xl text-xs leading-relaxed text-muted-foreground">
+          {pricing.disclaimer}
+        </p>
       </div>
     </LandingSection>
   );

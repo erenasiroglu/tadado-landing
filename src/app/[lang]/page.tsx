@@ -81,7 +81,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         <Hero locale={locale} dict={dict} />
         <GameModeShowcase locale={locale} dict={dict} />
         <GeniusEvent locale={locale} dict={dict} />
-        <Testimonials dict={dict} />
+        <Testimonials locale={locale} dict={dict} />
         <AiDeckBuilderDemo locale={locale} dict={dict} />
         <DeckCarousel dict={dict} locale={locale} />
         <HowItWorks dict={dict} />

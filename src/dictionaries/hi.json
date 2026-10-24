@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "गेम नाइट पर पसंदीदा",
-    "subtitle": "App Store की असली समीक्षाएँ — जिन्होंने दोस्तों के साथ Tadado आज़माया।",
-    "appStoreRating": "App Store पर 5.0",
-    "appStoreCount": "8 रेटिंग",
+    "subtitle": "App Store और Google Play की असली समीक्षाएँ, उन खिलाड़ियों से जिन्होंने दोस्तों के साथ Tadado आज़माया।",
+    "appStoreRating": "App Store पर {rating}",
+    "appStoreCount": "{count} रेटिंग",
     "sourceLabel": "App Store समीक्षा",
+    "playRating": "Google Play पर {rating}",
+    "playAvailable": "अब Google Play पर",
+    "playSourceLabel": "Google Play समीक्षा",
     "items": [
       {
         "quote": "दोस्तों के साथ मिला और डाउनलोड किया। डिज़ाइन और इंटरफ़ेस बहुत अच्छे हैं। AI से अपनी रुचियों के लिए कार्ड बनाना हमें बहुत खुश किया। हर कोई अपनी रुचि के कार्ड बना सकता है और शब्द दोहराते नहीं। बधाई।",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "बन रहा है",
     "simulationStepPreview": "कार्ड दिखते हैं",
     "simulationStepReady": "खेलने के लिए तैयार",
-    "simulationWriting": "AI निषिद्ध शब्द लिख रहा है…"
+    "simulationWriting": "AI निषिद्ध शब्द लिख रहा है…",
+    "bothModesTitle": "एक डेक, दोनों गेम मोड",
+    "bothModesBody": "आपका बनाया हर AI डेक निषिद्ध शब्द और Heads Up दोनों में चलता है। एक बार बनाएँ, फिर जब चाहें मोड बदलें।",
+    "sameDeck": "वही डेक"
   },
   "trending": {
     "title": "आज रात क्या खेलें?",
@@ -356,6 +362,31 @@
       "title": "दूसरे गेम से तुलना?",
       "guides": "गाइड और गेम नाइट विचार →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "पार्टी गेम्स की तुलना",
+    "hubTitle": "Tadado बनाम वो गेम्स जो आपके दोस्त पहले से पसंद करते हैं",
+    "hubSubtitle": "इम्पोस्टर, माफ़िया, पिक्शनरी और भी बहुत कुछ। ईमानदारी से देखें कि हर गेम कहाँ चमकता है और गेम नाइट के लिए ग्रुप Tadado क्यों चुनते हैं।",
+    "localTitle": "भारत में सबसे लोकप्रिय गेम्स",
+    "localSubtitle": "सबसे ज़्यादा खोजे जाने वाले वर्ड, कार्ड और पार्टी गेम्स। हर पेज पर क्लासिक गेम और Tadado साथ-साथ।",
+    "classicTitle": "पार्टी गेम ऐप्स के विकल्प",
+    "tableTitle": "Tadado बनाम आम पार्टी गेम ऐप्स",
+    "compareLink": "तुलना करें",
+    "vs": "VS",
+    "pickThem": "{game} चुनें, जब",
+    "pickTadado": "Tadado चुनें, जब",
+    "aboutTitle": "{game} क्या है?",
+    "tableHeading": "एक नज़र में {game} बनाम Tadado",
+    "feature": "फ़ीचर",
+    "varies": "ऐप पर निर्भर",
+    "stepsTitle": "आज रात {game} वाला मज़ा Tadado में लाएँ",
+    "faqTitle": "{game} बनाम Tadado: सवाल",
+    "relatedTitle": "और तुलनाएँ",
+    "ctaTitle": "अगली गेम नाइट मुफ़्त में शुरू करें",
+    "ctaBody": "Tadado डाउनलोड करें, मुफ़्त Tadado Mix डेक खोलें और कुछ ही सेकंड में निषिद्ध शब्द या Heads Up खेलें। एक फ़ोन काफ़ी है।",
+    "ctaButton": "Tadado मुफ़्त डाउनलोड करें",
+    "freeNote": "मुफ़्त डाउनलोड · कोई विज्ञापन नहीं · कोई सब्सक्रिप्शन नहीं",
+    "disclaimer": "{game} का नाम केवल एक प्रसिद्ध गेम या फ़ॉर्मेट को समझाने के लिए लिया गया है। सभी ट्रेडमार्क उनके मालिकों के हैं; Tadado उनसे जुड़ा या उनके द्वारा समर्थित नहीं है। {game} के बारे में जानकारी क्लासिक फ़ॉर्मेट और आम संस्करणों पर आधारित है; अलग-अलग ऐप्स और संस्करण अलग हो सकते हैं, स्टोर लिस्टिंग देखें।"
   },
   "geniusEvent": {
     "tag": "नया इवेंट",

@@ -28,7 +28,8 @@ export function StoreButton({
   compact,
   labelMode = "short",
 }: StoreButtonProps) {
-  const href = platform === "ios" ? getAppStoreUrl(locale) : getPlayStoreUrl(locale);
+  const href =
+    platform === "ios" ? getAppStoreUrl(locale) : getPlayStoreUrl(locale);
   const label =
     labelMode === "download"
       ? getMobileStoreCtaLabel(locale, platform)
@@ -50,7 +51,9 @@ export function StoreButton({
         compact && "h-10 px-3 text-xs",
         className,
       )}
-      ariaLabel={platform === "ios" ? a11y.downloadOnAppStore : a11y.getOnGooglePlay}
+      ariaLabel={
+        platform === "ios" ? a11y.downloadOnAppStore : a11y.getOnGooglePlay
+      }
     >
       <span className="mr-2 text-lg" aria-hidden>
         {icon}
@@ -67,6 +70,8 @@ interface StoreButtonsProps {
   className?: string;
   compact?: boolean;
   labelMode?: "short" | "download";
+  /** Extra classes for each badge, e.g. a solid cream fill on dark panels. */
+  buttonClassName?: string;
 }
 
 export function StoreButtons({
@@ -76,6 +81,7 @@ export function StoreButtons({
   className,
   compact,
   labelMode = "short",
+  buttonClassName,
 }: StoreButtonsProps) {
   return (
     <div className={cn("flex flex-wrap items-center gap-3", className)}>
@@ -86,6 +92,7 @@ export function StoreButtons({
         a11y={a11y}
         compact={compact}
         labelMode={labelMode}
+        className={buttonClassName}
       />
       <StoreButton
         locale={locale}
@@ -94,6 +101,7 @@ export function StoreButtons({
         a11y={a11y}
         compact={compact}
         labelMode={labelMode}
+        className={buttonClassName}
       />
     </div>
   );

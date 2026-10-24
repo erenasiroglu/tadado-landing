@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Disukai di malam permainan",
-    "subtitle": "Ulasan App Store asli dari pemain yang mencoba Tadado bersama teman.",
-    "appStoreRating": "5.0 di App Store",
-    "appStoreCount": "8 ulasan",
+    "subtitle": "Ulasan asli App Store dan Google Play dari pemain yang mencoba Tadado bersama teman.",
+    "appStoreRating": "{rating} di App Store",
+    "appStoreCount": "{count} rating",
     "sourceLabel": "Ulasan App Store",
+    "playRating": "{rating} di Google Play",
+    "playAvailable": "Kini di Google Play",
+    "playSourceLabel": "Ulasan Google Play",
     "items": [
       {
         "quote": "Kami menemukannya bersama teman dan mengunduhnya. Desain dan UI-nya sangat bagus. Membuat kartu dengan AI untuk minat kami sendiri membuat kami sangat senang. Semua orang bisa membuat kartu sesuai minat mereka dan kata-kata tidak berulang. Selamat.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Menghasilkan",
     "simulationStepPreview": "Kartu muncul",
     "simulationStepReady": "Siap main",
-    "simulationWriting": "AI sedang menulis kata terlarang…"
+    "simulationWriting": "AI sedang menulis kata terlarang…",
+    "bothModesTitle": "Satu deck, dua mode permainan",
+    "bothModesBody": "Setiap deck AI yang kamu buat bisa dimainkan di Kata Terlarang dan Heads Up. Buat sekali, lalu ganti mode kapan pun grup mau.",
+    "sameDeck": "Deck yang sama"
   },
   "trending": {
     "title": "Malam ini kita main apa?",
@@ -356,6 +362,31 @@
       "title": "Membandingkan dengan game lain?",
       "guides": "Panduan dan ide malam permainan →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Bandingkan game pesta",
+    "hubTitle": "Tadado vs game yang sudah disukai teman-temanmu",
+    "hubSubtitle": "Impostor, Werewolf, Tebak Gambar, dan lainnya. Lihat secara jujur di mana tiap game unggul dan kenapa banyak grup memilih Tadado untuk malam main game.",
+    "localTitle": "Game paling populer di Indonesia",
+    "localSubtitle": "Game kata, kartu, dan pesta yang paling banyak dicari. Setiap halaman menyandingkan game klasik dengan Tadado.",
+    "classicTitle": "Alternatif aplikasi game pesta",
+    "tableTitle": "Tadado vs aplikasi game pesta pada umumnya",
+    "compareLink": "Bandingkan",
+    "vs": "VS",
+    "pickThem": "Pilih {game} kalau",
+    "pickTadado": "Pilih Tadado kalau",
+    "aboutTitle": "Apa itu {game}?",
+    "tableHeading": "{game} vs Tadado sekilas",
+    "feature": "Fitur",
+    "varies": "Tergantung aplikasi",
+    "stepsTitle": "Bawa keseruan {game} ke Tadado malam ini",
+    "faqTitle": "{game} vs Tadado: pertanyaan",
+    "relatedTitle": "Perbandingan lainnya",
+    "ctaTitle": "Malam main game berikutnya mulai gratis",
+    "ctaBody": "Unduh Tadado, buka deck gratis Tadado Mix, dan mainkan Kata Terlarang atau Heads Up dalam hitungan detik. Cukup satu ponsel.",
+    "ctaButton": "Unduh Tadado gratis",
+    "freeNote": "Unduh gratis · Tanpa iklan · Tanpa langganan",
+    "disclaimer": "{game} disebut hanya untuk menjelaskan game atau format yang sudah dikenal. Semua merek dagang milik pemiliknya masing-masing; Tadado tidak berafiliasi atau didukung oleh mereka. Catatan tentang {game} menjelaskan format klasik dan versi umum; aplikasi dan edisi bisa berbeda, jadi cek halaman tokonya."
   },
   "geniusEvent": {
     "tag": "Event baru",

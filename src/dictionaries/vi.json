@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Được yêu thích trong đêm chơi game",
-    "subtitle": "Đánh giá App Store thật từ người chơi đã thử Tadado cùng bạn bè.",
-    "appStoreRating": "5.0 trên App Store",
-    "appStoreCount": "8 đánh giá",
+    "subtitle": "Đánh giá thật trên App Store và Google Play từ người chơi đã thử Tadado cùng bạn bè.",
+    "appStoreRating": "{rating} trên App Store",
+    "appStoreCount": "{count} lượt đánh giá",
     "sourceLabel": "Đánh giá App Store",
+    "playRating": "{rating} trên Google Play",
+    "playAvailable": "Đã có trên Google Play",
+    "playSourceLabel": "Đánh giá Google Play",
     "items": [
       {
         "quote": "Chúng tôi tìm thấy game này cùng bạn và tải về. Thiết kế và giao diện rất tốt. Tạo thẻ bài bằng AI theo sở thích của chúng tôi khiến mọi người rất vui. Ai cũng có thể tạo thẻ theo sở thích và từ vựng không lặp lại. Chúc mừng.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Đang tạo",
     "simulationStepPreview": "Thẻ xuất hiện",
     "simulationStepReady": "Sẵn sàng chơi",
-    "simulationWriting": "AI đang viết từ cấm…"
+    "simulationWriting": "AI đang viết từ cấm…",
+    "bothModesTitle": "Một bộ bài, hai chế độ chơi",
+    "bothModesBody": "Mỗi bộ bài AI bạn tạo đều chơi được ở Từ cấm và Heads Up. Tạo một lần, đổi chế độ bất cứ khi nào cả nhóm muốn.",
+    "sameDeck": "Cùng một bộ bài"
   },
   "trending": {
     "title": "Tối nay chơi gì?",
@@ -356,6 +362,31 @@
       "title": "Đang so sánh với game khác?",
       "guides": "Hướng dẫn và ý tưởng đêm chơi game →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "So sánh trò chơi nhóm",
+    "hubTitle": "Tadado so với những trò bạn bè bạn đã mê",
+    "hubSubtitle": "Kẻ mạo danh, Ma sói, Đuổi hình bắt chữ và nhiều trò khác. So sánh thật lòng xem mỗi trò mạnh ở đâu và vì sao các nhóm chọn Tadado cho đêm chơi game.",
+    "localTitle": "Những trò phổ biến nhất ở Việt Nam",
+    "localSubtitle": "Các trò chơi chữ, bài và trò chơi nhóm được tìm nhiều nhất. Mỗi trang đặt trò kinh điển cạnh Tadado.",
+    "classicTitle": "Lựa chọn thay thế cho ứng dụng trò chơi nhóm",
+    "tableTitle": "Tadado so với các ứng dụng trò chơi nhóm thông thường",
+    "compareLink": "So sánh",
+    "vs": "VS",
+    "pickThem": "Chọn {game} khi",
+    "pickTadado": "Chọn Tadado khi",
+    "aboutTitle": "{game} là gì?",
+    "tableHeading": "{game} và Tadado trong nháy mắt",
+    "feature": "Tiêu chí",
+    "varies": "Tùy ứng dụng",
+    "stepsTitle": "Mang không khí {game} vào Tadado ngay tối nay",
+    "faqTitle": "{game} và Tadado: câu hỏi thường gặp",
+    "relatedTitle": "So sánh thêm",
+    "ctaTitle": "Đêm chơi game tiếp theo bắt đầu miễn phí",
+    "ctaBody": "Tải Tadado, mở bộ bài miễn phí Tadado Mix và chơi Từ cấm hoặc Heads Up chỉ trong vài giây. Một chiếc điện thoại là đủ.",
+    "ctaButton": "Tải Tadado miễn phí",
+    "freeNote": "Tải miễn phí · Không quảng cáo · Không đăng ký",
+    "disclaimer": "{game} chỉ được nhắc đến để mô tả một trò chơi hoặc lối chơi nổi tiếng. Mọi nhãn hiệu thuộc về chủ sở hữu; Tadado không liên kết hay được họ bảo trợ. Thông tin về {game} mô tả lối chơi kinh điển và các phiên bản phổ biến; từng ứng dụng hoặc phiên bản có thể khác, hãy xem trang cửa hàng."
   },
   "geniusEvent": {
     "tag": "Sự kiện mới",

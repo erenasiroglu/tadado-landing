@@ -730,6 +730,28 @@ html {
   animation: typing-cursor 1s step-end infinite;
 }
 
+.ai-writing-spark {
+  animation: ai-writing-spark 1.2s ease-in-out infinite;
+}
+
+@keyframes ai-writing-spark {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.25) rotate(18deg);
+    opacity: 0.7;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-writing-spark {
+    animation: none;
+  }
+}
+
 @keyframes hero-rise {
   from {
     opacity: 0;

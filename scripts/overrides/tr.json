@@ -98,10 +98,13 @@
   },
   "reviews": {
     "title": "Oyun gecesinde sevilen",
-    "subtitle": "Tadado'yu arkadaşlarıyla deneyen oyuncuların gerçek App Store yorumları.",
-    "appStoreRating": "App Store'da 5.0",
-    "appStoreCount": "8 değerlendirme",
+    "subtitle": "Tadado'yu arkadaşlarıyla deneyen oyuncuların App Store ve Google Play'deki gerçek yorumları.",
+    "appStoreRating": "App Store'da {rating}",
+    "appStoreCount": "{count} değerlendirme",
     "sourceLabel": "App Store yorumu",
+    "playRating": "Google Play'de {rating}",
+    "playAvailable": "Artık Google Play'de",
+    "playSourceLabel": "Google Play yorumu",
     "items": [
       {
         "quote": "Arkadaşlarımızla bulduk ve indirdik. Tasarım ve arayüz gerçekten iyi. Yapay zeka ile kendi ilgi alanlarımıza kart oluşturmamız bizi çok mutlu etti. Herkes kendi ilgi alanına kart oluşturabiliyor ve kelimeler tekrar etmiyor. Tebrikler.",

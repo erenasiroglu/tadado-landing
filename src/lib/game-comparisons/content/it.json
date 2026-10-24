@@ -1,0 +1,307 @@
+[
+  {
+    "id": "impostor",
+    "slug": "gioco-dell-impostore",
+    "game": "Gioco dell'impostore",
+    "tagline": "Il gioco virale di bluff con parola segreta contro un gioco in cui parlano tutti.",
+    "metaTitle": "Gioco dell'impostore o Tadado: chi vince la serata giochi?",
+    "metaDescription": "Ami il gioco dell'impostore? Confrontalo con Parole vietate e Heads Up di Tadado: un solo telefono, niente pubblicità, mazzi con IA e un mazzo iniziale gratis.",
+    "h1": "Gioco dell'impostore o Tadado",
+    "hook": "L'impostore è sospetto. Tadado è urlare la risposta prima che scada il tempo. Ecco quale salva la serata.",
+    "about": [
+      "Il gioco dell'impostore è diventato virale perché non serve quasi nulla: un telefono passa di mano in mano, tutti vedono la stessa parola tranne uno, e il gruppo dà indizi di una parola finché non vota chi è l'impostore.",
+      "È soprattutto un gioco di bluff. Il divertimento sta nel leggere le facce, difendersi e la grande rivelazione finale. Perfetto per chi ama discutere, più tranquillo per chi preferisce indovinare e ridere ogni pochi secondi."
+    ],
+    "pickThem": [
+      "il tuo gruppo ama bluffare, accusare e le rivelazioni drammatiche",
+      "volete round lenti con tanta discussione",
+      "tutti preferiscono parlare piuttosto che correre contro il tempo"
+    ],
+    "pickTadado": [
+      "vuoi ridere senza sosta con una parola nuova ogni pochi secondi",
+      "alcuni amici sono timidi e preferiscono indovinare che mentire",
+      "vuoi Parole vietate (stile Taboo) e Heads Up in un'unica app"
+    ],
+    "rows": [
+      {
+        "feature": "Si gioca passando un solo telefono",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Ruoli nascosti e bluff",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Round a tempo e punteggio automatico",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Modalità stile Taboo e Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Mazzi con IA su qualsiasi tema",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Niente pubblicità né abbonamento",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 lingue e gioco offline",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Scarica Tadado e apri il mazzo gratuito Tadado Mix.",
+      "Scegli Parole vietate a squadre o Heads Up con il telefono sulla fronte.",
+      "Ti mancano le battute interne dell'impostore? Scrivi il tema del tuo gruppo nel creatore di mazzi con IA."
+    ],
+    "faq": [
+      {
+        "q": "Tadado ha una modalità impostore?",
+        "a": "No. Tadado ha due modalità: Parole vietate (stile Taboo) e Heads Up. È un gioco veloce di indovinelli, non di ruoli nascosti, quindi si abbina benissimo all'impostore nella stessa serata."
+      },
+      {
+        "q": "Quale è meglio per gruppi numerosi?",
+        "a": "Entrambi si giocano con un telefono. I round dell'impostore si allungano con più persone; Tadado divide il gruppo in squadre e tutti giocano a ogni round."
+      },
+      {
+        "q": "Tadado è gratis come molte app dell'impostore?",
+        "a": "Tadado si scarica gratis con il mazzo Tadado Mix, senza pubblicità né abbonamento. I mazzi a tema e i pacchetti IA sono acquisti singoli facoltativi."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "nomi-cose-citta",
+    "game": "Nomi Cose Città",
+    "tagline": "Il classico carta e penna contro un gioco di indovinelli ad alta voce.",
+    "metaTitle": "Nomi Cose Città o Tadado: quale gioco di parole scegliere?",
+    "metaDescription": "Nomi Cose Città si gioca in silenzio con carta e penna. Tadado è un gioco ad alta voce con timer, punti e mazzi con IA. Confrontali con onestà.",
+    "h1": "Nomi Cose Città o Tadado",
+    "hook": "In uno si scrive a testa bassa. Nell'altro il telefono è sulla fronte e tutti urlano. Quale fa per il tuo gruppo?",
+    "about": [
+      "In Nomi Cose Città si estrae una lettera e ognuno scrive una parola per ogni categoria: nome, cosa, città, animale. Quando qualcuno dice \"Stop!\", le penne si fermano e si confrontano le risposte.",
+      "È perfetto per chi ama le parole e per una tavola tranquilla. Visto che ognuno scrive sul proprio foglio, le risate arrivano soprattutto alla fine, quando si leggono e si contestano le risposte."
+    ],
+    "pickThem": [
+      "vi piacciono le gare di scrittura e controllare le risposte insieme",
+      "avete carta, penne e una tavola tranquilla",
+      "il tuo gruppo adora discutere se una risposta vale"
+    ],
+    "pickTadado": [
+      "vuoi che tutto il gruppo parli, mimi e indovini ad alta voce",
+      "non vuoi cercare penne né tenere i punteggi",
+      "vuoi mazzi a tema e con IA invece delle solite categorie"
+    ],
+    "rows": [
+      {
+        "feature": "Senza carta e penna",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Round ad alta voce a squadre",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Timer e punti automatici",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Mazzi a tema pronti",
+        "tadado": "yes",
+        "other": "Categorie a scelta"
+      },
+      {
+        "feature": "Mazzi con IA su qualsiasi tema",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Gratis per iniziare",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Scarica Tadado e apri Tadado Mix gratis.",
+      "Gioca a Parole vietate in due squadre per una sfida veloce e rumorosa.",
+      "Ti mancano le tue categorie preferite? Chiedi al creatore IA un mazzo su qualsiasi tema."
+    ],
+    "faq": [
+      {
+        "q": "Tadado assomiglia a Nomi Cose Città?",
+        "a": "Sono entrambi giochi di parole, ma si giocano in modo molto diverso. Nomi Cose Città è una gara di scrittura; Tadado è un gioco parlato con Parole vietate e Heads Up."
+      },
+      {
+        "q": "Quale è meglio per bambini e famiglia?",
+        "a": "Funzionano entrambi. In Tadado non c'è una gara di scrittura, quindi anche i più piccoli possono giocare mimando e indovinando."
+      },
+      {
+        "q": "Serve altro oltre al telefono?",
+        "a": "No. Tadado gestisce timer, carte e punteggio su un solo telefono."
+      }
+    ]
+  },
+  {
+    "id": "werewolf",
+    "slug": "lupus-in-tabula",
+    "game": "Lupus in Tabula",
+    "tagline": "Ruoli segreti e fasi notturne contro un gioco in cui nessuno viene eliminato.",
+    "metaTitle": "Lupus in Tabula o Tadado: quale gioco per la tua serata?",
+    "metaDescription": "Lupus in Tabula e Mafia sono classici dei giochi a ruoli nascosti. Tadado è un gioco di parole veloce in cui nessuno viene eliminato. Confrontali.",
+    "h1": "Lupus in Tabula o Tadado",
+    "hook": "In Lupus chi viene eliminato aspetta. In Tadado tutti giocano fino all'ultimo round. Ecco quando scegliere l'uno o l'altro.",
+    "about": [
+      "Lupus in Tabula, cugino italiano di Werewolf e Mafia, è un gioco di deduzione sociale. Un moderatore distribuisce ruoli segreti, i lupi scelgono una vittima ogni notte e il villaggio discute di giorno per scoprirli.",
+      "Nei gruppi numerosi crea momenti indimenticabili. Richiede però un moderatore, molti giocatori, e chi viene eliminato resta a guardare."
+    ],
+    "pickThem": [
+      "siete in tanti e qualcuno ama fare il moderatore",
+      "i tuoi amici adorano accuse, alleanze e colpi di scena",
+      "avete tempo per partite lunghe e piene di storie"
+    ],
+    "pickTadado": [
+      "vuoi che tutti giochino a ogni round, senza eliminazioni",
+      "vuoi iniziare senza moderatore né carte ruolo",
+      "siete in pochi, o mescolate giocatori timidi ed estroversi"
+    ],
+    "rows": [
+      {
+        "feature": "Serve un moderatore",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Nessuno viene eliminato",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Divertente anche in pochi",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Ruoli nascosti e bluff",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Turni brevi a tempo",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Mazzi con IA su qualsiasi tema",
+        "tadado": "yes",
+        "other": "no"
+      }
+    ],
+    "steps": [
+      "Scarica Tadado e apri Tadado Mix.",
+      "Dividetevi in squadre e giocate un round veloce di Parole vietate per scaldarvi.",
+      "Tenete Lupus in Tabula per fine serata, quando il gruppo è pronto per una partita lunga."
+    ],
+    "faq": [
+      {
+        "q": "Tadado ha ruoli nascosti?",
+        "a": "No. Tadado è un gioco di indovinelli con le modalità Parole vietate e Heads Up. È un divertimento diverso da Lupus, e i due si completano bene."
+      },
+      {
+        "q": "Quale scegliere in 4?",
+        "a": "Tadado. Lupus in Tabula di solito richiede un gruppo più numeroso, mentre Tadado è divertente anche con pochi amici."
+      },
+      {
+        "q": "Serve un moderatore in Tadado?",
+        "a": "No. Tadado gestisce da solo timer, carte e punteggio."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "Il gioco da tavolo degli indizi di una parola contro indovinelli istantanei al telefono.",
+    "metaTitle": "Codenames o Tadado: gioco da tavolo o gioco per feste sul telefono?",
+    "metaDescription": "Codenames è un classico moderno. Tadado è un gioco per feste sul telefono con Parole vietate, Heads Up, mazzi con IA e zero preparazione. Confrontali.",
+    "h1": "Codenames o Tadado",
+    "hook": "Codenames fa pensare. Tadado fa urlare. Se al tuo tavolo ci sono entrambi i tipi di giocatori, questo confronto fa per te.",
+    "about": [
+      "In Codenames due capi spia danno indizi di una sola parola che collegano più carte in una griglia di 25 parole. Le squadre cercano le proprie carte evitando l'assassino.",
+      "Premia il ragionamento brillante e funziona benissimo con la scatola sul tavolo. In cambio servono preparazione e lunghi silenzi mentre il capo cerca l'indizio perfetto."
+    ],
+    "pickThem": [
+      "il tuo gruppo ama enigmi e giochi di ragionamento",
+      "avete tavolo, scatola e tempo per preparare",
+      "vi piacciono turni lenti e strategici"
+    ],
+    "pickTadado": [
+      "vuoi iniziare in pochi secondi, ovunque, con un telefono",
+      "vuoi round veloci pieni di risposte e risate",
+      "vuoi mazzi su qualsiasi tema, anche sulle vostre battute interne"
+    ],
+    "rows": [
+      {
+        "feature": "Tempo di preparazione",
+        "tadado": "Secondi",
+        "other": "Disporre 25 carte"
+      },
+      {
+        "feature": "Servono scatola o tabellone",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Tipo di indizio",
+        "tadado": "Descrivere una parola liberamente",
+        "other": "Una parola per più carte"
+      },
+      {
+        "feature": "Round veloci a tempo",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Nuovi mazzi e temi con IA",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Si gioca in 17 lingue",
+        "tadado": "yes",
+        "other": "Edizioni locali"
+      }
+    ],
+    "steps": [
+      "Dividetevi in due squadre, come in Codenames.",
+      "Scegli Parole vietate e apri un mazzo come Genius Only per una vera sfida.",
+      "Correte contro il tempo e lasciate che Tadado tenga il punteggio."
+    ],
+    "faq": [
+      {
+        "q": "Tadado è un'app di Codenames?",
+        "a": "No. Tadado è un gioco di parole indipendente. Condivide lo spirito di squadra di Codenames, ma a ogni turno descrivi una sola parola senza dire le sue parole vietate."
+      },
+      {
+        "q": "Quale è meglio in viaggio?",
+        "a": "Tadado, perché sta sul telefono e funziona offline dopo il download. Codenames richiede la scatola e spazio."
+      },
+      {
+        "q": "Possiamo giocare a entrambi nella stessa serata?",
+        "a": "Certo. Molti gruppi si scaldano con Tadado e poi passano a un gioco di strategia più tranquillo."
+      }
+    ]
+  }
+]

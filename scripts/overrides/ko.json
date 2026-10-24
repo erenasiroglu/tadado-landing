@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "게임 나이트에서 사랑받는",
-    "subtitle": "친구들과 Tadado를 시도한 플레이어의 App Store 리뷰.",
-    "appStoreRating": "App Store 5.0",
-    "appStoreCount": "8개 평가",
+    "subtitle": "친구들과 Tadado를 즐긴 플레이어들의 App Store·Google Play 실제 리뷰.",
+    "appStoreRating": "App Store {rating}",
+    "appStoreCount": "평가 {count}개",
     "sourceLabel": "App Store 리뷰",
+    "playRating": "Google Play {rating}",
+    "playAvailable": "이제 Google Play에서도",
+    "playSourceLabel": "Google Play 리뷰",
     "items": [
       {
         "quote": "친구들과 함께 발견하고 다운로드했어요. 디자인과 UI가 정말 좋아요. AI로 우리 관심사에 맞는 카드를 만드는 게 너무 기뻤어요. 모두 자신의 관심사 카드를 만들 수 있고 단어가 반복되지 않아요. 축하해요.",

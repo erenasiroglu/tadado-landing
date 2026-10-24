@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Amato in serata di gioco",
-    "subtitle": "Recensioni reali dall'App Store di giocatori che hanno provato Tadado con gli amici.",
-    "appStoreRating": "5,0 sull'App Store",
-    "appStoreCount": "8 recensioni",
+    "subtitle": "Recensioni reali da App Store e Google Play di giocatori che hanno provato Tadado con gli amici.",
+    "appStoreRating": "{rating} sull'App Store",
+    "appStoreCount": "{count} valutazioni",
     "sourceLabel": "Recensione App Store",
+    "playRating": "{rating} su Google Play",
+    "playAvailable": "Ora su Google Play",
+    "playSourceLabel": "Recensione Google Play",
     "items": [
       {
         "quote": "L'abbiamo scoperto con gli amici e l'abbiamo scaricato. Design e interfaccia sono davvero buoni. Creare carte con l'IA sui nostri interessi ci ha reso molto felici. Ognuno può creare carte sui propri interessi e le parole non si ripetono. Complimenti.",
@@ -345,7 +348,10 @@
     "simulationStepGenerate": "Generazione",
     "simulationStepPreview": "Le carte appaiono",
     "simulationStepReady": "Pronto a giocare",
-    "simulationWriting": "L'IA sta scrivendo parole vietate…"
+    "simulationWriting": "L'IA sta scrivendo parole vietate…",
+    "bothModesTitle": "Un mazzo, due modalità di gioco",
+    "bothModesBody": "Ogni mazzo creato con l'IA funziona in Parole vietate e in Heads Up. Crealo una volta e cambia modalità quando il gruppo vuole.",
+    "sameDeck": "Stesso mazzo"
   },
   "trending": {
     "title": "Cosa giochiamo stasera?",
@@ -356,6 +362,31 @@
       "title": "Lo stai confrontando con un altro gioco?",
       "guides": "Guide e idee per serate di gioco →"
     }
+  },
+  "compareHub": {
+    "eyebrow": "Confronta i giochi di società",
+    "hubTitle": "Tadado a confronto con i giochi che i tuoi amici amano già",
+    "hubSubtitle": "Gioco dell'impostore, Nomi Cose Città, Lupus in Tabula, Codenames e altri. Scopri onestamente dove brilla ognuno e perché i gruppi scelgono Tadado per la serata giochi.",
+    "localTitle": "I giochi più popolari in Italia",
+    "localSubtitle": "I giochi di parole, carte e società più cercati. Ogni pagina mette il gioco classico accanto a Tadado.",
+    "classicTitle": "Alternative alle app di giochi per feste",
+    "tableTitle": "Tadado a confronto con le tipiche app per feste",
+    "compareLink": "Confronta",
+    "vs": "VS",
+    "pickThem": "Scegli {game} se",
+    "pickTadado": "Scegli Tadado se",
+    "aboutTitle": "Che cos'è {game}?",
+    "tableHeading": "{game} e Tadado a colpo d'occhio",
+    "feature": "Caratteristica",
+    "varies": "Dipende dall'app",
+    "stepsTitle": "Porta l'energia di {game} su Tadado stasera",
+    "faqTitle": "{game} o Tadado: domande",
+    "relatedTitle": "Altri confronti",
+    "ctaTitle": "La tua prossima serata giochi inizia gratis",
+    "ctaBody": "Scarica Tadado, apri il mazzo gratuito Tadado Mix e gioca a Parole vietate o Heads Up in pochi secondi. Basta un telefono.",
+    "ctaButton": "Scarica Tadado gratis",
+    "freeNote": "Download gratuito · Senza pubblicità · Senza abbonamento",
+    "disclaimer": "{game} è citato solo per descrivere un gioco o un formato noto. Tutti i marchi appartengono ai rispettivi proprietari; Tadado non è affiliato né approvato da loro. Le note su {game} descrivono il formato classico e le versioni tipiche; app ed edizioni possono variare, controlla la scheda nello store."
   },
   "geniusEvent": {
     "tag": "Nuovo evento",

@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "Beliebt beim Spieleabend",
-    "subtitle": "Echte App Store-Bewertungen von Spielern, die Tadado mit Freunden ausprobiert haben.",
-    "appStoreRating": "5,0 im App Store",
-    "appStoreCount": "8 Bewertungen",
+    "subtitle": "Echte Bewertungen aus App Store und Google Play von Spielern, die Tadado mit Freunden ausprobiert haben.",
+    "appStoreRating": "{rating} im App Store",
+    "appStoreCount": "{count} Bewertungen",
     "sourceLabel": "App Store-Bewertung",
+    "playRating": "{rating} bei Google Play",
+    "playAvailable": "Jetzt bei Google Play",
+    "playSourceLabel": "Google Play-Bewertung",
     "items": [
       {
         "quote": "Wir haben es mit Freunden entdeckt und heruntergeladen. Design und UI sind wirklich gut. Karten mit KI für unsere Interessen zu erstellen, hat uns sehr gefreut. Jeder kann Karten für seine Interessen erstellen und Wörter wiederholen sich nicht. Glückwunsch.",

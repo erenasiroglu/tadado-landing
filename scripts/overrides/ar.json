@@ -153,10 +153,13 @@
   },
   "reviews": {
     "title": "محبوب في أمسيات اللعب",
-    "subtitle": "مراجعات حقيقية من App Store من لاعبين جربوا Tadado مع الأصدقاء.",
-    "appStoreRating": "5.0 على App Store",
-    "appStoreCount": "8 تقييمات",
+    "subtitle": "مراجعات حقيقية من App Store وGoogle Play من لاعبين جربوا Tadado مع الأصدقاء.",
+    "appStoreRating": "{rating} على App Store",
+    "appStoreCount": "عدد التقييمات: {count}",
     "sourceLabel": "مراجعة App Store",
+    "playRating": "{rating} على Google Play",
+    "playAvailable": "متوفر الآن على Google Play",
+    "playSourceLabel": "مراجعة Google Play",
     "items": [
       {
         "quote": "وجدناه مع الأصدقاء ونزلناه. التصميم والواجهة رائعان حقًا. إنشاء بطاقات بالذكاء الاصطناعي حسب اهتماماتنا أسعدنا كثيرًا. يمكن للجميع إنشاء بطاقات لاهتماماتهم ولا تتكرر الكلمات. مبروك.",

@@ -1,0 +1,307 @@
+[
+  {
+    "id": "impostor",
+    "slug": "jogo-do-impostor",
+    "game": "Jogo do Impostor",
+    "tagline": "O jogo viral de blefe e palavra secreta vs um jogo em que todo mundo fala.",
+    "metaTitle": "Jogo do Impostor vs Tadado: qual ganha a noite de jogos?",
+    "metaDescription": "Ama o Jogo do Impostor? Compare com Palavras Proibidas e Heads Up do Tadado: um só celular, sem anúncios, baralhos com IA e um baralho inicial grátis.",
+    "h1": "Jogo do Impostor vs Tadado",
+    "hook": "O Impostor é sobre desconfiar. O Tadado é sobre gritar a resposta antes do tempo acabar. Veja qual salva a sua noite.",
+    "about": [
+      "O Jogo do Impostor viralizou porque quase não precisa de nada: um celular passa de mão em mão, todo mundo vê a mesma palavra menos um, e o grupo dá dicas de uma palavra até votar em quem é o impostor.",
+      "É, antes de tudo, um jogo de blefe. A graça está em ler rostos, se defender e na grande revelação no fim. É ótimo para grupos que amam debater, e mais calmo para quem prefere adivinhar e rir a cada poucos segundos."
+    ],
+    "pickThem": [
+      "Seu grupo ama blefar, acusar e revelações dramáticas",
+      "Vocês querem rodadas mais lentas, com muita discussão",
+      "Todo mundo prefere sentar e conversar a correr contra o relógio"
+    ],
+    "pickTadado": [
+      "Você quer rir sem parar com uma palavra nova a cada poucos segundos",
+      "Tem amigos tímidos que preferem adivinhar a mentir",
+      "Você quer Palavras Proibidas (estilo Tabu) e Heads Up num só app"
+    ],
+    "rows": [
+      {
+        "feature": "Joga passando um só celular",
+        "tadado": "yes",
+        "other": "yes"
+      },
+      {
+        "feature": "Papéis secretos e blefe",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Rodadas com tempo e pontuação automática",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Modos estilo Tabu e Heads Up",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Baralhos com IA sobre qualquer tema",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "Sem anúncios e sem assinatura",
+        "tadado": "yes",
+        "other": "varies"
+      },
+      {
+        "feature": "17 idiomas e jogo offline",
+        "tadado": "yes",
+        "other": "varies"
+      }
+    ],
+    "steps": [
+      "Baixe o Tadado e abra o baralho grátis Tadado Mix.",
+      "Escolha Palavras Proibidas para times ou Heads Up para adivinhar com o celular na testa.",
+      "Sente falta das piadas internas do Impostor? Digite o tema da sua turma no criador de baralhos com IA."
+    ],
+    "faq": [
+      {
+        "q": "O Tadado tem modo Impostor?",
+        "a": "Não. O Tadado tem dois modos: Palavras Proibidas (estilo Tabu) e Heads Up. É um jogo rápido de adivinhação, não de papéis secretos, então combina muito bem com o Impostor na mesma noite."
+      },
+      {
+        "q": "Qual é melhor para grupos grandes?",
+        "a": "Os dois funcionam com um celular. As rodadas do Impostor ficam mais longas com mais gente; o Tadado divide o grupo em times e todo mundo segue jogando em cada rodada."
+      },
+      {
+        "q": "O Tadado é grátis como muitos apps de Impostor?",
+        "a": "O Tadado é grátis para baixar, com o baralho Tadado Mix, sem anúncios e sem assinatura. Baralhos temáticos e pacotes de IA são compras únicas opcionais."
+      }
+    ]
+  },
+  {
+    "id": "stop",
+    "slug": "stop-adedonha",
+    "game": "Stop (Adedonha)",
+    "tagline": "O clássico de lápis e papel vs um jogo de adivinhar em voz alta.",
+    "metaTitle": "Stop (Adedonha) vs Tadado: qual jogo de palavras escolher?",
+    "metaDescription": "Stop, Adedonha ou Adedanha se joga em silêncio com lápis e papel. O Tadado é um jogo de adivinhar em voz alta com tempo, pontos e baralhos com IA. Compare.",
+    "h1": "Stop (Adedonha) vs Tadado",
+    "hook": "Em um, a cabeça fica baixa e o lápis na mão. No outro, o celular vai na testa e todo mundo grita. Qual combina com a sua turma?",
+    "about": [
+      "No Stop, também chamado de Adedonha ou Adedanha, sorteia-se uma letra e cada jogador escreve uma palavra para cada categoria: nome, CEP, animal, fruta. Quando alguém grita \"Stop!\", os lápis param e as respostas são comparadas.",
+      "É perfeito para quem ama palavras e para uma mesa tranquila. Como cada um escreve na sua folha, as risadas chegam mais no fim da rodada, quando as respostas são lidas e contestadas."
+    ],
+    "pickThem": [
+      "Vocês gostam de corrida de escrita e de conferir respostas juntos",
+      "Tem lápis, papel e uma mesa tranquila",
+      "Sua turma adora discutir se uma resposta vale"
+    ],
+    "pickTadado": [
+      "Você quer o grupo todo falando, atuando e adivinhando em voz alta",
+      "Não quer procurar lápis nem anotar pontos",
+      "Quer baralhos temáticos e com IA em vez das mesmas categorias"
+    ],
+    "rows": [
+      {
+        "feature": "Sem lápis e papel",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Rodadas em voz alta e em times",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Tempo e pontos automáticos",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Baralhos temáticos prontos",
+        "tadado": "yes",
+        "other": "Categorias que você escolhe"
+      },
+      {
+        "feature": "Baralhos com IA sobre qualquer tema",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Grátis para começar",
+        "tadado": "yes",
+        "other": "yes"
+      }
+    ],
+    "steps": [
+      "Baixe o Tadado e abra o Tadado Mix grátis.",
+      "Jogue Palavras Proibidas em dois times para um desafio rápido e barulhento.",
+      "Faltou sua categoria favorita? Peça ao criador com IA um baralho sobre qualquer tema."
+    ],
+    "faq": [
+      {
+        "q": "O Tadado é parecido com o Stop?",
+        "a": "Os dois são jogos de palavras, mas jogam de jeitos bem diferentes. O Stop é uma corrida de escrita; o Tadado é um jogo de adivinhação falado, com Palavras Proibidas e Heads Up."
+      },
+      {
+        "q": "Qual é melhor para crianças e família?",
+        "a": "Os dois funcionam. No Tadado não há corrida de escrita, então os menores participam atuando e adivinhando."
+      },
+      {
+        "q": "Precisa de algo além do celular?",
+        "a": "Não. O Tadado cuida do tempo, das cartas e da pontuação em um só celular."
+      }
+    ]
+  },
+  {
+    "id": "drawing",
+    "slug": "imagem-e-acao",
+    "game": "Imagem & Ação",
+    "tagline": "Desenhar e fazer mímica no tabuleiro vs adivinhar com um celular.",
+    "metaTitle": "Imagem & Ação vs Tadado: tabuleiro clássico ou jogo no celular?",
+    "metaDescription": "Imagem & Ação é um clássico de desenho e mímica. O Tadado é um jogo de festa no celular com Palavras Proibidas, Heads Up e baralhos com IA. Compare.",
+    "h1": "Imagem & Ação vs Tadado",
+    "hook": "Desenha mal? Boa notícia: no Tadado ninguém precisa desenhar um cavalo. Veja como os dois clássicos se comparam.",
+    "about": [
+      "Imagem & Ação é o jogo de tabuleiro em que um jogador desenha ou faz mímica de uma palavra enquanto o time tenta adivinhar antes da ampulheta acabar. Jogos online como Gartic Phone deixaram o formato popular de novo.",
+      "É caótico e divertido, mas pede tabuleiro, papel, lápis e ampulheta, e tem gente que trava quando chega a vez de desenhar."
+    ],
+    "pickThem": [
+      "Sua turma tem artistas e ama o caos dos rabiscos",
+      "Vocês têm a caixa, papel e espaço na mesa",
+      "Querem turnos em que só uma pessoa desenha"
+    ],
+    "pickTadado": [
+      "Você não quer que ninguém se sinta julgado pelo desenho",
+      "Quer jogar em qualquer lugar, sem tabuleiro nem lápis",
+      "Quer turnos mais rápidos e mais palavras por rodada"
+    ],
+    "rows": [
+      {
+        "feature": "Precisa saber desenhar",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Precisa de tabuleiro, papel e lápis",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Rodadas de mímica",
+        "tadado": "Modo Heads Up",
+        "other": "yes"
+      },
+      {
+        "feature": "Tempo e pontuação",
+        "tadado": "Automáticos",
+        "other": "Ampulheta e tabuleiro"
+      },
+      {
+        "feature": "Baralhos com IA sobre qualquer tema",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Joga em 17 idiomas",
+        "tadado": "yes",
+        "other": "Edição em português"
+      }
+    ],
+    "steps": [
+      "Abra o baralho grátis Tadado Mix.",
+      "Escolha Heads Up para uma rodada de mímica que lembra Imagem & Ação sem lápis.",
+      "Mude para Palavras Proibidas quando a turma preferir falar em vez de atuar."
+    ],
+    "faq": [
+      {
+        "q": "Dá para desenhar no Tadado?",
+        "a": "Não. O Tadado foca em descrever (Palavras Proibidas) e adivinhar no Heads Up. Ainda assim, dá para fazer mímica nas rodadas de Heads Up."
+      },
+      {
+        "q": "Qual é melhor para viajar?",
+        "a": "O Tadado, porque fica no celular e funciona offline depois de baixado. Imagem & Ação precisa da caixa e de uma mesa."
+      },
+      {
+        "q": "O Tadado é bom para quem odeia desenhar?",
+        "a": "Sim. Esse é um dos motivos mais comuns para trocar: todo mundo joga sem medo de ser julgado pela arte."
+      }
+    ]
+  },
+  {
+    "id": "codenames",
+    "slug": "codenames",
+    "game": "Codenames",
+    "tagline": "O jogo de tabuleiro de dicas de uma palavra vs adivinhação instantânea no celular.",
+    "metaTitle": "Codenames vs Tadado: jogo de tabuleiro ou jogo de festa no celular?",
+    "metaDescription": "Codenames é um clássico moderno. O Tadado é um jogo de festa no celular com Palavras Proibidas, Heads Up, baralhos com IA e zero preparação. Compare.",
+    "h1": "Codenames vs Tadado",
+    "hook": "Codenames faz pensar. O Tadado faz gritar. Se na sua mesa tem os dois tipos de jogador, esta comparação é para você.",
+    "about": [
+      "No Codenames, dois chefes espiões dão dicas de uma só palavra que ligam várias cartas numa grade de 25 palavras. Os times tentam achar suas cartas sem tocar no assassino.",
+      "Premia o raciocínio esperto e funciona lindamente com a caixa na mesa. Em troca, exige preparação e longos silêncios enquanto o chefe procura a dica perfeita."
+    ],
+    "pickThem": [
+      "Sua turma ama enigmas e jogos de raciocínio",
+      "Vocês têm mesa, a caixa e tempo para montar",
+      "Gostam de turnos mais lentos e estratégicos"
+    ],
+    "pickTadado": [
+      "Você quer começar em segundos, em qualquer lugar, com um celular",
+      "Quer rodadas rápidas cheias de acertos e risadas",
+      "Quer baralhos sobre qualquer tema, até as piadas da turma"
+    ],
+    "rows": [
+      {
+        "feature": "Tempo de preparação",
+        "tadado": "Segundos",
+        "other": "Montar 25 cartas"
+      },
+      {
+        "feature": "Precisa de caixa ou tabuleiro",
+        "tadado": "no",
+        "other": "yes"
+      },
+      {
+        "feature": "Estilo de dica",
+        "tadado": "Descrever uma palavra livremente",
+        "other": "Uma palavra ligando várias cartas"
+      },
+      {
+        "feature": "Rodadas rápidas com tempo",
+        "tadado": "yes",
+        "other": "partial"
+      },
+      {
+        "feature": "Novos baralhos e temas com IA",
+        "tadado": "yes",
+        "other": "no"
+      },
+      {
+        "feature": "Joga em 17 idiomas",
+        "tadado": "yes",
+        "other": "Edições locais"
+      }
+    ],
+    "steps": [
+      "Dividam-se em dois times, como no Codenames.",
+      "Escolha Palavras Proibidas e abra um baralho como o Genius Only para um desafio de raciocínio.",
+      "Corram contra o relógio e deixem o Tadado marcar os pontos."
+    ],
+    "faq": [
+      {
+        "q": "O Tadado é um app de Codenames?",
+        "a": "Não. O Tadado é um jogo de palavras independente. Tem o espírito de time do Codenames, mas em cada turno você descreve uma só palavra sem dizer as dicas proibidas."
+      },
+      {
+        "q": "Qual é melhor para viajar?",
+        "a": "O Tadado, porque fica no celular e funciona offline depois de baixado. Codenames precisa da caixa e de espaço para as cartas."
+      },
+      {
+        "q": "Dá para jogar os dois na mesma noite?",
+        "a": "Claro. Muitas turmas aquecem com rodadas rápidas de Tadado e depois partem para um jogo de estratégia mais calmo."
+      }
+    ]
+  }
+]
