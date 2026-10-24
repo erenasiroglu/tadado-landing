@@ -21,9 +21,9 @@ interface FooterColumnProps {
 
 function FooterColumn({ title, children }: FooterColumnProps) {
   return (
-    <div>
+    <div className="min-w-0">
       <p className="eyebrow text-[0.6875rem]">{title}</p>
-      <ul className="mt-3 space-y-2 text-sm">{children}</ul>
+      <ul className="mt-3 space-y-2 text-sm hyphens-auto break-words">{children}</ul>
     </div>
   );
 }
@@ -63,7 +63,7 @@ export function Footer({ locale, dict }: FooterProps) {
             <StoreButtons locale={locale} source="hero_badges" a11y={dict.a11y} className="mt-6" />
           </div>
 
-          <div className="grid flex-1 grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-5">
+          <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 xl:grid-cols-5">
             <FooterColumn title={dict.footer.playTitle}>
               <FooterLink href="#modes">{dict.nav.play}</FooterLink>
               <FooterLink href="#ai-decks">{dict.nav.aiDecks}</FooterLink>
