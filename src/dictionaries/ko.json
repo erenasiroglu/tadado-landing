@@ -395,6 +395,33 @@
     "note": "App Store와 Google Play에서 Genius Only 이벤트를 찾아보세요.",
     "cta": "덱 살펴보기"
   },
+  "halloween": {
+    "heroPill": "할로윈 시즌: 무료 덱 + 새 모드 임포스터",
+    "tag": "할로윈 시즌",
+    "title": "Tadado와 함께하는 할로윈 밤",
+    "body": "불이 꺼지기 전에 친구들을 모을 새로운 이유 두 가지.",
+    "deckTitle": "무료 할로윈 덱",
+    "deckBody": "몬스터, 마녀, 공포 명작까지. 구매 없이 모두에게 무료.",
+    "imposterTitle": "새 모드: 임포스터",
+    "imposterBody": "한 명을 제외한 모두가 비밀 단어를 받습니다. 임포스터가 섞여 들기 전에 찾아내세요.",
+    "cta": "오늘 밤 무료로 플레이",
+    "guideCta": "할로윈 게임 아이디어",
+    "note": "할로윈 시즌은 11월 3일까지 진행됩니다.",
+    "card": {
+      "deck": "할로윈 덱",
+      "free": "무료",
+      "word": "뱀파이어",
+      "forbidden": [
+        "피",
+        "물다",
+        "드라큘라",
+        "밤"
+      ],
+      "imposterLabel": "임포스터",
+      "imposterRole": "당신이 임포스터",
+      "imposterHint": "섞여 들어라. 들키지 마라."
+    }
+  },
   "trust": {
     "eyebrow": "당신을 위해 만들었어요",
     "title": "함께 웃기 위해 만들었어요.",

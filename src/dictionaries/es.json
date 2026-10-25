@@ -395,6 +395,33 @@
     "note": "Busca el evento Genius Only en App Store y Google Play.",
     "cta": "Ver el mazo"
   },
+  "halloween": {
+    "heroPill": "Temporada de Halloween: mazo gratis + nuevo modo Impostor",
+    "tag": "Temporada de Halloween",
+    "title": "Noche de Halloween, al estilo Tadado",
+    "body": "Dos nuevas razones para reunir al grupo antes de que se apaguen las luces.",
+    "deckTitle": "Mazo de Halloween gratis",
+    "deckBody": "Monstruos, brujas y clásicos del terror. Gratis para todos, sin compras.",
+    "imposterTitle": "Nuevo modo: Impostor",
+    "imposterBody": "Todos reciben la palabra secreta menos un jugador. Descubre al impostor antes de que se camufle.",
+    "cta": "Juega gratis esta noche",
+    "guideCta": "Ideas de juegos para Halloween",
+    "note": "La temporada de Halloween dura hasta el 3 de noviembre.",
+    "card": {
+      "deck": "Mazo de Halloween",
+      "free": "Gratis",
+      "word": "Vampiro",
+      "forbidden": [
+        "Sangre",
+        "Mordisco",
+        "Drácula",
+        "Noche"
+      ],
+      "imposterLabel": "Impostor",
+      "imposterRole": "Eres el impostor",
+      "imposterHint": "Camúflate. Que no te pillen."
+    }
+  },
   "trust": {
     "eyebrow": "Hecho para ti",
     "title": "Hecho para reír juntos.",

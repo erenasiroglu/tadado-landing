@@ -395,6 +395,33 @@
     "note": "Procure o evento Genius Only na App Store e no Google Play.",
     "cta": "Conhecer o baralho"
   },
+  "halloween": {
+    "heroPill": "Temporada de Halloween: baralho grátis + novo modo Impostor",
+    "tag": "Temporada de Halloween",
+    "title": "Noite de Halloween, do jeito Tadado",
+    "body": "Dois novos motivos para reunir a galera antes que as luzes se apaguem.",
+    "deckTitle": "Baralho de Halloween grátis",
+    "deckBody": "Monstros, bruxas e clássicos do terror. Grátis para todos, sem compras.",
+    "imposterTitle": "Novo modo: Impostor",
+    "imposterBody": "Todo mundo recebe a palavra secreta, menos um jogador. Descubra o impostor antes que ele se disfarce.",
+    "cta": "Jogue grátis hoje à noite",
+    "guideCta": "Ideias de jogos para o Halloween",
+    "note": "A temporada de Halloween vai até 3 de novembro.",
+    "card": {
+      "deck": "Baralho de Halloween",
+      "free": "Grátis",
+      "word": "Vampiro",
+      "forbidden": [
+        "Sangue",
+        "Mordida",
+        "Drácula",
+        "Noite"
+      ],
+      "imposterLabel": "Impostor",
+      "imposterRole": "Você é o impostor",
+      "imposterHint": "Disfarce. Não seja pego."
+    }
+  },
   "trust": {
     "eyebrow": "Feito para você",
     "title": "Feito para rir junto.",

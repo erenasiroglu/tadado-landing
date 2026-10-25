@@ -395,6 +395,33 @@
     "note": "Finde das Genius-Only-Event im App Store und bei Google Play.",
     "cta": "Deck entdecken"
   },
+  "halloween": {
+    "heroPill": "Halloween-Saison: Gratis-Deck + neuer Imposter-Modus",
+    "tag": "Halloween-Saison",
+    "title": "Halloween-Nacht im Tadado-Stil",
+    "body": "Zwei neue Gründe, die Runde zusammenzutrommeln, bevor die Lichter ausgehen.",
+    "deckTitle": "Gratis Halloween-Deck",
+    "deckBody": "Monster, Hexen und Horror-Klassiker. Für alle kostenlos, ohne Kauf.",
+    "imposterTitle": "Neuer Modus: Imposter",
+    "imposterBody": "Alle bekommen das geheime Wort, nur ein Spieler nicht. Entlarvt den Imposter, bevor er untertaucht.",
+    "cta": "Heute Abend gratis spielen",
+    "guideCta": "Halloween-Spielideen",
+    "note": "Die Halloween-Saison läuft bis zum 3. November.",
+    "card": {
+      "deck": "Halloween-Deck",
+      "free": "Gratis",
+      "word": "Vampir",
+      "forbidden": [
+        "Blut",
+        "Biss",
+        "Dracula",
+        "Nacht"
+      ],
+      "imposterLabel": "Imposter",
+      "imposterRole": "Du bist der Imposter",
+      "imposterHint": "Tauch unter. Lass dich nicht erwischen."
+    }
+  },
   "trust": {
     "eyebrow": "Für dich gemacht",
     "title": "Gemacht zum gemeinsamen Lachen.",

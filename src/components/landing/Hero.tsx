@@ -5,6 +5,8 @@ import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { trackEvent } from "@/lib/tracking";
 
+import { Bat, HalloweenDecor } from "@/components/seasonal/HalloweenDecor";
+
 import { HeroProduct } from "./HeroProduct";
 import { CTAButton } from "./primitives/CTAButton";
 import { HeroProofMetrics } from "./primitives/HeroProofMetrics";
@@ -14,9 +16,11 @@ import { StoreButtons } from "./primitives/StoreButton";
 interface HeroProps {
   locale: Locale;
   dict: Dictionary;
+  /** Seasonal skin; see `getActiveSeason` in lib/season. */
+  halloween?: boolean;
 }
 
-export function Hero({ locale, dict }: HeroProps) {
+export function Hero({ locale, dict, halloween = false }: HeroProps) {
   function handlePrimaryClick() {
     trackEvent({
       event: ANALYTICS_EVENTS.HERO_CTA_CLICK,
@@ -32,7 +36,10 @@ export function Hero({ locale, dict }: HeroProps) {
   }
 
   return (
-    <section className="stage relative overflow-hidden pb-12 pt-8 sm:pb-16 sm:pt-10 lg:pb-20 lg:pt-12">
+    <section
+      className={`stage relative overflow-hidden pb-12 pt-8 sm:pb-16 sm:pt-10 lg:pb-20 lg:pt-12${halloween ? " stage--halloween" : ""}`}
+    >
+      {halloween ? <HalloweenDecor tone="light" /> : null}
       <div
         className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-gradient-to-b from-transparent to-paper sm:h-28"
         aria-hidden
@@ -42,6 +49,14 @@ export function Hero({ locale, dict }: HeroProps) {
           <div className="flex min-w-0 flex-col gap-6 text-center lg:max-w-xl lg:text-start xl:max-w-2xl">
             {/* CSS entrance (no JS): the hero paints with the HTML instead of waiting for hydration. */}
             <div className="flex w-full min-w-0 flex-col items-center gap-5 lg:items-start lg:gap-6">
+              {halloween ? (
+                <div className="hero-rise" style={{ "--i": 0 } as React.CSSProperties}>
+                  <a href="#halloween" className="halloween-pill">
+                    <Bat className="halloween-pill__bat" />
+                    <span>{dict.halloween.heroPill}</span>
+                  </a>
+                </div>
+              ) : null}
               <div className="hero-rise" style={{ "--i": 0 } as React.CSSProperties}>
                 <p className="eyebrow text-balance">{dict.hero.brandLine}</p>
               </div>

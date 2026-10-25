@@ -340,6 +340,33 @@
     "note": "Look for the Genius Only event on the App Store and Google Play.",
     "cta": "Explore the deck"
   },
+  "halloween": {
+    "heroPill": "Halloween season: free deck + new Imposter mode",
+    "tag": "Halloween season",
+    "title": "Halloween night, Tadado style",
+    "body": "Two new reasons to get the group together before the lights go out.",
+    "deckTitle": "Free Halloween deck",
+    "deckBody": "Monsters, witches and horror classics. Free for everyone, no purchase needed.",
+    "imposterTitle": "New mode: Imposter",
+    "imposterBody": "Everyone gets the secret word except one player. Find the imposter before they blend in.",
+    "cta": "Play free tonight",
+    "guideCta": "Halloween game ideas",
+    "note": "The Halloween season runs until November 3.",
+    "card": {
+      "deck": "Halloween deck",
+      "free": "Free",
+      "word": "Vampire",
+      "forbidden": [
+        "Blood",
+        "Bite",
+        "Dracula",
+        "Night"
+      ],
+      "imposterLabel": "Imposter",
+      "imposterRole": "You're the imposter",
+      "imposterHint": "Blend in. Don't get caught."
+    }
+  },
   "trust": {
     "eyebrow": "Made for you",
     "title": "Made for laughing together.",

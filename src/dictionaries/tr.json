@@ -395,6 +395,33 @@
     "note": "Genius Only etkinliğini App Store ve Google Play'de bul.",
     "cta": "Desteyi keşfet"
   },
+  "halloween": {
+    "heroPill": "Cadılar Bayramı: ücretsiz deste + yeni Casus modu",
+    "tag": "Cadılar Bayramı",
+    "title": "Cadılar Bayramı, Tadado usulü",
+    "body": "Işıklar sönmeden ekibi toplamak için iki yeni sebep.",
+    "deckTitle": "Ücretsiz Cadılar Bayramı destesi",
+    "deckBody": "Canavarlar, cadılar ve korku klasikleri. Herkese ücretsiz, satın alma gerekmez.",
+    "imposterTitle": "Yeni mod: Casus",
+    "imposterBody": "Bir kişi hariç herkes gizli kelimeyi görür. Casus aranıza karışmadan onu bulun.",
+    "cta": "Bu akşam ücretsiz oyna",
+    "guideCta": "Cadılar Bayramı oyun fikirleri",
+    "note": "Cadılar Bayramı etkinliği 3 Kasım'a kadar sürüyor.",
+    "card": {
+      "deck": "Cadılar Bayramı",
+      "free": "Ücretsiz",
+      "word": "Vampir",
+      "forbidden": [
+        "Kan",
+        "Isırık",
+        "Drakula",
+        "Gece"
+      ],
+      "imposterLabel": "Casus",
+      "imposterRole": "Casus sensin",
+      "imposterHint": "Aralarına karış. Yakalanma."
+    }
+  },
   "trust": {
     "eyebrow": "Senin için tasarlandı",
     "title": "Birlikte gülmek için yapıldı.",

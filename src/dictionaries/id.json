@@ -395,6 +395,33 @@
     "note": "Cari event Genius Only di App Store dan Google Play.",
     "cta": "Lihat deknya"
   },
+  "halloween": {
+    "heroPill": "Musim Halloween: dek gratis + mode baru Penyusup",
+    "tag": "Musim Halloween",
+    "title": "Malam Halloween ala Tadado",
+    "body": "Dua alasan baru untuk kumpul bareng sebelum lampu padam.",
+    "deckTitle": "Dek Halloween gratis",
+    "deckBody": "Monster, penyihir, dan film horor klasik. Gratis untuk semua, tanpa pembelian.",
+    "imposterTitle": "Mode baru: Penyusup",
+    "imposterBody": "Semua pemain dapat kata rahasia kecuali satu orang. Temukan penyusupnya sebelum dia membaur.",
+    "cta": "Main gratis malam ini",
+    "guideCta": "Ide permainan Halloween",
+    "note": "Musim Halloween berlangsung hingga 3 November.",
+    "card": {
+      "deck": "Dek Halloween",
+      "free": "Gratis",
+      "word": "Vampir",
+      "forbidden": [
+        "Darah",
+        "Gigitan",
+        "Drakula",
+        "Malam"
+      ],
+      "imposterLabel": "Penyusup",
+      "imposterRole": "Kamu penyusupnya",
+      "imposterHint": "Membaurlah. Jangan ketahuan."
+    }
+  },
   "trust": {
     "eyebrow": "Dibuat untukmu",
     "title": "Dibuat untuk tertawa bersama.",

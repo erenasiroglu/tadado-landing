@@ -395,6 +395,33 @@
     "note": "Retrouvez l'événement Genius Only sur l'App Store et Google Play.",
     "cta": "Découvrir le deck"
   },
+  "halloween": {
+    "heroPill": "Saison d'Halloween : paquet gratuit + nouveau mode Imposteur",
+    "tag": "Saison d'Halloween",
+    "title": "Soirée Halloween, version Tadado",
+    "body": "Deux nouvelles raisons de réunir la bande avant que les lumières s'éteignent.",
+    "deckTitle": "Paquet Halloween gratuit",
+    "deckBody": "Monstres, sorcières et classiques de l'horreur. Gratuit pour tous, sans achat.",
+    "imposterTitle": "Nouveau mode : Imposteur",
+    "imposterBody": "Tout le monde reçoit le mot secret sauf un joueur. Démasquez l'imposteur avant qu'il ne se fonde dans le groupe.",
+    "cta": "Jouez gratuitement ce soir",
+    "guideCta": "Idées de jeux pour Halloween",
+    "note": "La saison d'Halloween dure jusqu'au 3 novembre.",
+    "card": {
+      "deck": "Paquet Halloween",
+      "free": "Gratuit",
+      "word": "Vampire",
+      "forbidden": [
+        "Sang",
+        "Morsure",
+        "Dracula",
+        "Nuit"
+      ],
+      "imposterLabel": "Imposteur",
+      "imposterRole": "Tu es l'imposteur",
+      "imposterHint": "Fonds-toi dans la masse. Ne te fais pas prendre."
+    }
+  },
   "trust": {
     "eyebrow": "Pensé pour vous",
     "title": "Fait pour rire ensemble.",

@@ -15,10 +15,12 @@ import { Pricing } from "@/components/landing/Pricing";
 import { ProductBenefits } from "@/components/landing/ProductBenefits";
 import { StickyBar } from "@/components/landing/StickyBar";
 import { TrustPromise } from "@/components/landing/TrustPromise";
+import { HalloweenEvent } from "@/components/seasonal/HalloweenEvent";
 import { getBlogPosts } from "@/lib/blog";
 import { hasLocale, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
 import { applyLandingVariant } from "@/lib/landing-variants";
+import { isHalloweenSeason } from "@/lib/season";
 import { buildLandingJsonLd } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -69,6 +71,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
   const dict = applyLandingVariant(locale, await getDictionary(locale));
   const posts = await getBlogPosts(locale);
   const jsonLd = buildLandingJsonLd(locale, dict);
+  const halloween = isHalloweenSeason();
 
   return (
     <>
@@ -78,7 +81,8 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
       />
       <Header locale={locale} dict={dict} />
       <main className="flex-1 pb-safe md:pb-0">
-        <Hero locale={locale} dict={dict} />
+        <Hero locale={locale} dict={dict} halloween={halloween} />
+        {halloween ? <HalloweenEvent locale={locale} dict={dict} /> : null}
         <GameModeShowcase locale={locale} dict={dict} />
         <GeniusEvent locale={locale} dict={dict} />
         <Testimonials locale={locale} dict={dict} />

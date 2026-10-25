@@ -69,11 +69,13 @@ export type DownloadSource =
   | "deck_catalog"
   | "trending_deck"
   | "ai_demo"
-  | "share_link";
+  | "share_link"
+  | "halloween_event";
 
 export type SectionId =
   | "hero"
   | "genius_event"
+  | "halloween_event"
   | "trust"
   | "proof"
   | "modes"

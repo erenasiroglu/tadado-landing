@@ -395,6 +395,33 @@
     "note": "在 App Store 和 Google Play 查看 Genius Only 活动。",
     "cta": "查看卡组"
   },
+  "halloween": {
+    "heroPill": "万圣节季：免费卡组 + 全新「卧底」模式",
+    "tag": "万圣节季",
+    "title": "Tadado 万圣节之夜",
+    "body": "趁灯还没熄，又多了两个约朋友聚会的理由。",
+    "deckTitle": "免费万圣节卡组",
+    "deckBody": "怪物、女巫和经典恐怖片。人人免费，无需购买。",
+    "imposterTitle": "全新模式：卧底",
+    "imposterBody": "除一名玩家外，所有人都会拿到秘密词。在卧底混进人群前把他找出来。",
+    "cta": "今晚免费开玩",
+    "guideCta": "万圣节游戏点子",
+    "note": "万圣节季持续到 11 月 3 日。",
+    "card": {
+      "deck": "万圣节卡组",
+      "free": "免费",
+      "word": "吸血鬼",
+      "forbidden": [
+        "血",
+        "咬",
+        "德古拉",
+        "夜晚"
+      ],
+      "imposterLabel": "卧底",
+      "imposterRole": "你是卧底",
+      "imposterHint": "混进去，别被发现。"
+    }
+  },
   "trust": {
     "eyebrow": "为你而做",
     "title": "为一起欢笑而生。",

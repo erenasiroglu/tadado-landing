@@ -395,6 +395,33 @@
     "note": "Tìm sự kiện Genius Only trên App Store và Google Play.",
     "cta": "Khám phá bộ bài"
   },
+  "halloween": {
+    "heroPill": "Mùa Halloween: bộ bài miễn phí + chế độ mới Kẻ mạo danh",
+    "tag": "Mùa Halloween",
+    "title": "Đêm Halloween theo phong cách Tadado",
+    "body": "Thêm hai lý do để tụ tập cả nhóm trước khi đèn tắt.",
+    "deckTitle": "Bộ bài Halloween miễn phí",
+    "deckBody": "Quái vật, phù thủy và những phim kinh dị kinh điển. Miễn phí cho mọi người, không cần mua.",
+    "imposterTitle": "Chế độ mới: Kẻ mạo danh",
+    "imposterBody": "Mọi người đều nhận từ bí mật, trừ một người chơi. Hãy tìm ra kẻ mạo danh trước khi hắn trà trộn.",
+    "cta": "Chơi miễn phí tối nay",
+    "guideCta": "Ý tưởng trò chơi Halloween",
+    "note": "Mùa Halloween kéo dài đến hết ngày 3 tháng 11.",
+    "card": {
+      "deck": "Bộ bài Halloween",
+      "free": "Miễn phí",
+      "word": "Ma cà rồng",
+      "forbidden": [
+        "Máu",
+        "Cắn",
+        "Dracula",
+        "Đêm"
+      ],
+      "imposterLabel": "Kẻ mạo danh",
+      "imposterRole": "Bạn là kẻ mạo danh",
+      "imposterHint": "Trà trộn đi. Đừng để bị lộ."
+    }
+  },
   "trust": {
     "eyebrow": "Dành cho bạn",
     "title": "Tạo ra để cùng nhau cười.",

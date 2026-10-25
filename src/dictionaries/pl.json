@@ -395,6 +395,33 @@
     "note": "Szukaj wydarzenia Genius Only w App Store i Google Play.",
     "cta": "Zobacz talię"
   },
+  "halloween": {
+    "heroPill": "Sezon Halloween: darmowa talia + nowy tryb Oszust",
+    "tag": "Sezon Halloween",
+    "title": "Noc Halloween w stylu Tadado",
+    "body": "Dwa nowe powody, by zebrać ekipę, zanim zgasną światła.",
+    "deckTitle": "Darmowa talia Halloween",
+    "deckBody": "Potwory, wiedźmy i klasyki horroru. Za darmo dla wszystkich, bez zakupów.",
+    "imposterTitle": "Nowy tryb: Oszust",
+    "imposterBody": "Wszyscy dostają tajne słowo oprócz jednego gracza. Znajdźcie oszusta, zanim wtopi się w tłum.",
+    "cta": "Zagraj za darmo dziś wieczorem",
+    "guideCta": "Pomysły na gry na Halloween",
+    "note": "Sezon Halloween trwa do 3 listopada.",
+    "card": {
+      "deck": "Talia Halloween",
+      "free": "Za darmo",
+      "word": "Wampir",
+      "forbidden": [
+        "Krew",
+        "Ugryzienie",
+        "Drakula",
+        "Noc"
+      ],
+      "imposterLabel": "Oszust",
+      "imposterRole": "Jesteś oszustem",
+      "imposterHint": "Wtop się w tłum. Nie daj się złapać."
+    }
+  },
   "trust": {
     "eyebrow": "Stworzone dla ciebie",
     "title": "Stworzone do wspólnego śmiechu.",
