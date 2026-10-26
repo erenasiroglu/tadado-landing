@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Đã lên Product Hunt",
     "title": "Phiên bản Halloween: chế độ Kẻ mạo danh và bộ bài kinh dị miễn phí",
-    "cta": "Bình chọn"
+    "cta": "Bình chọn",
+    "hide": "Ẩn"
   }
 }

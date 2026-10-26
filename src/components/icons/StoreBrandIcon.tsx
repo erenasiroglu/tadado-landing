@@ -7,17 +7,13 @@ interface StoreBrandIconProps {
 
 export function StoreBrandIcon({ platform, className }: StoreBrandIconProps) {
   if (platform === "android") {
+    // The four-colour Play triangle, so it reads as Google Play on any background.
     return (
-      <svg
-        viewBox="0 0 24 24"
-        className={cn("shrink-0", className)}
-        aria-hidden
-        fill="currentColor"
-      >
-        <path d="M3.18 2.77A1.5 1.5 0 0 0 2.25 4.1v15.8c0 .5.27.96.7 1.2l.23.13 8.86-8.86v-.42L3.18 2.77z" />
-        <path d="M16.5 14.24 12.9 11.5l-2.64 2.64 4.74 2.74c.76.44 1.72.11 2.14-.66l.36-.68-1-.7z" />
-        <path d="m10.26 9.86 2.64-2.64-4.74-2.74c-.76-.44-1.72-.11-2.14.66l-.36.68 1 .7z" />
-        <path d="M16.86 8.5 12.9 11.5l3.6 2.74 2.5-1.44c.9-.52.9-1.8 0-2.32l-2.14-1.24z" />
+      <svg viewBox="0 0 24 24" className={cn("shrink-0", className)} aria-hidden>
+        <path fill="#00A0FF" d="M3.6 1.6 13.3 12l-9.7 10.4c-.35-.2-.6-.6-.6-1.1V2.7c0-.5.25-.9.6-1.1Z" />
+        <path fill="#00D26A" d="M3.6 1.6c.35-.2.8-.2 1.25.05L16.9 8.6 13.3 12 3.6 1.6Z" />
+        <path fill="#FF3A44" d="M13.3 12 16.9 15.4 4.85 22.35c-.45.25-.9.25-1.25.05L13.3 12Z" />
+        <path fill="#FFC400" d="m16.9 8.6 3.55 2.05c1.05.6 1.05 2.1 0 2.7l-3.55 2.05L13.3 12l3.6-3.4Z" />
       </svg>
     );
   }

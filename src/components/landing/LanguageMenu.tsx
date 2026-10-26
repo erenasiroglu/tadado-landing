@@ -69,7 +69,7 @@ export function LanguageMenu({ currentLocale, label, closeLabel, className }: La
           <div
             role="listbox"
             aria-label={label}
-            className="absolute right-0 z-50 mt-2 w-[min(calc(100vw-2rem),20rem)] rounded-[1.25rem] border border-border bg-paper p-2 shadow-[0_24px_48px_rgb(26_15_41/0.18)]"
+            className="site-popover absolute right-0 z-50 mt-2 w-[min(calc(100vw-2rem),20rem)] rounded-[1.25rem] border border-border bg-paper p-2 shadow-[0_24px_48px_rgb(26_15_41/0.18)]"
           >
             <p className="px-3 pt-2 pb-2.5 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
               {label}

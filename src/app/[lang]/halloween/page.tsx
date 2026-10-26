@@ -8,7 +8,6 @@ import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { AppTabooCard } from "@/components/seasonal/AppTabooCard";
-import { HalloweenDecor } from "@/components/seasonal/HalloweenDecor";
 import { HalloweenDeckCard } from "@/components/seasonal/HalloweenDeckCard";
 import { getArticleSlug } from "@/lib/article-registry";
 import { BRAND } from "@/lib/brand";
@@ -73,7 +72,6 @@ export default async function HalloweenPage({ params }: PageProps<"/[lang]/hallo
       <Header locale={locale} dict={dict} dark />
       <main className="flex-1">
         <section className="halloween-hero relative isolate overflow-hidden">
-          <HalloweenDecor tone="night" />
           <div className="section-shell relative z-[2] grid items-center gap-12 pb-16 pt-8 sm:pt-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:pb-24">
             <div className="min-w-0">
               <nav aria-label="Breadcrumb" className="text-sm font-semibold text-cream/60">
@@ -204,7 +202,6 @@ export default async function HalloweenPage({ params }: PageProps<"/[lang]/hallo
 
         <section className="section-shell section-gap">
           <div className="halloween-event relative isolate overflow-hidden rounded-lg p-8 text-center sm:p-14">
-            <HalloweenDecor tone="dark" />
             <div className="relative">
               <h2 className="text-3xl font-extrabold tracking-[-0.04em] text-balance text-cream sm:text-5xl">
                 {page.ctaTitle}

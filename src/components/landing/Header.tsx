@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import { BrandLockup } from "@/components/brand/brand-lockup";
-import { Bat } from "@/components/seasonal/HalloweenDecor";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { isHalloweenSeason } from "@/lib/season";
 import { cn } from "@/lib/utils";
@@ -50,7 +49,6 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
         <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>
           {halloween ? (
             <Link href={localeHref(locale, "halloween")} className={cn(navLinkClass, "halloween-nav-link")}>
-              <Bat />
               {dict.nav.halloween}
             </Link>
           ) : null}

@@ -166,15 +166,11 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
       tone="contrast"
       density="compact"
     >
-      <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center lg:gap-14">
-        <div>
-          <SectionHeading
-            title={dict.ai.title}
-            subtitle={dict.ai.subtitle}
-            align="left"
-          />
+      <SectionHeading title={dict.ai.title} subtitle={dict.ai.subtitle} />
 
-          <div className="mt-8 rounded-lg surface-paper p-5 sm:p-6">
+      <div className="mt-10 grid gap-10 lg:mt-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-center lg:gap-14">
+        <div>
+          <div className="rounded-lg surface-paper p-5 sm:p-6">
             <div className="flex items-center justify-between gap-3">
               <p className="eyebrow text-[0.6875rem]">{dict.ai.inputLabel}</p>
               <Tag icon={<Sparkles aria-hidden />}>AI</Tag>

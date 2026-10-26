@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Τώρα στο Product Hunt",
     "title": "Έκδοση Halloween: λειτουργία Imposter και δωρεάν τρομακτική τράπουλα",
-    "cta": "Ψήφισε"
+    "cta": "Ψήφισε",
+    "hide": "Απόκρυψη"
   }
 }

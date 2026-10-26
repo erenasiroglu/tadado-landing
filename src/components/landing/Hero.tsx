@@ -9,7 +9,6 @@ import { HeroProduct } from "./HeroProduct";
 import { CTAButton } from "./primitives/CTAButton";
 import { HeroProofMetrics } from "./primitives/HeroProofMetrics";
 import { MobileStoreDownloadCta } from "./primitives/MobileStoreDownloadCta";
-import { ProductHuntBadge } from "./primitives/ProductHuntBadge";
 import { StoreButtons } from "./primitives/StoreButton";
 
 interface HeroProps {
@@ -95,7 +94,6 @@ export function Hero({ locale, dict }: HeroProps) {
                     </CTAButton>
                   </div>
                 </div>
-                <ProductHuntBadge copy={dict.productHunt} location="hero" className="mt-4" />
               </div>
             </div>
           </div>

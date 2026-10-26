@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Ya en Product Hunt",
     "title": "Edición Halloween: modo Impostor y un mazo de terror gratis",
-    "cta": "Votar"
+    "cta": "Votar",
+    "hide": "Ocultar"
   }
 }

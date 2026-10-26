@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
 import { ctaGradientClass, storeBadgeClass } from "@/lib/cta-button";
 import type { Locale } from "@/lib/i18n";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
@@ -78,7 +79,7 @@ export function ShareLinkActions({
           className={storeBadgeClass()}
           ariaLabel={googlePlayLabel}
         >
-          <span className="mr-2 text-lg" aria-hidden>▶</span>
+          <StoreBrandIcon platform="android" className="me-2 size-[1.15rem]" />
           {googlePlayLabel}
         </TrackedOutboundLink>
       </div>

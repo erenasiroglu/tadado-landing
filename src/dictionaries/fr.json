@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "En ligne sur Product Hunt",
     "title": "Édition Halloween : mode Imposteur et un deck d'horreur gratuit",
-    "cta": "Voter"
+    "cta": "Voter",
+    "hide": "Masquer"
   }
 }

@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Kini di Product Hunt",
     "title": "Edisi Halloween: mode Imposter dan dek seram gratis",
-    "cta": "Dukung"
+    "cta": "Dukung",
+    "hide": "Sembunyikan"
   }
 }

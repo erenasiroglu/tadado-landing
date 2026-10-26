@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Już na Product Hunt",
     "title": "Edycja Halloween: tryb Impostor i darmowa straszna talia",
-    "cta": "Zagłosuj"
+    "cta": "Zagłosuj",
+    "hide": "Ukryj"
   }
 }

@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "已登陆 Product Hunt",
     "title": "万圣节版：卧底模式和免费恐怖卡组",
-    "cta": "投票"
+    "cta": "投票",
+    "hide": "隐藏"
   }
 }

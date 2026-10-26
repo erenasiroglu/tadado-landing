@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Ora su Product Hunt",
     "title": "Edizione Halloween: modalità Impostore e un mazzo horror gratis",
-    "cta": "Vota"
+    "cta": "Vota",
+    "hide": "Nascondi"
   }
 }

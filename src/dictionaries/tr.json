@@ -1098,6 +1098,7 @@
   "productHunt": {
     "label": "Product Hunt'ta yayında",
     "title": "Halloween sürümü: Casus modu ve ücretsiz korku destesi",
-    "cta": "Oy ver"
+    "cta": "Oy ver",
+    "hide": "Gizle"
   }
 }

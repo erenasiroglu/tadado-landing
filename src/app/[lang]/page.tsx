@@ -13,6 +13,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { NewsletterSignup } from "@/components/landing/NewsletterSignup";
 import { Pricing } from "@/components/landing/Pricing";
 import { ProductBenefits } from "@/components/landing/ProductBenefits";
+import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
 import { StickyBar } from "@/components/landing/StickyBar";
 import { TrustPromise } from "@/components/landing/TrustPromise";
 import { HalloweenEvent } from "@/components/seasonal/HalloweenEvent";
@@ -102,6 +103,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         <FinalCTA locale={locale} dict={dict} />
       </main>
       <Footer locale={locale} dict={dict} />
+      <ProductHuntBadge copy={dict.productHunt} tone={halloween ? "night" : "light"} location="floating" />
       <StickyBar locale={locale} />
     </>
   );

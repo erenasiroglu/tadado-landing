@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Jetzt auf Product Hunt",
     "title": "Halloween: Imposter-Modus und gratis Grusel-Deck",
-    "cta": "Upvoten"
+    "cta": "Upvoten",
+    "hide": "Ausblenden"
   }
 }

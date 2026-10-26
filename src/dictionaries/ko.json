@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "Product Hunt 공개 중",
     "title": "할로윈 에디션: 임포스터 모드와 무료 공포 덱",
-    "cta": "투표하기"
+    "cta": "투표하기",
+    "hide": "숨기기"
   }
 }

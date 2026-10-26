@@ -1122,6 +1122,7 @@
   "productHunt": {
     "label": "No ar no Product Hunt",
     "title": "Edição Halloween: modo Impostor e um baralho de terror grátis",
-    "cta": "Votar"
+    "cta": "Votar",
+    "hide": "Ocultar"
   }
 }

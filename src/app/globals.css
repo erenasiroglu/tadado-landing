@@ -406,156 +406,38 @@ html {
   pointer-events: none;
 }
 
-.genius-event__glow {
-  position: absolute;
-  inset: 8% -6%;
-  border-radius: 999px;
-  background: radial-gradient(closest-side, rgb(255 154 46 / 0.45), transparent);
-  filter: blur(24px);
+.genius-event__count {
+  display: flex;
+  width: 5.5rem;
+  height: 5.5rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  background: linear-gradient(150deg, #ffd84a 0%, #ff9a2e 100%);
+  color: var(--ink);
+  box-shadow: 0 16px 32px rgb(255 154 46 / 0.25);
+}
+
+.genius-event__count span {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}
+
+@media (max-width: 767px) {
+  .genius-event__count {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.1rem;
+  }
+
+  .genius-event__count span {
+    font-size: 1.35rem;
+  }
 }
 
 /* ---------- Halloween season (see src/lib/season.ts) ---------- */
-
-.halloween-decor__web {
-  position: absolute;
-  top: 0;
-  inset-inline-start: 0;
-  width: clamp(9rem, 18vw, 15rem);
-  height: auto;
-}
-
-[dir="rtl"] .halloween-decor__web {
-  transform: scaleX(-1);
-}
-
-.halloween-decor__moon {
-  position: absolute;
-  width: clamp(9rem, 16vw, 13rem);
-  height: auto;
-}
-
-.halloween-decor__bat {
-  position: absolute;
-  height: auto;
-  animation: halloween-bat 9s ease-in-out infinite;
-  animation-delay: calc(var(--bat) * -3s);
-}
-
-.halloween-decor__bat--1 {
-  width: 2.25rem;
-}
-
-.halloween-decor__bat--2 {
-  width: 1.5rem;
-}
-
-.halloween-decor__bat--3 {
-  width: 1.1rem;
-}
-
-/* Light tone: whisper-quiet on the white hero, kept clear of the copy. */
-.halloween-decor--light {
-  color: var(--ink);
-}
-
-.halloween-decor--light .halloween-decor__web {
-  opacity: 0.07;
-}
-
-.halloween-decor--light .halloween-decor__moon {
-  top: 1.25rem;
-  inset-inline-end: 3%;
-  opacity: 0.85;
-}
-
-.halloween-decor--light .halloween-decor__bat {
-  opacity: 0.22;
-}
-
-.halloween-decor--light .halloween-decor__bat--1 {
-  top: 2.5rem;
-  inset-inline-end: 17%;
-}
-
-.halloween-decor--light .halloween-decor__bat--2 {
-  top: 6.5rem;
-  inset-inline-end: 22%;
-}
-
-.halloween-decor--light .halloween-decor__bat--3 {
-  top: 1.5rem;
-  inset-inline-end: 26%;
-}
-
-@media (max-width: 1023px) {
-  .halloween-decor--light .halloween-decor__moon {
-    top: 0.5rem;
-    inset-inline-end: -2.5rem;
-    width: 8rem;
-    opacity: 0.6;
-  }
-
-  .halloween-decor--light .halloween-decor__bat--2,
-  .halloween-decor--light .halloween-decor__bat--3 {
-    display: none;
-  }
-
-  .halloween-decor--light .halloween-decor__bat--1 {
-    top: 4.5rem;
-    inset-inline-end: 1.5rem;
-  }
-}
-
-/* Dark tone: inside the midnight event card. */
-.halloween-decor--dark {
-  color: var(--cream);
-}
-
-.halloween-decor--dark .halloween-decor__web {
-  opacity: 0.09;
-}
-
-.halloween-decor--dark .halloween-decor__moon {
-  top: -2.5rem;
-  inset-inline-end: -2rem;
-  opacity: 0.55;
-}
-
-.halloween-decor--dark .halloween-decor__bat {
-  color: var(--pumpkin);
-  opacity: 0.5;
-}
-
-.halloween-decor--dark .halloween-decor__bat--1 {
-  top: 3rem;
-  inset-inline-end: 34%;
-}
-
-.halloween-decor--dark .halloween-decor__bat--2 {
-  top: 7rem;
-  inset-inline-end: 40%;
-}
-
-.halloween-decor--dark .halloween-decor__bat--3 {
-  top: 2rem;
-  inset-inline-end: 44%;
-}
-
-@media (max-width: 1023px) {
-  .halloween-decor--dark .halloween-decor__bat {
-    display: none;
-  }
-}
-
-@keyframes halloween-bat {
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0) rotate(-4deg);
-  }
-  50% {
-    transform: translate3d(-10px, -8px, 0) rotate(4deg);
-  }
-}
 
 .halloween-cta:focus-visible {
   outline: 2px solid var(--pumpkin);
@@ -591,29 +473,6 @@ html {
   height: 0.8rem;
 }
 
-.halloween-feature {
-  border-radius: 1.25rem;
-  padding: 1.25rem;
-  background: rgb(255 244 214 / 0.05);
-  box-shadow: inset 0 0 0 1px rgb(255 244 214 / 0.1);
-}
-
-.halloween-feature__icon {
-  display: inline-flex;
-  width: 2.5rem;
-  height: 2.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.875rem;
-  background: rgb(242 113 28 / 0.16);
-  color: var(--pumpkin);
-}
-
-.halloween-feature__icon svg {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
 .halloween-cta {
   display: inline-flex;
   min-height: 3rem;
@@ -638,76 +497,30 @@ html {
   transform: scale(0.98);
 }
 
-/* Night tone: the full-bleed season hero. */
-.halloween-decor--night {
-  color: #cab6fe;
-}
-
-.halloween-decor--night .halloween-decor__web {
-  width: clamp(7rem, 13vw, 11rem);
-  opacity: 0.1;
-}
-
-.halloween-decor--night .halloween-decor__web--end {
-  inset-inline-start: auto;
-  inset-inline-end: 0;
-  transform: scaleX(-1);
-}
-
-.halloween-decor--night .halloween-decor__moon {
-  top: 0.75rem;
-  inset-inline-end: max(1rem, calc((100% - 72rem) / 2 - 2rem));
-  width: clamp(8rem, 15vw, 13rem);
-}
-
-.halloween-decor--night .halloween-decor__bat {
-  color: #120821;
-  opacity: 0.9;
-}
-
-.halloween-decor--night .halloween-decor__bat--1 {
-  top: 6rem;
-  inset-inline-end: max(6rem, calc((100% - 72rem) / 2 + 4rem));
-}
-
-.halloween-decor--night .halloween-decor__bat--2 {
-  top: 11rem;
-  inset-inline-end: max(1.5rem, calc((100% - 72rem) / 2 - 1rem));
-}
-
-.halloween-decor--night .halloween-decor__bat--3 {
-  top: 4rem;
-  inset-inline-start: 32%;
-  color: #cab6fe;
-  opacity: 0.35;
-}
-
-@media (max-width: 1023px) {
-  .halloween-decor--night .halloween-decor__moon {
-    top: 1rem;
-    inset-inline-end: -2.5rem;
-    width: 8.5rem;
-    opacity: 0.75;
-  }
-
-  .halloween-decor--night .halloween-decor__bat--2,
-  .halloween-decor--night .halloween-decor__bat--3 {
-    display: none;
-  }
-}
-
 .halloween-hero {
   color: var(--cream);
   background:
-    radial-gradient(1.2px 1.2px at 12% 22%, rgb(255 244 214 / 0.55), transparent),
-    radial-gradient(1px 1px at 28% 68%, rgb(255 244 214 / 0.4), transparent),
-    radial-gradient(1.4px 1.4px at 46% 14%, rgb(255 244 214 / 0.5), transparent),
-    radial-gradient(1px 1px at 64% 82%, rgb(255 244 214 / 0.35), transparent),
-    radial-gradient(1.2px 1.2px at 84% 48%, rgb(255 244 214 / 0.45), transparent),
-    radial-gradient(1px 1px at 92% 88%, rgb(255 244 214 / 0.35), transparent),
-    radial-gradient(60rem 26rem at 30% 108%, rgb(110 36 92 / 0.55), transparent 70%),
-    radial-gradient(40rem 30rem at 80% 30%, rgb(94 57 150 / 0.35), transparent 70%),
+    radial-gradient(60rem 26rem at 30% 100%, rgb(110 36 92 / 0.45), transparent 70%),
+    radial-gradient(40rem 30rem at 80% 30%, rgb(94 57 150 / 0.32), transparent 70%),
     linear-gradient(180deg, #140a25 0%, #1d1033 55%, #2a1244 100%);
+}
+
+/* Dissolves the midnight hero into the page instead of ending on a hard edge. */
+.halloween-hero::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 1;
+  height: clamp(5rem, 12vw, 9rem);
+  background: linear-gradient(
+    180deg,
+    rgb(42 18 68 / 0) 0%,
+    rgb(120 92 160 / 0.35) 45%,
+    rgb(230 222 245 / 0.85) 80%,
+    var(--paper) 100%
+  );
+  pointer-events: none;
 }
 
 .halloween-hero__eyebrow {
@@ -724,8 +537,8 @@ html {
 .halloween-hero__title {
   font-size: clamp(2.15rem, 5.6vw, 4.25rem);
   font-weight: 900;
-  line-height: 0.98;
-  letter-spacing: -0.05em;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
   text-wrap: balance;
 }
 
@@ -778,15 +591,15 @@ html {
 .halloween-stage {
   --stage-scale: 1;
   position: relative;
-  height: calc(560px * var(--stage-scale));
+  height: calc(480px * var(--stage-scale));
 }
 
 .halloween-stage__canvas {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 640px;
-  height: 560px;
+  width: 600px;
+  height: 480px;
   transform: translateX(-50%) scale(var(--stage-scale));
   transform-origin: top center;
 }
@@ -848,42 +661,6 @@ html {
   width: 168px;
   rotate: -1.5deg;
   filter: drop-shadow(0 26px 34px rgb(5 2 12 / 0.55));
-}
-
-.halloween-stage__headsup {
-  bottom: 18px;
-  left: 128px;
-  z-index: 5;
-  rotate: -3deg;
-  filter: drop-shadow(0 30px 40px rgb(5 2 12 / 0.6));
-}
-
-.halloween-stage__badge {
-  bottom: 236px;
-  right: -8px;
-  z-index: 6;
-  display: flex;
-  width: 96px;
-  height: 96px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  padding: 0.75rem;
-  background: var(--cream);
-  color: #2a1552;
-  text-align: center;
-  rotate: -8deg;
-  box-shadow: 0 0 0 5px rgb(202 182 254 / 0.35), 0 18px 30px rgb(5 2 12 / 0.45);
-}
-
-.halloween-stage__mascot {
-  bottom: -6px;
-  right: -14px;
-  z-index: 7;
-  width: 132px;
-  rotate: 4deg;
-  filter: drop-shadow(0 18px 24px rgb(5 2 12 / 0.5));
 }
 
 [dir="rtl"] .halloween-stage__canvas {
@@ -1083,20 +860,11 @@ html {
   text-align: center;
 }
 
-.halloween-stat {
-  display: flex;
-  flex-direction: column;
-  border-radius: 1rem;
-  padding: 0.85rem 0.9rem;
-  background: rgb(255 244 214 / 0.05);
-  box-shadow: inset 0 0 0 1px rgb(255 244 214 / 0.1);
-}
-
 .halloween-fan {
   position: relative;
   width: 100%;
-  max-width: 23rem;
-  height: 31rem;
+  max-width: 22rem;
+  height: 20rem;
   margin-inline: auto;
 }
 
@@ -1104,102 +872,32 @@ html {
   position: absolute !important;
   top: 0;
   inset-inline-start: 0;
-  width: 12rem;
-  rotate: -8deg;
+  width: 10.75rem;
+  rotate: -6deg;
   box-shadow:
     inset 0 0 0 1px rgb(255 255 255 / 0.22),
-    0 30px 60px rgb(0 0 0 / 0.45);
-}
-
-.halloween-fan__role {
-  position: absolute;
-  top: 1.25rem;
-  inset-inline-end: 0;
-  display: flex;
-  width: 11rem;
-  aspect-ratio: 3 / 4;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 1.6rem;
-  padding: 1.25rem;
-  background: linear-gradient(160deg, rgb(118 82 170 / 0.75) 0%, rgb(58 26 87 / 0.9) 100%);
-  rotate: 9deg;
-  box-shadow:
-    inset 0 0 0 1px rgb(196 181 253 / 0.24),
-    0 30px 60px rgb(0 0 0 / 0.4);
-}
-
-.halloween-fan__agent {
-  position: absolute;
-  top: 0.9rem;
-  inset-inline-end: 0.9rem;
-  border-radius: 999px;
-  padding: 0.3rem 0.65rem;
-  background: rgb(20 10 37 / 0.72);
-  color: var(--cream);
-  font-size: 0.625rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.halloween-fan__fingerprint {
-  display: flex;
-  width: 4.5rem;
-  height: 4.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  background: rgb(20 10 37 / 0.55);
-  color: #ede9fe;
-  box-shadow: 0 0 0 1px rgb(196 181 253 / 0.18);
-}
-
-.halloween-fan__fingerprint svg {
-  width: 2.25rem;
-  height: 2.25rem;
+    0 24px 48px rgb(0 0 0 / 0.4);
 }
 
 .halloween-fan__taboo {
-  --card-w: 14.5rem;
+  --card-w: 13rem;
   position: absolute !important;
   bottom: 0;
-  left: 50%;
-  translate: -50% 0;
-  rotate: -2deg;
+  inset-inline-end: 0;
+  rotate: 4deg;
 }
 
-@media (max-width: 479px) {
-  .halloween-fan {
-    height: 27rem;
-  }
-
-  .halloween-fan__deck {
-    width: 9.5rem;
-  }
-
-  .halloween-fan__role {
-    width: 9rem;
-    padding: 1rem;
-  }
-
-  .halloween-fan__role p {
-    font-size: 0.95rem;
-  }
-
-  .halloween-fan__taboo {
-    --card-w: 13.5rem;
-  }
-}
-
-@media (max-width: 639px) {
-  .halloween-decor--night .halloween-decor__moon {
-    top: -2.75rem;
-    inset-inline-end: -3.25rem;
-    width: 7rem;
-    opacity: 0.55;
-  }
+.halloween-pill {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  border-radius: 999px;
+  padding-inline: 0.85rem;
+  background: rgb(255 244 214 / 0.07);
+  color: rgb(255 244 214 / 0.85);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  box-shadow: inset 0 0 0 1px rgb(255 244 214 / 0.12);
 }
 
 /* Header over the midnight hero. */
@@ -1229,6 +927,22 @@ html {
   color: var(--cream);
 }
 
+/* Dropdowns keep their light panel, so they need the light text colours back. */
+.site-header--halloween .site-popover {
+  color: var(--ink);
+}
+
+.site-header--halloween .site-popover .text-foreground,
+.site-header--halloween .site-popover .text-ink,
+.site-header--halloween .site-popover a:hover,
+.site-header--halloween .site-popover button:hover {
+  color: var(--ink);
+}
+
+.site-header--halloween .site-popover .text-muted-foreground {
+  color: var(--muted-foreground);
+}
+
 .halloween-nav-link {
   display: inline-flex;
   align-items: center;
@@ -1237,12 +951,7 @@ html {
   color: var(--pumpkin) !important;
 }
 
-.halloween-nav-link svg {
-  width: 1.1rem;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .halloween-decor__bat,
   .halloween-cta {
     animation: none;
     transition: none;
@@ -2011,29 +1720,16 @@ html {
   isolation: isolate;
 }
 
+/* Long transparent ramps on both ends so tinted bands dissolve into the page (and never clip a neighbour's shadow). */
 .landing-section-band--mist {
-  background-color: var(--mist);
-}
-
-.landing-section-band--mist::before,
-.landing-section-band--mist::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: clamp(2.5rem, 5vw, 4rem);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.landing-section-band--mist::before {
-  top: 0;
-  background: linear-gradient(to bottom, var(--paper), var(--mist));
-}
-
-.landing-section-band--mist::after {
-  bottom: 0;
-  background: linear-gradient(to bottom, var(--mist), var(--paper));
+  --band-tint: var(--mist);
+  background: linear-gradient(
+    180deg,
+    transparent 0,
+    var(--band-tint) clamp(6rem, 14vw, 11rem),
+    var(--band-tint) calc(100% - clamp(6rem, 14vw, 11rem)),
+    transparent 100%
+  );
 }
 
 .landing-section-band__inner {
@@ -2300,118 +1996,166 @@ html {
 
 /* Light bands pick up the lavender of the app's Halloween store art while the season runs. */
 .season-halloween .landing-section-band--mist {
-  background: linear-gradient(180deg, #f6f1ff 0%, #efe7ff 100%);
+  --band-tint: #f3edff;
 }
 
-/* Product Hunt launch card in the hero. */
-.ph-badge {
+/* Product Hunt launch badge, floating in the bottom corner (above the mobile sticky bar). */
+.ph-float {
+  position: fixed;
+  z-index: 45;
+  inset-inline-end: 1.25rem;
+  bottom: 1.25rem;
+  width: min(22rem, calc(100vw - 2.5rem));
+  animation: ph-float-in 0.6s var(--ease-out-expo) both;
+}
+
+.ph-float__link {
   display: flex;
-  width: 100%;
-  max-width: 28rem;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.7rem;
   border-radius: 1.125rem;
-  padding: 0.625rem;
-  padding-inline-start: 0.75rem;
+  padding: 0.6rem;
+  padding-inline-start: 0.7rem;
+  background: rgb(255 255 255 / 0.92);
+  color: var(--ink);
+  box-shadow:
+    0 0 0 1px rgb(26 15 41 / 0.08),
+    0 18px 40px rgb(26 15 41 / 0.18);
+  backdrop-filter: blur(14px);
   transition:
-    transform 0.2s var(--ease-out-expo),
-    box-shadow 0.2s var(--ease-out-expo);
+    transform 0.25s var(--ease-out-expo),
+    box-shadow 0.25s var(--ease-out-expo);
 }
 
-.ph-badge:hover {
-  transform: translateY(-1px);
+.ph-float__link:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px rgb(255 97 84 / 0.35),
+    0 22px 46px rgb(26 15 41 / 0.22);
 }
 
-.ph-badge:active {
-  transform: scale(0.99);
-}
-
-.ph-badge:focus-visible {
-  outline: 2px solid var(--pumpkin);
-  outline-offset: 3px;
-}
-
-.ph-badge__logo {
-  width: 2.5rem;
-  height: 2.5rem;
+.ph-float__logo {
+  width: 2.25rem;
+  height: 2.25rem;
   flex-shrink: 0;
 }
 
-.ph-badge__label {
+.ph-float__label {
   display: block;
-  font-size: 0.6875rem;
+  color: #ff6154;
+  font-size: 0.625rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
-  line-height: 1.3;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.ph-badge__title {
-  display: -webkit-box;
+.ph-float__title {
+  display: block;
   overflow: hidden;
-  margin-top: 0.125rem;
+  margin-top: 0.1rem;
   font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 1.35;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-}
-
-.ph-badge__cta {
-  display: inline-flex;
-  min-height: 2.5rem;
-  flex-shrink: 0;
-  align-items: center;
-  gap: 0.375rem;
-  border-radius: 999px;
-  padding-inline: 0.9rem;
-  background: #ff6154;
-  color: #fff;
-  font-size: 0.8125rem;
-  font-weight: 800;
+  line-height: 1.25;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.ph-badge--night {
-  background: rgb(255 244 214 / 0.06);
-  box-shadow:
-    inset 0 0 0 1px rgb(202 182 254 / 0.22),
-    0 12px 28px rgb(8 3 18 / 0.35);
-  color: var(--cream);
+.ph-float__vote {
+  display: inline-flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  border-radius: 0.75rem;
+  padding: 0.4rem 0.6rem;
+  background: #ff6154;
+  color: #fff;
+  font-size: 0.6875rem;
+  font-weight: 800;
 }
 
-.ph-badge--night:hover {
-  box-shadow:
-    inset 0 0 0 1px rgb(242 113 28 / 0.55),
-    0 16px 32px rgb(8 3 18 / 0.45);
-}
-
-.ph-badge--night .ph-badge__label {
-  color: var(--pumpkin);
-}
-
-.ph-badge--night .ph-badge__title {
-  color: rgb(255 244 214 / 0.85);
-}
-
-.ph-badge--light {
+.ph-float__close {
+  position: absolute;
+  top: -0.55rem;
+  inset-inline-end: -0.55rem;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
   background: var(--paper);
-  box-shadow:
-    inset 0 0 0 1px var(--border),
-    0 10px 24px rgb(26 15 41 / 0.06);
   color: var(--ink);
-}
-
-.ph-badge--light:hover {
   box-shadow:
-    inset 0 0 0 1px rgb(255 97 84 / 0.45),
-    0 14px 28px rgb(26 15 41 / 0.1);
+    0 0 0 1px rgb(26 15 41 / 0.12),
+    0 4px 10px rgb(26 15 41 / 0.15);
 }
 
-.ph-badge--light .ph-badge__label {
-  color: #e8473a;
+.ph-float__close svg {
+  width: 0.8rem;
+  height: 0.8rem;
 }
 
-.ph-badge--light .ph-badge__title {
-  color: var(--muted-foreground);
+.ph-float--night .ph-float__link {
+  background: rgb(29 16 51 / 0.9);
+  color: var(--cream);
+  box-shadow:
+    0 0 0 1px rgb(202 182 254 / 0.2),
+    0 18px 40px rgb(5 2 12 / 0.4);
+}
+
+.ph-float--night .ph-float__close {
+  background: #2a1552;
+  color: var(--cream);
+  box-shadow: 0 0 0 1px rgb(202 182 254 / 0.3);
+}
+
+@keyframes ph-float-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ph-float {
+    animation: none;
+  }
+}
+
+.ph-float__link:focus-visible,
+.ph-float__close:focus-visible {
+  outline: 2px solid #ff6154;
+  outline-offset: 3px;
+}
+
+/* On phones it shrinks to a small pill so it never covers the copy. */
+@media (max-width: 767px) {
+  .ph-float {
+    inset-inline-end: 0.75rem;
+    bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+    width: auto;
+  }
+
+  .ph-float__link {
+    gap: 0.5rem;
+    border-radius: 999px;
+    padding: 0.35rem;
+    padding-inline-start: 0.35rem;
+  }
+
+  .ph-float__logo {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .ph-float__title {
+    display: none;
+  }
+
+  .ph-float__vote {
+    flex-direction: row;
+    border-radius: 999px;
+    padding: 0.35rem 0.65rem;
+  }
 }

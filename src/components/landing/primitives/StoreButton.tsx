@@ -1,6 +1,7 @@
 "use client";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
 import { storeBadgeClass } from "@/lib/cta-button";
 import type { DownloadSource } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -36,7 +37,6 @@ export function StoreButton({
       : platform === "ios"
         ? a11y.appStore
         : a11y.googlePlay;
-  const icon = platform === "ios" ? "" : "▶";
 
   return (
     <TrackedOutboundLink
@@ -55,9 +55,7 @@ export function StoreButton({
         platform === "ios" ? a11y.downloadOnAppStore : a11y.getOnGooglePlay
       }
     >
-      <span className="mr-2 text-lg" aria-hidden>
-        {icon}
-      </span>
+      <StoreBrandIcon platform={platform} className="me-2 size-[1.15rem]" />
       {label}
     </TrackedOutboundLink>
   );
@@ -106,3 +104,4 @@ export function StoreButtons({
     </div>
   );
 }
+

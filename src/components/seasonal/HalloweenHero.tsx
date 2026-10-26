@@ -4,18 +4,14 @@ import { Ban, Fingerprint, Smartphone, Sparkles } from "lucide-react";
 
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
-import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
 import { ImposterScreen } from "@/components/landing/device/ImposterScreen";
 import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
-import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { trackEvent } from "@/lib/tracking";
 
-import { Bat, HalloweenDecor } from "./HalloweenDecor";
 import { HalloweenDeckCard } from "./HalloweenDeckCard";
-import { WitchMascot } from "./WitchMascot";
 
 interface HalloweenHeroProps {
   locale: Locale;
@@ -42,13 +38,11 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
 
   return (
     <section className="halloween-hero relative isolate overflow-hidden">
-      <HalloweenDecor tone="night" />
       <SectionViewTracker sectionId="hero">
         <div className="section-shell relative z-[2] grid items-center gap-12 pb-16 pt-10 sm:pb-20 sm:pt-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-8 lg:pb-24 lg:pt-16">
           <div className="flex min-w-0 flex-col items-center gap-6 text-center lg:items-start lg:text-start">
             <div className="hero-rise" style={{ "--i": 0 } as React.CSSProperties}>
               <p className="halloween-hero__eyebrow">
-                <Bat className="w-6 text-[#F2711C]" />
                 {copy.eyebrow}
               </p>
             </div>
@@ -90,11 +84,10 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
                   className="w-full flex-row items-center justify-center lg:justify-start"
                 />
               </div>
-              <ProductHuntBadge copy={dict.productHunt} tone="night" location="hero" className="mt-5" />
               <a
                 href="#halloween"
                 onClick={() => track("secondary")}
-                className="mt-2 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
+                className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
               >
                 {copy.heroSecondary}
               </a>
@@ -102,7 +95,7 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
           </div>
 
           <div className="relative min-w-0">
-            <HalloweenStage dict={dict} locale={locale} />
+            <HalloweenStage dict={dict} />
           </div>
         </div>
       </SectionViewTracker>
@@ -110,10 +103,9 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
   );
 }
 
-/** Phones, deck card and mascot, laid out on a fixed 640×560 canvas that scales down on small screens. */
-function HalloweenStage({ dict, locale }: { dict: Dictionary; locale: Locale }) {
-  const copy = dict.halloween;
-  const card = copy.card;
+/** Two phones and the free deck card, laid out on a fixed 640×500 canvas that scales down on small screens. */
+function HalloweenStage({ dict }: { dict: Dictionary }) {
+  const card = dict.halloween.card;
 
   return (
     <div className="halloween-stage" aria-hidden>
@@ -133,20 +125,6 @@ function HalloweenStage({ dict, locale }: { dict: Dictionary; locale: Locale }) 
             showGlow={false}
           />
         </div>
-        <div className="halloween-stage__headsup">
-          <HeadsUpScreen
-            locale={locale}
-            previewLabels={dict.gamePreview}
-            word={card.headsUpWord}
-            width={330}
-            showGlow={false}
-          />
-        </div>
-        <div className="halloween-stage__badge">
-          <span className="text-3xl leading-none font-black tracking-[-0.04em]">AI</span>
-          <span className="mt-1 text-[0.625rem] leading-tight font-extrabold">{copy.mascotBadge}</span>
-        </div>
-        <WitchMascot className="halloween-stage__mascot" />
       </div>
     </div>
   );
