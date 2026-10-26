@@ -183,7 +183,11 @@ export function buildPageMetadata(
   };
 }
 
-export function buildLandingJsonLd(locale: Locale, dict: Dictionary) {
+export function buildLandingJsonLd(
+  locale: Locale,
+  dict: Dictionary,
+  { halloween = false }: { halloween?: boolean } = {},
+) {
   const market = getMarketSeoProfile(locale);
 
   return [
@@ -232,9 +236,12 @@ export function buildLandingJsonLd(locale: Locale, dict: Dictionary) {
     },
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": ["MobileApplication", "VideoGame"],
       name: BRAND.name,
       author: { "@type": "Organization", name: BRAND.developer },
+      gamePlatform: ["iOS", "Android"],
+      playMode: ["MultiPlayer", "CoOp"],
+      genre: ["Party game", "Word game"],
       operatingSystem: "iOS, Android",
       applicationCategory: market.applicationCategory,
       applicationSubCategory: "Word Game",
@@ -248,6 +255,17 @@ export function buildLandingJsonLd(locale: Locale, dict: Dictionary) {
           priceCurrency: "USD",
           name: "Tadado Mix",
         },
+        ...(halloween
+          ? [
+              {
+                "@type": "Offer",
+                price: "0",
+                priceCurrency: "USD",
+                name: `${dict.halloween.card.deck} deck`,
+                description: dict.halloween.deckBody,
+              },
+            ]
+          : []),
         {
           "@type": "Offer",
           price: String(PRICING.singleDeckUsd),
@@ -258,26 +276,26 @@ export function buildLandingJsonLd(locale: Locale, dict: Dictionary) {
           "@type": "Offer",
           price: String(PRICING.aiStarterUsd),
           priceCurrency: "USD",
-          name: "AI deck creation — Starter",
+          name: "AI deck creation — Mini (5)",
         },
         {
           "@type": "Offer",
           price: String(PRICING.aiPlusUsd),
           priceCurrency: "USD",
-          name: "AI deck creation — Plus",
+          name: "AI deck creation — Party (15)",
         },
         {
           "@type": "Offer",
           price: String(PRICING.aiProUsd),
           priceCurrency: "USD",
-          name: "AI deck creation — Pro",
+          name: "AI deck creation — Pro (40)",
         },
         {
           "@type": "Offer",
           price: String(PRICING.fullAccessUsd),
           priceCurrency: "USD",
           name: "Tadado Full Access",
-          description: "Every premium themed deck plus 100 AI deck creations",
+          description: "Every premium themed deck plus 20 AI deck creations",
         },
       ],
       description: dict.meta.description,
@@ -376,4 +394,77 @@ function extractFaqPairs(html: string): { q: string; a: string }[] {
     if (/[?？]$/.test(q)) pairs.push({ q, a: strip(match[2]) });
   }
   return pairs;
+}
+
+export function buildHalloweenPageJsonLd(locale: Locale, dict: Dictionary) {
+  const page = dict.halloweenPage;
+  const url = `${BRAND.domain}/${locale}/halloween`;
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: BRAND.name, item: `${BRAND.domain}/${locale}` },
+        { "@type": "ListItem", position: 2, name: page.breadcrumb, item: url },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: page.metaTitle,
+      description: page.metaDescription,
+      url,
+      inLanguage: locale,
+      isPartOf: { "@type": "WebSite", name: BRAND.name, url: BRAND.domain },
+      speakable: { "@type": "SpeakableSpecification", cssSelector: ["#halloween-answer"] },
+      about: { "@type": "Thing", name: "Halloween party games" },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": ["MobileApplication", "VideoGame"],
+      name: BRAND.name,
+      url,
+      operatingSystem: "iOS, Android",
+      applicationCategory: "GameApplication",
+      gamePlatform: ["iOS", "Android"],
+      playMode: ["MultiPlayer", "CoOp"],
+      genre: ["Party game", "Word game"],
+      numberOfPlayers: { "@type": "QuantitativeValue", minValue: 3 },
+      description: page.answer,
+      featureList: page.modes.map((mode) => mode.title),
+      inLanguage: locale,
+      author: { "@type": "Organization", name: BRAND.developer },
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+        name: `${dict.halloween.card.deck} deck`,
+      },
+      downloadUrl: [getAppStoreUrl(locale), getPlayStoreUrl(locale)],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: page.hostTitle,
+      inLanguage: locale,
+      totalTime: "PT5M",
+      supply: [{ "@type": "HowToSupply", name: page.facts[1]?.value ?? "Phone" }],
+      step: page.hostSteps.map((step, index) => ({
+        "@type": "HowToStep",
+        position: index + 1,
+        name: step.title,
+        text: step.body,
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: page.faq.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    },
+  ];
 }

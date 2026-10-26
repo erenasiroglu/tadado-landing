@@ -38,6 +38,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  const halloweenLanguages = buildLanguageAlternates("halloween");
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${base}/${locale}/halloween`,
+      changeFrequency: "weekly",
+      priority: 0.9,
+      alternates: { languages: halloweenLanguages },
+    });
+  }
+
   const affiliateLanguages = buildLanguageAlternates("affiliate");
   const partnershipsLanguages = buildLanguageAlternates("partnerships");
   const compareLanguages = buildLanguageAlternates("compare");

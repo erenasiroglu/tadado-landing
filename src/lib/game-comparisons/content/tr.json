@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "imposter-oyunu",
     "game": "İmposter",
-    "tagline": "Viral blöf ve casus oyunu ile herkesin konuştuğu bir parti oyunu.",
+    "tagline": "Viral gizli kelime oyunu artık Tadado'nun üç modundan biri: Casus.",
     "metaTitle": "İmposter Oyunu ve Tadado: Oyun Gecesinde Hangisi?",
-    "metaDescription": "İmposter (Casus) kelime oyununu seviyor musunuz? Tadado'nun Tabu ve Alnında Tahmin modlarıyla karşılaştırın: tek telefon, reklamsız, AI desteler ve ücretsiz başlangıç destesi.",
+    "metaDescription": "İmposter oyununu seviyor musun? Tadado'da Casus modu, Yasaklı Kelimeler ve Alnında Tahmin tek uygulamada: tek telefon, 3–12 oyuncu, reklamsız ve ücretsiz başlangıç destesi.",
     "h1": "İmposter oyunu ve Tadado",
-    "hook": "İmposter şüpheyle oynanır. Tadado'da ise süre bitmeden cevabı bağırırsınız. Hangisi geceyi kurtarır, birlikte bakalım.",
+    "hook": "İmposter tamamen şüpheyle ilgili. Tadado'nun artık kendi Casus modu var; grup entrika yerine bağırmak istediğinde de iki hızlı tahmin oyunu hazır.",
     "about": [
       "İmposter, Casus ya da \"Kim Sahtekar?\" adlarıyla da bilinen bu oyun neredeyse hiçbir şey gerektirmediği için viral oldu. Tek telefon elden ele dolaşır, bir kişi hariç herkes aynı kelimeyi görür ve grup sırayla tek kelimelik ipuçları verir. Sonunda da sahtekarı oylarsınız.",
-      "Bu her şeyden önce bir blöf oyunu. Eğlence yüz okumaktan, kendini savunmaktan ve tur sonundaki büyük açıklamadan gelir. Tartışmayı seven gruplar için harika; her birkaç saniyede bir tahmin edip gülmek isteyenler için ise daha sakin kalır."
+      "Tadado'nun Casus modu da aynı şekilde çalışır: tek telefon dolaşır, herkes basılı tutup gizli kelimeyi görür, casusun kartı boştur. Herkes tek kelimelik bir ipucu verir, grup oylar; yakalanan casus kelimeyi bilirse yine kazanır. 3 ile 12 kişiyle oynanır ve ücretsiz Halloween destesi dahil Tadado destelerini kullanır."
     ],
     "pickThem": [
-      "Grubunuz blöf yapmayı, suçlamayı ve dramatik açıklamaları seviyor",
-      "Bol tartışmalı, yavaş ilerleyen turlar istiyorsunuz",
-      "Herkes süreye karşı yarışmak yerine oturup konuşmaktan keyif alıyor"
+      "Sadece İmposter turları oynamak istiyorsanız",
+      "Grubunuzun sevdiği ayrı bir İmposter uygulaması varsa",
+      "Kelime listelerini kağıda yazarak oynuyorsanız"
     ],
     "pickTadado": [
-      "Birkaç saniyede bir yeni kelimeyle durmadan gülmek istiyorsunuz",
-      "Bazı arkadaşlarınız utangaç ve yalan söylemek yerine tahmin etmeyi seviyor",
-      "Tabu ve Alnında Tahmin'ı tek uygulamada istiyorsunuz"
+      "Casus, Yasaklı Kelimeler ve Alnında Tahmin tek uygulamada olsun istiyorsanız",
+      "Gizli kelimeleri temalı ve yapay zekâ destelerinden seçmek istiyorsanız",
+      "Uygulama değiştirmeden blöften hızlı tahmine geçmek istiyorsanız"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Gizli roller ve blöf",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Tadado'yu indir ve ücretsiz Tadado Mix destesini aç.",
-      "Takımlar için Yasaklı Kelimeler'i (Tabu) ya da alında tahmin için Alnında Tahmin'ı seç.",
-      "İmposter'daki iç şakaları mı özledin? Grubunun konusunu AI deste oluşturucuya yaz."
+      "Tadado'yu indir ve mod menüsünden Casus'u aç.",
+      "3 ile 12 arası oyuncu ekle ve kaç casus olacağını seç.",
+      "Telefonu dolaştırın: herkes basılı tutup rolünü görsün, sonra tek kelimelik ipuçları verip oylayın."
     ],
     "faq": [
       {
         "q": "Tadado'da İmposter modu var mı?",
-        "a": "Hayır. Tadado'nun iki modu var: Yasaklı Kelimeler (Tabu tarzı) ve Alnında Tahmin. Gizli rol oyunu değil, hızlı bir tahmin oyunu; bu yüzden aynı gecede İmposter ile çok iyi gider."
+        "a": "Evet. Casus, Yasaklı Kelimeler ve Alnında Tahmin'in yanında Tadado'nun üç modundan biridir. Casus dışında herkes gizli kelimeyi görür, herkes tek kelimelik ipucu verir ve grup oylar."
       },
       {
         "q": "Kalabalık gruplar için hangisi daha iyi?",
-        "a": "İkisi de tek telefonla oynanır. İmposter turları grup büyüdükçe uzar; Tadado ise kalabalığı takımlara ayırır ve herkes her turda oynamaya devam eder."
+        "a": "İkisi de tek telefonla oynanır. Tadado'da Casus 3 ile 12 kişiyle oynanır; daha kalabalık gruplarda Yasaklı Kelimeler veya Alnında Tahmin'e geçip takımlara ayrılın, herkes oyunda kalsın."
       },
       {
         "q": "Tadado da İmposter uygulamaları gibi ücretsiz mi?",
@@ -270,7 +270,7 @@
       },
       {
         "feature": "Gizli roller ve blöf",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -292,7 +292,7 @@
     "faq": [
       {
         "q": "Tadado'da gizli roller var mı?",
-        "a": "Hayır. Tadado, Yasaklı Kelimeler ve Alnında Tahmin modlarıyla bir kelime tahmin oyunudur. Vampir Köylü'den farklı bir eğlence sunar ve ikisi birlikte çok iyi gider."
+        "a": "Kısmen. Tadado'nun Casus modu bir gizli rol oyunudur: bir oyuncunun kartı boştur ve ipucu turunda blöf yapması gerekir. Yönetici ya da gece turu yoktur; bu yüzden Vampir Köylü'den hızlıdır ve kimse oyundan düşmez."
       },
       {
         "q": "4 kişi için hangisi daha iyi?",

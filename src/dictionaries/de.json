@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Party-Wortspiel | Taboo, Heads Up & KI-Decks",
-    "description": "Ein Handy. Deine Freunde. Taboo, Heads Up und KI-Decks für Spieleabende. Gratis starten. Keine Werbung. iOS und Android."
+    "title": "Tadado: Partyspiel-App | Tabu, Heads Up, Hochstapler & KI-Decks",
+    "description": "Ein Handy. Deine Freunde. Tabu, Heads Up, Hochstapler und KI-Decks für Spieleabende. Kostenlos starten, ohne Werbung und Abo. iOS und Android."
   },
   "nav": {
     "play": "Spielen",
@@ -17,12 +17,13 @@
     "compare": "Vergleich",
     "affiliate": "Partnerprogramm",
     "team": "Team",
-    "download": "Herunterladen"
+    "download": "Herunterladen",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Party-Wortspiel · ★ 5.0 im App Store",
     "title": "Ein Handy. Deine Freunde. Lass das Chaos beginnen.",
-    "subtitle": "Taboo, Heads Up und KI-Decks – gemacht für Spieleabende.",
+    "subtitle": "Tabu, Heads Up, Hochstapler und eigene KI-Decks für Spieleabende.",
     "ctaPrimary": "TADADO LADEN · GRATIS",
     "ctaSecondary": "SO FUNKTIONIERT'S",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "Spielmodi"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300.000+ Spiele gespielt",
-    "modes": "2 Spielmodi",
+    "modes": "3 Spielmodi",
     "ai": "KI-gestützt",
     "languages": "17 Sprachen",
     "offline": "Offline spielen",
@@ -72,8 +73,8 @@
     "developer": "Entwickelt von Tadado Game Development",
     "items": [
       {
-        "title": "Zwei Modi, eine App",
-        "body": "Wechsle zwischen Verbotene Wörter und Heads Up, ohne zweimal herunterzuladen. Gleiche Decks, jede Runde neue Energie."
+        "title": "Drei Modi, eine App",
+        "body": "Wechsle zwischen Verbotene Wörter, Heads Up und Hochstapler, ohne etwas anderes zu laden. Dieselben Decks, jede Runde eine andere Stimmung."
       },
       {
         "title": "KI-Decks in Sekunden",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "Spiele weltweit gespielt",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "Spielmodi",
     "languages": "17",
     "languagesLabel": "Sprachen in der App",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Zwei Spielweisen",
-    "subtitle": "Klassisches Taboo mit verbotenen Wörtern oder Heads Up auf der Stirn. Gleiche Decks, andere Energie.",
+    "title": "Drei Arten zu spielen",
+    "subtitle": "Verbotene Wörter im Tabu-Stil, Heads Up an der Stirn oder den Hochstapler entlarven. Ein Handy, dreimal Chaos.",
     "tabooTitle": "Verbotene Wörter",
     "tabooBody": "Beschreibe das Hauptwort, geh mehr Risiko ein und steigere deinen Score. Schwerere Wörter schalten höhere Multiplikatoren frei, von ×2 bis ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Querformat-Gameplay",
       "buildScoreTitle": "Baue deinen Score auf",
       "buildScoreBody": "Nimm schwerere Wörter an, um deinen Multiplikator zu erhöhen und jede richtige Antwort in mehr Punkte zu verwandeln.",
-      "scoreMultipliersAria": "Score-Multiplikatoren: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Score-Multiplikatoren: 2x, 3x, 5x",
+      "passGameplay": "Handy-weitergeben-Spiel"
+    },
+    "imposterTitle": "Hochstapler",
+    "imposterBody": "Einer von euch kennt das Wort nicht. Alle anderen sehen es, sagen reihum ein Hinweiswort und stimmen ab, wer der Hochstapler ist."
   },
   "gamePreview": {
     "timeLeft": "Noch 42 Sekunden",
@@ -217,7 +221,13 @@
     "continue": "Weiter",
     "pauseGame": "Spiel pausieren",
     "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamB": "TEAM B",
+    "imposterTitle": "Hochstapler",
+    "imposterPassTo": "Gib das Handy an {name}",
+    "imposterPlayer": "Lena",
+    "imposterLookAway": "Alle anderen wegschauen.",
+    "imposterAgent": "AGENT #01",
+    "imposterHold": "Gedrückt halten, um deine Rolle zu sehen"
   },
   "a11y": {
     "openMenu": "Menü öffnen",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} oder Tadado: Fragen",
     "relatedTitle": "Weitere Vergleiche",
     "ctaTitle": "Dein nächster Spieleabend startet kostenlos",
-    "ctaBody": "Lade Tadado, öffne das kostenlose Deck Tadado Mix und spiel in Sekunden Verbotene Wörter oder Heads Up. Ein Handy reicht.",
+    "ctaBody": "Lade Tadado, öffne ein kostenloses Deck und spiel in Sekunden Verbotene Wörter, Heads Up oder Hochstapler. Ein Handy reicht.",
     "ctaButton": "Tadado kostenlos laden",
     "freeNote": "Kostenlos laden · Keine Werbung · Kein Abo",
     "disclaimer": "{game} wird nur genannt, um ein bekanntes Spiel oder Spielformat zu beschreiben. Alle Marken gehören ihren Inhabern; Tadado ist nicht mit ihnen verbunden und wird nicht von ihnen unterstützt. Die Angaben zu {game} beschreiben das klassische Format und typische Versionen; einzelne Apps und Ausgaben können abweichen, prüfe daher den jeweiligen Store-Eintrag."
@@ -396,31 +406,60 @@
     "cta": "Deck entdecken"
   },
   "halloween": {
-    "heroPill": "Halloween-Saison: Gratis-Deck + neuer Imposter-Modus",
-    "tag": "Halloween-Saison",
+    "heroPill": "Neu: kostenloses Halloween-Deck + Hochstapler-Modus",
+    "tag": "Halloween-Event",
     "title": "Halloween-Nacht im Tadado-Stil",
-    "body": "Zwei neue Gründe, die Runde zusammenzutrommeln, bevor die Lichter ausgehen.",
-    "deckTitle": "Gratis Halloween-Deck",
-    "deckBody": "Monster, Hexen und Horror-Klassiker. Für alle kostenlos, ohne Kauf.",
-    "imposterTitle": "Neuer Modus: Imposter",
-    "imposterBody": "Alle bekommen das geheime Wort, nur ein Spieler nicht. Entlarvt den Imposter, bevor er untertaucht.",
+    "body": "Ein kostenloses Deck mit 100 gruseligen Wörtern und ein brandneuer Bluff-Modus. Alles, was du brauchst, bevor das Licht ausgeht.",
+    "deckTitle": "Kostenloses Halloween-Deck",
+    "deckBody": "100 gruselige Wörter: Monster, Hexen und Horror-Klassiker. Für alle kostenlos, kein Kauf nötig.",
+    "imposterTitle": "Neuer Modus: Hochstapler",
+    "imposterBody": "Alle sehen das geheime Wort, bis auf einen. Gebt Hinweise und wählt den Hochstapler raus.",
     "cta": "Heute Abend gratis spielen",
-    "guideCta": "Halloween-Spielideen",
-    "note": "Die Halloween-Saison läuft bis zum 3. November.",
+    "guideCta": "Halloween-Party-Guide",
+    "note": "Das Halloween-Event läuft bis zum 3. November.",
     "card": {
-      "deck": "Halloween-Deck",
+      "deck": "Halloween",
       "free": "Gratis",
-      "word": "Vampir",
+      "word": "Werwolf",
       "forbidden": [
-        "Blut",
-        "Biss",
-        "Dracula",
-        "Nacht"
+        "Vollmond",
+        "Heulen",
+        "Fell",
+        "Verwandeln"
       ],
-      "imposterLabel": "Imposter",
-      "imposterRole": "Du bist der Imposter",
-      "imposterHint": "Tauch unter. Lass dich nicht erwischen."
-    }
+      "imposterLabel": "Hochstapler",
+      "imposterRole": "Du bist der Hochstapler",
+      "imposterHint": "Fall nicht auf.",
+      "deckDesc": "Gruselige Wörter für einen Abend voller Lacher!",
+      "play": "Spielen",
+      "newBadge": "Neu",
+      "headsUpWord": "Vampir",
+      "round": "Runde 1/4"
+    },
+    "eyebrow": "Halloween-Partyspiele",
+    "heroTitle": "3 Partyspiele.",
+    "heroTitleAccent": "Ein Handy.",
+    "heroSubtitle": "Spiel mit Freunden, Familie und deiner ganzen Crew. Kostenloses Halloween-Deck inklusive.",
+    "heroSecondary": "Halloween-Deck ansehen",
+    "mascotBadge": "Decks zu jedem Thema",
+    "headsUpTitle": "Heads Up, Halloween-Edition",
+    "headsUpBody": "Handy an die Stirn, Monster auf den Bildschirm. Nach unten kippen, wenn du es hast.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "gruselige Wörter"
+      },
+      {
+        "value": "3",
+        "label": "Spielmodi"
+      },
+      {
+        "value": "Gratis",
+        "label": "für alle"
+      }
+    ],
+    "metaTitle": "Tadado: Halloween-Partyspiele | Tabu, Heads Up und Hochstapler",
+    "metaDescription": "Kostenlose Halloween-Partyspiele auf einem Handy: ein gruseliges Tabu-Deck mit 100 Wörtern, Heads Up und der neue Hochstapler-Modus. Ohne Werbung und Abo. iOS und Android."
   },
   "trust": {
     "eyebrow": "Für dich gemacht",
@@ -452,7 +491,7 @@
     "countBadge": "8 Spiel-Decks",
     "free": "Gratis",
     "play": "SPIELEN",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NEU",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "KI-Deck-Erstellung",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 KI-Deck-Erstellungen: eigene Decks zu jedem Thema."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 KI-Deck-Erstellungen: eigene Decks zu jedem Thema."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 KI-Deck-Erstellungen für regelmäßige Spieleabende.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 KI-Deck-Erstellungen für regelmäßige Spieleabende.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 KI-Deck-Erstellungen für Gastgeber, denen die Ideen nie ausgehen."
+        "desc": "40 KI-Deck-Erstellungen für Gastgeber, denen die Ideen nie ausgehen."
       }
     ],
     "decksSectionTitle": "Premium-Decks",
     "singleDeck": {
       "name": "Themen-Decks",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Einmaliger Kauf pro Deck. Sommer, Kino, Reisen, Sport, Helden & mehr."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Alle Premium-Themendecks plus 100 KI-Deck-Erstellungen mit einem einzigen Kauf.",
-      "aiCredits": "100 KI-Deck-Erstellungen inklusive",
+      "desc": "Alle Premium-Themendecks plus 20 KI-Deck-Erstellungen mit einem einzigen Kauf.",
+      "aiCredits": "20 KI-Deck-Erstellungen inklusive",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Deck wählen",
-        "body": "Spiele gratis mit Mix oder schalte Themen-Packs und KI-Decks frei."
+        "body": "Verbotene Wörter für Teams, Heads Up zum Stirnraten oder Hochstapler zum Bluffen."
       },
       {
         "title": "Handy weitergeben & spielen",
@@ -569,7 +608,7 @@
         "label": "Sprachen"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "Spielmodi"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Halte das Handy auf der Stirn, damit du das Wort nicht siehst. Freunde geben Hinweise, ohne das Wort zu sagen. Nach unten kippen bei richtig, nach oben zum Überspringen. Tadado nutzt dieselben Decks in Heads Up und Taboo."
       },
       {
-        "q": "Ist Tadado eine der besten kostenlosen Wortspiel-Apps?",
-        "a": "Tadado ist für Spieleabende gemacht: Taboo, Heads Up, gratis Tadado Mix, optionale Themen-Decks und KI-Deck-Erstellung. Keine Werbung und kein Abo – eines der besten Wortspiel-Apps auf iOS und Android."
+        "q": "Wie spielt man Hochstapler in Tadado?",
+        "a": "Ein Handy geht reihum. Alle sehen dasselbe geheime Wort, nur die Karte des Hochstaplers ist leer. Jeder sagt reihum ein Hinweiswort, dann stimmt ihr ab. Wird der Hochstapler erwischt, gewinnt er trotzdem, wenn er das Wort errät."
+      },
+      {
+        "q": "Was ist ein gutes Halloween-Partyspiel für Gruppen?",
+        "a": "Tadado passt perfekt zu Halloween: Das kostenlose Halloween-Deck hat 100 gruselige Wörter wie Werwolf, Hexe oder Geisterhaus, spielbar als Verbotene Wörter, Heads Up oder Hochstapler auf einem Handy. Keine Karten, kein Aufbau, keine Werbung."
+      },
+      {
+        "q": "Ist Tadado eine der besten kostenlosen Partyspiel-Apps?",
+        "a": "Tadado ist für Spieleabende gebaut: Verbotene Wörter im Tabu-Stil, Heads Up, das Bluffspiel Hochstapler, kostenlose Decks, optionale Themen-Decks und KI-Deck-Erstellung. Ohne Werbung und ohne Abo gehört Tadado zu den preiswertesten Partyspiel-Apps für iOS und Android."
       },
       {
         "q": "Ist Tadado kostenlos?",
@@ -695,7 +742,7 @@
       },
       {
         "q": "Wie funktioniert die KI-Deck-Erstellung?",
-        "a": "Schreib ein Thema, wie „Marvel-Filme“ oder „90er-Pophits“, und Tadado generiert in Sekunden ein spielbares Deck für beide Modi."
+        "a": "Gib ein Thema ein, etwa „Marvel-Filme“ oder „Pop-Hits der 90er“, und Tadado erstellt in Sekunden ein spielbares Deck für Verbotene Wörter und Heads Up."
       },
       {
         "q": "Welche Sprachen werden unterstützt?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in einer App",
+        "feature": "Tabu, Heads Up und Hochstapler in einer App",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Viele Apps fokussieren einen Modus, zeigen Werbung oder sperren Inhalte hinter Abos. Tadado ist für echte Spieleabende mit beiden Modi, einem gratis Starter-Deck und Einmalkäufen gebaut.",
+    "note": "Viele Apps setzen auf einen Modus, zeigen Werbung oder sperren Inhalte hinter Abos. Tadado ist für echte Spieleabende gemacht: drei Modi, ein kostenloses Start-Deck und Extras zum Einmalpreis.",
     "cta": "Tadado gratis herunterladen",
     "viewFull": "Vollständige Vergleichsseite öffnen"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ und Spielregeln",
-        "body": "Regeln für Verbotene Wörter und Heads Up, Preise und Offline-Spiel.",
+        "body": "Regeln für Verbotene Wörter, Heads Up und Hochstapler, Preise und Offline-Spiel.",
         "cta": "FAQ öffnen",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing und Presse",
     "subtitle": "Creator-Kampagnen, Marken-Decks und Pressematerial zu Tadado.",
     "back": "Zurück zu Tadado",
-    "intro": "Tadado ist ein Wortspiel für echte Gruppen: Verbotene Wörter im Tabu-Stil und Heads Up auf einem Handy, ohne Werbung und ohne Abo. Wenn du Content, eine Kooperation oder einen Artikel planst, starte hier.",
+    "intro": "Tadado ist eine Partyspiel-App für echte Gruppen: Verbotene Wörter im Tabu-Stil, Heads Up und Hochstapler auf einem Handy, ohne Werbung und Abo. Wenn du Content, eine Kooperation oder einen Artikel planst, starte hier.",
     "statsLabel": "Auf einen Blick",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "Sprachen"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "Spielmodi"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Startseite",
     "popularAlternatives": "Beliebte Alternativen-Ratgeber",
     "alternativesHub": "Alternativen"
+  },
+  "halloweenPage": {
+    "metaTitle": "Halloween-Partyspiele für Gruppen: gratis auf einem Handy | Tadado",
+    "metaDescription": "Die einfachsten Halloween-Spiele für Freunde und Familie: gruseliges Tabu, Heads Up und Hochstapler auf einem Handy mit einem kostenlosen Deck aus 100 Wörtern. Ohne Karten und Werbung.",
+    "breadcrumb": "Halloween-Partyspiele",
+    "eyebrow": "Halloween-Partyspiele",
+    "h1": "Halloween-Partyspiele auf einem Handy",
+    "answer": "Das einfachste Halloween-Spiel für eine Gruppe braucht keine Karten und keinen Aufbau. Tadado macht aus einem Handy drei Halloween-Spiele: gruseliges Tabu (Verbotene Wörter), Heads Up und Hochstapler, alle mit einem kostenlosen Deck aus 100 Halloween-Wörtern. Für 3 bis 20+ Spieler, Freunde, Familien und Büropartys.",
+    "factsTitle": "Auf einen Blick",
+    "facts": [
+      {
+        "label": "Spieler",
+        "value": "3 bis 20+"
+      },
+      {
+        "label": "Du brauchst",
+        "value": "Ein Handy"
+      },
+      {
+        "label": "Halloween-Deck",
+        "value": "100 Wörter, gratis"
+      },
+      {
+        "label": "Spielmodi",
+        "value": "Tabu, Heads Up, Hochstapler"
+      },
+      {
+        "label": "Aufbau",
+        "value": "Unter einer Minute"
+      },
+      {
+        "label": "Werbung",
+        "value": "Keine"
+      }
+    ],
+    "modesTitle": "Drei Halloween-Spiele in einer App",
+    "modesSubtitle": "Wähle den Modus, der zur Runde passt. Alle nutzen dasselbe kostenlose Halloween-Deck.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Gruseliges Tabu",
+        "body": "Erkläre Werwolf, ohne Vollmond, Heulen, Fell oder Verwandeln zu sagen. Die Teams spielen gegen die Uhr, schwere Wörter bringen mehr Punkte.",
+        "best": "Ideal ab 4 Spielern in zwei Teams"
+      },
+      {
+        "id": "headsup",
+        "title": "Halloween-Heads-Up",
+        "body": "Halte das Handy an die Stirn, während deine Freunde Vampir oder Mumie darstellen. Nach unten kippen bei richtig, nach oben zum Überspringen.",
+        "best": "Ideal für Kostümpartys und Fotos"
+      },
+      {
+        "id": "imposter",
+        "title": "Hochstapler im Geisterhaus",
+        "body": "Alle sehen dasselbe Halloween-Wort, nur die Karte des Hochstaplers ist leer. Jeder sagt ein Hinweiswort, dann wird abgestimmt. Erwischt, gewinnt er trotzdem, wenn er das Wort errät.",
+        "best": "Ideal für 3 bis 12 Spieler, die gern bluffen"
+      }
+    ],
+    "samplesTitle": "Beispielkarten aus dem kostenlosen Halloween-Deck",
+    "samplesSubtitle": "Echte Karten aus dem Deck. Erkläre das große Wort und sag nie die vier darunter.",
+    "hostTitle": "Halloween-Spieleabend in 5 Schritten",
+    "hostSteps": [
+      {
+        "title": "Tadado laden",
+        "body": "Kostenlos für iPhone und Android. Installiere es, bevor die Gäste kommen."
+      },
+      {
+        "title": "Halloween-Deck öffnen",
+        "body": "Es steht während des Events ganz vorne auf dem Startbildschirm und kostet nichts."
+      },
+      {
+        "title": "Modus wählen",
+        "body": "Verbotene Wörter für Teams, Heads Up zum Darstellen, Hochstapler zum Bluffen."
+      },
+      {
+        "title": "Teams und Timer einstellen",
+        "body": "Teilt die Gruppe auf, wählt Runden und Timer. Tadado zählt die Punkte."
+      },
+      {
+        "title": "Handy weitergeben",
+        "body": "Ein Handy wandert durch den Raum. Dimmt das Licht für mehr Spannung."
+      }
+    ],
+    "ideasTitle": "Halloween-Spielideen, die immer funktionieren",
+    "ideas": [
+      {
+        "title": "Heads Up im Kostüm",
+        "body": "Wer das Handy hält, spielt im Kostüm. Filmt es in Zeitlupe für den Gruppenchat."
+      },
+      {
+        "title": "Monster-Tabu-Turnier",
+        "body": "Zwei Teams, drei Runden; die Verlierer verteilen die Süßigkeiten."
+      },
+      {
+        "title": "Hochstapler bei Kerzenlicht",
+        "body": "Spielt Hochstapler bei Kerzenlicht. Im Dunkeln bluffen ist viel schwerer."
+      },
+      {
+        "title": "Euer eigenes Horror-Deck",
+        "body": "Gib ein Thema wie „Horrorfilme der 80er“ ein und lass die KI ein Deck für eure Gruppe bauen."
+      }
+    ],
+    "faqTitle": "Halloween-Partyspiele: Fragen",
+    "faq": [
+      {
+        "q": "Was ist das beste Halloween-Spiel für eine Gruppe von Freunden?",
+        "a": "Eines ohne Vorbereitung, bei dem alle mitreden. Mit dem kostenlosen Halloween-Deck von Tadado spielt die Gruppe gruseliges Tabu, Heads Up oder Hochstapler auf einem Handy, sobald alle da sind."
+      },
+      {
+        "q": "Ist das Tadado-Halloween-Deck kostenlos?",
+        "a": "Ja. Das Halloween-Deck ist für alle kostenlos und hat 100 Halloween-Wörter. Ohne Werbung und ohne Abo."
+      },
+      {
+        "q": "Wie viele Personen können mitspielen?",
+        "a": "Ab 3 Spielern bis zu großen Partys. Tabu und Heads Up teilen die Gruppe in Teams, Hochstapler spielt ihr mit 3 bis 12 Personen auf einem Handy."
+      },
+      {
+        "q": "Passt es für Kinder und Familien-Halloween?",
+        "a": "Ja. Das Deck baut auf Halloween-Klassikern wie Kürbis, Hexe, Gespenst und Süßes oder Saures auf und passt zu Familienabenden genauso wie zu Partys für Erwachsene."
+      },
+      {
+        "q": "Braucht man Karten oder mehrere Handys?",
+        "a": "Nein. Ein Handy reicht für alle Modi. Es wird weitergegeben, Tadado kümmert sich um Timer, Karten und Punkte."
+      },
+      {
+        "q": "In welchen Sprachen gibt es das Halloween-Deck?",
+        "a": "Die Halloween-Wörter sind für jede Kartensprache eigens ausgewählt, nicht nur übersetzt, und die App gibt es in 17 Sprachen."
+      }
+    ],
+    "ctaTitle": "Deine Halloween-Party startet kostenlos",
+    "ctaBody": "Lade Tadado, öffne das Halloween-Deck und spiel deine erste Runde in unter einer Minute.",
+    "ctaButton": "Tadado gratis laden",
+    "related": "Mehr Partyspiel-Ideen",
+    "seasonNote": "Das Halloween-Event in der App läuft bis zum 3. November."
   }
 }

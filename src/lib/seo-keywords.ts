@@ -10,6 +10,27 @@ function profile(keywords: string[], featureList: string[]): MarketSeoProfile {
   return { keywords, applicationCategory: "GameApplication", featureList };
 }
 
+/** Imposter mode (2026) and Halloween search terms per market, merged into every profile below. */
+const IMPOSTER_AND_HALLOWEEN: Record<Locale, { keywords: string[]; feature: string }> = {
+  en: { keywords: ["imposter game", "imposter word game", "halloween party games", "halloween games for groups", "halloween taboo"], feature: "Imposter (hidden word) mode" },
+  tr: { keywords: ["casus oyunu", "casus kim oyunu", "cadılar bayramı oyunları", "cadılar bayramı parti oyunları", "halloween oyunları"], feature: "Casus (gizli kelime) modu" },
+  es: { keywords: ["juego del impostor", "impostor palabra secreta", "juegos de halloween", "juegos para fiesta de halloween"], feature: "Modo Impostor (palabra secreta)" },
+  "pt-BR": { keywords: ["jogo do impostor", "impostor palavra secreta", "jogos de halloween", "brincadeiras de halloween para festa"], feature: "Modo Impostor (palavra secreta)" },
+  fr: { keywords: ["jeu de l'imposteur", "imposteur mot secret", "jeux d'halloween", "jeux pour soirée halloween"], feature: "Mode Imposteur (mot secret)" },
+  de: { keywords: ["hochstapler spiel", "imposter spiel", "halloween partyspiele", "halloween spiele für erwachsene"], feature: "Hochstapler-Modus (geheimes Wort)" },
+  zh: { keywords: ["谁是卧底", "卧底游戏", "万圣节派对游戏", "万圣节游戏"], feature: "卧底模式（秘密词）" },
+  hi: { keywords: ["इम्पोस्टर गेम", "हैलोवीन पार्टी गेम्स", "हैलोवीन गेम्स"], feature: "इम्पोस्टर मोड (गुप्त शब्द)" },
+  id: { keywords: ["permainan penipu", "game imposter", "permainan halloween", "game pesta halloween"], feature: "Mode Penipu (kata rahasia)" },
+  vi: { keywords: ["trò chơi kẻ mạo danh", "ai là gián điệp", "trò chơi halloween", "trò chơi tiệc halloween"], feature: "Chế độ Kẻ mạo danh (từ bí mật)" },
+  ar: { keywords: ["لعبة المحتال", "لعبة الجاسوس", "ألعاب الهالوين", "ألعاب حفلة الهالوين"], feature: "وضع المحتال (كلمة سرية)" },
+  ru: { keywords: ["игра самозванец", "игра шпион", "игры на хэллоуин", "игры для вечеринки на хэллоуин"], feature: "Режим «Самозванец» (тайное слово)" },
+  ja: { keywords: ["インポスターゲーム", "ワードウルフ", "ハロウィン パーティーゲーム", "ハロウィン ゲーム"], feature: "インポスターモード（秘密のワード）" },
+  ko: { keywords: ["임포스터 게임", "라이어 게임", "할로윈 파티 게임", "할로윈 게임"], feature: "임포스터 모드 (비밀 단어)" },
+  it: { keywords: ["gioco dell'impostore", "impostore parola segreta", "giochi di halloween", "giochi per festa di halloween"], feature: "Modalità Impostore (parola segreta)" },
+  pl: { keywords: ["gra w oszusta", "gra impostor", "gry na halloween", "gry na imprezę halloween"], feature: "Tryb Oszust (tajne słowo)" },
+  el: { keywords: ["παιχνίδι απατεώνας", "παιχνίδια halloween", "παιχνίδια για πάρτι halloween"], feature: "Λειτουργία Απατεώνας (μυστική λέξη)" },
+};
+
 const PROFILES: Record<Locale, MarketSeoProfile> = {
   en: profile(
     [
@@ -422,7 +443,13 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
 };
 
 export function getMarketSeoProfile(locale: Locale): MarketSeoProfile {
-  return PROFILES[locale];
+  const base = PROFILES[locale];
+  const extra = IMPOSTER_AND_HALLOWEEN[locale];
+  return {
+    ...base,
+    keywords: [...base.keywords, ...extra.keywords],
+    featureList: [...base.featureList.slice(0, 2), extra.feature, ...base.featureList.slice(2)],
+  };
 }
 
 export function getKeywordsString(locale: Locale): string {

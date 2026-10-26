@@ -20,7 +20,7 @@ HOW TO PLAY HEADS UP CHARADES
 Hold your phone on your forehead. Friends give clues. Tilt down when you guess right, up to skip.
 
 WHY PLAYERS CHOOSE TADADO
-• Two game modes in one app
+• Three game modes in one app: Taboo, Heads Up and Imposter
 • Free Tadado Mix deck to start instantly
 • AI deck builder for custom topics
 • Themed decks: Cinema, Sport, Travel, Heroes & more
@@ -72,7 +72,7 @@ CÓMO JUGAR HEADS UP
 Pon el teléfono en la frente. Tus amigos dan pistas. Inclina hacia abajo si aciertas, hacia arriba para pasar.
 
 POR QUÉ TADADO
-• Dos modos en una app
+• Tres modos en una app: Tabú, Heads Up e Impostor
 • Mazo Tadado Mix gratis
 • Mazos temáticos y creador IA
 • 17 idiomas
@@ -95,7 +95,7 @@ SO SPIELST DU HEADS UP
 Halte das Handy an die Stirn. Freunde geben Hinweise. Nach unten kippen bei richtig, nach oben zum Passen.
 
 WARUM TADADO
-• Zwei Modi in einer App
+• Drei Modi in einer App: Tabu, Heads Up und Hochstapler
 • Gratis Tadado Mix Deck
 • Themen-Decks und KI-Ersteller
 • 17 Sprachen
@@ -118,7 +118,7 @@ COMMENT JOUER HEADS UP
 Tiens le téléphone sur ton front. Tes amis donnent des indices. Baisse pour valider, monte pour passer.
 
 POURQUOI TADADO
-• Deux modes dans une app
+• Trois modes dans une appli : Tabou, Heads Up et Imposteur
 • Deck Tadado Mix gratuit
 • Decks thématiques et créateur IA
 • 17 langues
@@ -141,7 +141,7 @@ COMO JOGAR HEADS UP
 Coloque o celular na testa. Amigos dão dicas. Incline para baixo ao acertar, para cima para passar.
 
 POR QUE TADADO
-• Dois modos em um app
+• Três modos em um app: Tabu, Heads Up e Impostor
 • Baralho Tadado Mix grátis
 • Baralhos temáticos e criador IA
 • 17 idiomas

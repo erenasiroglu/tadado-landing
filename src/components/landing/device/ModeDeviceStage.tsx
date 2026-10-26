@@ -8,8 +8,9 @@ import { cn } from "@/lib/utils";
 
 import { ForbiddenWordsScreen } from "./ForbiddenWordsScreen";
 import { HeadsUpScreen } from "./HeadsUpScreen";
+import { ImposterScreen } from "./ImposterScreen";
 
-type GameplayMode = "taboo" | "headsup";
+type GameplayMode = "taboo" | "headsup" | "imposter";
 
 interface ModeDeviceStageProps {
   mode: GameplayMode;
@@ -19,6 +20,9 @@ interface ModeDeviceStageProps {
   portraitWidth?: number;
   landscapeWidth?: number;
   animateWords?: boolean;
+  /** Fixed sample card (e.g. a localized Halloween word); otherwise the device cycles samples. */
+  tabooSample?: { word: string; forbidden: readonly string[] };
+  headsUpWord?: string;
 }
 
 export function ModeDeviceStage({
@@ -29,9 +33,11 @@ export function ModeDeviceStage({
   portraitWidth = 240,
   landscapeWidth = 360,
   animateWords = true,
+  tabooSample,
+  headsUpWord,
 }: ModeDeviceStageProps) {
   const reduceMotion = useReducedMotion();
-  const isPortrait = mode === "taboo";
+  const isPortrait = mode !== "headsup";
 
   return (
     <LayoutGroup id="tadado-mode-device">
@@ -60,10 +66,14 @@ export function ModeDeviceStage({
               isPortrait ? "max-w-[min(100%,260px)]" : "max-w-[min(100%,420px)]",
             )}
           >
-            {isPortrait ? (
+            {mode === "imposter" ? (
+              <ImposterScreen width={portraitWidth} labels={previewLabels} float />
+            ) : isPortrait ? (
               <ForbiddenWordsScreen
                 width={portraitWidth}
                 labels={previewLabels}
+                word={tabooSample?.word}
+                forbidden={tabooSample?.forbidden}
                 float
                 animateWords={animateWords}
               />
@@ -72,6 +82,7 @@ export function ModeDeviceStage({
                 locale={locale}
                 previewLabels={previewLabels}
                 width={Math.min(landscapeWidth, 420)}
+                word={headsUpWord}
                 float
                 animateWords={animateWords}
               />

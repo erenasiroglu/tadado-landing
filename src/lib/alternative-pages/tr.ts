@@ -13,7 +13,7 @@ const TR_PAGES: Record<
       "Charades ve pantomim gecesi mi arıyorsun? Tadado’da Alnında Tahmin modu, Tabu tarzı Yasaklı Kelimeler, ücretsiz Tadado Mix, reklamsız oyun ve yapay zeka desteleri.",
     h1: "Oyun geceleri için modern charades alternatifi",
     heroSubtitle:
-      "Tek telefon, iki mod: alnında tahmin veya takım halinde yasaklı kelimeler. Abonelik tuzağı yok, gece bitmeden reklam yok.",
+      "Tek telefon, üç mod: alnında tahmin, takım halinde yasaklı kelimeler veya Casus. Abonelik tuzağı yok, gece bitmeden reklam yok.",
     introTitle: "Neden charades alternatifi aranıyor?",
     introParagraphs: [
       "Charades (pantomim) basittir: kelimeyi anlat, arkadaşların tahmin etsin. Birçok mobil uygulama aynı döngüyü kopyalar ama araya uzun reklamlar koyar, ilk turdan önce ödeme ister ya da kelime listesi bir gecede biter.",
@@ -129,7 +129,7 @@ const TR_PAGES: Record<
     metaTitle: "Alnında Tahmin Alternatifi | Tadado Heads Up Modu",
     metaDescription:
       "Heads Up / Alnında Tahmin alternatifi: telefonu alına koy, kelimeyi tahmin et. Tadado’da Tabu modu, ücretsiz Mix, reklam yok, yapay zeka desteleri.",
-    h1: "Alnında Tahmin alternatifi—tek uygulamada iki mod",
+    h1: "Alnında Tahmin alternatifi—tek uygulamada üç mod",
     heroSubtitle:
       "Heads Up hızını seviyorsan Alnında Tahmin modu; takım oyunu isteyenler için Yasaklı Kelimeler aynı indirmede.",
     introTitle: "Alnında Tahmin sevenler hız ister, paywall değil",
@@ -162,7 +162,7 @@ const TR_PAGES: Record<
       { feature: "Zorluk puanlama", tadado: "yes", alternative: "no" },
     ],
     compareNote:
-      "Tek mod uygulamaları derin paket satar. Tadado genişlik sunar: iki mod, adil fiyat, yapay zeka ile kişiselleştirme.",
+      "Tek mod uygulamaları derin paket satar. Tadado genişlik sunar: üç mod, adil fiyat, yapay zeka ile kişiselleştirme.",
     faqTitle: "Alnında Tahmin alternatifi SSS",
     faq: [
       {
@@ -190,7 +190,7 @@ const TR_PAGES: Record<
       "Nebuu ve benzeri parti uygulamalarına alternatif: Tadado’da Tabu + Alnında Tahmin, ücretsiz Mix, reklam yok, abonelik yok, yapay zeka desteleri. Oyun gecesi için dene.",
     h1: "Nebuu alternatifi: Oyun gecesi için Tadado",
     heroSubtitle:
-      "Türkiye’de parti kelime oyunlarını seviyorsan—tek uygulamada iki mod, reklamsız turlar ve ücretsiz başlangıç destesi.",
+      "Türkiye’de parti kelime oyunlarını seviyorsan—tek uygulamada üç mod, reklamsız turlar ve ücretsiz başlangıç destesi.",
     introTitle: "Nebuu kullananlar neden Tadado’ya bakıyor?",
     introParagraphs: [
       "Nebuu, mobil Tabu ve charades kültürünü Türkiye’de yaygınlaştıran uygulamalardan biridir. Birçok oyuncu bir sonraki adımda aynı şeyi ister: kelimeler bitsin, reklam gecenin ritmini bozmasın, fiyat adil olsun.",
@@ -224,7 +224,7 @@ const TR_PAGES: Record<
       { feature: "Gizli aylık ücret yok (tek seferlik ekstra)", tadado: "yes", alternative: "partial" },
     ],
     compareNote:
-      "Her uygulama zamanla güncellenir. Tadado’nun önceliği adil oyun gecesi: ücretsiz deneme, reklamsız akış, iki mod. Kararı grubunla Tadado Mix ile ver.",
+      "Her uygulama zamanla güncellenir. Tadado’nun önceliği adil oyun gecesi: ücretsiz deneme, reklamsız akış, üç mod. Kararı grubunla Tadado Mix ile ver.",
     faqTitle: "Nebuu alternatifi SSS",
     faq: [
       {

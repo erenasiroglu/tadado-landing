@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Tabu ve Alnında Tahmin Oyunu | Yapay Zeka Desteleri",
-    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve yapay zeka ile kendi desten. Ücretsiz başla, reklam ve abonelik yok. iOS ve Android."
+    "title": "Tadado: Parti Oyunu | Tabu, Alnında Tahmin, Casus ve Yapay Zeka Desteleri",
+    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, Casus ve yapay zeka ile kendi desten. Ücretsiz başla, reklam ve abonelik yok. iOS ve Android."
   },
   "nav": {
     "play": "Oyna",
@@ -17,12 +17,13 @@
     "compare": "Karşılaştır",
     "affiliate": "Affiliate",
     "team": "Ekibimiz",
-    "download": "İndir"
+    "download": "İndir",
+    "halloween": "Cadılar Bayramı"
   },
   "hero": {
     "brandLine": "Parti kelime oyunu · App Store'da ★ 5.0",
     "title": "Tek telefon. Arkadaşların. Kaos başlasın.",
-    "subtitle": "Oyun geceleri için Yasaklı Kelimeler (Tabu), Alnında Tahmin ve yapay zeka desteleri.",
+    "subtitle": "Oyun geceleri için Tabu, Alnında Tahmin, Casus ve yapay zeka ile kendi desten.",
     "ctaPrimary": "TADADO'YU İNDİR · ÜCRETSİZ",
     "ctaSecondary": "NASIL OYNANIR",
     "metrics": [
@@ -31,18 +32,12 @@
         "label": "oyun oynandı",
         "animate": true
       },
-      {
-        "value": "2",
-        "label": "oyun modu"
-      },
+      { "value": "3", "label": "oyun modu" },
       {
         "value": "AI",
         "label": "destekli"
       },
-      {
-        "value": "17",
-        "label": "dil"
-      },
+      { "value": "17", "label": "dil" },
       {
         "value": "7+",
         "label": "oyun destesi",
@@ -60,7 +55,7 @@
   },
   "proof": {
     "players": "300.000+ oyun oynandı",
-    "modes": "2 oyun modu",
+    "modes": "3 oyun modu",
     "ai": "Yapay zeka destekli",
     "languages": "17 dil",
     "offline": "Çevrimdışı oyna",
@@ -72,8 +67,8 @@
     "developer": "Tadado Game Development tarafından geliştirildi",
     "items": [
       {
-        "title": "İki mod, tek uygulama",
-        "body": "Yasaklı Kelimeler ve Alnında Tahmin arasında geçiş yap, iki kez indirmene gerek yok. Aynı desteler, her turda farklı enerji."
+        "title": "Üç mod, tek uygulama",
+        "body": "Yasaklı Kelimeler, Alnında Tahmin ve Casus arasında başka bir şey indirmeden geçiş yap. Aynı desteler, her turda farklı bir enerji."
       },
       {
         "title": "Saniyeler içinde yapay zeka destesi",
@@ -92,7 +87,7 @@
   "stats": {
     "gamesPlayed": "300.000+",
     "gamesPlayedLabel": "dünya genelinde oynanan oyun",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "oyun modu",
     "languages": "17",
     "languagesLabel": "uygulama dili",
@@ -184,8 +179,8 @@
     ]
   },
   "modes": {
-    "title": "İki farklı oyun",
-    "subtitle": "Klasik Tabu tarzı Yasaklı Kelimeler ya da telefon alnında Alnında Tahmin. Aynı desteler, farklı enerji.",
+    "title": "Üç farklı oynanış",
+    "subtitle": "Tabu tarzı Yasaklı Kelimeler, alında Alnında Tahmin ya da Casus'u bul. Tek telefon, üç farklı kaos.",
     "tabooTitle": "Yasaklı Kelimeler",
     "tabooBody": "Ana kelimeyi anlat, daha fazla risk al ve skorunu büyüt. Daha zor kelimeler ×2'den ×5'e kadar daha yüksek çarpanlar açar.",
     "headsUpTitle": "Alnında Tahmin",
@@ -196,8 +191,11 @@
       "landscapeGameplay": "Yatay oynanış",
       "buildScoreTitle": "Skorunu büyüt",
       "buildScoreBody": "Daha zor kelimeleri seç, çarpanını yükselt ve her doğru cevabı daha büyük puana dönüştür.",
-      "scoreMultipliersAria": "Skor çarpanları: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Skor çarpanları: 2x, 3x, 5x",
+      "passGameplay": "Telefonu elden ele oynanış"
+    },
+    "imposterTitle": "Casus",
+    "imposterBody": "Biriniz kelimeyi bilmiyor. Diğer herkes görüyor, sırayla tek kelimelik ipucu veriyor ve casusu oylayarak buluyor."
   },
   "gamePreview": {
     "timeLeft": "42 saniye kaldı",
@@ -217,7 +215,13 @@
     "continue": "Devam",
     "pauseGame": "Oyunu duraklat",
     "teamA": "TAKIM A",
-    "teamB": "TAKIM B"
+    "teamB": "TAKIM B",
+    "imposterTitle": "Casus",
+    "imposterPassTo": "Telefonu {name} alsın",
+    "imposterPlayer": "Elif",
+    "imposterLookAway": "Diğerleri ekrana bakmasın.",
+    "imposterAgent": "AJAN #01",
+    "imposterHold": "Rolünü görmek için basılı tut"
   },
   "a11y": {
     "openMenu": "Menüyü aç",
@@ -383,7 +387,7 @@
     "faqTitle": "{game} ve Tadado: sık sorulanlar",
     "relatedTitle": "Diğer karşılaştırmalar",
     "ctaTitle": "Bir sonraki oyun geceniz ücretsiz başlıyor",
-    "ctaBody": "Tadado'yu indir, ücretsiz Tadado Mix destesini aç ve saniyeler içinde Tabu ya da Alnında Tahmin oyna. Tek telefon yeter.",
+    "ctaBody": "Tadado'yu indir, ücretsiz bir desteyi aç ve saniyeler içinde Yasaklı Kelimeler, Alnında Tahmin ya da Casus oyna. Tek telefon yeterli.",
     "ctaButton": "Tadado'yu ücretsiz indir",
     "freeNote": "Ücretsiz indir · Reklamsız · Abonelik yok",
     "disclaimer": "{game} adı yalnızca bilinen bir oyunu veya oyun biçimini tanımlamak için kullanılmıştır. Tüm markalar sahiplerine aittir; Tadado bu markalarla bağlantılı değildir ve onlar tarafından desteklenmez. {game} hakkındaki notlar klasik oyunu ve tipik sürümleri anlatır; uygulamalar ve baskılar farklılık gösterebilir, mağaza sayfalarını kontrol edin."
@@ -396,31 +400,57 @@
     "cta": "Desteyi keşfet"
   },
   "halloween": {
-    "heroPill": "Cadılar Bayramı: ücretsiz deste + yeni Casus modu",
-    "tag": "Cadılar Bayramı",
-    "title": "Cadılar Bayramı, Tadado usulü",
-    "body": "Işıklar sönmeden ekibi toplamak için iki yeni sebep.",
-    "deckTitle": "Ücretsiz Cadılar Bayramı destesi",
-    "deckBody": "Canavarlar, cadılar ve korku klasikleri. Herkese ücretsiz, satın alma gerekmez.",
-    "imposterTitle": "Yeni mod: Casus",
-    "imposterBody": "Bir kişi hariç herkes gizli kelimeyi görür. Casus aranıza karışmadan onu bulun.",
-    "cta": "Bu akşam ücretsiz oyna",
-    "guideCta": "Cadılar Bayramı oyun fikirleri",
+    "heroPill": "Yeni: ücretsiz Cadılar Bayramı destesi + Casus modu",
+    "tag": "Cadılar Bayramı Etkinliği",
+    "title": "Cadılar Bayramı Gecesi, Tadado Usulü",
+    "body": "100 ürkütücü kelimelik ücretsiz bir deste ve yepyeni bir blöf modu. Işıklar sönmeden önce ihtiyacın olan her şey.",
+    "deckTitle": "Ücretsiz Cadılar Bayramı Destesi",
+    "deckBody": "100 ürkütücü kelime: canavarlar, cadılar ve korku klasikleri. Herkese ücretsiz, satın alma gerekmez.",
+    "imposterTitle": "Yeni Mod: Casus",
+    "imposterBody": "Herkes gizli kelimeyi görür, biri hariç. İpuçlarını verin, sonra casusu oylayın.",
+    "cta": "Bu Gece Ücretsiz Oyna",
+    "guideCta": "Cadılar Bayramı Parti Rehberi",
     "note": "Cadılar Bayramı etkinliği 3 Kasım'a kadar sürüyor.",
     "card": {
       "deck": "Cadılar Bayramı",
       "free": "Ücretsiz",
-      "word": "Vampir",
+      "word": "Kurt adam",
       "forbidden": [
-        "Kan",
-        "Isırık",
-        "Drakula",
-        "Gece"
+        "Dolunay",
+        "Ulumak",
+        "Tüy",
+        "Dönüşmek"
       ],
       "imposterLabel": "Casus",
       "imposterRole": "Casus sensin",
-      "imposterHint": "Aralarına karış. Yakalanma."
-    }
+      "imposterHint": "Kaynaş. Yakalanma.",
+      "deckDesc": "Ürkütücü kelimeler, kahkaha dolu bir gece!",
+      "play": "Oyna",
+      "newBadge": "Yeni",
+      "headsUpWord": "Vampir",
+      "round": "Tur 1/4"
+    },
+    "eyebrow": "Cadılar Bayramı Parti Oyunları",
+    "heroTitle": "3 parti oyunu.",
+    "heroTitleAccent": "Tek telefon.",
+    "heroSubtitle": "Arkadaşlarınla, ailenle, tüm ekibinle oyna. Ücretsiz Cadılar Bayramı destesi içinde.",
+    "heroSecondary": "Cadılar Bayramı destesine bak",
+    "mascotBadge": "her konuda deste",
+    "headsUpTitle": "Alnında Tahmin, Cadılar Bayramı Sürümü",
+    "headsUpBody": "Telefon alnında, canavarlar ekranda. Bildiğinde telefonu aşağı eğ.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "ürkütücü kelime"
+      },
+      { "value": "3", "label": "oyun modu" },
+      {
+        "value": "Ücretsiz",
+        "label": "herkese"
+      }
+    ],
+    "metaTitle": "Tadado: Cadılar Bayramı Parti Oyunları | Tabu, Alnında Tahmin ve Casus",
+    "metaDescription": "Tek telefonda ücretsiz Cadılar Bayramı parti oyunları: 100 kelimelik ürkütücü Tabu destesi, Alnında Tahmin ve yeni Casus modu. Reklam ve abonelik yok. iOS ve Android."
   },
   "trust": {
     "eyebrow": "Senin için tasarlandı",
@@ -452,7 +482,7 @@
     "countBadge": "8 oyun destesi",
     "free": "Ücretsiz",
     "play": "OYNA",
-    "price": "49,99 TL",
+    "price": "59,99 TL",
     "newBadge": "YENİ",
     "items": {
       "mix": {
@@ -508,33 +538,33 @@
     "aiSectionTitle": "Yapay zeka ile deste oluşturma",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "99,99 TL",
-        "desc": "10 yapay zeka deste oluşturma hakkı — istediğin konudan özel deste."
+        "name": "Mini",
+        "price": "59,99 TL",
+        "desc": "5 yapay zeka deste oluşturma hakkı — istediğin konudan özel deste."
       },
       {
-        "name": "Plus",
-        "price": "199 TL",
-        "desc": "30 yapay zeka deste oluşturma hakkı.",
+        "name": "Parti",
+        "price": "149,99 TL",
+        "desc": "15 yapay zeka deste oluşturma hakkı.",
         "highlight": true
       },
       {
         "name": "Pro",
-        "price": "349,99 TL",
-        "desc": "100 yapay zeka deste oluşturma hakkı."
+        "price": "299,99 TL",
+        "desc": "40 yapay zeka deste oluşturma hakkı."
       }
     ],
     "decksSectionTitle": "Premium desteler",
     "singleDeck": {
       "name": "Tek premium deste",
-      "price": "49,99 TL",
+      "price": "59,99 TL",
       "desc": "Deste başına tek seferlik satın alma. Yaz, Sinema, Seyahat, Spor, Kahramanlar ve daha fazlası."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
-      "price": "499 TL",
-      "desc": "Tüm premium temalı desteler ve 100 AI deste oluşturma hakkı, tek satın alımla.",
-      "aiCredits": "100 AI deste oluşturma hakkı dahil",
+      "price": "499,99 TL",
+      "desc": "Tüm premium temalı desteler ve 20 AI deste oluşturma hakkı, tek satın alımla.",
+      "aiCredits": "20 AI deste oluşturma hakkı dahil",
       "highlight": true
     }
   },
@@ -547,7 +577,7 @@
       },
       {
         "title": "Mod seç",
-        "body": "Takım oyunu için Yasaklı Kelimeler veya alnında eğlence için Alnında Tahmin."
+        "body": "Takımlar için Yasaklı Kelimeler, alında tahmin için Alnında Tahmin ya da blöf için Casus."
       },
       {
         "title": "Telefonu paylaş ve oyna",
@@ -564,14 +594,8 @@
         "label": "oyun oynandı",
         "animate": true
       },
-      {
-        "value": "17",
-        "label": "dil"
-      },
-      {
-        "value": "2",
-        "label": "oyun modu"
-      }
+      { "value": "17", "label": "dil" },
+      { "value": "3", "label": "oyun modu" }
     ],
     "languagesTitle": "Desteklenen diller",
     "languagesCaption": "Uygulama, desteler ve mağaza 17 dilde. Dili değiştirmek için üstteki dil menüsünü kullan.",
@@ -641,7 +665,7 @@
     "topics": [
       {
         "title": "SSS ve nasıl oynanır",
-        "body": "Yasaklı Kelimeler ve Alnında Tahmin kuralları, fiyatlandırma ve çevrimdışı oyun.",
+        "body": "Yasaklı Kelimeler, Alnında Tahmin ve Casus kuralları, fiyatlar ve çevrimdışı oyun.",
         "cta": "SSS'yi aç",
         "kind": "faq"
       },
@@ -669,12 +693,12 @@
     "title": "Pazarlama ve basın",
     "subtitle": "İçerik üreticileri, marka desteleri ve Tadado basın materyalleri.",
     "back": "Tadado'ya dön",
-    "intro": "Tadado gerçek gruplar için bir parti kelime oyunu—Tabu tarzı Yasaklı Kelimeler ve Alnında Tahmin tek telefonda, reklam yok, abonelik yok. İçerik, iş birliği veya haber için buradan başla.",
+    "intro": "Tadado gerçek gruplar için bir parti oyunu uygulaması: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda, reklamsız ve aboneliksiz. İçerik, iş birliği ya da haber planlıyorsan buradan başla.",
     "statsLabel": "Özet",
     "stats": [
       { "value": "300.000+", "label": "oyun oynandı" },
       { "value": "17", "label": "dil" },
-      { "value": "2", "label": "oyun modu" }
+      { "value": "3", "label": "oyun modu" }
     ],
     "pillars": [
       {
@@ -748,8 +772,16 @@
         "a": "Telefonu alnına koy, kelimeyi sen göremezsin. Arkadaşların kelimeyi söylemeden ipucu verir. Bildiğinde telefonu aşağı, pas geçmek için yukarı eğ. Tadado aynı desteleri Alnında Tahmin ve Yasaklı Kelimeler modlarında kullanır."
       },
       {
-        "q": "Tadado en iyi ücretsiz kelime oyunu uygulamalarından biri mi?",
-        "a": "Tadado oyun geceleri için tasarlandı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, ücretsiz Tadado Mix, isteğe bağlı temalı desteler ve yapay zeka ile deste oluşturma. Reklam ve abonelik yok; iOS ve Android'de en iyi fiyat/performans sunan kelime oyunlarından biri."
+        "q": "Tadado'da Casus nasıl oynanır?",
+        "a": "Telefon elden ele dolaşır. Herkes aynı gizli kelimeyi görür, casusun kartı ise boştur. Sırayla tek kelimelik ipucu verin, sonra casusun kim olduğunu oylayın. Yakalanan casus kelimeyi doğru tahmin ederse yine de kazanır."
+      },
+      {
+        "q": "Cadılar Bayramı için grupla oynanacak iyi bir parti oyunu var mı?",
+        "a": "Tadado Cadılar Bayramı partileri için çok uygun: ücretsiz Cadılar Bayramı destesinde Kurt adam, Cadı ve Perili ev gibi 100 ürkütücü kelime var ve bu desteyi tek telefonda Yasaklı Kelimeler, Alnında Tahmin ya da Casus olarak oynayabilirsin. Kart yok, kurulum yok, reklam yok."
+      },
+      {
+        "q": "Tadado en iyi ücretsiz parti oyunu uygulamalarından biri mi?",
+        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, blöf oyunu Casus, ücretsiz desteler, isteğe bağlı tema desteleri ve yapay zeka ile deste oluşturma. Reklam ve abonelik yok; bu da onu iOS ve Android'deki en avantajlı parti oyunu uygulamalarından biri yapıyor."
       },
       {
         "q": "Tadado ücretsiz mi?",
@@ -764,8 +796,8 @@
         "a": "Hayır. Tadado reklamsızdır. Yalnızca isteğe bağlı desteler veya yapay zeka oluşturma için ödeme yaparsın."
       },
       {
-        "q": "Yapay zeka deste oluşturma nasıl çalışır?",
-        "a": "Bir konu yaz, \"Marvel filmleri\" veya \"90'lar pop hitleri\" gibi; Tadado saniyeler içinde her iki oyun modu için oynanabilir bir deste üretir."
+        "q": "Yapay zeka ile deste oluşturma nasıl çalışır?",
+        "a": "\"Marvel filmleri\" ya da \"90'lar pop şarkıları\" gibi bir konu yaz; Tadado saniyeler içinde Yasaklı Kelimeler ve Alnında Tahmin için oynanabilir bir deste hazırlar."
       },
       {
         "q": "Hangi diller destekleniyor?",
@@ -784,7 +816,7 @@
     },
     "rows": [
       {
-        "feature": "Tabu + Alnında Tahmin tek uygulamada",
+        "feature": "Tabu, Alnında Tahmin ve Casus tek uygulamada",
         "tadado": "yes",
         "others": "no"
       },
@@ -824,7 +856,7 @@
         "others": "no"
       }
     ],
-    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir veya içeriği abonelik arkasına kilitler. Tadado gerçek oyun geceleri için iki mod, ücretsiz başlangıç destesi ve tek seferlik ekstralarla tasarlandı.",
+    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir ya da içeriği aboneliğe kilitler. Tadado gerçek oyun geceleri için üç mod, ücretsiz başlangıç destesi ve tek seferlik ekstralarla yapıldı.",
     "cta": "Tadado'yu ücretsiz indir",
     "viewFull": "Tam karşılaştırma sayfasını aç"
   },
@@ -929,5 +961,138 @@
     "home": "Ana sayfa",
     "popularAlternatives": "Popüler alternatif rehberleri",
     "alternativesHub": "Alternatifler"
+  },
+  "halloweenPage": {
+    "metaTitle": "Cadılar Bayramı Parti Oyunları: Tek Telefonda Ücretsiz | Tadado",
+    "metaDescription": "Arkadaşlar ve aile için en kolay Cadılar Bayramı oyunları: tek telefonda ürkütücü Tabu, Alnında Tahmin ve Casus, 100 kelimelik ücretsiz Cadılar Bayramı destesiyle. Kart yok, reklam yok.",
+    "breadcrumb": "Cadılar Bayramı parti oyunları",
+    "eyebrow": "Cadılar Bayramı Parti Oyunları",
+    "h1": "Tek Telefonda Cadılar Bayramı Parti Oyunları",
+    "answer": "Bir grup için en kolay Cadılar Bayramı oyunu kart ve kurulum gerektirmeyenidir. Tadado tek telefonu üç Cadılar Bayramı oyununa çevirir: ürkütücü Tabu (Yasaklı Kelimeler), Alnında Tahmin ve Casus; hepsi 100 Cadılar Bayramı kelimelik ücretsiz desteyle. 3 ile 20+ oyuncu, arkadaş grupları, aileler ve ofis partileri için uygundur.",
+    "factsTitle": "Bir bakışta",
+    "facts": [
+      {
+        "label": "Oyuncu",
+        "value": "3 ile 20+"
+      },
+      {
+        "label": "Gereken",
+        "value": "Tek telefon"
+      },
+      {
+        "label": "Cadılar Bayramı destesi",
+        "value": "100 kelime, ücretsiz"
+      },
+      {
+        "label": "Oyun modları",
+        "value": "Tabu, Alnında Tahmin, Casus"
+      },
+      {
+        "label": "Kurulum",
+        "value": "1 dakikadan kısa"
+      },
+      {
+        "label": "Reklam",
+        "value": "Yok"
+      }
+    ],
+    "modesTitle": "Tek uygulamada üç Cadılar Bayramı oyunu",
+    "modesSubtitle": "Odaya uyan modu seç. Hepsi aynı ücretsiz Cadılar Bayramı destesini kullanır.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Ürkütücü Tabu",
+        "body": "Dolunay, Ulumak, Tüy ya da Dönüşmek demeden Kurt adam'ı anlat. Takımlar süreyle yarışır, zor kelimeler daha çok puan getirir.",
+        "best": "4+ oyuncu, iki takım için ideal"
+      },
+      {
+        "id": "headsup",
+        "title": "Cadılar Bayramı Alnında Tahmin",
+        "body": "Arkadaşların Vampir ya da Mumya'yı canlandırırken telefonu alnında tut. Bildiğinde aşağı, pas için yukarı eğ.",
+        "best": "Kostüm partileri ve fotoğraflar için ideal"
+      },
+      {
+        "id": "imposter",
+        "title": "Perili Evde Casus",
+        "body": "Herkes aynı Cadılar Bayramı kelimesini görür, casusun kartı ise boştur. Herkes tek kelimelik ipucu verir, sonra oylama yapılır. Yakalanan casus kelimeyi bilirse yine kazanır.",
+        "best": "Blöfü seven 3 ile 12 oyuncu için ideal"
+      }
+    ],
+    "samplesTitle": "Ücretsiz Cadılar Bayramı destesinden örnek kartlar",
+    "samplesSubtitle": "Destedeki gerçek kartlar. Büyük kelimeyi anlat, alttaki dördünü asla söyleme.",
+    "hostTitle": "5 adımda Cadılar Bayramı oyun gecesi",
+    "hostSteps": [
+      {
+        "title": "Tadado'yu indir",
+        "body": "iPhone ve Android'de ücretsiz. Misafirler gelmeden kur."
+      },
+      {
+        "title": "Cadılar Bayramı destesini aç",
+        "body": "Etkinlik boyunca ana ekranda ilk sırada ve ücretsiz."
+      },
+      {
+        "title": "Bir mod seç",
+        "body": "Takımlar için Yasaklı Kelimeler, canlandırma için Alnında Tahmin, blöf için Casus."
+      },
+      {
+        "title": "Takımları ve süreyi ayarla",
+        "body": "Odayı ikiye böl, tur ve süre seç. Skoru Tadado tutar."
+      },
+      {
+        "title": "Telefonu dolaştır",
+        "body": "Tek telefon odada elden ele geçer. Daha fazla gerilim için ışıkları kıs."
+      }
+    ],
+    "ideasTitle": "Her zaman işe yarayan Cadılar Bayramı oyun fikirleri",
+    "ideas": [
+      {
+        "title": "Kostümlü Alnında Tahmin",
+        "body": "Telefonu tutan kostümüyle canlandırır. Grup sohbeti için ağır çekimde çekin."
+      },
+      {
+        "title": "Canavar Tabu turnuvası",
+        "body": "İki takım, üç tur; kaybedenler şekerleri dağıtır."
+      },
+      {
+        "title": "Işıklar kapalı Casus",
+        "body": "Casus'u mum ışığında oynayın. Karanlıkta blöf çok daha zor."
+      },
+      {
+        "title": "Kendi korku desten",
+        "body": "\"80'lerin korku filmleri\" gibi bir konu yaz, yapay zeka grubuna özel desteyi hazırlasın."
+      }
+    ],
+    "faqTitle": "Cadılar Bayramı parti oyunları: sorular",
+    "faq": [
+      {
+        "q": "Arkadaş grubu için en iyi Cadılar Bayramı oyunu hangisi?",
+        "a": "Hazırlık istemeyen ve herkesi konuşturan bir oyun. Tadado'nun ücretsiz Cadılar Bayramı destesiyle grup tek telefonda ürkütücü Tabu, Alnında Tahmin ya da Casus oynayabilir; oyun misafirler gelir gelmez başlar."
+      },
+      {
+        "q": "Tadado Cadılar Bayramı destesi ücretsiz mi?",
+        "a": "Evet. Cadılar Bayramı destesi 100 kelimesiyle tüm oyunculara ücretsiz. Reklam ve abonelik yok."
+      },
+      {
+        "q": "Kaç kişi oynayabilir?",
+        "a": "3 oyuncudan büyük partilere kadar. Tabu ve Alnında Tahmin odayı takımlara böler, Casus tek telefonda 3 ile 12 oyuncuyla oynanır."
+      },
+      {
+        "q": "Çocuklu ve aile partileri için uygun mu?",
+        "a": "Evet. Deste Balkabağı, Cadı, Hayalet ve Şeker mi şaka mı gibi Cadılar Bayramı klasikleri üzerine kurulu; aile akşamlarına da yetişkin partilerine de uyar."
+      },
+      {
+        "q": "Kart ya da ekstra telefon gerekiyor mu?",
+        "a": "Hayır. Her mod için tek telefon yeterli. Telefon elden ele geçer; süreyi, kartları ve skoru Tadado yönetir."
+      },
+      {
+        "q": "Cadılar Bayramı destesi hangi dilleri destekliyor?",
+        "a": "Cadılar Bayramı kelimeleri her kart dili için ayrı hazırlandı, sadece çevrilmedi. Uygulamanın kendisi 17 dilde."
+      }
+    ],
+    "ctaTitle": "Cadılar Bayramı partin ücretsiz başlıyor",
+    "ctaBody": "Tadado'yu indir, Cadılar Bayramı destesini aç ve ilk turunu bir dakikadan kısa sürede oyna.",
+    "ctaButton": "Tadado'yu Ücretsiz İndir",
+    "related": "Daha fazla parti oyunu fikri",
+    "seasonNote": "Uygulamadaki Cadılar Bayramı etkinliği 3 Kasım'a kadar sürüyor."
   }
 }

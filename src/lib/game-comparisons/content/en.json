@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "imposter-game",
     "game": "Imposter",
-    "tagline": "The viral hidden-word bluffing game vs a party game where everyone talks.",
+    "tagline": "The viral hidden-word game, now one of three modes inside Tadado.",
     "metaTitle": "Imposter Game vs Tadado: Which Party Game Wins Game Night?",
-    "metaDescription": "Love the Imposter word game? See how it compares with Tadado's Forbidden Words and Heads Up modes: one phone, no ads, AI decks and a free starter deck.",
+    "metaDescription": "Love the Imposter word game? Tadado has an Imposter mode plus Forbidden Words and Heads Up in one app: one phone, 3 to 12 players, no ads and a free starter deck.",
     "h1": "Imposter game vs Tadado",
-    "hook": "Imposter is all about suspicion. Tadado is all about shouting the answer before the timer runs out. Here is when each one makes the night.",
+    "hook": "Imposter is all about suspicion. Tadado now has its own Imposter mode, plus two fast guessing games for when the group wants to shout instead of scheme.",
     "about": [
       "Imposter (also called Who's the Spy or the impostor word game) went viral because it needs almost nothing: one phone is passed around, everyone secretly sees the same word except one player, and the group gives one-word hints until someone gets voted out as the impostor.",
-      "It is a bluffing game first. The fun comes from reading faces, defending yourself and the big reveal at the end of a round. That makes it brilliant for groups who love debate, and quieter for players who would rather be guessing and laughing every few seconds."
+      "Tadado's Imposter mode works the same way: pass one phone, everyone holds to see the secret word, and the imposter's card is blank. Each player says one clue word, the group votes, and a caught imposter can still win by guessing the word. It plays with 3 to 12 people and uses Tadado's decks, including the free Halloween deck."
     ],
     "pickThem": [
-      "Your group loves bluffing, accusing and dramatic reveals",
-      "You want a slow-burn round with lots of discussion",
-      "Everyone is happy to sit and talk rather than race a timer"
+      "You only ever want Imposter rounds and nothing else",
+      "Your group already loves a standalone Imposter app",
+      "You play with word lists written on paper"
     ],
     "pickTadado": [
-      "You want nonstop laughing with a new word every few seconds",
-      "Some friends are shy and prefer guessing to lying",
-      "You want two modes, Forbidden Words and Heads Up, in one app"
+      "You want Imposter, Forbidden Words and Heads Up in one app",
+      "You want themed and AI-made decks to pick the secret words from",
+      "You want to switch from bluffing to fast guessing without changing apps"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Hidden roles and bluffing",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Download Tadado and open the free Tadado Mix deck.",
-      "Pick Forbidden Words for teams or Heads Up for forehead guessing.",
-      "Want the Imposter vibe of inside jokes? Type your group's topic into the AI deck builder."
+      "Download Tadado and open Imposter from the mode menu.",
+      "Add 3 to 12 players and choose how many imposters to hide.",
+      "Pass the phone: everyone holds to see their role, then give one-word clues and vote."
     ],
     "faq": [
       {
         "q": "Does Tadado have an Imposter mode?",
-        "a": "No. Tadado has two modes: Forbidden Words (Taboo-style) and Heads Up. It is a fast guessing game rather than a hidden-role game, so it pairs well with Imposter on the same night."
+        "a": "Yes. Imposter is one of Tadado's three modes, next to Forbidden Words and Heads Up. Everyone except the imposter sees the secret word, each player gives a one-word clue, and the group votes."
       },
       {
         "q": "Which is better for big groups?",
-        "a": "Both work with one phone. Imposter rounds get longer as the group grows, while Tadado splits big groups into teams so everyone keeps playing every round."
+        "a": "Both work with one phone. Imposter in Tadado plays with 3 to 12 people; for bigger groups, switch to Forbidden Words or Heads Up and split into teams so everyone keeps playing."
       },
       {
         "q": "Is Tadado free like most Imposter apps?",
@@ -420,7 +420,7 @@
       },
       {
         "feature": "Hidden roles and bluffing",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -442,7 +442,7 @@
     "faq": [
       {
         "q": "Does Tadado have hidden roles?",
-        "a": "No. Tadado is a word guessing game with Forbidden Words and Heads Up modes. It is a different kind of fun from Werewolf, and the two work well together."
+        "a": "Partly. Tadado's Imposter mode is a hidden-role game: one player gets a blank card and has to bluff through the clue round. It has no moderator or night phases, so it is quicker than Werewolf and nobody sits out."
       },
       {
         "q": "Which is better for 4 players?",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Party Word Game | Taboo, Heads Up & AI Decks",
-    "description": "One phone. Your friends. Taboo, Heads Up, and AI custom decks built for game nights. Free to start. No ads. iOS and Android."
+    "title": "Tadado: Party Game App | Taboo, Heads Up, Imposter & AI Decks",
+    "description": "One phone. Your friends. Taboo, Heads Up, Imposter and AI custom decks built for game nights. Free to start. No ads. iOS and Android."
   },
   "nav": {
     "play": "Play",
@@ -17,17 +17,18 @@
     "compare": "Compare",
     "affiliate": "Affiliate",
     "team": "Team",
-    "download": "Download"
+    "download": "Download",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Party word game · ★ 5.0 on the App Store",
     "title": "One phone. Your friends. Let the chaos begin.",
-    "subtitle": "Taboo, Heads Up, and AI custom decks built for game nights.",
+    "subtitle": "Taboo, Heads Up, Imposter and AI custom decks built for game nights.",
     "ctaPrimary": "GET TADADO · FREE",
     "ctaSecondary": "SEE HOW IT WORKS",
     "metrics": [
       { "value": "300,000+", "label": "games played", "animate": true },
-      { "value": "2", "label": "game modes" },
+      { "value": "3", "label": "game modes" },
       { "value": "AI", "label": "powered" },
       { "value": "17", "label": "languages" },
       { "value": "7+", "label": "game decks", "href": "#decks" },
@@ -37,7 +38,7 @@
   },
   "proof": {
     "players": "300,000+ games played",
-    "modes": "2 game modes",
+    "modes": "3 game modes",
     "ai": "AI-powered",
     "languages": "17 languages",
     "offline": "Play offline",
@@ -49,8 +50,8 @@
     "developer": "Built by Tadado Game Development",
     "items": [
       {
-        "title": "Two modes, one app",
-        "body": "Switch between Forbidden Words and Heads Up without downloading twice. Same decks, different energy every round."
+        "title": "Three modes, one app",
+        "body": "Switch between Forbidden Words, Heads Up and Imposter without downloading anything else. Same decks, different energy every round."
       },
       {
         "title": "AI decks in seconds",
@@ -69,7 +70,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "games played worldwide",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "game modes",
     "languages": "17",
     "languagesLabel": "languages in app",
@@ -129,8 +130,8 @@
     ]
   },
   "modes": {
-    "title": "Two ways to play",
-    "subtitle": "Classic Taboo-style forbidden words or forehead Heads Up. Same decks, different energy.",
+    "title": "Three ways to play",
+    "subtitle": "Taboo-style Forbidden Words, forehead Heads Up, or find the Imposter. One phone, three kinds of chaos.",
     "tabooTitle": "Forbidden Words",
     "tabooBody": "Describe the main word, take bigger risks, and grow your score. Harder words unlock higher multipliers, from ×2 to ×5.",
     "headsUpTitle": "Heads Up",
@@ -141,8 +142,11 @@
       "landscapeGameplay": "Landscape gameplay",
       "buildScoreTitle": "Build your score",
       "buildScoreBody": "Take on harder words to grow your multiplier and turn every correct answer into a bigger score.",
-      "scoreMultipliersAria": "Score multipliers: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Score multipliers: 2x, 3x, 5x",
+      "passGameplay": "Pass-the-phone gameplay"
+    },
+    "imposterTitle": "Imposter",
+    "imposterBody": "One of you doesn't know the word. Everyone else sees it, says one clue word each, and votes to find the imposter before they blend in."
   },
   "gamePreview": {
     "timeLeft": "42 seconds left",
@@ -162,7 +166,13 @@
     "continue": "Continue",
     "pauseGame": "Pause game",
     "teamA": "TEAM A",
-    "teamB": "TEAM B"
+    "teamB": "TEAM B",
+    "imposterTitle": "Imposter",
+    "imposterPassTo": "Pass the phone to {name}",
+    "imposterPlayer": "Emma",
+    "imposterLookAway": "Everyone else, look away.",
+    "imposterAgent": "AGENT #01",
+    "imposterHold": "Press and hold to see your role"
   },
   "a11y": {
     "openMenu": "Open menu",
@@ -328,7 +338,7 @@
     "faqTitle": "{game} vs Tadado: questions",
     "relatedTitle": "Compare more games",
     "ctaTitle": "Your next game night starts free",
-    "ctaBody": "Download Tadado, open the free Tadado Mix deck and play Forbidden Words or Heads Up in seconds. One phone is enough.",
+    "ctaBody": "Download Tadado, open a free deck and play Forbidden Words, Heads Up or Imposter in seconds. One phone is enough.",
     "ctaButton": "Download Tadado free",
     "freeNote": "Free download · No ads · No subscription",
     "disclaimer": "{game} is mentioned only to describe a well-known game or format. All trademarks belong to their respective owners, and Tadado is not affiliated with or endorsed by them. Notes about {game} describe the classic format and typical versions; individual apps and editions can differ, so check each store listing."
@@ -341,31 +351,57 @@
     "cta": "Explore the deck"
   },
   "halloween": {
-    "heroPill": "Halloween season: free deck + new Imposter mode",
-    "tag": "Halloween season",
-    "title": "Halloween night, Tadado style",
-    "body": "Two new reasons to get the group together before the lights go out.",
-    "deckTitle": "Free Halloween deck",
-    "deckBody": "Monsters, witches and horror classics. Free for everyone, no purchase needed.",
-    "imposterTitle": "New mode: Imposter",
-    "imposterBody": "Everyone gets the secret word except one player. Find the imposter before they blend in.",
-    "cta": "Play free tonight",
-    "guideCta": "Halloween game ideas",
-    "note": "The Halloween season runs until November 3.",
+    "heroPill": "New: free Halloween deck + Imposter mode",
+    "tag": "Halloween Event",
+    "title": "Halloween Night, Tadado Style",
+    "body": "A free deck of 100 spooky words and a brand-new bluffing mode. Everything you need before the lights go out.",
+    "deckTitle": "Free Halloween Deck",
+    "deckBody": "100 spooky words: monsters, witches and horror classics. Free for everyone, no purchase needed.",
+    "imposterTitle": "New Mode: Imposter",
+    "imposterBody": "Everyone sees the secret word except one player. Give clues, then vote out the imposter.",
+    "cta": "Play Free Tonight",
+    "guideCta": "Halloween Party Guide",
+    "note": "The Halloween event runs until November 3.",
     "card": {
-      "deck": "Halloween deck",
+      "deck": "Halloween",
       "free": "Free",
-      "word": "Vampire",
+      "word": "Werewolf",
       "forbidden": [
-        "Blood",
-        "Bite",
-        "Dracula",
-        "Night"
+        "Full moon",
+        "Howl",
+        "Fur",
+        "Transform"
       ],
       "imposterLabel": "Imposter",
       "imposterRole": "You're the imposter",
-      "imposterHint": "Blend in. Don't get caught."
-    }
+      "imposterHint": "Blend in. Don't get caught.",
+      "deckDesc": "Spooky words for a night full of laughs!",
+      "play": "Play",
+      "newBadge": "New",
+      "headsUpWord": "Vampire",
+      "round": "Round 1/4"
+    },
+    "eyebrow": "Halloween Party Games",
+    "heroTitle": "3 party games.",
+    "heroTitleAccent": "One phone.",
+    "heroSubtitle": "Play with friends, family and your whole crew. Free Halloween deck inside.",
+    "heroSecondary": "See the Halloween deck",
+    "mascotBadge": "decks on any topic",
+    "headsUpTitle": "Heads Up, Halloween Edition",
+    "headsUpBody": "Phone on your forehead, monsters on the screen. Tilt down when you guess it.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "spooky words"
+      },
+      { "value": "3", "label": "game modes" },
+      {
+        "value": "Free",
+        "label": "for everyone"
+      }
+    ],
+    "metaTitle": "Tadado: Halloween Party Games | Taboo, Heads Up & Imposter",
+    "metaDescription": "Free Halloween party games on one phone: a spooky Taboo deck with 100 words, Heads Up and the new Imposter mode. No ads, no subscription. iOS and Android."
   },
   "trust": {
     "eyebrow": "Made for you",
@@ -397,7 +433,7 @@
     "countBadge": "8 game decks",
     "free": "Free",
     "play": "PLAY",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
@@ -453,33 +489,33 @@
     "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 AI deck creations — build custom decks from any topic."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 AI deck creations — build custom decks from any topic."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 AI deck creations for regular game nights.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 AI deck creations for regular game nights.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 AI deck creations for hosts who never run out of ideas."
+        "desc": "40 AI deck creations for hosts who never run out of ideas."
       }
     ],
     "decksSectionTitle": "Premium decks",
     "singleDeck": {
       "name": "Single premium deck",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "One-time purchase per themed deck. Summer, Cinema, Travel, Sport, Heroes & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Every premium themed deck plus 100 AI deck creations, unlocked with one purchase.",
-      "aiCredits": "100 AI deck creations included",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
     }
   },
@@ -492,7 +528,7 @@
       },
       {
         "title": "Pick a mode",
-        "body": "Forbidden Words for teams or Heads Up for forehead fun."
+        "body": "Forbidden Words for teams, Heads Up for forehead fun, or Imposter for bluffing."
       },
       {
         "title": "Pass the phone & play",
@@ -506,7 +542,7 @@
     "metrics": [
       { "value": "300,000+", "label": "games played", "animate": true },
       { "value": "17", "label": "languages" },
-      { "value": "2", "label": "game modes" }
+      { "value": "3", "label": "game modes" }
     ],
     "languagesTitle": "Supported languages",
     "languagesCaption": "The app, decks, and store work in all 17 languages. Use the language menu in the header to switch.",
@@ -567,7 +603,7 @@
     "topics": [
       {
         "title": "FAQ & how to play",
-        "body": "Rules for Forbidden Words and Heads Up, pricing, and offline play.",
+        "body": "Rules for Forbidden Words, Heads Up and Imposter, pricing, and offline play.",
         "cta": "Open FAQ",
         "kind": "faq"
       },
@@ -595,12 +631,12 @@
     "title": "Marketing & press",
     "subtitle": "Creator campaigns, brand decks, and press assets for Tadado.",
     "back": "Back to Tadado",
-    "intro": "Tadado is a party word game for real groups—Taboo-style Forbidden Words and Heads Up on one phone, no ads, no subscription. If you are planning content, a collab, or coverage, start here.",
+    "intro": "Tadado is a party game app for real groups: Taboo-style Forbidden Words, Heads Up and Imposter on one phone, no ads, no subscription. If you are planning content, a collab, or coverage, start here.",
     "statsLabel": "At a glance",
     "stats": [
       { "value": "300,000+", "label": "games played" },
       { "value": "17", "label": "languages" },
-      { "value": "2", "label": "game modes" }
+      { "value": "3", "label": "game modes" }
     ],
     "pillars": [
       {
@@ -674,8 +710,16 @@
         "a": "Hold the phone on your forehead so you cannot see the word. Friends give clues without saying the word. Tilt down when you guess correctly, tilt up to skip. Tadado uses the same decks in Heads Up and Taboo modes."
       },
       {
-        "q": "Is Tadado one of the best free word game apps?",
-        "a": "Tadado is built for game night: Taboo, Heads Up charades, free Tadado Mix, optional themed decks, and AI deck creation. No ads and no subscription, which makes it one of the best value word game apps on iOS and Android."
+        "q": "How do you play Imposter in Tadado?",
+        "a": "Pass one phone around. Everyone sees the same secret word except the imposter, whose card is blank. Take turns saying one clue word, then vote on who the imposter is. If caught, the imposter can still win by guessing the word."
+      },
+      {
+        "q": "What is a good Halloween party game for a group?",
+        "a": "Tadado works well for Halloween parties: the free Halloween deck has 100 spooky words like Werewolf, Witch and Haunted house, and you can play it as Taboo-style Forbidden Words, Heads Up or Imposter on one phone. No cards, no setup, no ads."
+      },
+      {
+        "q": "Is Tadado one of the best free party game apps?",
+        "a": "Tadado is built for game night: Taboo-style Forbidden Words, Heads Up charades, the Imposter bluffing game, free decks, optional themed decks and AI deck creation. No ads and no subscription, which makes it one of the best value party game apps on iOS and Android."
       },
       {
         "q": "Is Tadado free?",
@@ -691,7 +735,7 @@
       },
       {
         "q": "How does AI deck creation work?",
-        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for both game modes."
+        "a": "Write a topic, like \"Marvel movies\" or \"90s pop hits\", and Tadado generates a playable deck in seconds for Forbidden Words and Heads Up."
       },
       {
         "q": "What languages are supported?",
@@ -710,7 +754,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in one app",
+        "feature": "Taboo, Heads Up and Imposter in one app",
         "tadado": "yes",
         "others": "no"
       },
@@ -750,7 +794,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with both modes, a free starter deck, and pay-once extras.",
+    "note": "Many apps focus on one mode, show ads, or lock content behind subscriptions. Tadado is built for real game nights with three modes, a free starter deck, and pay-once extras.",
     "cta": "Download Tadado free",
     "viewFull": "Open full comparison page"
   },
@@ -841,5 +885,138 @@
     "home": "Home",
     "popularAlternatives": "Popular alternative guides",
     "alternativesHub": "Alternatives"
+  },
+  "halloweenPage": {
+    "metaTitle": "Halloween Party Games for Groups: Free on One Phone | Tadado",
+    "metaDescription": "The easiest Halloween party games for friends and family: spooky Taboo, Heads Up and Imposter on one phone with a free 100-word Halloween deck. No cards, no ads.",
+    "breadcrumb": "Halloween party games",
+    "eyebrow": "Halloween Party Games",
+    "h1": "Halloween Party Games on One Phone",
+    "answer": "The easiest Halloween party game for a group is one that needs no cards and no setup. Tadado turns one phone into three Halloween games: spooky Taboo (Forbidden Words), Heads Up and Imposter, all with a free deck of 100 Halloween words. It works for 3 to 20+ players, friends, families and office parties.",
+    "factsTitle": "At a glance",
+    "facts": [
+      {
+        "label": "Players",
+        "value": "3 to 20+"
+      },
+      {
+        "label": "You need",
+        "value": "One phone"
+      },
+      {
+        "label": "Halloween deck",
+        "value": "100 words, free"
+      },
+      {
+        "label": "Game modes",
+        "value": "Taboo, Heads Up, Imposter"
+      },
+      {
+        "label": "Setup",
+        "value": "Under a minute"
+      },
+      {
+        "label": "Ads",
+        "value": "None"
+      }
+    ],
+    "modesTitle": "Three Halloween games in one app",
+    "modesSubtitle": "Pick the mode that fits the room. Every one uses the same free Halloween deck.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Spooky Taboo",
+        "body": "Describe Werewolf without saying Full moon, Howl, Fur or Transform. Teams race the timer and harder words score more.",
+        "best": "Best for 4+ players in two teams"
+      },
+      {
+        "id": "headsup",
+        "title": "Halloween Heads Up",
+        "body": "Hold the phone on your forehead while friends act out Vampire or Mummy. Tilt down when you get it, up to skip.",
+        "best": "Best for costume parties and photos"
+      },
+      {
+        "id": "imposter",
+        "title": "Imposter at the Haunted House",
+        "body": "Everyone sees the same Halloween word except the imposter, whose card is blank. Say one clue word each, then vote. A caught imposter can still win by guessing the word.",
+        "best": "Best for 3 to 12 players who love bluffing"
+      }
+    ],
+    "samplesTitle": "Sample cards from the free Halloween deck",
+    "samplesSubtitle": "Real cards from the deck. Describe the big word, never say the four below it.",
+    "hostTitle": "How to host a Halloween game night in 5 steps",
+    "hostSteps": [
+      {
+        "title": "Download Tadado",
+        "body": "Free on iPhone and Android. Install it before the guests arrive."
+      },
+      {
+        "title": "Open the Halloween deck",
+        "body": "It sits first on the home screen while the event runs and costs nothing."
+      },
+      {
+        "title": "Pick a mode",
+        "body": "Forbidden Words for teams, Heads Up for acting, Imposter for bluffing."
+      },
+      {
+        "title": "Set teams and the timer",
+        "body": "Split the room, choose rounds and a timer. Tadado keeps the score."
+      },
+      {
+        "title": "Pass the phone",
+        "body": "One phone moves around the room. Turn the lights down for extra drama."
+      }
+    ],
+    "ideasTitle": "Halloween party game ideas that always work",
+    "ideas": [
+      {
+        "title": "Costume Heads Up",
+        "body": "Whoever holds the phone acts in costume. Film it in slow motion for the group chat."
+      },
+      {
+        "title": "Monster Taboo tournament",
+        "body": "Two teams, three rounds, losers hand out the candy."
+      },
+      {
+        "title": "Lights-off Imposter",
+        "body": "Play Imposter by candlelight. Bluffing gets a lot harder in the dark."
+      },
+      {
+        "title": "Your own horror deck",
+        "body": "Type a topic like \"80s horror movies\" and let AI build a deck for your group."
+      }
+    ],
+    "faqTitle": "Halloween party games: questions",
+    "faq": [
+      {
+        "q": "What is the best Halloween game for a group of friends?",
+        "a": "A game that needs no prep and gets everyone talking. Tadado's free Halloween deck lets a group play spooky Taboo, Heads Up or Imposter on one phone, so the game starts as soon as people arrive."
+      },
+      {
+        "q": "Is the Tadado Halloween deck free?",
+        "a": "Yes. The Halloween deck is free for every player, with 100 Halloween words. There are no ads and no subscription."
+      },
+      {
+        "q": "How many people can play?",
+        "a": "From 3 players up to big parties. Taboo and Heads Up split the room into teams, and Imposter takes 3 to 12 players on one phone."
+      },
+      {
+        "q": "Is it good for kids and family Halloween parties?",
+        "a": "Yes. The deck is built around Halloween classics like Pumpkin, Witch, Ghost and Trick or treat, so it suits family nights as well as adult parties."
+      },
+      {
+        "q": "Do we need cards or extra phones?",
+        "a": "No. One phone is enough for every mode. The phone is passed around and Tadado handles the timer, the cards and the score."
+      },
+      {
+        "q": "Which languages does the Halloween deck support?",
+        "a": "The Halloween words are localized for each card language, not just translated, and the app itself is available in 17 languages."
+      }
+    ],
+    "ctaTitle": "Your Halloween party starts free",
+    "ctaBody": "Download Tadado, open the Halloween deck and play your first round in under a minute.",
+    "ctaButton": "Get Tadado Free",
+    "related": "More party game ideas",
+    "seasonNote": "The Halloween event in the app runs until November 3."
   }
 }

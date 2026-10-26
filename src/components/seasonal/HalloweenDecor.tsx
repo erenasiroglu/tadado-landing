@@ -46,6 +46,7 @@ function Web({ className }: { className?: string }) {
 }
 
 function Moon({ className, idSuffix }: { className?: string; idSuffix: string }) {
+  if (idSuffix === "night") return <NightMoon className={className} />;
   return (
     <svg viewBox="0 0 200 200" className={className} aria-hidden focusable="false">
       <defs>
@@ -67,9 +68,32 @@ function Moon({ className, idSuffix }: { className?: string; idSuffix: string })
   );
 }
 
+/** Pale lavender full moon from the app's Halloween event art. */
+function NightMoon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 200 200" className={className} aria-hidden focusable="false">
+      <defs>
+        <radialGradient id="hw-moon-glow-night" cx="50%" cy="50%" r="50%">
+          <stop offset="48%" stopColor="#C4B5FD" stopOpacity="0.32" />
+          <stop offset="100%" stopColor="#C4B5FD" stopOpacity="0" />
+        </radialGradient>
+        <radialGradient id="hw-moon-face-night" cx="40%" cy="36%" r="72%">
+          <stop offset="0%" stopColor="#FBF8FF" />
+          <stop offset="100%" stopColor="#D9CCFA" />
+        </radialGradient>
+      </defs>
+      <circle cx="100" cy="100" r="100" fill="url(#hw-moon-glow-night)" />
+      <circle cx="100" cy="100" r="58" fill="url(#hw-moon-face-night)" />
+      <circle cx="122" cy="84" r="11" fill="#B9A6EE" opacity="0.4" />
+      <circle cx="86" cy="118" r="8" fill="#B9A6EE" opacity="0.35" />
+      <circle cx="112" cy="126" r="5" fill="#B9A6EE" opacity="0.35" />
+    </svg>
+  );
+}
+
 interface HalloweenDecorProps {
-  /** `light` sits on the white hero, `dark` on the midnight event card. */
-  tone: "light" | "dark";
+  /** `light` sits on a white band, `dark` on the midnight event card, `night` on the full-bleed hero. */
+  tone: "light" | "dark" | "night";
   className?: string;
 }
 
@@ -84,6 +108,7 @@ export function HalloweenDecor({ tone, className }: HalloweenDecorProps) {
       aria-hidden
     >
       <Web className="halloween-decor__web" />
+      {tone === "night" ? <Web className="halloween-decor__web halloween-decor__web--end" /> : null}
       <Moon className="halloween-decor__moon" idSuffix={tone} />
       <Bat className="halloween-decor__bat halloween-decor__bat--1" style={{ "--bat": 0 } as React.CSSProperties} />
       <Bat className="halloween-decor__bat halloween-decor__bat--2" style={{ "--bat": 1 } as React.CSSProperties} />

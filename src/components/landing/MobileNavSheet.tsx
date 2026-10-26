@@ -15,6 +15,7 @@ import {
 import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { isHalloweenSeason } from "@/lib/season";
 import { cn } from "@/lib/utils";
 
 interface MobileNavSheetProps {
@@ -71,6 +72,9 @@ function MobileNavLink({ href, label, isPage }: NavItem) {
 
 export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
   const playLinks: NavItem[] = [
+    ...(isHalloweenSeason()
+      ? [{ href: localeHref(locale, "halloween"), label: dict.nav.halloween, isPage: true }]
+      : []),
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
     { href: homeHref(locale, "#community"), label: dict.nav.community },

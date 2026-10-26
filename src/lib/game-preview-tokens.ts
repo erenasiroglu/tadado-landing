@@ -1,6 +1,6 @@
 import {
   ACTION_VARIANTS,
-  CLASSIC_GAME_SCREEN,
+  ACTIVE_GAME_SCREEN,
   GLASS,
   homeScreenGradient,
   PHONE_LANDSCAPE_RATIO,
@@ -9,6 +9,7 @@ import {
 } from "@/lib/design-tokens";
 import type { Dictionary } from "@/lib/i18n-types";
 import type { Locale } from "@/lib/i18n-config";
+import { isHalloweenSeason } from "@/lib/season";
 
 export type GamePreviewLabels = Dictionary["gamePreview"];
 
@@ -23,16 +24,19 @@ export {
 export const GAME_SCREEN_REFERENCE_WIDTH = 390;
 
 export const FORBIDDEN_WORDS_STYLE = {
-  screenBg: CLASSIC_GAME_SCREEN.background,
-  cardBg: CLASSIC_GAME_SCREEN.cardBg,
-  wordBg: CLASSIC_GAME_SCREEN.wordBg,
-  wordText: CLASSIC_GAME_SCREEN.wordText,
-  forbiddenWordBg: CLASSIC_GAME_SCREEN.forbiddenWordBg,
-  forbiddenWordText: CLASSIC_GAME_SCREEN.forbiddenWordText,
-  teamColor: CLASSIC_GAME_SCREEN.teamNameText,
-  timerGradient: CLASSIC_GAME_SCREEN.timerGradient,
-  timerText: CLASSIC_GAME_SCREEN.timerText,
-  cardProgressText: CLASSIC_GAME_SCREEN.cardProgressText,
+  screenBg: ACTIVE_GAME_SCREEN.background,
+  cardBg: ACTIVE_GAME_SCREEN.cardBg,
+  cardBorder: ACTIVE_GAME_SCREEN.cardBorder,
+  wordBg: ACTIVE_GAME_SCREEN.wordBg,
+  wordText: ACTIVE_GAME_SCREEN.wordText,
+  forbiddenWordBg: ACTIVE_GAME_SCREEN.forbiddenWordBg,
+  forbiddenWordBorder: ACTIVE_GAME_SCREEN.forbiddenWordBorder,
+  forbiddenWordText: ACTIVE_GAME_SCREEN.forbiddenWordText,
+  forbiddenUppercase: ACTIVE_GAME_SCREEN.forbiddenUppercase,
+  teamColor: ACTIVE_GAME_SCREEN.teamNameText,
+  timerGradient: ACTIVE_GAME_SCREEN.timerGradient,
+  timerText: ACTIVE_GAME_SCREEN.timerText,
+  cardProgressText: ACTIVE_GAME_SCREEN.cardProgressText,
   pointsChip: {
     accent: "#C4B5FD",
     background: "rgba(196, 181, 253, 0.12)",
@@ -86,15 +90,22 @@ export interface HeadsUpPreviewSample {
   word: string;
 }
 
-export const HERO_TABOO_SAMPLES: readonly TabooPreviewSample[] = [
-  { word: "SPIDER MAN", forbidden: ["MARVEL", "IRON MAN", "HERO", "SPIDER"] },
-  { word: "OBSESSION", forbidden: ["NETFLIX", "DRAMA", "SERIES", "STREAMING"] },
-];
+const HALLOWEEN = isHalloweenSeason();
 
-export const HERO_HEADS_UP_SAMPLES: readonly HeadsUpPreviewSample[] = [
-  { word: "BARCELONA" },
-  { word: "THE ODYSSEY" },
-];
+/** Words from the free Halloween deck while the season runs, trending words otherwise. */
+export const HERO_TABOO_SAMPLES: readonly TabooPreviewSample[] = HALLOWEEN
+  ? [
+      { word: "WEREWOLF", forbidden: ["Full moon", "Wolf", "Howl", "Hairy"] },
+      { word: "VAMPIRE", forbidden: ["Blood", "Bite", "Dracula", "Night"] },
+    ]
+  : [
+      { word: "SPIDER MAN", forbidden: ["MARVEL", "IRON MAN", "HERO", "SPIDER"] },
+      { word: "OBSESSION", forbidden: ["NETFLIX", "DRAMA", "SERIES", "STREAMING"] },
+    ];
+
+export const HERO_HEADS_UP_SAMPLES: readonly HeadsUpPreviewSample[] = HALLOWEEN
+  ? [{ word: "VAMPIRE" }, { word: "PUMPKIN" }]
+  : [{ word: "BARCELONA" }, { word: "THE ODYSSEY" }];
 
 export const TURN_SUMMARY_STYLE = {
   backgroundGradient: ["#3D1F58", "#2A0A3B", "#1A0F28"] as const,

@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "jeu-de-l-imposteur",
     "game": "Jeu de l'imposteur",
-    "tagline": "Le jeu viral de bluff au mot secret face à un jeu où tout le monde parle.",
+    "tagline": "Le jeu viral du mot caché, désormais l'un des trois modes de Tadado.",
     "metaTitle": "Jeu de l'imposteur vs Tadado : lequel gagne la soirée ?",
-    "metaDescription": "Fan du jeu de l'imposteur ? Comparez-le aux modes Mots interdits et Heads Up de Tadado : un seul téléphone, sans pub, decks IA et deck de départ gratuit.",
+    "metaDescription": "Fan du jeu de l'imposteur ? Tadado propose un mode Imposteur, Mots interdits et Heads Up dans une appli : un téléphone, de 3 à 12 joueurs, sans pub et avec un deck de départ gratuit.",
     "h1": "Jeu de l'imposteur face à Tadado",
-    "hook": "L'imposteur, c'est le soupçon. Tadado, c'est crier la réponse avant la fin du chrono. Voici lequel sauvera votre soirée.",
+    "hook": "Le jeu de l'imposteur, c'est la méfiance. Tadado a désormais son propre mode Imposteur, plus deux jeux de devinettes rapides quand le groupe préfère crier plutôt que comploter.",
     "about": [
       "Le jeu de l'imposteur est devenu viral parce qu'il ne demande presque rien : un téléphone passe de main en main, tout le monde voit le même mot sauf un joueur, puis chacun donne un indice d'un mot avant de voter pour démasquer l'imposteur.",
-      "C'est avant tout un jeu de bluff. Le plaisir vient de la lecture des visages, de la défense et de la grande révélation. Idéal pour les groupes qui aiment débattre, plus calme pour ceux qui préfèrent deviner et rire toutes les trois secondes."
+      "Le mode Imposteur de Tadado fonctionne pareil : on se passe un téléphone, chacun maintient appuyé pour voir le mot secret et la carte de l'imposteur est vide. Chaque joueur donne un indice d'un mot, le groupe vote et un imposteur démasqué peut encore gagner en devinant le mot. Il se joue de 3 à 12 avec les decks Tadado, dont le deck Halloween gratuit."
     ],
     "pickThem": [
-      "Votre groupe adore bluffer, accuser et les révélations dramatiques",
-      "Vous voulez des manches lentes avec beaucoup de discussion",
-      "Tout le monde préfère discuter plutôt que courir contre le chrono"
+      "Vous ne voulez que des manches d'imposteur",
+      "Votre groupe adore déjà une appli d'imposteur dédiée",
+      "Vous jouez avec des listes de mots écrites sur papier"
     ],
     "pickTadado": [
-      "Vous voulez rire sans arrêt avec un nouveau mot toutes les quelques secondes",
-      "Certains amis sont timides et préfèrent deviner que mentir",
-      "Vous voulez Mots interdits (style Taboo) et Heads Up dans une seule appli"
+      "Vous voulez Imposteur, Mots interdits et Heads Up dans une seule appli",
+      "Vous voulez piocher les mots secrets dans des decks thématiques ou créés par IA",
+      "Vous voulez passer du bluff aux devinettes rapides sans changer d'appli"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Rôles cachés et bluff",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Téléchargez Tadado et ouvrez le deck gratuit Tadado Mix.",
-      "Choisissez Mots interdits en équipes ou Heads Up, le téléphone sur le front.",
-      "Les blagues internes de l'imposteur vous manquent ? Tapez le thème de votre groupe dans le créateur de decks IA."
+      "Téléchargez Tadado et ouvrez Imposteur dans le menu des modes.",
+      "Ajoutez de 3 à 12 joueurs et choisissez le nombre d'imposteurs.",
+      "Faites passer le téléphone : chacun maintient appuyé pour voir son rôle, puis indices d'un mot et vote."
     ],
     "faq": [
       {
         "q": "Tadado a-t-il un mode imposteur ?",
-        "a": "Non. Tadado propose deux modes : Mots interdits (style Taboo) et Heads Up. C'est un jeu de devinettes rapide, pas un jeu à rôles cachés, donc il se marie très bien avec l'imposteur dans la même soirée."
+        "a": "Oui. Imposteur est l'un des trois modes de Tadado, avec Mots interdits et Heads Up. Tout le monde sauf l'imposteur voit le mot secret, chacun donne un indice d'un mot et le groupe vote."
       },
       {
         "q": "Lequel est le meilleur pour un grand groupe ?",
-        "a": "Les deux se jouent avec un téléphone. Les manches de l'imposteur s'allongent avec le nombre de joueurs ; Tadado répartit le groupe en équipes et tout le monde joue à chaque manche."
+        "a": "Les deux se jouent sur un téléphone. L'Imposteur de Tadado se joue de 3 à 12 ; pour les grands groupes, passez à Mots interdits ou Heads Up en équipes pour que tout le monde joue."
       },
       {
         "q": "Tadado est-il gratuit comme beaucoup d'applis d'imposteur ?",
@@ -270,7 +270,7 @@
       },
       {
         "feature": "Rôles cachés et bluff",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -292,7 +292,7 @@
     "faq": [
       {
         "q": "Tadado a-t-il des rôles cachés ?",
-        "a": "Non. Tadado est un jeu de devinettes avec les modes Mots interdits et Heads Up. C'est un plaisir différent des Loups-Garous, et les deux se complètent bien."
+        "a": "En partie. Le mode Imposteur de Tadado est un jeu à rôle caché : un joueur reçoit une carte vide et doit bluffer pendant la manche d'indices. Sans meneur ni phase de nuit, c'est plus rapide que les Loups-Garous et personne n'est éliminé."
       },
       {
         "q": "Lequel choisir à 4 joueurs ?",

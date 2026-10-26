@@ -9,6 +9,7 @@ import {
   gameScreenPreviewScale,
   getGameScreenPreviewMetrics,
 } from "@/lib/game-preview-tokens";
+import { cn } from "@/lib/utils";
 
 const defaultLabels: GamePreviewLabels = {
   timeLeft: FORBIDDEN_WORDS_PREVIEW.timeLeft,
@@ -29,6 +30,12 @@ const defaultLabels: GamePreviewLabels = {
   pauseGame: "",
   teamA: FORBIDDEN_WORDS_PREVIEW.teamName,
   teamB: "TEAM B",
+  imposterTitle: "",
+  imposterPassTo: "",
+  imposterPlayer: "",
+  imposterLookAway: "",
+  imposterAgent: "",
+  imposterHold: "",
 };
 const FORBIDDEN_WORD_COUNT = 4;
 
@@ -316,6 +323,7 @@ export function ForbiddenWordsPreview({
               style={{
                 borderRadius: m.cardRadius,
                 backgroundColor: t.cardBg,
+                border: `1px solid ${t.cardBorder}`,
                 padding: `${m.cardPadTop}px ${m.cardPadH}px ${m.cardPadBottom}px`,
               }}
             >
@@ -363,6 +371,7 @@ export function ForbiddenWordsPreview({
                       padding: `${m.forbiddenPadV}px ${m.forbiddenPadH}px`,
                       borderRadius: m.forbiddenRadius,
                       backgroundColor: t.forbiddenWordBg,
+                      border: `1px solid ${t.forbiddenWordBorder}`,
                       minHeight: forbiddenRowMinHeight,
                     }}
                   >
@@ -377,7 +386,7 @@ export function ForbiddenWordsPreview({
                       />
                     ) : (
                       <span
-                        className="w-full font-bold uppercase"
+                        className={cn("w-full font-bold", t.forbiddenUppercase && "uppercase")}
                         style={{
                           color: t.forbiddenWordText,
                           fontSize: m.forbiddenFontSize,

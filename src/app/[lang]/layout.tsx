@@ -8,6 +8,7 @@ import { AttributionProvider } from "@/components/analytics/AttributionProvider"
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { hasLocale, isRtlLocale, LOCALES, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
+import { isHalloweenSeason } from "@/lib/season";
 import { buildPageMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -32,7 +33,11 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return buildPageMetadata(lang, dict);
+  // Home page title follows the season so Halloween searches land on the themed page.
+  const meta = isHalloweenSeason()
+    ? { title: dict.halloween.metaTitle, description: dict.halloween.metaDescription }
+    : dict.meta;
+  return buildPageMetadata(lang, { ...dict, meta });
 }
 
 /** Root layout per locale so `<html lang>` and `dir` match the page language. */
@@ -53,7 +58,12 @@ export default async function LangLayout({
       data-scroll-behavior="smooth"
       className={cn("h-full antialiased", poppins.variable)}
     >
-      <body className="flex min-h-full flex-col bg-paper font-sans text-foreground antialiased">
+      <body
+        className={cn(
+          "flex min-h-full flex-col bg-paper font-sans text-foreground antialiased",
+          isHalloweenSeason() && "season-halloween",
+        )}
+      >
         <AnalyticsScripts />
         <AttributionProvider />
         <MotionProvider>

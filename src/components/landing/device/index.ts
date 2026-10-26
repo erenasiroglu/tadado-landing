@@ -7,3 +7,4 @@ export { HeadsUpScreen } from "./HeadsUpScreen";
 export { LandscapeGameDevice } from "./LandscapeGameDevice";
 export { ModeDeviceStage } from "./ModeDeviceStage";
 export { PortraitGameDevice } from "./PortraitGameDevice";
+export { ImposterScreen } from "./ImposterScreen";

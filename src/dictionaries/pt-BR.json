@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Jogo de palavras para festa | Taboo, Heads Up e baralhos IA",
-    "description": "Um celular. Seus amigos. Taboo, Heads Up e baralhos IA feitos para noites de jogo. Grátis para começar. Sem anúncios. iOS e Android."
+    "title": "Tadado: jogo de festa | Tabu, Heads Up, Impostor e baralhos com IA",
+    "description": "Um celular. Seus amigos. Tabu, Heads Up, Impostor e baralhos com IA para noites de jogos. Grátis para começar, sem anúncios nem assinatura. iOS e Android."
   },
   "nav": {
     "play": "Jogar",
@@ -17,12 +17,13 @@
     "compare": "Comparar",
     "affiliate": "Afiliados",
     "team": "Equipe",
-    "download": "Baixar"
+    "download": "Baixar",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Jogo de palavras para festas · ★ 5.0 na App Store",
     "title": "Um celular. Seus amigos. Deixa o caos começar.",
-    "subtitle": "Taboo, Heads Up e baralhos IA personalizados feitos para noites de jogo.",
+    "subtitle": "Tabu, Heads Up, Impostor e baralhos personalizados com IA para noites de jogos.",
     "ctaPrimary": "BAIXE O TADADO · GRÁTIS",
     "ctaSecondary": "VEJA COMO FUNCIONA",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modos de jogo"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300.000+ partidas jogadas",
-    "modes": "2 modos de jogo",
+    "modes": "3 modos de jogo",
     "ai": "Com IA",
     "languages": "17 idiomas",
     "offline": "Jogue offline",
@@ -72,8 +73,8 @@
     "developer": "Desenvolvido por Tadado Game Development",
     "items": [
       {
-        "title": "Dois modos, um app",
-        "body": "Alterne entre Palavras Proibidas e Heads Up sem baixar duas vezes. Mesmos baralhos, energia diferente a cada rodada."
+        "title": "Três modos, um app",
+        "body": "Alterne entre Palavras Proibidas, Heads Up e Impostor sem baixar mais nada. Os mesmos baralhos, uma energia diferente a cada rodada."
       },
       {
         "title": "Baralhos IA em segundos",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "partidas jogadas no mundo",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "modos de jogo",
     "languages": "17",
     "languagesLabel": "idiomas no app",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Duas formas de jogar",
-    "subtitle": "Taboo clássico com palavras proibidas ou Heads Up na testa. Mesmos baralhos, energia diferente.",
+    "title": "Três jeitos de jogar",
+    "subtitle": "Palavras Proibidas estilo Tabu, Heads Up na testa ou descubra o Impostor. Um celular, três tipos de caos.",
     "tabooTitle": "Palavras Proibidas",
     "tabooBody": "Descreva a palavra principal, arrisque mais e aumente sua pontuação. Palavras mais difíceis desbloqueiam multiplicadores maiores, de ×2 a ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Gameplay em paisagem",
       "buildScoreTitle": "Construa sua pontuação",
       "buildScoreBody": "Encare palavras mais difíceis para aumentar seu multiplicador e transformar cada acerto em mais pontos.",
-      "scoreMultipliersAria": "Multiplicadores de pontuação: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Multiplicadores de pontuação: 2x, 3x, 5x",
+      "passGameplay": "Jogo passando o celular"
+    },
+    "imposterTitle": "Impostor",
+    "imposterBody": "Um de vocês não sabe a palavra. Os outros veem, cada um dá uma dica de uma palavra e todos votam para achar o impostor."
   },
   "gamePreview": {
     "timeLeft": "42 segundos restantes",
@@ -217,7 +221,13 @@
     "continue": "Continuar",
     "pauseGame": "Pausar jogo",
     "teamA": "EQUIPE A",
-    "teamB": "EQUIPE B"
+    "teamB": "EQUIPE B",
+    "imposterTitle": "Impostor",
+    "imposterPassTo": "Passe o celular para {name}",
+    "imposterPlayer": "Júlia",
+    "imposterLookAway": "Os outros, não olhem.",
+    "imposterAgent": "AGENTE #01",
+    "imposterHold": "Segure para ver seu papel"
   },
   "a11y": {
     "openMenu": "Abrir menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} vs Tadado: perguntas",
     "relatedTitle": "Compare mais jogos",
     "ctaTitle": "Sua próxima noite de jogos começa grátis",
-    "ctaBody": "Baixe o Tadado, abra o baralho grátis Tadado Mix e jogue Palavras Proibidas ou Heads Up em segundos. Um celular basta.",
+    "ctaBody": "Baixe o Tadado, abra um baralho grátis e jogue Palavras Proibidas, Heads Up ou Impostor em segundos. Um celular basta.",
     "ctaButton": "Baixe o Tadado grátis",
     "freeNote": "Download grátis · Sem anúncios · Sem assinatura",
     "disclaimer": "{game} é citado apenas para descrever um jogo ou formato conhecido. Todas as marcas pertencem aos seus donos, e o Tadado não é afiliado nem endossado por eles. As notas sobre {game} descrevem o formato clássico e versões típicas; apps e edições podem variar, então confira a página de cada loja."
@@ -396,31 +406,60 @@
     "cta": "Conhecer o baralho"
   },
   "halloween": {
-    "heroPill": "Temporada de Halloween: baralho grátis + novo modo Impostor",
-    "tag": "Temporada de Halloween",
+    "heroPill": "Novo: baralho de Halloween grátis + modo Impostor",
+    "tag": "Evento de Halloween",
     "title": "Noite de Halloween, do jeito Tadado",
-    "body": "Dois novos motivos para reunir a galera antes que as luzes se apaguem.",
+    "body": "Um baralho grátis com 100 palavras assustadoras e um modo de blefe novinho. Tudo o que você precisa antes de apagar as luzes.",
     "deckTitle": "Baralho de Halloween grátis",
-    "deckBody": "Monstros, bruxas e clássicos do terror. Grátis para todos, sem compras.",
+    "deckBody": "100 palavras assustadoras: monstros, bruxas e clássicos do terror. Grátis para todos, sem compras.",
     "imposterTitle": "Novo modo: Impostor",
-    "imposterBody": "Todo mundo recebe a palavra secreta, menos um jogador. Descubra o impostor antes que ele se disfarce.",
-    "cta": "Jogue grátis hoje à noite",
-    "guideCta": "Ideias de jogos para o Halloween",
-    "note": "A temporada de Halloween vai até 3 de novembro.",
+    "imposterBody": "Todo mundo vê a palavra secreta, menos um. Deem dicas e votem para tirar o impostor.",
+    "cta": "Jogue grátis hoje",
+    "guideCta": "Guia de festa de Halloween",
+    "note": "O evento de Halloween vai até 3 de novembro.",
     "card": {
-      "deck": "Baralho de Halloween",
+      "deck": "Halloween",
       "free": "Grátis",
-      "word": "Vampiro",
+      "word": "Lobisomem",
       "forbidden": [
-        "Sangue",
-        "Mordida",
-        "Drácula",
-        "Noite"
+        "Lua cheia",
+        "Uivar",
+        "Pelo",
+        "Transformar"
       ],
       "imposterLabel": "Impostor",
       "imposterRole": "Você é o impostor",
-      "imposterHint": "Disfarce. Não seja pego."
-    }
+      "imposterHint": "Disfarce. Não seja pego.",
+      "deckDesc": "Palavras assustadoras para uma noite de risadas!",
+      "play": "Jogar",
+      "newBadge": "Novo",
+      "headsUpWord": "Vampiro",
+      "round": "Rodada 1/4"
+    },
+    "eyebrow": "Jogos de festa de Halloween",
+    "heroTitle": "3 jogos de festa.",
+    "heroTitleAccent": "Um celular.",
+    "heroSubtitle": "Jogue com amigos, família e toda a galera. Baralho de Halloween grátis incluso.",
+    "heroSecondary": "Ver o baralho de Halloween",
+    "mascotBadge": "baralhos de qualquer tema",
+    "headsUpTitle": "Heads Up, edição Halloween",
+    "headsUpBody": "Celular na testa, monstros na tela. Incline para baixo quando acertar.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "palavras assustadoras"
+      },
+      {
+        "value": "3",
+        "label": "modos de jogo"
+      },
+      {
+        "value": "Grátis",
+        "label": "para todos"
+      }
+    ],
+    "metaTitle": "Tadado: jogos de festa de Halloween | Tabu, Heads Up e Impostor",
+    "metaDescription": "Jogos de Halloween grátis em um celular: baralho de Tabu assustador com 100 palavras, Heads Up e o novo modo Impostor. Sem anúncios nem assinatura. iOS e Android."
   },
   "trust": {
     "eyebrow": "Feito para você",
@@ -452,7 +491,7 @@
     "countBadge": "8 baralhos de jogo",
     "free": "Grátis",
     "play": "JOGAR",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NOVO",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Criação de baralhos com IA",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 criações de baralhos com IA: baralhos personalizados sobre qualquer tema."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 criações de baralhos com IA: baralhos personalizados sobre qualquer tema."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 criações de baralhos com IA para noites de jogo frequentes.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 criações de baralhos com IA para noites de jogo frequentes.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 criações de baralhos com IA para anfitriões que nunca ficam sem ideias."
+        "desc": "40 criações de baralhos com IA para anfitriões que nunca ficam sem ideias."
       }
     ],
     "decksSectionTitle": "Baralhos premium",
     "singleDeck": {
       "name": "Baralhos temáticos",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Compra única por baralho. Verão, Cinema, Viagem, Esporte, Heróis e mais."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Todos os baralhos temáticos premium e 100 criações de baralhos com IA, em uma única compra.",
-      "aiCredits": "100 criações de baralhos com IA incluídas",
+      "desc": "Todos os baralhos temáticos premium e 20 criações de baralhos com IA, em uma única compra.",
+      "aiCredits": "20 criações de baralhos com IA incluídas",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Escolha um baralho",
-        "body": "Jogue grátis com Mix ou desbloqueie packs temáticos e baralhos IA."
+        "body": "Palavras Proibidas para equipes, Heads Up para adivinhar na testa ou Impostor para blefar."
       },
       {
         "title": "Passe o celular e jogue",
@@ -569,7 +608,7 @@
         "label": "idiomas"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modos de jogo"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Segure o celular na testa para não ver a palavra. Amigos dão dicas sem dizer a palavra. Incline para baixo quando acertar, para cima para pular. O Tadado usa os mesmos baralhos nos modos Heads Up e Taboo."
       },
       {
-        "q": "O Tadado é um dos melhores apps de jogos de palavras grátis?",
-        "a": "O Tadado é feito para noite de jogo: Taboo, Heads Up, Tadado Mix grátis, baralhos temáticos opcionais e criação de baralho IA. Sem anúncios e sem assinatura — um dos apps de jogos de palavras com melhor custo-benefício no iOS e Android."
+        "q": "Como se joga Impostor no Tadado?",
+        "a": "Passem um celular só. Todos veem a mesma palavra secreta, menos o impostor, cuja carta fica em branco. Cada um diz uma dica de uma palavra, depois vocês votam em quem é o impostor. Se for pego, ele ainda vence se adivinhar a palavra."
+      },
+      {
+        "q": "Qual é um bom jogo para festa de Halloween em grupo?",
+        "a": "O Tadado é ótimo no Halloween: o baralho grátis de Halloween tem 100 palavras assustadoras como Lobisomem, Bruxa e Casa mal-assombrada, e dá para jogar como Palavras Proibidas, Heads Up ou Impostor em um celular. Sem cartas, sem preparação, sem anúncios."
+      },
+      {
+        "q": "O Tadado é um dos melhores apps de jogos de festa grátis?",
+        "a": "O Tadado foi feito para noites de jogos: Palavras Proibidas estilo Tabu, Heads Up, o jogo de blefe Impostor, baralhos grátis, baralhos temáticos opcionais e criação de baralhos com IA. Sem anúncios e sem assinatura, um dos apps de festa com melhor custo-benefício no iOS e Android."
       },
       {
         "q": "O Tadado é grátis?",
@@ -695,7 +742,7 @@
       },
       {
         "q": "Como funciona a criação de baralho IA?",
-        "a": "Escreva um tema, como \"filmes Marvel\" ou \"hits dos 90\", e o Tadado gera um baralho jogável em segundos para os dois modos."
+        "a": "Escreva um tema, como \"filmes da Marvel\" ou \"hits pop dos anos 90\", e o Tadado gera em segundos um baralho jogável para Palavras Proibidas e Heads Up."
       },
       {
         "q": "Quais idiomas são suportados?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up em um app",
+        "feature": "Tabu, Heads Up e Impostor em um só app",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Muitos apps focam em um modo, mostram anúncios ou bloqueiam conteúdo atrás de assinaturas. O Tadado é feito para noites de jogo de verdade com os dois modos, baralho inicial grátis e extras pagos uma vez.",
+    "note": "Muitos apps focam em um modo só, mostram anúncios ou travam conteúdo atrás de assinaturas. O Tadado foi feito para noites de jogos de verdade, com três modos, um baralho inicial grátis e extras de compra única.",
     "cta": "Baixar Tadado grátis",
     "viewFull": "Abrir página completa de comparação"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ e como jogar",
-        "body": "Regras de Palavras Proibidas e Heads Up, preços e jogo offline.",
+        "body": "Regras de Palavras Proibidas, Heads Up e Impostor, preços e jogo offline.",
         "cta": "Abrir FAQ",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing e imprensa",
     "subtitle": "Campanhas com criadores, baralhos de marca e materiais de imprensa do Tadado.",
     "back": "Voltar ao Tadado",
-    "intro": "Tadado é um jogo de palavras para grupos de verdade: Palavras Proibidas no estilo Tabu e Heads Up em um só celular, sem anúncios e sem assinatura. Se você está planejando conteúdo, uma parceria ou uma matéria, comece aqui.",
+    "intro": "O Tadado é um app de jogos de festa para grupos de verdade: Palavras Proibidas estilo Tabu, Heads Up e Impostor em um celular, sem anúncios nem assinatura. Se você está planejando conteúdo, parceria ou matéria, comece aqui.",
     "statsLabel": "Em resumo",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "idiomas"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modos de jogo"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Início",
     "popularAlternatives": "Guias de alternativas populares",
     "alternativesHub": "Alternativas"
+  },
+  "halloweenPage": {
+    "metaTitle": "Jogos para festa de Halloween em grupo: grátis em um celular | Tadado",
+    "metaDescription": "Os jogos de Halloween mais fáceis para amigos e família: Tabu assustador, Heads Up e Impostor em um celular, com baralho grátis de 100 palavras. Sem cartas nem anúncios.",
+    "breadcrumb": "Jogos de festa de Halloween",
+    "eyebrow": "Jogos de festa de Halloween",
+    "h1": "Jogos de festa de Halloween em um só celular",
+    "answer": "O jogo de Halloween mais fácil para um grupo é aquele que não precisa de cartas nem preparação. O Tadado transforma um celular em três jogos de Halloween: Tabu assustador (Palavras Proibidas), Heads Up e Impostor, todos com um baralho grátis de 100 palavras de Halloween. Funciona para 3 a 20+ jogadores, amigos, famílias e festas de escritório.",
+    "factsTitle": "Resumo",
+    "facts": [
+      {
+        "label": "Jogadores",
+        "value": "De 3 a 20+"
+      },
+      {
+        "label": "Você precisa",
+        "value": "Um celular"
+      },
+      {
+        "label": "Baralho de Halloween",
+        "value": "100 palavras, grátis"
+      },
+      {
+        "label": "Modos",
+        "value": "Tabu, Heads Up, Impostor"
+      },
+      {
+        "label": "Preparação",
+        "value": "Menos de um minuto"
+      },
+      {
+        "label": "Anúncios",
+        "value": "Nenhum"
+      }
+    ],
+    "modesTitle": "Três jogos de Halloween em um app",
+    "modesSubtitle": "Escolha o modo que combina com a turma. Todos usam o mesmo baralho grátis de Halloween.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Tabu assustador",
+        "body": "Descreva Lobisomem sem dizer Lua cheia, Uivar, Pelo ou Transformar. As equipes correm contra o tempo e palavras difíceis valem mais.",
+        "best": "Ideal para 4+ jogadores em duas equipes"
+      },
+      {
+        "id": "headsup",
+        "title": "Heads Up de Halloween",
+        "body": "Segure o celular na testa enquanto os amigos imitam Vampiro ou Múmia. Incline para baixo quando acertar e para cima para pular.",
+        "best": "Ideal para festas à fantasia e fotos"
+      },
+      {
+        "id": "imposter",
+        "title": "Impostor na casa mal-assombrada",
+        "body": "Todos veem a mesma palavra de Halloween, menos o impostor, cuja carta fica em branco. Cada um diz uma dica e depois todos votam. Se for pego, o impostor ainda vence adivinhando a palavra.",
+        "best": "Ideal para 3 a 12 jogadores que amam blefar"
+      }
+    ],
+    "samplesTitle": "Cartas de exemplo do baralho grátis de Halloween",
+    "samplesSubtitle": "Cartas reais do baralho. Descreva a palavra grande e nunca diga as quatro de baixo.",
+    "hostTitle": "Como fazer uma noite de jogos de Halloween em 5 passos",
+    "hostSteps": [
+      {
+        "title": "Baixe o Tadado",
+        "body": "Grátis no iPhone e Android. Instale antes de os convidados chegarem."
+      },
+      {
+        "title": "Abra o baralho de Halloween",
+        "body": "Fica em primeiro lugar na tela inicial durante o evento e não custa nada."
+      },
+      {
+        "title": "Escolha um modo",
+        "body": "Palavras Proibidas para equipes, Heads Up para atuar, Impostor para blefar."
+      },
+      {
+        "title": "Defina equipes e tempo",
+        "body": "Divida a turma, escolha rodadas e timer. O Tadado marca os pontos."
+      },
+      {
+        "title": "Passe o celular",
+        "body": "Um celular vai passando de mão em mão. Diminua as luzes para mais suspense."
+      }
+    ],
+    "ideasTitle": "Ideias de jogos de Halloween que sempre funcionam",
+    "ideas": [
+      {
+        "title": "Heads Up fantasiado",
+        "body": "Quem segura o celular atua com a fantasia. Grave em câmera lenta para o grupo."
+      },
+      {
+        "title": "Torneio de Tabu dos monstros",
+        "body": "Duas equipes, três rodadas; quem perder distribui os doces."
+      },
+      {
+        "title": "Impostor no escuro",
+        "body": "Joguem Impostor à luz de velas. Blefar no escuro é bem mais difícil."
+      },
+      {
+        "title": "Seu próprio baralho de terror",
+        "body": "Digite um tema como \"filmes de terror dos anos 80\" e deixe a IA criar um baralho para o seu grupo."
+      }
+    ],
+    "faqTitle": "Jogos de festa de Halloween: perguntas",
+    "faq": [
+      {
+        "q": "Qual é o melhor jogo de Halloween para um grupo de amigos?",
+        "a": "Um que não precise de preparo e faça todo mundo falar. Com o baralho grátis de Halloween do Tadado, o grupo joga Tabu assustador, Heads Up ou Impostor em um celular, e a partida começa assim que o pessoal chega."
+      },
+      {
+        "q": "O baralho de Halloween do Tadado é grátis?",
+        "a": "Sim. O baralho de Halloween é grátis para todos, com 100 palavras de Halloween. Sem anúncios e sem assinatura."
+      },
+      {
+        "q": "Quantas pessoas podem jogar?",
+        "a": "De 3 jogadores até festas grandes. Tabu e Heads Up dividem a turma em equipes, e o Impostor aceita de 3 a 12 jogadores em um celular."
+      },
+      {
+        "q": "Serve para crianças e festas de Halloween em família?",
+        "a": "Sim. O baralho traz clássicos de Halloween como Abóbora, Bruxa, Fantasma e Gostosuras ou travessuras, então combina com noites em família e festas de adultos."
+      },
+      {
+        "q": "Precisamos de cartas ou de mais celulares?",
+        "a": "Não. Um celular basta para todos os modos. Ele vai passando e o Tadado cuida do tempo, das cartas e da pontuação."
+      },
+      {
+        "q": "Em quais idiomas está o baralho de Halloween?",
+        "a": "As palavras de Halloween foram adaptadas para cada idioma de cartas, não só traduzidas, e o app está disponível em 17 idiomas."
+      }
+    ],
+    "ctaTitle": "Sua festa de Halloween começa grátis",
+    "ctaBody": "Baixe o Tadado, abra o baralho de Halloween e jogue a primeira rodada em menos de um minuto.",
+    "ctaButton": "Baixe o Tadado grátis",
+    "related": "Mais ideias de jogos de festa",
+    "seasonNote": "O evento de Halloween no app vai até 3 de novembro."
   }
 }

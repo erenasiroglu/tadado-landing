@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Gra słowna na imprezę | Taboo, Heads Up i talie AI",
-    "description": "Jeden telefon. Twoi znajomi. Taboo, Heads Up i talie AI na wieczory gier. Zacznij za darmo. Bez reklam. iOS i Android."
+    "title": "Tadado: aplikacja z grami imprezowymi | Zakazane słowa, Heads Up, Oszust i talie AI",
+    "description": "Jeden telefon. Twoi znajomi. Zakazane słowa, Heads Up, Oszust i talie AI na wieczory z grami. Za darmo na start, bez reklam i subskrypcji. iOS i Android."
   },
   "nav": {
     "play": "Graj",
@@ -17,12 +17,13 @@
     "compare": "Porównanie",
     "affiliate": "Program partnerski",
     "team": "Zespół",
-    "download": "Pobierz"
+    "download": "Pobierz",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Imprezowa gra słowna · ★ 5.0 w App Store",
     "title": "Jeden telefon. Twoi znajomi. Niech zacznie się chaos.",
-    "subtitle": "Taboo, Heads Up i talie AI stworzone na wieczory gier.",
+    "subtitle": "Zakazane słowa, Heads Up, Oszust i własne talie AI na wieczory z grami.",
     "ctaPrimary": "POBIERZ TADADO · ZA DARMO",
     "ctaSecondary": "ZOBACZ, JAK TO DZIAŁA",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "tryby gry"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300 000+ rozegranych gier",
-    "modes": "2 tryby gry",
+    "modes": "3 tryby gry",
     "ai": "Wspierane przez AI",
     "languages": "17 języków",
     "offline": "Graj offline",
@@ -72,8 +73,8 @@
     "developer": "Stworzone przez Tadado Game Development",
     "items": [
       {
-        "title": "Dwa tryby, jedna aplikacja",
-        "body": "Przełączaj się między Zakazanymi słowami a Heads Up bez dwóch pobrań. Te same talie, inna energia w każdej rundzie."
+        "title": "Trzy tryby, jedna aplikacja",
+        "body": "Przełączaj się między Zakazanymi słowami, Heads Up i Oszustem bez pobierania niczego więcej. Te same talie, inny klimat w każdej rundzie."
       },
       {
         "title": "Talie AI w kilka sekund",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "gier rozegranych na świecie",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "tryby gry",
     "languages": "17",
     "languagesLabel": "języków w aplikacji",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Dwa sposoby gry",
-    "subtitle": "Klasyczne Taboo ze zakazanymi słowami albo Heads Up na czole. Te same talie, inna energia.",
+    "title": "Trzy sposoby gry",
+    "subtitle": "Zakazane słowa w stylu Taboo, Heads Up na czole albo zdemaskuj Oszusta. Jeden telefon, trzy rodzaje chaosu.",
     "tabooTitle": "Zakazane słowa",
     "tabooBody": "Opisz główne słowo, podejmuj większe ryzyko i zwiększaj wynik. Trudniejsze słowa odblokowują wyższe mnożniki, od ×2 do ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Rozgrywka w poziomie",
       "buildScoreTitle": "Buduj swój wynik",
       "buildScoreBody": "Wybieraj trudniejsze słowa, aby zwiększyć mnożnik i zamienić każdą poprawną odpowiedź w więcej punktów.",
-      "scoreMultipliersAria": "Mnożniki wyniku: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Mnożniki wyniku: 2x, 3x, 5x",
+      "passGameplay": "Gra z podawaniem telefonu"
+    },
+    "imposterTitle": "Oszust",
+    "imposterBody": "Jedna osoba nie zna słowa. Reszta je widzi, po kolei mówi jedno słowo-podpowiedź i głosuje, kto jest oszustem."
   },
   "gamePreview": {
     "timeLeft": "Pozostało 42 sekundy",
@@ -217,7 +221,13 @@
     "continue": "Kontynuuj",
     "pauseGame": "Wstrzymaj grę",
     "teamA": "DRUŻYNA A",
-    "teamB": "DRUŻYNA B"
+    "teamB": "DRUŻYNA B",
+    "imposterTitle": "Oszust",
+    "imposterPassTo": "Przekaż telefon: {name}",
+    "imposterPlayer": "Ola",
+    "imposterLookAway": "Reszta, nie patrzcie.",
+    "imposterAgent": "AGENT #01",
+    "imposterHold": "Przytrzymaj, aby zobaczyć swoją rolę"
   },
   "a11y": {
     "openMenu": "Otwórz menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} czy Tadado: pytania",
     "relatedTitle": "Więcej porównań",
     "ctaTitle": "Twój następny wieczór gier zaczyna się za darmo",
-    "ctaBody": "Pobierz Tadado, otwórz darmową talię Tadado Mix i graj w Zakazane słowa albo Heads Up w kilka sekund. Wystarczy jeden telefon.",
+    "ctaBody": "Pobierz Tadado, otwórz darmową talię i w kilka sekund zagraj w Zakazane słowa, Heads Up lub Oszusta. Wystarczy jeden telefon.",
     "ctaButton": "Pobierz Tadado za darmo",
     "freeNote": "Darmowe pobieranie · Bez reklam · Bez subskrypcji",
     "disclaimer": "{game} wymieniamy wyłącznie, aby opisać znaną grę lub format. Wszystkie znaki towarowe należą do ich właścicieli; Tadado nie jest z nimi powiązane ani przez nie wspierane. Informacje o {game} opisują klasyczny format i typowe wersje; poszczególne aplikacje i wydania mogą się różnić, sprawdź opis w sklepie."
@@ -396,31 +406,60 @@
     "cta": "Zobacz talię"
   },
   "halloween": {
-    "heroPill": "Sezon Halloween: darmowa talia + nowy tryb Oszust",
-    "tag": "Sezon Halloween",
+    "heroPill": "Nowość: darmowa talia halloweenowa + tryb Oszust",
+    "tag": "Wydarzenie halloweenowe",
     "title": "Noc Halloween w stylu Tadado",
-    "body": "Dwa nowe powody, by zebrać ekipę, zanim zgasną światła.",
-    "deckTitle": "Darmowa talia Halloween",
-    "deckBody": "Potwory, wiedźmy i klasyki horroru. Za darmo dla wszystkich, bez zakupów.",
+    "body": "Darmowa talia ze 100 strasznymi słowami i zupełnie nowy tryb blefowania. Wszystko, czego potrzebujesz, zanim zgasną światła.",
+    "deckTitle": "Darmowa talia halloweenowa",
+    "deckBody": "100 strasznych słów: potwory, czarownice i klasyka horroru. Za darmo dla wszystkich, bez zakupu.",
     "imposterTitle": "Nowy tryb: Oszust",
-    "imposterBody": "Wszyscy dostają tajne słowo oprócz jednego gracza. Znajdźcie oszusta, zanim wtopi się w tłum.",
+    "imposterBody": "Wszyscy widzą tajne słowo poza jedną osobą. Dawajcie podpowiedzi i wygłosujcie oszusta.",
     "cta": "Zagraj za darmo dziś wieczorem",
-    "guideCta": "Pomysły na gry na Halloween",
-    "note": "Sezon Halloween trwa do 3 listopada.",
+    "guideCta": "Poradnik imprezy halloweenowej",
+    "note": "Wydarzenie halloweenowe trwa do 3 listopada.",
     "card": {
-      "deck": "Talia Halloween",
+      "deck": "Halloween",
       "free": "Za darmo",
-      "word": "Wampir",
+      "word": "Werewolf",
       "forbidden": [
-        "Krew",
-        "Ugryzienie",
-        "Drakula",
-        "Noc"
+        "Full moon",
+        "Howl",
+        "Fur",
+        "Transform"
       ],
       "imposterLabel": "Oszust",
       "imposterRole": "Jesteś oszustem",
-      "imposterHint": "Wtop się w tłum. Nie daj się złapać."
-    }
+      "imposterHint": "Nie daj się zdemaskować.",
+      "deckDesc": "Straszne słowa na wieczór pełen śmiechu!",
+      "play": "Graj",
+      "newBadge": "Nowość",
+      "headsUpWord": "Vampire",
+      "round": "Runda 1/4"
+    },
+    "eyebrow": "Gry na imprezę halloweenową",
+    "heroTitle": "3 gry imprezowe.",
+    "heroTitleAccent": "Jeden telefon.",
+    "heroSubtitle": "Graj ze znajomymi, rodziną i całą ekipą. Darmowa talia halloweenowa w zestawie.",
+    "heroSecondary": "Zobacz talię halloweenową",
+    "mascotBadge": "talie na każdy temat",
+    "headsUpTitle": "Heads Up w wersji halloweenowej",
+    "headsUpBody": "Telefon na czole, potwory na ekranie. Przechyl w dół, gdy zgadniesz.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "strasznych słów"
+      },
+      {
+        "value": "3",
+        "label": "tryby gry"
+      },
+      {
+        "value": "Za darmo",
+        "label": "dla wszystkich"
+      }
+    ],
+    "metaTitle": "Tadado: gry na imprezę halloweenową | Taboo, Heads Up i Oszust",
+    "metaDescription": "Darmowe gry halloweenowe na jednym telefonie: straszna talia Taboo ze 100 słowami, Heads Up i nowy tryb Oszust. Bez reklam i subskrypcji. iOS i Android."
   },
   "trust": {
     "eyebrow": "Stworzone dla ciebie",
@@ -452,7 +491,7 @@
     "countBadge": "8 talii gry",
     "free": "Za darmo",
     "play": "GRAJ",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NOWOŚĆ",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Tworzenie talii z AI",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 kreacji talii z AI — własne talie na dowolny temat."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 kreacji talii z AI — własne talie na dowolny temat."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 kreacji talii z AI na regularne wieczory gier.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 kreacji talii z AI na regularne wieczory gier.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 kreacji talii z AI dla gospodarzy, którym nigdy nie brakuje pomysłów."
+        "desc": "40 kreacji talii z AI dla gospodarzy, którym nigdy nie brakuje pomysłów."
       }
     ],
     "decksSectionTitle": "Talie premium",
     "singleDeck": {
       "name": "Talie tematyczne",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Jednorazowy zakup za talię. Lato, Kino, Podróże, Sport, Bohaterowie i więcej."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Wszystkie tematyczne talie premium i 100 tworzeń talii z AI w jednym zakupie.",
-      "aiCredits": "100 tworzeń talii z AI w zestawie",
+      "desc": "Wszystkie tematyczne talie premium i 20 tworzeń talii z AI w jednym zakupie.",
+      "aiCredits": "20 tworzeń talii z AI w zestawie",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Wybierz talię",
-        "body": "Graj za darmo z Mix albo odblokuj paczki tematyczne i talie AI."
+        "body": "Zakazane słowa dla drużyn, Heads Up do zgadywania na czole albo Oszust do blefowania."
       },
       {
         "title": "Przekaż telefon i graj",
@@ -569,7 +608,7 @@
         "label": "języków"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "tryby gry"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Trzymaj telefon na czole, żeby nie widzieć słowa. Znajomi podają wskazówki bez wymawiania słowa. Przechyl w dół przy trafieniu, w górę, aby pominąć. Tadado używa tych samych talii w trybach Heads Up i Taboo."
       },
       {
-        "q": "Czy Tadado to jedna z najlepszych darmowych gier słownych?",
-        "a": "Tadado jest stworzone na wieczory gier: Taboo, Heads Up, darmowy Tadado Mix, opcjonalne talie tematyczne i tworzenie talii AI. Bez reklam i subskrypcji – jedna z najlepszych gier słownych pod względem wartości na iOS i Android."
+        "q": "Jak grać w Oszusta w Tadado?",
+        "a": "Podawajcie sobie jeden telefon. Wszyscy widzą to samo tajne słowo poza oszustem, którego karta jest pusta. Po kolei każdy mówi jedno słowo-podpowiedź, potem głosujecie. Nawet przyłapany oszust wygrywa, jeśli odgadnie słowo."
+      },
+      {
+        "q": "Jaka gra sprawdzi się na imprezie halloweenowej?",
+        "a": "Tadado świetnie pasuje do Halloween: darmowa talia halloweenowa ma 100 strasznych słów, takich jak Wilkołak, Czarownica i Nawiedzony dom, i można nią grać w Zakazane słowa, Heads Up lub Oszusta na jednym telefonie. Bez kart, przygotowań i reklam."
+      },
+      {
+        "q": "Czy Tadado to jedna z najlepszych darmowych aplikacji z grami imprezowymi?",
+        "a": "Tadado stworzono na wieczory z grami: Zakazane słowa w stylu Taboo, Heads Up, gra w blefowanie Oszust, darmowe talie, opcjonalne talie tematyczne i tworzenie talii z AI. Bez reklam i subskrypcji to jedna z najbardziej opłacalnych aplikacji imprezowych na iOS i Android."
       },
       {
         "q": "Czy Tadado jest darmowe?",
@@ -694,8 +741,8 @@
         "a": "Nie. Tadado jest bez reklam. Płacisz tylko za opcjonalne talie lub tworzenie AI, jeśli chcesz."
       },
       {
-        "q": "Jak działa tworzenie talii AI?",
-        "a": "Wpisz temat, np. „filmy Marvel” lub „hity lat 90.”, a Tadado wygeneruje talię do gry w kilka sekund w obu trybach."
+        "q": "Jak działa tworzenie talii z AI?",
+        "a": "Wpisz temat, np. „filmy Marvela” albo „hity pop z lat 90.”, a Tadado w kilka sekund stworzy talię do Zakazanych słów i Heads Up."
       },
       {
         "q": "Jakie języki są obsługiwane?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up w jednej aplikacji",
+        "feature": "Zakazane słowa, Heads Up i Oszust w jednej aplikacji",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Wiele aplikacji skupia się na jednym trybie, pokazuje reklamy lub blokuje treści za subskrypcją. Tadado jest stworzone na prawdziwe wieczory gier z oboma trybami, darmową talią startową i jednorazowymi dodatkami.",
+    "note": "Wiele aplikacji ma jeden tryb, pokazuje reklamy albo blokuje treści za subskrypcją. Tadado powstało z myślą o prawdziwych wieczorach z grami: trzy tryby, darmowa talia na start i dodatki z jednorazowym zakupem.",
     "cta": "Pobierz Tadado za darmo",
     "viewFull": "Otwórz pełną stronę porównania"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ i zasady gry",
-        "body": "Zasady Zakazanych Słów i Heads Up, ceny i gra offline.",
+        "body": "Zasady Zakazanych słów, Heads Up i Oszusta, ceny i gra offline.",
         "cta": "Otwórz FAQ",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing i prasa",
     "subtitle": "Kampanie z twórcami, talie markowe i materiały prasowe Tadado.",
     "back": "Wróć do Tadado",
-    "intro": "Tadado to gra słowna dla prawdziwych ekip: Zakazane Słowa w stylu Tabu i Heads Up na jednym telefonie, bez reklam i bez subskrypcji. Jeśli planujesz treści, współpracę lub publikację, zacznij tutaj.",
+    "intro": "Tadado to aplikacja z grami imprezowymi dla prawdziwych paczek znajomych: Zakazane słowa w stylu Taboo, Heads Up i Oszust na jednym telefonie, bez reklam i subskrypcji. Jeśli planujesz treści, współpracę lub artykuł, zacznij tutaj.",
     "statsLabel": "W skrócie",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "języków"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "tryby gry"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Strona główna",
     "popularAlternatives": "Popularne poradniki o alternatywach",
     "alternativesHub": "Alternatywy"
+  },
+  "halloweenPage": {
+    "metaTitle": "Gry na imprezę halloweenową dla grupy: za darmo na jednym telefonie | Tadado",
+    "metaDescription": "Najprostsze gry halloweenowe dla znajomych i rodziny: straszne Taboo, Heads Up i Oszust na jednym telefonie z darmową talią 100 słów. Bez kart i reklam.",
+    "breadcrumb": "Gry na imprezę halloweenową",
+    "eyebrow": "Gry na imprezę halloweenową",
+    "h1": "Gry na imprezę halloweenową na jednym telefonie",
+    "answer": "Najprostsza gra halloweenowa dla grupy to taka, która nie wymaga kart ani przygotowań. Tadado zamienia jeden telefon w trzy gry na Halloween: straszne Taboo (Zakazane słowa), Heads Up i Oszusta, wszystkie z darmową talią 100 halloweenowych słów. Dla 3 do 20+ graczy, znajomych, rodzin i imprez firmowych.",
+    "factsTitle": "W skrócie",
+    "facts": [
+      {
+        "label": "Gracze",
+        "value": "Od 3 do 20+"
+      },
+      {
+        "label": "Potrzebujesz",
+        "value": "Jednego telefonu"
+      },
+      {
+        "label": "Talia halloweenowa",
+        "value": "100 słów, za darmo"
+      },
+      {
+        "label": "Tryby",
+        "value": "Taboo, Heads Up, Oszust"
+      },
+      {
+        "label": "Przygotowanie",
+        "value": "Poniżej minuty"
+      },
+      {
+        "label": "Reklamy",
+        "value": "Brak"
+      }
+    ],
+    "modesTitle": "Trzy gry halloweenowe w jednej aplikacji",
+    "modesSubtitle": "Wybierz tryb pasujący do grupy. Wszystkie korzystają z tej samej darmowej talii halloweenowej.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Straszne Taboo",
+        "body": "Opisz WEREWOLF bez mówienia FULL MOON, HOWL, FUR ani TRANSFORM. Drużyny grają na czas, a trudne słowa dają więcej punktów.",
+        "best": "Najlepsze dla 4+ graczy w dwóch drużynach"
+      },
+      {
+        "id": "headsup",
+        "title": "Halloweenowe Heads Up",
+        "body": "Trzymaj telefon na czole, a znajomi odgrywają Wampira albo Mumię. Przechyl w dół, gdy zgadniesz, w górę, by pominąć.",
+        "best": "Najlepsze na imprezy przebierane i zdjęcia"
+      },
+      {
+        "id": "imposter",
+        "title": "Oszust w nawiedzonym domu",
+        "body": "Wszyscy widzą to samo halloweenowe słowo poza oszustem, którego karta jest pusta. Każdy mówi jedną podpowiedź, potem głosowanie. Przyłapany oszust wygrywa, jeśli odgadnie słowo.",
+        "best": "Najlepsze dla 3 do 12 graczy, którzy lubią blefować"
+      }
+    ],
+    "samplesTitle": "Przykładowe karty z darmowej talii halloweenowej",
+    "samplesSubtitle": "Prawdziwe karty z talii. Opisz duże słowo i nigdy nie mów czterech pod nim. Polskich kart jeszcze nie ma, więc na razie grasz kartami po angielsku.",
+    "hostTitle": "Jak zorganizować halloweenowy wieczór gier w 5 krokach",
+    "hostSteps": [
+      {
+        "title": "Pobierz Tadado",
+        "body": "Za darmo na iPhone i Androida. Zainstaluj przed przyjściem gości."
+      },
+      {
+        "title": "Otwórz talię halloweenową",
+        "body": "W czasie wydarzenia jest na górze ekranu głównego i nic nie kosztuje."
+      },
+      {
+        "title": "Wybierz tryb",
+        "body": "Zakazane słowa dla drużyn, Heads Up do odgrywania, Oszust do blefowania."
+      },
+      {
+        "title": "Ustaw drużyny i czas",
+        "body": "Podzielcie się, wybierzcie rundy i czas. Tadado liczy punkty."
+      },
+      {
+        "title": "Podawajcie telefon",
+        "body": "Jeden telefon krąży po pokoju. Przyciemnijcie światła dla większego napięcia."
+      }
+    ],
+    "ideasTitle": "Pomysły na gry halloweenowe, które zawsze działają",
+    "ideas": [
+      {
+        "title": "Heads Up w przebraniach",
+        "body": "Kto trzyma telefon, gra w kostiumie. Nagrajcie w zwolnionym tempie na czat grupowy."
+      },
+      {
+        "title": "Turniej Taboo z potworami",
+        "body": "Dwie drużyny, trzy rundy; przegrani rozdają cukierki."
+      },
+      {
+        "title": "Oszust przy świecach",
+        "body": "Zagrajcie w Oszusta przy świecach. Blefowanie w ciemności jest dużo trudniejsze."
+      },
+      {
+        "title": "Wasza własna talia grozy",
+        "body": "Wpisz temat, np. „horrory z lat 80.”, i pozwól AI stworzyć talię dla twojej ekipy."
+      }
+    ],
+    "faqTitle": "Gry na imprezę halloweenową: pytania",
+    "faq": [
+      {
+        "q": "Jaka gra halloweenowa jest najlepsza dla grupy znajomych?",
+        "a": "Taka, która nie wymaga przygotowań i wciąga wszystkich do rozmowy. Z darmową talią halloweenową Tadado grupa gra w straszne Taboo, Heads Up lub Oszusta na jednym telefonie, gdy tylko wszyscy dotrą."
+      },
+      {
+        "q": "Czy talia halloweenowa w Tadado jest darmowa?",
+        "a": "Tak. Talia halloweenowa jest darmowa dla wszystkich i ma 100 halloweenowych słów. Bez reklam i subskrypcji."
+      },
+      {
+        "q": "Ile osób może grać?",
+        "a": "Od 3 graczy po duże imprezy. W Taboo i Heads Up grupa dzieli się na drużyny, a w Oszusta gra od 3 do 12 osób na jednym telefonie."
+      },
+      {
+        "q": "Czy nadaje się dla dzieci i na rodzinne Halloween?",
+        "a": "Tak. Talia opiera się na klasyce Halloween, jak Dynia, Czarownica, Duch i Cukierek albo psikus, więc pasuje i do rodzinnych wieczorów, i do imprez dla dorosłych."
+      },
+      {
+        "q": "Czy potrzebne są karty lub kilka telefonów?",
+        "a": "Nie. Jeden telefon wystarcza do wszystkich trybów. Krąży z rąk do rąk, a Tadado pilnuje czasu, kart i punktów."
+      },
+      {
+        "q": "W jakich językach jest talia halloweenowa?",
+        "a": "Halloweenowe słowa są dostępne w 13 językach kart, w tym po angielsku, i dobrane osobno dla każdego języka. Polskich kart jeszcze nie ma, więc grasz kartami angielskimi, a sama aplikacja działa w 17 językach, w tym po polsku."
+      }
+    ],
+    "ctaTitle": "Twoja impreza halloweenowa zaczyna się za darmo",
+    "ctaBody": "Pobierz Tadado, otwórz talię halloweenową i zagraj pierwszą rundę w mniej niż minutę.",
+    "ctaButton": "Pobierz Tadado za darmo",
+    "related": "Więcej pomysłów na gry imprezowe",
+    "seasonNote": "Wydarzenie halloweenowe w aplikacji trwa do 3 listopada."
   }
 }

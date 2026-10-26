@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "gioco-dell-impostore",
     "game": "Gioco dell'impostore",
-    "tagline": "Il gioco virale di bluff con parola segreta contro un gioco in cui parlano tutti.",
+    "tagline": "Il gioco virale della parola nascosta ora è una delle tre modalità di Tadado.",
     "metaTitle": "Gioco dell'impostore o Tadado: chi vince la serata giochi?",
-    "metaDescription": "Ami il gioco dell'impostore? Confrontalo con Parole vietate e Heads Up di Tadado: un solo telefono, niente pubblicità, mazzi con IA e un mazzo iniziale gratis.",
+    "metaDescription": "Ti piace il gioco dell'impostore? Tadado ha la modalità Impostore, Parole vietate e Heads Up in un'app: un telefono, da 3 a 12 giocatori, senza pubblicità e con mazzo iniziale gratis.",
     "h1": "Gioco dell'impostore o Tadado",
-    "hook": "L'impostore è sospetto. Tadado è urlare la risposta prima che scada il tempo. Ecco quale salva la serata.",
+    "hook": "Il gioco dell'impostore è tutto sospetto. Ora Tadado ha la sua modalità Impostore, più due giochi veloci di indovinelli per quando il gruppo preferisce urlare invece di tramare.",
     "about": [
       "Il gioco dell'impostore è diventato virale perché non serve quasi nulla: un telefono passa di mano in mano, tutti vedono la stessa parola tranne uno, e il gruppo dà indizi di una parola finché non vota chi è l'impostore.",
-      "È soprattutto un gioco di bluff. Il divertimento sta nel leggere le facce, difendersi e la grande rivelazione finale. Perfetto per chi ama discutere, più tranquillo per chi preferisce indovinare e ridere ogni pochi secondi."
+      "La modalità Impostore di Tadado funziona allo stesso modo: si passa un telefono, ognuno tiene premuto per vedere la parola segreta e la carta dell'impostore è vuota. Ognuno dice un indizio di una parola, il gruppo vota e un impostore scoperto può ancora vincere indovinando la parola. Si gioca da 3 a 12 persone con i mazzi di Tadado, compreso il mazzo gratuito di Halloween."
     ],
     "pickThem": [
-      "il tuo gruppo ama bluffare, accusare e le rivelazioni drammatiche",
-      "volete round lenti con tanta discussione",
-      "tutti preferiscono parlare piuttosto che correre contro il tempo"
+      "Volete solo turni di impostore e nient'altro",
+      "Il vostro gruppo ama già un'app dedicata all'impostore",
+      "Giocate con liste di parole scritte su carta"
     ],
     "pickTadado": [
-      "vuoi ridere senza sosta con una parola nuova ogni pochi secondi",
-      "alcuni amici sono timidi e preferiscono indovinare che mentire",
-      "vuoi Parole vietate (stile Taboo) e Heads Up in un'unica app"
+      "Vuoi Impostore, Parole vietate e Heads Up in un'unica app",
+      "Vuoi pescare le parole segrete da mazzi a tema e creati con IA",
+      "Vuoi passare dal bluff agli indovinelli veloci senza cambiare app"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Ruoli nascosti e bluff",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Scarica Tadado e apri il mazzo gratuito Tadado Mix.",
-      "Scegli Parole vietate a squadre o Heads Up con il telefono sulla fronte.",
-      "Ti mancano le battute interne dell'impostore? Scrivi il tema del tuo gruppo nel creatore di mazzi con IA."
+      "Scarica Tadado e apri Impostore dal menu delle modalità.",
+      "Aggiungi da 3 a 12 giocatori e scegli quanti impostori ci saranno.",
+      "Passate il telefono: ognuno tiene premuto per vedere il ruolo, poi indizi di una parola e voto."
     ],
     "faq": [
       {
         "q": "Tadado ha una modalità impostore?",
-        "a": "No. Tadado ha due modalità: Parole vietate (stile Taboo) e Heads Up. È un gioco veloce di indovinelli, non di ruoli nascosti, quindi si abbina benissimo all'impostore nella stessa serata."
+        "a": "Sì. Impostore è una delle tre modalità di Tadado, insieme a Parole vietate e Heads Up. Tutti tranne l'impostore vedono la parola segreta, ognuno dà un indizio di una parola e il gruppo vota."
       },
       {
         "q": "Quale è meglio per gruppi numerosi?",
-        "a": "Entrambi si giocano con un telefono. I round dell'impostore si allungano con più persone; Tadado divide il gruppo in squadre e tutti giocano a ogni round."
+        "a": "Entrambi funzionano con un telefono. In Tadado l'Impostore si gioca da 3 a 12 persone; con gruppi più grandi passate a Parole vietate o Heads Up a squadre, così giocano tutti."
       },
       {
         "q": "Tadado è gratis come molte app dell'impostore?",
@@ -195,7 +195,7 @@
       },
       {
         "feature": "Ruoli nascosti e bluff",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -217,7 +217,7 @@
     "faq": [
       {
         "q": "Tadado ha ruoli nascosti?",
-        "a": "No. Tadado è un gioco di indovinelli con le modalità Parole vietate e Heads Up. È un divertimento diverso da Lupus, e i due si completano bene."
+        "a": "In parte. La modalità Impostore di Tadado è un gioco a ruolo nascosto: un giocatore riceve una carta vuota e deve bluffare durante il giro di indizi. Senza narratore né fasi notturne, è più veloce di Lupus in Tabula e nessuno viene eliminato."
       },
       {
         "q": "Quale scegliere in 4?",

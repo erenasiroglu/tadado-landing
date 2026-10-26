@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "juego-del-impostor",
     "game": "El Impostor",
-    "tagline": "El juego viral de faroles y palabra secreta frente a uno donde todos hablan.",
+    "tagline": "El juego viral de la palabra oculta, ahora uno de los tres modos de Tadado.",
     "metaTitle": "El Impostor vs Tadado: ¿qué juego gana la noche de juegos?",
-    "metaDescription": "¿Te encanta el juego del Impostor? Compáralo con Palabras prohibidas y Heads Up de Tadado: un solo móvil, sin anuncios, mazos con IA y un mazo inicial gratis.",
+    "metaDescription": "¿Te encanta el juego del Impostor? Tadado tiene modo Impostor, Palabras prohibidas y Heads Up en una app: un móvil, de 3 a 12 jugadores, sin anuncios y con mazo inicial gratis.",
     "h1": "El juego del Impostor frente a Tadado",
-    "hook": "El Impostor va de sospechar. Tadado va de gritar la respuesta antes de que acabe el tiempo. Así sabrás cuál salva la noche.",
+    "hook": "El Impostor va de sospechas. Tadado ya tiene su propio modo Impostor, y dos juegos rápidos de adivinar para cuando el grupo prefiere gritar en vez de conspirar.",
     "about": [
       "El Impostor se hizo viral en redes porque casi no necesita nada: un móvil pasa de mano en mano, todos ven la misma palabra menos uno, y el grupo da pistas de una palabra hasta votar quién es el impostor.",
-      "Es, ante todo, un juego de faroles. La gracia está en leer caras, defenderse y la revelación final. Es genial para grupos a los que les encanta debatir, y más tranquilo para quien prefiere adivinar y reír cada pocos segundos."
+      "El modo Impostor de Tadado funciona igual: se pasa un móvil, cada uno mantiene pulsado para ver la palabra secreta y la carta del impostor está vacía. Cada jugador dice una pista de una palabra, el grupo vota y, si pillan al impostor, aún puede ganar adivinando la palabra. Se juega de 3 a 12 personas con los mazos de Tadado, incluido el mazo gratis de Halloween."
     ],
     "pickThem": [
-      "A tu grupo le encanta mentir, acusar y las revelaciones dramáticas",
-      "Quieres rondas pausadas con mucha discusión",
-      "Todos prefieren sentarse a hablar antes que correr contra el reloj"
+      "Solo queréis rondas de Impostor y nada más",
+      "Tu grupo ya adora una app de Impostor independiente",
+      "Jugáis con listas de palabras escritas en papel"
     ],
     "pickTadado": [
-      "Quieres reír sin parar con una palabra nueva cada pocos segundos",
-      "Hay amigos tímidos que prefieren adivinar antes que mentir",
-      "Quieres Palabras prohibidas (estilo Tabú) y Heads Up en una sola app"
+      "Quieres Impostor, Palabras prohibidas y Heads Up en una sola app",
+      "Quieres elegir las palabras secretas de mazos temáticos y creados con IA",
+      "Quieres pasar del farol a adivinar rápido sin cambiar de app"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Roles ocultos y faroles",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Descarga Tadado y abre el mazo gratis Tadado Mix.",
-      "Elige Palabras prohibidas para jugar por equipos o Heads Up para adivinar con el móvil en la frente.",
-      "¿Echas de menos las bromas internas del Impostor? Escribe el tema de tu grupo en el creador de mazos con IA."
+      "Descarga Tadado y abre Impostor en el menú de modos.",
+      "Añade de 3 a 12 jugadores y elige cuántos impostores habrá.",
+      "Pasad el móvil: cada uno mantiene pulsado para ver su rol, luego dad pistas de una palabra y votad."
     ],
     "faq": [
       {
         "q": "¿Tadado tiene modo Impostor?",
-        "a": "No. Tadado tiene dos modos: Palabras prohibidas (estilo Tabú) y Heads Up. Es un juego rápido de adivinar, no de roles ocultos, así que combina muy bien con el Impostor en la misma noche."
+        "a": "Sí. Impostor es uno de los tres modos de Tadado, junto a Palabras prohibidas y Heads Up. Todos menos el impostor ven la palabra secreta, cada jugador da una pista de una palabra y el grupo vota."
       },
       {
         "q": "¿Cuál es mejor para grupos grandes?",
-        "a": "Ambos se juegan con un móvil. Las rondas del Impostor se alargan cuanto más gente hay; Tadado divide al grupo en equipos y todos siguen jugando en cada ronda."
+        "a": "Los dos se juegan con un móvil. El Impostor de Tadado es para 3 a 12 personas; con grupos más grandes, cambiad a Palabras prohibidas o Heads Up y jugad por equipos para que nadie se quede fuera."
       },
       {
         "q": "¿Tadado es gratis como muchas apps del Impostor?",

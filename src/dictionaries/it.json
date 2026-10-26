@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Gioco di parole per feste | Taboo, Heads Up e mazzi IA",
-    "description": "Un telefono. I tuoi amici. Taboo, Heads Up e mazzi personalizzati con IA pensati per le serate di gioco. Gratis per iniziare. Senza pubblicità. iOS e Android."
+    "title": "Tadado: gioco per feste | Tabù, Heads Up, Impostore e mazzi IA",
+    "description": "Un telefono. I tuoi amici. Tabù, Heads Up, Impostore e mazzi IA per le serate giochi. Gratis per iniziare, senza pubblicità né abbonamento. iOS e Android."
   },
   "nav": {
     "play": "Gioca",
@@ -17,12 +17,13 @@
     "compare": "Confronta",
     "affiliate": "Affiliati",
     "team": "Il team",
-    "download": "Scarica"
+    "download": "Scarica",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Gioco di parole per feste · ★ 5.0 su App Store",
     "title": "Un telefono. I tuoi amici. Che cominci il caos.",
-    "subtitle": "Taboo, Heads Up e mazzi personalizzati con IA fatti per le serate di gioco.",
+    "subtitle": "Tabù, Heads Up, Impostore e mazzi personalizzati con IA per le serate giochi.",
     "ctaPrimary": "SCARICA TADADO · GRATIS",
     "ctaSecondary": "SCOPRI COME FUNZIONA",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modalità di gioco"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "Oltre 300.000 partite giocate",
-    "modes": "2 modalità di gioco",
+    "modes": "3 modalità di gioco",
     "ai": "Con IA",
     "languages": "17 lingue",
     "offline": "Gioca offline",
@@ -72,8 +73,8 @@
     "developer": "Sviluppato da Tadado Game Development",
     "items": [
       {
-        "title": "Due modalità, un'unica app",
-        "body": "Passa da Parole vietate a Heads Up senza scaricare due volte. Stessi mazzi, energia diversa a ogni round."
+        "title": "Tre modalità, un'app",
+        "body": "Passa da Parole vietate a Heads Up e Impostore senza scaricare altro. Stessi mazzi, un'energia diversa a ogni turno."
       },
       {
         "title": "Mazzi IA in pochi secondi",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "partite giocate in tutto il mondo",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "modalità di gioco",
     "languages": "17",
     "languagesLabel": "lingue nell'app",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Due modi di giocare",
-    "subtitle": "Parole vietate stile Taboo classico o Heads Up sulla fronte. Stessi mazzi, energia diversa.",
+    "title": "Tre modi di giocare",
+    "subtitle": "Parole vietate in stile Tabù, Heads Up sulla fronte o scova l'Impostore. Un telefono, tre tipi di caos.",
     "tabooTitle": "Parole vietate",
     "tabooBody": "Descrivi la parola principale, corri più rischi e fai crescere il punteggio. Le parole difficili sbloccano moltiplicatori più alti, da ×2 a ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Gioco in orizzontale",
       "buildScoreTitle": "Fai crescere il punteggio",
       "buildScoreBody": "Scegli parole più difficili per aumentare il moltiplicatore e trasformare ogni risposta corretta in più punti.",
-      "scoreMultipliersAria": "Moltiplicatori punteggio: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Moltiplicatori punteggio: 2x, 3x, 5x",
+      "passGameplay": "Gioco passandosi il telefono"
+    },
+    "imposterTitle": "Impostore",
+    "imposterBody": "Uno di voi non conosce la parola. Gli altri la vedono, dicono a turno un indizio di una parola e votano per trovare l'impostore."
   },
   "gamePreview": {
     "timeLeft": "42 secondi rimasti",
@@ -217,7 +221,13 @@
     "continue": "Continua",
     "pauseGame": "Metti in pausa",
     "teamA": "SQUADRA A",
-    "teamB": "SQUADRA B"
+    "teamB": "SQUADRA B",
+    "imposterTitle": "Impostore",
+    "imposterPassTo": "Passa il telefono a {name}",
+    "imposterPlayer": "Giulia",
+    "imposterLookAway": "Gli altri non guardino.",
+    "imposterAgent": "AGENTE #01",
+    "imposterHold": "Tieni premuto per vedere il tuo ruolo"
   },
   "a11y": {
     "openMenu": "Apri menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} o Tadado: domande",
     "relatedTitle": "Altri confronti",
     "ctaTitle": "La tua prossima serata giochi inizia gratis",
-    "ctaBody": "Scarica Tadado, apri il mazzo gratuito Tadado Mix e gioca a Parole vietate o Heads Up in pochi secondi. Basta un telefono.",
+    "ctaBody": "Scarica Tadado, apri un mazzo gratuito e gioca a Parole vietate, Heads Up o Impostore in pochi secondi. Basta un telefono.",
     "ctaButton": "Scarica Tadado gratis",
     "freeNote": "Download gratuito · Senza pubblicità · Senza abbonamento",
     "disclaimer": "{game} è citato solo per descrivere un gioco o un formato noto. Tutti i marchi appartengono ai rispettivi proprietari; Tadado non è affiliato né approvato da loro. Le note su {game} descrivono il formato classico e le versioni tipiche; app ed edizioni possono variare, controlla la scheda nello store."
@@ -396,31 +406,60 @@
     "cta": "Scopri il mazzo"
   },
   "halloween": {
-    "heroPill": "Stagione di Halloween: mazzo gratis + nuova modalità Impostore",
-    "tag": "Stagione di Halloween",
+    "heroPill": "Novità: mazzo di Halloween gratis + modalità Impostore",
+    "tag": "Evento di Halloween",
     "title": "Notte di Halloween, in stile Tadado",
-    "body": "Due nuovi motivi per riunire il gruppo prima che si spengano le luci.",
-    "deckTitle": "Mazzo di Halloween gratis",
-    "deckBody": "Mostri, streghe e classici dell'horror. Gratis per tutti, senza acquisti.",
+    "body": "Un mazzo gratuito di 100 parole da brivido e una nuovissima modalità di bluff. Tutto quello che serve prima di spegnere le luci.",
+    "deckTitle": "Mazzo di Halloween gratuito",
+    "deckBody": "100 parole da brivido: mostri, streghe e classici dell'horror. Gratis per tutti, nessun acquisto.",
     "imposterTitle": "Nuova modalità: Impostore",
-    "imposterBody": "Tutti ricevono la parola segreta tranne un giocatore. Scoprite l'impostore prima che si mimetizzi.",
+    "imposterBody": "Tutti vedono la parola segreta tranne uno. Date gli indizi, poi votate per eliminare l'impostore.",
     "cta": "Gioca gratis stasera",
-    "guideCta": "Idee di giochi per Halloween",
-    "note": "La stagione di Halloween dura fino al 3 novembre.",
+    "guideCta": "Guida alla festa di Halloween",
+    "note": "L'evento di Halloween dura fino al 3 novembre.",
     "card": {
-      "deck": "Mazzo di Halloween",
+      "deck": "Halloween",
       "free": "Gratis",
-      "word": "Vampiro",
+      "word": "Lupo mannaro",
       "forbidden": [
-        "Sangue",
-        "Morso",
-        "Dracula",
-        "Notte"
+        "Luna piena",
+        "Ululare",
+        "Peli",
+        "Trasformarsi"
       ],
       "imposterLabel": "Impostore",
       "imposterRole": "Sei l'impostore",
-      "imposterHint": "Mimetizzati. Non farti scoprire."
-    }
+      "imposterHint": "Mimetizzati. Non farti scoprire.",
+      "deckDesc": "Parole da brivido per una serata di risate!",
+      "play": "Gioca",
+      "newBadge": "Nuovo",
+      "headsUpWord": "Vampiro",
+      "round": "Turno 1/4"
+    },
+    "eyebrow": "Giochi per feste di Halloween",
+    "heroTitle": "3 giochi per feste.",
+    "heroTitleAccent": "Un telefono.",
+    "heroSubtitle": "Gioca con amici, famiglia e tutta la compagnia. Mazzo di Halloween gratuito incluso.",
+    "heroSecondary": "Guarda il mazzo di Halloween",
+    "mascotBadge": "mazzi su ogni tema",
+    "headsUpTitle": "Heads Up, edizione Halloween",
+    "headsUpBody": "Telefono sulla fronte, mostri sullo schermo. Inclinalo in giù quando indovini.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "parole da brivido"
+      },
+      {
+        "value": "3",
+        "label": "modalità di gioco"
+      },
+      {
+        "value": "Gratis",
+        "label": "per tutti"
+      }
+    ],
+    "metaTitle": "Tadado: giochi per feste di Halloween | Tabù, Heads Up e Impostore",
+    "metaDescription": "Giochi di Halloween gratis su un telefono: un mazzo di Tabù da brivido con 100 parole, Heads Up e la nuova modalità Impostore. Senza pubblicità né abbonamento. iOS e Android."
   },
   "trust": {
     "eyebrow": "Pensato per te",
@@ -452,7 +491,7 @@
     "countBadge": "8 mazzi di gioco",
     "free": "Gratis",
     "play": "GIOCA",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NUOVO",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Creazione mazzi con IA",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 creazioni di mazzi con IA: mazzi su misura su qualsiasi tema."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 creazioni di mazzi con IA: mazzi su misura su qualsiasi tema."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 creazioni di mazzi con IA per serate di gioco frequenti.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 creazioni di mazzi con IA per serate di gioco frequenti.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 creazioni di mazzi con IA per chi non resta mai senza idee."
+        "desc": "40 creazioni di mazzi con IA per chi non resta mai senza idee."
       }
     ],
     "decksSectionTitle": "Mazzi premium",
     "singleDeck": {
       "name": "Mazzi tematici",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Acquisto una tantum per mazzo. Estate, Cinema, Viaggi, Sport, Eroi e altro."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tutti i mazzi tematici premium e 100 creazioni di mazzi con IA, con un solo acquisto.",
-      "aiCredits": "100 creazioni di mazzi con IA incluse",
+      "desc": "Tutti i mazzi tematici premium e 20 creazioni di mazzi con IA, con un solo acquisto.",
+      "aiCredits": "20 creazioni di mazzi con IA incluse",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Scegli un mazzo",
-        "body": "Gioca gratis con Mix o sblocca pacchetti tematici e mazzi IA."
+        "body": "Parole vietate a squadre, Heads Up da indovinare sulla fronte o Impostore per bluffare."
       },
       {
         "title": "Passa il telefono e gioca",
@@ -569,7 +608,7 @@
         "label": "lingue"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modalità di gioco"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Tieni il telefono sulla fronte così non vedi la parola. Gli amici danno indizi senza dirla. Inclina verso il basso quando indovini, verso l'alto per saltare. Tadado usa gli stessi mazzi nelle modalità Heads Up e Taboo."
       },
       {
-        "q": "Tadado è una delle migliori app gratuite di giochi di parole?",
-        "a": "Tadado è pensato per le serate di gioco: Taboo, mimo Heads Up, Tadado Mix gratis, mazzi tematici opzionali e creazione mazzi IA. Senza pubblicità e senza abbonamento, è una delle app di parole con il miglior rapporto qualità-prezzo su iOS e Android."
+        "q": "Come si gioca a Impostore su Tadado?",
+        "a": "Passatevi un solo telefono. Tutti vedono la stessa parola segreta tranne l'impostore, la cui carta è vuota. A turno ognuno dice un indizio di una parola, poi votate. Se viene scoperto, l'impostore vince comunque indovinando la parola."
+      },
+      {
+        "q": "Qual è un buon gioco per una festa di Halloween in gruppo?",
+        "a": "Tadado è perfetto per Halloween: il mazzo gratuito di Halloween ha 100 parole da brivido come Lupo mannaro, Strega e Casa infestata, da giocare come Parole vietate, Heads Up o Impostore su un solo telefono. Niente carte, niente preparazione, niente pubblicità."
+      },
+      {
+        "q": "Tadado è una delle migliori app gratuite di giochi per feste?",
+        "a": "Tadado è fatto per le serate di gioco: Parole vietate in stile Tabù, Heads Up, il gioco di bluff Impostore, mazzi gratuiti, mazzi a tema opzionali e creazione di mazzi con IA. Senza pubblicità né abbonamento, è una delle app per feste più convenienti su iOS e Android."
       },
       {
         "q": "Tadado è gratis?",
@@ -695,7 +742,7 @@
       },
       {
         "q": "Come funziona la creazione mazzi IA?",
-        "a": "Scrivi un argomento, come \"film Marvel\" o \"hit pop anni '90\", e Tadado genera un mazzo giocabile in pochi secondi per entrambe le modalità."
+        "a": "Scrivi un tema, come \"film Marvel\" o \"hit pop anni '90\", e Tadado crea in pochi secondi un mazzo giocabile per Parole vietate e Heads Up."
       },
       {
         "q": "Quali lingue sono supportate?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up in un'unica app",
+        "feature": "Tabù, Heads Up e Impostore in un'unica app",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Molte app si concentrano su una modalità, mostrano pubblicità o bloccano contenuti dietro abbonamenti. Tadado è pensato per vere serate di gioco con entrambe le modalità, un mazzo iniziale gratis e extra pagati una volta.",
+    "note": "Molte app puntano su una sola modalità, mostrano pubblicità o chiudono i contenuti dietro un abbonamento. Tadado è fatto per vere serate di gioco, con tre modalità, un mazzo iniziale gratuito ed extra a pagamento unico.",
     "cta": "Scarica Tadado gratis",
     "viewFull": "Apri pagina confronto completa"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ e come si gioca",
-        "body": "Regole di Parole vietate e Heads Up, prezzi e gioco offline.",
+        "body": "Regole di Parole vietate, Heads Up e Impostore, prezzi e gioco offline.",
         "cta": "Apri le FAQ",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing e stampa",
     "subtitle": "Campagne con creator, mazzi brandizzati e materiali stampa di Tadado.",
     "back": "Torna a Tadado",
-    "intro": "Tadado è un gioco di parole per gruppi veri: Parole vietate in stile Tabù e Heads Up su un solo telefono, senza pubblicità né abbonamento. Se stai pianificando contenuti, una collaborazione o un articolo, parti da qui.",
+    "intro": "Tadado è un'app di giochi per feste pensata per gruppi veri: Parole vietate in stile Tabù, Heads Up e Impostore su un telefono, senza pubblicità né abbonamento. Se stai preparando contenuti, una collaborazione o un articolo, inizia da qui.",
     "statsLabel": "In breve",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "lingue"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modalità di gioco"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Pagina iniziale",
     "popularAlternatives": "Guide alle alternative più popolari",
     "alternativesHub": "Alternative"
+  },
+  "halloweenPage": {
+    "metaTitle": "Giochi per feste di Halloween in gruppo: gratis su un telefono | Tadado",
+    "metaDescription": "I giochi di Halloween più semplici per amici e famiglia: Tabù da brivido, Heads Up e Impostore su un telefono con un mazzo gratuito di 100 parole. Senza carte né pubblicità.",
+    "breadcrumb": "Giochi per feste di Halloween",
+    "eyebrow": "Giochi per feste di Halloween",
+    "h1": "Giochi per feste di Halloween su un solo telefono",
+    "answer": "Il gioco di Halloween più semplice per un gruppo è quello che non richiede carte né preparazione. Tadado trasforma un telefono in tre giochi di Halloween: Tabù da brivido (Parole vietate), Heads Up e Impostore, tutti con un mazzo gratuito di 100 parole di Halloween. Va bene da 3 a 20+ giocatori, tra amici, in famiglia o in ufficio.",
+    "factsTitle": "In breve",
+    "facts": [
+      {
+        "label": "Giocatori",
+        "value": "Da 3 a 20+"
+      },
+      {
+        "label": "Ti serve",
+        "value": "Un telefono"
+      },
+      {
+        "label": "Mazzo di Halloween",
+        "value": "100 parole, gratis"
+      },
+      {
+        "label": "Modalità",
+        "value": "Tabù, Heads Up, Impostore"
+      },
+      {
+        "label": "Preparazione",
+        "value": "Meno di un minuto"
+      },
+      {
+        "label": "Pubblicità",
+        "value": "Nessuna"
+      }
+    ],
+    "modesTitle": "Tre giochi di Halloween in un'app",
+    "modesSubtitle": "Scegli la modalità giusta per il gruppo. Tutte usano lo stesso mazzo gratuito di Halloween.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Tabù da brivido",
+        "body": "Descrivi Lupo mannaro senza dire Luna piena, Ululare, Peli o Trasformarsi. Le squadre sfidano il tempo e le parole difficili valgono di più.",
+        "best": "Ideale da 4 giocatori in su, in due squadre"
+      },
+      {
+        "id": "headsup",
+        "title": "Heads Up di Halloween",
+        "body": "Tieni il telefono sulla fronte mentre gli amici mimano Vampiro o Mummia. Inclina in giù se indovini, in su per passare.",
+        "best": "Ideale per feste in maschera e foto"
+      },
+      {
+        "id": "imposter",
+        "title": "L'Impostore nella casa infestata",
+        "body": "Tutti vedono la stessa parola di Halloween tranne l'impostore, la cui carta è vuota. Ognuno dice un indizio, poi si vota. Se scoperto, l'impostore vince indovinando la parola.",
+        "best": "Ideale da 3 a 12 giocatori che amano bluffare"
+      }
+    ],
+    "samplesTitle": "Carte di esempio dal mazzo gratuito di Halloween",
+    "samplesSubtitle": "Carte vere del mazzo. Descrivi la parola grande e non dire mai le quattro sotto.",
+    "hostTitle": "Come organizzare una serata giochi di Halloween in 5 passi",
+    "hostSteps": [
+      {
+        "title": "Scarica Tadado",
+        "body": "Gratis su iPhone e Android. Installalo prima che arrivino gli ospiti."
+      },
+      {
+        "title": "Apri il mazzo di Halloween",
+        "body": "Durante l'evento è il primo nella schermata iniziale ed è gratuito."
+      },
+      {
+        "title": "Scegli una modalità",
+        "body": "Parole vietate a squadre, Heads Up per mimare, Impostore per bluffare."
+      },
+      {
+        "title": "Imposta squadre e timer",
+        "body": "Dividi il gruppo, scegli turni e timer. Tadado tiene il punteggio."
+      },
+      {
+        "title": "Passa il telefono",
+        "body": "Un solo telefono gira per la stanza. Abbassa le luci per più suspense."
+      }
+    ],
+    "ideasTitle": "Idee di giochi di Halloween che funzionano sempre",
+    "ideas": [
+      {
+        "title": "Heads Up in maschera",
+        "body": "Chi tiene il telefono recita in costume. Filmate al rallentatore per la chat di gruppo."
+      },
+      {
+        "title": "Torneo di Tabù dei mostri",
+        "body": "Due squadre, tre turni; chi perde distribuisce le caramelle."
+      },
+      {
+        "title": "Impostore al buio",
+        "body": "Giocate a Impostore a lume di candela. Bluffare al buio è molto più difficile."
+      },
+      {
+        "title": "Il vostro mazzo horror",
+        "body": "Scrivi un tema come \"film horror anni '80\" e lascia che l'IA crei un mazzo per il tuo gruppo."
+      }
+    ],
+    "faqTitle": "Giochi per feste di Halloween: domande",
+    "faq": [
+      {
+        "q": "Qual è il miglior gioco di Halloween per un gruppo di amici?",
+        "a": "Uno che non richiede preparazione e fa parlare tutti. Con il mazzo gratuito di Halloween di Tadado il gruppo gioca a Tabù da brivido, Heads Up o Impostore su un telefono, appena arrivano tutti."
+      },
+      {
+        "q": "Il mazzo di Halloween di Tadado è gratuito?",
+        "a": "Sì. Il mazzo di Halloween è gratuito per tutti, con 100 parole di Halloween. Senza pubblicità né abbonamento."
+      },
+      {
+        "q": "Quante persone possono giocare?",
+        "a": "Da 3 giocatori fino a grandi feste. Tabù e Heads Up dividono il gruppo in squadre, mentre Impostore si gioca da 3 a 12 su un telefono."
+      },
+      {
+        "q": "Va bene per bambini e feste di Halloween in famiglia?",
+        "a": "Sì. Il mazzo è costruito sui classici di Halloween come Zucca, Strega, Fantasma e Dolcetto o scherzetto, quindi va bene sia per le serate in famiglia sia per le feste tra adulti."
+      },
+      {
+        "q": "Servono carte o altri telefoni?",
+        "a": "No. Basta un telefono per tutte le modalità. Passa di mano in mano e Tadado gestisce timer, carte e punteggio."
+      },
+      {
+        "q": "In quali lingue è disponibile il mazzo di Halloween?",
+        "a": "Le parole di Halloween sono pensate per ogni lingua delle carte, non solo tradotte, e l'app è disponibile in 17 lingue."
+      }
+    ],
+    "ctaTitle": "La tua festa di Halloween inizia gratis",
+    "ctaBody": "Scarica Tadado, apri il mazzo di Halloween e gioca il primo turno in meno di un minuto.",
+    "ctaButton": "Scarica Tadado gratis",
+    "related": "Altre idee di giochi per feste",
+    "seasonNote": "L'evento di Halloween nell'app dura fino al 3 novembre."
   }
 }

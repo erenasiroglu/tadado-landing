@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado：派对文字游戏 | Taboo、Heads Up 与 AI 卡组",
-    "description": "一部手机。你的朋友们。Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。免费开始。无广告。支持 iOS 和 Android。"
+    "title": "Tadado：聚会游戏应用 | 禁忌词、Heads Up、卧底与 AI 卡组",
+    "description": "一部手机，一群朋友。禁忌词、Heads Up、卧底和 AI 卡组，让游戏之夜更热闹。免费开玩，无广告、无订阅。支持 iOS 和 Android。"
   },
   "nav": {
     "play": "开始玩",
@@ -17,12 +17,13 @@
     "compare": "对比",
     "affiliate": "联盟",
     "team": "团队",
-    "download": "下载"
+    "download": "下载",
+    "halloween": "万圣节"
   },
   "hero": {
     "brandLine": "派对猜词游戏 · App Store 评分 ★ 5.0",
     "title": "一部手机。你的朋友们。让混乱开始吧。",
-    "subtitle": "Taboo、Heads Up 以及为游戏之夜打造的 AI 自定义卡组。",
+    "subtitle": "禁忌词、Heads Up、卧底，以及用 AI 定制的卡组，专为游戏之夜打造。",
     "ctaPrimary": "免费下载 TADADO",
     "ctaSecondary": "了解玩法",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "游戏模式"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300,000+ 局游戏",
-    "modes": "2 种游戏模式",
+    "modes": "3 种游戏模式",
     "ai": "AI 驱动",
     "languages": "17 种语言",
     "offline": "离线游玩",
@@ -72,8 +73,8 @@
     "developer": "由 Tadado Game Development 打造",
     "items": [
       {
-        "title": "两种模式，一个应用",
-        "body": "在 Forbidden Words 和 Heads Up 之间切换，无需下载两次。同一套卡组，每轮不同的氛围。"
+        "title": "三种模式，一个应用",
+        "body": "在禁忌词、Heads Up 和卧底之间随时切换，无需再下载别的应用。同一套卡组，每一轮都有新玩法。"
       },
       {
         "title": "秒级生成 AI 卡组",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "全球游戏局数",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "游戏模式",
     "languages": "17",
     "languagesLabel": "应用内语言",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "两种玩法",
-    "subtitle": "经典 Taboo 风格禁词，或额头 Heads Up。同一套卡组，不同氛围。",
+    "title": "三种玩法",
+    "subtitle": "禁忌词描述、Heads Up 额头猜词，或者揪出卧底。一部手机，三种欢乐混乱。",
     "tabooTitle": "禁忌词",
     "tabooBody": "描述主词，承担更大风险，提升得分。越难的词解锁越高倍率，从 ×2 到 ×5。",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "横屏游玩",
       "buildScoreTitle": "累积得分",
       "buildScoreBody": "挑战更难的词来提升倍率，让每次答对都变成更高分数。",
-      "scoreMultipliersAria": "得分倍率：2x、3x、5x"
-    }
+      "scoreMultipliersAria": "得分倍率：2x、3x、5x",
+      "passGameplay": "轮流传手机玩"
+    },
+    "imposterTitle": "卧底",
+    "imposterBody": "你们中有一个人不知道词语。其他人都能看到，轮流说一个提示词，再投票找出卧底。"
   },
   "gamePreview": {
     "timeLeft": "剩余 42 秒",
@@ -217,7 +221,13 @@
     "continue": "继续",
     "pauseGame": "暂停游戏",
     "teamA": "A 队",
-    "teamB": "B 队"
+    "teamB": "B 队",
+    "imposterTitle": "卧底",
+    "imposterPassTo": "把手机交给{name}",
+    "imposterPlayer": "小雨",
+    "imposterLookAway": "其他人请别看。",
+    "imposterAgent": "特工 #01",
+    "imposterHold": "长按查看你的身份"
   },
   "a11y": {
     "openMenu": "打开菜单",
@@ -383,7 +393,7 @@
     "faqTitle": "{game}与 Tadado：常见问题",
     "relatedTitle": "更多对比",
     "ctaTitle": "下一个游戏之夜，免费开始",
-    "ctaBody": "下载 Tadado，打开免费卡组 Tadado Mix，几秒内就能玩禁忌词或 Heads Up。一部手机就够了。",
+    "ctaBody": "下载 Tadado，打开免费卡组，几秒内就能玩禁忌词、Heads Up 或卧底。一部手机就够了。",
     "ctaButton": "免费下载 Tadado",
     "freeNote": "免费下载 · 无广告 · 无订阅",
     "disclaimer": "提及{game}仅用于描述一种知名游戏或玩法。所有商标均归其各自所有者，Tadado 与其无关联，也未获其认可。关于{game}的说明基于经典玩法和常见版本，不同 App 或版本可能有所差异，请以各商店页面为准。"
@@ -396,31 +406,60 @@
     "cta": "查看卡组"
   },
   "halloween": {
-    "heroPill": "万圣节季：免费卡组 + 全新「卧底」模式",
-    "tag": "万圣节季",
-    "title": "Tadado 万圣节之夜",
-    "body": "趁灯还没熄，又多了两个约朋友聚会的理由。",
+    "heroPill": "全新：免费万圣节卡组 + 卧底模式",
+    "tag": "万圣节活动",
+    "title": "Tadado 风格的万圣节之夜",
+    "body": "一套 100 个惊悚词语的免费卡组，加上全新的虚张声势模式。关灯之前，你需要的都在这里。",
     "deckTitle": "免费万圣节卡组",
-    "deckBody": "怪物、女巫和经典恐怖片。人人免费，无需购买。",
-    "imposterTitle": "全新模式：卧底",
-    "imposterBody": "除一名玩家外，所有人都会拿到秘密词。在卧底混进人群前把他找出来。",
+    "deckBody": "100 个惊悚词语：怪物、女巫和经典恐怖元素。所有人免费，无需购买。",
+    "imposterTitle": "新模式：卧底",
+    "imposterBody": "除了一个人，所有人都能看到秘密词语。轮流给提示，然后投票淘汰卧底。",
     "cta": "今晚免费开玩",
-    "guideCta": "万圣节游戏点子",
-    "note": "万圣节季持续到 11 月 3 日。",
+    "guideCta": "万圣节聚会指南",
+    "note": "万圣节活动持续到 11 月 3 日。",
     "card": {
-      "deck": "万圣节卡组",
+      "deck": "万圣节",
       "free": "免费",
-      "word": "吸血鬼",
+      "word": "狼人",
       "forbidden": [
-        "血",
-        "咬",
-        "德古拉",
-        "夜晚"
+        "满月",
+        "嚎叫",
+        "变身",
+        "毛"
       ],
       "imposterLabel": "卧底",
       "imposterRole": "你是卧底",
-      "imposterHint": "混进去，别被发现。"
-    }
+      "imposterHint": "别露馅。",
+      "deckDesc": "惊悚词语，欢笑整晚！",
+      "play": "开玩",
+      "newBadge": "新",
+      "headsUpWord": "吸血鬼",
+      "round": "第 1/4 轮"
+    },
+    "eyebrow": "万圣节聚会游戏",
+    "heroTitle": "3 款聚会游戏。",
+    "heroTitleAccent": "一部手机。",
+    "heroSubtitle": "和朋友、家人或整个小团体一起玩。内含免费万圣节卡组。",
+    "heroSecondary": "查看万圣节卡组",
+    "mascotBadge": "任何主题都有卡组",
+    "headsUpTitle": "Heads Up 万圣节版",
+    "headsUpBody": "手机贴额头，怪物上屏幕。猜中就把手机向下倾斜。",
+    "stats": [
+      {
+        "value": "100",
+        "label": "个惊悚词语"
+      },
+      {
+        "value": "3",
+        "label": "种游戏模式"
+      },
+      {
+        "value": "免费",
+        "label": "人人可玩"
+      }
+    ],
+    "metaTitle": "Tadado：万圣节聚会游戏 | 禁忌词、Heads Up 与卧底",
+    "metaDescription": "一部手机就能玩的免费万圣节聚会游戏：100 个词的惊悚禁忌词卡组、Heads Up 和全新卧底模式。无广告、无订阅。支持 iOS 和 Android。"
   },
   "trust": {
     "eyebrow": "为你而做",
@@ -452,7 +491,7 @@
     "countBadge": "8 套游戏卡组",
     "free": "免费",
     "play": "开始玩",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "新",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "AI 卡组创建",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 次 AI 卡组创建：任何主题都能生成专属卡组。"
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 次 AI 卡组创建：任何主题都能生成专属卡组。"
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 次 AI 卡组创建，适合经常组织游戏之夜。",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 次 AI 卡组创建，适合经常组织游戏之夜。",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 次 AI 卡组创建，创意永不枯竭。"
+        "desc": "40 次 AI 卡组创建，创意永不枯竭。"
       }
     ],
     "decksSectionTitle": "高级卡组",
     "singleDeck": {
       "name": "主题卡组",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "每套卡组一次性购买。夏日、影院、旅行、运动、英雄等。"
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "一次购买，解锁所有高级主题卡组，并附赠 100 次 AI 卡组创建。",
-      "aiCredits": "含 100 次 AI 卡组创建",
+      "desc": "一次购买，解锁所有高级主题卡组，并附赠 20 次 AI 卡组创建。",
+      "aiCredits": "含 20 次 AI 卡组创建",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "选择卡组",
-        "body": "用 Mix 免费玩，或解锁主题包和 AI 卡组。"
+        "body": "禁忌词适合分队对战，Heads Up 适合额头猜词，卧底适合斗智虚张声势。"
       },
       {
         "title": "传递手机开玩",
@@ -569,7 +608,7 @@
         "label": "种语言"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "游戏模式"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "将手机放在额头上，让自己看不到词。朋友口头提示但不能说词。猜对向下倾斜，跳过向上倾斜。Tadado 在 Heads Up 和 Taboo 模式使用同一套卡组。"
       },
       {
-        "q": "Tadado 是最佳免费文字游戏应用之一吗？",
-        "a": "Tadado 为游戏之夜打造：Taboo、Heads Up 猜词、免费 Tadado Mix、可选主题卡组与 AI 卡组创建。无广告无订阅，是 iOS 和 Android 上性价比最高的文字游戏应用之一。"
+        "q": "在 Tadado 里怎么玩卧底？",
+        "a": "大家轮流传一部手机。除了卧底，所有人都看到同一个秘密词语，卧底的卡片是空白的。每人轮流说一个提示词，然后投票。即使卧底被抓到，只要猜中词语依然获胜。"
+      },
+      {
+        "q": "万圣节聚会适合玩什么游戏？",
+        "a": "Tadado 非常适合万圣节：免费万圣节卡组有 100 个惊悚词语，如狼人、女巫和鬼屋，可以用一部手机玩禁忌词、Heads Up 或卧底。不用卡牌、不用准备、没有广告。"
+      },
+      {
+        "q": "Tadado 是最好的免费聚会游戏应用之一吗？",
+        "a": "Tadado 专为游戏之夜打造：禁忌词、Heads Up、虚张声势的卧底游戏、免费卡组、可选主题卡组，以及 AI 卡组生成。无广告、无订阅，是 iOS 和 Android 上性价比最高的聚会应用之一。"
       },
       {
         "q": "Tadado 免费吗？",
@@ -694,8 +741,8 @@
         "a": "没有。Tadado 无广告。只有你选择时才为可选卡组或 AI 创建付费。"
       },
       {
-        "q": "AI 卡组创建如何运作？",
-        "a": "输入主题，如「Marvel 电影」或「90 年代流行金曲」，Tadado 会在几秒内为两种游戏模式生成可玩卡组。"
+        "q": "AI 卡组生成是怎么工作的？",
+        "a": "输入一个主题，比如「漫威电影」或「90 年代流行金曲」，Tadado 几秒内就会生成一套可用于禁忌词和 Heads Up 的卡组。"
       },
       {
         "q": "支持哪些语言？",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up 一个应用",
+        "feature": "禁忌词、Heads Up 和卧底集于一个应用",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "许多应用只专注一种模式、展示广告或将内容锁在订阅后。Tadado 为真正的游戏之夜打造：两种模式、免费入门卡组、一次性额外内容。",
+    "note": "很多应用只有一种模式、到处是广告，或把内容锁在订阅后面。Tadado 为真正的游戏之夜而生：三种模式、免费入门卡组，以及一次性购买的扩展内容。",
     "cta": "免费下载 Tadado",
     "viewFull": "打开完整对比页"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "常见问题与玩法",
-        "body": "禁忌词和 Heads Up 的规则、价格以及离线游玩。",
+        "body": "禁忌词、Heads Up 和卧底的规则、价格以及离线游玩。",
         "cta": "打开常见问题",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "市场与媒体",
     "subtitle": "创作者合作、品牌卡组以及 Tadado 媒体资料。",
     "back": "返回 Tadado",
-    "intro": "Tadado 是一款为真实朋友聚会打造的派对猜词游戏：禁忌词玩法和 Heads Up 在一部手机上即可畅玩，无广告、无订阅。如果你正在策划内容、合作或报道，请从这里开始。",
+    "intro": "Tadado 是为真实朋友圈设计的聚会游戏应用：在一部手机上玩禁忌词、Heads Up 和卧底，无广告、无订阅。如果你在策划内容、合作或报道，从这里开始。",
     "statsLabel": "速览",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "种语言"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "游戏模式"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "首页",
     "popularAlternatives": "热门替代应用指南",
     "alternativesHub": "替代应用"
+  },
+  "halloweenPage": {
+    "metaTitle": "万圣节聚会游戏推荐：一部手机免费玩 | Tadado",
+    "metaDescription": "适合朋友和家人的最简单万圣节游戏：在一部手机上玩惊悚禁忌词、Heads Up 和卧底，附带 100 个词的免费卡组。无需卡牌，没有广告。",
+    "breadcrumb": "万圣节聚会游戏",
+    "eyebrow": "万圣节聚会游戏",
+    "h1": "一部手机就能玩的万圣节聚会游戏",
+    "answer": "最适合一群人的万圣节游戏，是不需要卡牌也不需要准备的游戏。Tadado 把一部手机变成三款万圣节游戏：惊悚禁忌词、Heads Up 和卧底，全部使用 100 个万圣节词语的免费卡组。适合 3 到 20 多人，朋友聚会、家庭和公司派对都合适。",
+    "factsTitle": "一览",
+    "facts": [
+      {
+        "label": "玩家人数",
+        "value": "3 到 20+ 人"
+      },
+      {
+        "label": "你需要",
+        "value": "一部手机"
+      },
+      {
+        "label": "万圣节卡组",
+        "value": "100 个词，免费"
+      },
+      {
+        "label": "游戏模式",
+        "value": "禁忌词、Heads Up、卧底"
+      },
+      {
+        "label": "准备时间",
+        "value": "不到一分钟"
+      },
+      {
+        "label": "广告",
+        "value": "无"
+      }
+    ],
+    "modesTitle": "一个应用里的三款万圣节游戏",
+    "modesSubtitle": "按人数和气氛选模式。三种模式都使用同一套免费万圣节卡组。",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "惊悚禁忌词",
+        "body": "描述「狼人」，但不能说满月、嚎叫、变身或毛。各队限时比拼，难词得分更高。",
+        "best": "最适合 4 人以上，分成两队"
+      },
+      {
+        "id": "headsup",
+        "title": "万圣节 Heads Up",
+        "body": "把手机贴在额头上，朋友们表演吸血鬼或木乃伊。猜中向下倾斜，跳过向上倾斜。",
+        "best": "最适合变装派对和拍照"
+      },
+      {
+        "id": "imposter",
+        "title": "鬼屋里的卧底",
+        "body": "所有人都看到同一个万圣节词语，只有卧底的卡片是空白的。每人说一个提示词，然后投票。卧底被抓后猜中词语仍可获胜。",
+        "best": "最适合 3 到 12 位爱虚张声势的玩家"
+      }
+    ],
+    "samplesTitle": "免费万圣节卡组示例",
+    "samplesSubtitle": "卡组里的真实卡片。描述上方的大词，下方四个词一个都不能说。",
+    "hostTitle": "5 步办好万圣节游戏之夜",
+    "hostSteps": [
+      {
+        "title": "下载 Tadado",
+        "body": "iPhone 和 Android 免费下载。客人到来前先装好。"
+      },
+      {
+        "title": "打开万圣节卡组",
+        "body": "活动期间它就在首页最上方，完全免费。"
+      },
+      {
+        "title": "选择模式",
+        "body": "禁忌词适合分队，Heads Up 适合表演，卧底适合虚张声势。"
+      },
+      {
+        "title": "设置队伍和计时",
+        "body": "分好队，选好轮数和计时。Tadado 自动计分。"
+      },
+      {
+        "title": "传递手机",
+        "body": "一部手机在房间里传来传去。调暗灯光更有气氛。"
+      }
+    ],
+    "ideasTitle": "屡试不爽的万圣节游戏点子",
+    "ideas": [
+      {
+        "title": "变装版 Heads Up",
+        "body": "拿手机的人穿着万圣节服装表演。用慢动作拍下来发到群里。"
+      },
+      {
+        "title": "怪物禁忌词锦标赛",
+        "body": "两队三轮，输的一队负责发糖。"
+      },
+      {
+        "title": "烛光卧底",
+        "body": "点上蜡烛玩卧底。在黑暗中虚张声势难多了。"
+      },
+      {
+        "title": "你们专属的恐怖卡组",
+        "body": "输入「80 年代恐怖片」这样的主题，让 AI 为你们生成一套卡组。"
+      }
+    ],
+    "faqTitle": "万圣节聚会游戏常见问题",
+    "faq": [
+      {
+        "q": "一群朋友过万圣节，玩什么游戏最好？",
+        "a": "不需要准备、能让每个人都开口的游戏。用 Tadado 的免费万圣节卡组，大家到齐就能在一部手机上玩惊悚禁忌词、Heads Up 或卧底。"
+      },
+      {
+        "q": "Tadado 的万圣节卡组免费吗？",
+        "a": "是的。万圣节卡组对所有人免费，包含 100 个万圣节词语。无广告、无订阅。"
+      },
+      {
+        "q": "多少人可以一起玩？",
+        "a": "3 人起，大型派对也没问题。禁忌词和 Heads Up 分队进行，卧底支持 3 到 12 人用一部手机玩。"
+      },
+      {
+        "q": "适合孩子和家庭万圣节吗？",
+        "a": "适合。卡组以南瓜、女巫、鬼和不给糖就捣蛋等经典元素为主，家庭之夜和成人派对都合适。"
+      },
+      {
+        "q": "需要卡牌或多部手机吗？",
+        "a": "不需要。所有模式一部手机就够了。手机轮流传递，Tadado 负责计时、出卡和计分。"
+      },
+      {
+        "q": "万圣节卡组有哪些语言？",
+        "a": "万圣节词语为每种卡组语言单独挑选，而不只是翻译，应用本身支持 17 种语言。"
+      }
+    ],
+    "ctaTitle": "你的万圣节派对，免费开始",
+    "ctaBody": "下载 Tadado，打开万圣节卡组，一分钟内开始第一轮。",
+    "ctaButton": "免费下载 Tadado",
+    "related": "更多聚会游戏灵感",
+    "seasonNote": "应用内万圣节活动持续到 11 月 3 日。"
   }
 }

@@ -3,6 +3,8 @@
  * @see constants/homeGradient.ts, constants/glassDesign.ts, constants/gameThemes.ts
  */
 
+import { isHalloweenSeason } from "@/lib/season";
+
 export const BRAND_BG_DEEP = "#1A0F28";
 export const BRAND_BG = "#2A0A3B";
 export const BRAND_BG_LIFT = "#3D1F58";
@@ -50,7 +52,21 @@ export const GLASS = {
   },
 } as const;
 
-export const CLASSIC_GAME_SCREEN = {
+export const CLASSIC_GAME_SCREEN: {
+  background: string;
+  cardBg: string;
+  wordBg: string;
+  wordText: string;
+  forbiddenWordBg: string;
+  forbiddenWordText: string;
+  teamNameText: string;
+  timerGradient: readonly [string, string];
+  timerText: string;
+  cardProgressText: string;
+  cardBorder: string;
+  forbiddenWordBorder: string;
+  forbiddenUppercase: boolean;
+} = {
   background: "#290939",
   cardBg: "#4b1a7a",
   wordBg: "#faaa12",
@@ -58,10 +74,33 @@ export const CLASSIC_GAME_SCREEN = {
   forbiddenWordBg: "#faaa12",
   forbiddenWordText: "#4b1a7a",
   teamNameText: "#faaa12",
-  timerGradient: ["#ffe8bd", "#fcb022"] as const,
+  timerGradient: ["#ffe8bd", "#fcb022"],
   timerText: "#957d84",
   cardProgressText: "#fff0cf",
-} as const;
+  cardBorder: "transparent",
+  forbiddenWordBorder: "transparent",
+  forbiddenUppercase: true,
+};
+
+/** App `halloween` card skin (theme/card-skins.ts): pumpkin word on midnight purple, never yellow. */
+export const HALLOWEEN_GAME_SCREEN: typeof CLASSIC_GAME_SCREEN = {
+  background: "#22123c",
+  cardBg: "#1d0e37",
+  wordBg: "#f2711c",
+  wordText: "#1a0f29",
+  forbiddenWordBg: "#3a1b57",
+  forbiddenWordText: "#fff4d6",
+  teamNameText: "#fff4d6",
+  timerGradient: ["#f7a35c", "#f2711c"] as const,
+  timerText: "rgba(237, 233, 254, 0.55)",
+  cardProgressText: "#fff4d6",
+  cardBorder: "rgba(242, 113, 28, 0.45)",
+  forbiddenWordBorder: "rgba(196, 181, 253, 0.1)",
+  forbiddenUppercase: false,
+};
+
+/** Game skin the site previews use right now; follows the app's seasonal default skin. */
+export const ACTIVE_GAME_SCREEN = isHalloweenSeason() ? HALLOWEEN_GAME_SCREEN : CLASSIC_GAME_SCREEN;
 
 export const ACTION_VARIANTS = {
   taboo: {

@@ -16,9 +16,11 @@ import { SectionHeading } from "./SectionHeading";
 interface GameModeShowcaseProps {
   locale: Locale;
   dict: Dictionary;
+  /** Show cards from the free Halloween deck (season skin). */
+  halloween?: boolean;
 }
 
-export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
+export function GameModeShowcase({ locale, dict, halloween = false }: GameModeShowcaseProps) {
   const reduceMotion = useReducedMotion();
   const [activeMode, setActiveMode] = useState<GameModeFilter>("taboo");
   const startedRef = useRef(false);
@@ -49,9 +51,15 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
       key: "headsup",
       title: dict.modes.headsUpTitle,
       body: dict.modes.headsUpBody,
+    },
+    {
+      key: "imposter",
+      title: dict.modes.imposterTitle,
+      body: dict.modes.imposterBody,
       badge: dict.modes.newBadge,
     },
   ];
+  const card = dict.halloween.card;
 
   const activeCopy = modes.find((mode) => mode.key === activeMode);
 
@@ -65,6 +73,7 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
         onSelect={selectMode}
         tabooLabel={dict.modes.tabooTitle}
         headsUpLabel={dict.modes.headsUpTitle}
+        imposterLabel={dict.modes.imposterTitle}
         ariaLabel={dict.modes.title}
       />
 
@@ -83,12 +92,14 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 <p className="text-xs font-bold uppercase tracking-[0.16em] text-muted-foreground">
                   {activeMode === "taboo"
                     ? dict.modes.showcase.portraitGameplay
-                    : dict.modes.showcase.landscapeGameplay}
+                    : activeMode === "headsup"
+                      ? dict.modes.showcase.landscapeGameplay
+                      : dict.modes.showcase.passGameplay}
                 </p>
                 <div className="mt-2 flex items-center gap-2">
                   <h3 className="text-2xl font-bold text-foreground">{activeCopy.title}</h3>
                   {activeCopy.badge ? (
-                    <span className="rounded-md border border-border bg-lilac px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-ink">
+                    <span className="rounded-full bg-[#F2711C] px-2.5 py-1 text-[10px] leading-none font-extrabold tracking-[0.08em] text-ink uppercase">
                       {activeCopy.badge}
                     </span>
                   ) : null}
@@ -144,6 +155,8 @@ export function GameModeShowcase({ locale, dict }: GameModeShowcaseProps) {
                 previewLabels={dict.gamePreview}
                 portraitWidth={248}
                 landscapeWidth={400}
+                tabooSample={halloween ? { word: card.word, forbidden: card.forbidden } : undefined}
+                headsUpWord={halloween ? card.headsUpWord : undefined}
               />
             </m.div>
           </AnimatePresence>

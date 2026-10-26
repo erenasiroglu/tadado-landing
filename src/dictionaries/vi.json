@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Game Từ Vựng Tiệc Tùng | Taboo, Heads Up & Bộ Bài AI",
-    "description": "Một điện thoại. Bạn bè của bạn. Taboo, Heads Up và bộ bài AI dành cho đêm chơi game. Miễn phí để bắt đầu. Không quảng cáo. iOS và Android."
+    "title": "Tadado: Ứng dụng trò chơi tiệc | Từ cấm, Heads Up, Kẻ mạo danh & bộ thẻ AI",
+    "description": "Một chiếc điện thoại. Bạn bè của bạn. Từ cấm, Heads Up, Kẻ mạo danh và bộ thẻ AI cho những buổi chơi game. Miễn phí để bắt đầu, không quảng cáo, không thuê bao. iOS và Android."
   },
   "nav": {
     "play": "Chơi",
@@ -17,12 +17,13 @@
     "compare": "So Sánh",
     "affiliate": "Cộng tác viên",
     "team": "Đội Ngũ",
-    "download": "Tải xuống"
+    "download": "Tải xuống",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Trò chơi đoán từ cho buổi tiệc · ★ 5.0 trên App Store",
     "title": "Một điện thoại. Bạn bè của bạn. Hãy để sự hỗn loạn bắt đầu.",
-    "subtitle": "Taboo, Heads Up và bộ bài AI dành cho đêm chơi game.",
+    "subtitle": "Từ cấm, Heads Up, Kẻ mạo danh và bộ thẻ tự tạo bằng AI cho những buổi chơi game.",
     "ctaPrimary": "TẢI TADADO · MIỄN PHÍ",
     "ctaSecondary": "XEM CÁCH HOẠT ĐỘNG",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "chế độ chơi"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300.000+ ván đã chơi",
-    "modes": "2 chế độ chơi",
+    "modes": "3 chế độ chơi",
     "ai": "Hỗ trợ AI",
     "languages": "17 ngôn ngữ",
     "offline": "Chơi offline",
@@ -72,8 +73,8 @@
     "developer": "Phát triển bởi Tadado Game Development",
     "items": [
       {
-        "title": "Hai chế độ, một ứng dụng",
-        "body": "Chuyển đổi giữa Forbidden Words và Heads Up mà không cần tải hai lần. Cùng bộ bài, năng lượng khác nhau mỗi vòng."
+        "title": "Ba chế độ, một ứng dụng",
+        "body": "Chuyển giữa Từ cấm, Heads Up và Kẻ mạo danh mà không cần tải thêm gì. Cùng bộ thẻ, mỗi vòng một không khí khác."
       },
       {
         "title": "Bộ bài AI trong vài giây",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "ván đã chơi trên toàn thế giới",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "chế độ chơi",
     "languages": "17",
     "languagesLabel": "ngôn ngữ trong ứng dụng",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Hai cách chơi",
-    "subtitle": "Từ cấm kiểu Taboo cổ điển hoặc Heads Up trên trán. Cùng bộ bài, năng lượng khác nhau.",
+    "title": "Ba cách chơi",
+    "subtitle": "Từ cấm kiểu Taboo, Heads Up đoán trên trán, hoặc vạch mặt Kẻ mạo danh. Một điện thoại, ba kiểu hỗn loạn.",
     "tabooTitle": "Từ cấm",
     "tabooBody": "Mô tả từ chính, chấp nhận rủi ro lớn hơn và tăng điểm. Từ khó hơn mở khóa hệ số nhân cao hơn, từ ×2 đến ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Chơi ngang",
       "buildScoreTitle": "Xây dựng điểm số",
       "buildScoreBody": "Chọn từ khó hơn để tăng hệ số nhân và biến mỗi câu trả lời đúng thành điểm cao hơn.",
-      "scoreMultipliersAria": "Hệ số nhân điểm: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Hệ số nhân điểm: 2x, 3x, 5x",
+      "passGameplay": "Trò chơi chuyền điện thoại"
+    },
+    "imposterTitle": "Kẻ mạo danh",
+    "imposterBody": "Một người trong nhóm không biết từ khóa. Những người khác nhìn thấy, lần lượt nói một từ gợi ý rồi bỏ phiếu tìm kẻ mạo danh."
   },
   "gamePreview": {
     "timeLeft": "Còn 42 giây",
@@ -217,7 +221,13 @@
     "continue": "Tiếp tục",
     "pauseGame": "Tạm dừng game",
     "teamA": "ĐỘI A",
-    "teamB": "ĐỘI B"
+    "teamB": "ĐỘI B",
+    "imposterTitle": "Kẻ mạo danh",
+    "imposterPassTo": "Đưa điện thoại cho {name}",
+    "imposterPlayer": "Linh",
+    "imposterLookAway": "Những người khác đừng nhìn.",
+    "imposterAgent": "ĐẶC VỤ #01",
+    "imposterHold": "Nhấn giữ để xem vai của bạn"
   },
   "a11y": {
     "openMenu": "Mở menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} và Tadado: câu hỏi thường gặp",
     "relatedTitle": "So sánh thêm",
     "ctaTitle": "Đêm chơi game tiếp theo bắt đầu miễn phí",
-    "ctaBody": "Tải Tadado, mở bộ bài miễn phí Tadado Mix và chơi Từ cấm hoặc Heads Up chỉ trong vài giây. Một chiếc điện thoại là đủ.",
+    "ctaBody": "Tải Tadado, mở một bộ thẻ miễn phí và chơi Từ cấm, Heads Up hoặc Kẻ mạo danh chỉ trong vài giây. Một điện thoại là đủ.",
     "ctaButton": "Tải Tadado miễn phí",
     "freeNote": "Tải miễn phí · Không quảng cáo · Không đăng ký",
     "disclaimer": "{game} chỉ được nhắc đến để mô tả một trò chơi hoặc lối chơi nổi tiếng. Mọi nhãn hiệu thuộc về chủ sở hữu; Tadado không liên kết hay được họ bảo trợ. Thông tin về {game} mô tả lối chơi kinh điển và các phiên bản phổ biến; từng ứng dụng hoặc phiên bản có thể khác, hãy xem trang cửa hàng."
@@ -396,31 +406,60 @@
     "cta": "Khám phá bộ bài"
   },
   "halloween": {
-    "heroPill": "Mùa Halloween: bộ bài miễn phí + chế độ mới Kẻ mạo danh",
-    "tag": "Mùa Halloween",
+    "heroPill": "Mới: bộ thẻ Halloween miễn phí + chế độ Kẻ mạo danh",
+    "tag": "Sự kiện Halloween",
     "title": "Đêm Halloween theo phong cách Tadado",
-    "body": "Thêm hai lý do để tụ tập cả nhóm trước khi đèn tắt.",
-    "deckTitle": "Bộ bài Halloween miễn phí",
-    "deckBody": "Quái vật, phù thủy và những phim kinh dị kinh điển. Miễn phí cho mọi người, không cần mua.",
+    "body": "Bộ thẻ miễn phí với 100 từ rùng rợn và một chế độ đấu trí hoàn toàn mới. Mọi thứ bạn cần trước khi tắt đèn.",
+    "deckTitle": "Bộ thẻ Halloween miễn phí",
+    "deckBody": "100 từ rùng rợn: quái vật, phù thủy và kinh điển kinh dị. Miễn phí cho tất cả, không cần mua.",
     "imposterTitle": "Chế độ mới: Kẻ mạo danh",
-    "imposterBody": "Mọi người đều nhận từ bí mật, trừ một người chơi. Hãy tìm ra kẻ mạo danh trước khi hắn trà trộn.",
+    "imposterBody": "Ai cũng thấy từ bí mật, trừ một người. Đưa gợi ý rồi bỏ phiếu loại kẻ mạo danh.",
     "cta": "Chơi miễn phí tối nay",
-    "guideCta": "Ý tưởng trò chơi Halloween",
-    "note": "Mùa Halloween kéo dài đến hết ngày 3 tháng 11.",
+    "guideCta": "Hướng dẫn tiệc Halloween",
+    "note": "Sự kiện Halloween kéo dài đến ngày 3 tháng 11.",
     "card": {
-      "deck": "Bộ bài Halloween",
+      "deck": "Halloween",
       "free": "Miễn phí",
-      "word": "Ma cà rồng",
+      "word": "Werewolf",
       "forbidden": [
-        "Máu",
-        "Cắn",
-        "Dracula",
-        "Đêm"
+        "Full moon",
+        "Howl",
+        "Fur",
+        "Transform"
       ],
       "imposterLabel": "Kẻ mạo danh",
       "imposterRole": "Bạn là kẻ mạo danh",
-      "imposterHint": "Trà trộn đi. Đừng để bị lộ."
-    }
+      "imposterHint": "Đừng để lộ.",
+      "deckDesc": "Những từ rùng rợn cho một đêm ngập tiếng cười!",
+      "play": "Chơi",
+      "newBadge": "Mới",
+      "headsUpWord": "Vampire",
+      "round": "Vòng 1/4"
+    },
+    "eyebrow": "Trò chơi tiệc Halloween",
+    "heroTitle": "3 trò chơi tiệc.",
+    "heroTitleAccent": "Một điện thoại.",
+    "heroSubtitle": "Chơi cùng bạn bè, gia đình và cả hội. Kèm bộ thẻ Halloween miễn phí.",
+    "heroSecondary": "Xem bộ thẻ Halloween",
+    "mascotBadge": "bộ thẻ cho mọi chủ đề",
+    "headsUpTitle": "Heads Up phiên bản Halloween",
+    "headsUpBody": "Điện thoại trên trán, quái vật trên màn hình. Nghiêng xuống khi đoán đúng.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "từ rùng rợn"
+      },
+      {
+        "value": "3",
+        "label": "chế độ chơi"
+      },
+      {
+        "value": "Miễn phí",
+        "label": "cho tất cả"
+      }
+    ],
+    "metaTitle": "Tadado: Trò chơi tiệc Halloween | Taboo, Heads Up & Kẻ mạo danh",
+    "metaDescription": "Trò chơi Halloween miễn phí trên một điện thoại: bộ thẻ Taboo rùng rợn 100 từ, Heads Up và chế độ Kẻ mạo danh mới. Không quảng cáo, không thuê bao. iOS và Android."
   },
   "trust": {
     "eyebrow": "Dành cho bạn",
@@ -452,7 +491,7 @@
     "countBadge": "8 bộ bài",
     "free": "Miễn phí",
     "play": "CHƠI",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "MỚI",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Tạo bộ bài bằng AI",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 lượt tạo bộ bài AI — bộ bài riêng cho mọi chủ đề."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 lượt tạo bộ bài AI — bộ bài riêng cho mọi chủ đề."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 lượt tạo bộ bài AI cho những buổi chơi thường xuyên.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 lượt tạo bộ bài AI cho những buổi chơi thường xuyên.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 lượt tạo bộ bài AI cho chủ tiệc không bao giờ cạn ý tưởng."
+        "desc": "40 lượt tạo bộ bài AI cho chủ tiệc không bao giờ cạn ý tưởng."
       }
     ],
     "decksSectionTitle": "Bộ bài cao cấp",
     "singleDeck": {
       "name": "Bộ bài theo chủ đề",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tất cả bộ bài chủ đề cao cấp cùng 100 lượt tạo bộ bài AI, chỉ với một lần mua.",
-      "aiCredits": "Bao gồm 100 lượt tạo bộ bài AI",
+      "desc": "Tất cả bộ bài chủ đề cao cấp cùng 20 lượt tạo bộ bài AI, chỉ với một lần mua.",
+      "aiCredits": "Bao gồm 20 lượt tạo bộ bài AI",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Chọn bộ bài",
-        "body": "Chơi miễn phí với Mix hoặc mở khóa gói theo chủ đề và bộ bài AI."
+        "body": "Từ cấm cho các đội, Heads Up để đoán trên trán, hoặc Kẻ mạo danh để đấu trí."
       },
       {
         "title": "Chuyền điện thoại & chơi",
@@ -569,7 +608,7 @@
         "label": "ngôn ngữ"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "chế độ chơi"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Giữ điện thoại trên trán để bạn không thấy từ. Bạn bè đưa gợi ý mà không nói từ. Nghiêng xuống khi đoán đúng, nghiêng lên để bỏ qua. Tadado dùng cùng bộ bài ở chế độ Heads Up và Taboo."
       },
       {
-        "q": "Tadado có phải một trong những app game từ vựng miễn phí tốt nhất?",
-        "a": "Tadado được xây cho đêm chơi game: Taboo, charades Heads Up, Tadado Mix miễn phí, bộ bài theo chủ đề tùy chọn và tạo bộ bài AI. Không quảng cáo và không đăng ký, khiến nó là một trong những app game từ vựng giá trị nhất trên iOS và Android."
+        "q": "Chơi Kẻ mạo danh trong Tadado thế nào?",
+        "a": "Chuyền một chiếc điện thoại. Mọi người thấy cùng một từ bí mật, trừ kẻ mạo danh có thẻ trống. Lần lượt mỗi người nói một từ gợi ý, rồi cả nhóm bỏ phiếu. Nếu bị bắt, kẻ mạo danh vẫn thắng khi đoán đúng từ."
+      },
+      {
+        "q": "Trò chơi nào hợp cho tiệc Halloween cùng bạn bè?",
+        "a": "Tadado rất hợp với Halloween: bộ thẻ Halloween miễn phí có 100 từ rùng rợn như Người sói, Phù thủy và Nhà ma, chơi được dưới dạng Từ cấm, Heads Up hoặc Kẻ mạo danh trên một điện thoại. Không cần thẻ, không cần chuẩn bị, không quảng cáo."
+      },
+      {
+        "q": "Tadado có phải là một trong những ứng dụng trò chơi tiệc miễn phí tốt nhất?",
+        "a": "Tadado được làm cho những buổi chơi game: Từ cấm kiểu Taboo, Heads Up, trò đấu trí Kẻ mạo danh, bộ thẻ miễn phí, bộ thẻ chủ đề tùy chọn và tạo bộ thẻ bằng AI. Không quảng cáo, không thuê bao, đây là một trong những ứng dụng tiệc đáng tiền nhất trên iOS và Android."
       },
       {
         "q": "Tadado có miễn phí không?",
@@ -694,8 +741,8 @@
         "a": "Không. Tadado không quảng cáo. Bạn chỉ trả cho bộ bài tùy chọn hoặc tạo AI nếu muốn."
       },
       {
-        "q": "Tạo bộ bài AI hoạt động thế nào?",
-        "a": "Viết chủ đề, như \"phim Marvel\" hoặc \"hit pop 90\", và Tadado tạo bộ bài chơi được trong vài giây cho cả hai chế độ."
+        "q": "Tạo bộ thẻ bằng AI hoạt động thế nào?",
+        "a": "Nhập một chủ đề như \"phim Marvel\" hoặc \"nhạc pop thập niên 90\", Tadado sẽ tạo trong vài giây một bộ thẻ chơi được cho Từ cấm và Heads Up."
       },
       {
         "q": "Hỗ trợ những ngôn ngữ nào?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up trong một app",
+        "feature": "Từ cấm, Heads Up và Kẻ mạo danh trong một ứng dụng",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Nhiều app tập trung một chế độ, hiện quảng cáo hoặc khóa nội dung sau đăng ký. Tadado được xây cho đêm chơi game thật với cả hai chế độ, bộ bài khởi đầu miễn phí và mua thêm trả một lần.",
+    "note": "Nhiều ứng dụng chỉ có một chế độ, nhiều quảng cáo hoặc khóa nội dung sau gói thuê bao. Tadado được làm cho những buổi chơi game thật sự, với ba chế độ, bộ thẻ khởi đầu miễn phí và nội dung thêm mua một lần.",
     "cta": "Tải Tadado miễn phí",
     "viewFull": "Mở trang so sánh đầy đủ"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "Câu hỏi thường gặp và cách chơi",
-        "body": "Luật Từ Cấm và Heads Up, giá và chơi ngoại tuyến.",
+        "body": "Luật chơi Từ cấm, Heads Up và Kẻ mạo danh, giá cả và chơi ngoại tuyến.",
         "cta": "Mở câu hỏi thường gặp",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing và báo chí",
     "subtitle": "Chiến dịch với nhà sáng tạo, bộ bài thương hiệu và tài liệu báo chí về Tadado.",
     "back": "Quay lại Tadado",
-    "intro": "Tadado là trò chơi đoán từ cho những nhóm bạn thật sự: Từ Cấm kiểu Taboo và Heads Up trên một điện thoại, không quảng cáo, không gói đăng ký. Nếu bạn đang lên kế hoạch nội dung, hợp tác hay bài viết, hãy bắt đầu tại đây.",
+    "intro": "Tadado là ứng dụng trò chơi tiệc cho những nhóm bạn thật: Từ cấm kiểu Taboo, Heads Up và Kẻ mạo danh trên một điện thoại, không quảng cáo, không thuê bao. Nếu bạn đang lên kế hoạch nội dung, hợp tác hay bài viết, hãy bắt đầu từ đây.",
     "statsLabel": "Tóm tắt",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "ngôn ngữ"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "chế độ chơi"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Trang chủ",
     "popularAlternatives": "Hướng dẫn lựa chọn thay thế phổ biến",
     "alternativesHub": "Lựa chọn thay thế"
+  },
+  "halloweenPage": {
+    "metaTitle": "Trò chơi tiệc Halloween cho nhóm: miễn phí trên một điện thoại | Tadado",
+    "metaDescription": "Những trò chơi Halloween dễ nhất cho bạn bè và gia đình: Taboo rùng rợn, Heads Up và Kẻ mạo danh trên một điện thoại với bộ thẻ miễn phí 100 từ. Không cần thẻ, không quảng cáo.",
+    "breadcrumb": "Trò chơi tiệc Halloween",
+    "eyebrow": "Trò chơi tiệc Halloween",
+    "h1": "Trò chơi tiệc Halloween trên một điện thoại",
+    "answer": "Trò chơi Halloween dễ nhất cho một nhóm là trò không cần thẻ bài hay chuẩn bị. Tadado biến một điện thoại thành ba trò chơi Halloween: Taboo rùng rợn (Từ cấm), Heads Up và Kẻ mạo danh, đều dùng bộ thẻ miễn phí 100 từ Halloween. Phù hợp từ 3 đến hơn 20 người chơi, bạn bè, gia đình và tiệc công ty.",
+    "factsTitle": "Tóm tắt",
+    "facts": [
+      {
+        "label": "Người chơi",
+        "value": "3 đến 20+"
+      },
+      {
+        "label": "Bạn cần",
+        "value": "Một điện thoại"
+      },
+      {
+        "label": "Bộ thẻ Halloween",
+        "value": "100 từ, miễn phí"
+      },
+      {
+        "label": "Chế độ",
+        "value": "Taboo, Heads Up, Kẻ mạo danh"
+      },
+      {
+        "label": "Chuẩn bị",
+        "value": "Dưới một phút"
+      },
+      {
+        "label": "Quảng cáo",
+        "value": "Không"
+      }
+    ],
+    "modesTitle": "Ba trò chơi Halloween trong một ứng dụng",
+    "modesSubtitle": "Chọn chế độ hợp với nhóm. Tất cả đều dùng chung bộ thẻ Halloween miễn phí.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Taboo rùng rợn",
+        "body": "Mô tả WEREWOLF mà không nói FULL MOON, HOWL, FUR hay TRANSFORM. Các đội đua với thời gian, từ khó được nhiều điểm hơn.",
+        "best": "Hợp nhất với 4+ người chia hai đội"
+      },
+      {
+        "id": "headsup",
+        "title": "Heads Up Halloween",
+        "body": "Đặt điện thoại lên trán trong khi bạn bè diễn tả Ma cà rồng hay Xác ướp. Nghiêng xuống khi đúng, nghiêng lên để bỏ qua.",
+        "best": "Hợp nhất cho tiệc hóa trang và chụp ảnh"
+      },
+      {
+        "id": "imposter",
+        "title": "Kẻ mạo danh trong nhà ma",
+        "body": "Ai cũng thấy cùng một từ Halloween, trừ kẻ mạo danh có thẻ trống. Mỗi người nói một gợi ý rồi bỏ phiếu. Bị bắt, kẻ mạo danh vẫn thắng nếu đoán đúng từ.",
+        "best": "Hợp nhất cho 3 đến 12 người thích đấu trí"
+      }
+    ],
+    "samplesTitle": "Thẻ mẫu từ bộ thẻ Halloween miễn phí",
+    "samplesSubtitle": "Thẻ thật trong bộ thẻ. Mô tả từ lớn mà không bao giờ nói bốn từ bên dưới. Thẻ tiếng Việt chưa có, nên hiện tại bạn sẽ chơi với thẻ tiếng Anh.",
+    "hostTitle": "Tổ chức buổi chơi game Halloween trong 5 bước",
+    "hostSteps": [
+      {
+        "title": "Tải Tadado",
+        "body": "Miễn phí trên iPhone và Android. Cài trước khi khách tới."
+      },
+      {
+        "title": "Mở bộ thẻ Halloween",
+        "body": "Trong thời gian sự kiện, bộ thẻ nằm đầu màn hình chính và miễn phí."
+      },
+      {
+        "title": "Chọn chế độ",
+        "body": "Từ cấm cho các đội, Heads Up để diễn, Kẻ mạo danh để đấu trí."
+      },
+      {
+        "title": "Đặt đội và đồng hồ",
+        "body": "Chia nhóm, chọn số vòng và thời gian. Tadado tự tính điểm."
+      },
+      {
+        "title": "Chuyền điện thoại",
+        "body": "Một điện thoại đi khắp phòng. Giảm đèn để thêm hồi hộp."
+      }
+    ],
+    "ideasTitle": "Ý tưởng trò chơi Halloween luôn vui",
+    "ideas": [
+      {
+        "title": "Heads Up hóa trang",
+        "body": "Người cầm điện thoại diễn trong trang phục. Quay chậm để gửi vào nhóm chat."
+      },
+      {
+        "title": "Giải Taboo quái vật",
+        "body": "Hai đội, ba vòng; đội thua đi phát kẹo."
+      },
+      {
+        "title": "Kẻ mạo danh dưới ánh nến",
+        "body": "Chơi Kẻ mạo danh chỉ với ánh nến. Đấu trí trong bóng tối khó hơn nhiều."
+      },
+      {
+        "title": "Bộ thẻ kinh dị của riêng bạn",
+        "body": "Nhập chủ đề như \"phim kinh dị thập niên 80\" và để AI tạo bộ thẻ cho nhóm bạn."
+      }
+    ],
+    "faqTitle": "Câu hỏi về trò chơi tiệc Halloween",
+    "faq": [
+      {
+        "q": "Trò chơi Halloween nào hay nhất cho nhóm bạn?",
+        "a": "Trò không cần chuẩn bị và khiến ai cũng phải nói. Với bộ thẻ Halloween miễn phí của Tadado, cả nhóm có thể chơi Taboo rùng rợn, Heads Up hoặc Kẻ mạo danh trên một điện thoại ngay khi mọi người đến."
+      },
+      {
+        "q": "Bộ thẻ Halloween của Tadado có miễn phí không?",
+        "a": "Có. Bộ thẻ Halloween miễn phí cho tất cả, gồm 100 từ Halloween. Không quảng cáo, không thuê bao."
+      },
+      {
+        "q": "Bao nhiêu người có thể chơi?",
+        "a": "Từ 3 người đến những bữa tiệc lớn. Taboo và Heads Up chia nhóm thành các đội, còn Kẻ mạo danh chơi từ 3 đến 12 người trên một điện thoại."
+      },
+      {
+        "q": "Có phù hợp cho trẻ em và Halloween gia đình không?",
+        "a": "Có. Bộ thẻ xoay quanh những thứ kinh điển như Bí ngô, Phù thủy, Ma và Cho kẹo hay bị ghẹo, nên hợp cả buổi tối gia đình lẫn tiệc người lớn."
+      },
+      {
+        "q": "Có cần thẻ bài hay nhiều điện thoại không?",
+        "a": "Không. Một điện thoại đủ cho mọi chế độ. Điện thoại được chuyền tay, Tadado lo đồng hồ, thẻ và điểm số."
+      },
+      {
+        "q": "Bộ thẻ Halloween có những ngôn ngữ nào?",
+        "a": "Từ Halloween có ở 13 ngôn ngữ thẻ bao gồm tiếng Anh, và được chọn riêng cho từng ngôn ngữ. Thẻ tiếng Việt chưa có nên bạn sẽ chơi với thẻ tiếng Anh, còn ứng dụng hỗ trợ 17 ngôn ngữ, trong đó có tiếng Việt."
+      }
+    ],
+    "ctaTitle": "Bữa tiệc Halloween của bạn bắt đầu miễn phí",
+    "ctaBody": "Tải Tadado, mở bộ thẻ Halloween và chơi vòng đầu tiên trong chưa đầy một phút.",
+    "ctaButton": "Tải Tadado miễn phí",
+    "related": "Thêm ý tưởng trò chơi tiệc",
+    "seasonNote": "Sự kiện Halloween trong ứng dụng kéo dài đến ngày 3 tháng 11."
   }
 }

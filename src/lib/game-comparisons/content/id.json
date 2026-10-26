@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "game-impostor",
     "game": "Game Impostor",
-    "tagline": "Game tebak-tebakan siapa penyusup vs game di mana semua orang bicara.",
+    "tagline": "Game kata rahasia yang viral kini jadi salah satu dari tiga mode Tadado.",
     "metaTitle": "Game Impostor vs Tadado: Mana yang Bikin Nongkrong Lebih Seru?",
-    "metaDescription": "Suka game Impostor? Bandingkan dengan mode Kata Terlarang dan Heads Up di Tadado: satu ponsel, tanpa iklan, deck AI, dan deck awal gratis.",
+    "metaDescription": "Suka game Impostor? Tadado punya mode Penipu, Kata Terlarang, dan Heads Up dalam satu aplikasi: satu ponsel, 3 sampai 12 pemain, tanpa iklan, dengan dek awal gratis.",
     "h1": "Game Impostor vs Tadado",
-    "hook": "Impostor itu soal curiga. Tadado itu soal teriak jawaban sebelum waktu habis. Yuk lihat mana yang cocok buat malam ini.",
+    "hook": "Game Impostor penuh rasa curiga. Kini Tadado punya mode Penipu sendiri, plus dua game tebak cepat untuk saat grup ingin teriak, bukan bersekongkol.",
     "about": [
       "Game Impostor viral karena hampir tidak butuh apa-apa: satu ponsel diputar, semua melihat kata yang sama kecuali satu orang, lalu tiap pemain memberi petunjuk satu kata sampai grup memilih siapa impostornya.",
-      "Ini terutama game gertakan. Serunya ada di membaca wajah, membela diri, dan momen pengungkapan. Cocok untuk grup yang suka debat, tapi terasa lebih santai bagi yang ingin menebak dan tertawa setiap beberapa detik."
+      "Mode Penipu di Tadado bekerja dengan cara yang sama: satu ponsel digilir, semua menekan lama untuk melihat kata rahasia, dan kartu si penipu kosong. Tiap pemain menyebut satu kata petunjuk, grup memilih, dan penipu yang ketahuan masih bisa menang jika menebak katanya. Dimainkan 3 sampai 12 orang dengan dek Tadado, termasuk dek Halloween gratis."
     ],
     "pickThem": [
-      "grupmu suka menggertak, menuduh, dan kejutan dramatis",
-      "kamu ingin ronde santai dengan banyak diskusi",
-      "semua lebih suka ngobrol daripada balapan dengan waktu"
+      "Kalian hanya ingin ronde Impostor saja",
+      "Grup kalian sudah suka aplikasi Impostor tersendiri",
+      "Kalian main dengan daftar kata yang ditulis di kertas"
     ],
     "pickTadado": [
-      "kamu ingin tertawa tanpa henti dengan kata baru tiap beberapa detik",
-      "ada teman pemalu yang lebih suka menebak daripada berbohong",
-      "kamu ingin Kata Terlarang (gaya Tabu) dan Heads Up dalam satu aplikasi"
+      "Kamu ingin Penipu, Kata Terlarang, dan Heads Up dalam satu aplikasi",
+      "Kamu ingin kata rahasia dari dek tema dan dek buatan AI",
+      "Kamu ingin pindah dari menggertak ke tebak cepat tanpa ganti aplikasi"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Peran rahasia dan gertakan",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Unduh Tadado dan buka deck gratis Tadado Mix.",
-      "Pilih Kata Terlarang untuk tim atau Heads Up dengan ponsel di dahi.",
-      "Kangen candaan internal ala Impostor? Ketik topik grupmu di pembuat deck AI."
+      "Unduh Tadado dan buka Penipu dari menu mode.",
+      "Tambahkan 3 sampai 12 pemain dan pilih jumlah penipu.",
+      "Gilir ponselnya: semua menekan lama untuk melihat peran, lalu beri petunjuk satu kata dan voting."
     ],
     "faq": [
       {
         "q": "Apakah Tadado punya mode Impostor?",
-        "a": "Tidak. Tadado punya dua mode: Kata Terlarang (gaya Tabu) dan Heads Up. Ini game tebak cepat, bukan game peran rahasia, jadi cocok dimainkan bersama Impostor di malam yang sama."
+        "a": "Ya. Penipu adalah salah satu dari tiga mode Tadado, bersama Kata Terlarang dan Heads Up. Semua kecuali si penipu melihat kata rahasia, tiap pemain memberi petunjuk satu kata, lalu grup memilih."
       },
       {
         "q": "Mana yang lebih baik untuk grup besar?",
-        "a": "Keduanya cukup satu ponsel. Ronde Impostor makin lama kalau pemainnya banyak, sedangkan Tadado membagi grup menjadi tim sehingga semua tetap main tiap ronde."
+        "a": "Keduanya cukup dengan satu ponsel. Mode Penipu di Tadado untuk 3 sampai 12 orang; untuk grup lebih besar, pindah ke Kata Terlarang atau Heads Up dalam tim agar semua tetap bermain."
       },
       {
         "q": "Apakah Tadado gratis?",
@@ -120,7 +120,7 @@
       },
       {
         "feature": "Peran rahasia dan gertakan",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -142,7 +142,7 @@
     "faq": [
       {
         "q": "Apakah Tadado punya peran rahasia?",
-        "a": "Tidak. Tadado adalah game tebak kata dengan mode Kata Terlarang dan Heads Up. Serunya berbeda dari Werewolf, dan keduanya saling melengkapi."
+        "a": "Sebagian. Mode Penipu di Tadado adalah game peran rahasia: satu pemain mendapat kartu kosong dan harus menggertak saat ronde petunjuk. Tanpa moderator dan fase malam, game ini lebih cepat dari Werewolf dan tidak ada yang tersingkir."
       },
       {
         "q": "Mana yang lebih baik untuk 4 orang?",

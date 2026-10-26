@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado: Game Kata Pesta | Taboo, Heads Up & Deste AI",
-    "description": "Satu ponsel. Teman-temanmu. Taboo, Heads Up, dan deste AI khusus untuk malam permainan. Gratis untuk mulai. Tanpa iklan. iOS dan Android."
+    "title": "Tadado: Aplikasi Game Pesta | Kata Terlarang, Heads Up, Penipu & Dek AI",
+    "description": "Satu ponsel. Teman-temanmu. Kata Terlarang, Heads Up, Penipu, dan dek AI untuk malam main game. Gratis untuk mulai, tanpa iklan dan langganan. iOS dan Android."
   },
   "nav": {
     "play": "Main",
@@ -17,12 +17,13 @@
     "compare": "Bandingkan",
     "affiliate": "Afiliasi",
     "team": "Tim",
-    "download": "Unduh"
+    "download": "Unduh",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Game kata untuk pesta · ★ 5.0 di App Store",
     "title": "Satu ponsel. Teman-temanmu. Biarkan kekacauan dimulai.",
-    "subtitle": "Taboo, Heads Up, dan deste AI khusus untuk malam permainan.",
+    "subtitle": "Kata Terlarang, Heads Up, Penipu, dan dek kustom buatan AI untuk malam main game.",
     "ctaPrimary": "UNDUH TADADO · GRATIS",
     "ctaSecondary": "LIHAT CARA KERJANYA",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "mode permainan"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "300.000+ permainan dimainkan",
-    "modes": "2 mode permainan",
+    "modes": "3 mode permainan",
     "ai": "Didukung AI",
     "languages": "17 bahasa",
     "offline": "Main offline",
@@ -72,8 +73,8 @@
     "developer": "Dibuat oleh Tadado Game Development",
     "items": [
       {
-        "title": "Dua mode, satu aplikasi",
-        "body": "Beralih antara Forbidden Words dan Heads Up tanpa mengunduh dua kali. Deste yang sama, energi berbeda di setiap ronde."
+        "title": "Tiga mode, satu aplikasi",
+        "body": "Pindah dari Kata Terlarang ke Heads Up atau Penipu tanpa unduh aplikasi lain. Dek yang sama, suasana baru di setiap ronde."
       },
       {
         "title": "Deste AI dalam hitungan detik",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "permainan dimainkan di seluruh dunia",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "mode permainan",
     "languages": "17",
     "languagesLabel": "bahasa dalam aplikasi",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Dua cara bermain",
-    "subtitle": "Klasik Taboo-style forbidden words atau Heads Up di dahi. Deste yang sama, energi berbeda.",
+    "title": "Tiga cara bermain",
+    "subtitle": "Kata Terlarang gaya Taboo, Heads Up di dahi, atau bongkar si Penipu. Satu ponsel, tiga jenis keseruan.",
     "tabooTitle": "Kata Terlarang",
     "tabooBody": "Jelaskan kata utama, ambil risiko lebih besar, dan tingkatkan skormu. Kata yang lebih sulit membuka pengganda lebih tinggi, dari ×2 hingga ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Gameplay horizontal",
       "buildScoreTitle": "Bangun skormu",
       "buildScoreBody": "Ambil kata yang lebih sulit untuk meningkatkan pengganda dan ubah setiap jawaban benar menjadi skor lebih besar.",
-      "scoreMultipliersAria": "Pengganda skor: 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Pengganda skor: 2x, 3x, 5x",
+      "passGameplay": "Main gantian satu ponsel"
+    },
+    "imposterTitle": "Penipu",
+    "imposterBody": "Satu orang tidak tahu katanya. Yang lain melihatnya, bergiliran menyebut satu kata petunjuk, lalu memilih siapa si penipu."
   },
   "gamePreview": {
     "timeLeft": "42 detik tersisa",
@@ -217,7 +221,13 @@
     "continue": "Lanjutkan",
     "pauseGame": "Jeda permainan",
     "teamA": "TIM A",
-    "teamB": "TIM B"
+    "teamB": "TIM B",
+    "imposterTitle": "Penipu",
+    "imposterPassTo": "Berikan ponsel ke {name}",
+    "imposterPlayer": "Dinda",
+    "imposterLookAway": "Yang lain jangan lihat.",
+    "imposterAgent": "AGEN #01",
+    "imposterHold": "Tekan dan tahan untuk melihat peranmu"
   },
   "a11y": {
     "openMenu": "Buka menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} vs Tadado: pertanyaan",
     "relatedTitle": "Perbandingan lainnya",
     "ctaTitle": "Malam main game berikutnya mulai gratis",
-    "ctaBody": "Unduh Tadado, buka deck gratis Tadado Mix, dan mainkan Kata Terlarang atau Heads Up dalam hitungan detik. Cukup satu ponsel.",
+    "ctaBody": "Unduh Tadado, buka dek gratis, dan mainkan Kata Terlarang, Heads Up, atau Penipu dalam hitungan detik. Cukup satu ponsel.",
     "ctaButton": "Unduh Tadado gratis",
     "freeNote": "Unduh gratis · Tanpa iklan · Tanpa langganan",
     "disclaimer": "{game} disebut hanya untuk menjelaskan game atau format yang sudah dikenal. Semua merek dagang milik pemiliknya masing-masing; Tadado tidak berafiliasi atau didukung oleh mereka. Catatan tentang {game} menjelaskan format klasik dan versi umum; aplikasi dan edisi bisa berbeda, jadi cek halaman tokonya."
@@ -396,31 +406,60 @@
     "cta": "Lihat deknya"
   },
   "halloween": {
-    "heroPill": "Musim Halloween: dek gratis + mode baru Penyusup",
-    "tag": "Musim Halloween",
-    "title": "Malam Halloween ala Tadado",
-    "body": "Dua alasan baru untuk kumpul bareng sebelum lampu padam.",
+    "heroPill": "Baru: dek Halloween gratis + mode Penipu",
+    "tag": "Event Halloween",
+    "title": "Malam Halloween, gaya Tadado",
+    "body": "Dek gratis berisi 100 kata seram dan mode gertak yang benar-benar baru. Semua yang kamu butuhkan sebelum lampu dimatikan.",
     "deckTitle": "Dek Halloween gratis",
-    "deckBody": "Monster, penyihir, dan film horor klasik. Gratis untuk semua, tanpa pembelian.",
-    "imposterTitle": "Mode baru: Penyusup",
-    "imposterBody": "Semua pemain dapat kata rahasia kecuali satu orang. Temukan penyusupnya sebelum dia membaur.",
+    "deckBody": "100 kata seram: monster, penyihir, dan klasik horor. Gratis untuk semua, tanpa pembelian.",
+    "imposterTitle": "Mode baru: Penipu",
+    "imposterBody": "Semua melihat kata rahasia kecuali satu orang. Beri petunjuk, lalu pilih untuk mengusir si penipu.",
     "cta": "Main gratis malam ini",
-    "guideCta": "Ide permainan Halloween",
-    "note": "Musim Halloween berlangsung hingga 3 November.",
+    "guideCta": "Panduan pesta Halloween",
+    "note": "Event Halloween berlangsung hingga 3 November.",
     "card": {
-      "deck": "Dek Halloween",
+      "deck": "Halloween",
       "free": "Gratis",
-      "word": "Vampir",
+      "word": "Werewolf",
       "forbidden": [
-        "Darah",
-        "Gigitan",
-        "Drakula",
-        "Malam"
+        "Full moon",
+        "Howl",
+        "Fur",
+        "Transform"
       ],
-      "imposterLabel": "Penyusup",
-      "imposterRole": "Kamu penyusupnya",
-      "imposterHint": "Membaurlah. Jangan ketahuan."
-    }
+      "imposterLabel": "Penipu",
+      "imposterRole": "Kamu si penipu",
+      "imposterHint": "Jangan sampai ketahuan.",
+      "deckDesc": "Kata-kata seram untuk malam penuh tawa!",
+      "play": "Main",
+      "newBadge": "Baru",
+      "headsUpWord": "Vampire",
+      "round": "Ronde 1/4"
+    },
+    "eyebrow": "Game pesta Halloween",
+    "heroTitle": "3 game pesta.",
+    "heroTitleAccent": "Satu ponsel.",
+    "heroSubtitle": "Main bareng teman, keluarga, dan seluruh geng. Termasuk dek Halloween gratis.",
+    "heroSecondary": "Lihat dek Halloween",
+    "mascotBadge": "dek untuk tema apa pun",
+    "headsUpTitle": "Heads Up, edisi Halloween",
+    "headsUpBody": "Ponsel di dahi, monster di layar. Miringkan ke bawah kalau berhasil menebak.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "kata seram"
+      },
+      {
+        "value": "3",
+        "label": "mode permainan"
+      },
+      {
+        "value": "Gratis",
+        "label": "untuk semua"
+      }
+    ],
+    "metaTitle": "Tadado: Game Pesta Halloween | Taboo, Heads Up & Penipu",
+    "metaDescription": "Game pesta Halloween gratis di satu ponsel: dek Taboo seram berisi 100 kata, Heads Up, dan mode Penipu yang baru. Tanpa iklan dan langganan. iOS dan Android."
   },
   "trust": {
     "eyebrow": "Dibuat untukmu",
@@ -452,7 +491,7 @@
     "countBadge": "8 deste permainan",
     "free": "Gratis",
     "play": "MAIN",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "BARU",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Pembuatan deck AI",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 pembuatan deck AI — deck khusus dari topik apa pun."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 pembuatan deck AI — deck khusus dari topik apa pun."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 pembuatan deck AI untuk malam permainan rutin.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 pembuatan deck AI untuk malam permainan rutin.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 pembuatan deck AI untuk tuan rumah yang tak pernah kehabisan ide."
+        "desc": "40 pembuatan deck AI untuk tuan rumah yang tak pernah kehabisan ide."
       }
     ],
     "decksSectionTitle": "Deck premium",
     "singleDeck": {
       "name": "Deste bertema",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Pembelian sekali per deste. Summer, Cinema, Travel, Sport, Heroes & lainnya."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Semua deck tema premium plus 100 pembuatan deck AI, dengan satu kali pembelian.",
-      "aiCredits": "Termasuk 100 pembuatan deck AI",
+      "desc": "Semua deck tema premium plus 20 pembuatan deck AI, dengan satu kali pembelian.",
+      "aiCredits": "Termasuk 20 pembuatan deck AI",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Pilih deste",
-        "body": "Main gratis dengan Mix atau buka paket bertema dan deste AI."
+        "body": "Kata Terlarang untuk tim, Heads Up untuk tebak di dahi, atau Penipu untuk adu gertak."
       },
       {
         "title": "Oper ponsel & main",
@@ -569,7 +608,7 @@
         "label": "bahasa"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "mode permainan"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Pegang ponsel di dahimu agar kamu tidak bisa melihat kata. Teman memberi petunjuk tanpa mengucapkan kata. Miringkan ke bawah saat tebakan benar, miringkan ke atas untuk lewati. Tadado memakai deste yang sama di mode Heads Up dan Taboo."
       },
       {
-        "q": "Apakah Tadado salah satu aplikasi game kata gratis terbaik?",
-        "a": "Tadado dibuat untuk malam permainan: Taboo, charades Heads Up, Tadado Mix gratis, deste bertema opsional, dan pembuatan deste AI. Tanpa iklan dan tanpa langganan, menjadikannya salah satu aplikasi game kata dengan nilai terbaik di iOS dan Android."
+        "q": "Bagaimana cara main Penipu di Tadado?",
+        "a": "Gilir satu ponsel. Semua orang melihat kata rahasia yang sama kecuali si penipu, yang kartunya kosong. Bergiliran, setiap orang menyebut satu kata petunjuk, lalu kalian memilih. Kalau ketahuan, si penipu tetap menang jika bisa menebak katanya."
+      },
+      {
+        "q": "Game apa yang seru untuk pesta Halloween bareng teman?",
+        "a": "Tadado cocok untuk Halloween: dek Halloween gratis berisi 100 kata seram seperti Manusia serigala, Penyihir, dan Rumah hantu, bisa dimainkan sebagai Kata Terlarang, Heads Up, atau Penipu di satu ponsel. Tanpa kartu, tanpa persiapan, tanpa iklan."
+      },
+      {
+        "q": "Apakah Tadado salah satu aplikasi game pesta gratis terbaik?",
+        "a": "Tadado dibuat untuk malam main game: Kata Terlarang gaya Taboo, Heads Up, game gertak Penipu, dek gratis, dek tema opsional, dan pembuatan dek dengan AI. Tanpa iklan dan langganan, Tadado termasuk aplikasi pesta paling hemat di iOS dan Android."
       },
       {
         "q": "Apakah Tadado gratis?",
@@ -694,8 +741,8 @@
         "a": "Tidak. Tadado bebas iklan. Kamu hanya membayar untuk deste opsional atau pembuatan AI jika kamu mau."
       },
       {
-        "q": "Bagaimana cara kerja pembuatan deste AI?",
-        "a": "Tulis topik, seperti \"film Marvel\" atau \"hit pop 90-an\", dan Tadado menghasilkan deste siap main dalam hitungan detik untuk kedua mode permainan."
+        "q": "Bagaimana cara kerja pembuatan dek AI?",
+        "a": "Ketik sebuah tema, misalnya \"film Marvel\" atau \"lagu pop hits 90-an\", dan Tadado membuat dek siap main untuk Kata Terlarang dan Heads Up dalam hitungan detik."
       },
       {
         "q": "Bahasa apa yang didukung?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up dalam satu aplikasi",
+        "feature": "Kata Terlarang, Heads Up, dan Penipu dalam satu aplikasi",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Banyak aplikasi fokus pada satu mode, menampilkan iklan, atau mengunci konten di balik langganan. Tadado dibuat untuk malam permainan sungguhan dengan kedua mode, deste starter gratis, dan ekstra bayar sekali.",
+    "note": "Banyak aplikasi hanya punya satu mode, penuh iklan, atau mengunci konten di balik langganan. Tadado dibuat untuk malam main game sungguhan, dengan tiga mode, dek awal gratis, dan tambahan sekali beli.",
     "cta": "Unduh Tadado gratis",
     "viewFull": "Buka halaman perbandingan lengkap"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ dan cara bermain",
-        "body": "Aturan Kata Terlarang dan Heads Up, harga, dan main offline.",
+        "body": "Aturan Kata Terlarang, Heads Up, dan Penipu, harga, dan main offline.",
         "cta": "Buka FAQ",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Pemasaran dan pers",
     "subtitle": "Kampanye kreator, deck bermerek, dan materi pers Tadado.",
     "back": "Kembali ke Tadado",
-    "intro": "Tadado adalah game kata untuk grup sungguhan: Kata Terlarang ala Tabu dan Heads Up di satu ponsel, tanpa iklan dan tanpa langganan. Jika kamu merencanakan konten, kolaborasi, atau liputan, mulai dari sini.",
+    "intro": "Tadado adalah aplikasi game pesta untuk grup sungguhan: Kata Terlarang gaya Taboo, Heads Up, dan Penipu di satu ponsel, tanpa iklan atau langganan. Kalau kamu sedang menyiapkan konten, kolaborasi, atau artikel, mulai dari sini.",
     "statsLabel": "Sekilas",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "bahasa"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "mode permainan"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Beranda",
     "popularAlternatives": "Panduan alternatif populer",
     "alternativesHub": "Alternatif"
+  },
+  "halloweenPage": {
+    "metaTitle": "Game Pesta Halloween untuk Grup: Gratis di Satu Ponsel | Tadado",
+    "metaDescription": "Game Halloween paling mudah untuk teman dan keluarga: Taboo seram, Heads Up, dan Penipu di satu ponsel dengan dek gratis 100 kata. Tanpa kartu dan iklan.",
+    "breadcrumb": "Game pesta Halloween",
+    "eyebrow": "Game pesta Halloween",
+    "h1": "Game pesta Halloween di satu ponsel",
+    "answer": "Game Halloween termudah untuk grup adalah yang tidak butuh kartu atau persiapan. Tadado mengubah satu ponsel menjadi tiga game Halloween: Taboo seram (Kata Terlarang), Heads Up, dan Penipu, semuanya dengan dek gratis berisi 100 kata Halloween. Cocok untuk 3 hingga 20+ pemain, teman, keluarga, dan pesta kantor.",
+    "factsTitle": "Sekilas",
+    "facts": [
+      {
+        "label": "Pemain",
+        "value": "3 sampai 20+"
+      },
+      {
+        "label": "Yang dibutuhkan",
+        "value": "Satu ponsel"
+      },
+      {
+        "label": "Dek Halloween",
+        "value": "100 kata, gratis"
+      },
+      {
+        "label": "Mode",
+        "value": "Taboo, Heads Up, Penipu"
+      },
+      {
+        "label": "Persiapan",
+        "value": "Kurang dari semenit"
+      },
+      {
+        "label": "Iklan",
+        "value": "Tidak ada"
+      }
+    ],
+    "modesTitle": "Tiga game Halloween dalam satu aplikasi",
+    "modesSubtitle": "Pilih mode yang pas untuk grupmu. Semuanya memakai dek Halloween gratis yang sama.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Taboo seram",
+        "body": "Jelaskan WEREWOLF tanpa menyebut FULL MOON, HOWL, FUR, atau TRANSFORM. Tim berlomba melawan waktu, dan kata sulit bernilai lebih tinggi.",
+        "best": "Paling seru untuk 4+ pemain dalam dua tim"
+      },
+      {
+        "id": "headsup",
+        "title": "Heads Up Halloween",
+        "body": "Tempelkan ponsel di dahi sementara teman memerankan Vampir atau Mumi. Miringkan ke bawah kalau benar, ke atas untuk lewati.",
+        "best": "Paling seru untuk pesta kostum dan foto"
+      },
+      {
+        "id": "imposter",
+        "title": "Penipu di rumah hantu",
+        "body": "Semua melihat kata Halloween yang sama kecuali si penipu, yang kartunya kosong. Masing-masing memberi satu petunjuk, lalu voting. Kalau ketahuan, penipu tetap menang jika menebak katanya.",
+        "best": "Paling seru untuk 3 sampai 12 pemain yang suka menggertak"
+      }
+    ],
+    "samplesTitle": "Contoh kartu dari dek Halloween gratis",
+    "samplesSubtitle": "Kartu asli dari dek. Jelaskan kata besar tanpa pernah menyebut empat kata di bawahnya. Kartu berbahasa Indonesia belum tersedia, jadi untuk saat ini kamu bermain dengan kartu bahasa Inggris.",
+    "hostTitle": "Cara mengadakan malam game Halloween dalam 5 langkah",
+    "hostSteps": [
+      {
+        "title": "Unduh Tadado",
+        "body": "Gratis di iPhone dan Android. Pasang sebelum tamu datang."
+      },
+      {
+        "title": "Buka dek Halloween",
+        "body": "Selama event, dek ini ada paling atas di layar utama dan gratis."
+      },
+      {
+        "title": "Pilih mode",
+        "body": "Kata Terlarang untuk tim, Heads Up untuk akting, Penipu untuk adu gertak."
+      },
+      {
+        "title": "Atur tim dan timer",
+        "body": "Bagi grup, pilih jumlah ronde dan timer. Tadado mencatat skor."
+      },
+      {
+        "title": "Gilir ponselnya",
+        "body": "Satu ponsel berkeliling ruangan. Redupkan lampu untuk menambah ketegangan."
+      }
+    ],
+    "ideasTitle": "Ide game Halloween yang selalu seru",
+    "ideas": [
+      {
+        "title": "Heads Up pakai kostum",
+        "body": "Yang memegang ponsel berakting dengan kostumnya. Rekam slow motion untuk grup chat."
+      },
+      {
+        "title": "Turnamen Taboo monster",
+        "body": "Dua tim, tiga ronde; tim kalah membagikan permen."
+      },
+      {
+        "title": "Penipu cahaya lilin",
+        "body": "Main Penipu dengan lilin saja. Menggertak dalam gelap jauh lebih sulit."
+      },
+      {
+        "title": "Dek horor buatanmu",
+        "body": "Ketik tema seperti \"film horor 80-an\" dan biarkan AI membuat dek untuk grupmu."
+      }
+    ],
+    "faqTitle": "Pertanyaan seputar game pesta Halloween",
+    "faq": [
+      {
+        "q": "Apa game Halloween terbaik untuk grup teman?",
+        "a": "Yang tanpa persiapan dan membuat semua orang bicara. Dengan dek Halloween gratis di Tadado, grupmu bisa main Taboo seram, Heads Up, atau Penipu di satu ponsel begitu semua datang."
+      },
+      {
+        "q": "Apakah dek Halloween Tadado gratis?",
+        "a": "Ya. Dek Halloween gratis untuk semua dan berisi 100 kata Halloween. Tanpa iklan dan langganan."
+      },
+      {
+        "q": "Berapa orang yang bisa main?",
+        "a": "Mulai 3 pemain hingga pesta besar. Taboo dan Heads Up membagi grup ke dalam tim, sedangkan Penipu dimainkan 3 sampai 12 orang di satu ponsel."
+      },
+      {
+        "q": "Apakah cocok untuk anak-anak dan Halloween keluarga?",
+        "a": "Ya. Dek ini berisi klasik Halloween seperti Labu, Penyihir, Hantu, dan Trick or treat, jadi cocok untuk malam keluarga maupun pesta dewasa."
+      },
+      {
+        "q": "Perlu kartu atau beberapa ponsel?",
+        "a": "Tidak. Satu ponsel cukup untuk semua mode. Ponsel digilir, dan Tadado mengatur timer, kartu, dan skor."
+      },
+      {
+        "q": "Dek Halloween tersedia dalam bahasa apa saja?",
+        "a": "Kata Halloween tersedia dalam 13 bahasa kartu termasuk bahasa Inggris, dan dipilih khusus untuk tiap bahasa. Kartu bahasa Indonesia belum tersedia sehingga kamu bermain dengan kartu bahasa Inggris, sementara aplikasinya sendiri tersedia dalam 17 bahasa termasuk bahasa Indonesia."
+      }
+    ],
+    "ctaTitle": "Pesta Halloween-mu dimulai gratis",
+    "ctaBody": "Unduh Tadado, buka dek Halloween, dan mainkan ronde pertama dalam waktu kurang dari semenit.",
+    "ctaButton": "Unduh Tadado gratis",
+    "related": "Ide game pesta lainnya",
+    "seasonNote": "Event Halloween di aplikasi berlangsung hingga 3 November."
   }
 }

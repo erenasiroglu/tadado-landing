@@ -1,4 +1,4 @@
-import { CLASSIC_GAME_SCREEN } from "@/lib/design-tokens";
+import { ACTIVE_GAME_SCREEN } from "@/lib/design-tokens";
 import { cn } from "@/lib/utils";
 
 interface TabooGameCardProps {
@@ -9,7 +9,7 @@ interface TabooGameCardProps {
 }
 
 export function TabooGameCard({ word, forbidden, className, compact = false }: TabooGameCardProps) {
-  const t = CLASSIC_GAME_SCREEN;
+  const t = ACTIVE_GAME_SCREEN;
 
   return (
     <div
@@ -21,6 +21,7 @@ export function TabooGameCard({ word, forbidden, className, compact = false }: T
         style={{
           borderRadius: compact ? 14 : 18,
           backgroundColor: t.cardBg,
+          border: `1px solid ${t.cardBorder}`,
           padding: compact ? "18px 10px 12px" : "24px 14px 16px",
         }}
       >
@@ -56,10 +57,11 @@ export function TabooGameCard({ word, forbidden, className, compact = false }: T
                 padding: compact ? "8px 10px" : "10px 12px",
                 borderRadius: compact ? 8 : 10,
                 backgroundColor: t.forbiddenWordBg,
+                border: `1px solid ${t.forbiddenWordBorder}`,
               }}
             >
               <span
-                className="font-bold uppercase"
+                className={cn("font-bold", t.forbiddenUppercase && "uppercase")}
                 style={{
                   color: t.forbiddenWordText,
                   fontSize: compact ? 10 : 12,

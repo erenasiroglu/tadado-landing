@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "imposter-spiel",
     "game": "Imposter",
-    "tagline": "Das virale Bluffspiel mit geheimem Wort gegen ein Spiel, bei dem alle reden.",
+    "tagline": "Das virale Geheimwort-Spiel ist jetzt einer von drei Modi in Tadado.",
     "metaTitle": "Imposter-Spiel oder Tadado: Was rettet den Spieleabend?",
-    "metaDescription": "Du liebst das Imposter-Spiel? Vergleiche es mit Tadados Modi Verbotene Wörter und Heads Up: ein Handy, keine Werbung, KI-Decks und ein kostenloses Starterdeck.",
+    "metaDescription": "Du liebst das Imposter-Spiel? Tadado hat einen Hochstapler-Modus plus Verbotene Wörter und Heads Up in einer App: ein Handy, 3 bis 12 Spieler, keine Werbung, kostenloses Start-Deck.",
     "h1": "Imposter-Spiel oder Tadado",
-    "hook": "Bei Imposter geht es ums Misstrauen. Bei Tadado darum, die Antwort zu rufen, bevor die Zeit abläuft. So weißt du, was deinen Abend rettet.",
+    "hook": "Beim Imposter-Spiel dreht sich alles um Misstrauen. Tadado hat jetzt einen eigenen Hochstapler-Modus und dazu zwei schnelle Ratespiele, wenn die Runde lieber ruft als intrigiert.",
     "about": [
       "Das Imposter-Spiel, auch als \"Wer ist der Spion?\" bekannt, ging viral, weil es fast nichts braucht: Ein Handy wird herumgereicht, alle sehen dasselbe Wort außer einer Person, und die Gruppe gibt Ein-Wort-Hinweise, bis der Imposter rausgewählt wird.",
-      "Es ist vor allem ein Bluffspiel. Der Spaß kommt vom Gesichterlesen, vom Verteidigen und von der großen Auflösung. Perfekt für Gruppen, die gern diskutieren, und ruhiger für alle, die lieber alle paar Sekunden raten und lachen."
+      "Der Hochstapler-Modus in Tadado funktioniert genauso: Ein Handy geht reihum, alle halten gedrückt, um das geheime Wort zu sehen, und die Karte des Hochstaplers ist leer. Jeder sagt ein Hinweiswort, die Gruppe stimmt ab, und ein entlarvter Hochstapler kann trotzdem gewinnen, wenn er das Wort errät. Gespielt wird mit 3 bis 12 Personen und den Tadado-Decks, auch mit dem kostenlosen Halloween-Deck."
     ],
     "pickThem": [
-      "deine Gruppe Bluffen, Beschuldigen und dramatische Auflösungen liebt",
-      "ihr langsame Runden mit viel Diskussion wollt",
-      "alle lieber reden als gegen die Uhr zu spielen"
+      "Ihr wollt nur Imposter-Runden und sonst nichts",
+      "Eure Gruppe liebt schon eine eigene Imposter-App",
+      "Ihr spielt mit Wortlisten auf Papier"
     ],
     "pickTadado": [
-      "ihr ohne Pause lachen wollt, mit einem neuen Wort alle paar Sekunden",
-      "schüchterne Freunde lieber raten als lügen",
-      "du Verbotene Wörter (Tabu-Stil) und Heads Up in einer App willst"
+      "Du willst Hochstapler, Verbotene Wörter und Heads Up in einer App",
+      "Du willst geheime Wörter aus Themen- und KI-Decks ziehen",
+      "Du willst vom Bluffen zum schnellen Raten wechseln, ohne die App zu wechseln"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Geheime Rollen und Bluffen",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Lade Tadado und öffne das kostenlose Deck Tadado Mix.",
-      "Wähle Verbotene Wörter für Teams oder Heads Up mit dem Handy auf der Stirn.",
-      "Du vermisst die Insider-Witze aus Imposter? Gib das Thema deiner Gruppe in den KI-Deck-Builder ein."
+      "Lade Tadado und öffne Hochstapler im Modus-Menü.",
+      "Füge 3 bis 12 Spieler hinzu und wähle, wie viele Hochstapler es gibt.",
+      "Gebt das Handy weiter: Alle halten gedrückt für ihre Rolle, dann Hinweiswörter geben und abstimmen."
     ],
     "faq": [
       {
         "q": "Hat Tadado einen Imposter-Modus?",
-        "a": "Nein. Tadado hat zwei Modi: Verbotene Wörter (Tabu-Stil) und Heads Up. Es ist ein schnelles Ratespiel, kein Spiel mit geheimen Rollen, und passt deshalb gut zu Imposter am selben Abend."
+        "a": "Ja. Hochstapler ist einer der drei Modi von Tadado, neben Verbotene Wörter und Heads Up. Alle außer dem Hochstapler sehen das geheime Wort, jeder gibt ein Hinweiswort, dann stimmt die Gruppe ab."
       },
       {
         "q": "Was ist besser für große Gruppen?",
-        "a": "Beide funktionieren mit einem Handy. Imposter-Runden werden mit mehr Leuten länger, Tadado teilt große Gruppen in Teams, sodass alle in jeder Runde mitspielen."
+        "a": "Beide laufen auf einem Handy. Hochstapler spielt ihr in Tadado mit 3 bis 12 Personen; bei größeren Gruppen wechselt zu Verbotene Wörter oder Heads Up in Teams, damit alle mitspielen."
       },
       {
         "q": "Ist Tadado kostenlos wie viele Imposter-Apps?",
@@ -345,7 +345,7 @@
       },
       {
         "feature": "Geheime Rollen und Bluffen",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -367,7 +367,7 @@
     "faq": [
       {
         "q": "Gibt es in Tadado geheime Rollen?",
-        "a": "Nein. Tadado ist ein Ratespiel mit den Modi Verbotene Wörter und Heads Up. Es macht auf andere Art Spaß als Werwölfe, und beides ergänzt sich gut."
+        "a": "Teilweise. Der Hochstapler-Modus in Tadado ist ein Spiel mit geheimer Rolle: Ein Spieler bekommt eine leere Karte und muss sich durch die Hinweisrunde bluffen. Ohne Spielleiter und Nachtphasen ist es schneller als Werwölfe, und niemand scheidet aus."
       },
       {
         "q": "Was ist besser zu viert?",

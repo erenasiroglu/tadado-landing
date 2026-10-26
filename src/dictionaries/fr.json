@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Tadado : Jeu de mots pour soirées | Taboo, Heads Up et decks IA",
-    "description": "Un téléphone. Tes amis. Taboo, Heads Up et decks personnalisés IA faits pour les soirées jeux. Gratuit pour commencer. Sans pub. iOS et Android."
+    "title": "Tadado : jeu de soirée | Tabou, Heads Up, Imposteur et decks IA",
+    "description": "Un téléphone. Vos amis. Tabou, Heads Up, Imposteur et decks IA pour vos soirées jeux. Gratuit pour commencer, sans pub ni abonnement. iOS et Android."
   },
   "nav": {
     "play": "Jouer",
@@ -17,12 +17,13 @@
     "compare": "Comparer",
     "affiliate": "Affiliation",
     "team": "Équipe",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "halloween": "Halloween"
   },
   "hero": {
     "brandLine": "Jeu de mots pour soirées · ★ 5.0 sur l'App Store",
     "title": "Un téléphone. Tes amis. Que le chaos commence.",
-    "subtitle": "Taboo, Heads Up et decks personnalisés IA conçus pour les soirées jeux.",
+    "subtitle": "Tabou, Heads Up, Imposteur et decks personnalisés par IA pour vos soirées jeux.",
     "ctaPrimary": "TÉLÉCHARGER TADADO · GRATUIT",
     "ctaSecondary": "VOIR COMMENT ÇA MARCHE",
     "metrics": [
@@ -32,7 +33,7 @@
         "animate": true
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modes de jeu"
       },
       {
@@ -60,7 +61,7 @@
   },
   "proof": {
     "players": "Plus de 300 000 parties jouées",
-    "modes": "2 modes de jeu",
+    "modes": "3 modes de jeu",
     "ai": "Propulsé par l'IA",
     "languages": "17 langues",
     "offline": "Jouer hors ligne",
@@ -72,8 +73,8 @@
     "developer": "Développé par Tadado Game Development",
     "items": [
       {
-        "title": "Deux modes, une seule app",
-        "body": "Passe des Mots interdits à Heads Up sans télécharger deux fois. Les mêmes decks, une énergie différente à chaque manche."
+        "title": "Trois modes, une appli",
+        "body": "Passez de Mots interdits à Heads Up ou Imposteur sans rien télécharger d'autre. Les mêmes decks, une autre ambiance à chaque manche."
       },
       {
         "title": "Decks IA en quelques secondes",
@@ -92,7 +93,7 @@
   "stats": {
     "gamesPlayed": "300,000+",
     "gamesPlayedLabel": "parties jouées dans le monde",
-    "modes": "2",
+    "modes": "3",
     "modesLabel": "modes de jeu",
     "languages": "17",
     "languagesLabel": "langues dans l'app",
@@ -184,8 +185,8 @@
     ]
   },
   "modes": {
-    "title": "Deux façons de jouer",
-    "subtitle": "Mots interdits façon Taboo classique ou Heads Up sur le front. Les mêmes decks, une énergie différente.",
+    "title": "Trois façons de jouer",
+    "subtitle": "Mots interdits façon Tabou, Heads Up sur le front ou démasquez l'Imposteur. Un téléphone, trois sortes de chaos.",
     "tabooTitle": "Mots interdits",
     "tabooBody": "Décris le mot principal, prends plus de risques et fais monter ton score. Les mots difficiles débloquent des multiplicateurs plus élevés, de ×2 à ×5.",
     "headsUpTitle": "Heads Up",
@@ -196,8 +197,11 @@
       "landscapeGameplay": "Jeu en paysage",
       "buildScoreTitle": "Fais monter ton score",
       "buildScoreBody": "Choisis des mots plus difficiles pour augmenter ton multiplicateur et transformer chaque bonne réponse en plus de points.",
-      "scoreMultipliersAria": "Multiplicateurs de score : 2x, 3x, 5x"
-    }
+      "scoreMultipliersAria": "Multiplicateurs de score : 2x, 3x, 5x",
+      "passGameplay": "On se passe le téléphone"
+    },
+    "imposterTitle": "Imposteur",
+    "imposterBody": "L'un de vous ne connaît pas le mot. Les autres le voient, donnent chacun un indice d'un mot et votent pour trouver l'imposteur."
   },
   "gamePreview": {
     "timeLeft": "42 secondes restantes",
@@ -217,7 +221,13 @@
     "continue": "Continuer",
     "pauseGame": "Mettre en pause",
     "teamA": "ÉQUIPE A",
-    "teamB": "ÉQUIPE B"
+    "teamB": "ÉQUIPE B",
+    "imposterTitle": "Imposteur",
+    "imposterPassTo": "Passe le téléphone à {name}",
+    "imposterPlayer": "Léa",
+    "imposterLookAway": "Les autres, ne regardez pas.",
+    "imposterAgent": "AGENT #01",
+    "imposterHold": "Maintiens appuyé pour voir ton rôle"
   },
   "a11y": {
     "openMenu": "Ouvrir le menu",
@@ -383,7 +393,7 @@
     "faqTitle": "{game} face à Tadado : questions",
     "relatedTitle": "Comparer d'autres jeux",
     "ctaTitle": "Votre prochaine soirée jeux commence gratuitement",
-    "ctaBody": "Téléchargez Tadado, ouvrez le deck gratuit Tadado Mix et jouez aux Mots interdits ou à Heads Up en quelques secondes. Un seul téléphone suffit.",
+    "ctaBody": "Téléchargez Tadado, ouvrez un deck gratuit et jouez à Mots interdits, Heads Up ou Imposteur en quelques secondes. Un seul téléphone suffit.",
     "ctaButton": "Télécharger Tadado gratuitement",
     "freeNote": "Téléchargement gratuit · Sans pub · Sans abonnement",
     "disclaimer": "{game} est cité uniquement pour décrire un jeu ou un format connu. Toutes les marques appartiennent à leurs propriétaires ; Tadado n'est ni affilié ni approuvé par eux. Les notes sur {game} décrivent le format classique et les versions courantes ; chaque appli ou édition peut différer, consultez sa fiche en boutique."
@@ -396,31 +406,60 @@
     "cta": "Découvrir le deck"
   },
   "halloween": {
-    "heroPill": "Saison d'Halloween : paquet gratuit + nouveau mode Imposteur",
-    "tag": "Saison d'Halloween",
-    "title": "Soirée Halloween, version Tadado",
-    "body": "Deux nouvelles raisons de réunir la bande avant que les lumières s'éteignent.",
-    "deckTitle": "Paquet Halloween gratuit",
-    "deckBody": "Monstres, sorcières et classiques de l'horreur. Gratuit pour tous, sans achat.",
+    "heroPill": "Nouveau : deck Halloween gratuit + mode Imposteur",
+    "tag": "Événement Halloween",
+    "title": "Soirée d'Halloween, version Tadado",
+    "body": "Un deck gratuit de 100 mots qui font peur et un tout nouveau mode de bluff. Tout ce qu'il vous faut avant d'éteindre les lumières.",
+    "deckTitle": "Deck Halloween gratuit",
+    "deckBody": "100 mots qui font peur : monstres, sorcières et classiques de l'horreur. Gratuit pour tous, sans achat.",
     "imposterTitle": "Nouveau mode : Imposteur",
-    "imposterBody": "Tout le monde reçoit le mot secret sauf un joueur. Démasquez l'imposteur avant qu'il ne se fonde dans le groupe.",
+    "imposterBody": "Tout le monde voit le mot secret sauf un joueur. Donnez vos indices, puis votez contre l'imposteur.",
     "cta": "Jouez gratuitement ce soir",
-    "guideCta": "Idées de jeux pour Halloween",
-    "note": "La saison d'Halloween dure jusqu'au 3 novembre.",
+    "guideCta": "Guide de soirée Halloween",
+    "note": "L'événement Halloween dure jusqu'au 3 novembre.",
     "card": {
-      "deck": "Paquet Halloween",
+      "deck": "Halloween",
       "free": "Gratuit",
-      "word": "Vampire",
+      "word": "Loup-garou",
       "forbidden": [
-        "Sang",
-        "Morsure",
-        "Dracula",
-        "Nuit"
+        "Pleine lune",
+        "Hurler",
+        "Poils",
+        "Transformer"
       ],
       "imposterLabel": "Imposteur",
       "imposterRole": "Tu es l'imposteur",
-      "imposterHint": "Fonds-toi dans la masse. Ne te fais pas prendre."
-    }
+      "imposterHint": "Fonds-toi dans la masse.",
+      "deckDesc": "Des mots qui font peur pour une soirée pleine de rires !",
+      "play": "Jouer",
+      "newBadge": "Nouveau",
+      "headsUpWord": "Vampire",
+      "round": "Manche 1/4"
+    },
+    "eyebrow": "Jeux de soirée d'Halloween",
+    "heroTitle": "3 jeux de soirée.",
+    "heroTitleAccent": "Un téléphone.",
+    "heroSubtitle": "Jouez entre amis, en famille ou avec toute la bande. Deck Halloween gratuit inclus.",
+    "heroSecondary": "Voir le deck Halloween",
+    "mascotBadge": "des decks sur tout",
+    "headsUpTitle": "Heads Up, édition Halloween",
+    "headsUpBody": "Le téléphone sur le front, les monstres à l'écran. Inclinez vers le bas quand vous trouvez.",
+    "stats": [
+      {
+        "value": "100",
+        "label": "mots qui font peur"
+      },
+      {
+        "value": "3",
+        "label": "modes de jeu"
+      },
+      {
+        "value": "Gratuit",
+        "label": "pour tous"
+      }
+    ],
+    "metaTitle": "Tadado : jeux de soirée d'Halloween | Tabou, Heads Up et Imposteur",
+    "metaDescription": "Jeux d'Halloween gratuits sur un téléphone : un deck de Tabou effrayant de 100 mots, Heads Up et le nouveau mode Imposteur. Sans pub ni abonnement. iOS et Android."
   },
   "trust": {
     "eyebrow": "Pensé pour vous",
@@ -452,7 +491,7 @@
     "countBadge": "8 decks de jeu",
     "free": "Gratuit",
     "play": "JOUER",
-    "price": "$0.99",
+    "price": "$1.99",
     "newBadge": "NOUVEAU",
     "items": {
       "mix": {
@@ -503,33 +542,33 @@
     "aiSectionTitle": "Création de decks par IA",
     "aiTiers": [
       {
-        "name": "Starter",
-        "price": "$2.99",
-        "desc": "10 créations de decks par IA : des decks sur mesure, sur n'importe quel thème."
+        "name": "Mini",
+        "price": "$1.99",
+        "desc": "5 créations de decks par IA : des decks sur mesure, sur n'importe quel thème."
       },
       {
-        "name": "Plus",
-        "price": "$5.99",
-        "desc": "30 créations de decks par IA pour les soirées jeux régulières.",
+        "name": "Party",
+        "price": "$4.99",
+        "desc": "15 créations de decks par IA pour les soirées jeux régulières.",
         "highlight": true
       },
       {
         "name": "Pro",
         "price": "$9.99",
-        "desc": "100 créations de decks par IA pour les hôtes qui ne manquent jamais d'idées."
+        "desc": "40 créations de decks par IA pour les hôtes qui ne manquent jamais d'idées."
       }
     ],
     "decksSectionTitle": "Decks premium",
     "singleDeck": {
       "name": "Decks thématiques",
-      "price": "$0.99",
+      "price": "$1.99",
       "desc": "Achat unique par deck. Été, Cinéma, Voyage, Sport, Héros et plus."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tous les decks thématiques premium et 100 créations de decks IA, en un seul achat.",
-      "aiCredits": "100 créations de decks IA incluses",
+      "desc": "Tous les decks thématiques premium et 20 créations de decks IA, en un seul achat.",
+      "aiCredits": "20 créations de decks IA incluses",
       "highlight": true
     },
     "badges": {
@@ -547,7 +586,7 @@
       },
       {
         "title": "Choisis un deck",
-        "body": "Joue gratuitement avec Mix ou débloque des packs thématiques et des decks IA."
+        "body": "Mots interdits en équipes, Heads Up pour deviner sur le front ou Imposteur pour bluffer."
       },
       {
         "title": "Passe le téléphone et joue",
@@ -569,7 +608,7 @@
         "label": "langues"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modes de jeu"
       }
     ],
@@ -678,8 +717,16 @@
         "a": "Tiens le téléphone sur ton front pour ne pas voir le mot. Tes amis donnent des indices sans dire le mot. Incline vers le bas quand tu devines, vers le haut pour passer. Tadado utilise les mêmes decks en modes Heads Up et Taboo."
       },
       {
-        "q": "Tadado est-il l'une des meilleures apps gratuites de jeux de mots ?",
-        "a": "Tadado est fait pour les soirées jeux : Taboo, charades Heads Up, Tadado Mix gratuit, decks thématiques optionnels et création de decks IA. Sans pub ni abonnement, c'est l'une des apps de mots au meilleur rapport qualité-prix sur iOS et Android."
+        "q": "Comment jouer à l'Imposteur dans Tadado ?",
+        "a": "Faites passer un seul téléphone. Tout le monde voit le même mot secret, sauf l'imposteur dont la carte est vide. Chacun donne à tour de rôle un indice d'un mot, puis vous votez. Démasqué, l'imposteur gagne quand même s'il devine le mot."
+      },
+      {
+        "q": "Quel est un bon jeu pour une soirée d'Halloween entre amis ?",
+        "a": "Tadado est parfait pour Halloween : le deck Halloween gratuit contient 100 mots qui font peur comme Loup-garou, Sorcière ou Maison hantée, à jouer en Mots interdits, Heads Up ou Imposteur sur un seul téléphone. Pas de cartes, pas de préparation, pas de pub."
+      },
+      {
+        "q": "Tadado est-il l'une des meilleures applis gratuites de jeux de soirée ?",
+        "a": "Tadado est fait pour les soirées jeux : Mots interdits façon Tabou, Heads Up, le jeu de bluff Imposteur, des decks gratuits, des decks thématiques en option et la création de decks par IA. Sans pub ni abonnement, c'est l'une des applis de soirée les plus avantageuses sur iOS et Android."
       },
       {
         "q": "Tadado est-il gratuit ?",
@@ -695,7 +742,7 @@
       },
       {
         "q": "Comment fonctionne la création de deck IA ?",
-        "a": "Écris un sujet, comme « films Marvel » ou « tubes pop des 90 », et Tadado génère un deck jouable en quelques secondes pour les deux modes."
+        "a": "Écrivez un thème, comme « films Marvel » ou « tubes pop des années 90 », et Tadado génère en quelques secondes un deck jouable en Mots interdits et en Heads Up."
       },
       {
         "q": "Quelles langues sont prises en charge ?",
@@ -714,7 +761,7 @@
     },
     "rows": [
       {
-        "feature": "Taboo + Heads Up dans une seule app",
+        "feature": "Tabou, Heads Up et Imposteur dans une seule appli",
         "tadado": "yes",
         "others": "no"
       },
@@ -754,7 +801,7 @@
         "others": "no"
       }
     ],
-    "note": "Beaucoup d'apps se concentrent sur un seul mode, affichent des pubs ou bloquent le contenu derrière des abonnements. Tadado est conçu pour de vraies soirées jeux avec les deux modes, un deck de démarrage gratuit et des extras payés une seule fois.",
+    "note": "Beaucoup d'applis se limitent à un mode, affichent des pubs ou verrouillent le contenu derrière un abonnement. Tadado est pensé pour de vraies soirées jeux, avec trois modes, un deck de départ gratuit et des extras à achat unique.",
     "cta": "Télécharger Tadado gratuitement",
     "viewFull": "Ouvrir la page de comparaison complète"
   },
@@ -861,7 +908,7 @@
     "topics": [
       {
         "title": "FAQ et règles du jeu",
-        "body": "Règles de Mots interdits et Heads Up, tarifs et jeu hors ligne.",
+        "body": "Règles de Mots interdits, Heads Up et Imposteur, prix et jeu hors ligne.",
         "cta": "Ouvrir la FAQ",
         "kind": "faq"
       },
@@ -889,7 +936,7 @@
     "title": "Marketing et presse",
     "subtitle": "Campagnes créateurs, decks de marque et ressources presse de Tadado.",
     "back": "Retour à Tadado",
-    "intro": "Tadado est un jeu de mots pour de vrais groupes : Mots interdits façon Tabou et Heads Up sur un seul téléphone, sans pub ni abonnement. Pour un contenu, une collaboration ou un article, commencez ici.",
+    "intro": "Tadado est une appli de jeux de soirée pour de vrais groupes : Mots interdits façon Tabou, Heads Up et Imposteur sur un téléphone, sans pub ni abonnement. Si vous préparez un contenu, une collab ou un article, commencez ici.",
     "statsLabel": "En bref",
     "stats": [
       {
@@ -901,7 +948,7 @@
         "label": "langues"
       },
       {
-        "value": "2",
+        "value": "3",
         "label": "modes de jeu"
       }
     ],
@@ -938,5 +985,138 @@
     "home": "Accueil",
     "popularAlternatives": "Guides d'alternatives populaires",
     "alternativesHub": "Alternatives à Tadado"
+  },
+  "halloweenPage": {
+    "metaTitle": "Jeux pour soirée d'Halloween en groupe : gratuits sur un téléphone | Tadado",
+    "metaDescription": "Les jeux d'Halloween les plus simples entre amis et en famille : Tabou effrayant, Heads Up et Imposteur sur un téléphone avec un deck gratuit de 100 mots. Sans cartes ni pub.",
+    "breadcrumb": "Jeux de soirée d'Halloween",
+    "eyebrow": "Jeux de soirée d'Halloween",
+    "h1": "Jeux de soirée d'Halloween sur un seul téléphone",
+    "answer": "Le jeu d'Halloween le plus simple pour un groupe, c'est celui qui ne demande ni cartes ni préparation. Tadado transforme un téléphone en trois jeux d'Halloween : Tabou effrayant (Mots interdits), Heads Up et Imposteur, avec un deck gratuit de 100 mots d'Halloween. Idéal de 3 à 20+ joueurs, entre amis, en famille ou au bureau.",
+    "factsTitle": "En bref",
+    "facts": [
+      {
+        "label": "Joueurs",
+        "value": "De 3 à 20+"
+      },
+      {
+        "label": "Il vous faut",
+        "value": "Un téléphone"
+      },
+      {
+        "label": "Deck Halloween",
+        "value": "100 mots, gratuit"
+      },
+      {
+        "label": "Modes",
+        "value": "Tabou, Heads Up, Imposteur"
+      },
+      {
+        "label": "Préparation",
+        "value": "Moins d'une minute"
+      },
+      {
+        "label": "Pub",
+        "value": "Aucune"
+      }
+    ],
+    "modesTitle": "Trois jeux d'Halloween dans une appli",
+    "modesSubtitle": "Choisissez le mode qui colle au groupe. Tous utilisent le même deck Halloween gratuit.",
+    "modes": [
+      {
+        "id": "taboo",
+        "title": "Tabou effrayant",
+        "body": "Faites deviner Loup-garou sans dire Pleine lune, Hurler, Poils ni Transformer. Les équipes jouent contre la montre et les mots difficiles rapportent plus.",
+        "best": "Idéal à 4+ joueurs en deux équipes"
+      },
+      {
+        "id": "headsup",
+        "title": "Heads Up d'Halloween",
+        "body": "Tenez le téléphone sur le front pendant que vos amis miment Vampire ou Momie. Inclinez vers le bas si vous trouvez, vers le haut pour passer.",
+        "best": "Idéal pour les soirées déguisées et les photos"
+      },
+      {
+        "id": "imposter",
+        "title": "L'Imposteur dans la maison hantée",
+        "body": "Tout le monde voit le même mot d'Halloween, sauf l'imposteur dont la carte est vide. Chacun donne un indice d'un mot, puis on vote. Démasqué, l'imposteur gagne s'il devine le mot.",
+        "best": "Idéal de 3 à 12 joueurs qui adorent bluffer"
+      }
+    ],
+    "samplesTitle": "Exemples de cartes du deck Halloween gratuit",
+    "samplesSubtitle": "De vraies cartes du deck. Faites deviner le grand mot sans jamais dire les quatre du dessous.",
+    "hostTitle": "Organiser une soirée jeux d'Halloween en 5 étapes",
+    "hostSteps": [
+      {
+        "title": "Téléchargez Tadado",
+        "body": "Gratuit sur iPhone et Android. Installez-le avant l'arrivée des invités."
+      },
+      {
+        "title": "Ouvrez le deck Halloween",
+        "body": "Il est en tête de l'écran d'accueil pendant l'événement et ne coûte rien."
+      },
+      {
+        "title": "Choisissez un mode",
+        "body": "Mots interdits en équipes, Heads Up pour mimer, Imposteur pour bluffer."
+      },
+      {
+        "title": "Réglez équipes et chrono",
+        "body": "Répartissez le groupe, choisissez les manches et le chrono. Tadado compte les points."
+      },
+      {
+        "title": "Faites passer le téléphone",
+        "body": "Un seul téléphone circule. Baissez les lumières pour plus de suspense."
+      }
+    ],
+    "ideasTitle": "Des idées de jeux d'Halloween qui marchent à tous les coups",
+    "ideas": [
+      {
+        "title": "Heads Up déguisé",
+        "body": "Celui qui tient le téléphone mime en costume. Filmez au ralenti pour le groupe."
+      },
+      {
+        "title": "Tournoi de Tabou des monstres",
+        "body": "Deux équipes, trois manches ; les perdants distribuent les bonbons."
+      },
+      {
+        "title": "Imposteur dans le noir",
+        "body": "Jouez à l'Imposteur à la bougie. Bluffer dans le noir, c'est bien plus dur."
+      },
+      {
+        "title": "Votre propre deck d'horreur",
+        "body": "Tapez un thème comme « films d'horreur des années 80 » et laissez l'IA créer un deck pour votre groupe."
+      }
+    ],
+    "faqTitle": "Jeux de soirée d'Halloween : questions",
+    "faq": [
+      {
+        "q": "Quel est le meilleur jeu d'Halloween pour un groupe d'amis ?",
+        "a": "Un jeu sans préparation qui fait parler tout le monde. Avec le deck Halloween gratuit de Tadado, le groupe joue au Tabou effrayant, à Heads Up ou à l'Imposteur sur un téléphone, dès que les invités arrivent."
+      },
+      {
+        "q": "Le deck Halloween de Tadado est-il gratuit ?",
+        "a": "Oui. Le deck Halloween est gratuit pour tous, avec 100 mots d'Halloween. Sans pub ni abonnement."
+      },
+      {
+        "q": "Combien de personnes peuvent jouer ?",
+        "a": "De 3 joueurs à de grandes soirées. Tabou et Heads Up répartissent le groupe en équipes, et l'Imposteur se joue de 3 à 12 sur un téléphone."
+      },
+      {
+        "q": "Est-ce adapté aux enfants et aux soirées en famille ?",
+        "a": "Oui. Le deck repose sur des classiques d'Halloween comme Citrouille, Sorcière, Fantôme ou Un bonbon ou un sort ; il convient aux soirées en famille comme aux fêtes entre adultes."
+      },
+      {
+        "q": "Faut-il des cartes ou d'autres téléphones ?",
+        "a": "Non. Un téléphone suffit pour tous les modes. Il passe de main en main et Tadado gère le chrono, les cartes et le score."
+      },
+      {
+        "q": "Dans quelles langues est le deck Halloween ?",
+        "a": "Les mots d'Halloween sont adaptés à chaque langue de cartes, pas seulement traduits, et l'appli est disponible en 17 langues."
+      }
+    ],
+    "ctaTitle": "Votre soirée d'Halloween commence gratuitement",
+    "ctaBody": "Téléchargez Tadado, ouvrez le deck Halloween et jouez votre première manche en moins d'une minute.",
+    "ctaButton": "Télécharger Tadado gratuitement",
+    "related": "Plus d'idées de jeux de soirée",
+    "seasonNote": "L'événement Halloween dans l'appli dure jusqu'au 3 novembre."
   }
 }

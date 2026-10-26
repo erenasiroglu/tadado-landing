@@ -3,13 +3,15 @@
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export type GameModeFilter = "taboo" | "headsup";
+export type GameModeFilter = "taboo" | "headsup" | "imposter";
 
 interface ModeFilterButtonsProps {
   activeMode: GameModeFilter;
   onSelect: (mode: GameModeFilter) => void;
   tabooLabel: string;
   headsUpLabel: string;
+  /** Shown only where the content has an Imposter version. */
+  imposterLabel?: string;
   ariaLabel: string;
   className?: string;
 }
@@ -19,12 +21,14 @@ export function ModeFilterButtons({
   onSelect,
   tabooLabel,
   headsUpLabel,
+  imposterLabel,
   ariaLabel,
   className,
 }: ModeFilterButtonsProps) {
   const modes: { key: GameModeFilter; label: string }[] = [
     { key: "taboo", label: tabooLabel },
     { key: "headsup", label: headsUpLabel },
+    ...(imposterLabel ? [{ key: "imposter" as const, label: imposterLabel }] : []),
   ];
 
   return (

@@ -23,14 +23,16 @@ export const BRAND = {
 /** USD list prices for SEO / llms; store may show local currency (e.g. TRY in Turkey). */
 export const PRICING = {
   mixFree: true,
-  singleDeckUsd: 0.99,
-  singleDeckTry: 49.99,
-  aiStarterUsd: 2.99,
-  aiStarterTry: 99.99,
-  aiPlusUsd: 5.99,
-  aiPlusTry: 199,
+  singleDeckUsd: 1.99,
+  singleDeckTry: 59.99,
+  /** AI packs: Mini 5, Party 15, Pro 40 creations. */
+  aiStarterUsd: 1.99,
+  aiStarterTry: 59.99,
+  aiPlusUsd: 4.99,
+  aiPlusTry: 149.99,
   aiProUsd: 9.99,
-  aiProTry: 349.99,
+  aiProTry: 299.99,
+  /** Every premium deck plus 20 AI creations. */
   fullAccessUsd: 14.99,
-  fullAccessTry: 499,
+  fullAccessTry: 499.99,
 } as const;

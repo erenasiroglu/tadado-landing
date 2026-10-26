@@ -187,7 +187,7 @@ const EN_PAGES: Record<
   nebuu: {
     metaTitle: "Nebu Alternative | Tadado Party Game (EN)",
     metaDescription:
-      "Comparing Nebuu-style party word apps with Tadado: two game modes, free Mix deck, no ads, no subscription, AI decks, and one-time themed packs.",
+      "Comparing Nebuu-style party word apps with Tadado: three game modes (Taboo-style, Heads Up and Imposter), free Mix deck, no ads, no subscription, AI decks, and one-time themed packs.",
     h1: "Tadado as a Nebuu alternative for party word games",
     heroSubtitle:
       "If you are comparing Turkish party apps—or want one clean install for Taboo-style and Heads Up nights—here is how Tadado stacks up.",

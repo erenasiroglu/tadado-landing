@@ -3,24 +3,24 @@
     "id": "impostor",
     "slug": "ke-mao-danh",
     "game": "Kẻ mạo danh",
-    "tagline": "Trò tìm kẻ không biết từ khóa so với trò mà ai cũng được nói.",
+    "tagline": "Trò chơi từ bí mật đang hot giờ là một trong ba chế độ của Tadado.",
     "metaTitle": "Trò Kẻ mạo danh và Tadado: trò nào làm buổi tụ tập vui hơn?",
-    "metaDescription": "Thích trò Kẻ mạo danh (Impostor)? So sánh với chế độ Từ cấm và Heads Up của Tadado: một điện thoại, không quảng cáo, bộ bài AI và bộ bài khởi đầu miễn phí.",
+    "metaDescription": "Mê trò Kẻ mạo danh? Tadado có chế độ Kẻ mạo danh, Từ cấm và Heads Up trong một ứng dụng: một điện thoại, 3 đến 12 người, không quảng cáo, có bộ thẻ khởi đầu miễn phí.",
     "h1": "Trò Kẻ mạo danh và Tadado",
-    "hook": "Kẻ mạo danh là trò của sự nghi ngờ. Tadado là trò hét đáp án trước khi hết giờ. Xem trò nào hợp với tối nay.",
+    "hook": "Kẻ mạo danh xoay quanh sự nghi ngờ. Giờ Tadado đã có chế độ Kẻ mạo danh riêng, cùng hai trò đoán nhanh cho lúc cả nhóm muốn hét lên thay vì mưu mẹo.",
     "about": [
       "Kẻ mạo danh (Impostor, Ai là gián điệp) lan truyền nhanh vì gần như không cần gì: một chiếc điện thoại được chuyền tay, mọi người thấy cùng một từ trừ một người, rồi lần lượt đưa gợi ý một từ trước khi bỏ phiếu tìm kẻ mạo danh.",
-      "Đây trước hết là trò đánh lừa. Cái vui nằm ở việc đọc nét mặt, tự bào chữa và khoảnh khắc lật mặt. Rất hợp với nhóm thích tranh luận, nhưng hơi chậm với người muốn đoán và cười mỗi vài giây."
+      "Chế độ Kẻ mạo danh của Tadado chơi giống hệt: chuyền một điện thoại, mỗi người nhấn giữ để xem từ bí mật, còn thẻ của kẻ mạo danh để trống. Mỗi người nói một từ gợi ý, cả nhóm bỏ phiếu, và kẻ mạo danh bị bắt vẫn có thể thắng nếu đoán đúng từ. Chơi từ 3 đến 12 người với các bộ thẻ của Tadado, gồm cả bộ thẻ Halloween miễn phí."
     ],
     "pickThem": [
-      "nhóm bạn thích đánh lừa, buộc tội và những pha lật mặt",
-      "bạn muốn các vòng chậm rãi, bàn luận nhiều",
-      "mọi người thích ngồi nói chuyện hơn là chạy đua với đồng hồ"
+      "Nhóm bạn chỉ muốn chơi Kẻ mạo danh",
+      "Nhóm đã có một ứng dụng Kẻ mạo danh riêng yêu thích",
+      "Nhóm chơi bằng danh sách từ viết trên giấy"
     ],
     "pickTadado": [
-      "bạn muốn cười không ngớt với từ mới mỗi vài giây",
-      "có bạn nhút nhát, thích đoán hơn là nói dối",
-      "bạn muốn Từ cấm (kiểu Taboo) và Heads Up trong cùng một ứng dụng"
+      "Bạn muốn Kẻ mạo danh, Từ cấm và Heads Up trong một ứng dụng",
+      "Bạn muốn lấy từ bí mật từ bộ thẻ chủ đề và bộ thẻ AI",
+      "Bạn muốn chuyển từ đấu trí sang đoán nhanh mà không đổi ứng dụng"
     ],
     "rows": [
       {
@@ -30,7 +30,7 @@
       },
       {
         "feature": "Vai trò bí mật và đánh lừa",
-        "tadado": "no",
+        "tadado": "yes",
         "other": "yes"
       },
       {
@@ -60,18 +60,18 @@
       }
     ],
     "steps": [
-      "Tải Tadado và mở bộ bài miễn phí Tadado Mix.",
-      "Chọn Từ cấm để chơi theo đội hoặc Heads Up để đặt điện thoại lên trán.",
-      "Nhớ những câu đùa riêng của nhóm? Gõ chủ đề vào trình tạo bộ bài AI."
+      "Tải Tadado và mở Kẻ mạo danh trong menu chế độ.",
+      "Thêm 3 đến 12 người chơi và chọn số kẻ mạo danh.",
+      "Chuyền điện thoại: mỗi người nhấn giữ để xem vai, rồi gợi ý một từ và bỏ phiếu."
     ],
     "faq": [
       {
         "q": "Tadado có chế độ Kẻ mạo danh không?",
-        "a": "Không. Tadado có hai chế độ: Từ cấm (kiểu Taboo) và Heads Up. Đây là trò đoán từ nhanh, không phải trò vai trò bí mật, nên chơi chung với Kẻ mạo danh trong một tối rất hợp."
+        "a": "Có. Kẻ mạo danh là một trong ba chế độ của Tadado, cùng Từ cấm và Heads Up. Mọi người trừ kẻ mạo danh đều thấy từ bí mật, mỗi người gợi ý một từ rồi cả nhóm bỏ phiếu."
       },
       {
         "q": "Nhóm đông thì trò nào tốt hơn?",
-        "a": "Cả hai đều chỉ cần một điện thoại. Vòng Kẻ mạo danh dài hơn khi đông người; Tadado chia nhóm thành đội nên ai cũng được chơi mỗi vòng."
+        "a": "Cả hai đều chỉ cần một điện thoại. Kẻ mạo danh trong Tadado dành cho 3 đến 12 người; nhóm đông hơn thì chuyển sang Từ cấm hoặc Heads Up chia đội để ai cũng được chơi."
       },
       {
         "q": "Tadado có miễn phí không?",
@@ -120,7 +120,7 @@
       },
       {
         "feature": "Vai trò bí mật và đánh lừa",
-        "tadado": "no",
+        "tadado": "partial",
         "other": "yes"
       },
       {
@@ -142,7 +142,7 @@
     "faq": [
       {
         "q": "Tadado có vai trò bí mật không?",
-        "a": "Không. Tadado là trò đoán từ với chế độ Từ cấm và Heads Up. Niềm vui khác với Ma sói, và hai trò bổ sung cho nhau rất tốt."
+        "a": "Một phần. Chế độ Kẻ mạo danh của Tadado là trò vai bí mật: một người nhận thẻ trống và phải đánh lừa trong lượt gợi ý. Không cần quản trò hay pha đêm, nên nhanh hơn Ma sói và không ai bị loại ngồi xem."
       },
       {
         "q": "4 người thì nên chơi trò nào?",
