@@ -1118,5 +1118,10 @@
     "ctaButton": "Tadadoを無料ダウンロード",
     "related": "もっとパーティーゲームのアイデア",
     "seasonNote": "アプリ内のハロウィンイベントは11月3日まで。"
+  },
+  "productHunt": {
+    "label": "Product Huntで公開中",
+    "title": "ハロウィン版：インポスターモードと無料のホラーデッキ",
+    "cta": "投票する"
   }
 }

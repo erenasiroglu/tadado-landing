@@ -1018,5 +1018,10 @@
     "ctaButton": "Get Tadado Free",
     "related": "More party game ideas",
     "seasonNote": "The Halloween event in the app runs until November 3."
+  },
+  "productHunt": {
+    "label": "Live on Product Hunt",
+    "title": "Halloween edition: Imposter mode and a free spooky deck",
+    "cta": "Upvote"
   }
 }

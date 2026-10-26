@@ -1118,5 +1118,10 @@
     "ctaButton": "Tải Tadado miễn phí",
     "related": "Thêm ý tưởng trò chơi tiệc",
     "seasonNote": "Sự kiện Halloween trong ứng dụng kéo dài đến ngày 3 tháng 11."
+  },
+  "productHunt": {
+    "label": "Đã lên Product Hunt",
+    "title": "Phiên bản Halloween: chế độ Kẻ mạo danh và bộ bài kinh dị miễn phí",
+    "cta": "Bình chọn"
   }
 }

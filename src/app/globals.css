@@ -2302,3 +2302,116 @@ html {
 .season-halloween .landing-section-band--mist {
   background: linear-gradient(180deg, #f6f1ff 0%, #efe7ff 100%);
 }
+
+/* Product Hunt launch card in the hero. */
+.ph-badge {
+  display: flex;
+  width: 100%;
+  max-width: 28rem;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 1.125rem;
+  padding: 0.625rem;
+  padding-inline-start: 0.75rem;
+  transition:
+    transform 0.2s var(--ease-out-expo),
+    box-shadow 0.2s var(--ease-out-expo);
+}
+
+.ph-badge:hover {
+  transform: translateY(-1px);
+}
+
+.ph-badge:active {
+  transform: scale(0.99);
+}
+
+.ph-badge:focus-visible {
+  outline: 2px solid var(--pumpkin);
+  outline-offset: 3px;
+}
+
+.ph-badge__logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+
+.ph-badge__label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.ph-badge__title {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-top: 0.125rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.ph-badge__cta {
+  display: inline-flex;
+  min-height: 2.5rem;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 999px;
+  padding-inline: 0.9rem;
+  background: #ff6154;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.ph-badge--night {
+  background: rgb(255 244 214 / 0.06);
+  box-shadow:
+    inset 0 0 0 1px rgb(202 182 254 / 0.22),
+    0 12px 28px rgb(8 3 18 / 0.35);
+  color: var(--cream);
+}
+
+.ph-badge--night:hover {
+  box-shadow:
+    inset 0 0 0 1px rgb(242 113 28 / 0.55),
+    0 16px 32px rgb(8 3 18 / 0.45);
+}
+
+.ph-badge--night .ph-badge__label {
+  color: var(--pumpkin);
+}
+
+.ph-badge--night .ph-badge__title {
+  color: rgb(255 244 214 / 0.85);
+}
+
+.ph-badge--light {
+  background: var(--paper);
+  box-shadow:
+    inset 0 0 0 1px var(--border),
+    0 10px 24px rgb(26 15 41 / 0.06);
+  color: var(--ink);
+}
+
+.ph-badge--light:hover {
+  box-shadow:
+    inset 0 0 0 1px rgb(255 97 84 / 0.45),
+    0 14px 28px rgb(26 15 41 / 0.1);
+}
+
+.ph-badge--light .ph-badge__label {
+  color: #e8473a;
+}
+
+.ph-badge--light .ph-badge__title {
+  color: var(--muted-foreground);
+}

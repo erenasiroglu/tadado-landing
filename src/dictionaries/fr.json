@@ -1118,5 +1118,10 @@
     "ctaButton": "Télécharger Tadado gratuitement",
     "related": "Plus d'idées de jeux de soirée",
     "seasonNote": "L'événement Halloween dans l'appli dure jusqu'au 3 novembre."
+  },
+  "productHunt": {
+    "label": "En ligne sur Product Hunt",
+    "title": "Édition Halloween : mode Imposteur et un deck d'horreur gratuit",
+    "cta": "Voter"
   }
 }

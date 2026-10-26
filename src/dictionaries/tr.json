@@ -1094,5 +1094,10 @@
     "ctaButton": "Tadado'yu Ücretsiz İndir",
     "related": "Daha fazla parti oyunu fikri",
     "seasonNote": "Uygulamadaki Cadılar Bayramı etkinliği 3 Kasım'a kadar sürüyor."
+  },
+  "productHunt": {
+    "label": "Product Hunt'ta yayında",
+    "title": "Halloween sürümü: Casus modu ve ücretsiz korku destesi",
+    "cta": "Oy ver"
   }
 }

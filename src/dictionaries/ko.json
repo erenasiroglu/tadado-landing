@@ -1118,5 +1118,10 @@
     "ctaButton": "Tadado 무료 다운로드",
     "related": "더 많은 파티 게임 아이디어",
     "seasonNote": "앱 내 할로윈 이벤트는 11월 3일까지 진행됩니다."
+  },
+  "productHunt": {
+    "label": "Product Hunt 공개 중",
+    "title": "할로윈 에디션: 임포스터 모드와 무료 공포 덱",
+    "cta": "투표하기"
   }
 }

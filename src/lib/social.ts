@@ -19,6 +19,9 @@ export const SOCIAL_LINKS = {
   productHunt: {
     href: "https://www.producthunt.com/products/tadado-ai-word-guessing-game",
     handle: "Product Hunt",
+    /** Halloween launch (Oct 26 2026): the embed link Product Hunt gave us, so the visits count as embed traffic. */
+    launchUrl:
+      "https://www.producthunt.com/products/tadado-ai-word-guessing-game?embed=true&utm_source=embed&utm_medium=post_embed",
     landingUrl: getCampaignUrl("productHuntBio", "/en"),
   },
 } as const;

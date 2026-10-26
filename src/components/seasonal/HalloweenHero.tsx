@@ -7,6 +7,7 @@ import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWords
 import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
 import { ImposterScreen } from "@/components/landing/device/ImposterScreen";
 import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
+import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -89,10 +90,11 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
                   className="w-full flex-row items-center justify-center lg:justify-start"
                 />
               </div>
+              <ProductHuntBadge copy={dict.productHunt} tone="night" location="hero" className="mt-5" />
               <a
                 href="#halloween"
                 onClick={() => track("secondary")}
-                className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
+                className="mt-2 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
               >
                 {copy.heroSecondary}
               </a>

@@ -1118,5 +1118,10 @@
     "ctaButton": "免费下载 Tadado",
     "related": "更多聚会游戏灵感",
     "seasonNote": "应用内万圣节活动持续到 11 月 3 日。"
+  },
+  "productHunt": {
+    "label": "已登陆 Product Hunt",
+    "title": "万圣节版：卧底模式和免费恐怖卡组",
+    "cta": "投票"
   }
 }

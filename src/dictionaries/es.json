@@ -1118,5 +1118,10 @@
     "ctaButton": "Consigue Tadado gratis",
     "related": "Más ideas de juegos de fiesta",
     "seasonNote": "El evento de Halloween en la app dura hasta el 3 de noviembre."
+  },
+  "productHunt": {
+    "label": "Ya en Product Hunt",
+    "title": "Edición Halloween: modo Impostor y un mazo de terror gratis",
+    "cta": "Votar"
   }
 }

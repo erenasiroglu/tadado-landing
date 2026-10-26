@@ -1118,5 +1118,10 @@
     "ctaButton": "Pobierz Tadado za darmo",
     "related": "Więcej pomysłów na gry imprezowe",
     "seasonNote": "Wydarzenie halloweenowe w aplikacji trwa do 3 listopada."
+  },
+  "productHunt": {
+    "label": "Już na Product Hunt",
+    "title": "Edycja Halloween: tryb Impostor i darmowa straszna talia",
+    "cta": "Zagłosuj"
   }
 }

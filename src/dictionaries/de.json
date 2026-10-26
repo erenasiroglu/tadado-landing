@@ -1118,5 +1118,10 @@
     "ctaButton": "Tadado gratis laden",
     "related": "Mehr Partyspiel-Ideen",
     "seasonNote": "Das Halloween-Event in der App läuft bis zum 3. November."
+  },
+  "productHunt": {
+    "label": "Jetzt auf Product Hunt",
+    "title": "Halloween: Imposter-Modus und gratis Grusel-Deck",
+    "cta": "Upvoten"
   }
 }
