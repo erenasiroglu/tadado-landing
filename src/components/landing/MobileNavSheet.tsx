@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Menu } from "lucide-react";
+import { Ban, ChevronRight, Fingerprint, Menu, Smartphone, Sparkles, type LucideIcon } from "lucide-react";
 
 import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
 import { buttonVariants } from "@/components/ui/button";
@@ -29,68 +29,68 @@ interface NavItem {
   isPage?: boolean;
 }
 
-const navItemClass =
-  "flex min-h-12 w-full items-center justify-between gap-3 rounded-xl px-3.5 text-[15px] font-medium text-muted-foreground transition-colors hover:bg-lilac active:bg-white/[0.1]";
+interface ModeItem extends NavItem {
+  icon: LucideIcon;
+}
 
 function homeHref(locale: Locale, hash: string) {
   return `${localeHref(locale)}${hash}`;
 }
 
-function NavSection({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <section className="mt-5 first:mt-0">
-      <p className="px-3.5 pb-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
-        {title}
-      </p>
-      <div className="flex flex-col gap-0.5">{children}</div>
-    </section>
-  );
-}
-
-function MobileNavLink({ href, label, isPage }: NavItem) {
-  const content = (
-    <>
-      <span>{label}</span>
-      <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden />
-    </>
-  );
-
-  if (isPage) {
-    return (
-      <SheetClose nativeButton={false} render={<Link href={href} className={navItemClass} />}>
-        {content}
-      </SheetClose>
-    );
-  }
+/** Closes the sheet on tap; pages use next/link, in-page anchors a plain link. */
+function NavLink({ href, isPage, className, children }: Omit<NavItem, "label"> & {
+  className: string;
+  children: React.ReactNode;
+}) {
+  const render = isPage ? <Link href={href} className={className} /> : <a href={href} className={className} />;
 
   return (
-    <SheetClose nativeButton={false} render={<a href={href} className={navItemClass} />}>
-      {content}
+    <SheetClose nativeButton={false} render={render}>
+      {children}
     </SheetClose>
   );
 }
 
+function NavGroup({
+  title,
+  action,
+  children,
+}: {
+  title: string;
+  action?: React.ReactNode;
+  children: React.ReactNode;
+}) {
+  return (
+    <section className="border-t border-border px-5 py-5 first:border-t-0 [div+&]:border-t-0">
+      <div className="mb-3 flex items-center justify-between gap-3">
+        <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-muted-foreground">{title}</p>
+        {action}
+      </div>
+      {children}
+    </section>
+  );
+}
+
 export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
-  const playLinks: NavItem[] = [
-    ...(isHalloweenSeason()
-      ? [{ href: localeHref(locale, "halloween"), label: dict.nav.halloween, isPage: true }]
-      : []),
-    { href: homeHref(locale, "#modes"), label: dict.nav.play },
-    { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
-    { href: homeHref(locale, "#community"), label: dict.nav.community },
-    { href: homeHref(locale, "#how-it-works"), label: dict.nav.howItWorks },
+  const halloween = isHalloweenSeason();
+
+  // Game modes: point at the modes section until each mode has its own page.
+  const modeLinks: ModeItem[] = [
+    { href: homeHref(locale, "#modes"), label: dict.modes.tabooTitle, icon: Ban },
+    { href: homeHref(locale, "#modes"), label: dict.modes.headsUpTitle, icon: Smartphone },
+    { href: homeHref(locale, "#modes"), label: dict.modes.imposterTitle, icon: Fingerprint },
+    { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks, icon: Sparkles },
   ];
 
-  const deckLinks: NavItem[] = [
-    { href: getDecksHubHref(locale), label: dict.ui.allDecks, isPage: true },
-    ...SEO_DECK_KEYS.map((key) => ({
-      href: `/${locale}/decks/${deckSlugFor(locale, key)}`,
-      label: dict.decks.items[key].name,
-      isPage: true,
-    })),
-  ];
+  const deckLinks: NavItem[] = SEO_DECK_KEYS.map((key) => ({
+    href: `/${locale}/decks/${deckSlugFor(locale, key)}`,
+    label: dict.decks.items[key].name,
+    isPage: true,
+  }));
 
   const discoverLinks: NavItem[] = [
+    { href: homeHref(locale, "#how-it-works"), label: dict.nav.howItWorks },
+    { href: homeHref(locale, "#community"), label: dict.nav.community },
     { href: blogHref(locale), label: dict.nav.blog, isPage: true },
     { href: localeHref(locale, "guides"), label: dict.nav.guides, isPage: true },
     { href: localeHref(locale, "team"), label: dict.nav.team, isPage: true },
@@ -129,26 +129,83 @@ export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
         </div>
 
         <nav
-          className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 py-4"
+          className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
           aria-label={dict.a11y.mobileNav}
         >
-          <NavSection title={dict.footer.playTitle}>
-            {playLinks.map((link) => (
-              <MobileNavLink key={link.href} {...link} />
-            ))}
-          </NavSection>
+          {halloween ? (
+            <div className="px-5 pt-5">
+              <NavLink
+                href={localeHref(locale, "halloween")}
+                isPage
+                className="flex min-h-14 items-center justify-between gap-3 rounded-2xl bg-[var(--night)] px-4 text-[15px] font-bold text-cream"
+              >
+                <span className="flex items-center gap-3">
+                  <span className="size-2 rounded-full bg-[var(--pumpkin)]" aria-hidden />
+                  {dict.nav.halloween}
+                </span>
+                <ChevronRight className="h-4 w-4 shrink-0 text-cream/60 rtl:rotate-180" aria-hidden />
+              </NavLink>
+            </div>
+          ) : null}
 
-          <NavSection title={dict.nav.decks}>
-            {deckLinks.map((link) => (
-              <MobileNavLink key={link.href + link.label} {...link} />
-            ))}
-          </NavSection>
+          <NavGroup title={dict.footer.playTitle}>
+            <div className="flex flex-col gap-1">
+              {modeLinks.map(({ href, label, icon: Icon }) => (
+                <NavLink
+                  key={label}
+                  href={href}
+                  className="-mx-2 flex min-h-12 items-center gap-3 rounded-xl px-2 text-[15px] font-semibold text-foreground transition-colors hover:bg-mist active:bg-lilac"
+                >
+                  <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-mist text-ink">
+                    <Icon className="h-[18px] w-[18px]" aria-hidden />
+                  </span>
+                  {label}
+                </NavLink>
+              ))}
+            </div>
+          </NavGroup>
 
-          <NavSection title={dict.footer.discoverTitle}>
-            {discoverLinks.map((link) => (
-              <MobileNavLink key={link.href} {...link} />
-            ))}
-          </NavSection>
+          <NavGroup
+            title={dict.nav.decks}
+            action={
+              <NavLink
+                href={getDecksHubHref(locale)}
+                isPage
+                className="flex items-center gap-0.5 text-xs font-semibold text-ink"
+              >
+                {dict.ui.allDecks}
+                <ChevronRight className="h-3.5 w-3.5 rtl:rotate-180" aria-hidden />
+              </NavLink>
+            }
+          >
+            <div className="flex flex-wrap gap-2">
+              {deckLinks.map((link) => (
+                <NavLink
+                  key={link.href}
+                  href={link.href}
+                  isPage
+                  className="inline-flex min-h-9 items-center rounded-full border border-border px-3.5 text-[13px] font-semibold text-foreground transition-colors hover:bg-mist active:bg-lilac"
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </div>
+          </NavGroup>
+
+          <NavGroup title={dict.footer.discoverTitle}>
+            <div className="grid grid-cols-2 gap-x-4">
+              {discoverLinks.map((link) => (
+                <NavLink
+                  key={link.href}
+                  href={link.href}
+                  isPage={link.isPage}
+                  className="flex min-h-11 items-center text-[14px] font-medium text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </div>
+          </NavGroup>
         </nav>
 
         <div
