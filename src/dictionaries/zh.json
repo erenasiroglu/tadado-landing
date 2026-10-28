@@ -1124,5 +1124,23 @@
     "title": "万圣节版：卧底模式和免费恐怖卡组",
     "cta": "投票",
     "hide": "隐藏"
+  },
+  "modePages": {
+    "eyebrow": "游戏模式",
+    "breadcrumb": "游戏模式",
+    "hubTitle": "Tadado 的所有玩法",
+    "hubSubtitle": "Taboo 式禁忌词猜词、额头猜词、卧底推理，以及任何主题的 AI 卡组。一个应用，一部手机，全员参与。",
+    "hubMetaTitle": "聚会游戏模式：禁忌词、Heads Up、卧底与 AI 卡组 | Tadado",
+    "hubMetaDescription": "探索 Tadado 的聚会玩法：禁忌词（Taboo 式）、Heads Up 额头猜词、谁是卧底式推理，以及任何主题的 AI 卡组。免费，无广告。",
+    "explore": "查看玩法",
+    "stepsTitle": "{mode}怎么玩",
+    "featuresTitle": "为什么大家在 Tadado 玩{mode}",
+    "knownAsTitle": "相关搜索",
+    "faqTitle": "{mode}：常见问题",
+    "otherTitle": "更多玩法",
+    "ctaTitle": "免费开启你的游戏之夜",
+    "ctaBody": "下载 Tadado，打开免费卡组，几秒钟就能开玩。一部手机就够了。",
+    "ctaButton": "免费下载 Tadado",
+    "disclaimer": "Taboo 是 Hasbro 的商标。Heads Up! 是 Warner Bros. Entertainment Inc. 的商标。本页提及的 Spyfall 等游戏名称归其各自所有者所有。Tadado 是独立应用，与上述任何一方均无关联，亦未获其赞助或认可；这些名称仅用于描述类似的玩法。"
   }
 }

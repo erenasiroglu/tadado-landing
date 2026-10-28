@@ -1124,5 +1124,23 @@
     "title": "Edisi Halloween: mode Imposter dan dek seram gratis",
     "cta": "Dukung",
     "hide": "Sembunyikan"
+  },
+  "modePages": {
+    "eyebrow": "Mode permainan",
+    "breadcrumb": "Mode permainan",
+    "hubTitle": "Semua cara bermain Tadado",
+    "hubSubtitle": "Game kata ala Taboo, tebak kata dengan ponsel di dahi, game gertakan, dan deck AI tentang topik apa pun. Satu aplikasi, satu ponsel, semua ikut main.",
+    "hubMetaTitle": "Mode Game Pesta: Ala Taboo, Heads Up, Penipu, dan Deck AI | Tadado",
+    "hubMetaDescription": "Jelajahi mode Tadado: Kata Terlarang (ala Taboo), Heads Up, game Penipu (cari mata-mata), dan deck AI tentang topik apa pun. Gratis, tanpa iklan.",
+    "explore": "Lihat cara mainnya",
+    "stepsTitle": "Cara bermain {mode}",
+    "featuresTitle": "Kenapa banyak grup main {mode} di Tadado",
+    "knownAsTitle": "Juga dicari sebagai",
+    "faqTitle": "{mode}: pertanyaan",
+    "otherTitle": "Cara main lainnya",
+    "ctaTitle": "Mulai malam game kamu gratis",
+    "ctaBody": "Unduh Tadado, buka deck gratis, dan main dalam hitungan detik. Cukup satu ponsel.",
+    "ctaButton": "Unduh Tadado gratis",
+    "disclaimer": "Taboo adalah merek dagang Hasbro. Heads Up! adalah merek dagang Warner Bros. Entertainment Inc. Spyfall dan nama game lain yang disebut di halaman ini milik pemiliknya masing-masing. Tadado adalah aplikasi independen dan tidak berafiliasi, disponsori, atau didukung oleh mereka; nama-nama ini hanya dipakai untuk menggambarkan gaya bermain yang mirip."
   }
 }

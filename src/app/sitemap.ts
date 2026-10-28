@@ -23,6 +23,12 @@ import {
 } from "@/lib/game-comparisons";
 import { alternativeIdFromSlug } from "@/lib/alternative-pages/slugs";
 import { getSeoGuides } from "@/lib/seo-guides";
+import {
+  MODE_PAGE_IDS,
+  modePageHref,
+  modePageLanguageAlternates,
+  modesHubHref,
+} from "@/lib/mode-pages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BRAND.domain;
@@ -46,6 +52,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       alternates: { languages: halloweenLanguages },
     });
+  }
+
+  const modesHubLanguages = modePageLanguageAlternates();
+  for (const locale of LOCALES) {
+    entries.push({
+      url: `${base}${modesHubHref(locale)}`,
+      changeFrequency: "monthly",
+      priority: 0.85,
+      alternates: { languages: modesHubLanguages },
+    });
+    for (const id of MODE_PAGE_IDS) {
+      entries.push({
+        url: `${base}${modePageHref(locale, id)}`,
+        changeFrequency: "monthly",
+        priority: 0.85,
+        alternates: { languages: modePageLanguageAlternates(id) },
+      });
+    }
   }
 
   const affiliateLanguages = buildLanguageAlternates("affiliate");

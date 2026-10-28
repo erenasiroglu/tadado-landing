@@ -1124,5 +1124,23 @@
     "title": "ハロウィン版：インポスターモードと無料のホラーデッキ",
     "cta": "投票する",
     "hide": "閉じる"
+  },
+  "modePages": {
+    "eyebrow": "ゲームモード",
+    "breadcrumb": "ゲームモード",
+    "hubTitle": "Tadado の遊び方すべて",
+    "hubSubtitle": "タブー風の言葉当て、おでこに乗せて当てるゲーム、正体隠しの推理ゲーム、そしてどんなテーマでも作れる AI デッキ。アプリひとつ、スマホ1台で全員参加。",
+    "hubMetaTitle": "パーティーゲームのモード：タブー風・Heads Up・インポスター・AIデッキ | Tadado",
+    "hubMetaDescription": "Tadado のモード紹介：禁止ワード（タブー風）、Heads Up、ワードウルフ風のインポスター、どんなテーマでも作れる AI デッキ。無料・広告なし。",
+    "explore": "遊び方を見る",
+    "stepsTitle": "{mode}の遊び方",
+    "featuresTitle": "Tadado で{mode}が盛り上がる理由",
+    "knownAsTitle": "こんな言葉でも検索されています",
+    "faqTitle": "{mode}：よくある質問",
+    "otherTitle": "ほかの遊び方",
+    "ctaTitle": "ゲームナイトを無料で始めよう",
+    "ctaBody": "Tadado をダウンロードして無料デッキを開けば、数秒で遊べます。スマホ1台で十分。",
+    "ctaButton": "Tadado を無料でダウンロード",
+    "disclaimer": "Taboo は Hasbro の商標です。Heads Up! は Warner Bros. Entertainment Inc. の商標です。本ページに記載の Spyfall などのゲーム名は各権利者に帰属します。Tadado は独立したアプリであり、これらの権利者と提携・後援・承認の関係はありません。名称は似た遊び方を説明する目的でのみ使用しています。"
   }
 }

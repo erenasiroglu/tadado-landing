@@ -6,6 +6,7 @@ import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
 import { BLOG_LOCALES, LOCALES } from "@/lib/i18n-config";
 import { LANGUAGE_DISPLAY } from "@/lib/languages";
+import { getModePage, MODE_PAGE_IDS, modePageHref } from "@/lib/mode-pages";
 import { getKeywordsString, getMarketSeoProfile } from "@/lib/seo-keywords";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
 
@@ -58,6 +59,18 @@ export function buildLlmsTxt(): string {
     const label = LANGUAGE_DISPLAY[locale].label;
     const summary = LOCALE_SUMMARIES[locale] ?? LOCALE_SUMMARIES.en!;
     lines.push(`- [${label}](${landingUrl(locale)}): ${summary}`);
+  }
+
+  lines.push(
+    "",
+    "## Game modes",
+    "",
+    "One page per mode, in every language (replace /en/ with any locale code):",
+    "",
+  );
+  for (const id of MODE_PAGE_IDS) {
+    const page = getModePage("en", id);
+    lines.push(`- [${page.name}](${BRAND.domain}${modePageHref("en", id)}): ${page.metaDescription}`);
   }
 
   lines.push(

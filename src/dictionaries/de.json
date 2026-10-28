@@ -1124,5 +1124,23 @@
     "title": "Halloween: Imposter-Modus und gratis Grusel-Deck",
     "cta": "Upvoten",
     "hide": "Ausblenden"
+  },
+  "modePages": {
+    "eyebrow": "Spielmodus",
+    "breadcrumb": "Spielmodi",
+    "hubTitle": "Alle Arten, Tadado zu spielen",
+    "hubSubtitle": "Ein Wortspiel im Tabu-Stil, Stirnraten, ein Bluffspiel und KI-Decks zu jedem Thema. Eine App, ein Handy, die ganze Runde.",
+    "hubMetaTitle": "Partyspiel-Modi: Tabu-Stil, Heads Up, Hochstapler und KI-Decks | Tadado",
+    "hubMetaDescription": "Entdecke die Modi von Tadado: Verbotene Wörter (Tabu-Stil), Heads Up Stirnraten, das Hochstapler-Bluffspiel und KI-Decks zu jedem Thema. Kostenlos, ohne Werbung.",
+    "explore": "So funktioniert's",
+    "stepsTitle": "So spielst du {mode}",
+    "featuresTitle": "Warum Gruppen {mode} in Tadado spielen",
+    "knownAsTitle": "Auch gesucht als",
+    "faqTitle": "{mode}: Fragen",
+    "otherTitle": "Weitere Spielmodi",
+    "ctaTitle": "Starte deinen Spieleabend kostenlos",
+    "ctaBody": "Lade Tadado herunter, öffne das Gratis-Deck und spiel in Sekunden los. Ein Handy reicht.",
+    "ctaButton": "Tadado kostenlos laden",
+    "disclaimer": "Tabu (Taboo) ist eine Marke von Hasbro. Heads Up! ist eine Marke der Warner Bros. Entertainment Inc. Spyfall, Activity, Alias und weitere genannte Spielnamen gehören ihren jeweiligen Inhabern. Tadado ist eine unabhängige App und steht in keiner Verbindung zu ihnen, wird weder gesponsert noch unterstützt; die Namen dienen nur zur Beschreibung ähnlicher Spielarten."
   }
 }

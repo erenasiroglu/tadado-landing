@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Palavras Proibidas",
+    "tagline": "O jogo em equipe estilo Tabu: descreva a palavra sem dizer as proibidas.",
+    "metaTitle": "App de jogo estilo Tabu para festas | Palavras Proibidas do Tadado",
+    "metaDescription": "Jogue um jogo de palavras estilo Tabu com um só celular. Descreva a palavra, fuja das proibidas e vença o tempo. Baralho grátis, sem anúncios. Baixe o Tadado.",
+    "h1": "Palavras Proibidas: o jogo de festa estilo Tabu no seu celular",
+    "hook": "Descreva a palavra da carta sem dizer nenhuma das palavras proibidas embaixo. Sua equipe adivinha contra o relógio, palavras difíceis valem mais e um celular comanda o jogo inteiro.",
+    "facts": [
+      { "label": "Jogadores", "value": "4+ em duas equipes" },
+      { "label": "Você precisa", "value": "Um celular" },
+      { "label": "Preparação", "value": "Menos de um minuto" }
+    ],
+    "steps": [
+      { "title": "Formem duas equipes", "body": "Escolham um baralho, deem nome às equipes e ajustem o timer. A cada vez, um jogador pega o celular e descreve." },
+      { "title": "Descreva, não diga", "body": "Faça sua equipe dizer a palavra principal sem usar as proibidas da carta. Falou uma, perdeu a carta." },
+      { "title": "Pontue e passe o celular", "body": "Toque em Acertou a cada palpite certo, pule as difíceis enquanto tiver passes e entregue o celular para a outra equipe." }
+    ],
+    "features": [
+      { "title": "Palavras difíceis, pontos maiores", "body": "Cada carta tem uma dificuldade. Encare as difíceis para aumentar o multiplicador e virar o jogo." },
+      { "title": "Sem cartas, sem campainha, sem placar no papel", "body": "O timer, a checagem de palavras proibidas e o placar ficam no app. Ninguém precisa ser juiz." },
+      { "title": "Baralhos para toda turma", "body": "Comece com o Tadado Mix grátis, adicione baralhos temáticos ou peça para a IA criar um sobre seus amigos, sua cidade ou sua série favorita." }
+    ],
+    "knownAs": "Se você pesquisou Tabu, app de Tabu, Tabu online ou jogo de palavras proibidas, este é esse estilo de jogo. Em outros países ele se chama Taboo ou Tabou, e entre os parentes próximos estão o Alias e os jogos de descrever palavras. O Palavras Proibidas do Tadado é uma versão original do formato, feita para um celular e grupos de qualquer tamanho.",
+    "aliases": ["Jogo estilo Tabu", "Jogo de palavras proibidas", "Descreva a palavra", "Jogo de adivinhar palavras", "Jogo de palavras em equipe"],
+    "faq": [
+      { "q": "Palavras Proibidas é igual ao Tabu?", "a": "É jogado no mesmo estilo: você descreve uma palavra sem dizer as dicas proibidas enquanto sua equipe adivinha contra o tempo. O Tadado é um app independente com baralhos, pontuação e design próprios, e não é o jogo oficial Tabu." },
+      { "q": "Quantos jogadores precisa?", "a": "O ideal são quatro ou mais, divididos em duas equipes. Grupos grandes também funcionam: é só aumentar as equipes e continuar passando o celular." },
+      { "q": "Existe app estilo Tabu grátis e sem anúncios?", "a": "Sim. O Tadado é grátis para baixar com o baralho Tadado Mix, sem anúncios e sem assinatura. Baralhos temáticos e criação com IA são compras únicas opcionais." },
+      { "q": "Dá para criar nossas próprias cartas de Tabu?", "a": "Sim. Digite qualquer tema e a IA do Tadado cria um baralho completo com palavra principal e palavras proibidas em cada carta. Você joga na hora em Palavras Proibidas, Heads Up ou Impostor." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "O jogo do celular na testa: os amigos dão dicas e você inclina quando acerta.",
+    "metaTitle": "Jogo estilo Heads Up de adivinhar com o celular na testa | Tadado",
+    "metaDescription": "Celular na testa, amigos gritando dicas, incline para pontuar. Jogue um jogo estilo Heads Up com baralhos grátis, sem anúncios e baralhos com IA sobre qualquer tema.",
+    "h1": "Heads Up: o jogo de adivinhar com o celular na testa",
+    "hook": "Coloque o celular na testa. Todo mundo vê a palavra e te dá dicas, faz mímica ou canta. Incline para baixo quando acertar, para cima para pular, e corra contra o relógio.",
+    "facts": [
+      { "label": "Jogadores", "value": "2 ou mais" },
+      { "label": "Você precisa", "value": "Um celular" },
+      { "label": "Rodada", "value": "Rápida e cronometrada" }
+    ],
+    "steps": [
+      { "title": "Celular na testa", "body": "Escolha um baralho e segure o celular na horizontal sobre a testa, com a tela virada para os amigos." },
+      { "title": "Os amigos dão dicas", "body": "Eles descrevem, fazem mímica ou cantarolam a palavra da tela. Você não vê, então escute rápido e grite seus palpites." },
+      { "title": "Incline para pontuar ou pular", "body": "Incline o celular para baixo quando acertar e para cima para pular. Quando o tempo acabar, passe para o próximo." }
+    ],
+    "features": [
+      { "title": "Para crianças, famílias e festas", "body": "Ninguém precisa ler em voz alta e não precisa de equipes. Quem consegue gritar um palpite consegue jogar: ótimo jogo em família." },
+      { "title": "Os mesmos baralhos do Palavras Proibidas", "body": "Todo baralho do Tadado funciona no Heads Up, então a turma passa de descrever para adivinhar sem escolher novas cartas." },
+      { "title": "Qualquer tema", "body": "Filmes, anime, futebol, o escritório ou o grupo do zap: a IA cria um baralho de Heads Up sobre qualquer tema em segundos." }
+    ],
+    "knownAs": "Se você pesquisou Heads Up, app de Heads Up, jogo do celular na testa ou mímica no celular, este é esse estilo de jogo. Ele também é conhecido como Quem sou eu?, Charadas ou jogo da testa, e nasceu da mímica clássica. O modo Heads Up do Tadado é uma versão original com baralhos próprios e criação de baralhos com IA.",
+    "aliases": ["Jogo do celular na testa", "Quem sou eu", "Charadas no celular", "Adivinhe a palavra", "Jogo da testa"],
+    "faq": [
+      { "q": "Este é o app oficial Heads Up!?", "a": "Não. O Tadado é um app independente de jogos de festa com um modo estilo Heads Up. Você joga do mesmo jeito, celular na testa e inclinando para pontuar, com os baralhos do Tadado e baralhos com IA." },
+      { "q": "Como jogar Heads Up com um celular só?", "a": "Um jogador segura o celular na testa enquanto os outros dão dicas da palavra na tela. Incline para baixo no acerto e para cima para pular; quando o tempo acabar, passe o celular." },
+      { "q": "O modo Heads Up do Tadado é grátis?", "a": "Sim. Baixe o Tadado de graça e jogue com o baralho Tadado Mix. Sem anúncios e sem assinatura; baralhos temáticos e com IA são compras únicas opcionais." },
+      { "q": "Posso criar um baralho personalizado de Heads Up?", "a": "Sim. Digite qualquer tema, de uma série às piadas internas da família, e a IA do Tadado cria um baralho para jogar no Heads Up na hora." }
+    ]
+  },
+  "imposter": {
+    "name": "Impostor",
+    "tagline": "O jogo de blefe: todo mundo sabe a palavra secreta, menos o impostor.",
+    "metaTitle": "Jogo do Impostor: descubra o espião com um celular | Tadado",
+    "metaDescription": "Jogue o jogo do impostor com um só celular. Todos veem a palavra secreta, menos o impostor. Dê uma dica de uma palavra, vote e desmascare o espião. De 3 a 12 jogadores, sem anúncios.",
+    "h1": "Impostor: descubra o espião que não sabe a palavra",
+    "hook": "Passem um celular de mão em mão. Todo mundo vê a mesma palavra secreta, menos o impostor, que recebe uma carta em branco. Cada jogador fala uma palavra como dica e depois o grupo vota. Se o impostor blefar bem, ele leva a vitória.",
+    "facts": [
+      { "label": "Jogadores", "value": "De 3 a 12" },
+      { "label": "Você precisa", "value": "Um celular" },
+      { "label": "Estilo", "value": "Blefe e dedução" }
+    ],
+    "steps": [
+      { "title": "Passem o celular", "body": "Adicionem os jogadores e escolham quantos impostores esconder. Cada um segura a tela para ver sua carta em segredo." },
+      { "title": "Uma dica por pessoa", "body": "Na sua vez, diga uma palavra ligada à palavra secreta. Óbvia demais ajuda o impostor; vaga demais deixa você suspeito." },
+      { "title": "Votem e revelem", "body": "Votem no impostor. Se o grupo acertar, o impostor ainda tem uma última chance de vencer adivinhando a palavra secreta." }
+    ],
+    "features": [
+      { "title": "Sem distribuir cartas", "body": "O app sorteia os papéis e mostra para um jogador de cada vez, então ninguém vê o que não deve." },
+      { "title": "Palavras secretas de qualquer baralho", "body": "Use o Tadado Mix grátis, baralhos temáticos ou um baralho com IA sobre um assunto que a turma conhece bem." },
+      { "title": "Troque de jogo sem trocar de app", "body": "Quando a turma quiser gritar em vez de tramar, pule para Palavras Proibidas ou Heads Up com o mesmo baralho." }
+    ],
+    "knownAs": "Se você pesquisou jogo do impostor, quem é o espião, jogos tipo Spyfall ou algo como Cidade Dorme, Máfia e Lobisomem, esta é essa família de jogos de papéis ocultos. Na versão de palavras ninguém elimina ninguém: um jogador só não sabe a palavra e tenta disfarçar. O modo Impostor do Tadado é uma versão original com baralhos próprios.",
+    "aliases": ["Jogo do impostor", "Quem é o espião", "Descubra o espião", "Jogo de papéis ocultos", "Jogo de blefe"],
+    "faq": [
+      { "q": "Como se joga o jogo do impostor?", "a": "Todos, menos o impostor, veem a mesma palavra secreta. Cada jogador dá uma dica de uma palavra e o grupo vota em quem é o impostor. Se for pego, ele ainda pode vencer adivinhando a palavra." },
+      { "q": "É parecido com Spyfall ou Cidade Dorme?", "a": "É da mesma família de jogos de blefe com papéis ocultos. Diferente do Spyfall, não há locais nem perguntas, e diferente do Cidade Dorme não há fase da noite: só uma palavra secreta e uma dica por pessoa." },
+      { "q": "Quantas pessoas podem jogar Impostor?", "a": "O modo Impostor do Tadado é jogado de 3 a 12 pessoas em um celular, e você escolhe quantos impostores esconder." },
+      { "q": "O modo Impostor é grátis?", "a": "Sim. O Tadado é grátis para baixar e o Impostor funciona com o baralho grátis Tadado Mix. Sem anúncios e sem assinatura." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Baralhos IA",
+    "tagline": "Digite qualquer tema e jogue nos três modos: um baralho em uns 30 segundos.",
+    "metaTitle": "Gerador de baralhos com IA para jogos de festa: cartas de qualquer tema | Tadado",
+    "metaDescription": "Digite qualquer tema e a IA cria um baralho de jogo em segundos. Jogue estilo Tabu, como Heads Up ou Impostor. Um baralho, três modos.",
+    "h1": "Baralhos IA: transforme qualquer tema em jogo de festa",
+    "hook": "Digite um tema: sua série favorita, seu time ou as piadas internas da sua turma. A IA do Tadado escreve um baralho completo em uns 30 segundos, e o mesmo baralho funciona em Palavras Proibidas, Heads Up e Impostor.",
+    "facts": [
+      { "label": "Tema", "value": "O que você digitar" },
+      { "label": "Pronto em", "value": "Uns 30 segundos" },
+      { "label": "Funciona em", "value": "Os três modos" }
+    ],
+    "steps": [
+      { "title": "Digite um tema", "body": "Qualquer coisa: vilões da Marvel, pop dos anos 90, seu trabalho, o país da próxima viagem. Adicione alguns temas e escolha a dificuldade." },
+      { "title": "A IA escreve as cartas", "body": "Cada carta ganha uma palavra principal e palavras proibidas, então o baralho fica pronto para todos os modos, no seu idioma." },
+      { "title": "Jogue como quiser", "body": "Comece no Palavras Proibidas, troque para o Heads Up e depois esconda um impostor. O baralho fica na sua biblioteca para a próxima noite de jogos." }
+    ],
+    "features": [
+      { "title": "Um baralho, três jogos", "body": "Nada de montar um baralho de Tabu e outro de Heads Up. Crie uma vez e jogue em todos os modos." },
+      { "title": "Feito para a sua turma", "body": "Piadas internas, hobbies de nicho, um aniversário temático ou matéria da escola: baralhos que ninguém mais tem, sobre o que vocês realmente sabem." },
+      { "title": "Pague uma vez, sem assinatura", "body": "As criações com IA vêm em pacotes pequenos de compra única, e o Tadado Full Access inclui 20. Sem anúncios e sem cobrança recorrente." }
+    ],
+    "knownAs": "Se você pesquisou gerador de cartas de Tabu, cartas personalizadas de Heads Up, gerador de lista de palavras para jogos ou como fazer cartas com o ChatGPT, esta é a versão já integrada. Em vez de copiar uma lista para o bloco de notas, o Tadado transforma seu tema em um baralho jogável com timer, pontuação e três modos.",
+    "aliases": ["Gerador de cartas de Tabu", "Baralho de Heads Up personalizado", "Lista de palavras com IA", "Cartas de festa personalizadas", "Crie seu próprio baralho"],
+    "faq": [
+      { "q": "Como funciona a criação de baralhos com IA?", "a": "Digite um ou mais temas, escolha a dificuldade e toque em Criar. Em uns 30 segundos a IA escreve um baralho completo com palavra principal e palavras proibidas em cada carta." },
+      { "q": "Em quais modos posso jogar um baralho com IA?", "a": "Em todos. Cada baralho com IA funciona em Palavras Proibidas, Heads Up e Impostor, então você troca de modo sem criar outro baralho." },
+      { "q": "Quanto custam os baralhos com IA?", "a": "A criação com IA vem em pacotes de compra única, começando por um pequeno de 5 criações. O Tadado Full Access inclui todos os baralhos premium e 20 criações com IA. Não há assinatura; veja os preços locais na loja." },
+      { "q": "Posso criar baralhos em português?", "a": "Sim. O Tadado funciona em 17 idiomas e os baralhos com IA são escritos no idioma em que você joga, com nomes, lugares e cultura pop locais." }
+    ]
+  }
+}

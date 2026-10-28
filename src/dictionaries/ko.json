@@ -1124,5 +1124,23 @@
     "title": "할로윈 에디션: 임포스터 모드와 무료 공포 덱",
     "cta": "투표하기",
     "hide": "숨기기"
+  },
+  "modePages": {
+    "eyebrow": "게임 모드",
+    "breadcrumb": "게임 모드",
+    "hubTitle": "Tadado를 즐기는 모든 방법",
+    "hubSubtitle": "금지어 단어 게임, 이마에 폰을 대고 맞히는 게임, 정체를 숨기는 블러핑 게임, 어떤 주제든 만드는 AI 덱. 앱 하나, 폰 한 대로 다 같이.",
+    "hubMetaTitle": "파티 게임 모드: 금지어, Heads Up, 임포스터, AI 덱 | Tadado",
+    "hubMetaDescription": "Tadado의 모드: 금지어(Taboo 스타일), Heads Up 몸으로 말해요 스타일, 라이어 게임 같은 임포스터, 어떤 주제든 만드는 AI 덱. 무료, 광고 없음.",
+    "explore": "게임 방법 보기",
+    "stepsTitle": "{mode} 하는 법",
+    "featuresTitle": "Tadado에서 {mode}를 즐기는 이유",
+    "knownAsTitle": "이런 이름으로도 찾아요",
+    "faqTitle": "{mode}: 자주 묻는 질문",
+    "otherTitle": "다른 게임 모드",
+    "ctaTitle": "게임 나이트를 무료로 시작하세요",
+    "ctaBody": "Tadado를 다운로드하고 무료 덱을 열면 몇 초 만에 시작돼요. 폰 한 대면 충분해요.",
+    "ctaButton": "Tadado 무료 다운로드",
+    "disclaimer": "Taboo는 Hasbro의 상표입니다. Heads Up!은 Warner Bros. Entertainment Inc.의 상표입니다. 이 페이지에 언급된 Spyfall 등 기타 게임 이름은 각 소유자의 자산입니다. Tadado는 독립 앱으로 이들과 제휴, 후원, 보증 관계가 없으며, 이름은 비슷한 플레이 방식을 설명하기 위해서만 사용됩니다."
   }
 }

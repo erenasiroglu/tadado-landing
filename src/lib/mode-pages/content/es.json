@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Palabras prohibidas",
+    "tagline": "El juego por equipos estilo Tabú: describe la palabra sin decir las prohibidas.",
+    "metaTitle": "App de juego estilo Tabú para fiestas | Palabras prohibidas de Tadado",
+    "metaDescription": "Juega a un juego de palabras estilo Tabú con un solo móvil. Describe la palabra, esquiva las prohibidas y gana al reloj. Mazo gratis, sin anuncios. Descarga Tadado.",
+    "h1": "Palabras prohibidas: el juego de fiesta estilo Tabú en tu móvil",
+    "hook": "Describe la palabra de la tarjeta sin decir ninguna de las palabras prohibidas de debajo. Tu equipo adivina contra el reloj, las palabras difíciles valen más y un solo móvil lleva toda la partida.",
+    "facts": [
+      { "label": "Jugadores", "value": "4+ en dos equipos" },
+      { "label": "Necesitas", "value": "Un móvil" },
+      { "label": "Preparación", "value": "Menos de un minuto" }
+    ],
+    "steps": [
+      { "title": "Formad dos equipos", "body": "Elegid un mazo, poned nombre a los equipos y ajustad el temporizador. En cada turno, un jugador coge el móvil y describe." },
+      { "title": "Describe, no lo digas", "body": "Haz que tu equipo diga la palabra principal sin usar las prohibidas de la tarjeta. Si dices una, pierdes la tarjeta." },
+      { "title": "Puntúa y pasa el móvil", "body": "Pulsa Correcto en cada acierto, pasa las difíciles mientras te queden pases y entrega el móvil al otro equipo." }
+    ],
+    "features": [
+      { "title": "Palabras más difíciles, más puntos", "body": "Cada tarjeta tiene una dificultad. Atrévete con las difíciles para subir el multiplicador y remontar." },
+      { "title": "Sin cartas, sin timbre, sin hoja de puntos", "body": "El temporizador, el control de palabras prohibidas y el marcador están en la app. Nadie tiene que hacer de árbitro." },
+      { "title": "Mazos para cada grupo", "body": "Empieza con el Tadado Mix gratis, añade mazos temáticos o deja que la IA cree uno sobre tus amigos, tu ciudad o tu serie favorita." }
+    ],
+    "knownAs": "Si buscaste Tabú, una app de Tabú, Tabú online o un juego de palabras prohibidas, este es ese estilo de juego. En otros países se llama Taboo o Tabou, y entre sus parientes cercanos están Alias y los juegos de describir palabras. Palabras prohibidas de Tadado es una versión original del formato, pensada para un solo móvil y grupos de cualquier tamaño.",
+    "aliases": ["Juego estilo Tabú", "Juego de palabras prohibidas", "Describir la palabra", "Juego de adivinar palabras", "Juego de palabras por equipos"],
+    "faq": [
+      { "q": "¿Palabras prohibidas es lo mismo que Tabú?", "a": "Se juega con el mismo estilo: describes una palabra sin decir las pistas prohibidas mientras tu equipo adivina contra el reloj. Tadado es una app independiente con sus propios mazos, puntuación y diseño, y no es el juego oficial Tabú." },
+      { "q": "¿Cuántos jugadores hacen falta?", "a": "Lo ideal son cuatro o más, divididos en dos equipos. Con grupos grandes también funciona: haced equipos más grandes y seguid pasando el móvil." },
+      { "q": "¿Hay una app estilo Tabú gratis y sin anuncios?", "a": "Sí. Tadado se descarga gratis con el mazo Tadado Mix, sin anuncios ni suscripción. Los mazos temáticos y la creación con IA son compras únicas opcionales." },
+      { "q": "¿Podemos crear nuestras propias tarjetas de Tabú?", "a": "Sí. Escribe cualquier tema y la IA de Tadado crea un mazo completo con palabra principal y palabras prohibidas en cada tarjeta. Puedes jugarlo al momento en Palabras prohibidas, Heads Up o Impostor." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "El juego del móvil en la frente: tus amigos dan pistas y tú inclinas al acertar.",
+    "metaTitle": "Juego estilo Heads Up para adivinar con el móvil en la frente | Tadado",
+    "metaDescription": "Móvil en la frente, tus amigos gritan pistas, inclina para puntuar. Juega a un juego estilo Heads Up con mazos gratis, sin anuncios y mazos con IA de cualquier tema.",
+    "h1": "Heads Up: el juego de adivinar con el móvil en la frente",
+    "hook": "Ponte el móvil en la frente. Todos los demás ven la palabra y te dan pistas, la representan o la cantan. Inclina hacia abajo al acertar, hacia arriba para pasar, y corre contra el reloj.",
+    "facts": [
+      { "label": "Jugadores", "value": "2 o más" },
+      { "label": "Necesitas", "value": "Un móvil" },
+      { "label": "Ronda", "value": "Rápida y con tiempo" }
+    ],
+    "steps": [
+      { "title": "Móvil a la frente", "body": "Elige un mazo y sujeta el móvil en horizontal sobre la frente, con la pantalla hacia tus amigos." },
+      { "title": "Tus amigos dan pistas", "body": "Describen, imitan o tararean la palabra de la pantalla. Tú no la ves, así que escucha rápido y grita tus respuestas." },
+      { "title": "Inclina para puntuar o pasar", "body": "Inclina el móvil hacia abajo al acertar y hacia arriba para pasar. Cuando acabe el tiempo, pásalo al siguiente." }
+    ],
+    "features": [
+      { "title": "Para niños, familias y fiestas", "body": "Sin leer en voz alta y sin equipos obligatorios. Cualquiera que pueda gritar una respuesta puede jugar: un gran juego familiar." },
+      { "title": "Los mismos mazos que Palabras prohibidas", "body": "Todos los mazos de Tadado funcionan en Heads Up, así que el grupo pasa de describir a adivinar sin elegir cartas nuevas." },
+      { "title": "El tema que quieras", "body": "Películas, anime, fútbol, tu oficina o tu grupo de chat: la IA crea un mazo de Heads Up de cualquier tema en segundos." }
+    ],
+    "knownAs": "Si buscaste Heads Up, una app de Heads Up, el juego del móvil en la frente o charadas con el móvil, este es ese estilo de juego. También se conoce como ¿Quién soy?, adivina quién soy o el juego de la frente, y nació de las clásicas charadas. El modo Heads Up de Tadado es una versión original con sus propios mazos y creación de mazos con IA.",
+    "aliases": ["Juego del móvil en la frente", "Charadas con el móvil", "¿Quién soy?", "Adivina la palabra", "Juego de la frente"],
+    "faq": [
+      { "q": "¿Es la app oficial Heads Up!?", "a": "No. Tadado es una app independiente de juegos de fiesta con un modo estilo Heads Up. Se juega igual, con el móvil en la frente e inclinando para puntuar, pero con los mazos propios de Tadado y mazos con IA." },
+      { "q": "¿Cómo se juega a Heads Up con un solo móvil?", "a": "Un jugador se pone el móvil en la frente y los demás dan pistas sobre la palabra de la pantalla. Inclina hacia abajo si aciertas y hacia arriba para pasar; al acabar el tiempo, pasa el móvil." },
+      { "q": "¿El modo Heads Up de Tadado es gratis?", "a": "Sí. Descarga Tadado gratis y juega con el mazo Tadado Mix. Sin anuncios ni suscripción; los mazos temáticos y los mazos con IA son compras únicas opcionales." },
+      { "q": "¿Puedo crear un mazo de Heads Up personalizado?", "a": "Sí. Escribe cualquier tema, de una serie a las bromas internas de tu familia, y la IA de Tadado crea un mazo que puedes jugar en Heads Up al instante." }
+    ]
+  },
+  "imposter": {
+    "name": "Impostor",
+    "tagline": "El juego de faroles: todos conocen la palabra secreta menos el impostor.",
+    "metaTitle": "Juego del Impostor: encuentra al espía con un solo móvil | Tadado",
+    "metaDescription": "Juega al juego del impostor con un solo móvil. Todos ven la palabra secreta menos el impostor. Da una pista de una palabra, vota y desenmascara al espía. De 3 a 12 jugadores, sin anuncios.",
+    "h1": "Impostor: encuentra al espía que no sabe la palabra",
+    "hook": "Pasad un móvil de mano en mano. Todos ven la misma palabra secreta, excepto el impostor, cuya tarjeta está en blanco. Cada jugador dice una palabra como pista y luego el grupo vota. Si el impostor se tira un buen farol, se lleva la victoria.",
+    "facts": [
+      { "label": "Jugadores", "value": "De 3 a 12" },
+      { "label": "Necesitas", "value": "Un móvil" },
+      { "label": "Estilo", "value": "Faroles y deducción" }
+    ],
+    "steps": [
+      { "title": "Pasad el móvil", "body": "Añadid a los jugadores y elegid cuántos impostores esconder. Cada jugador mantiene pulsada la pantalla para ver su tarjeta en secreto." },
+      { "title": "Una pista cada uno", "body": "Por turnos, decid una palabra relacionada con la secreta. Demasiado obvia ayuda al impostor; demasiado vaga te hace sospechoso." },
+      { "title": "Votad y revelad", "body": "Votad al impostor. Si el grupo acierta, el impostor tiene una última oportunidad de ganar adivinando la palabra secreta." }
+    ],
+    "features": [
+      { "title": "Sin repartir cartas", "body": "La app asigna los roles y los muestra a cada jugador por separado, así nadie ve una tarjeta que no debe." },
+      { "title": "Palabras secretas de cualquier mazo", "body": "Usa el Tadado Mix gratis, mazos temáticos o un mazo con IA sobre un tema que tu grupo domine." },
+      { "title": "Cambia de juego sin cambiar de app", "body": "Cuando el grupo quiera gritar en vez de conspirar, salta a Palabras prohibidas o Heads Up con el mismo mazo." }
+    ],
+    "knownAs": "Si buscaste el juego del impostor, ¿quién es el espía?, juegos tipo Spyfall o algo como Mafia y Hombres lobo, esta es esa familia de juegos de roles ocultos. En la versión de palabras nadie elimina a nadie: un jugador simplemente no conoce la palabra e intenta pasar desapercibido. El modo Impostor de Tadado es una versión original con sus propios mazos.",
+    "aliases": ["Juego del impostor", "¿Quién es el espía?", "Encuentra al espía", "Juego de roles ocultos", "Juego de faroles"],
+    "faq": [
+      { "q": "¿Cómo se juega al impostor?", "a": "Todos menos el impostor ven la misma palabra secreta. Cada jugador dice una pista de una palabra y luego el grupo vota quién es el impostor. Si lo pillan, aún puede ganar adivinando la palabra." },
+      { "q": "¿Se parece a Spyfall o a Mafia?", "a": "Pertenece a la misma familia de juegos de faroles con roles ocultos. A diferencia de Spyfall no hay lugares ni preguntas, y a diferencia de Mafia no hay fase de noche: solo una palabra secreta y una pista por persona." },
+      { "q": "¿Cuántas personas pueden jugar al Impostor?", "a": "El modo Impostor de Tadado se juega de 3 a 12 personas con un solo móvil, y puedes elegir cuántos impostores esconder." },
+      { "q": "¿El modo Impostor es gratis?", "a": "Sí. Tadado se descarga gratis y el Impostor funciona con el mazo gratuito Tadado Mix. Sin anuncios ni suscripción." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Mazos IA",
+    "tagline": "Escribe cualquier tema y juégalo en los tres modos: un mazo en unos 30 segundos.",
+    "metaTitle": "Generador de mazos con IA para juegos de fiesta: cartas de cualquier tema | Tadado",
+    "metaDescription": "Escribe cualquier tema y la IA crea un mazo para jugar en segundos. Juégalo estilo Tabú, como Heads Up o al Impostor. Un mazo, tres modos.",
+    "h1": "Mazos IA: convierte cualquier tema en un juego de fiesta",
+    "hook": "Escribe un tema: tu serie favorita, tu equipo de fútbol o las bromas internas de tu grupo. La IA de Tadado crea un mazo completo en unos 30 segundos, y ese mismo mazo se juega en Palabras prohibidas, Heads Up e Impostor.",
+    "facts": [
+      { "label": "Tema", "value": "Lo que escribas" },
+      { "label": "Listo en", "value": "Unos 30 segundos" },
+      { "label": "Se juega en", "value": "Los tres modos" }
+    ],
+    "steps": [
+      { "title": "Escribe un tema", "body": "Lo que sea: villanos de Marvel, pop de los 90, tu oficina, el país que vas a visitar. Añade varios temas y elige la dificultad." },
+      { "title": "La IA escribe las tarjetas", "body": "Cada tarjeta tiene una palabra principal y palabras prohibidas, así que el mazo está listo para todos los modos y en tu idioma." },
+      { "title": "Juégalo como quieras", "body": "Empieza en Palabras prohibidas, cambia a Heads Up y luego esconde a un impostor. El mazo queda en tu biblioteca para la próxima noche de juegos." }
+    ],
+    "features": [
+      { "title": "Un mazo, tres juegos", "body": "No hace falta crear un mazo de Tabú y otro de Heads Up. Créalo una vez y juega en todos los modos." },
+      { "title": "Hecho para tu grupo", "body": "Bromas internas, aficiones de nicho, un cumpleaños temático o un tema de clase: mazos que nadie más tiene, sobre lo que de verdad conocéis." },
+      { "title": "Pago único, sin suscripción", "body": "Las creaciones con IA vienen en pequeños packs de pago único, y Tadado Full Access incluye 20. Sin anuncios y sin cobros recurrentes." }
+    ],
+    "knownAs": "Si buscaste un generador de tarjetas de Tabú, cartas personalizadas de Heads Up, un generador de listas de palabras para juegos o cómo hacer cartas con ChatGPT, esta es la versión integrada. En lugar de copiar una lista en las notas, Tadado convierte tu tema en un mazo jugable con temporizador, puntuación y tres modos de juego.",
+    "aliases": ["Generador de tarjetas de Tabú", "Mazo de Heads Up personalizado", "Lista de palabras con IA", "Cartas de fiesta personalizadas", "Crea tu propio mazo"],
+    "faq": [
+      { "q": "¿Cómo funciona la creación de mazos con IA?", "a": "Escribe uno o varios temas, elige la dificultad y pulsa Crear. En unos 30 segundos la IA escribe un mazo completo con palabra principal y palabras prohibidas en cada tarjeta." },
+      { "q": "¿En qué modos puedo jugar un mazo con IA?", "a": "En todos. Cada mazo con IA funciona en Palabras prohibidas, Heads Up e Impostor, así que puedes cambiar de modo sin crear otro mazo." },
+      { "q": "¿Cuánto cuestan los mazos con IA?", "a": "La creación con IA viene en packs de pago único, empezando por uno pequeño de 5 creaciones. Tadado Full Access incluye todos los mazos premium y 20 creaciones con IA. No hay suscripción; consulta los precios locales en la tienda." },
+      { "q": "¿Puedo crear mazos en español?", "a": "Sí. Tadado funciona en 17 idiomas y los mazos con IA se escriben en el idioma en que juegas, con nombres, lugares y cultura pop locales." }
+    ]
+  }
+}

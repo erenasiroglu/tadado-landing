@@ -66,6 +66,7 @@ export type DownloadSource =
   | "cta_bottom"
   | "final_cta"
   | "compare"
+  | "mode_page"
   | "deck_catalog"
   | "trending_deck"
   | "ai_demo"

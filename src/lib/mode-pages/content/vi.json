@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Từ cấm",
+    "tagline": "Trò chơi đồng đội kiểu Taboo: mô tả từ khóa mà không nói các từ bị cấm.",
+    "metaTitle": "Ứng dụng trò chơi đoán từ kiểu Taboo cho bữa tiệc | Từ cấm của Tadado",
+    "metaDescription": "Chơi trò đoán từ kiểu Taboo chỉ với một điện thoại. Mô tả từ khóa, né từ cấm và thắng đồng hồ. Bộ thẻ miễn phí, không quảng cáo. Tải Tadado.",
+    "h1": "Từ cấm: trò chơi tiệc kiểu Taboo ngay trên điện thoại",
+    "hook": "Mô tả từ trên thẻ mà không được nói bất kỳ từ cấm nào bên dưới. Đội của bạn đoán trong thời gian giới hạn, từ khó được nhiều điểm hơn, và chỉ một điện thoại điều khiển cả ván chơi.",
+    "facts": [
+      { "label": "Người chơi", "value": "4+ chia hai đội" },
+      { "label": "Cần có", "value": "Một điện thoại" },
+      { "label": "Chuẩn bị", "value": "Dưới một phút" }
+    ],
+    "steps": [
+      { "title": "Chia thành hai đội", "body": "Chọn bộ thẻ, đặt tên đội và cài đồng hồ. Mỗi lượt, một người cầm điện thoại và mô tả." },
+      { "title": "Mô tả, đừng nói ra", "body": "Khiến đội nói ra từ chính mà không dùng các từ cấm trên thẻ. Lỡ nói một từ là mất thẻ." },
+      { "title": "Ghi điểm và chuyền máy", "body": "Chạm Đúng mỗi lần đoán trúng, bỏ qua thẻ khó khi còn lượt bỏ qua, rồi đưa điện thoại cho đội kia." }
+    ],
+    "features": [
+      { "title": "Từ càng khó, điểm càng cao", "body": "Mỗi thẻ có độ khó. Chọn thẻ khó để tăng hệ số nhân và lật ngược thế trận." },
+      { "title": "Không cần thẻ giấy, chuông hay bảng điểm", "body": "Đồng hồ, kiểm tra từ cấm và bảng điểm đều nằm trong ứng dụng. Không ai phải làm trọng tài." },
+      { "title": "Bộ thẻ cho mọi nhóm", "body": "Bắt đầu với Tadado Mix miễn phí, thêm bộ thẻ chủ đề hoặc để AI tạo bộ thẻ về bạn bè, thành phố hay bộ phim bạn thích." }
+    ],
+    "knownAs": "Nếu bạn tìm Taboo, ứng dụng Taboo, Taboo online hay trò chơi từ cấm, đây chính là lối chơi đó. Ở một số nước nó được gọi là Tabu hoặc Tabou, và họ hàng gần gồm Alias cùng các trò mô tả để đoán từ. Từ cấm của Tadado là phiên bản gốc của thể loại này, làm cho một điện thoại và nhóm ở mọi quy mô.",
+    "aliases": ["Trò chơi kiểu Taboo", "Trò chơi từ cấm", "Mô tả từ khóa", "Trò chơi đoán chữ", "Trò chơi từ theo đội"],
+    "faq": [
+      { "q": "Từ cấm có giống Taboo không?", "a": "Lối chơi giống nhau: bạn mô tả một từ mà không nói các gợi ý bị cấm trong khi đội đoán theo giờ. Tadado là ứng dụng độc lập với bộ thẻ, cách tính điểm và thiết kế riêng, không phải trò Taboo chính thức." },
+      { "q": "Cần bao nhiêu người chơi?", "a": "Tốt nhất là bốn người trở lên, chia hai đội. Nhóm đông cũng ổn: chỉ cần chia đội lớn hơn và tiếp tục chuyền điện thoại." },
+      { "q": "Có ứng dụng kiểu Taboo miễn phí, không quảng cáo không?", "a": "Có. Tadado tải miễn phí kèm bộ thẻ Tadado Mix, không quảng cáo, không đăng ký. Bộ thẻ chủ đề và tạo bộ thẻ bằng AI là các gói mua một lần tùy chọn." },
+      { "q": "Chúng tôi có thể tự làm thẻ Taboo không?", "a": "Có. Nhập bất kỳ chủ đề nào và AI của Tadado sẽ viết bộ thẻ đầy đủ với từ chính và từ cấm trên mỗi thẻ. Chơi ngay trong Từ cấm, Heads Up hoặc Kẻ mạo danh." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "Trò đặt điện thoại lên trán: bạn bè gợi ý, bạn nghiêng máy khi đoán ra.",
+    "metaTitle": "Trò chơi kiểu Heads Up: đoán từ với điện thoại trên trán | Tadado",
+    "metaDescription": "Điện thoại trên trán, bạn bè hét gợi ý, nghiêng để ghi điểm. Chơi trò kiểu Heads Up với bộ thẻ miễn phí, không quảng cáo và bộ thẻ AI về mọi chủ đề.",
+    "h1": "Heads Up: trò đoán từ với điện thoại trên trán cho mọi nhóm",
+    "hook": "Đặt điện thoại lên trán. Mọi người khác đều thấy từ và gợi ý cho bạn, diễn tả hoặc hát lên. Nghiêng xuống khi đoán đúng, nghiêng lên để bỏ qua, và chạy đua với thời gian.",
+    "facts": [
+      { "label": "Người chơi", "value": "2 người trở lên" },
+      { "label": "Cần có", "value": "Một điện thoại" },
+      { "label": "Vòng chơi", "value": "Nhanh, có giờ" }
+    ],
+    "steps": [
+      { "title": "Điện thoại lên trán", "body": "Chọn bộ thẻ và giữ điện thoại nằm ngang trên trán, màn hình hướng về bạn bè." },
+      { "title": "Bạn bè gợi ý", "body": "Họ mô tả, diễn tả hoặc ngân nga từ trên màn hình. Bạn không thấy, nên hãy nghe thật nhanh và hét câu trả lời." },
+      { "title": "Nghiêng để ghi điểm hoặc bỏ qua", "body": "Nghiêng điện thoại xuống khi đúng và lên để bỏ qua. Hết giờ thì chuyền cho người tiếp theo." }
+    ],
+    "features": [
+      { "title": "Cho trẻ em, gia đình và bữa tiệc", "body": "Không cần đọc to, không bắt buộc chia đội. Ai hét được câu trả lời đều chơi được: trò chơi gia đình tuyệt vời." },
+      { "title": "Dùng chung bộ thẻ với Từ cấm", "body": "Mọi bộ thẻ Tadado đều chơi được trong Heads Up, nên cả nhóm chuyển từ mô tả sang đoán mà không cần chọn thẻ mới." },
+      { "title": "Bất kỳ chủ đề nào", "body": "Phim, anime, bóng đá, công ty hay nhóm chat: AI tạo bộ thẻ Heads Up về mọi chủ đề chỉ trong vài giây." }
+    ],
+    "knownAs": "Nếu bạn tìm Heads Up, ứng dụng Heads Up, trò đặt điện thoại lên trán hay đuổi hình bắt chữ trên điện thoại, đây chính là lối chơi đó. Nó còn được gọi là Tôi là ai? hoặc trò đoán chữ trên trán, bắt nguồn từ trò diễn tả cổ điển. Chế độ Heads Up của Tadado là phiên bản gốc với bộ thẻ riêng và bộ thẻ AI.",
+    "aliases": ["Trò điện thoại trên trán", "Tôi là ai", "Diễn tả đoán từ", "Đoán chữ", "Trò đoán trên trán"],
+    "faq": [
+      { "q": "Đây có phải ứng dụng Heads Up! chính thức không?", "a": "Không. Tadado là ứng dụng trò chơi tiệc độc lập có chế độ kiểu Heads Up. Cách chơi giống nhau, điện thoại trên trán và nghiêng để ghi điểm, với bộ thẻ riêng của Tadado và bộ thẻ AI." },
+      { "q": "Chơi Heads Up với một điện thoại thế nào?", "a": "Một người đặt điện thoại lên trán, những người khác gợi ý từ trên màn hình. Nghiêng xuống khi đúng, nghiêng lên để bỏ qua; hết giờ thì chuyền điện thoại." },
+      { "q": "Chế độ Heads Up của Tadado có miễn phí không?", "a": "Có. Tải Tadado miễn phí và chơi với bộ thẻ Tadado Mix. Không quảng cáo, không đăng ký; bộ thẻ chủ đề và bộ thẻ AI là gói mua một lần tùy chọn." },
+      { "q": "Tôi có thể tạo bộ thẻ Heads Up riêng không?", "a": "Có. Nhập bất kỳ chủ đề nào, từ phim truyền hình đến chuyện vui trong nhà, AI của Tadado sẽ viết bộ thẻ để chơi Heads Up ngay." }
+    ]
+  },
+  "imposter": {
+    "name": "Kẻ mạo danh",
+    "tagline": "Trò chơi lừa: ai cũng biết từ bí mật, trừ kẻ mạo danh.",
+    "metaTitle": "Trò chơi Kẻ mạo danh: tìm gián điệp chỉ với một điện thoại | Tadado",
+    "metaDescription": "Chơi trò imposter chỉ với một điện thoại. Mọi người thấy từ bí mật trừ kẻ mạo danh. Mỗi người một từ gợi ý, bỏ phiếu và lật mặt gián điệp. 3 đến 12 người, không quảng cáo.",
+    "h1": "Kẻ mạo danh: tìm ra gián điệp không biết từ khóa",
+    "hook": "Chuyền tay một điện thoại. Mọi người thấy cùng một từ bí mật, trừ kẻ mạo danh có thẻ trống. Mỗi người nói một từ gợi ý, rồi cả nhóm bỏ phiếu. Nếu kẻ mạo danh lừa giỏi, chiến thắng thuộc về họ.",
+    "facts": [
+      { "label": "Người chơi", "value": "3 đến 12" },
+      { "label": "Cần có", "value": "Một điện thoại" },
+      { "label": "Thể loại", "value": "Lừa và suy luận" }
+    ],
+    "steps": [
+      { "title": "Chuyền điện thoại", "body": "Thêm người chơi và chọn số kẻ mạo danh. Mỗi người nhấn giữ màn hình để xem thẻ của mình một cách bí mật." },
+      { "title": "Mỗi người một gợi ý", "body": "Lần lượt nói một từ liên quan đến từ bí mật. Quá rõ sẽ giúp kẻ mạo danh; quá mơ hồ khiến bạn bị nghi ngờ." },
+      { "title": "Bỏ phiếu và công bố", "body": "Bỏ phiếu chọn kẻ mạo danh. Nếu cả nhóm đúng, kẻ mạo danh vẫn còn một cơ hội cuối: đoán đúng từ bí mật để thắng." }
+    ],
+    "features": [
+      { "title": "Không cần chia bài", "body": "Ứng dụng phân vai và cho từng người xem riêng, nên không ai thấy thẻ mình không được thấy." },
+      { "title": "Từ bí mật từ bất kỳ bộ thẻ nào", "body": "Dùng Tadado Mix miễn phí, bộ thẻ chủ đề hoặc bộ thẻ AI về chủ đề cả nhóm thuộc lòng." },
+      { "title": "Đổi trò mà không đổi ứng dụng", "body": "Khi cả nhóm muốn hò hét thay vì đấu trí, chuyển sang Từ cấm hoặc Heads Up với cùng bộ thẻ." }
+    ],
+    "knownAs": "Nếu bạn tìm trò imposter, ai là gián điệp, trò kiểu Spyfall hay những trò như Ma sói và Mafia, đây chính là họ trò chơi vai ẩn đó. Ở phiên bản từ khóa, không ai loại ai: chỉ có một người không biết từ và cố gắng trà trộn. Chế độ Kẻ mạo danh của Tadado là phiên bản gốc với bộ thẻ riêng.",
+    "aliases": ["Trò imposter", "Ai là gián điệp", "Tìm gián điệp", "Trò chơi vai ẩn", "Trò chơi lừa"],
+    "faq": [
+      { "q": "Chơi Kẻ mạo danh thế nào?", "a": "Mọi người trừ kẻ mạo danh đều thấy cùng một từ bí mật. Mỗi người nói một từ gợi ý, rồi cả nhóm bỏ phiếu xem ai là kẻ mạo danh. Bị bắt rồi, kẻ mạo danh vẫn có thể thắng nếu đoán ra từ." },
+      { "q": "Có giống Spyfall hay Ma sói không?", "a": "Cùng họ trò chơi lừa có vai ẩn. Khác Spyfall, không có địa điểm hay câu hỏi; khác Ma sói, không có pha ban đêm: chỉ một từ bí mật và mỗi người một gợi ý." },
+      { "q": "Bao nhiêu người chơi được Kẻ mạo danh?", "a": "Chế độ Kẻ mạo danh của Tadado chơi được từ 3 đến 12 người với một điện thoại, và bạn có thể chọn số kẻ mạo danh." },
+      { "q": "Chế độ Kẻ mạo danh có miễn phí không?", "a": "Có. Tadado tải miễn phí và Kẻ mạo danh chơi được với bộ thẻ miễn phí Tadado Mix. Không quảng cáo, không đăng ký." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Bộ Bài AI",
+    "tagline": "Nhập bất kỳ chủ đề nào và chơi ở cả ba chế độ: bộ thẻ xong trong khoảng 30 giây.",
+    "metaTitle": "Tạo bộ thẻ trò chơi tiệc bằng AI: thẻ cho mọi chủ đề | Tadado",
+    "metaDescription": "Nhập bất kỳ chủ đề nào, AI viết bộ thẻ trò chơi trong vài giây. Chơi kiểu Taboo, Heads Up hoặc Kẻ mạo danh. Một bộ thẻ, ba chế độ.",
+    "h1": "Bộ Bài AI: biến mọi chủ đề thành trò chơi tiệc",
+    "hook": "Nhập một chủ đề: bộ phim bạn mê, đội bóng bạn yêu hay những câu đùa riêng của nhóm. AI của Tadado viết trọn bộ thẻ trong khoảng 30 giây, và cùng bộ thẻ đó chơi được ở Từ cấm, Heads Up và Kẻ mạo danh.",
+    "facts": [
+      { "label": "Chủ đề", "value": "Bất cứ gì bạn nhập" },
+      { "label": "Xong trong", "value": "Khoảng 30 giây" },
+      { "label": "Chơi ở", "value": "Cả ba chế độ" }
+    ],
+    "steps": [
+      { "title": "Nhập chủ đề", "body": "Bất cứ gì: phản diện Marvel, nhạc pop thập niên 90, công ty bạn, đất nước sắp du lịch. Thêm vài chủ đề và chọn độ khó." },
+      { "title": "AI viết thẻ", "body": "Mỗi thẻ có từ chính và từ cấm, nên bộ thẻ sẵn sàng cho mọi chế độ, bằng ngôn ngữ của bạn." },
+      { "title": "Chơi theo cách bạn muốn", "body": "Bắt đầu với Từ cấm, chuyển sang Heads Up, rồi giấu một kẻ mạo danh. Bộ thẻ được lưu trong thư viện cho đêm chơi tiếp theo." }
+    ],
+    "features": [
+      { "title": "Một bộ thẻ, ba trò chơi", "body": "Không cần làm riêng bộ thẻ Taboo và bộ thẻ Heads Up. Tạo một lần, chơi mọi chế độ." },
+      { "title": "Làm riêng cho nhóm bạn", "body": "Chuyện đùa nội bộ, sở thích ngách, sinh nhật theo chủ đề hay bài học trên lớp: bộ thẻ không ai khác có, về những điều cả nhóm thật sự biết." },
+      { "title": "Trả một lần, không đăng ký", "body": "Lượt tạo AI có trong các gói nhỏ mua một lần, và Tadado Full Access bao gồm 20 lượt. Không quảng cáo, không phí định kỳ." }
+    ],
+    "knownAs": "Nếu bạn tìm công cụ tạo thẻ Taboo, thẻ Heads Up tự làm, công cụ tạo danh sách từ cho trò chơi tiệc hay cách làm thẻ bằng ChatGPT, đây là phiên bản tích hợp sẵn. Thay vì chép danh sách vào ghi chú, Tadado biến chủ đề của bạn thành bộ thẻ chơi được với đồng hồ, điểm số và ba chế độ chơi.",
+    "aliases": ["Tạo thẻ Taboo", "Bộ thẻ Heads Up tự làm", "Danh sách từ AI", "Thẻ trò chơi tiệc riêng", "Tự tạo bộ thẻ"],
+    "faq": [
+      { "q": "Tạo bộ thẻ bằng AI hoạt động thế nào?", "a": "Nhập một hoặc vài chủ đề, chọn độ khó và chạm Tạo. Trong khoảng 30 giây, AI viết trọn bộ thẻ với từ chính và từ cấm trên mỗi thẻ." },
+      { "q": "Bộ thẻ AI chơi được ở chế độ nào?", "a": "Tất cả. Mỗi bộ thẻ AI chơi được ở Từ cấm, Heads Up và Kẻ mạo danh, nên bạn đổi chế độ mà không cần tạo bộ mới." },
+      { "q": "Bộ thẻ AI giá bao nhiêu?", "a": "Lượt tạo AI bán theo gói mua một lần, bắt đầu từ gói nhỏ 5 lượt. Tadado Full Access bao gồm mọi bộ thẻ cao cấp và 20 lượt tạo AI. Không có đăng ký; xem giá địa phương trên cửa hàng." },
+      { "q": "Tôi có thể tạo bộ thẻ bằng tiếng Việt không?", "a": "Có. Tadado hỗ trợ 17 ngôn ngữ và bộ thẻ AI được viết bằng ngôn ngữ bạn chơi, với tên người, địa danh và văn hóa đại chúng địa phương." }
+    ]
+  }
+}

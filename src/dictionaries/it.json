@@ -1124,5 +1124,23 @@
     "title": "Edizione Halloween: modalità Impostore e un mazzo horror gratis",
     "cta": "Vota",
     "hide": "Nascondi"
+  },
+  "modePages": {
+    "eyebrow": "Modalità di gioco",
+    "breadcrumb": "Modalità di gioco",
+    "hubTitle": "Tutti i modi di giocare a Tadado",
+    "hubSubtitle": "Un gioco di parole stile Taboo, l'indovina con il telefono sulla fronte, un gioco di bluff e mazzi IA su qualsiasi tema. Un'app, un telefono, tutto il gruppo.",
+    "hubMetaTitle": "Modalità di gioco per feste: stile Taboo, Heads Up, Impostore e mazzi IA | Tadado",
+    "hubMetaDescription": "Scopri le modalità di Tadado: Parole vietate (stile Taboo), Heads Up, il gioco dell'Impostore e mazzi IA su qualsiasi tema. Gratis e senza pubblicità.",
+    "explore": "Scopri come si gioca",
+    "stepsTitle": "Come si gioca a {mode}",
+    "featuresTitle": "Perché i gruppi giocano a {mode} su Tadado",
+    "knownAsTitle": "Cercato anche come",
+    "faqTitle": "{mode}: domande",
+    "otherTitle": "Altri modi di giocare",
+    "ctaTitle": "Inizia la serata giochi gratis",
+    "ctaBody": "Scarica Tadado, apri il mazzo gratuito e gioca in pochi secondi. Basta un telefono.",
+    "ctaButton": "Scarica Tadado gratis",
+    "disclaimer": "Taboo è un marchio di Hasbro. Heads Up! è un marchio di Warner Bros. Entertainment Inc. Spyfall, Lupus in Tabula e gli altri nomi di giochi citati appartengono ai rispettivi proprietari. Tadado è un'app indipendente, non affiliata, sponsorizzata o approvata da nessuno di loro; i nomi servono solo a descrivere stili di gioco simili."
   }
 }

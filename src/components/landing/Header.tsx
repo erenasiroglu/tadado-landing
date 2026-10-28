@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { BrandLockup } from "@/components/brand/brand-lockup";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { modePageHref } from "@/lib/mode-pages";
 import { isHalloweenSeason } from "@/lib/season";
 import { cn } from "@/lib/utils";
 
@@ -28,7 +29,7 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
   const halloween = isHalloweenSeason();
   const primaryLinks = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
-    { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks },
+    { href: modePageHref(locale, "ai-decks"), label: dict.nav.aiDecks, isPage: true },
     { href: homeHref(locale, "#community"), label: dict.nav.community },
     { href: blogHref(locale), label: dict.nav.blog, isPage: true },
     { href: localeHref(locale, "team"), label: dict.nav.team, isPage: true },

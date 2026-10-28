@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Zakazane słowa",
+    "tagline": "Gra drużynowa w stylu Tabu: opisz hasło bez mówienia zakazanych słów.",
+    "metaTitle": "Aplikacja z grą w stylu Tabu na imprezy | Zakazane słowa od Tadado",
+    "metaDescription": "Zagraj w grę słowną w stylu Tabu na jednym telefonie. Opisz hasło, omiń zakazane słowa i pokonaj czas. Darmowa talia, bez reklam. Pobierz Tadado.",
+    "h1": "Zakazane słowa: imprezowa gra w stylu Tabu na telefonie",
+    "hook": "Opisz hasło z karty, nie używając żadnego z zakazanych słów pod spodem. Twoja drużyna zgaduje na czas, trudniejsze hasła są warte więcej, a całą grą steruje jeden telefon.",
+    "facts": [
+      { "label": "Gracze", "value": "4+ w dwóch drużynach" },
+      { "label": "Potrzebujesz", "value": "Jednego telefonu" },
+      { "label": "Przygotowanie", "value": "Poniżej minuty" }
+    ],
+    "steps": [
+      { "title": "Podzielcie się na drużyny", "body": "Wybierzcie talię, nazwijcie drużyny i ustawcie czas. W każdej turze jedna osoba bierze telefon i opisuje." },
+      { "title": "Opisuj, nie mów", "body": "Spraw, żeby drużyna powiedziała hasło, nie używając zakazanych słów z karty. Powiesz jedno i karta przepada." },
+      { "title": "Punktuj i oddaj telefon", "body": "Stuknij Dobrze przy każdym trafieniu, pomijaj trudne karty, póki masz pasy, a potem oddaj telefon drugiej drużynie." }
+    ],
+    "features": [
+      { "title": "Trudniejsze hasła, więcej punktów", "body": "Każda karta ma poziom trudności. Bierz te trudne, żeby podbić mnożnik i odwrócić wynik." },
+      { "title": "Bez kart, klepsydry i kartki na punkty", "body": "Czas, pilnowanie zakazanych słów i tabela wyników są w aplikacji. Nikt nie musi sędziować." },
+      { "title": "Talie dla każdej ekipy", "body": "Zacznij od darmowego Tadado Mix, dodaj talie tematyczne albo poproś AI o talię o twoich znajomych, mieście czy ulubionym serialu." }
+    ],
+    "knownAs": "Jeśli szukałeś Tabu, aplikacji Tabu, Tabu online albo gry w zakazane słowa, to właśnie ten styl gry. W innych krajach ta sama zasada nazywa się Taboo lub Tabou, a bliskimi kuzynami są Alias, kalambury słowne i gry w opisywanie haseł. Zakazane słowa od Tadado to autorska wersja tego formatu, stworzona na jeden telefon i grupy każdej wielkości.",
+    "aliases": ["Gra w stylu Tabu", "Gra w zakazane słowa", "Opisywanie haseł", "Zgadywanie słów", "Drużynowa gra słowna"],
+    "faq": [
+      { "q": "Czy Zakazane słowa to to samo co Tabu?", "a": "Gra się w tym samym stylu: opisujesz hasło bez mówienia zakazanych słów, a drużyna zgaduje na czas. Tadado to niezależna aplikacja z własnymi taliami, punktacją i wyglądem, a nie oficjalna gra Tabu." },
+      { "q": "Ilu graczy potrzeba?", "a": "Najlepiej cztery lub więcej osób w dwóch drużynach. Duże grupy też się sprawdzają: wystarczy powiększyć drużyny i dalej podawać telefon." },
+      { "q": "Czy jest darmowa aplikacja w stylu Tabu bez reklam?", "a": "Tak. Tadado pobierzesz za darmo z talią Tadado Mix, bez reklam i bez subskrypcji. Talie tematyczne i tworzenie talii z AI to opcjonalne jednorazowe zakupy." },
+      { "q": "Czy możemy zrobić własne karty do Tabu?", "a": "Tak. Wpisz dowolny temat, a AI Tadado napisze całą talię z hasłem i zakazanymi słowami na każdej karcie. Od razu zagrasz w nią w Zakazane słowa, Heads Up lub Oszusta." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "Gra z telefonem na czole: znajomi podpowiadają, a ty przechylasz, gdy zgadniesz.",
+    "metaTitle": "Gra w stylu Heads Up: zgadywanie z telefonem na czole | Tadado",
+    "metaDescription": "Telefon na czole, znajomi krzyczą podpowiedzi, przechyl, by zdobyć punkt. Zagraj w grę w stylu Heads Up z darmowymi taliami, bez reklam i z taliami AI na każdy temat.",
+    "h1": "Heads Up: zgadywanie z telefonem na czole dla każdej ekipy",
+    "hook": "Przyłóż telefon do czoła. Wszyscy inni widzą hasło i podpowiadają, pokazują je albo śpiewają. Przechyl w dół, gdy zgadniesz, w górę, żeby pominąć, i ścigaj się z czasem.",
+    "facts": [
+      { "label": "Gracze", "value": "2 lub więcej" },
+      { "label": "Potrzebujesz", "value": "Jednego telefonu" },
+      { "label": "Runda", "value": "Szybka, na czas" }
+    ],
+    "steps": [
+      { "title": "Telefon na czoło", "body": "Wybierz talię i trzymaj telefon poziomo na czole, ekranem do znajomych." },
+      { "title": "Znajomi podpowiadają", "body": "Opisują, pokazują albo nucą hasło z ekranu. Ty go nie widzisz, więc słuchaj uważnie i krzycz odpowiedzi." },
+      { "title": "Przechyl, by zdobyć punkt lub pominąć", "body": "Przechyl telefon w dół przy trafieniu i w górę, by pominąć. Gdy czas minie, podaj telefon kolejnej osobie." }
+    ],
+    "features": [
+      { "title": "Dla dzieci, rodzin i na imprezy", "body": "Bez czytania na głos i bez obowiązkowych drużyn. Kto umie krzyknąć odpowiedź, ten gra: świetna gra rodzinna." },
+      { "title": "Te same talie co w Zakazanych słowach", "body": "Każda talia Tadado działa w Heads Up, więc ekipa przechodzi od opisywania do zgadywania bez wybierania nowych kart." },
+      { "title": "Dowolny temat", "body": "Filmy, anime, piłka nożna, twoje biuro albo grupowy czat: AI w kilka sekund zbuduje talię Heads Up na każdy temat." }
+    ],
+    "knownAs": "Jeśli szukałeś Heads Up, aplikacji Heads Up, czółka, gry z telefonem na czole albo kalamburów na telefonie, to właśnie ten styl gry. Znany jest też jako Kim jestem? albo gra w karteczki na czole i wywodzi się z klasycznych kalamburów. Tryb Heads Up w Tadado to autorska wersja tego formatu z własnymi taliami i taliami z AI.",
+    "aliases": ["Gra z telefonem na czole", "Kim jestem", "Kalambury na telefonie", "Zgadnij hasło", "Gra w karteczki na czole"],
+    "faq": [
+      { "q": "Czy to oficjalna aplikacja Heads Up!?", "a": "Nie. Tadado to niezależna aplikacja z grami imprezowymi, która ma tryb w stylu Heads Up. Grasz tak samo, z telefonem na czole i przechylaniem po punkt, ale z taliami Tadado i taliami AI." },
+      { "q": "Jak grać w Heads Up na jednym telefonie?", "a": "Jedna osoba trzyma telefon na czole, a reszta podpowiada hasło z ekranu. Przechyl w dół przy trafieniu i w górę, by pominąć; po czasie podaj telefon dalej." },
+      { "q": "Czy tryb Heads Up w Tadado jest darmowy?", "a": "Tak. Pobierz Tadado za darmo i graj talią Tadado Mix. Bez reklam i subskrypcji; dodatkowe talie tematyczne i talie AI to opcjonalne jednorazowe zakupy." },
+      { "q": "Czy mogę zrobić własną talię do Heads Up?", "a": "Tak. Wpisz dowolny temat, od serialu po rodzinne żarty, a AI Tadado napisze talię, w którą od razu zagrasz w Heads Up." }
+    ]
+  },
+  "imposter": {
+    "name": "Oszust",
+    "tagline": "Gra w blefowanie: wszyscy znają tajne słowo oprócz oszusta.",
+    "metaTitle": "Gra w Oszusta (Impostor): znajdź szpiega na jednym telefonie | Tadado",
+    "metaDescription": "Zagraj w grę w oszusta na jednym telefonie. Wszyscy widzą tajne słowo oprócz oszusta. Jedno słowo podpowiedzi, głosowanie i szpieg zdemaskowany. Od 3 do 12 graczy, bez reklam.",
+    "h1": "Oszust: znajdź szpiega, który nie zna słowa",
+    "hook": "Podawajcie sobie jeden telefon. Wszyscy widzą to samo tajne słowo, oprócz oszusta, który dostaje pustą kartę. Każdy mówi jedno słowo podpowiedzi, a potem grupa głosuje. Jeśli oszust dobrze blefuje, to on wygrywa.",
+    "facts": [
+      { "label": "Gracze", "value": "Od 3 do 12" },
+      { "label": "Potrzebujesz", "value": "Jednego telefonu" },
+      { "label": "Styl", "value": "Blef i dedukcja" }
+    ],
+    "steps": [
+      { "title": "Podajcie telefon", "body": "Dodajcie graczy i wybierzcie, ilu oszustów ukryć. Każdy przytrzymuje ekran, żeby w tajemnicy zobaczyć swoją kartę." },
+      { "title": "Jedna podpowiedź na osobę", "body": "Po kolei mówcie jedno słowo związane z tajnym słowem. Zbyt oczywiste pomaga oszustowi, zbyt ogólne czyni cię podejrzanym." },
+      { "title": "Głosujcie i odkryjcie", "body": "Zagłosujcie na oszusta. Jeśli grupa trafi, oszust ma ostatnią szansę na wygraną, zgadując tajne słowo." }
+    ],
+    "features": [
+      { "title": "Bez rozdawania kart", "body": "Aplikacja przydziela role i pokazuje je każdemu z osobna, więc nikt nie zobaczy karty, której nie powinien." },
+      { "title": "Tajne słowa z każdej talii", "body": "Użyj darmowego Tadado Mix, talii tematycznych albo talii AI na temat, który twoja ekipa zna na wylot." },
+      { "title": "Zmień grę bez zmiany aplikacji", "body": "Gdy ekipa woli krzyczeć niż knuć, przejdź do Zakazanych słów lub Heads Up z tą samą talią." }
+    ],
+    "knownAs": "Jeśli szukałeś gry w impostora, kto jest szpiegiem, gier w stylu Spyfall albo czegoś jak Mafia czy Wilkołak, to właśnie ta rodzina gier z ukrytymi rolami. W wersji ze słowem nikt nikogo nie eliminuje: jedna osoba po prostu nie zna słowa i próbuje się nie zdradzić. Tryb Oszust w Tadado to autorska wersja tego formatu z własnymi taliami.",
+    "aliases": ["Gra w impostora", "Kto jest szpiegiem", "Znajdź szpiega", "Gra z ukrytymi rolami", "Gra w blefowanie"],
+    "faq": [
+      { "q": "Jak grać w Oszusta?", "a": "Wszyscy oprócz oszusta widzą to samo tajne słowo. Każdy mówi jedno słowo podpowiedzi, a potem grupa głosuje, kto jest oszustem. Złapany oszust wciąż może wygrać, zgadując słowo." },
+      { "q": "Czy to jak Spyfall albo Mafia?", "a": "To ta sama rodzina gier w blefowanie z ukrytymi rolami. W przeciwieństwie do Spyfall nie ma lokacji ani pytań, a w przeciwieństwie do Mafii nie ma fazy nocy: tylko jedno tajne słowo i jedna podpowiedź na osobę." },
+      { "q": "Ile osób może grać w Oszusta?", "a": "Tryb Oszust w Tadado obsługuje od 3 do 12 osób na jednym telefonie i możesz wybrać, ilu oszustów ukryć." },
+      { "q": "Czy tryb Oszust jest darmowy?", "a": "Tak. Tadado pobierzesz za darmo, a Oszust działa z darmową talią Tadado Mix. Bez reklam i subskrypcji." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Talie AI",
+    "tagline": "Wpisz dowolny temat i graj w trzech trybach: talia w około 30 sekund.",
+    "metaTitle": "Generator talii AI do gier imprezowych: karty na każdy temat | Tadado",
+    "metaDescription": "Wpisz dowolny temat, a AI w kilka sekund napisze talię do gry. Graj w stylu Tabu, jako Heads Up albo w Oszusta. Jedna talia, trzy tryby.",
+    "h1": "Talie AI: zamień każdy temat w imprezową grę",
+    "hook": "Wpisz temat: ulubiony serial, klub piłkarski albo żarty twojej ekipy. AI Tadado napisze pełną talię w około 30 sekund, a ta sama talia działa w Zakazanych słowach, Heads Up i Oszuście.",
+    "facts": [
+      { "label": "Temat", "value": "Cokolwiek wpiszesz" },
+      { "label": "Gotowe w", "value": "Około 30 sekund" },
+      { "label": "Działa w", "value": "Wszystkich trzech trybach" }
+    ],
+    "steps": [
+      { "title": "Wpisz temat", "body": "Cokolwiek: złoczyńcy Marvela, pop z lat 90., twoje biuro, kraj, do którego jedziesz. Dodaj kilka tematów i wybierz poziom trudności." },
+      { "title": "AI pisze karty", "body": "Każda karta dostaje hasło i zakazane słowa, więc talia jest gotowa do każdego trybu, w twoim języku." },
+      { "title": "Graj, jak chcesz", "body": "Zacznij od Zakazanych słów, przełącz na Heads Up, a potem ukryj oszusta. Talia zostaje w bibliotece na kolejny wieczór gier." }
+    ],
+    "features": [
+      { "title": "Jedna talia, trzy gry", "body": "Nie musisz robić osobnej talii do Tabu i do Heads Up. Stwórz raz i graj w każdym trybie." },
+      { "title": "Stworzona dla twojej ekipy", "body": "Wewnętrzne żarty, niszowe hobby, urodziny z motywem albo temat z lekcji: talie, których nikt inny nie ma, o tym, co naprawdę znacie." },
+      { "title": "Płacisz raz, bez subskrypcji", "body": "Kreacje AI są w małych pakietach kupowanych jednorazowo, a Tadado Full Access zawiera 20. Bez reklam i bez opłat cyklicznych." }
+    ],
+    "knownAs": "Jeśli szukałeś generatora kart do Tabu, własnych kart do Heads Up, generatora list słów do gier albo sposobu na karty z ChatGPT, to jest wersja wbudowana. Zamiast kopiować listę do notatek, Tadado zamienia twój temat w grywalną talię z czasem, punktacją i trzema trybami gry.",
+    "aliases": ["Generator kart do Tabu", "Własna talia Heads Up", "Lista słów z AI", "Własne karty imprezowe", "Zrób własną talię"],
+    "faq": [
+      { "q": "Jak działa tworzenie talii z AI?", "a": "Wpisz jeden lub kilka tematów, wybierz poziom trudności i stuknij Utwórz. W około 30 sekund AI napisze pełną talię z hasłem i zakazanymi słowami na każdej karcie." },
+      { "q": "W jakich trybach zagram talią AI?", "a": "We wszystkich. Każda talia AI działa w Zakazanych słowach, Heads Up i Oszuście, więc zmieniasz tryb bez tworzenia nowej talii." },
+      { "q": "Ile kosztują talie AI?", "a": "Tworzenie z AI kupujesz w jednorazowych pakietach, zaczynając od małego pakietu na 5 kreacji. Tadado Full Access zawiera wszystkie talie premium i 20 kreacji AI. Bez subskrypcji; lokalne ceny sprawdzisz w sklepie." },
+      { "q": "Czy mogę tworzyć talie po polsku?", "a": "Tak. Tadado działa w 17 językach, a talie AI powstają w języku, w którym grasz, z lokalnymi nazwami, miejscami i popkulturą." }
+    ]
+  }
+}

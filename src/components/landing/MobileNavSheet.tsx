@@ -15,6 +15,7 @@ import {
 import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { modePageHref } from "@/lib/mode-pages";
 import { isHalloweenSeason } from "@/lib/season";
 import { cn } from "@/lib/utils";
 
@@ -74,12 +75,11 @@ function NavGroup({
 export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
   const halloween = isHalloweenSeason();
 
-  // Game modes: point at the modes section until each mode has its own page.
   const modeLinks: ModeItem[] = [
-    { href: homeHref(locale, "#modes"), label: dict.modes.tabooTitle, icon: Ban },
-    { href: homeHref(locale, "#modes"), label: dict.modes.headsUpTitle, icon: Smartphone },
-    { href: homeHref(locale, "#modes"), label: dict.modes.imposterTitle, icon: Fingerprint },
-    { href: homeHref(locale, "#ai-decks"), label: dict.nav.aiDecks, icon: Sparkles },
+    { href: modePageHref(locale, "forbidden-words"), label: dict.modes.tabooTitle, icon: Ban, isPage: true },
+    { href: modePageHref(locale, "heads-up"), label: dict.modes.headsUpTitle, icon: Smartphone, isPage: true },
+    { href: modePageHref(locale, "imposter"), label: dict.modes.imposterTitle, icon: Fingerprint, isPage: true },
+    { href: modePageHref(locale, "ai-decks"), label: dict.nav.aiDecks, icon: Sparkles, isPage: true },
   ];
 
   const deckLinks: NavItem[] = SEO_DECK_KEYS.map((key) => ({
@@ -150,10 +150,11 @@ export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
 
           <NavGroup title={dict.footer.playTitle}>
             <div className="flex flex-col gap-1">
-              {modeLinks.map(({ href, label, icon: Icon }) => (
+              {modeLinks.map(({ href, label, icon: Icon, isPage }) => (
                 <NavLink
                   key={label}
                   href={href}
+                  isPage={isPage}
                   className="-mx-2 flex min-h-12 items-center gap-3 rounded-xl px-2 text-[15px] font-semibold text-foreground transition-colors hover:bg-mist active:bg-lilac"
                 >
                   <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-mist text-ink">

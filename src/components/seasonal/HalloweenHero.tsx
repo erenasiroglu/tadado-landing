@@ -1,6 +1,7 @@
 "use client";
 
 import { Ban, Fingerprint, Smartphone, Sparkles } from "lucide-react";
+import Link from "next/link";
 
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ForbiddenWordsScreen } from "@/components/landing/device/ForbiddenWordsScreen";
@@ -9,6 +10,7 @@ import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileSt
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
+import { modePageHref } from "@/lib/mode-pages";
 import { trackEvent } from "@/lib/tracking";
 
 import { HalloweenDeckCard } from "./HalloweenDeckCard";
@@ -26,10 +28,10 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
   const copy = dict.halloween;
 
   const chips = [
-    { icon: Ban, label: dict.modes.tabooTitle },
-    { icon: Smartphone, label: dict.modes.headsUpTitle },
-    { icon: Fingerprint, label: dict.modes.imposterTitle },
-    { icon: Sparkles, label: dict.nav.aiDecks },
+    { icon: Ban, label: dict.modes.tabooTitle, href: modePageHref(locale, "forbidden-words") },
+    { icon: Smartphone, label: dict.modes.headsUpTitle, href: modePageHref(locale, "heads-up") },
+    { icon: Fingerprint, label: dict.modes.imposterTitle, href: modePageHref(locale, "imposter") },
+    { icon: Sparkles, label: dict.nav.aiDecks, href: modePageHref(locale, "ai-decks") },
   ];
 
   function track(cta: "primary" | "secondary") {
@@ -54,10 +56,12 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
             </div>
             <div className="hero-rise" style={{ "--i": 2 } as React.CSSProperties}>
               <ul className="grid w-fit grid-cols-2 gap-2.5 sm:gap-3" aria-label={dict.modes.title}>
-                {chips.map(({ icon: Icon, label }) => (
-                  <li key={label} className="halloween-chip">
-                    <Icon aria-hidden />
-                    {label}
+                {chips.map(({ icon: Icon, label, href }) => (
+                  <li key={label}>
+                    <Link href={href} className="halloween-chip">
+                      <Icon aria-hidden />
+                      {label}
+                    </Link>
                   </li>
                 ))}
               </ul>

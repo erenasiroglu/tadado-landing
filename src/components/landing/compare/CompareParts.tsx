@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+import type { DownloadSource } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
@@ -15,19 +16,21 @@ export function CompareDownload({
   label,
   className,
   dark,
+  source = "compare",
 }: {
   locale: Locale;
   dict: Dictionary;
   label: string;
   className?: string;
   dark?: boolean;
+  source?: DownloadSource;
 }) {
   return (
     <div className={cn("flex flex-col gap-3", className)}>
       <div className="w-full max-w-sm sm:hidden">
         <MobileStoreDownloadCta
           locale={locale}
-          source="compare"
+          source={source}
           label={label}
           className={
             dark ? "text-ink shadow-none ![background:var(--cream)]" : undefined
@@ -36,7 +39,7 @@ export function CompareDownload({
       </div>
       <StoreButtons
         locale={locale}
-        source="compare"
+        source={source}
         a11y={dict.a11y}
         labelMode="download"
         className="hidden sm:flex"

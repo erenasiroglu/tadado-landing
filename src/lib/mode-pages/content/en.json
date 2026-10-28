@@ -1,0 +1,270 @@
+{
+  "forbidden-words": {
+    "name": "Forbidden Words",
+    "tagline": "The Taboo-style team game: describe the word without saying the forbidden ones.",
+    "metaTitle": "Taboo-Style Word Game App for Parties | Forbidden Words by Tadado",
+    "metaDescription": "Play a Taboo-style word game on one phone. Describe the word, dodge the forbidden clues, beat the timer. Free deck, no ads, 17 languages. Download Tadado.",
+    "h1": "Forbidden Words: the Taboo-style party game on your phone",
+    "hook": "Describe the word on the card without saying any of the forbidden words underneath. Your team guesses against the clock, harder words score more, and one phone runs the whole game.",
+    "facts": [
+      { "label": "Players", "value": "4+ in two teams" },
+      { "label": "You need", "value": "One phone" },
+      { "label": "Setup", "value": "Under a minute" }
+    ],
+    "steps": [
+      {
+        "title": "Split into two teams",
+        "body": "Pick a deck, name the teams and set the timer. One player per turn holds the phone and becomes the describer."
+      },
+      {
+        "title": "Describe, don't say",
+        "body": "Get your team to say the main word without using the forbidden words on the card. Say one and the card is lost."
+      },
+      {
+        "title": "Score and pass the phone",
+        "body": "Tap Correct for each guess, pass the tricky ones while you still have passes, then hand the phone to the other team."
+      }
+    ],
+    "features": [
+      {
+        "title": "Harder words, bigger scores",
+        "body": "Every card has a difficulty. Take on the hard ones to grow your multiplier and turn a close game around."
+      },
+      {
+        "title": "No cards, no buzzer, no score sheet",
+        "body": "The timer, the forbidden-word check and the scoreboard all live in the app, so nobody has to referee."
+      },
+      {
+        "title": "Decks for every group",
+        "body": "Start with the free Tadado Mix, add themed decks, or let AI write a deck about your friends, your city or your favorite show."
+      }
+    ],
+    "knownAs": "If you searched for Taboo, a Taboo app, Taboo online or a forbidden words game, this is that style of play. The same idea goes by Tabu or Tabou in some countries, and close cousins include Alias, Password and catch-phrase games. Tadado's Forbidden Words is an original take on the format, built for one phone and any group size.",
+    "aliases": [
+      "Taboo-style game",
+      "Forbidden words game",
+      "Describe the word",
+      "Word guessing game",
+      "Team word game"
+    ],
+    "faq": [
+      {
+        "q": "Is Forbidden Words the same as Taboo?",
+        "a": "It plays in the same style: describe a word without saying the forbidden clues while your team guesses against a timer. Tadado is an independent app with its own decks, scoring and design, and it is not the official Taboo game."
+      },
+      {
+        "q": "How many players do you need?",
+        "a": "Four or more players is best, split into two teams. Bigger groups work well too: just make the teams larger and keep passing the phone."
+      },
+      {
+        "q": "Is there a free Taboo-style app without ads?",
+        "a": "Yes. Tadado is free to download with the free Tadado Mix deck, and it has no ads and no subscription. Themed decks and AI deck creation are optional one-time purchases."
+      },
+      {
+        "q": "Can we make our own Taboo cards?",
+        "a": "Yes. Type any topic and Tadado's AI writes a full deck with a main word and forbidden words for each card. You can play it right away in Forbidden Words, Heads Up or Imposter."
+      }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "The forehead guessing game: friends give clues, you tilt the phone when you get it.",
+    "metaTitle": "Heads Up Style Charades Game App | Play Free with Tadado",
+    "metaDescription": "Phone on your forehead, friends shout clues, tilt to score. Play a Heads Up style charades game with free decks, no ads and AI decks on any topic.",
+    "h1": "Heads Up: the forehead guessing game for any group",
+    "hook": "Hold the phone on your forehead. Everyone else can see the word and gives you clues, acts it out or sings it. Tilt down when you get it, tilt up to skip, and race the clock.",
+    "facts": [
+      { "label": "Players", "value": "2 or more" },
+      { "label": "You need", "value": "One phone" },
+      { "label": "Round", "value": "Fast and timed" }
+    ],
+    "steps": [
+      {
+        "title": "Phone to your forehead",
+        "body": "Pick a deck and hold the phone in landscape on your forehead, screen facing your friends."
+      },
+      {
+        "title": "Friends give clues",
+        "body": "They describe, act or hum the word on screen. You can't see it, so listen fast and shout your guesses."
+      },
+      {
+        "title": "Tilt to score or skip",
+        "body": "Tilt the phone down when you guess right and up to skip. When the timer ends, pass the phone to the next player."
+      }
+    ],
+    "features": [
+      {
+        "title": "Works for kids, families and parties",
+        "body": "No reading out loud and no teams required. Anyone who can shout a guess can play, which makes it a great family game."
+      },
+      {
+        "title": "Same decks as Forbidden Words",
+        "body": "Every Tadado deck plays in Heads Up, so the group can switch from describing to guessing without picking new cards."
+      },
+      {
+        "title": "Any topic you want",
+        "body": "Movies, anime, football, your office or your group chat: let AI build a Heads Up deck on any topic in seconds."
+      }
+    ],
+    "knownAs": "If you searched for Heads Up, a Heads Up app, a forehead game or phone charades, this is that style of play. It is also known as Who Am I, Guess Who I Am or the headband game, and it grew out of classic charades. Tadado's Heads Up mode is an original take on the format with its own decks and AI deck creation.",
+    "aliases": [
+      "Forehead game",
+      "Phone charades",
+      "Who am I game",
+      "Headband game",
+      "Guess the word"
+    ],
+    "faq": [
+      {
+        "q": "Is this the official Heads Up! app?",
+        "a": "No. Tadado is an independent party game app with a Heads Up style mode. You play the same way, phone on your forehead and tilting to score, with Tadado's own decks and AI decks."
+      },
+      {
+        "q": "How do you play Heads Up with one phone?",
+        "a": "One player holds the phone on their forehead while everyone else gives clues for the word on screen. Tilt down for a correct guess and up to skip, then pass the phone when the timer ends."
+      },
+      {
+        "q": "Is Tadado's Heads Up mode free?",
+        "a": "Yes. Download Tadado for free and play with the free Tadado Mix deck. There are no ads and no subscription; extra themed decks and AI decks are optional one-time purchases."
+      },
+      {
+        "q": "Can I make a custom Heads Up deck?",
+        "a": "Yes. Type any topic, from a TV show to your family's inside jokes, and Tadado's AI writes a deck you can play in Heads Up straight away."
+      }
+    ]
+  },
+  "imposter": {
+    "name": "Imposter",
+    "tagline": "The bluffing game: everyone knows the secret word except the imposter.",
+    "metaTitle": "Imposter Game App: Find the Spy on One Phone | Tadado",
+    "metaDescription": "Play the imposter word game on one phone. Everyone sees the secret word except the imposter. Give one-word clues, vote, unmask the spy. 3 to 12 players, no ads.",
+    "h1": "Imposter: find the spy who doesn't know the word",
+    "hook": "Pass one phone around. Everyone sees the same secret word, except the imposter, whose card is blank. Each player says one clue word, then the group votes. Bluff well and the imposter walks away with the win.",
+    "facts": [
+      { "label": "Players", "value": "3 to 12" },
+      { "label": "You need", "value": "One phone" },
+      { "label": "Style", "value": "Bluffing and deduction" }
+    ],
+    "steps": [
+      {
+        "title": "Pass the phone",
+        "body": "Add the players and choose how many imposters to hide. Each player holds the screen to see their card in secret."
+      },
+      {
+        "title": "One clue word each",
+        "body": "Take turns saying one word linked to the secret word. Too obvious helps the imposter; too vague makes you look guilty."
+      },
+      {
+        "title": "Vote and reveal",
+        "body": "Vote for the imposter. If the group is right, the imposter gets one last chance to win by guessing the secret word."
+      }
+    ],
+    "features": [
+      {
+        "title": "No cards to deal",
+        "body": "Roles are assigned in the app and shown one player at a time, so nobody sees a card they shouldn't."
+      },
+      {
+        "title": "Secret words from any deck",
+        "body": "Use the free Tadado Mix, themed decks, or an AI deck about a topic your group knows inside out."
+      },
+      {
+        "title": "Switch games without switching apps",
+        "body": "When the group wants to shout instead of scheme, jump to Forbidden Words or Heads Up with the same deck."
+      }
+    ],
+    "knownAs": "If you searched for the imposter game, Who's the Spy, Spyfall-style games or a word game like Werewolf and Mafia, this is that family of hidden-role games. In the imposter word version, nobody kills anybody: one player simply doesn't know the word and tries to blend in. Tadado's Imposter mode is an original take on the format with its own decks.",
+    "aliases": [
+      "Imposter word game",
+      "Who's the spy",
+      "Find the spy",
+      "Hidden role game",
+      "Bluffing game"
+    ],
+    "faq": [
+      {
+        "q": "How do you play the imposter game?",
+        "a": "Everyone except the imposter sees the same secret word. Each player says one clue word, then the group votes on who the imposter is. A caught imposter can still win by guessing the word."
+      },
+      {
+        "q": "Is it like Spyfall or Werewolf?",
+        "a": "It belongs to the same family of hidden-role bluffing games. Unlike Spyfall there are no locations or questions, and unlike Werewolf there is no night phase: just one secret word and one clue word each."
+      },
+      {
+        "q": "How many people can play Imposter?",
+        "a": "Tadado's Imposter mode plays with 3 to 12 people on one phone, and you can choose how many imposters to hide."
+      },
+      {
+        "q": "Is the Imposter mode free?",
+        "a": "Yes. Tadado is free to download and Imposter works with the free Tadado Mix deck. No ads and no subscription."
+      }
+    ]
+  },
+  "ai-decks": {
+    "name": "AI Decks",
+    "tagline": "Type any topic and play it in all three modes, a deck in about 30 seconds.",
+    "metaTitle": "AI Party Game Deck Generator: Make Cards on Any Topic | Tadado",
+    "metaDescription": "Type any topic and AI writes a party game deck in seconds. Play it as a Taboo-style word game, Heads Up charades or Imposter. One deck, three modes.",
+    "h1": "AI Decks: turn any topic into a party game",
+    "hook": "Type a topic, like your favorite show, a football club or your friend group's inside jokes. Tadado's AI writes a full deck in about 30 seconds, and the same deck plays in Forbidden Words, Heads Up and Imposter.",
+    "facts": [
+      { "label": "Topic", "value": "Anything you type" },
+      { "label": "Ready in", "value": "About 30 seconds" },
+      { "label": "Plays in", "value": "All three modes" }
+    ],
+    "steps": [
+      {
+        "title": "Type a topic",
+        "body": "Write anything: Marvel villains, 90s pop, your office, a country you're visiting. Add a few topics and pick a difficulty."
+      },
+      {
+        "title": "AI writes the cards",
+        "body": "Each card gets a main word plus forbidden words, so the deck is ready for every mode, in your language."
+      },
+      {
+        "title": "Play it any way you like",
+        "body": "Start in Forbidden Words, switch to Heads Up, then hide an imposter. The deck stays in your library for the next game night."
+      }
+    ],
+    "features": [
+      {
+        "title": "One deck, three games",
+        "body": "You don't build a Taboo deck and a Heads Up deck separately. Create once and play every mode."
+      },
+      {
+        "title": "Made for your group",
+        "body": "Inside jokes, niche hobbies, a birthday theme or a classroom topic: decks nobody else has, about the things you actually know."
+      },
+      {
+        "title": "Pay once, no subscription",
+        "body": "AI creations come in small one-time packs, and Tadado Full Access includes 20. No ads and nothing recurring."
+      }
+    ],
+    "knownAs": "If you searched for a Taboo card generator, custom Heads Up cards, a party game word list generator or a way to make game cards with ChatGPT, this is the built-in version. Instead of copying a list into a notes app, Tadado turns your topic into a playable deck with timers, scoring and three game modes.",
+    "aliases": [
+      "Taboo card generator",
+      "Custom Heads Up deck",
+      "AI word list",
+      "Custom party game cards",
+      "Make your own deck"
+    ],
+    "faq": [
+      {
+        "q": "How does AI deck creation work?",
+        "a": "Type one or more topics, choose a difficulty and tap Create. In about 30 seconds the AI writes a full deck with a main word and forbidden words on every card."
+      },
+      {
+        "q": "Which game modes can I play with an AI deck?",
+        "a": "All of them. Every AI deck plays in Forbidden Words, Heads Up and Imposter, so you can switch modes without making a new deck."
+      },
+      {
+        "q": "How much do AI decks cost?",
+        "a": "AI creation comes in one-time packs, starting with a small pack of 5 creations. Tadado Full Access includes every premium deck plus 20 AI creations. There is no subscription; check the store for local prices."
+      },
+      {
+        "q": "Can I make decks in my language?",
+        "a": "Yes. Tadado runs in 17 languages, and AI decks are written in the language you play in, including local names, places and pop culture."
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Verbotene Wörter",
+    "tagline": "Das Teamspiel im Tabu-Stil: Erkläre das Wort, ohne die verbotenen Wörter zu sagen.",
+    "metaTitle": "Tabu-Spiel als App für Partys | Verbotene Wörter von Tadado",
+    "metaDescription": "Spiel ein Wortspiel im Tabu-Stil mit nur einem Handy. Begriff erklären, verbotene Wörter vermeiden, die Zeit schlagen. Gratis-Deck, keine Werbung. Lade Tadado.",
+    "h1": "Verbotene Wörter: das Partyspiel im Tabu-Stil auf dem Handy",
+    "hook": "Erkläre den Begriff auf der Karte, ohne eines der verbotenen Wörter darunter zu sagen. Dein Team rät gegen die Zeit, schwere Begriffe bringen mehr Punkte, und ein Handy steuert das ganze Spiel.",
+    "facts": [
+      { "label": "Spieler", "value": "4+ in zwei Teams" },
+      { "label": "Du brauchst", "value": "Ein Handy" },
+      { "label": "Aufbau", "value": "Unter einer Minute" }
+    ],
+    "steps": [
+      { "title": "Bildet zwei Teams", "body": "Deck wählen, Teams benennen, Timer einstellen. In jeder Runde nimmt eine Person das Handy und erklärt." },
+      { "title": "Erklären, nicht sagen", "body": "Bring dein Team dazu, den Hauptbegriff zu sagen, ohne die verbotenen Wörter der Karte zu benutzen. Sagst du eins, ist die Karte weg." },
+      { "title": "Punkten und weitergeben", "body": "Tippe bei jedem Treffer auf Richtig, überspringe schwere Karten, solange du noch Pässe hast, und gib das Handy ans andere Team." }
+    ],
+    "features": [
+      { "title": "Schwerere Wörter, mehr Punkte", "body": "Jede Karte hat einen Schwierigkeitsgrad. Wag dich an die schweren, steigere deinen Multiplikator und dreh das Spiel." },
+      { "title": "Keine Karten, kein Buzzer, kein Punktezettel", "body": "Timer, Prüfung der verbotenen Wörter und Punktestand stecken in der App. Niemand muss Schiedsrichter spielen." },
+      { "title": "Decks für jede Runde", "body": "Starte mit dem kostenlosen Tadado Mix, füge Themen-Decks hinzu oder lass die KI ein Deck über deine Freunde, deine Stadt oder deine Lieblingsserie schreiben." }
+    ],
+    "knownAs": "Wenn du nach Tabu, einer Tabu-App, Tabu online oder einem Spiel mit verbotenen Wörtern gesucht hast, ist das genau diese Spielart. International heißt das Prinzip Taboo oder Tabou, und enge Verwandte sind Activity, Alias und andere Begriffe-erklären-Spiele. Verbotene Wörter von Tadado ist eine eigene Version dieses Formats, gemacht für ein Handy und Gruppen jeder Größe.",
+    "aliases": ["Tabu-ähnliches Spiel", "Verbotene Wörter Spiel", "Begriffe erklären", "Wörter raten", "Teamspiel mit Wörtern"],
+    "faq": [
+      { "q": "Ist Verbotene Wörter dasselbe wie Tabu?", "a": "Es spielt sich im selben Stil: Du erklärst einen Begriff, ohne die verbotenen Wörter zu sagen, während dein Team gegen die Zeit rät. Tadado ist eine unabhängige App mit eigenen Decks, eigener Wertung und eigenem Design und nicht das offizielle Tabu-Spiel." },
+      { "q": "Wie viele Spieler braucht man?", "a": "Am besten vier oder mehr, aufgeteilt in zwei Teams. Große Gruppen klappen auch: einfach größere Teams bilden und das Handy weitergeben." },
+      { "q": "Gibt es eine kostenlose Tabu-App ohne Werbung?", "a": "Ja. Tadado ist mit dem Tadado Mix kostenlos, ohne Werbung und ohne Abo. Themen-Decks und KI-Decks sind optionale Einmalkäufe." },
+      { "q": "Können wir eigene Tabu-Karten erstellen?", "a": "Ja. Gib ein beliebiges Thema ein, und die KI von Tadado schreibt ein komplettes Deck mit Hauptbegriff und verbotenen Wörtern auf jeder Karte. Du kannst es sofort in Verbotene Wörter, Heads Up oder Hochstapler spielen." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "Stirnraten mit dem Handy: Freunde geben Hinweise, du kippst, wenn du es hast.",
+    "metaTitle": "Stirnraten-Spiel im Heads-Up-Stil als App | Kostenlos mit Tadado",
+    "metaDescription": "Handy an die Stirn, Freunde rufen Hinweise, kippen zum Punkten. Spiel Stirnraten im Heads-Up-Stil mit Gratis-Decks, ohne Werbung und mit KI-Decks zu jedem Thema.",
+    "h1": "Heads Up: Stirnraten mit dem Handy für jede Runde",
+    "hook": "Halte das Handy an die Stirn. Alle anderen sehen den Begriff und geben dir Hinweise, spielen ihn vor oder singen ihn. Nach unten kippen, wenn du es hast, nach oben zum Überspringen, und gegen die Zeit raten.",
+    "facts": [
+      { "label": "Spieler", "value": "2 oder mehr" },
+      { "label": "Du brauchst", "value": "Ein Handy" },
+      { "label": "Runde", "value": "Schnell und mit Timer" }
+    ],
+    "steps": [
+      { "title": "Handy an die Stirn", "body": "Wähle ein Deck und halte das Handy quer an die Stirn, mit dem Bildschirm zu deinen Freunden." },
+      { "title": "Freunde geben Hinweise", "body": "Sie beschreiben, spielen oder summen den Begriff auf dem Bildschirm. Du siehst ihn nicht, also hör gut zu und ruf deine Tipps." },
+      { "title": "Kippen zum Punkten oder Passen", "body": "Kippe das Handy nach unten bei einem Treffer und nach oben zum Überspringen. Ist die Zeit um, kommt der Nächste dran." }
+    ],
+    "features": [
+      { "title": "Für Kinder, Familien und Partys", "body": "Kein Vorlesen, keine Teams nötig. Wer einen Tipp rufen kann, spielt mit: ideal als Familienspiel." },
+      { "title": "Dieselben Decks wie Verbotene Wörter", "body": "Jedes Tadado-Deck läuft auch in Heads Up, so wechselt die Runde vom Erklären zum Raten, ohne neue Karten zu wählen." },
+      { "title": "Jedes Thema, das du willst", "body": "Filme, Anime, Fußball, dein Büro oder dein Gruppenchat: Die KI baut in Sekunden ein Heads-Up-Deck zu jedem Thema." }
+    ],
+    "knownAs": "Wenn du nach Heads Up, einer Heads-Up-App, Stirnraten oder Scharade mit dem Handy gesucht hast, ist das genau diese Spielart. Bekannt ist sie auch als Wer bin ich?, Zettel auf der Stirn oder Stirnband-Spiel, und sie stammt von der klassischen Scharade und Pantomime ab. Der Heads-Up-Modus von Tadado ist eine eigene Version mit eigenen Decks und KI-Decks.",
+    "aliases": ["Stirnraten", "Wer bin ich Spiel", "Scharade mit dem Handy", "Begriffe raten", "Stirnband-Spiel"],
+    "faq": [
+      { "q": "Ist das die offizielle Heads Up!-App?", "a": "Nein. Tadado ist eine unabhängige Partyspiel-App mit einem Modus im Heads-Up-Stil. Du spielst genauso, Handy an der Stirn und Kippen zum Punkten, aber mit Tadados eigenen Decks und KI-Decks." },
+      { "q": "Wie spielt man Heads Up mit nur einem Handy?", "a": "Eine Person hält das Handy an die Stirn, die anderen geben Hinweise zum Begriff auf dem Bildschirm. Nach unten kippen bei Treffern, nach oben zum Passen, und nach Ablauf der Zeit das Handy weitergeben." },
+      { "q": "Ist der Heads-Up-Modus von Tadado kostenlos?", "a": "Ja. Lade Tadado kostenlos und spiel mit dem Tadado Mix. Keine Werbung, kein Abo; zusätzliche Themen-Decks und KI-Decks sind optionale Einmalkäufe." },
+      { "q": "Kann ich ein eigenes Heads-Up-Deck erstellen?", "a": "Ja. Gib ein beliebiges Thema ein, von einer Serie bis zu Familien-Insidern, und die KI von Tadado schreibt ein Deck, das du sofort in Heads Up spielen kannst." }
+    ]
+  },
+  "imposter": {
+    "name": "Hochstapler",
+    "tagline": "Das Bluffspiel: Alle kennen das geheime Wort, nur der Hochstapler nicht.",
+    "metaTitle": "Imposter-Spiel als App: Finde den Spion mit einem Handy | Tadado",
+    "metaDescription": "Spiel das Imposter-Wortspiel mit einem Handy. Alle sehen das geheime Wort, nur der Hochstapler nicht. Ein Hinweiswort pro Person, abstimmen, Spion enttarnen. 3 bis 12 Spieler, ohne Werbung.",
+    "h1": "Hochstapler: Finde den Spion, der das Wort nicht kennt",
+    "hook": "Gebt ein Handy reihum weiter. Alle sehen dasselbe geheime Wort, nur der Hochstapler bekommt eine leere Karte. Jede Person sagt ein Hinweiswort, dann stimmt die Gruppe ab. Blufft der Hochstapler gut, gewinnt er.",
+    "facts": [
+      { "label": "Spieler", "value": "3 bis 12" },
+      { "label": "Du brauchst", "value": "Ein Handy" },
+      { "label": "Stil", "value": "Bluffen und Kombinieren" }
+    ],
+    "steps": [
+      { "title": "Handy herumgeben", "body": "Spieler eintragen und wählen, wie viele Hochstapler versteckt werden. Jede Person hält den Bildschirm gedrückt, um ihre Karte geheim zu sehen." },
+      { "title": "Ein Hinweis pro Person", "body": "Reihum ein Wort sagen, das zum geheimen Wort passt. Zu offensichtlich hilft dem Hochstapler, zu vage macht dich verdächtig." },
+      { "title": "Abstimmen und aufdecken", "body": "Stimmt über den Hochstapler ab. Liegt die Gruppe richtig, hat er eine letzte Chance: das geheime Wort erraten und trotzdem gewinnen." }
+    ],
+    "features": [
+      { "title": "Keine Karten austeilen", "body": "Die App verteilt die Rollen und zeigt sie jeder Person einzeln, so sieht niemand eine Karte, die er nicht sehen soll." },
+      { "title": "Geheime Wörter aus jedem Deck", "body": "Nutze den kostenlosen Tadado Mix, Themen-Decks oder ein KI-Deck zu einem Thema, das deine Runde in- und auswendig kennt." },
+      { "title": "Spiel wechseln, ohne die App zu wechseln", "body": "Will die Runde lieber rufen als intrigieren, wechsle mit demselben Deck zu Verbotene Wörter oder Heads Up." }
+    ],
+    "knownAs": "Wenn du nach dem Imposter-Spiel, Wer ist der Spion?, Spielen wie Spyfall oder etwas wie Werwolf und Mafia gesucht hast, ist das diese Familie von Spielen mit geheimen Rollen. In der Wort-Variante wird niemand ausgeschaltet: Eine Person kennt das Wort einfach nicht und versucht, nicht aufzufallen. Der Hochstapler-Modus von Tadado ist eine eigene Version mit eigenen Decks.",
+    "aliases": ["Imposter-Spiel", "Wer ist der Spion", "Finde den Spion", "Spiel mit geheimen Rollen", "Bluffspiel"],
+    "faq": [
+      { "q": "Wie spielt man das Imposter-Spiel?", "a": "Alle außer dem Hochstapler sehen dasselbe geheime Wort. Jede Person sagt ein Hinweiswort, dann stimmt die Gruppe ab, wer der Hochstapler ist. Wird er erwischt, kann er durch Erraten des Wortes noch gewinnen." },
+      { "q": "Ist das wie Spyfall oder Werwolf?", "a": "Es gehört zur selben Familie von Bluffspielen mit geheimen Rollen. Anders als bei Spyfall gibt es keine Orte oder Fragen und anders als bei Werwolf keine Nachtphase: nur ein geheimes Wort und einen Hinweis pro Person." },
+      { "q": "Wie viele können Hochstapler spielen?", "a": "Der Hochstapler-Modus von Tadado läuft mit 3 bis 12 Personen auf einem Handy, und du wählst, wie viele Hochstapler versteckt werden." },
+      { "q": "Ist der Hochstapler-Modus kostenlos?", "a": "Ja. Tadado ist kostenlos und Hochstapler funktioniert mit dem kostenlosen Tadado Mix. Keine Werbung, kein Abo." }
+    ]
+  },
+  "ai-decks": {
+    "name": "KI-Decks",
+    "tagline": "Gib ein beliebiges Thema ein und spiel es in allen drei Modi: ein Deck in rund 30 Sekunden.",
+    "metaTitle": "KI-Generator für Partyspiel-Decks: Karten zu jedem Thema | Tadado",
+    "metaDescription": "Gib ein Thema ein und die KI schreibt in Sekunden ein Spieldeck. Spiel es im Tabu-Stil, als Heads Up oder Hochstapler. Ein Deck, drei Modi.",
+    "h1": "KI-Decks: Mach aus jedem Thema ein Partyspiel",
+    "hook": "Gib ein Thema ein, zum Beispiel deine Lieblingsserie, deinen Fußballverein oder die Insider deiner Clique. Die KI von Tadado schreibt in rund 30 Sekunden ein komplettes Deck, und dasselbe Deck läuft in Verbotene Wörter, Heads Up und Hochstapler.",
+    "facts": [
+      { "label": "Thema", "value": "Alles, was du eingibst" },
+      { "label": "Fertig in", "value": "Rund 30 Sekunden" },
+      { "label": "Spielbar in", "value": "Allen drei Modi" }
+    ],
+    "steps": [
+      { "title": "Thema eingeben", "body": "Egal was: Marvel-Schurken, 90er-Pop, dein Büro, das Land deiner nächsten Reise. Füge ein paar Themen hinzu und wähle den Schwierigkeitsgrad." },
+      { "title": "Die KI schreibt die Karten", "body": "Jede Karte bekommt einen Hauptbegriff und verbotene Wörter, so ist das Deck in deiner Sprache für jeden Modus bereit." },
+      { "title": "Spiel es, wie du willst", "body": "Starte mit Verbotene Wörter, wechsle zu Heads Up und versteck dann einen Hochstapler. Das Deck bleibt für den nächsten Spieleabend in deiner Bibliothek." }
+    ],
+    "features": [
+      { "title": "Ein Deck, drei Spiele", "body": "Kein separates Tabu- und Heads-Up-Deck nötig. Einmal erstellen, in jedem Modus spielen." },
+      { "title": "Gemacht für deine Runde", "body": "Insider, Nischenhobbys, ein Geburtstagsmotto oder ein Unterrichtsthema: Decks, die sonst niemand hat, über Dinge, die ihr wirklich kennt." },
+      { "title": "Einmal zahlen, kein Abo", "body": "KI-Erstellungen gibt es in kleinen Einmal-Paketen, und Tadado Full Access enthält 20. Keine Werbung, nichts Wiederkehrendes." }
+    ],
+    "knownAs": "Wenn du nach einem Tabu-Karten-Generator, eigenen Heads-Up-Karten, einem Wortlisten-Generator für Partyspiele oder Spielkarten mit ChatGPT gesucht hast, ist das die eingebaute Version. Statt eine Liste in die Notizen zu kopieren, macht Tadado aus deinem Thema ein spielbares Deck mit Timer, Wertung und drei Spielmodi.",
+    "aliases": ["Tabu-Karten-Generator", "Eigenes Heads-Up-Deck", "KI-Wortliste", "Eigene Partyspiel-Karten", "Eigenes Deck erstellen"],
+    "faq": [
+      { "q": "Wie funktioniert die KI-Deck-Erstellung?", "a": "Gib ein oder mehrere Themen ein, wähle den Schwierigkeitsgrad und tippe auf Erstellen. In rund 30 Sekunden schreibt die KI ein komplettes Deck mit Hauptbegriff und verbotenen Wörtern auf jeder Karte." },
+      { "q": "In welchen Modi kann ich ein KI-Deck spielen?", "a": "In allen. Jedes KI-Deck läuft in Verbotene Wörter, Heads Up und Hochstapler, du kannst also den Modus wechseln, ohne ein neues Deck zu erstellen." },
+      { "q": "Was kosten KI-Decks?", "a": "KI-Erstellungen gibt es als Einmal-Pakete, beginnend mit einem kleinen Paket für 5 Erstellungen. Tadado Full Access enthält alle Premium-Decks plus 20 KI-Erstellungen. Kein Abo; lokale Preise findest du im Store." },
+      { "q": "Kann ich Decks auf Deutsch erstellen?", "a": "Ja. Tadado läuft in 17 Sprachen, und KI-Decks werden in der Sprache geschrieben, in der du spielst, mit lokalen Namen, Orten und Popkultur." }
+    ]
+  }
+}

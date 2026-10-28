@@ -1,0 +1,270 @@
+{
+  "forbidden-words": {
+    "name": "Yasaklı Kelimeler",
+    "tagline": "Tabu tarzı takım oyunu: kelimeyi yasaklı kelimeleri söylemeden anlat.",
+    "metaTitle": "Tabu Oyunu Uygulaması: Telefonda Yasaklı Kelimeler | Tadado",
+    "metaDescription": "Tabu tarzı kelime oyununu tek telefonla oyna. Kelimeyi anlat, yasaklı kelimelerden kaç, süreyi yen. Ücretsiz deste, reklam yok. Tadado'yu indir.",
+    "h1": "Yasaklı Kelimeler: telefondaki Tabu tarzı parti oyunu",
+    "hook": "Kartın üstündeki kelimeyi, altındaki yasaklı kelimelerin hiçbirini söylemeden anlat. Takımın süreye karşı tahmin eder, zor kelimeler daha çok puan getirir ve bütün oyunu tek telefon yönetir.",
+    "facts": [
+      { "label": "Oyuncu", "value": "İki takımda 4+" },
+      { "label": "Gereken", "value": "Tek telefon" },
+      { "label": "Kurulum", "value": "1 dakikadan kısa" }
+    ],
+    "steps": [
+      {
+        "title": "İki takıma ayrılın",
+        "body": "Desteyi seçin, takımlara isim verin ve süreyi ayarlayın. Her turda bir oyuncu telefonu alır ve anlatıcı olur."
+      },
+      {
+        "title": "Anlat ama söyleme",
+        "body": "Takımına ana kelimeyi, karttaki yasaklı kelimeleri kullanmadan buldur. Birini söylersen kart yanar."
+      },
+      {
+        "title": "Puanla, telefonu devret",
+        "body": "Her doğru tahminde Doğru'ya bas, zor kartları pas hakkın varken geç, sonra telefonu diğer takıma ver."
+      }
+    ],
+    "features": [
+      {
+        "title": "Zor kelime, büyük puan",
+        "body": "Her kartın bir zorluk seviyesi var. Zor olanları al, çarpanını büyüt ve kıl payı maçı çevir."
+      },
+      {
+        "title": "Kart, düdük, puan kağıdı yok",
+        "body": "Süre, yasaklı kelime kontrolü ve skor tablosu uygulamada. Kimsenin hakemlik yapması gerekmez."
+      },
+      {
+        "title": "Her gruba bir deste",
+        "body": "Ücretsiz Tadado Mix ile başla, temalı desteler ekle ya da yapay zekaya arkadaşların, şehrin veya sevdiğin dizi hakkında deste yazdır."
+      }
+    ],
+    "knownAs": "Tabu oyna, Tabu uygulaması, online Tabu ya da yasaklı kelime oyunu diye aradıysan, aradığın oyun tarzı bu. Aynı fikir bazı ülkelerde Taboo veya Tabou olarak bilinir; Alias ve kelime anlatma oyunları da yakın akrabalarıdır. Tadado'nun Yasaklı Kelimeler modu bu formatın tek telefona ve her grup büyüklüğüne göre tasarlanmış özgün bir yorumudur.",
+    "aliases": [
+      "Tabu tarzı oyun",
+      "Yasaklı kelime oyunu",
+      "Kelime anlatma oyunu",
+      "Kelime tahmin oyunu",
+      "Takım kelime oyunu"
+    ],
+    "faq": [
+      {
+        "q": "Yasaklı Kelimeler, Tabu ile aynı mı?",
+        "a": "Aynı tarzda oynanır: takımın süreye karşı tahmin ederken kelimeyi yasaklı ipuçlarını söylemeden anlatırsın. Tadado kendi desteleri, puanlaması ve tasarımı olan bağımsız bir uygulamadır, resmi Tabu oyunu değildir."
+      },
+      {
+        "q": "Kaç oyuncu gerekir?",
+        "a": "En iyisi iki takıma bölünmüş 4 veya daha fazla oyuncu. Kalabalık gruplarda da çok iyi çalışır: takımları büyütün ve telefonu dolaştırmaya devam edin."
+      },
+      {
+        "q": "Reklamsız ücretsiz bir Tabu uygulaması var mı?",
+        "a": "Evet. Tadado ücretsiz Tadado Mix destesiyle ücretsiz indirilir, reklam ve abonelik yoktur. Temalı desteler ve yapay zeka deste oluşturma isteğe bağlı tek seferlik satın alımlardır."
+      },
+      {
+        "q": "Kendi Tabu kartlarımızı yapabilir miyiz?",
+        "a": "Evet. Herhangi bir konu yaz, Tadado'nun yapay zekası her kart için ana kelime ve yasaklı kelimelerle tam bir deste hazırlasın. Hemen Yasaklı Kelimeler, Alnında Tahmin veya Casus modunda oynayabilirsin."
+      }
+    ]
+  },
+  "heads-up": {
+    "name": "Alnında Tahmin",
+    "tagline": "Alında telefon oyunu: arkadaşların ipucu verir, bildiğinde telefonu eğersin.",
+    "metaTitle": "Heads Up Tarzı Alnında Tahmin Oyunu | Tadado ile Ücretsiz Oyna",
+    "metaDescription": "Telefon alnında, arkadaşların ipucu bağırıyor, bilince eğ. Heads Up tarzı tahmin oyununu ücretsiz destelerle, reklamsız ve her konuda yapay zeka destesiyle oyna.",
+    "h1": "Alnında Tahmin: her grup için alında telefon oyunu",
+    "hook": "Telefonu alnına koy. Diğer herkes kelimeyi görür ve sana ipucu verir, canlandırır ya da şarkısını söyler. Bildiğinde aşağı eğ, geçmek için yukarı eğ ve süreyle yarış.",
+    "facts": [
+      { "label": "Oyuncu", "value": "2 veya daha fazla" },
+      { "label": "Gereken", "value": "Tek telefon" },
+      { "label": "Tur", "value": "Hızlı ve süreli" }
+    ],
+    "steps": [
+      {
+        "title": "Telefon alnına",
+        "body": "Desteyi seç ve telefonu yatay tutup ekranı arkadaşlarına dönük şekilde alnına koy."
+      },
+      {
+        "title": "Arkadaşların ipucu verir",
+        "body": "Ekrandaki kelimeyi anlatır, canlandırır ya da mırıldanırlar. Sen göremezsin, hızlı dinle ve tahminlerini bağır."
+      },
+      {
+        "title": "Eğ, puanla ya da geç",
+        "body": "Doğru bildiğinde telefonu aşağı, geçmek için yukarı eğ. Süre bitince telefonu sıradaki oyuncuya ver."
+      }
+    ],
+    "features": [
+      {
+        "title": "Çocuklar, aileler ve partiler için",
+        "body": "Sesli okuma yok, takım şart değil. Tahmin bağırabilen herkes oynar; bu yüzden harika bir aile oyunudur."
+      },
+      {
+        "title": "Yasaklı Kelimeler ile aynı desteler",
+        "body": "Her Tadado destesi Alnında Tahmin'de de oynanır; grup yeni kart seçmeden anlatmaktan tahmine geçebilir."
+      },
+      {
+        "title": "İstediğin her konu",
+        "body": "Filmler, anime, futbol, ofisin ya da grup sohbetin: yapay zeka saniyeler içinde her konuda deste hazırlar."
+      }
+    ],
+    "knownAs": "Heads Up, Heads Up uygulaması, alında telefon oyunu ya da telefonla sessiz sinema diye aradıysan, aradığın oyun tarzı bu. Ben Kimim, Alnındaki Kim gibi adlarla da bilinir ve klasik sessiz sinemadan doğmuştur. Tadado'nun Alnında Tahmin modu bu formatın kendi desteleri ve yapay zeka desteleriyle özgün bir yorumudur.",
+    "aliases": [
+      "Alında telefon oyunu",
+      "Ben kimim oyunu",
+      "Telefonla sessiz sinema",
+      "Kelime tahmin oyunu",
+      "Alın oyunu"
+    ],
+    "faq": [
+      {
+        "q": "Bu resmi Heads Up! uygulaması mı?",
+        "a": "Hayır. Tadado, Heads Up tarzı bir modu olan bağımsız bir parti oyunu uygulamasıdır. Aynı şekilde oynarsın: telefon alnında, puan için eğersin; desteler Tadado'nun kendi desteleri ve yapay zeka desteleridir."
+      },
+      {
+        "q": "Tek telefonla Alnında Tahmin nasıl oynanır?",
+        "a": "Bir oyuncu telefonu alnında tutar, diğerleri ekrandaki kelime için ipucu verir. Doğru tahminde aşağı, geçmek için yukarı eğ; süre bitince telefonu devret."
+      },
+      {
+        "q": "Tadado'nun Alnında Tahmin modu ücretsiz mi?",
+        "a": "Evet. Tadado'yu ücretsiz indir ve ücretsiz Tadado Mix destesiyle oyna. Reklam ve abonelik yok; ek temalı desteler ve yapay zeka desteleri isteğe bağlı tek seferlik satın alımlardır."
+      },
+      {
+        "q": "Kendi destemi yapabilir miyim?",
+        "a": "Evet. Bir diziden ailenin iç şakalarına kadar herhangi bir konu yaz, Tadado'nun yapay zekası hemen Alnında Tahmin'de oynayabileceğin bir deste hazırlar."
+      }
+    ]
+  },
+  "imposter": {
+    "name": "Casus",
+    "tagline": "Blöf oyunu: casus hariç herkes gizli kelimeyi bilir.",
+    "metaTitle": "Casus Oyunu Uygulaması: Tek Telefonda Casusu Bul | Tadado",
+    "metaDescription": "İmposter kelime oyununu tek telefonla oyna. Casus hariç herkes gizli kelimeyi görür. Tek kelimelik ipucu ver, oyla, casusu yakala. 3-12 oyuncu, reklamsız.",
+    "h1": "Casus: kelimeyi bilmeyen kişiyi bul",
+    "hook": "Tek telefonu elden ele dolaştırın. Herkes aynı gizli kelimeyi görür, kartı boş olan casus hariç. Her oyuncu tek kelimelik bir ipucu verir, sonra grup oylar. Casus iyi blöf yaparsa oyunu o kazanır.",
+    "facts": [
+      { "label": "Oyuncu", "value": "3 ila 12" },
+      { "label": "Gereken", "value": "Tek telefon" },
+      { "label": "Tarz", "value": "Blöf ve çıkarım" }
+    ],
+    "steps": [
+      {
+        "title": "Telefonu dolaştırın",
+        "body": "Oyuncuları ekleyin ve kaç casus saklanacağını seçin. Her oyuncu kartını gizlice görmek için ekrana basılı tutar."
+      },
+      {
+        "title": "Herkese tek ipucu",
+        "body": "Sırayla gizli kelimeyle ilgili tek bir kelime söyleyin. Fazla belli ederseniz casusa yardım edersiniz, fazla belirsiz olursanız şüphe çekersiniz."
+      },
+      {
+        "title": "Oylayın ve açıklayın",
+        "body": "Casusu oylayın. Grup doğru bilirse casusun gizli kelimeyi tahmin ederek kazanmak için son bir şansı olur."
+      }
+    ],
+    "features": [
+      {
+        "title": "Kart dağıtmak yok",
+        "body": "Roller uygulamada atanır ve her oyuncuya tek tek gösterilir; kimse görmemesi gereken bir kartı görmez."
+      },
+      {
+        "title": "Her desteden gizli kelime",
+        "body": "Ücretsiz Tadado Mix'i, temalı desteleri ya da grubunun çok iyi bildiği bir konuda yapay zeka destesini kullan."
+      },
+      {
+        "title": "Uygulama değiştirmeden oyun değiştir",
+        "body": "Grup entrika yerine bağırmak istediğinde aynı desteyle Yasaklı Kelimeler veya Alnında Tahmin'e geç."
+      }
+    ],
+    "knownAs": "İmposter oyunu, casus kim oyunu, Spyfall tarzı oyunlar ya da Vampir Köylü ve Mafya gibi bir oyun aradıysan, bu gizli rol oyunları ailesidir. Kelime versiyonunda kimse kimseyi elemez: bir oyuncu kelimeyi bilmez ve fark edilmemeye çalışır. Tadado'nun Casus modu bu formatın kendi desteleriyle özgün bir yorumudur.",
+    "aliases": [
+      "İmposter oyunu",
+      "Casus kim",
+      "Casusu bul",
+      "Gizli rol oyunu",
+      "Blöf oyunu"
+    ],
+    "faq": [
+      {
+        "q": "Casus oyunu nasıl oynanır?",
+        "a": "Casus hariç herkes aynı gizli kelimeyi görür. Her oyuncu tek kelimelik bir ipucu verir, sonra grup casusun kim olduğunu oylar. Yakalanan casus kelimeyi tahmin ederek yine de kazanabilir."
+      },
+      {
+        "q": "Spyfall veya Vampir Köylü gibi mi?",
+        "a": "Aynı gizli rol ve blöf oyunları ailesindendir. Spyfall'dan farklı olarak mekan ya da soru yoktur, Vampir Köylü'den farklı olarak gece aşaması yoktur: sadece bir gizli kelime ve herkese bir ipucu."
+      },
+      {
+        "q": "Casus modunu kaç kişi oynayabilir?",
+        "a": "Tadado'nun Casus modu tek telefonda 3 ila 12 kişiyle oynanır ve kaç casus saklanacağını seçebilirsin."
+      },
+      {
+        "q": "Casus modu ücretsiz mi?",
+        "a": "Evet. Tadado ücretsiz indirilir ve Casus ücretsiz Tadado Mix destesiyle çalışır. Reklam ve abonelik yok."
+      }
+    ]
+  },
+  "ai-decks": {
+    "name": "Yapay Zeka Desteleri",
+    "tagline": "Herhangi bir konu yaz ve üç modda da oyna; deste yaklaşık 30 saniyede hazır.",
+    "metaTitle": "Yapay Zeka ile Parti Oyunu Destesi: Her Konuda Kart Üret | Tadado",
+    "metaDescription": "Herhangi bir konu yaz, yapay zeka saniyeler içinde parti oyunu destesi hazırlasın. Tabu tarzı, Alnında Tahmin veya Casus olarak oyna. Tek deste, üç mod.",
+    "h1": "Yapay Zeka Desteleri: her konuyu bir parti oyununa çevir",
+    "hook": "Bir konu yaz: sevdiğin dizi, tuttuğun takım ya da arkadaş grubunun iç şakaları. Tadado'nun yapay zekası yaklaşık 30 saniyede tam bir deste yazar ve aynı deste Yasaklı Kelimeler, Alnında Tahmin ve Casus'ta oynanır.",
+    "facts": [
+      { "label": "Konu", "value": "Ne yazarsan" },
+      { "label": "Hazır olma", "value": "Yaklaşık 30 saniye" },
+      { "label": "Oynandığı yer", "value": "Üç modun hepsi" }
+    ],
+    "steps": [
+      {
+        "title": "Bir konu yaz",
+        "body": "Ne istersen: Marvel kötüleri, 90'lar pop, ofisin, gideceğin ülke. Birkaç konu ekle ve zorluk seç."
+      },
+      {
+        "title": "Yapay zeka kartları yazar",
+        "body": "Her kartta bir ana kelime ve yasaklı kelimeler olur; deste her mod için senin dilinde hazırdır."
+      },
+      {
+        "title": "İstediğin gibi oyna",
+        "body": "Yasaklı Kelimeler ile başla, Alnında Tahmin'e geç, sonra bir casus sakla. Deste bir sonraki oyun gecesi için kütüphanende kalır."
+      }
+    ],
+    "features": [
+      {
+        "title": "Tek deste, üç oyun",
+        "body": "Ayrı ayrı Tabu ve Alnında Tahmin destesi hazırlamazsın. Bir kez oluştur, her modda oyna."
+      },
+      {
+        "title": "Grubuna özel",
+        "body": "İç şakalar, niş hobiler, doğum günü teması ya da ders konusu: kimsenin sahip olmadığı, gerçekten bildiğiniz şeyler hakkında desteler."
+      },
+      {
+        "title": "Bir kez öde, abonelik yok",
+        "body": "Yapay zeka hakları küçük tek seferlik paketlerle gelir, Tadado Full Access 20 hak içerir. Reklam yok, tekrarlayan ödeme yok."
+      }
+    ],
+    "knownAs": "Tabu kartı oluşturucu, kendi Heads Up kartlarını yapma, parti oyunu kelime listesi ya da ChatGPT ile oyun kartı hazırlama diye aradıysan, bu işin uygulamaya gömülü hali. Bir listeyi not uygulamasına kopyalamak yerine Tadado konunu süre, puan ve üç oyun moduyla oynanabilir bir desteye çevirir.",
+    "aliases": [
+      "Tabu kartı oluşturucu",
+      "Kendi Tabu kartlarını yap",
+      "Yapay zeka kelime listesi",
+      "Özel parti oyunu kartları",
+      "Kendi desteni yap"
+    ],
+    "faq": [
+      {
+        "q": "Yapay zeka ile deste oluşturma nasıl çalışır?",
+        "a": "Bir veya birkaç konu yaz, zorluk seç ve Oluştur'a bas. Yaklaşık 30 saniyede yapay zeka her kartta ana kelime ve yasaklı kelimeler olan tam bir deste yazar."
+      },
+      {
+        "q": "Yapay zeka destesiyle hangi modları oynayabilirim?",
+        "a": "Hepsini. Her yapay zeka destesi Yasaklı Kelimeler, Alnında Tahmin ve Casus'ta oynanır; yeni deste yapmadan mod değiştirebilirsin."
+      },
+      {
+        "q": "Yapay zeka desteleri ne kadar?",
+        "a": "Yapay zeka hakları tek seferlik paketlerle gelir, en küçüğü 5 oluşturma hakkıdır. Tadado Full Access tüm premium desteleri ve 20 yapay zeka hakkını içerir. Abonelik yoktur; güncel fiyatlar için mağazaya bak."
+      },
+      {
+        "q": "Türkçe deste yapabilir miyim?",
+        "a": "Evet. Tadado 17 dilde çalışır ve yapay zeka desteleri oynadığın dilde, yerel isimler, yerler ve popüler kültürle yazılır."
+      }
+    ]
+  }
+}

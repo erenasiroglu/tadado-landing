@@ -5,6 +5,7 @@ import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { BRAND } from "@/lib/brand";
 import { getDecksHubHref } from "@/lib/deck-catalog";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
+import { modePageHref, modesHubHref } from "@/lib/mode-pages";
 import { SOCIAL_LINKS } from "@/lib/social";
 
 import { SocialIconLink } from "./SocialIconLink";
@@ -65,8 +66,13 @@ export function Footer({ locale, dict }: FooterProps) {
 
           <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 xl:grid-cols-5">
             <FooterColumn title={dict.footer.playTitle}>
-              <FooterLink href="#modes">{dict.nav.play}</FooterLink>
-              <FooterLink href="#ai-decks">{dict.nav.aiDecks}</FooterLink>
+              <FooterLink href={modesHubHref(locale)}>{dict.modePages.breadcrumb}</FooterLink>
+              <FooterLink href={modePageHref(locale, "forbidden-words")}>
+                {dict.modes.tabooTitle}
+              </FooterLink>
+              <FooterLink href={modePageHref(locale, "heads-up")}>{dict.modes.headsUpTitle}</FooterLink>
+              <FooterLink href={modePageHref(locale, "imposter")}>{dict.modes.imposterTitle}</FooterLink>
+              <FooterLink href={modePageHref(locale, "ai-decks")}>{dict.nav.aiDecks}</FooterLink>
               <FooterLink href={getDecksHubHref(locale)}>{dict.nav.decks}</FooterLink>
               <FooterLink href="#community">{dict.nav.community}</FooterLink>
               <FooterLink href="#how-it-works">{dict.nav.howItWorks}</FooterLink>

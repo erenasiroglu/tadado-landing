@@ -1124,5 +1124,23 @@
     "title": "Édition Halloween : mode Imposteur et un deck d'horreur gratuit",
     "cta": "Voter",
     "hide": "Masquer"
+  },
+  "modePages": {
+    "eyebrow": "Mode de jeu",
+    "breadcrumb": "Modes de jeu",
+    "hubTitle": "Toutes les façons de jouer à Tadado",
+    "hubSubtitle": "Un jeu de mots façon Tabou, la devinette téléphone sur le front, un jeu de bluff et des decks IA sur n'importe quel thème. Une appli, un téléphone, toute la bande.",
+    "hubMetaTitle": "Modes de jeu de soirée : façon Tabou, Heads Up, Imposteur et decks IA | Tadado",
+    "hubMetaDescription": "Découvrez les modes de Tadado : Mots interdits (façon Tabou), Heads Up, le jeu de l'Imposteur et des decks IA sur tous les thèmes. Gratuit, sans pub.",
+    "explore": "Voir comment jouer",
+    "stepsTitle": "Comment jouer à {mode}",
+    "featuresTitle": "Pourquoi jouer à {mode} sur Tadado",
+    "knownAsTitle": "Aussi recherché comme",
+    "faqTitle": "{mode} : questions",
+    "otherTitle": "Autres façons de jouer",
+    "ctaTitle": "Lancez votre soirée jeux gratuitement",
+    "ctaBody": "Téléchargez Tadado, ouvrez le deck gratuit et jouez en quelques secondes. Un seul téléphone suffit.",
+    "ctaButton": "Télécharger Tadado gratuitement",
+    "disclaimer": "Taboo (Tabou) est une marque de Hasbro. Heads Up! est une marque de Warner Bros. Entertainment Inc. Spyfall, Alias et les autres noms de jeux cités appartiennent à leurs propriétaires respectifs. Tadado est une appli indépendante, ni affiliée, ni sponsorisée, ni approuvée par eux ; ces noms servent uniquement à décrire des styles de jeu similaires."
   }
 }

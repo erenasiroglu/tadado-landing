@@ -1,11 +1,14 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { ArrowRight } from "lucide-react";
 import { AnimatePresence, m, useReducedMotion } from "motion/react";
+import Link from "next/link";
 
 import { ModeDeviceStage } from "@/components/landing/device/ModeDeviceStage";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
+import { modePageHref, type ModePageId } from "@/lib/mode-pages";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
@@ -60,6 +63,11 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
     },
   ];
   const card = dict.halloween.card;
+  const modePage: Record<GameModeFilter, ModePageId> = {
+    taboo: "forbidden-words",
+    headsup: "heads-up",
+    imposter: "imposter",
+  };
 
   const activeCopy = modes.find((mode) => mode.key === activeMode);
 
@@ -105,6 +113,16 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                   ) : null}
                 </div>
                 <p className="mt-3 max-w-md text-base text-muted-foreground">{activeCopy.body}</p>
+                <Link
+                  href={modePageHref(locale, modePage[activeMode])}
+                  className="group mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-extrabold text-ink underline-offset-4 hover:underline"
+                >
+                  {dict.modePages.explore}
+                  <ArrowRight
+                    className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 rtl:-scale-x-100"
+                    aria-hidden
+                  />
+                </Link>
                 {activeMode === "taboo" ? (
                   <div className="mt-5 max-w-md rounded-xl border border-border bg-ink/[0.06] p-3.5">
                     <p className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">

@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Mots interdits",
+    "tagline": "Le jeu d'équipe façon Tabou : faites deviner le mot sans dire les mots interdits.",
+    "metaTitle": "Appli de jeu façon Tabou pour vos soirées | Mots interdits par Tadado",
+    "metaDescription": "Jouez à un jeu de mots façon Tabou avec un seul téléphone. Faites deviner le mot, évitez les mots interdits, battez le chrono. Deck gratuit, sans pub. Téléchargez Tadado.",
+    "h1": "Mots interdits : le jeu de soirée façon Tabou sur votre téléphone",
+    "hook": "Faites deviner le mot de la carte sans prononcer aucun des mots interdits en dessous. Votre équipe devine contre la montre, les mots difficiles rapportent plus et un seul téléphone gère toute la partie.",
+    "facts": [
+      { "label": "Joueurs", "value": "4+ en deux équipes" },
+      { "label": "Il vous faut", "value": "Un téléphone" },
+      { "label": "Mise en place", "value": "Moins d'une minute" }
+    ],
+    "steps": [
+      { "title": "Formez deux équipes", "body": "Choisissez un deck, nommez les équipes et réglez le minuteur. À chaque tour, un joueur prend le téléphone et fait deviner." },
+      { "title": "Décrivez sans le dire", "body": "Faites dire le mot principal à votre équipe sans utiliser les mots interdits de la carte. Si vous en dites un, la carte est perdue." },
+      { "title": "Marquez et passez le téléphone", "body": "Touchez Correct à chaque bonne réponse, passez les cartes difficiles tant qu'il vous reste des passes, puis donnez le téléphone à l'autre équipe." }
+    ],
+    "features": [
+      { "title": "Mots plus durs, plus de points", "body": "Chaque carte a une difficulté. Osez les plus dures pour faire grimper votre multiplicateur et renverser la partie." },
+      { "title": "Ni cartes, ni buzzer, ni feuille de score", "body": "Le minuteur, la vérification des mots interdits et le tableau des scores sont dans l'appli. Personne n'a besoin d'arbitrer." },
+      { "title": "Des decks pour chaque groupe", "body": "Commencez avec le Tadado Mix gratuit, ajoutez des decks à thème ou laissez l'IA écrire un deck sur vos amis, votre ville ou votre série préférée." }
+    ],
+    "knownAs": "Si vous avez cherché Taboo, Tabou, une appli Taboo, Taboo en ligne ou un jeu de mots interdits, c'est ce style de jeu. Le même principe s'appelle Tabu dans certains pays, et ses proches cousins sont Alias, Password et les jeux où l'on fait deviner des mots. Mots interdits de Tadado est une version originale du format, pensée pour un seul téléphone et des groupes de toute taille.",
+    "aliases": ["Jeu façon Tabou", "Jeu de mots interdits", "Faire deviner un mot", "Jeu de devinettes", "Jeu de mots en équipe"],
+    "faq": [
+      { "q": "Mots interdits, c'est comme Taboo ?", "a": "Ça se joue dans le même style : vous faites deviner un mot sans dire les indices interdits pendant que votre équipe devine contre la montre. Tadado est une appli indépendante avec ses propres decks, son score et son design, et ce n'est pas le jeu officiel Taboo." },
+      { "q": "Combien de joueurs faut-il ?", "a": "Idéalement quatre ou plus, répartis en deux équipes. Ça marche aussi en grand groupe : faites des équipes plus nombreuses et continuez à faire tourner le téléphone." },
+      { "q": "Existe-t-il une appli façon Taboo gratuite et sans pub ?", "a": "Oui. Tadado est gratuit à télécharger avec le deck Tadado Mix, sans publicité ni abonnement. Les decks à thème et la création par IA sont des achats uniques optionnels." },
+      { "q": "Peut-on créer nos propres cartes Taboo ?", "a": "Oui. Tapez n'importe quel thème et l'IA de Tadado écrit un deck complet avec un mot principal et des mots interdits sur chaque carte. Jouez-le tout de suite en Mots interdits, Heads Up ou Imposteur." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "Le jeu du téléphone sur le front : vos amis donnent des indices, vous inclinez quand vous trouvez.",
+    "metaTitle": "Jeu façon Heads Up : devinez avec le téléphone sur le front | Tadado",
+    "metaDescription": "Téléphone sur le front, vos amis crient des indices, inclinez pour marquer. Jouez à un jeu façon Heads Up avec des decks gratuits, sans pub et des decks IA sur tous les thèmes.",
+    "h1": "Heads Up : le jeu de devinettes téléphone sur le front",
+    "hook": "Posez le téléphone sur votre front. Tous les autres voient le mot et vous donnent des indices, le miment ou le chantent. Inclinez vers le bas quand vous trouvez, vers le haut pour passer, et battez le chrono.",
+    "facts": [
+      { "label": "Joueurs", "value": "2 ou plus" },
+      { "label": "Il vous faut", "value": "Un téléphone" },
+      { "label": "Manche", "value": "Rapide et chronométrée" }
+    ],
+    "steps": [
+      { "title": "Téléphone sur le front", "body": "Choisissez un deck et tenez le téléphone à l'horizontale sur votre front, écran tourné vers vos amis." },
+      { "title": "Vos amis donnent des indices", "body": "Ils décrivent, miment ou fredonnent le mot à l'écran. Vous ne le voyez pas : écoutez vite et criez vos réponses." },
+      { "title": "Inclinez pour marquer ou passer", "body": "Inclinez vers le bas pour une bonne réponse et vers le haut pour passer. Quand le temps est écoulé, passez le téléphone au suivant." }
+    ],
+    "features": [
+      { "title": "Pour les enfants, les familles et les soirées", "body": "Pas besoin de lire à voix haute ni de faire des équipes. Tous ceux qui peuvent crier une réponse peuvent jouer : un super jeu en famille." },
+      { "title": "Les mêmes decks que Mots interdits", "body": "Tous les decks Tadado se jouent en Heads Up : le groupe passe de faire deviner à deviner sans choisir de nouvelles cartes." },
+      { "title": "Le thème de votre choix", "body": "Films, anime, foot, votre bureau ou votre groupe de discussion : l'IA crée un deck Heads Up sur n'importe quel thème en quelques secondes." }
+    ],
+    "knownAs": "Si vous avez cherché Heads Up, une appli Heads Up, le jeu du téléphone sur le front ou des charades sur téléphone, c'est ce style de jeu. On l'appelle aussi Qui suis-je ?, Devine qui je suis ou le jeu du bandeau, et il descend des charades et du mime classiques. Le mode Heads Up de Tadado est une version originale avec ses propres decks et la création de decks par IA.",
+    "aliases": ["Jeu du téléphone sur le front", "Qui suis-je ?", "Mime sur téléphone", "Devine le mot", "Jeu du bandeau"],
+    "faq": [
+      { "q": "Est-ce l'appli officielle Heads Up! ?", "a": "Non. Tadado est une appli de jeux de soirée indépendante avec un mode façon Heads Up. On joue de la même façon, téléphone sur le front et inclinaison pour marquer, avec les decks de Tadado et des decks IA." },
+      { "q": "Comment jouer à Heads Up avec un seul téléphone ?", "a": "Un joueur tient le téléphone sur son front pendant que les autres donnent des indices sur le mot à l'écran. Inclinez vers le bas pour une bonne réponse, vers le haut pour passer, puis passez le téléphone à la fin du temps." },
+      { "q": "Le mode Heads Up de Tadado est-il gratuit ?", "a": "Oui. Téléchargez Tadado gratuitement et jouez avec le deck Tadado Mix. Pas de pub, pas d'abonnement ; les decks à thème et les decks IA sont des achats uniques optionnels." },
+      { "q": "Puis-je créer un deck Heads Up personnalisé ?", "a": "Oui. Tapez n'importe quel thème, d'une série aux blagues de famille, et l'IA de Tadado écrit un deck jouable en Heads Up immédiatement." }
+    ]
+  },
+  "imposter": {
+    "name": "Imposteur",
+    "tagline": "Le jeu de bluff : tout le monde connaît le mot secret sauf l'imposteur.",
+    "metaTitle": "Jeu de l'Imposteur : démasquez l'espion avec un seul téléphone | Tadado",
+    "metaDescription": "Jouez au jeu de l'imposteur avec un seul téléphone. Tout le monde voit le mot secret sauf l'imposteur. Un mot d'indice chacun, un vote, l'espion démasqué. 3 à 12 joueurs, sans pub.",
+    "h1": "Imposteur : trouvez l'espion qui ne connaît pas le mot",
+    "hook": "Faites tourner un téléphone. Tout le monde voit le même mot secret, sauf l'imposteur, dont la carte est vide. Chaque joueur dit un mot d'indice, puis le groupe vote. Si l'imposteur bluffe bien, c'est lui qui gagne.",
+    "facts": [
+      { "label": "Joueurs", "value": "3 à 12" },
+      { "label": "Il vous faut", "value": "Un téléphone" },
+      { "label": "Style", "value": "Bluff et déduction" }
+    ],
+    "steps": [
+      { "title": "Faites tourner le téléphone", "body": "Ajoutez les joueurs et choisissez combien d'imposteurs cacher. Chacun maintient l'écran appuyé pour voir sa carte en secret." },
+      { "title": "Un indice chacun", "body": "À tour de rôle, dites un mot lié au mot secret. Trop évident, vous aidez l'imposteur ; trop vague, vous devenez suspect." },
+      { "title": "Votez et révélez", "body": "Votez pour l'imposteur. Si le groupe a raison, l'imposteur a une dernière chance de gagner en devinant le mot secret." }
+    ],
+    "features": [
+      { "title": "Aucune carte à distribuer", "body": "Les rôles sont attribués par l'appli et montrés à un joueur à la fois : personne ne voit une carte qu'il ne devrait pas voir." },
+      { "title": "Des mots secrets de n'importe quel deck", "body": "Utilisez le Tadado Mix gratuit, des decks à thème ou un deck IA sur un sujet que votre groupe connaît par cœur." },
+      { "title": "Changez de jeu sans changer d'appli", "body": "Quand le groupe veut crier plutôt que comploter, passez à Mots interdits ou Heads Up avec le même deck." }
+    ],
+    "knownAs": "Si vous avez cherché le jeu de l'imposteur, Undercover, qui est l'espion, des jeux type Spyfall ou un jeu comme le Loup-garou ou Mafia, c'est cette famille de jeux à rôles cachés. Dans la version avec un mot, personne n'élimine personne : un joueur ne connaît simplement pas le mot et essaie de passer inaperçu. Le mode Imposteur de Tadado est une version originale du format avec ses propres decks.",
+    "aliases": ["Jeu de l'imposteur", "Qui est l'espion", "Trouver l'espion", "Jeu à rôles cachés", "Jeu de bluff"],
+    "faq": [
+      { "q": "Comment joue-t-on à l'imposteur ?", "a": "Tout le monde sauf l'imposteur voit le même mot secret. Chacun donne un mot d'indice, puis le groupe vote pour désigner l'imposteur. Démasqué, l'imposteur peut encore gagner en devinant le mot." },
+      { "q": "Est-ce comme Spyfall ou le Loup-garou ?", "a": "C'est la même famille de jeux de bluff à rôles cachés. Contrairement à Spyfall, il n'y a ni lieux ni questions, et contrairement au Loup-garou, pas de phase de nuit : juste un mot secret et un indice chacun." },
+      { "q": "À combien peut-on jouer à l'Imposteur ?", "a": "Le mode Imposteur de Tadado se joue de 3 à 12 personnes sur un seul téléphone, et vous choisissez combien d'imposteurs cacher." },
+      { "q": "Le mode Imposteur est-il gratuit ?", "a": "Oui. Tadado est gratuit à télécharger et l'Imposteur fonctionne avec le deck gratuit Tadado Mix. Sans pub ni abonnement." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Decks IA",
+    "tagline": "Tapez n'importe quel thème et jouez-le dans les trois modes : un deck en 30 secondes environ.",
+    "metaTitle": "Générateur de decks IA pour jeux de soirée : des cartes sur tous les thèmes | Tadado",
+    "metaDescription": "Tapez un thème et l'IA écrit un deck de jeu en quelques secondes. Jouez-le façon Tabou, en Heads Up ou à l'Imposteur. Un deck, trois modes.",
+    "h1": "Decks IA : transformez n'importe quel thème en jeu de soirée",
+    "hook": "Tapez un thème : votre série préférée, un club de foot ou les blagues de votre bande. L'IA de Tadado écrit un deck complet en 30 secondes environ, et ce même deck se joue en Mots interdits, Heads Up et Imposteur.",
+    "facts": [
+      { "label": "Thème", "value": "Tout ce que vous tapez" },
+      { "label": "Prêt en", "value": "30 secondes environ" },
+      { "label": "Se joue en", "value": "Les trois modes" }
+    ],
+    "steps": [
+      { "title": "Tapez un thème", "body": "N'importe quoi : méchants Marvel, pop des années 90, votre bureau, le pays de votre prochain voyage. Ajoutez quelques thèmes et choisissez la difficulté." },
+      { "title": "L'IA écrit les cartes", "body": "Chaque carte reçoit un mot principal et des mots interdits : le deck est prêt pour tous les modes, dans votre langue." },
+      { "title": "Jouez comme vous voulez", "body": "Commencez en Mots interdits, passez en Heads Up, puis cachez un imposteur. Le deck reste dans votre bibliothèque pour la prochaine soirée." }
+    ],
+    "features": [
+      { "title": "Un deck, trois jeux", "body": "Inutile de créer un deck Tabou et un deck Heads Up séparés. Créez une fois, jouez dans tous les modes." },
+      { "title": "Fait pour votre groupe", "body": "Blagues internes, passions de niche, anniversaire à thème ou sujet de cours : des decks que personne d'autre n'a, sur ce que vous connaissez vraiment." },
+      { "title": "Payez une fois, sans abonnement", "body": "Les créations IA sont vendues en petits packs à achat unique, et Tadado Full Access en inclut 20. Pas de pub, rien de récurrent." }
+    ],
+    "knownAs": "Si vous avez cherché un générateur de cartes Taboo, des cartes Heads Up personnalisées, un générateur de listes de mots pour jeux ou comment faire des cartes avec ChatGPT, voici la version intégrée. Au lieu de copier une liste dans vos notes, Tadado transforme votre thème en deck jouable avec minuteur, score et trois modes de jeu.",
+    "aliases": ["Générateur de cartes Taboo", "Deck Heads Up personnalisé", "Liste de mots IA", "Cartes de soirée personnalisées", "Créer son propre deck"],
+    "faq": [
+      { "q": "Comment fonctionne la création de decks par IA ?", "a": "Tapez un ou plusieurs thèmes, choisissez la difficulté et touchez Créer. En 30 secondes environ, l'IA écrit un deck complet avec un mot principal et des mots interdits sur chaque carte." },
+      { "q": "Dans quels modes jouer un deck IA ?", "a": "Tous. Chaque deck IA se joue en Mots interdits, Heads Up et Imposteur : changez de mode sans créer de nouveau deck." },
+      { "q": "Combien coûtent les decks IA ?", "a": "La création IA est vendue en packs à achat unique, à partir d'un petit pack de 5 créations. Tadado Full Access inclut tous les decks premium et 20 créations IA. Aucun abonnement ; consultez le store pour les prix locaux." },
+      { "q": "Puis-je créer des decks en français ?", "a": "Oui. Tadado fonctionne en 17 langues et les decks IA sont écrits dans la langue où vous jouez, avec des noms, des lieux et une culture pop locale." }
+    ]
+  }
+}

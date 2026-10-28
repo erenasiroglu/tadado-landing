@@ -1124,5 +1124,23 @@
     "title": "Phiên bản Halloween: chế độ Kẻ mạo danh và bộ bài kinh dị miễn phí",
     "cta": "Bình chọn",
     "hide": "Ẩn"
+  },
+  "modePages": {
+    "eyebrow": "Chế độ chơi",
+    "breadcrumb": "Chế độ chơi",
+    "hubTitle": "Mọi cách chơi Tadado",
+    "hubSubtitle": "Trò đoán từ kiểu Taboo, đặt điện thoại lên trán đoán chữ, trò lừa và tìm gián điệp, cùng bộ thẻ AI về mọi chủ đề. Một ứng dụng, một điện thoại, cả nhóm cùng chơi.",
+    "hubMetaTitle": "Chế độ trò chơi tiệc: kiểu Taboo, Heads Up, Kẻ mạo danh và bộ thẻ AI | Tadado",
+    "hubMetaDescription": "Khám phá các chế độ của Tadado: Từ cấm (kiểu Taboo), Heads Up, Kẻ mạo danh và bộ thẻ AI về mọi chủ đề. Miễn phí, không quảng cáo.",
+    "explore": "Xem cách chơi",
+    "stepsTitle": "Cách chơi {mode}",
+    "featuresTitle": "Vì sao các nhóm chơi {mode} trên Tadado",
+    "knownAsTitle": "Còn được tìm kiếm là",
+    "faqTitle": "{mode}: câu hỏi",
+    "otherTitle": "Thêm cách chơi",
+    "ctaTitle": "Bắt đầu đêm trò chơi miễn phí",
+    "ctaBody": "Tải Tadado, mở bộ thẻ miễn phí và chơi ngay trong vài giây. Chỉ cần một điện thoại.",
+    "ctaButton": "Tải Tadado miễn phí",
+    "disclaimer": "Taboo là nhãn hiệu của Hasbro. Heads Up! là nhãn hiệu của Warner Bros. Entertainment Inc. Spyfall và các tên trò chơi khác được nhắc đến thuộc về chủ sở hữu tương ứng. Tadado là ứng dụng độc lập, không liên kết, không được tài trợ hay xác nhận bởi họ; các tên này chỉ dùng để mô tả những lối chơi tương tự."
   }
 }

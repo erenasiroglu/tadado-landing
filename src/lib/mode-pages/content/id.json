@@ -1,0 +1,126 @@
+{
+  "forbidden-words": {
+    "name": "Kata Terlarang",
+    "tagline": "Game tim ala Taboo: jelaskan katanya tanpa menyebut kata terlarang.",
+    "metaTitle": "Aplikasi Game Kata ala Taboo untuk Pesta | Kata Terlarang dari Tadado",
+    "metaDescription": "Main game kata ala Taboo cukup dengan satu ponsel. Jelaskan katanya, hindari kata terlarang, kalahkan waktu. Deck gratis, tanpa iklan. Unduh Tadado.",
+    "h1": "Kata Terlarang: game pesta ala Taboo di ponselmu",
+    "hook": "Jelaskan kata di kartu tanpa menyebut satu pun kata terlarang di bawahnya. Timmu menebak melawan waktu, kata sulit bernilai lebih tinggi, dan satu ponsel menjalankan seluruh permainan.",
+    "facts": [
+      { "label": "Pemain", "value": "4+ dalam dua tim" },
+      { "label": "Butuh", "value": "Satu ponsel" },
+      { "label": "Persiapan", "value": "Kurang dari semenit" }
+    ],
+    "steps": [
+      { "title": "Bagi jadi dua tim", "body": "Pilih deck, beri nama tim, dan atur timer. Tiap giliran, satu pemain memegang ponsel dan menjelaskan." },
+      { "title": "Jelaskan, jangan sebut", "body": "Buat timmu menyebut kata utama tanpa memakai kata terlarang di kartu. Sebut satu, kartunya hangus." },
+      { "title": "Cetak skor dan oper ponsel", "body": "Ketuk Benar tiap tebakan tepat, lewati kartu sulit selama masih ada jatah lewat, lalu oper ponsel ke tim lawan." }
+    ],
+    "features": [
+      { "title": "Kata lebih sulit, skor lebih besar", "body": "Setiap kartu punya tingkat kesulitan. Ambil yang sulit untuk menaikkan pengali dan membalikkan keadaan." },
+      { "title": "Tanpa kartu, bel, atau kertas skor", "body": "Timer, pengecekan kata terlarang, dan papan skor ada di aplikasi. Tak perlu ada yang jadi wasit." },
+      { "title": "Deck untuk setiap grup", "body": "Mulai dengan Tadado Mix gratis, tambah deck bertema, atau biarkan AI membuat deck tentang teman, kotamu, atau serial favoritmu." }
+    ],
+    "knownAs": "Kalau kamu mencari Taboo, aplikasi Taboo, Taboo online, atau game kata terlarang, inilah gaya permainannya. Di beberapa negara namanya Tabu atau Tabou, dan kerabat dekatnya termasuk Alias serta game tebak kata lainnya. Kata Terlarang dari Tadado adalah versi orisinal format ini, dibuat untuk satu ponsel dan grup berapa pun ukurannya.",
+    "aliases": ["Game ala Taboo", "Game kata terlarang", "Jelaskan kata", "Game tebak kata", "Game kata beregu"],
+    "faq": [
+      { "q": "Apakah Kata Terlarang sama dengan Taboo?", "a": "Gaya mainnya sama: kamu menjelaskan kata tanpa menyebut petunjuk terlarang sementara timmu menebak melawan waktu. Tadado adalah aplikasi independen dengan deck, skor, dan desain sendiri, bukan game Taboo resmi." },
+      { "q": "Butuh berapa pemain?", "a": "Paling seru empat orang atau lebih, dibagi dua tim. Grup besar juga bisa: perbesar timnya dan terus oper ponselnya." },
+      { "q": "Ada aplikasi ala Taboo gratis tanpa iklan?", "a": "Ada. Tadado gratis diunduh dengan deck Tadado Mix, tanpa iklan dan tanpa langganan. Deck bertema dan pembuatan deck AI adalah pembelian sekali bayar opsional." },
+      { "q": "Bisakah kami membuat kartu Taboo sendiri?", "a": "Bisa. Ketik topik apa pun dan AI Tadado menulis deck lengkap dengan kata utama dan kata terlarang di tiap kartu. Langsung mainkan di Kata Terlarang, Heads Up, atau Penipu." }
+    ]
+  },
+  "heads-up": {
+    "name": "Heads Up",
+    "tagline": "Game ponsel di dahi: teman memberi petunjuk, kamu memiringkan ponsel saat tahu jawabannya.",
+    "metaTitle": "Game Tebak Kata ala Heads Up dengan Ponsel di Dahi | Tadado",
+    "metaDescription": "Ponsel di dahi, teman meneriakkan petunjuk, miringkan untuk skor. Main game ala Heads Up dengan deck gratis, tanpa iklan, dan deck AI tentang topik apa pun.",
+    "h1": "Heads Up: game tebak kata dengan ponsel di dahi",
+    "hook": "Taruh ponsel di dahimu. Semua orang lain bisa melihat katanya dan memberi petunjuk, memperagakan, atau menyanyikannya. Miringkan ke bawah kalau benar, ke atas untuk lewati, dan kejar waktu.",
+    "facts": [
+      { "label": "Pemain", "value": "2 orang atau lebih" },
+      { "label": "Butuh", "value": "Satu ponsel" },
+      { "label": "Ronde", "value": "Cepat dan berwaktu" }
+    ],
+    "steps": [
+      { "title": "Ponsel ke dahi", "body": "Pilih deck dan pegang ponsel mendatar di dahi, layar menghadap teman-temanmu." },
+      { "title": "Teman memberi petunjuk", "body": "Mereka menjelaskan, memperagakan, atau menyenandungkan kata di layar. Kamu tak bisa melihatnya, jadi dengarkan cepat dan teriakkan tebakanmu." },
+      { "title": "Miringkan untuk skor atau lewati", "body": "Miringkan ponsel ke bawah saat benar dan ke atas untuk lewati. Saat waktu habis, oper ke pemain berikutnya." }
+    ],
+    "features": [
+      { "title": "Untuk anak, keluarga, dan pesta", "body": "Tak perlu membaca keras-keras dan tak wajib bertim. Siapa pun yang bisa meneriakkan tebakan bisa ikut: game keluarga yang seru." },
+      { "title": "Deck yang sama dengan Kata Terlarang", "body": "Semua deck Tadado bisa dimainkan di Heads Up, jadi grup bisa pindah dari menjelaskan ke menebak tanpa memilih kartu baru." },
+      { "title": "Topik apa pun", "body": "Film, anime, sepak bola, kantor, atau grup chat: AI membuat deck Heads Up tentang topik apa pun dalam hitungan detik." }
+    ],
+    "knownAs": "Kalau kamu mencari Heads Up, aplikasi Heads Up, game ponsel di dahi, atau tebak gaya pakai ponsel, inilah gaya permainannya. Game ini juga dikenal sebagai Siapa Aku? atau tebak kata di dahi, dan berasal dari permainan tebak gaya klasik. Mode Heads Up di Tadado adalah versi orisinal dengan deck sendiri dan deck AI.",
+    "aliases": ["Game ponsel di dahi", "Siapa aku", "Tebak gaya", "Tebak kata", "Game tebak di dahi"],
+    "faq": [
+      { "q": "Apakah ini aplikasi resmi Heads Up!?", "a": "Bukan. Tadado adalah aplikasi game pesta independen dengan mode ala Heads Up. Cara mainnya sama, ponsel di dahi dan dimiringkan untuk skor, dengan deck Tadado sendiri dan deck AI." },
+      { "q": "Bagaimana main Heads Up dengan satu ponsel?", "a": "Satu pemain menaruh ponsel di dahi sementara yang lain memberi petunjuk tentang kata di layar. Miringkan ke bawah kalau benar, ke atas untuk lewati, lalu oper ponsel saat waktu habis." },
+      { "q": "Apakah mode Heads Up di Tadado gratis?", "a": "Ya. Unduh Tadado gratis dan main dengan deck Tadado Mix. Tanpa iklan dan langganan; deck bertema dan deck AI adalah pembelian sekali bayar opsional." },
+      { "q": "Bisakah saya membuat deck Heads Up sendiri?", "a": "Bisa. Ketik topik apa pun, dari serial TV sampai lelucon keluarga, dan AI Tadado menulis deck yang langsung bisa dimainkan di Heads Up." }
+    ]
+  },
+  "imposter": {
+    "name": "Penipu",
+    "tagline": "Game gertakan: semua tahu kata rahasianya, kecuali si penipu.",
+    "metaTitle": "Game Imposter: Cari Mata-mata dengan Satu Ponsel | Tadado",
+    "metaDescription": "Main game imposter dengan satu ponsel. Semua melihat kata rahasia kecuali si penipu. Beri satu kata petunjuk, voting, dan bongkar mata-matanya. 3 sampai 12 pemain, tanpa iklan.",
+    "h1": "Penipu: temukan mata-mata yang tidak tahu katanya",
+    "hook": "Oper satu ponsel bergiliran. Semua melihat kata rahasia yang sama, kecuali si penipu yang kartunya kosong. Tiap pemain menyebut satu kata petunjuk, lalu grup melakukan voting. Kalau penipu pandai menggertak, dialah yang menang.",
+    "facts": [
+      { "label": "Pemain", "value": "3 sampai 12" },
+      { "label": "Butuh", "value": "Satu ponsel" },
+      { "label": "Gaya", "value": "Gertakan dan deduksi" }
+    ],
+    "steps": [
+      { "title": "Oper ponselnya", "body": "Tambahkan pemain dan pilih berapa penipu yang disembunyikan. Tiap pemain menahan layar untuk melihat kartunya diam-diam." },
+      { "title": "Satu petunjuk per orang", "body": "Bergiliran sebut satu kata yang berhubungan dengan kata rahasia. Terlalu jelas membantu penipu; terlalu samar membuatmu dicurigai." },
+      { "title": "Voting dan ungkap", "body": "Pilih siapa penipunya. Kalau grup benar, penipu masih punya satu kesempatan menang dengan menebak kata rahasia." }
+    ],
+    "features": [
+      { "title": "Tanpa membagi kartu", "body": "Aplikasi membagikan peran dan menunjukkannya satu per satu, jadi tak ada yang melihat kartu yang bukan haknya." },
+      { "title": "Kata rahasia dari deck mana pun", "body": "Pakai Tadado Mix gratis, deck bertema, atau deck AI tentang topik yang sangat dikuasai grupmu." },
+      { "title": "Ganti game tanpa ganti aplikasi", "body": "Saat grup ingin teriak-teriak alih-alih bersiasat, pindah ke Kata Terlarang atau Heads Up dengan deck yang sama." }
+    ],
+    "knownAs": "Kalau kamu mencari game imposter, siapa mata-matanya, game seperti Spyfall, atau sesuatu seperti Werewolf dan Mafia, inilah keluarga game peran tersembunyi itu. Dalam versi kata, tak ada yang mengeliminasi siapa pun: satu pemain hanya tidak tahu katanya dan berusaha membaur. Mode Penipu di Tadado adalah versi orisinal dengan deck sendiri.",
+    "aliases": ["Game imposter", "Siapa mata-matanya", "Cari mata-mata", "Game peran tersembunyi", "Game gertakan"],
+    "faq": [
+      { "q": "Bagaimana cara main game imposter?", "a": "Semua kecuali penipu melihat kata rahasia yang sama. Tiap pemain menyebut satu kata petunjuk, lalu grup memilih siapa penipunya. Penipu yang ketahuan masih bisa menang dengan menebak katanya." },
+      { "q": "Apakah mirip Spyfall atau Werewolf?", "a": "Masih satu keluarga game gertakan dengan peran tersembunyi. Tak seperti Spyfall, tidak ada lokasi atau pertanyaan; tak seperti Werewolf, tidak ada fase malam: hanya satu kata rahasia dan satu petunjuk per orang." },
+      { "q": "Berapa orang bisa main Penipu?", "a": "Mode Penipu di Tadado bisa dimainkan 3 sampai 12 orang dengan satu ponsel, dan kamu bisa memilih jumlah penipunya." },
+      { "q": "Apakah mode Penipu gratis?", "a": "Ya. Tadado gratis diunduh dan Penipu bisa dimainkan dengan deck gratis Tadado Mix. Tanpa iklan dan langganan." }
+    ]
+  },
+  "ai-decks": {
+    "name": "Deste AI",
+    "tagline": "Ketik topik apa pun dan mainkan di tiga mode: deck jadi dalam sekitar 30 detik.",
+    "metaTitle": "Pembuat Deck AI untuk Game Pesta: Kartu dari Topik Apa Pun | Tadado",
+    "metaDescription": "Ketik topik apa pun dan AI menulis deck game dalam hitungan detik. Mainkan ala Taboo, Heads Up, atau Penipu. Satu deck, tiga mode.",
+    "h1": "Deste AI: ubah topik apa pun jadi game pesta",
+    "hook": "Ketik sebuah topik: serial favoritmu, klub bola, atau lelucon internal gengmu. AI Tadado menulis deck lengkap dalam sekitar 30 detik, dan deck yang sama bisa dimainkan di Kata Terlarang, Heads Up, dan Penipu.",
+    "facts": [
+      { "label": "Topik", "value": "Apa pun yang kamu ketik" },
+      { "label": "Siap dalam", "value": "Sekitar 30 detik" },
+      { "label": "Dimainkan di", "value": "Ketiga mode" }
+    ],
+    "steps": [
+      { "title": "Ketik topik", "body": "Apa saja: penjahat Marvel, lagu pop 90-an, kantormu, negara tujuan liburan. Tambahkan beberapa topik dan pilih tingkat kesulitan." },
+      { "title": "AI menulis kartunya", "body": "Tiap kartu berisi kata utama dan kata terlarang, jadi deck siap untuk semua mode dalam bahasamu." },
+      { "title": "Mainkan sesukamu", "body": "Mulai di Kata Terlarang, pindah ke Heads Up, lalu sembunyikan seorang penipu. Deck tersimpan di perpustakaanmu untuk malam game berikutnya." }
+    ],
+    "features": [
+      { "title": "Satu deck, tiga game", "body": "Tak perlu membuat deck Taboo dan deck Heads Up terpisah. Buat sekali, mainkan di semua mode." },
+      { "title": "Dibuat untuk grupmu", "body": "Lelucon internal, hobi khusus, tema ulang tahun, atau materi pelajaran: deck yang tak dimiliki orang lain, tentang hal yang benar-benar kalian tahu." },
+      { "title": "Bayar sekali, tanpa langganan", "body": "Kreasi AI tersedia dalam paket kecil sekali bayar, dan Tadado Full Access sudah termasuk 20. Tanpa iklan dan tanpa tagihan berulang." }
+    ],
+    "knownAs": "Kalau kamu mencari pembuat kartu Taboo, kartu Heads Up sendiri, generator daftar kata untuk game pesta, atau cara membuat kartu game dengan ChatGPT, inilah versi bawaannya. Daripada menyalin daftar ke aplikasi catatan, Tadado mengubah topikmu jadi deck siap main dengan timer, skor, dan tiga mode permainan.",
+    "aliases": ["Pembuat kartu Taboo", "Deck Heads Up sendiri", "Daftar kata AI", "Kartu game pesta custom", "Buat deck sendiri"],
+    "faq": [
+      { "q": "Bagaimana cara kerja pembuatan deck AI?", "a": "Ketik satu atau beberapa topik, pilih tingkat kesulitan, lalu ketuk Buat. Dalam sekitar 30 detik AI menulis deck lengkap dengan kata utama dan kata terlarang di tiap kartu." },
+      { "q": "Deck AI bisa dimainkan di mode apa saja?", "a": "Semuanya. Setiap deck AI bisa dimainkan di Kata Terlarang, Heads Up, dan Penipu, jadi kamu bisa ganti mode tanpa membuat deck baru." },
+      { "q": "Berapa harga deck AI?", "a": "Pembuatan AI tersedia dalam paket sekali bayar, mulai dari paket kecil berisi 5 kreasi. Tadado Full Access mencakup semua deck premium dan 20 kreasi AI. Tanpa langganan; cek harga lokal di store." },
+      { "q": "Bisakah saya membuat deck dalam bahasa Indonesia?", "a": "Bisa. Tadado tersedia dalam 17 bahasa dan deck AI ditulis dalam bahasa yang kamu pakai, lengkap dengan nama, tempat, dan budaya pop lokal." }
+    ]
+  }
+}

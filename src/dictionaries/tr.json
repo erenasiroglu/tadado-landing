@@ -1100,5 +1100,23 @@
     "title": "Halloween sürümü: Casus modu ve ücretsiz korku destesi",
     "cta": "Oy ver",
     "hide": "Gizle"
+  },
+  "modePages": {
+    "eyebrow": "Oyun modu",
+    "breadcrumb": "Oyun modları",
+    "hubTitle": "Tadado'yu oynamanın tüm yolları",
+    "hubSubtitle": "Tabu tarzı kelime oyunu, alnında tahmin, blöf oyunu ve her konuda yapay zeka desteleri. Tek uygulama, tek telefon, bütün ekip.",
+    "hubMetaTitle": "Parti Oyunu Modları: Tabu, Alnında Tahmin, Casus ve Yapay Zeka Desteleri | Tadado",
+    "hubMetaDescription": "Tadado'nun oyun modlarını keşfet: Yasaklı Kelimeler (Tabu tarzı), Alnında Tahmin, Casus blöf oyunu ve her konuda yapay zeka desteleri. Ücretsiz, reklamsız.",
+    "explore": "Nasıl oynanır?",
+    "stepsTitle": "{mode} nasıl oynanır?",
+    "featuresTitle": "Gruplar neden Tadado'da {mode} oynuyor?",
+    "knownAsTitle": "Şöyle de aranıyor",
+    "faqTitle": "{mode}: sık sorulanlar",
+    "otherTitle": "Diğer oyun modları",
+    "ctaTitle": "Oyun gecen ücretsiz başlasın",
+    "ctaBody": "Tadado'yu indir, ücretsiz desteyi aç ve saniyeler içinde oyna. Tek telefon yeter.",
+    "ctaButton": "Tadado'yu ücretsiz indir",
+    "disclaimer": "Tabu (Taboo), Hasbro'nun ticari markasıdır. Heads Up!, Warner Bros. Entertainment Inc.'in ticari markasıdır. Bu sayfada geçen Spyfall, Alias ve diğer oyun adları sahiplerine aittir. Tadado bağımsız bir uygulamadır; bu markalarla bağlantılı değildir, onlar tarafından desteklenmez veya onaylanmaz. Bu adlar yalnızca benzer oyun tarzlarını tarif etmek için kullanılır."
   }
 }

@@ -1124,5 +1124,23 @@
     "title": "Edycja Halloween: tryb Impostor i darmowa straszna talia",
     "cta": "Zagłosuj",
     "hide": "Ukryj"
+  },
+  "modePages": {
+    "eyebrow": "Tryb gry",
+    "breadcrumb": "Tryby gry",
+    "hubTitle": "Wszystkie sposoby gry w Tadado",
+    "hubSubtitle": "Gra słowna w stylu Tabu, zgadywanie z telefonem na czole, gra w blefowanie i talie AI na dowolny temat. Jedna aplikacja, jeden telefon, cała ekipa.",
+    "hubMetaTitle": "Tryby gier imprezowych: w stylu Tabu, Heads Up, Oszust i talie AI | Tadado",
+    "hubMetaDescription": "Poznaj tryby Tadado: Zakazane słowa (w stylu Tabu), Heads Up, gra w Oszusta (znajdź szpiega) i talie AI na dowolny temat. Za darmo i bez reklam.",
+    "explore": "Zobacz, jak grać",
+    "stepsTitle": "Jak grać w {mode}",
+    "featuresTitle": "Dlaczego ekipy grają w {mode} w Tadado",
+    "knownAsTitle": "Szukane także jako",
+    "faqTitle": "{mode}: pytania",
+    "otherTitle": "Więcej sposobów gry",
+    "ctaTitle": "Zacznij wieczór gier za darmo",
+    "ctaBody": "Pobierz Tadado, otwórz darmową talię i graj w kilka sekund. Wystarczy jeden telefon.",
+    "ctaButton": "Pobierz Tadado za darmo",
+    "disclaimer": "Tabu (Taboo) jest znakiem towarowym Hasbro. Heads Up! jest znakiem towarowym Warner Bros. Entertainment Inc. Spyfall, Alias, Czółko i inne wymienione nazwy gier należą do ich właścicieli. Tadado to niezależna aplikacja, niepowiązana z nimi, niesponsorowana ani niezatwierdzona przez nich; nazwy służą wyłącznie do opisania podobnych stylów gry."
   }
 }

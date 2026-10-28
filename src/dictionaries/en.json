@@ -1024,5 +1024,23 @@
     "title": "Halloween edition: Imposter mode and a free spooky deck",
     "cta": "Upvote",
     "hide": "Hide"
+  },
+  "modePages": {
+    "eyebrow": "Game mode",
+    "breadcrumb": "Game modes",
+    "hubTitle": "Every way to play Tadado",
+    "hubSubtitle": "A Taboo-style word game, forehead charades, a bluffing game and AI decks on any topic. One app, one phone, the whole group.",
+    "hubMetaTitle": "Party Game Modes: Taboo-Style, Heads Up, Imposter and AI Decks | Tadado",
+    "hubMetaDescription": "Explore Tadado's party game modes: Forbidden Words (Taboo-style), Heads Up charades, the Imposter bluffing game and AI decks on any topic. Free, no ads.",
+    "explore": "See how it works",
+    "stepsTitle": "How to play {mode}",
+    "featuresTitle": "Why groups play {mode} in Tadado",
+    "knownAsTitle": "Also searched as",
+    "faqTitle": "{mode}: questions",
+    "otherTitle": "More ways to play",
+    "ctaTitle": "Start your game night free",
+    "ctaBody": "Download Tadado, open the free deck and play in seconds. One phone is enough.",
+    "ctaButton": "Download Tadado free",
+    "disclaimer": "Taboo is a trademark of Hasbro. Heads Up! is a trademark of Warner Bros. Entertainment Inc. Spyfall, Alias and other game names mentioned on this page belong to their respective owners. Tadado is an independent app and is not affiliated with, sponsored or endorsed by any of them; these names are used only to describe similar styles of play."
   }
 }
