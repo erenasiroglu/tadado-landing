@@ -39,7 +39,7 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
   return (
     <section className="halloween-hero relative isolate overflow-hidden">
       <SectionViewTracker sectionId="hero">
-        <div className="section-shell relative z-[2] grid items-center gap-12 pb-16 pt-10 sm:pb-20 sm:pt-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-8 lg:pb-24 lg:pt-16">
+        <div className="section-shell relative z-[2] grid items-center gap-12 pb-12 pt-10 sm:pb-14 sm:pt-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-8 lg:pb-16 lg:pt-16">
           <div className="flex min-w-0 flex-col items-center gap-6 text-center lg:items-start lg:text-start">
             <div className="hero-rise" style={{ "--i": 0 } as React.CSSProperties}>
               <p className="halloween-hero__eyebrow">

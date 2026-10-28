@@ -20,7 +20,13 @@ export function HalloweenEvent({ locale, dict }: HalloweenEventProps) {
   const modes = [copy.deckTitle, copy.imposterTitle, copy.headsUpTitle];
 
   return (
-    <LandingSection id="halloween" analyticsSection="halloween_event" density="compact" reveal>
+    <LandingSection
+      id="halloween"
+      analyticsSection="halloween_event"
+      density="compact"
+      className="halloween-event-band pt-0 md:pt-0"
+      reveal
+    >
       <div className="halloween-event relative isolate overflow-hidden rounded-lg">
         <div className="relative grid items-center gap-10 p-6 sm:p-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-12 lg:px-12 lg:py-11">
           <div className="min-w-0">

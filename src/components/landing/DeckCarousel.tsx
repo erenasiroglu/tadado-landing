@@ -1,11 +1,9 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import { m, useReducedMotion } from "motion/react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
@@ -24,29 +22,18 @@ interface DeckCarouselProps {
 }
 
 export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
-  const reduceMotion = useReducedMotion();
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
+  const [selectedSnap, setSelectedSnap] = useState(0);
+  const [snapCount, setSnapCount] = useState(0);
+  const [canPrev, setCanPrev] = useState(false);
+  const [canNext, setCanNext] = useState(false);
 
-  const autoplayPlugin = useMemo(
-    () =>
-      Autoplay({
-        delay: 5000,
-        stopOnInteraction: true,
-        stopOnMouseEnter: true,
-      }),
-    [],
-  );
-
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    {
-      align: "center",
-      containScroll: "keepSnaps",
-      loop: true,
-      dragFree: false,
-    },
-    reduceMotion ? [] : [autoplayPlugin],
-  );
+  // Whole cards only: pages snap to the start edge, so no card is ever cut in half at the sides.
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    align: "start",
+    containScroll: "trimSnaps",
+    slidesToScroll: "auto",
+    loop: false,
+  });
 
   const keys = Object.keys(dict.decks.items) as DeckKey[];
 
@@ -81,27 +68,22 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
   );
 
   useEffect(() => {
-    if (!emblaApi || reduceMotion) return;
-
-    if (isHovered) {
-      autoplayPlugin.stop();
-    } else {
-      autoplayPlugin.play();
-    }
-  }, [autoplayPlugin, emblaApi, isHovered, reduceMotion]);
-
-  useEffect(() => {
     if (!emblaApi) return;
 
-    function onSelect() {
+    function sync() {
       if (!emblaApi) return;
-      setSelectedIndex(emblaApi.selectedScrollSnap());
+      setSnapCount(emblaApi.scrollSnapList().length);
+      setSelectedSnap(emblaApi.selectedScrollSnap());
+      setCanPrev(emblaApi.canScrollPrev());
+      setCanNext(emblaApi.canScrollNext());
     }
 
-    emblaApi.on("select", onSelect);
-    onSelect();
+    emblaApi.on("select", sync);
+    emblaApi.on("reInit", sync);
+    sync();
     return () => {
-      emblaApi.off("select", onSelect);
+      emblaApi.off("select", sync);
+      emblaApi.off("reInit", sync);
     };
   }, [emblaApi]);
 
@@ -119,15 +101,9 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
         <div className="section-shell">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex flex-col gap-3">
-              <button
-                type="button"
-                className="hero-proof-badge inline-flex w-fit"
-                onClick={() =>
-                  document.getElementById("decks")?.scrollIntoView({ behavior: "smooth", block: "start" })
-                }
-              >
+              <span className="hero-proof-badge w-fit">
                 <span className="font-bold text-foreground">{dict.decks.countBadge}</span>
-              </button>
+              </span>
               <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />
               <Link
                 href={getDecksHubHref(locale)}
@@ -136,73 +112,54 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                 {dict.ui.exploreAllDecks}
               </Link>
             </div>
+
+            {snapCount > 1 ? (
+              <div className="hidden shrink-0 items-center gap-2 sm:flex">
+                <CarouselButton label={dict.a11y.previousDeck} onClick={scrollPrev} disabled={!canPrev}>
+                  <ChevronLeft className="h-4 w-4 rtl:rotate-180" />
+                </CarouselButton>
+                <CarouselButton label={dict.a11y.nextDeck} onClick={scrollNext} disabled={!canNext}>
+                  <ChevronRight className="h-4 w-4 rtl:rotate-180" />
+                </CarouselButton>
+              </div>
+            ) : null}
           </div>
 
-          <div
-            className="deck-vibe-carousel mt-8"
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
+          <div className="deck-vibe-carousel mt-8">
             <div ref={emblaRef} className="deck-vibe-carousel__viewport">
               <div className="deck-vibe-carousel__container">
-                {keys.map((key, index) => {
+                {keys.map((key) => {
                   const item = dict.decks.items[key];
-                  const isActive = index === selectedIndex;
 
                   return (
                     <div key={key} className="deck-vibe-carousel__slide">
-                      <div
-                        className={cn(
-                          "deck-vibe-carousel__card",
-                          isActive && "deck-vibe-carousel__card--active",
-                        )}
-                      >
-                        <m.div
-                          className="deck-vibe-carousel__card-inner"
-                          animate={
-                            reduceMotion
-                              ? undefined
-                              : {
-                                  opacity: isActive ? 1 : 0.78,
-                                  scale: isActive ? 1 : 0.96,
-                                }
-                          }
-                          transition={{ type: "spring", stiffness: 420, damping: 32 }}
-                        >
-                          <DeckCatalogCard
-                            deckKey={key}
-                            locale={locale}
-                            config={DECK_CARD_CONFIGS[key]}
-                            title={item.name}
-                            subtitle={item.desc}
-                            playLabel={dict.decks.play}
-                            newBadgeLabel={dict.decks.newBadge}
-                            isFree={key === "mix"}
-                            showPlayIcon
-                            disableHoverMotion
-                            className="w-full"
-                          />
-                        </m.div>
-                      </div>
+                      <DeckCatalogCard
+                        deckKey={key}
+                        locale={locale}
+                        config={DECK_CARD_CONFIGS[key]}
+                        title={item.name}
+                        subtitle={item.desc}
+                        playLabel={dict.decks.play}
+                        newBadgeLabel={dict.decks.newBadge}
+                        isFree={key === "mix"}
+                        showPlayIcon
+                        className="w-full"
+                      />
                     </div>
                   );
                 })}
               </div>
             </div>
 
-            <div className="deck-vibe-carousel__controls">
-              <CarouselButton label={dict.a11y.previousDeck} onClick={scrollPrev}>
-                <ChevronLeft className="h-4 w-4" />
-              </CarouselButton>
-
-              <div className="flex items-center" role="tablist" aria-label={dict.decks.title}>
-                {keys.map((key, index) => (
+            {snapCount > 1 ? (
+              <div className="deck-vibe-carousel__controls" role="tablist" aria-label={dict.decks.title}>
+                {Array.from({ length: snapCount }, (_, index) => (
                   <button
-                    key={key}
+                    key={index}
                     type="button"
                     role="tab"
-                    aria-selected={index === selectedIndex}
-                    aria-label={`${dict.decks.items[key].name} (${index + 1}/${keys.length})`}
+                    aria-selected={index === selectedSnap}
+                    aria-label={`${dict.decks.title} ${index + 1}/${snapCount}`}
                     onClick={() => scrollTo(index)}
                     className="group flex h-6 min-w-6 items-center justify-center px-[3px]"
                   >
@@ -211,7 +168,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                       aria-hidden
                       className={cn(
                         "h-1.5 rounded-full transition-all duration-300",
-                        index === selectedIndex
+                        index === selectedSnap
                           ? "w-7 bg-ink"
                           : "w-1.5 bg-ink/20 group-hover:bg-ink/35",
                       )}
@@ -219,11 +176,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                   </button>
                 ))}
               </div>
-
-              <CarouselButton label={dict.a11y.nextDeck} onClick={scrollNext}>
-                <ChevronRight className="h-4 w-4" />
-              </CarouselButton>
-            </div>
+            ) : null}
           </div>
         </div>
       </SectionViewTracker>
@@ -235,17 +188,20 @@ function CarouselButton({
   children,
   label,
   onClick,
+  disabled,
 }: {
   children: React.ReactNode;
   label: string;
   onClick: () => void;
+  disabled?: boolean;
 }) {
   return (
     <button
       type="button"
       aria-label={label}
       onClick={onClick}
-      className="flex h-10 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full border border-border surface-paper text-foreground transition-colors hover:bg-lilac hover:bg-lilac hover:text-ink"
+      disabled={disabled}
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-paper text-foreground transition-colors hover:bg-lilac hover:text-ink disabled:opacity-35 disabled:hover:bg-paper"
     >
       {children}
     </button>
