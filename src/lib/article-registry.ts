@@ -15,7 +15,8 @@ export type ArticleId =
   | "charades-ideas"
   | "taboo-words-list"
   | "imposter-game-words"
-  | "games-to-play-with-friends";
+  | "games-to-play-with-friends"
+  | "black-friday-deal";
 
 export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>> = {
   "how-to-play-taboo": {
@@ -198,6 +199,9 @@ export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>
   },
   "games-to-play-with-friends": {
     en: "games-to-play-with-friends",
+  },
+  "black-friday-deal": {
+    en: "black-friday-deal",
   },
 };
 
