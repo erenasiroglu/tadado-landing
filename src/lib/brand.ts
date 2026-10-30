@@ -8,6 +8,11 @@ export const BRAND = {
   stats: {
     gamesPlayed: 300000,
   },
+  trustMrr: {
+    profileUrl: "https://trustmrr.com/startup/tadado",
+    embedSrc:
+      "https://trustmrr.com/embed/tadado?type=calendar&theme=light&period=6m&color=emerald",
+  },
   colors: {
     deepPurple: "#1A0F28",
     purple: "#2A0A3B",

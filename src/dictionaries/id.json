@@ -691,7 +691,8 @@
       "title": "Investor & game baru",
       "body": "Angel investor, publisher, atau perusahaan yang ingin membangun bersama kami.",
       "cta": "Email kami",
-      "subject": "Kemitraan / investasi Tadado"
+      "subject": "Kemitraan / investasi Tadado",
+      "openMetrics": "View verified metrics"
     }
   },
   "blog": {
@@ -889,7 +890,8 @@
     "privacy": "Kebijakan Privasi",
     "copyright": "© {{year}} Tadado Game Development",
     "supportPage": "Pusat bantuan",
-    "marketing": "Pemasaran"
+    "marketing": "Pemasaran",
+    "openMetrics": "Open metrics"
   },
   "sticky": {
     "download": "UNDUH TADADO · GRATIS"
@@ -1142,5 +1144,13 @@
     "ctaBody": "Unduh Tadado, buka deck gratis, dan main dalam hitungan detik. Cukup satu ponsel.",
     "ctaButton": "Unduh Tadado gratis",
     "disclaimer": "Taboo adalah merek dagang Hasbro. Heads Up! adalah merek dagang Warner Bros. Entertainment Inc. Spyfall dan nama game lain yang disebut di halaman ini milik pemiliknya masing-masing. Tadado adalah aplikasi independen dan tidak berafiliasi, disponsori, atau didukung oleh mereka; nama-nama ini hanya dipakai untuk menggambarkan gaya bermain yang mirip."
+  },
+  "open": {
+    "title": "Open metrics",
+    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "back": "Back to Tadado",
+    "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
+    "embedTitle": "TrustMRR verified daily revenue calendar",
+    "profileCta": "View full profile on TrustMRR"
   }
 }

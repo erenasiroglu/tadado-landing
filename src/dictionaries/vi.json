@@ -691,7 +691,8 @@
       "title": "Nhà đầu tư & game mới",
       "body": "Angel investor, publisher hoặc công ty muốn xây dựng cùng chúng tôi.",
       "cta": "Email chúng tôi",
-      "subject": "Hợp tác / đầu tư Tadado"
+      "subject": "Hợp tác / đầu tư Tadado",
+      "openMetrics": "View verified metrics"
     }
   },
   "blog": {
@@ -889,7 +890,8 @@
     "privacy": "Chính sách quyền riêng tư",
     "copyright": "© {{year}} Tadado Game Development",
     "supportPage": "Trung tâm trợ giúp",
-    "marketing": "Marketing"
+    "marketing": "Marketing",
+    "openMetrics": "Open metrics"
   },
   "sticky": {
     "download": "TẢI TADADO · MIỄN PHÍ"
@@ -1142,5 +1144,13 @@
     "ctaBody": "Tải Tadado, mở bộ thẻ miễn phí và chơi ngay trong vài giây. Chỉ cần một điện thoại.",
     "ctaButton": "Tải Tadado miễn phí",
     "disclaimer": "Taboo là nhãn hiệu của Hasbro. Heads Up! là nhãn hiệu của Warner Bros. Entertainment Inc. Spyfall và các tên trò chơi khác được nhắc đến thuộc về chủ sở hữu tương ứng. Tadado là ứng dụng độc lập, không liên kết, không được tài trợ hay xác nhận bởi họ; các tên này chỉ dùng để mô tả những lối chơi tương tự."
+  },
+  "open": {
+    "title": "Open metrics",
+    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "back": "Back to Tadado",
+    "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
+    "embedTitle": "TrustMRR verified daily revenue calendar",
+    "profileCta": "View full profile on TrustMRR"
   }
 }

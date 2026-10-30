@@ -746,8 +746,17 @@
       "title": "Yatırımcılar ve yeni oyunlar",
       "body": "Melek yatırımcılar, yayıncılar veya bizimle birlikte büyümek isteyen şirketler.",
       "cta": "Bize e-posta at",
-      "subject": "Tadado ortaklık / yatırım"
+      "subject": "Tadado ortaklık / yatırım",
+      "openMetrics": "Doğrulanmış metrikleri gör"
     }
+  },
+  "open": {
+    "title": "Açık metrikler",
+    "subtitle": "TrustMRR üzerinde doğrulanmış uygulama içi gelir — Tadado'nun nasıl gittiğini merak eden kurucular, basın ve iş ortakları için.",
+    "back": "Tadado'ya dön",
+    "note": "Rakamlar Tadado'nun TrustMRR'a bağlı ödeme verisinden gelir. Oyuncular bu sayfayı atlayabilir; indie geliştirici topluluğuna şeffaflık için burada.",
+    "embedTitle": "TrustMRR doğrulanmış günlük gelir takvimi",
+    "profileCta": "TrustMRR'da tam profili gör"
   },
   "blog": {
     "title": "Blogdan",
@@ -938,6 +947,7 @@
     "supportPage": "Yardım merkezi",
     "marketing": "Pazarlama",
     "partnerships": "İş birlikleri",
+    "openMetrics": "Açık metrikler",
     "compare": "Uygulama karşılaştırması",
     "affiliate": "Affiliate programı",
     "team": "Ekibimiz",

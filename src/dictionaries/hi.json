@@ -691,7 +691,8 @@
       "title": "निवेशक और नए गेम",
       "body": "एंजेल निवेशक, प्रकाशक या वे कंपनियाँ जो हमारे साथ बनाना चाहती हैं।",
       "cta": "हमें ईमेल करें",
-      "subject": "Tadado साझेदारी / निवेश"
+      "subject": "Tadado साझेदारी / निवेश",
+      "openMetrics": "View verified metrics"
     }
   },
   "blog": {
@@ -889,7 +890,8 @@
     "privacy": "गोपनीयता नीति",
     "copyright": "© {{year}} Tadado Game Development",
     "supportPage": "हेल्प सेंटर",
-    "marketing": "मार्केटिंग"
+    "marketing": "मार्केटिंग",
+    "openMetrics": "Open metrics"
   },
   "sticky": {
     "download": "TADADO डाउनलोड करें · मुफ़्त"
@@ -1142,5 +1144,13 @@
     "ctaBody": "Tadado डाउनलोड करें, मुफ़्त डेक खोलें और सेकंडों में खेलें। एक फ़ोन काफ़ी है।",
     "ctaButton": "Tadado मुफ़्त डाउनलोड करें",
     "disclaimer": "Taboo, Hasbro का ट्रेडमार्क है। Heads Up!, Warner Bros. Entertainment Inc. का ट्रेडमार्क है। इस पेज पर बताए गए Spyfall और अन्य गेम के नाम उनके मालिकों के हैं। Tadado एक स्वतंत्र ऐप है और इनमें से किसी से जुड़ा, प्रायोजित या समर्थित नहीं है; ये नाम सिर्फ़ मिलते-जुलते खेलने के तरीके बताने के लिए हैं।"
+  },
+  "open": {
+    "title": "Open metrics",
+    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "back": "Back to Tadado",
+    "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
+    "embedTitle": "TrustMRR verified daily revenue calendar",
+    "profileCta": "View full profile on TrustMRR"
   }
 }

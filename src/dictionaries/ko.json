@@ -691,7 +691,8 @@
       "title": "투자자 & 새 게임",
       "body": "엔젤 투자자, 퍼블리셔, 함께 만들고 싶은 기업.",
       "cta": "이메일 보내기",
-      "subject": "Tadado 파트너십 / 투자"
+      "subject": "Tadado 파트너십 / 투자",
+      "openMetrics": "View verified metrics"
     }
   },
   "blog": {
@@ -889,7 +890,8 @@
     "privacy": "개인정보 처리방침",
     "copyright": "© {{year}} Tadado Game Development",
     "supportPage": "고객센터",
-    "marketing": "마케팅"
+    "marketing": "마케팅",
+    "openMetrics": "Open metrics"
   },
   "sticky": {
     "download": "TADADO 무료로 받기"
@@ -1142,5 +1144,13 @@
     "ctaBody": "Tadado를 다운로드하고 무료 덱을 열면 몇 초 만에 시작돼요. 폰 한 대면 충분해요.",
     "ctaButton": "Tadado 무료 다운로드",
     "disclaimer": "Taboo는 Hasbro의 상표입니다. Heads Up!은 Warner Bros. Entertainment Inc.의 상표입니다. 이 페이지에 언급된 Spyfall 등 기타 게임 이름은 각 소유자의 자산입니다. Tadado는 독립 앱으로 이들과 제휴, 후원, 보증 관계가 없으며, 이름은 비슷한 플레이 방식을 설명하기 위해서만 사용됩니다."
+  },
+  "open": {
+    "title": "Open metrics",
+    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "back": "Back to Tadado",
+    "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
+    "embedTitle": "TrustMRR verified daily revenue calendar",
+    "profileCta": "View full profile on TrustMRR"
   }
 }

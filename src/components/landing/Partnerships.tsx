@@ -18,11 +18,15 @@ function ContactCard({
   body,
   cta,
   mailSubject,
+  secondaryHref,
+  secondaryLabel,
 }: {
   title: string;
   body: string;
   cta: string;
   mailSubject: string;
+  secondaryHref?: string;
+  secondaryLabel?: string;
 }) {
   const href = `mailto:${BRAND.supportEmail}?subject=${encodeURIComponent(mailSubject)}`;
 
@@ -30,9 +34,16 @@ function ContactCard({
     <article className="surface-card p-5">
       <h3 className="font-bold text-foreground">{title}</h3>
       <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{body}</p>
-      <a href={href} className="mt-4 inline-block text-sm font-semibold text-ink hover:text-muted-foreground">
-        {cta} →
-      </a>
+      <div className="mt-4 flex flex-col items-start gap-2">
+        <a href={href} className="text-sm font-semibold text-ink hover:text-muted-foreground">
+          {cta} →
+        </a>
+        {secondaryHref && secondaryLabel ? (
+          <Link href={secondaryHref} className="text-sm font-semibold text-ink hover:text-muted-foreground">
+            {secondaryLabel} →
+          </Link>
+        ) : null}
+      </div>
     </article>
   );
 }
@@ -75,6 +86,8 @@ export function Partnerships({
           body={content.investors.body}
           cta={content.investors.cta}
           mailSubject={content.investors.subject}
+          secondaryHref={localeHref(locale, "open")}
+          secondaryLabel={content.investors.openMetrics}
         />
       </div>
 

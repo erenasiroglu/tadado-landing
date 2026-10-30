@@ -691,7 +691,8 @@
       "title": "投资者与新游戏",
       "body": "天使投资人、发行商或希望与我们共建的公司。",
       "cta": "给我们发邮件",
-      "subject": "Tadado 合作 / 投资"
+      "subject": "Tadado 合作 / 投资",
+      "openMetrics": "View verified metrics"
     }
   },
   "blog": {
@@ -889,7 +890,8 @@
     "privacy": "隐私政策",
     "copyright": "© {{year}} Tadado Game Development",
     "supportPage": "帮助中心",
-    "marketing": "市场"
+    "marketing": "市场",
+    "openMetrics": "Open metrics"
   },
   "sticky": {
     "download": "免费下载 TADADO"
@@ -1142,5 +1144,13 @@
     "ctaBody": "下载 Tadado，打开免费卡组，几秒钟就能开玩。一部手机就够了。",
     "ctaButton": "免费下载 Tadado",
     "disclaimer": "Taboo 是 Hasbro 的商标。Heads Up! 是 Warner Bros. Entertainment Inc. 的商标。本页提及的 Spyfall 等游戏名称归其各自所有者所有。Tadado 是独立应用，与上述任何一方均无关联，亦未获其赞助或认可；这些名称仅用于描述类似的玩法。"
+  },
+  "open": {
+    "title": "Open metrics",
+    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "back": "Back to Tadado",
+    "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
+    "embedTitle": "TrustMRR verified daily revenue calendar",
+    "profileCta": "View full profile on TrustMRR"
   }
 }

@@ -74,6 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const affiliateLanguages = buildLanguageAlternates("affiliate");
   const partnershipsLanguages = buildLanguageAlternates("partnerships");
+  const openLanguages = buildLanguageAlternates("open");
   const compareLanguages = buildLanguageAlternates("compare");
   const guidesLanguages = buildLanguageAlternates("guides");
   const teamLanguages = buildLanguageAlternates("team");
@@ -94,6 +95,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.7,
         alternates: { languages: partnershipsLanguages },
+      },
+      {
+        url: `${base}/${locale}/open`,
+        changeFrequency: "weekly",
+        priority: 0.5,
+        alternates: { languages: openLanguages },
       },
       {
         url: `${base}/${locale}/compare`,

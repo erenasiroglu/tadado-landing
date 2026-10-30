@@ -91,6 +91,7 @@ export function Footer({ locale, dict }: FooterProps) {
               <FooterLink href={localeHref(locale, "partnerships")}>
                 {dict.footer.partnerships}
               </FooterLink>
+              <FooterLink href={localeHref(locale, "open")}>{dict.footer.openMetrics}</FooterLink>
             </FooterColumn>
 
             <FooterColumn title={dict.footer.supportTitle}>
