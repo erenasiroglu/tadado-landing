@@ -1079,6 +1079,26 @@ html {
   text-decoration: underline;
 }
 
+.prose-blog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.875rem;
+}
+
+.prose-blog th,
+.prose-blog td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.625rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+.prose-blog th {
+  font-weight: 800;
+  background: var(--mist);
+}
+
 @keyframes preview-float {
   0%,
   100% {

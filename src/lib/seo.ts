@@ -323,6 +323,9 @@ export function buildBlogPostJsonLd(
     description: string;
     slug: string;
     date: string;
+    author?: string;
+    schemaItemList?: string[];
+    schemaHowTo?: { name: string; steps: string[] };
     alternateSlug?: string;
     alternateLocale?: Locale;
     contentHtml?: string;
@@ -337,7 +340,9 @@ export function buildBlogPostJsonLd(
       description: post.description,
       datePublished: post.date,
       inLanguage: locale,
-      author: { "@type": "Organization", name: BRAND.developer },
+      author: post.author
+        ? { "@type": "Person", name: post.author }
+        : { "@type": "Organization", name: BRAND.developer },
       publisher: { "@type": "Organization", name: BRAND.developer },
       mainEntityOfPage: url,
       isAccessibleForFree: true,
@@ -367,6 +372,32 @@ export function buildBlogPostJsonLd(
       ],
     },
   ];
+
+  if (post.schemaItemList && post.schemaItemList.length > 0) {
+    graph.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: post.title,
+      numberOfItems: post.schemaItemList.length,
+      itemListElement: post.schemaItemList.map((name, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name,
+      })),
+    });
+  }
+
+  if (post.schemaHowTo && post.schemaHowTo.steps.length > 0) {
+    graph.push({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: post.schemaHowTo.name,
+      step: post.schemaHowTo.steps.map((text) => ({
+        "@type": "HowToStep",
+        text,
+      })),
+    });
+  }
 
   const faq = post.contentHtml ? extractFaqPairs(post.contentHtml) : [];
   if (faq.length >= 2) {

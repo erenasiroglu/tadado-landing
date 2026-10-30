@@ -9,7 +9,13 @@ export type ArticleId =
   | "icebreaker-games"
   | "word-games-like-taboo"
   | "best-word-game-apps"
-  | "halloween-party-games";
+  | "halloween-party-games"
+  | "friendsgiving-games"
+  | "christmas-party-games"
+  | "charades-ideas"
+  | "taboo-words-list"
+  | "imposter-game-words"
+  | "games-to-play-with-friends";
 
 export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>> = {
   "how-to-play-taboo": {
@@ -174,6 +180,24 @@ export const ARTICLE_REGISTRY: Record<ArticleId, Partial<Record<Locale, string>>
     it: "giochi-di-halloween-con-amici",
     pl: "gry-na-halloween-ze-znajomymi",
     ja: "halloween-game-tomodachi",
+  },
+  "friendsgiving-games": {
+    en: "friendsgiving-games",
+  },
+  "christmas-party-games": {
+    en: "christmas-party-games",
+  },
+  "charades-ideas": {
+    en: "charades-ideas",
+  },
+  "taboo-words-list": {
+    en: "taboo-words-list",
+  },
+  "imposter-game-words": {
+    en: "imposter-game-words",
+  },
+  "games-to-play-with-friends": {
+    en: "games-to-play-with-friends",
   },
 };
 

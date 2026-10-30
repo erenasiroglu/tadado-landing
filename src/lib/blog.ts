@@ -16,6 +16,11 @@ import { getArticleSlug } from "@/lib/article-registry";
 import { CONTENT_FALLBACK_LOCALE, mayUseEnglishContentFallback } from "@/lib/i18n-fallback";
 import { BLOG_LOCALES, type Locale } from "@/lib/i18n-config";
 
+export interface BlogPostSchemaHowTo {
+  name: string;
+  steps: string[];
+}
+
 export interface BlogPost {
   slug: string;
   locale: Locale;
@@ -23,6 +28,9 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
+  author?: string;
+  schemaItemList?: string[];
+  schemaHowTo?: BlogPostSchemaHowTo;
   alternates: { slug: string; locale: Locale }[];
   contentHtml: string;
 }
@@ -64,6 +72,24 @@ async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null>
 
   const alternates = match ? getArticleAlternates(match.articleId, locale) : [];
 
+  const schemaItemList = Array.isArray(file.data.itemList)
+    ? file.data.itemList.map(String)
+    : undefined;
+  const author =
+    typeof file.data.author === "string" && file.data.author.trim()
+      ? file.data.author.trim()
+      : undefined;
+
+  let schemaHowTo: BlogPostSchemaHowTo | undefined;
+  const rawHowTo = file.data.howTo;
+  if (rawHowTo && typeof rawHowTo === "object" && !Array.isArray(rawHowTo)) {
+    const name = (rawHowTo as { name?: unknown }).name;
+    const steps = (rawHowTo as { steps?: unknown }).steps;
+    if (typeof name === "string" && Array.isArray(steps) && steps.length > 0) {
+      schemaHowTo = { name, steps: steps.map(String) };
+    }
+  }
+
   return {
     slug,
     locale,
@@ -71,6 +97,9 @@ async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null>
     title: String(file.data.title ?? slug),
     description: String(file.data.description ?? ""),
     date: String(file.data.date ?? new Date().toISOString().slice(0, 10)),
+    author,
+    schemaItemList,
+    schemaHowTo,
     alternates,
     contentHtml: file.contentHtml,
   };
