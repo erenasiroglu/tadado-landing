@@ -168,8 +168,8 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                       className={cn(
                         "h-1.5 rounded-full transition-all duration-300",
                         index === selectedSnap
-                          ? "w-7 bg-foreground"
-                          : "w-1.5 bg-foreground/25 group-hover:bg-foreground/40",
+                          ? "w-7 bg-ink"
+                          : "w-1.5 bg-ink/20 group-hover:bg-ink/35",
                       )}
                     />
                   </button>
@@ -198,7 +198,7 @@ function CarouselButton({
       aria-label={label}
       onClick={onClick}
       disabled={disabled}
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-white/6 text-foreground transition-colors hover:bg-white/12 disabled:opacity-35"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-paper text-foreground transition-colors hover:bg-lilac hover:text-ink disabled:opacity-35 disabled:hover:bg-paper"
     >
       {children}
     </button>

@@ -8,7 +8,6 @@ import Link from "next/link";
 import { ModeDeviceStage } from "@/components/landing/device/ModeDeviceStage";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { isNightLandingTheme } from "@/lib/landing-theme";
 import { modePageHref, type ModePageId } from "@/lib/mode-pages";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
@@ -26,7 +25,6 @@ interface GameModeShowcaseProps {
 
 export function GameModeShowcase({ locale, dict, halloween = false }: GameModeShowcaseProps) {
   const reduceMotion = useReducedMotion();
-  const night = isNightLandingTheme();
   const [activeMode, setActiveMode] = useState<GameModeFilter>("taboo");
   const startedRef = useRef(false);
 
@@ -95,7 +93,7 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
             animate={{ opacity: 1, y: 0 }}
             exit={reduceMotion ? undefined : { opacity: 0, y: -6 }}
             transition={{ duration: 0.28 }}
-            className="order-3 lg:order-1"
+            className="order-3 min-w-0 lg:order-1"
           >
             {activeCopy ? (
               <div>
@@ -126,15 +124,8 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                   />
                 </Link>
                 {activeMode === "taboo" ? (
-                  <div
-                    className={cn(
-                      "mt-5 max-w-md rounded-2xl border p-4",
-                      night
-                        ? "border-white/10 bg-white/[0.06]"
-                        : "border-border bg-paper/80",
-                    )}
-                  >
-                    <p className="text-[11px] font-bold uppercase leading-none tracking-[0.14em] text-muted-foreground">
+                  <div className="mt-5 max-w-md rounded-2xl bg-mist/80 px-5 py-4">
+                    <p className="text-[11px] font-bold uppercase leading-none tracking-[0.08em] text-muted-foreground">
                       {dict.modes.showcase.buildScoreTitle}
                     </p>
                     <p className="mt-2 text-sm leading-6 text-muted-foreground">
@@ -148,12 +139,10 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                         <span key={multiplier} className="contents">
                           <span
                             className={cn(
-                              "inline-flex h-10 min-w-12 items-center justify-center rounded-xl px-3 text-sm font-black leading-none tabular-nums",
+                              "inline-flex h-10 min-w-12 items-center justify-center rounded-xl border px-3 text-sm font-black leading-none tabular-nums",
                               index === 2
-                                ? "bg-[#FAAA12] text-[#4B1A7A]"
-                                : night
-                                  ? "border border-white/15 bg-white/8 text-cream"
-                                  : "border border-border bg-mist text-ink",
+                                ? "surface-obsidian border-transparent text-cream"
+                                : "border-border bg-mist text-ink",
                             )}
                           >
                             {multiplier}
@@ -173,7 +162,7 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
           </m.div>
         </AnimatePresence>
 
-        <div className="order-2 lg:order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2">
+        <div className="order-2 min-w-0 overflow-hidden lg:order-2 lg:col-start-2 lg:row-start-1 lg:row-span-2">
           <AnimatePresence mode="wait">
             <m.div
               key={activeMode}

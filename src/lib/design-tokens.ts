@@ -50,6 +50,7 @@ export const GLASS = {
   },
 } as const;
 
+/** Default Forbidden Words card: `theme/card-skins.ts` crimson skin. */
 export const CLASSIC_GAME_SCREEN: {
   background: string;
   cardBg: string;
@@ -65,16 +66,16 @@ export const CLASSIC_GAME_SCREEN: {
   forbiddenWordBorder: string;
   forbiddenUppercase: boolean;
 } = {
-  background: "#290939",
-  cardBg: "#4b1a7a",
-  wordBg: "#faaa12",
-  wordText: "#4b1a7a",
-  forbiddenWordBg: "#faaa12",
-  forbiddenWordText: "#4b1a7a",
-  teamNameText: "#faaa12",
-  timerGradient: ["#ffe8bd", "#fcb022"],
-  timerText: "#957d84",
-  cardProgressText: "#fff0cf",
+  background: "#2A0A3B",
+  cardBg: "#540D2B",
+  wordBg: "#C73653",
+  wordText: "#FFF4D6",
+  forbiddenWordBg: "#C73653",
+  forbiddenWordText: "#FFF4D6",
+  teamNameText: "#FFF4D6",
+  timerGradient: ["#FFFFFF", "#FFFFFF"],
+  timerText: "#A994D0",
+  cardProgressText: "#FFF4D6",
   cardBorder: "transparent",
   forbiddenWordBorder: "transparent",
   forbiddenUppercase: true,

@@ -263,22 +263,6 @@ export function AiDeckBuilderDemo({ locale, dict }: AiDeckBuilderDemoProps) {
             </div>
           </div>
 
-          <div className="mt-5 flex items-start gap-4 rounded-lg surface-obsidian p-5 sm:p-6">
-            <span
-              className="flex size-10 shrink-0 items-center justify-center rounded-sm bg-cream text-sm font-black text-ink"
-              aria-hidden
-            >
-              2×
-            </span>
-            <div>
-              <p className="text-base font-extrabold tracking-[-0.01em] text-cream">
-                {dict.ai.bothModesTitle}
-              </p>
-              <p className="mt-1 text-sm leading-relaxed text-cream/75">
-                {dict.ai.bothModesBody}
-              </p>
-            </div>
-          </div>
         </div>
 
         <div

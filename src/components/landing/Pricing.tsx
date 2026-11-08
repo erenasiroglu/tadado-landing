@@ -2,7 +2,7 @@ import { Check, Crown, Download, Sparkles, Zap } from "lucide-react";
 
 import { Tag } from "@/components/brand/tag";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { isNightLandingTheme, isNovemberPricingPromo } from "@/lib/landing-theme";
+import { isNovemberPricingPromo } from "@/lib/landing-theme";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
@@ -108,9 +108,8 @@ function Price({
 export function Pricing({ locale, dict }: PricingProps) {
   const { pricing, proof } = dict;
   const { badges } = pricing;
-  const night = isNightLandingTheme();
   const showNovember = isNovemberPricingPromo();
-  const cardSurface = night ? "surface-glass" : "surface-paper";
+  const cardSurface = "surface-paper";
   const trustItems = pricing.trust
     .split("·")
     .map((item) => item.trim())
@@ -184,12 +183,8 @@ export function Pricing({ locale, dict }: PricingProps) {
                 className={cn(
                   "rounded-sm px-4 py-3.5",
                   tier.highlight
-                    ? night
-                      ? "bg-white/10 ring-1 ring-white/20 ring-inset"
-                      : "bg-lilac/70 ring-1 ring-ink/10 ring-inset"
-                    : night
-                      ? "bg-white/6"
-                      : "bg-mist/80",
+                    ? "bg-lilac/70 ring-1 ring-ink/10 ring-inset"
+                    : "bg-mist/80",
                 )}
               >
                 <div className="grid grid-cols-1 gap-1 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-x-3">
