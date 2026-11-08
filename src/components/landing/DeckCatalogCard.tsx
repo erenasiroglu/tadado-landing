@@ -27,7 +27,7 @@ interface DeckCatalogCardProps {
   title: string;
   subtitle: string;
   playLabel: string;
-  newBadgeLabel?: string;
+  badgeLabel?: string;
   isFree?: boolean;
   showPlayIcon?: boolean;
   /** Carousel cards manage their own lift/scale. */
@@ -44,7 +44,7 @@ export function DeckCatalogCard({
   title,
   subtitle,
   playLabel,
-  newBadgeLabel = "NEW",
+  badgeLabel,
   isFree = false,
   showPlayIcon = false,
   disableHoverMotion = false,
@@ -138,7 +138,7 @@ export function DeckCatalogCard({
             />
 
             <div className="pointer-events-none absolute inset-0 z-[3] flex flex-col p-4">
-              {config.showBadge ? (
+              {config.showBadge && badgeLabel ? (
                 <div className="flex justify-end">
                   <span
                     className="rounded-md px-2 py-1 text-[10px] font-bold uppercase tracking-wider"
@@ -148,7 +148,7 @@ export function DeckCatalogCard({
                       border: `1px solid ${GLASS.border.color}`,
                     }}
                   >
-                    {newBadgeLabel}
+                    {badgeLabel}
                   </span>
                 </div>
               ) : (
@@ -215,8 +215,8 @@ export function DeckCatalogCard({
                 <span
                   className="inline-flex min-h-8 min-w-[80px] max-w-[92%] items-center justify-center rounded-lg px-4 text-[11px] font-bold tracking-wide transition-colors group-hover:bg-ink/20"
                   style={{
-                    backgroundColor: "rgba(196, 181, 253, 0.14)",
-                    color: DECK_CHROME.subtitleColor,
+                    backgroundColor: DECK_CHROME.ctaTint,
+                    color: DECK_CHROME.ctaTextColor,
                     border: `1px solid ${GLASS.border.color}`,
                   }}
                 >

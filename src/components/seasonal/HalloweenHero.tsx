@@ -10,6 +10,7 @@ import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileSt
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
+import { localeHref } from "@/lib/i18n";
 import { modePageHref } from "@/lib/mode-pages";
 import { trackEvent } from "@/lib/tracking";
 
@@ -18,14 +19,17 @@ import { HalloweenDeckCard } from "./HalloweenDeckCard";
 interface HalloweenHeroProps {
   locale: Locale;
   dict: Dictionary;
+  /** Seasonal Halloween event copy; otherwise evergreen home hero on the same midnight layout. */
+  seasonal?: boolean;
 }
 
 /**
  * Season hero: the app's Halloween skin on a midnight stage, with the three game modes
  * on real-looking phones (same components the rest of the page uses).
  */
-export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
+export function HalloweenHero({ locale, dict, seasonal = false }: HalloweenHeroProps) {
   const copy = dict.halloween;
+  const hero = dict.hero;
 
   const chips = [
     { icon: Ban, label: dict.modes.tabooTitle, href: modePageHref(locale, "forbidden-words") },
@@ -44,14 +48,20 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
         <div className="section-shell relative z-[2] grid items-center gap-12 pb-12 pt-10 sm:pb-14 sm:pt-14 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-8 lg:pb-16 lg:pt-16">
           <div className="flex min-w-0 flex-col items-center gap-6 text-center lg:items-start lg:text-start">
             <div className="hero-rise" style={{ "--i": 0 } as React.CSSProperties}>
-              <p className="halloween-hero__eyebrow">
-                {copy.eyebrow}
+              <p className={seasonal ? "halloween-hero__eyebrow" : "halloween-hero__eyebrow normal-case tracking-[-0.02em]"}>
+                {seasonal ? copy.eyebrow : hero.brandLine}
               </p>
             </div>
             <div className="hero-rise" style={{ "--i": 1 } as React.CSSProperties}>
               <h1 className="halloween-hero__title">
-                <span className="block text-cream sm:whitespace-nowrap">{copy.heroTitle}</span>
-                <span className="block text-[#CAB6FE] sm:whitespace-nowrap">{copy.heroTitleAccent}</span>
+                {seasonal ? (
+                  <>
+                    <span className="block text-cream sm:whitespace-nowrap">{copy.heroTitle}</span>
+                    <span className="block text-[#CAB6FE] sm:whitespace-nowrap">{copy.heroTitleAccent}</span>
+                  </>
+                ) : (
+                  <span className="block text-cream">{hero.title}</span>
+                )}
               </h1>
             </div>
             <div className="hero-rise" style={{ "--i": 2 } as React.CSSProperties}>
@@ -67,14 +77,16 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
               </ul>
             </div>
             <div className="hero-rise" style={{ "--i": 3 } as React.CSSProperties}>
-              <p className="max-w-md text-base leading-relaxed text-[#CAB6FE]/90 sm:text-lg">{copy.heroSubtitle}</p>
+              <p className="max-w-md text-base leading-relaxed text-[#CAB6FE]/90 sm:text-lg">
+                {seasonal ? copy.heroSubtitle : hero.subtitle}
+              </p>
             </div>
             <div className="hero-rise w-full max-w-md" style={{ "--i": 4 } as React.CSSProperties}>
               <div className="flex flex-col gap-3 sm:hidden">
                 <MobileStoreDownloadCta
                   locale={locale}
                   source="hero_primary"
-                  label={dict.hero.ctaPrimary}
+                  label={hero.ctaPrimary}
                   className="halloween-store-cta min-h-12"
                   onClick={() => track("primary")}
                 />
@@ -88,13 +100,23 @@ export function HalloweenHero({ locale, dict }: HalloweenHeroProps) {
                   className="w-full flex-row items-center justify-center lg:justify-start"
                 />
               </div>
-              <a
-                href="#halloween"
-                onClick={() => track("secondary")}
-                className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
-              >
-                {copy.heroSecondary}
-              </a>
+              {seasonal ? (
+                <a
+                  href="#halloween"
+                  onClick={() => track("secondary")}
+                  className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
+                >
+                  {copy.heroSecondary}
+                </a>
+              ) : (
+                <Link
+                  href={localeHref(locale, "halloween")}
+                  onClick={() => track("secondary")}
+                  className="mt-4 inline-flex min-h-11 items-center text-sm font-bold text-cream/80 underline-offset-4 transition-colors hover:text-cream hover:underline"
+                >
+                  {copy.guideCta}
+                </Link>
+              )}
             </div>
           </div>
 

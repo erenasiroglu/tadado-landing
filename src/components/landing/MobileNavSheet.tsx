@@ -16,7 +16,6 @@ import { getDecksHubHref, SEO_DECK_KEYS } from "@/lib/deck-catalog";
 import { deckSlugFor } from "@/lib/deck-slugs";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { modePageHref } from "@/lib/mode-pages";
-import { isHalloweenSeason } from "@/lib/season";
 import { cn } from "@/lib/utils";
 
 interface MobileNavSheetProps {
@@ -73,8 +72,6 @@ function NavGroup({
 }
 
 export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
-  const halloween = isHalloweenSeason();
-
   const modeLinks: ModeItem[] = [
     { href: modePageHref(locale, "forbidden-words"), label: dict.modes.tabooTitle, icon: Ban, isPage: true },
     { href: modePageHref(locale, "heads-up"), label: dict.modes.headsUpTitle, icon: Smartphone, isPage: true },
@@ -132,21 +129,34 @@ export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
           className="min-h-0 flex-1 overflow-y-auto overscroll-contain"
           aria-label={dict.a11y.mobileNav}
         >
-          {halloween ? (
-            <div className="px-5 pt-5">
+          <div className="px-5 pt-5">
+            <NavLink
+              href={getDecksHubHref(locale)}
+              isPage
+              className="flex min-h-14 items-center justify-between gap-3 rounded-2xl bg-[var(--night)] px-4 text-[15px] font-bold text-cream"
+            >
+              <span className="flex items-center gap-3">
+                <span className="size-2 rounded-full bg-[#C8BAFB]" aria-hidden />
+                {dict.nav.decks}
+              </span>
+              <ChevronRight className="h-4 w-4 shrink-0 text-cream/60 rtl:rotate-180" aria-hidden />
+            </NavLink>
+          </div>
+
+          <NavGroup title={dict.nav.seasons}>
+            <div className="flex flex-col gap-1">
               <NavLink
                 href={localeHref(locale, "halloween")}
                 isPage
-                className="flex min-h-14 items-center justify-between gap-3 rounded-2xl bg-[var(--night)] px-4 text-[15px] font-bold text-cream"
+                className="-mx-2 flex min-h-12 items-center gap-3 rounded-xl px-2 text-[15px] font-semibold text-foreground transition-colors hover:bg-mist active:bg-lilac"
               >
-                <span className="flex items-center gap-3">
-                  <span className="size-2 rounded-full bg-[var(--pumpkin)]" aria-hidden />
-                  {dict.nav.halloween}
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-[var(--night)] text-[var(--pumpkin)]">
+                  <Sparkles className="h-[18px] w-[18px]" aria-hidden />
                 </span>
-                <ChevronRight className="h-4 w-4 shrink-0 text-cream/60 rtl:rotate-180" aria-hidden />
+                {dict.nav.halloween}
               </NavLink>
             </div>
-          ) : null}
+          </NavGroup>
 
           <NavGroup title={dict.footer.playTitle}>
             <div className="flex flex-col gap-1">

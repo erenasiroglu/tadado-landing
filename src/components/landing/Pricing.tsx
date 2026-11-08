@@ -1,4 +1,4 @@
-import { Check, Crown, Download, Sparkles } from "lucide-react";
+import { Check, Crown, Download, Sparkles, Zap } from "lucide-react";
 
 import { Tag } from "@/components/brand/tag";
 import type { Dictionary, Locale } from "@/lib/i18n";
@@ -65,16 +65,19 @@ function Price({
   value,
   suffix,
   dark,
+  compact,
 }: {
   value: string;
   suffix?: string;
   dark?: boolean;
+  compact?: boolean;
 }) {
   return (
-    <p className="mt-3 flex items-baseline gap-2">
+    <p className="mt-3 flex flex-wrap items-baseline gap-x-2 gap-y-1">
       <span
         className={cn(
-          "text-5xl font-extrabold tracking-[-0.04em] tabular-nums",
+          "font-extrabold tracking-[-0.04em] tabular-nums",
+          compact ? "text-3xl" : "text-5xl",
           dark ? "text-cream" : "text-foreground",
         )}
       >
@@ -102,6 +105,8 @@ export function Pricing({ locale, dict }: PricingProps) {
     .map((item) => item.trim())
     .filter(Boolean);
 
+  const weekly = pricing.weekly;
+
   return (
     <LandingSection
       id="pricing"
@@ -127,24 +132,25 @@ export function Pricing({ locale, dict }: PricingProps) {
           />
         </article>
 
-        {/* Full Access: the plan we want people to pick, so it is the dark anchor. */}
+        {/* Weekly: featured pass for all premium decks. */}
         <article className="relative flex flex-col rounded-lg surface-obsidian p-7 sm:p-8 lg:-my-4 lg:py-12">
-          <Tag tone="onDark" icon={<Crown aria-hidden />}>
-            {badges.bestValue}
+          <Tag tone="onDark" icon={<Zap aria-hidden />}>
+            {badges.popular}
           </Tag>
           <div className="mt-6">
-            <PlanName dark>{pricing.fullAccess.name}</PlanName>
+            <PlanName dark>{weekly.name}</PlanName>
             <Price
-              value={pricing.fullAccess.price}
-              suffix={pricing.oneTime}
+              value={weekly.price}
+              suffix={weekly.suffix}
               dark
+              compact={weekly.price.length > 8}
             />
             <p className="mt-3 text-sm leading-relaxed text-cream/70">
-              {pricing.fullAccess.desc}
+              {weekly.desc}
             </p>
           </div>
           <Checklist
-            items={[pricing.fullAccess.aiCredits, ...trustItems]}
+            items={[weekly.decksLine, weekly.cancelLine, ...trustItems]}
             dark
           />
         </article>
@@ -187,21 +193,46 @@ export function Pricing({ locale, dict }: PricingProps) {
         </article>
       </div>
 
-      <div className="mt-5 flex flex-col gap-3 rounded-lg surface-paper px-7 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:mt-9">
-        <div className="min-w-0">
-          <PlanName>{pricing.singleDeck.name}</PlanName>
-          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-            {pricing.singleDeck.desc}
+      <div className="mt-5 grid gap-5 lg:grid-cols-2">
+        <article className="flex flex-col rounded-lg surface-paper p-7 sm:p-8">
+          <Tag icon={<Crown aria-hidden />}>{badges.bestValue}</Tag>
+          <div className="mt-6 flex flex-1 flex-col">
+            <PlanName>{pricing.fullAccess.name}</PlanName>
+            <Price
+              value={pricing.fullAccess.price}
+              suffix={pricing.oneTime}
+              compact
+            />
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              {pricing.fullAccess.desc}
+            </p>
+            <Checklist
+              items={[
+                pricing.fullAccess.aiCredits,
+                badges.oneTimeForever,
+                proof.noAds,
+              ]}
+            />
+          </div>
+        </article>
+
+        <article className="flex flex-col justify-between rounded-lg surface-paper px-7 py-6 sm:px-8">
+          <div className="min-w-0">
+            <Tag className="mb-4">{badges.oneTimeForever}</Tag>
+            <PlanName>{pricing.singleDeck.name}</PlanName>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              {pricing.singleDeck.desc}
+            </p>
+          </div>
+          <p className="mt-6 flex shrink-0 items-baseline gap-2 border-t border-border pt-6">
+            <span className="text-3xl font-extrabold tracking-[-0.04em] text-foreground tabular-nums">
+              {pricing.singleDeck.price}
+            </span>
+            <span className="text-sm font-semibold text-muted-foreground">
+              {pricing.oneTime}
+            </span>
           </p>
-        </div>
-        <p className="flex shrink-0 items-baseline gap-2">
-          <span className="text-3xl font-extrabold tracking-[-0.04em] text-foreground tabular-nums">
-            {pricing.singleDeck.price}
-          </span>
-          <span className="text-sm font-semibold text-muted-foreground">
-            {pricing.oneTime}
-          </span>
-        </p>
+        </article>
       </div>
 
       <div className="mt-12 flex flex-col items-center gap-4 text-center">

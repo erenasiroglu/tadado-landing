@@ -18,7 +18,11 @@
     "affiliate": "Cộng tác viên",
     "team": "Đội Ngũ",
     "download": "Tải xuống",
-    "halloween": "Halloween"
+    "halloween": "Halloween",
+    "seasons": "Seasons",
+    "seasonsPick": "Pick a theme",
+    "seasonsClose": "Close seasons menu",
+    "seasonsHalloweenDesc": "Party games guide & spooky deck"
   },
   "hero": {
     "brandLine": "Trò chơi đoán từ cho buổi tiệc · ★ 5.0 trên App Store",
@@ -45,7 +49,7 @@
         "label": "ngôn ngữ"
       },
       {
-        "value": "7+",
+        "value": "14+",
         "label": "bộ bài",
         "href": "#decks"
       },
@@ -81,8 +85,8 @@
         "body": "Nhập bất kỳ chủ đề nào và nhận bộ bài chơi ngay lập tức. Hoàn hảo cho trò đùa nội bộ, đêm xem phim hoặc tiệc theo chủ đề."
       },
       {
-        "title": "Không quảng cáo, không đăng ký",
-        "body": "Bắt đầu miễn phí với Tadado Mix. Chỉ trả một lần nếu bạn muốn thêm bộ bài theo chủ đề hoặc tạo bộ bài AI."
+        "title": "No ads, flexible pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
       },
       {
         "title": "17 ngôn ngữ tích hợp sẵn",
@@ -107,7 +111,7 @@
       "Chơi offline",
       "Đội & hẹn giờ",
       "Không quảng cáo",
-      "Không đăng ký"
+      "Weekly or one-time unlocks"
     ]
   },
   "personalization": {
@@ -488,7 +492,7 @@
   "decks": {
     "title": "Chọn vibe của bạn",
     "subtitle": "Bắt đầu miễn phí với Tadado Mix, rồi mở khóa gói theo chủ đề khi bạn sẵn sàng.",
-    "countBadge": "8 bộ bài",
+    "countBadge": "14 game decks",
     "free": "Miễn phí",
     "play": "CHƠI",
     "price": "$1.99",
@@ -525,21 +529,61 @@
       "midnight": {
         "name": "Game đêm",
         "desc": "Trò chơi chữ táo bạo sau đêm!"
+      },
+      "halloween": {
+        "name": "Halloween",
+        "desc": "Spooky words for a night full of laughs!"
+      },
+      "office": {
+        "name": "Office",
+        "desc": "Meetings, emails and every office moment!"
+      },
+      "brands": {
+        "name": "Brands",
+        "desc": "The brands, logos and slogans everyone knows!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "The table, the friends and those long nights!"
+      },
+      "animals": {
+        "name": "Animals",
+        "desc": "Wildlife from the savannah to the sea!"
+      },
+      "cars": {
+        "name": "Cars",
+        "desc": "Supercars, classics, and icons worth knowing!"
       }
-    }
+    },
+    "eventBadge": "EVENT",
+    "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Bắt đầu miễn phí. Mở khóa thêm khi bữa tiệc thêm vui.",
-    "subtitle": "Tải miễn phí và chơi ngay. Thêm bộ bài cao cấp hoặc gói AI bằng giao dịch mua một lần. Không bao giờ có gói đăng ký.",
-    "oneTime": "mua một lần",
-    "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
-    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "oneTime": "one-time",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best one-time deal",
+      "oneTimeForever": "Pay once, keep forever"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "Miễn phí",
-      "desc": "Tải miễn phí và chơi ngay với bộ bài khởi đầu cổ điển."
+      "price": "Free",
+      "desc": "Download free and play immediately with the classic starter deck."
     },
-    "aiSectionTitle": "Tạo bộ bài bằng AI",
+    "weekly": {
+      "name": "Premium Weekly",
+      "price": "3 days free",
+      "suffix": "then weekly",
+      "desc": "Every premium themed deck stays unlocked while your plan is active.",
+      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
+      "cancelLine": "Cancel anytime in the App Store or Google Play"
+    },
+    "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
         "name": "Mini",
@@ -558,23 +602,18 @@
         "desc": "40 lượt tạo bộ bài AI cho chủ tiệc không bao giờ cạn ý tưởng."
       }
     ],
-    "decksSectionTitle": "Bộ bài cao cấp",
+    "decksSectionTitle": "Premium decks",
     "singleDeck": {
-      "name": "Bộ bài theo chủ đề",
+      "name": "Single premium deck",
       "price": "$1.99",
-      "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
+      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Tất cả bộ bài chủ đề cao cấp cùng 20 lượt tạo bộ bài AI, chỉ với một lần mua.",
-      "aiCredits": "Bao gồm 20 lượt tạo bộ bài AI",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
-    },
-    "badges": {
-      "free": "Tải miễn phí",
-      "popular": "Phổ biến nhất",
-      "bestValue": "Đáng giá nhất"
     }
   },
   "howItWorks": {
@@ -802,7 +841,7 @@
         "others": "no"
       }
     ],
-    "note": "Nhiều ứng dụng chỉ có một chế độ, nhiều quảng cáo hoặc khóa nội dung sau gói thuê bao. Tadado được làm cho những buổi chơi game thật sự, với ba chế độ, bộ thẻ khởi đầu miễn phí và nội dung thêm mua một lần.",
+    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
     "cta": "Tải Tadado miễn phí",
     "viewFull": "Mở trang so sánh đầy đủ"
   },

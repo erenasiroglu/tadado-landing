@@ -3,8 +3,6 @@
  * @see constants/homeGradient.ts, constants/glassDesign.ts, constants/gameThemes.ts
  */
 
-import { isHalloweenSeason } from "@/lib/season";
-
 export const BRAND_BG_DEEP = "#1A0F28";
 export const BRAND_BG = "#2A0A3B";
 export const BRAND_BG_LIFT = "#3D1F58";
@@ -99,8 +97,8 @@ export const HALLOWEEN_GAME_SCREEN: typeof CLASSIC_GAME_SCREEN = {
   forbiddenUppercase: false,
 };
 
-/** Game skin the site previews use right now; follows the app's seasonal default skin. */
-export const ACTIVE_GAME_SCREEN = isHalloweenSeason() ? HALLOWEEN_GAME_SCREEN : CLASSIC_GAME_SCREEN;
+/** Default app classic skin on the home page; pumpkin skin is for `/halloween` only. */
+export const ACTIVE_GAME_SCREEN = CLASSIC_GAME_SCREEN;
 
 export const ACTION_VARIANTS = {
   taboo: {
@@ -123,14 +121,17 @@ export const ACTION_VARIANTS = {
   },
 } as const;
 
+/** Mirrors `constants/illustratedDeckCardChrome.ts` + app `colors.text` / `colors.border`. */
 export const DECK_CHROME = {
-  borderColor: GLASS.border.colorStrong,
-  titleColor: GLASS.text.primary,
-  subtitleColor: GLASS.text.secondary,
-  playIconColor: GLASS.text.primary,
-  badgeTextColor: GLASS.text.secondary,
-  playTint: GLASS.tint.default,
-  badgeTint: GLASS.tint.subtle,
+  borderColor: "rgba(200, 186, 251, 0.32)",
+  titleColor: "#FFF4D6",
+  subtitleColor: "#C8BAFB",
+  ctaTextColor: "rgba(255, 244, 214, 0.88)",
+  playIconColor: "#FFF4D6",
+  badgeTextColor: "#C8BAFB",
+  playTint: "rgba(200, 186, 251, 0.14)",
+  ctaTint: "rgba(200, 186, 251, 0.14)",
+  badgeTint: "rgba(255, 255, 255, 0.06)",
 } as const;
 
 export const CTA_GRADIENT = {

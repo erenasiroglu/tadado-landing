@@ -3,13 +3,14 @@ import Link from "next/link";
 import { BrandLockup } from "@/components/brand/brand-lockup";
 import { blogHref, localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { modePageHref } from "@/lib/mode-pages";
-import { isHalloweenSeason } from "@/lib/season";
+import { isNightLandingTheme } from "@/lib/landing-theme";
 import { cn } from "@/lib/utils";
 
 import { DecksNavCrawlLinks } from "./DecksNavCrawlLinks";
 import { DecksNavMenu } from "./DecksNavMenu";
 import { LanguageMenu } from "./LanguageMenu";
 import { MobileNavSheet } from "./MobileNavSheet";
+import { SeasonsNavMenu } from "./SeasonsNavMenu";
 
 interface HeaderProps {
   locale: Locale;
@@ -26,7 +27,7 @@ function homeHref(locale: Locale, hash: string) {
 }
 
 export function Header({ locale, dict, dark = false }: HeaderProps) {
-  const halloween = isHalloweenSeason();
+  const night = dark && isNightLandingTheme();
   const primaryLinks = [
     { href: homeHref(locale, "#modes"), label: dict.nav.play },
     { href: modePageHref(locale, "ai-decks"), label: dict.nav.aiDecks, isPage: true },
@@ -40,7 +41,7 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
     <header
       className={cn(
         "sticky top-0 z-50 border-b border-border/60 bg-paper/72 backdrop-blur-md",
-        dark && halloween && "site-header--halloween",
+        night && "site-header--halloween",
       )}
     >
       <div className="section-shell flex h-14 items-center justify-between gap-4 md:h-16">
@@ -48,11 +49,12 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
 
         <DecksNavCrawlLinks locale={locale} dict={dict} />
         <nav className="hidden items-center gap-5 xl:gap-6 lg:flex" aria-label={dict.a11y.mainNav}>
-          {halloween ? (
-            <Link href={localeHref(locale, "halloween")} className={cn(navLinkClass, "halloween-nav-link")}>
-              {dict.nav.halloween}
-            </Link>
-          ) : null}
+          <SeasonsNavMenu
+            locale={locale}
+            dict={dict}
+            linkClassName={navLinkClass}
+            night={night}
+          />
           {primaryLinks.map((link) =>
             "isPage" in link && link.isPage ? (
               <Link key={link.href} href={link.href} className={navLinkClass}>

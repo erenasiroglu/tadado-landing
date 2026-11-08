@@ -18,7 +18,11 @@
     "affiliate": "Affiliate",
     "team": "Ekibimiz",
     "download": "İndir",
-    "halloween": "Cadılar Bayramı"
+    "halloween": "Cadılar Bayramı",
+    "seasons": "Sezonlar",
+    "seasonsPick": "Tema seç",
+    "seasonsClose": "Sezon menüsünü kapat",
+    "seasonsHalloweenDesc": "Parti oyunu rehberi ve ürkütücü deste"
   },
   "hero": {
     "brandLine": "Parti kelime oyunu · App Store'da ★ 5.0",
@@ -32,14 +36,20 @@
         "label": "oyun oynandı",
         "animate": true
       },
-      { "value": "3", "label": "oyun modu" },
+      {
+        "value": "3",
+        "label": "oyun modu"
+      },
       {
         "value": "AI",
         "label": "destekli"
       },
-      { "value": "17", "label": "dil" },
       {
-        "value": "7+",
+        "value": "17",
+        "label": "dil"
+      },
+      {
+        "value": "14+",
         "label": "oyun destesi",
         "href": "#decks"
       },
@@ -75,8 +85,8 @@
         "body": "Herhangi bir konu yaz, anında oynanabilir deste al. İç şakalar, film geceleri ve temalı partiler için ideal."
       },
       {
-        "title": "Reklamsız, abonelik yok",
-        "body": "Tadado Mix ile ücretsiz başla. Ekstra temalı desteler veya yapay zeka deste oluşturma için yalnızca bir kez öde."
+        "title": "Reklamsız, esnek fiyatlandırma",
+        "body": "Tadado Mix ile ücretsiz başla. Haftalık planda tüm premium desteleri dene veya desteleri ve yapay zekayı tek seferlik satın al."
       },
       {
         "title": "17 dil dahili",
@@ -101,7 +111,7 @@
       "Çevrimdışı oyna",
       "Takımlar ve süreler",
       "Reklam yok",
-      "Abonelik yok"
+      "Haftalık veya tek seferlik"
     ]
   },
   "personalization": {
@@ -389,7 +399,7 @@
     "ctaTitle": "Bir sonraki oyun geceniz ücretsiz başlıyor",
     "ctaBody": "Tadado'yu indir, ücretsiz bir desteyi aç ve saniyeler içinde Yasaklı Kelimeler, Alnında Tahmin ya da Casus oyna. Tek telefon yeterli.",
     "ctaButton": "Tadado'yu ücretsiz indir",
-    "freeNote": "Ücretsiz indir · Reklamsız · Abonelik yok",
+    "freeNote": "Ücretsiz indir · Reklamsız · Haftalık veya tek seferlik",
     "disclaimer": "{game} adı yalnızca bilinen bir oyunu veya oyun biçimini tanımlamak için kullanılmıştır. Tüm markalar sahiplerine aittir; Tadado bu markalarla bağlantılı değildir ve onlar tarafından desteklenmez. {game} hakkındaki notlar klasik oyunu ve tipik sürümleri anlatır; uygulamalar ve baskılar farklılık gösterebilir, mağaza sayfalarını kontrol edin."
   },
   "geniusEvent": {
@@ -443,7 +453,10 @@
         "value": "100",
         "label": "ürkütücü kelime"
       },
-      { "value": "3", "label": "oyun modu" },
+      {
+        "value": "3",
+        "label": "oyun modu"
+      },
       {
         "value": "Ücretsiz",
         "label": "herkese"
@@ -479,11 +492,13 @@
   "decks": {
     "title": "Tarzını seç",
     "subtitle": "Tadado Mix ile ücretsiz başla, hazır olduğunda temalı paketleri aç.",
-    "countBadge": "8 oyun destesi",
+    "countBadge": "14 oyun destesi",
     "free": "Ücretsiz",
     "play": "OYNA",
     "price": "59,99 TL",
     "newBadge": "YENİ",
+    "eventBadge": "ETKİNLİK",
+    "hardBadge": "ZOR",
     "items": {
       "mix": {
         "name": "Tadado Mix",
@@ -516,24 +531,57 @@
       "midnight": {
         "name": "Gece Oyunları",
         "desc": "Geceye özel cesur kelime oyunları!"
+      },
+      "halloween": {
+        "name": "Cadılar Bayramı",
+        "desc": "Ürkütücü kelimeler, kahkaha dolu bir gece!"
+      },
+      "office": {
+        "name": "Ofis",
+        "desc": "Toplantılar, mailler, o bildiğin ofis anları!"
+      },
+      "brands": {
+        "name": "Markalar",
+        "desc": "Herkesin bildiği markalar, logolar ve sloganlar!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "Sofra, arkadaşlar ve gece yarısı sohbetleri!"
+      },
+      "animals": {
+        "name": "Hayvanlar",
+        "desc": "Savandan denize vahşi yaşam!"
+      },
+      "cars": {
+        "name": "Arabalar",
+        "desc": "Süper arabalar, klasikler ve efsane modeller!"
       }
     }
   },
   "pricing": {
     "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
-    "subtitle": "Ücretsiz indir, hemen oyna. Premium desteleri veya yapay zeka paketlerini tek seferlik satın alımla ekle. Abonelik asla yok.",
+    "subtitle": "Tadado Mix tamamen ücretsiz. 3 gün ücretsiz haftalık planla tüm premium desteleri dene; istersen tek deste, Full Access veya yapay zeka paketi al.",
     "oneTime": "tek seferlik",
-    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Satın alımlar Apple veya Google üzerinden yapılır.",
-    "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle",
+    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Haftalık plan, mağaza ayarlarından iptal edene kadar yenilenir. Tek seferlik satın alımlar kalıcıdır. Ödemeler Apple veya Google üzerinden yapılır.",
+    "trust": "Reklamsız · Satın alımları geri yükle · Haftalığı istediğin zaman iptal et",
     "badges": {
       "free": "Ücretsiz indir",
       "popular": "En popüler",
-      "bestValue": "En iyi değer"
+      "bestValue": "En iyi tek seferlik",
+      "oneTimeForever": "Bir kez öde, sonsuza kadar senin"
     },
     "free": {
       "name": "Tadado Mix",
       "price": "Ücretsiz",
       "desc": "Ücretsiz indir ve klasik başlangıç destesiyle hemen oyna."
+    },
+    "weekly": {
+      "name": "Premium Haftalık",
+      "price": "3 gün ücretsiz",
+      "suffix": "sonra haftalık",
+      "desc": "Planın aktif olduğu sürece tüm premium temalı desteler açık kalır.",
+      "decksLine": "14+ premium deste (Cadılar Bayramı, Sinema, Spor, Genius ve daha fazlası)",
+      "cancelLine": "App Store veya Google Play'den istediğin zaman iptal et"
     },
     "aiSectionTitle": "Yapay zeka ile deste oluşturma",
     "aiTiers": [
@@ -558,13 +606,13 @@
     "singleDeck": {
       "name": "Tek premium deste",
       "price": "59,99 TL",
-      "desc": "Deste başına tek seferlik satın alma. Yaz, Sinema, Seyahat, Spor, Kahramanlar ve daha fazlası."
+      "desc": "Deste başına tek seferlik — Cadılar Bayramı, Ofis, Markalar, Hayvanlar, Arabalar, Friendsgiving, Yaz, Sinema, Seyahat, Spor, Kahramanlar, Gece Oyunları, Genius Only ve daha fazlası."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "499,99 TL",
-      "desc": "Tüm premium temalı desteler ve 20 AI deste oluşturma hakkı, tek satın alımla.",
-      "aiCredits": "20 AI deste oluşturma hakkı dahil",
+      "desc": "Tüm premium temalı desteler ve 20 yapay zeka deste oluşturma hakkı, tek seferlik ödemeyle sonsuza kadar senin.",
+      "aiCredits": "20 yapay zeka deste oluşturma hakkı dahil",
       "highlight": true
     }
   },
@@ -594,8 +642,14 @@
         "label": "oyun oynandı",
         "animate": true
       },
-      { "value": "17", "label": "dil" },
-      { "value": "3", "label": "oyun modu" }
+      {
+        "value": "17",
+        "label": "dil"
+      },
+      {
+        "value": "3",
+        "label": "oyun modu"
+      }
     ],
     "languagesTitle": "Desteklenen diller",
     "languagesCaption": "Uygulama, desteler ve mağaza 17 dilde. Dili değiştirmek için üstteki dil menüsünü kullan.",
@@ -693,12 +747,21 @@
     "title": "Pazarlama ve basın",
     "subtitle": "İçerik üreticileri, marka desteleri ve Tadado basın materyalleri.",
     "back": "Tadado'ya dön",
-    "intro": "Tadado gerçek gruplar için bir parti oyunu uygulaması: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda, reklamsız ve aboneliksiz. İçerik, iş birliği ya da haber planlıyorsan buradan başla.",
+    "intro": "Tadado gerçek gruplar için bir parti oyunu uygulaması: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda, reklamsız; ücretsiz başlangıç ve isteğe bağlı haftalık veya tek seferlik açılımlar. İçerik, iş birliği ya da haber planlıyorsan buradan başla.",
     "statsLabel": "Özet",
     "stats": [
-      { "value": "300.000+", "label": "oyun oynandı" },
-      { "value": "17", "label": "dil" },
-      { "value": "3", "label": "oyun modu" }
+      {
+        "value": "300.000+",
+        "label": "oyun oynandı"
+      },
+      {
+        "value": "17",
+        "label": "dil"
+      },
+      {
+        "value": "3",
+        "label": "oyun modu"
+      }
     ],
     "pillars": [
       {
@@ -790,11 +853,11 @@
       },
       {
         "q": "Tadado en iyi ücretsiz parti oyunu uygulamalarından biri mi?",
-        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, blöf oyunu Casus, ücretsiz desteler, isteğe bağlı tema desteleri ve yapay zeka ile deste oluşturma. Reklam ve abonelik yok; bu da onu iOS ve Android'deki en avantajlı parti oyunu uygulamalarından biri yapıyor."
+        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, Casus, ücretsiz başlangıç destesi, isteğe bağlı premium desteler ve yapay zeka ile deste oluşturma. Reklam yok; haftalık veya tek seferlik seçeneklerle açılır."
       },
       {
         "q": "Tadado ücretsiz mi?",
-        "a": "Evet. Tadado Mix ücretsiz oynanır. İsteğe bağlı temalı desteler ve yapay zeka deste oluşturma tek seferlik satın alımlardır. Detaylar için Fiyatlar bölümüne bak. Abonelik yoktur."
+        "a": "Evet. Tadado Mix ücretsiz oynanır. Premium desteler isteğe bağlıdır: 3 gün ücretsiz haftalık plan, tek deste, Full Access veya yapay zeka paketleri. Ayrıntılar için Fiyatlar bölümüne bak."
       },
       {
         "q": "Tabu ile Alnında Tahmin arasındaki fark nedir?",
@@ -845,9 +908,14 @@
         "others": "no"
       },
       {
-        "feature": "Abonelik yok",
+        "feature": "Tek seferlik Full Access (tüm desteler)",
         "tadado": "yes",
         "others": "no"
+      },
+      {
+        "feature": "Ücretsiz denemeli haftalık plan",
+        "tadado": "yes",
+        "others": "partial"
       },
       {
         "feature": "Temalı deste paketleri",
@@ -865,7 +933,7 @@
         "others": "no"
       }
     ],
-    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir ya da içeriği aboneliğe kilitler. Tadado gerçek oyun geceleri için üç mod, ücretsiz başlangıç destesi ve tek seferlik ekstralarla yapıldı.",
+    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir ya da aboneliğe zorlar. Tadado üç mod, ücretsiz başlangıç destesi, denemeli haftalık plan ve tek seferlik seçenekler sunar.",
     "cta": "Tadado'yu ücretsiz indir",
     "viewFull": "Tam karşılaştırma sayfasını aç"
   },

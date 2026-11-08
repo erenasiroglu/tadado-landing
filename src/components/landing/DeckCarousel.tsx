@@ -9,6 +9,7 @@ import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { DECK_CARD_CONFIGS, type DeckKey } from "@/lib/deck-cards";
+import { resolveDeckBadgeLabel } from "@/lib/deck-catalog";
 import { getDecksHubHref } from "@/lib/deck-catalog";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
@@ -140,7 +141,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                         title={item.name}
                         subtitle={item.desc}
                         playLabel={dict.decks.play}
-                        newBadgeLabel={dict.decks.newBadge}
+                        badgeLabel={resolveDeckBadgeLabel(key, dict.decks)}
                         isFree={key === "mix"}
                         showPlayIcon
                         className="w-full"

@@ -90,10 +90,8 @@ export interface HeadsUpPreviewSample {
   word: string;
 }
 
-const HALLOWEEN = isHalloweenSeason();
-
-/** Words from the free Halloween deck while the season runs, trending words otherwise. */
-export const HERO_TABOO_SAMPLES: readonly TabooPreviewSample[] = HALLOWEEN
+/** Spooky samples only during the in-app Halloween season; default home uses neutral words. */
+export const HERO_TABOO_SAMPLES: readonly TabooPreviewSample[] = isHalloweenSeason()
   ? [
       { word: "WEREWOLF", forbidden: ["Full moon", "Wolf", "Howl", "Hairy"] },
       { word: "VAMPIRE", forbidden: ["Blood", "Bite", "Dracula", "Night"] },
@@ -103,7 +101,7 @@ export const HERO_TABOO_SAMPLES: readonly TabooPreviewSample[] = HALLOWEEN
       { word: "OBSESSION", forbidden: ["NETFLIX", "DRAMA", "SERIES", "STREAMING"] },
     ];
 
-export const HERO_HEADS_UP_SAMPLES: readonly HeadsUpPreviewSample[] = HALLOWEEN
+export const HERO_HEADS_UP_SAMPLES: readonly HeadsUpPreviewSample[] = isHalloweenSeason()
   ? [{ word: "VAMPIRE" }, { word: "PUMPKIN" }]
   : [{ word: "BARCELONA" }, { word: "THE ODYSSEY" }];
 

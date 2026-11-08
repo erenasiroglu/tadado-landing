@@ -10,6 +10,6 @@ export default function OpenGraphImage() {
     title: "One phone. Your friends. Let the chaos begin.",
     subtitle: "Taboo, Heads Up, and AI custom decks built for game nights.",
     cta: "GET TADADO · FREE",
-    footnote: "No ads · No subscription",
+    footnote: "No ads · Free to start",
   });
 }

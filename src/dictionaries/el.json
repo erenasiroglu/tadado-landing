@@ -18,7 +18,11 @@
     "affiliate": "Συνεργάτες",
     "team": "Ομάδα",
     "download": "Λήψη",
-    "halloween": "Halloween"
+    "halloween": "Halloween",
+    "seasons": "Seasons",
+    "seasonsPick": "Pick a theme",
+    "seasonsClose": "Close seasons menu",
+    "seasonsHalloweenDesc": "Party games guide & spooky deck"
   },
   "hero": {
     "brandLine": "Παιχνίδι λέξεων για πάρτι · ★ 5.0 στο App Store",
@@ -45,7 +49,7 @@
         "label": "γλώσσες"
       },
       {
-        "value": "7+",
+        "value": "14+",
         "label": "τράπουλες",
         "href": "#decks"
       },
@@ -81,8 +85,8 @@
         "body": "Γράψε οποιοδήποτε θέμα και πάρε αμέσως τράπουλα έτοιμη για παιχνίδι. Ιδανικό για εσωτερικά αστεία, βραδιές ταινιών ή θεματικά πάρτι."
       },
       {
-        "title": "Χωρίς διαφημίσεις, χωρίς συνδρομή",
-        "body": "Ξεκίνα δωρεάν με Tadado Mix. Πλήρωσε μία φορά μόνο αν θέλεις επιπλέον θεματικές τράπουλες ή δημιουργία τράπουλας AI."
+        "title": "No ads, flexible pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
       },
       {
         "title": "17 γλώσσες ενσωματωμένες",
@@ -107,7 +111,7 @@
       "Offline παιχνίδι",
       "Ομάδες & χρονόμετρα",
       "Χωρίς διαφημίσεις",
-      "Χωρίς συνδρομή"
+      "Weekly or one-time unlocks"
     ]
   },
   "personalization": {
@@ -488,7 +492,7 @@
   "decks": {
     "title": "Διάλεξε το vibe σου",
     "subtitle": "Ξεκίνα δωρεάν με Tadado Mix και ξεκλείδωσε θεματικά πακέτα όταν είσαι έτοιμος.",
-    "countBadge": "8 τράπουλες παιχνιδιού",
+    "countBadge": "14 game decks",
     "free": "Δωρεάν",
     "play": "ΠΑΙΞΕ",
     "price": "$1.99",
@@ -525,21 +529,61 @@
       "midnight": {
         "name": "Νυχτερινά παιχνίδια",
         "desc": "Τολμηρό παιχνίδι λέξεων μετά το σκοτάδι!"
+      },
+      "halloween": {
+        "name": "Halloween",
+        "desc": "Spooky words for a night full of laughs!"
+      },
+      "office": {
+        "name": "Office",
+        "desc": "Meetings, emails and every office moment!"
+      },
+      "brands": {
+        "name": "Brands",
+        "desc": "The brands, logos and slogans everyone knows!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "The table, the friends and those long nights!"
+      },
+      "animals": {
+        "name": "Animals",
+        "desc": "Wildlife from the savannah to the sea!"
+      },
+      "cars": {
+        "name": "Cars",
+        "desc": "Supercars, classics, and icons worth knowing!"
       }
-    }
+    },
+    "eventBadge": "EVENT",
+    "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Ξεκίνα δωρεάν. Ξεκλείδωσε περισσότερα όσο μεγαλώνει το πάρτι.",
-    "subtitle": "Κατέβασε δωρεάν και παίξε αμέσως. Πρόσθεσε premium τράπουλες ή πακέτα AI με εφάπαξ αγορές. Ποτέ συνδρομή.",
-    "oneTime": "εφάπαξ",
-    "disclaimer": "Οι τιμές είναι σε USD και μπορεί να διαφέρουν ανά περιοχή στο App Store και Google Play. Οι αγορές γίνονται από Apple ή Google.",
-    "trust": "Χωρίς διαφημίσεις · Χωρίς συνδρομή · Επαναφορά αγορών ανά πάσα στιγμή",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "oneTime": "one-time",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best one-time deal",
+      "oneTimeForever": "Pay once, keep forever"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "Δωρεάν",
-      "desc": "Κατέβασε δωρεάν και παίξε αμέσως με την κλασική τράπουλα εκκίνησης."
+      "price": "Free",
+      "desc": "Download free and play immediately with the classic starter deck."
     },
-    "aiSectionTitle": "Δημιουργία τράπουλας με AI",
+    "weekly": {
+      "name": "Premium Weekly",
+      "price": "3 days free",
+      "suffix": "then weekly",
+      "desc": "Every premium themed deck stays unlocked while your plan is active.",
+      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
+      "cancelLine": "Cancel anytime in the App Store or Google Play"
+    },
+    "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
         "name": "Mini",
@@ -558,23 +602,18 @@
         "desc": "40 δημιουργίες τράπουλας με AI για οικοδεσπότες που δεν ξεμένουν ποτέ από ιδέες."
       }
     ],
-    "decksSectionTitle": "Premium τράπουλες",
+    "decksSectionTitle": "Premium decks",
     "singleDeck": {
-      "name": "Θεματικές τράπουλες",
+      "name": "Single premium deck",
       "price": "$1.99",
-      "desc": "Εφάπαξ αγορά ανά τράπουλα. Καλοκαίρι, Σινεμά, Ταξίδια, Αθλητισμός, Ήρωες και άλλα."
+      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Όλες οι premium θεματικές τράπουλες και 20 δημιουργίες τράπουλας με AI, με μία αγορά.",
-      "aiCredits": "Περιλαμβάνει 20 δημιουργίες τράπουλας με AI",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
-    },
-    "badges": {
-      "free": "Δωρεάν λήψη",
-      "popular": "Πιο δημοφιλές",
-      "bestValue": "Καλύτερη αξία"
     }
   },
   "howItWorks": {
@@ -802,7 +841,7 @@
         "others": "no"
       }
     ],
-    "note": "Πολλές εφαρμογές έχουν έναν τρόπο παιχνιδιού, δείχνουν διαφημίσεις ή κλειδώνουν περιεχόμενο πίσω από συνδρομή. Το Tadado φτιάχτηκε για αληθινές βραδιές παιχνιδιών, με τρεις τρόπους, δωρεάν αρχική τράπουλα και πρόσθετα με εφάπαξ αγορά.",
+    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
     "cta": "Κατέβασε Tadado δωρεάν",
     "viewFull": "Άνοιγμα πλήρους σελίδας σύγκρισης"
   },

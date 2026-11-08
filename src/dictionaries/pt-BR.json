@@ -18,7 +18,11 @@
     "affiliate": "Afiliados",
     "team": "Equipe",
     "download": "Baixar",
-    "halloween": "Halloween"
+    "halloween": "Halloween",
+    "seasons": "Seasons",
+    "seasonsPick": "Pick a theme",
+    "seasonsClose": "Close seasons menu",
+    "seasonsHalloweenDesc": "Party games guide & spooky deck"
   },
   "hero": {
     "brandLine": "Jogo de palavras para festas · ★ 5.0 na App Store",
@@ -45,7 +49,7 @@
         "label": "idiomas"
       },
       {
-        "value": "7+",
+        "value": "14+",
         "label": "baralhos",
         "href": "#decks"
       },
@@ -81,8 +85,8 @@
         "body": "Digite qualquer tema e receba um baralho jogável na hora. Perfeito para piadas internas, noites de filme ou festas temáticas."
       },
       {
-        "title": "Sem anúncios, sem assinatura",
-        "body": "Comece grátis com Tadado Mix. Pague uma vez só se quiser baralhos temáticos extras ou criação de baralho IA."
+        "title": "No ads, flexible pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
       },
       {
         "title": "17 idiomas integrados",
@@ -107,7 +111,7 @@
       "Jogo offline",
       "Times e timers",
       "Sem anúncios",
-      "Sem assinatura"
+      "Weekly or one-time unlocks"
     ]
   },
   "personalization": {
@@ -488,7 +492,7 @@
   "decks": {
     "title": "Escolha sua vibe",
     "subtitle": "Comece grátis com Tadado Mix e desbloqueie packs temáticos quando estiver pronto.",
-    "countBadge": "8 baralhos de jogo",
+    "countBadge": "14 game decks",
     "free": "Grátis",
     "play": "JOGAR",
     "price": "$1.99",
@@ -525,21 +529,61 @@
       "midnight": {
         "name": "Jogos Noturnos",
         "desc": "Jogo de palavras ousado depois do escurecer!"
+      },
+      "halloween": {
+        "name": "Halloween",
+        "desc": "Spooky words for a night full of laughs!"
+      },
+      "office": {
+        "name": "Office",
+        "desc": "Meetings, emails and every office moment!"
+      },
+      "brands": {
+        "name": "Brands",
+        "desc": "The brands, logos and slogans everyone knows!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "The table, the friends and those long nights!"
+      },
+      "animals": {
+        "name": "Animals",
+        "desc": "Wildlife from the savannah to the sea!"
+      },
+      "cars": {
+        "name": "Cars",
+        "desc": "Supercars, classics, and icons worth knowing!"
       }
-    }
+    },
+    "eventBadge": "EVENT",
+    "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Comece grátis. Desbloqueie mais quando a festa crescer.",
-    "subtitle": "Baixe grátis e jogue na hora. Adicione baralhos premium ou pacotes de IA com compras únicas. Sem assinatura, nunca.",
-    "oneTime": "pagamento único",
-    "disclaimer": "Preços em USD; podem variar por região na App Store e Google Play. Compras processadas pela Apple ou Google.",
-    "trust": "Sem anúncios · Sem assinatura · Restaure compras a qualquer momento",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "oneTime": "one-time",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best one-time deal",
+      "oneTimeForever": "Pay once, keep forever"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "Grátis",
-      "desc": "Baixe grátis e jogue na hora com o baralho clássico inicial."
+      "price": "Free",
+      "desc": "Download free and play immediately with the classic starter deck."
     },
-    "aiSectionTitle": "Criação de baralhos com IA",
+    "weekly": {
+      "name": "Premium Weekly",
+      "price": "3 days free",
+      "suffix": "then weekly",
+      "desc": "Every premium themed deck stays unlocked while your plan is active.",
+      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
+      "cancelLine": "Cancel anytime in the App Store or Google Play"
+    },
+    "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
         "name": "Mini",
@@ -558,23 +602,18 @@
         "desc": "40 criações de baralhos com IA para anfitriões que nunca ficam sem ideias."
       }
     ],
-    "decksSectionTitle": "Baralhos premium",
+    "decksSectionTitle": "Premium decks",
     "singleDeck": {
-      "name": "Baralhos temáticos",
+      "name": "Single premium deck",
       "price": "$1.99",
-      "desc": "Compra única por baralho. Verão, Cinema, Viagem, Esporte, Heróis e mais."
+      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "Todos os baralhos temáticos premium e 20 criações de baralhos com IA, em uma única compra.",
-      "aiCredits": "20 criações de baralhos com IA incluídas",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
-    },
-    "badges": {
-      "free": "Download grátis",
-      "popular": "Mais popular",
-      "bestValue": "Melhor custo-benefício"
     }
   },
   "howItWorks": {
@@ -802,7 +841,7 @@
         "others": "no"
       }
     ],
-    "note": "Muitos apps focam em um modo só, mostram anúncios ou travam conteúdo atrás de assinaturas. O Tadado foi feito para noites de jogos de verdade, com três modos, um baralho inicial grátis e extras de compra única.",
+    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
     "cta": "Baixar Tadado grátis",
     "viewFull": "Abrir página completa de comparação"
   },

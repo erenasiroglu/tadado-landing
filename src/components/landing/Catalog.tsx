@@ -1,5 +1,6 @@
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { DECK_CARD_CONFIGS, type DeckKey } from "@/lib/deck-cards";
+import { resolveDeckBadgeLabel } from "@/lib/deck-catalog";
 
 import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 
@@ -35,7 +36,7 @@ export function Catalog({ dict, locale }: CatalogProps) {
                   title={item.name}
                   subtitle={item.desc}
                   playLabel={dict.decks.play}
-                  newBadgeLabel={dict.decks.newBadge}
+                  badgeLabel={resolveDeckBadgeLabel(key, dict.decks)}
                   isFree={isFree}
                   className="w-[232px] sm:w-[256px] md:w-[280px]"
                 />

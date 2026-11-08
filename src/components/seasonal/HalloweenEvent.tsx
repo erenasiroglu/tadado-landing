@@ -12,12 +12,17 @@ import { HalloweenDeckCard } from "./HalloweenDeckCard";
 interface HalloweenEventProps {
   locale: Locale;
   dict: Dictionary;
+  /** When false, copy de-emphasizes the limited-time event but keeps the deck CTA. */
+  seasonal?: boolean;
 }
 
 /** Halloween event: the free deck and the new modes in one compact card. */
-export function HalloweenEvent({ locale, dict }: HalloweenEventProps) {
+export function HalloweenEvent({ locale, dict, seasonal = false }: HalloweenEventProps) {
   const copy = dict.halloween;
   const modes = [copy.deckTitle, copy.imposterTitle, copy.headsUpTitle];
+  const tag = seasonal ? copy.tag : copy.deckTitle;
+  const title = seasonal ? copy.title : copy.deckTitle;
+  const body = seasonal ? copy.body : copy.deckBody;
 
   return (
     <LandingSection
@@ -30,11 +35,11 @@ export function HalloweenEvent({ locale, dict }: HalloweenEventProps) {
       <div className="halloween-event relative isolate overflow-hidden rounded-lg">
         <div className="relative grid items-center gap-10 p-6 sm:p-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-12 lg:px-12 lg:py-11">
           <div className="min-w-0">
-            <span className="halloween-tag">{copy.tag}</span>
+            <span className="halloween-tag">{tag}</span>
             <h2 className="mt-5 max-w-xl text-3xl leading-[1.06] font-extrabold tracking-[-0.04em] text-balance text-cream sm:text-4xl">
-              {copy.title}
+              {title}
             </h2>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{copy.body}</p>
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{body}</p>
 
             <ul className="mt-6 flex flex-wrap gap-2">
               {modes.map((mode) => (
@@ -52,7 +57,7 @@ export function HalloweenEvent({ locale, dict }: HalloweenEventProps) {
                 downloadSource="halloween_event"
                 className="halloween-cta"
               >
-                {copy.cta}
+                {seasonal ? copy.cta : copy.card.play}
                 <ArrowRight className="size-4 rtl:rotate-180" aria-hidden />
               </TrackedOutboundLink>
               <Link

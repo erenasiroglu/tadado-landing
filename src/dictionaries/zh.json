@@ -18,7 +18,11 @@
     "affiliate": "联盟",
     "team": "团队",
     "download": "下载",
-    "halloween": "万圣节"
+    "halloween": "万圣节",
+    "seasons": "Seasons",
+    "seasonsPick": "Pick a theme",
+    "seasonsClose": "Close seasons menu",
+    "seasonsHalloweenDesc": "Party games guide & spooky deck"
   },
   "hero": {
     "brandLine": "派对猜词游戏 · App Store 评分 ★ 5.0",
@@ -45,7 +49,7 @@
         "label": "种语言"
       },
       {
-        "value": "7+",
+        "value": "14+",
         "label": "套卡组",
         "href": "#decks"
       },
@@ -81,8 +85,8 @@
         "body": "输入任意主题，即刻获得可玩的卡组。适合内部梗、电影之夜或主题派对。"
       },
       {
-        "title": "无广告、无订阅",
-        "body": "用 Tadado Mix 免费开始。只有想要额外主题卡组或 AI 卡组创建时才需一次性付费。"
+        "title": "No ads, flexible pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
       },
       {
         "title": "内置 17 种语言",
@@ -107,7 +111,7 @@
       "离线游玩",
       "分队与计时",
       "无广告",
-      "无订阅"
+      "Weekly or one-time unlocks"
     ]
   },
   "personalization": {
@@ -488,7 +492,7 @@
   "decks": {
     "title": "选择你的 vibe",
     "subtitle": "用 Tadado Mix 免费开始，准备好后解锁主题包。",
-    "countBadge": "8 套游戏卡组",
+    "countBadge": "14 game decks",
     "free": "免费",
     "play": "开始玩",
     "price": "$1.99",
@@ -525,21 +529,61 @@
       "midnight": {
         "name": "夜间游戏",
         "desc": "深夜大胆文字游戏！"
+      },
+      "halloween": {
+        "name": "Halloween",
+        "desc": "Spooky words for a night full of laughs!"
+      },
+      "office": {
+        "name": "Office",
+        "desc": "Meetings, emails and every office moment!"
+      },
+      "brands": {
+        "name": "Brands",
+        "desc": "The brands, logos and slogans everyone knows!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "The table, the friends and those long nights!"
+      },
+      "animals": {
+        "name": "Animals",
+        "desc": "Wildlife from the savannah to the sea!"
+      },
+      "cars": {
+        "name": "Cars",
+        "desc": "Supercars, classics, and icons worth knowing!"
       }
-    }
+    },
+    "eventBadge": "EVENT",
+    "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "免费开始，派对升温再解锁更多。",
-    "subtitle": "免费下载，立即开玩。高级卡组或 AI 卡包一次购买即可拥有。永远没有订阅。",
-    "oneTime": "一次性",
-    "disclaimer": "价格为 USD，App Store 和 Google Play 可能因地区而异。购买由 Apple 或 Google 处理。",
-    "trust": "无广告 · 无订阅 · 随时恢复购买",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "oneTime": "one-time",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best one-time deal",
+      "oneTimeForever": "Pay once, keep forever"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "免费",
-      "desc": "免费下载，立即用经典入门卡组开玩。"
+      "price": "Free",
+      "desc": "Download free and play immediately with the classic starter deck."
     },
-    "aiSectionTitle": "AI 卡组创建",
+    "weekly": {
+      "name": "Premium Weekly",
+      "price": "3 days free",
+      "suffix": "then weekly",
+      "desc": "Every premium themed deck stays unlocked while your plan is active.",
+      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
+      "cancelLine": "Cancel anytime in the App Store or Google Play"
+    },
+    "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
         "name": "Mini",
@@ -558,23 +602,18 @@
         "desc": "40 次 AI 卡组创建，创意永不枯竭。"
       }
     ],
-    "decksSectionTitle": "高级卡组",
+    "decksSectionTitle": "Premium decks",
     "singleDeck": {
-      "name": "主题卡组",
+      "name": "Single premium deck",
       "price": "$1.99",
-      "desc": "每套卡组一次性购买。夏日、影院、旅行、运动、英雄等。"
+      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "一次购买，解锁所有高级主题卡组，并附赠 20 次 AI 卡组创建。",
-      "aiCredits": "含 20 次 AI 卡组创建",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
-    },
-    "badges": {
-      "free": "免费下载",
-      "popular": "最受欢迎",
-      "bestValue": "最超值"
     }
   },
   "howItWorks": {
@@ -802,7 +841,7 @@
         "others": "no"
       }
     ],
-    "note": "很多应用只有一种模式、到处是广告，或把内容锁在订阅后面。Tadado 为真正的游戏之夜而生：三种模式、免费入门卡组，以及一次性购买的扩展内容。",
+    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
     "cta": "免费下载 Tadado",
     "viewFull": "打开完整对比页"
   },

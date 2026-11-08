@@ -18,7 +18,11 @@
     "affiliate": "제휴",
     "team": "팀",
     "download": "다운로드",
-    "halloween": "할로윈"
+    "halloween": "할로윈",
+    "seasons": "Seasons",
+    "seasonsPick": "Pick a theme",
+    "seasonsClose": "Close seasons menu",
+    "seasonsHalloweenDesc": "Party games guide & spooky deck"
   },
   "hero": {
     "brandLine": "파티 단어 게임 · App Store ★ 5.0",
@@ -45,7 +49,7 @@
         "label": "언어"
       },
       {
-        "value": "7+",
+        "value": "14+",
         "label": "덱",
         "href": "#decks"
       },
@@ -81,8 +85,8 @@
         "body": "아무 주제나 입력하면 즉시 플레이 가능한 덱 완성. 내부 농담, 영화의 밤, 테마 파티에 딱."
       },
       {
-        "title": "광고 없음, 구독 없음",
-        "body": "Tadado Mix로 무료 시작. 추가 테마 덱이나 AI 덱 생성은 필요할 때만 한 번 결제."
+        "title": "No ads, flexible pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
       },
       {
         "title": "17개 언어 내장",
@@ -107,7 +111,7 @@
       "오프라인 플레이",
       "팀 & 타이머",
       "광고 없음",
-      "구독 없음"
+      "Weekly or one-time unlocks"
     ]
   },
   "personalization": {
@@ -488,7 +492,7 @@
   "decks": {
     "title": "분위기를 고르세요",
     "subtitle": "Tadado Mix로 무료 시작, 준비되면 테마 팩을 잠금 해제하세요.",
-    "countBadge": "8개 게임 덱",
+    "countBadge": "14 game decks",
     "free": "무료",
     "play": "플레이",
     "price": "$1.99",
@@ -525,21 +529,61 @@
       "midnight": {
         "name": "나이트 게임",
         "desc": "밤늦게 대담한 말놀이!"
+      },
+      "halloween": {
+        "name": "Halloween",
+        "desc": "Spooky words for a night full of laughs!"
+      },
+      "office": {
+        "name": "Office",
+        "desc": "Meetings, emails and every office moment!"
+      },
+      "brands": {
+        "name": "Brands",
+        "desc": "The brands, logos and slogans everyone knows!"
+      },
+      "friendsgiving": {
+        "name": "Friendsgiving",
+        "desc": "The table, the friends and those long nights!"
+      },
+      "animals": {
+        "name": "Animals",
+        "desc": "Wildlife from the savannah to the sea!"
+      },
+      "cars": {
+        "name": "Cars",
+        "desc": "Supercars, classics, and icons worth knowing!"
       }
-    }
+    },
+    "eventBadge": "EVENT",
+    "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "무료로 시작하세요. 파티가 커지면 더 열어보세요.",
-    "subtitle": "무료로 다운로드하고 바로 플레이하세요. 프리미엄 덱이나 AI 팩은 한 번만 결제하면 됩니다. 구독은 절대 없습니다.",
-    "oneTime": "1회 결제",
-    "disclaimer": "가격은 USD이며 App Store와 Google Play에서 지역별로 다를 수 있습니다. 구매는 Apple 또는 Google이 처리합니다.",
-    "trust": "광고 없음 · 구독 없음 · 언제든 구매 복원",
+    "title": "Start free. Unlock more when the party grows.",
+    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "oneTime": "one-time",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "badges": {
+      "free": "Free download",
+      "popular": "Most popular",
+      "bestValue": "Best one-time deal",
+      "oneTimeForever": "Pay once, keep forever"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "무료",
-      "desc": "무료 다운로드 후 클래식 스타터 덱으로 바로 플레이."
+      "price": "Free",
+      "desc": "Download free and play immediately with the classic starter deck."
     },
-    "aiSectionTitle": "AI 덱 만들기",
+    "weekly": {
+      "name": "Premium Weekly",
+      "price": "3 days free",
+      "suffix": "then weekly",
+      "desc": "Every premium themed deck stays unlocked while your plan is active.",
+      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
+      "cancelLine": "Cancel anytime in the App Store or Google Play"
+    },
+    "aiSectionTitle": "AI deck creation",
     "aiTiers": [
       {
         "name": "Mini",
@@ -558,23 +602,18 @@
         "desc": "AI 덱 만들기 40회 — 아이디어가 끝없는 호스트를 위해."
       }
     ],
-    "decksSectionTitle": "프리미엄 덱",
+    "decksSectionTitle": "Premium decks",
     "singleDeck": {
-      "name": "테마 덱",
+      "name": "Single premium deck",
       "price": "$1.99",
-      "desc": "덱당 일회성 구매. 썸머, 시네마, 트래블, 스포츠, 히어로즈 등."
+      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
     },
     "fullAccess": {
       "name": "Tadado Full Access",
       "price": "$14.99",
-      "desc": "한 번 구매로 모든 프리미엄 테마 덱과 AI 덱 생성 20회를.",
-      "aiCredits": "AI 덱 생성 20회 포함",
+      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
+      "aiCredits": "20 AI deck creations included",
       "highlight": true
-    },
-    "badges": {
-      "free": "무료 다운로드",
-      "popular": "가장 인기",
-      "bestValue": "최고의 가치"
     }
   },
   "howItWorks": {
@@ -802,7 +841,7 @@
         "others": "no"
       }
     ],
-    "note": "많은 앱이 모드가 하나뿐이거나 광고가 많거나 구독 뒤에 콘텐츠를 잠가 둡니다. Tadado는 진짜 게임 나이트를 위해 만들어졌습니다. 세 가지 모드, 무료 스타터 덱, 한 번 구매하는 추가 콘텐츠.",
+    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
     "cta": "Tadado 무료 다운로드",
     "viewFull": "전체 비교 페이지 열기"
   },

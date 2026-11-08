@@ -1,5 +1,6 @@
 /**
- * Seasonal theme switch for the landing site.
+ * Seasonal **content** on the landing site (home meta, event copy). Visual night theme
+ * is separate: see `lib/landing-theme.ts` (`LANDING_NIGHT_THEME`).
  *
  * To turn a season off early, set `SEASON_ENABLED` to false. Each season also
  * hides itself after `endsAt` (the home page regenerates every few hours via ISR).

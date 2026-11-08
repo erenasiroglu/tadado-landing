@@ -35,6 +35,17 @@ export function proxy(request: NextRequest) {
     return NextResponse.next();
   }
 
+  // App deep links (/d/<code>, /i/<code>) stay on the same URL (rewrite) so Android App Links
+  // and Play Console checks see 200 instead of a locale redirect.
+  const deckShare = pathname.match(/^\/d\/([^/]+)$/);
+  const inviteShare = pathname.match(/^\/i\/([^/]+)$/);
+  if (deckShare || inviteShare) {
+    const locale = getLocale(request);
+    const rewriteUrl = request.nextUrl.clone();
+    rewriteUrl.pathname = `/${locale}${pathname}`;
+    return NextResponse.rewrite(rewriteUrl);
+  }
+
   const pathnameHasLocale = LOCALES.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`),
   );

@@ -8,7 +8,6 @@ import { Footer } from "@/components/landing/Footer";
 import { GameModeShowcase } from "@/components/landing/GameModeShowcase";
 import { GeniusEvent } from "@/components/landing/GeniusEvent";
 import { Header } from "@/components/landing/Header";
-import { Hero } from "@/components/landing/Hero";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { NewsletterSignup } from "@/components/landing/NewsletterSignup";
 import { Pricing } from "@/components/landing/Pricing";
@@ -16,13 +15,13 @@ import { ProductBenefits } from "@/components/landing/ProductBenefits";
 import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
 import { StickyBar } from "@/components/landing/StickyBar";
 import { TrustPromise } from "@/components/landing/TrustPromise";
-import { HalloweenEvent } from "@/components/seasonal/HalloweenEvent";
-import { HalloweenHero } from "@/components/seasonal/HalloweenHero";
+import { Hero } from "@/components/landing/Hero";
+import { MidnightLandingHero } from "@/components/landing/MidnightLandingHero";
 import { getBlogPosts } from "@/lib/blog";
 import { hasLocale, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
 import { applyLandingVariant } from "@/lib/landing-variants";
-import { isHalloweenSeason } from "@/lib/season";
+import { isHalloweenSeasonalContent, isNightLandingTheme } from "@/lib/landing-theme";
 import { buildLandingJsonLd } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -72,8 +71,8 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
   const locale = lang as Locale;
   const dict = applyLandingVariant(locale, await getDictionary(locale));
   const posts = await getBlogPosts(locale);
-  const jsonLd = buildLandingJsonLd(locale, dict, { halloween: isHalloweenSeason() });
-  const halloween = isHalloweenSeason();
+  const night = isNightLandingTheme();
+  const jsonLd = buildLandingJsonLd(locale, dict, { halloween: isHalloweenSeasonalContent() });
 
   return (
     <>
@@ -81,11 +80,10 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Header locale={locale} dict={dict} dark={halloween} />
+      <Header locale={locale} dict={dict} dark={night} />
       <main className="flex-1 pb-safe md:pb-0">
-        {halloween ? <HalloweenHero locale={locale} dict={dict} /> : <Hero locale={locale} dict={dict} />}
-        {halloween ? <HalloweenEvent locale={locale} dict={dict} /> : null}
-        <GameModeShowcase locale={locale} dict={dict} halloween={halloween} />
+        {night ? <MidnightLandingHero locale={locale} dict={dict} /> : <Hero locale={locale} dict={dict} />}
+        <GameModeShowcase locale={locale} dict={dict} halloween={false} />
         <GeniusEvent locale={locale} dict={dict} />
         <Testimonials locale={locale} dict={dict} />
         <AiDeckBuilderDemo locale={locale} dict={dict} />
@@ -103,7 +101,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         <FinalCTA locale={locale} dict={dict} />
       </main>
       <Footer locale={locale} dict={dict} />
-      <ProductHuntBadge copy={dict.productHunt} tone={halloween ? "night" : "light"} location="floating" />
+      <ProductHuntBadge copy={dict.productHunt} tone={night ? "night" : "light"} location="floating" />
       <StickyBar locale={locale} />
     </>
   );
