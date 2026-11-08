@@ -505,7 +505,18 @@ html.season-night {
   color: var(--cream);
   background:
     radial-gradient(40rem 26rem at 80% 30%, rgb(94 57 150 / 0.3), transparent 70%),
-    linear-gradient(180deg, #140a25 0%, var(--night) 60%);
+    linear-gradient(180deg, #140a25 0%, var(--night) 72%);
+}
+
+.season-night .halloween-hero::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 4.5rem;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgb(29 16 51 / 0), var(--band-light, #f7f4fb));
 }
 
 
@@ -2012,42 +2023,60 @@ html.season-night {
   rotate: 0deg;
 }
 
-.season-night .landing-section-band {
-  background: #ffffff;
-  color: var(--ink);
+.season-night {
+  --band-light: #f7f4fb;
+  --band-dark: #1d1033;
+  --band-ink: #1a0f29;
+  --band-cream: #fff4d6;
+  --band-muted-on-dark: #c8bafb;
+  --band-muted-on-light: #6e6678;
 }
 
-.season-night .landing-section-band--soft {
-  background: #ffffff;
+.season-night main > .landing-section-band:nth-child(even) {
+  background: var(--band-light);
+  color: var(--band-ink);
+  --foreground: var(--band-ink);
+  --muted-foreground: var(--band-muted-on-light);
 }
 
-.season-night .landing-section-band--mist,
-.season-halloween .landing-section-band--mist {
-  --band-tint: #f5f1fc;
-  background: #f5f1fc;
+.season-night main > .landing-section-band:nth-child(odd) {
+  background: var(--band-dark);
+  color: var(--band-cream);
+  --foreground: var(--band-cream);
+  --muted-foreground: var(--band-muted-on-dark);
 }
 
-.season-night .landing-section-band::before {
-  content: "";
-  position: absolute;
-  inset-inline: 0;
-  top: 0;
-  z-index: 0;
-  height: 3.25rem;
-  pointer-events: none;
-  background: transparent;
+.season-night .landing-section-band--soft,
+.season-night .landing-section-band--mist {
+  background: unset;
 }
 
-.season-night .halloween-hero + .landing-section-band::before {
-  background: linear-gradient(180deg, #1d1033, #f5f1fc);
+.season-night main > .landing-section-band:nth-child(odd) :is(
+  .surface-paper,
+  .surface-card,
+  .surface-obsidian,
+  .bg-paper,
+  .bg-cream
+),
+.season-night main > .landing-section-band:nth-child(odd) [class*="bg-mist"],
+.season-night main > .landing-section-band:nth-child(odd) [class*="bg-paper"],
+.season-night main > .landing-section-band:nth-child(odd) [class*="bg-lilac"],
+.season-night main > .landing-section-band:nth-child(odd) [class*="bg-cream"] {
+  --foreground: var(--band-ink);
+  --muted-foreground: var(--band-muted-on-light);
+  --ink: var(--band-ink);
+  color: var(--band-ink);
 }
 
-.season-night .landing-section-band--mist + .landing-section-band:not(.landing-section-band--mist)::before {
-  background: linear-gradient(180deg, #f5f1fc, #ffffff);
+.season-night main > .landing-section-band:nth-child(odd) .surface-obsidian,
+.season-night main > .landing-section-band:nth-child(odd) [class*="surface-obsidian"] {
+  --foreground: var(--band-cream);
+  --muted-foreground: var(--band-muted-on-dark);
+  color: var(--band-cream);
 }
 
-.season-night .landing-section-band:not(.landing-section-band--mist) + .landing-section-band--mist::before {
-  background: linear-gradient(180deg, #ffffff, #f5f1fc);
+.season-night main > .landing-section-band:nth-child(odd) a.text-ink:not(.bg-cream) {
+  color: var(--band-cream);
 }
 
 body.season-night {
