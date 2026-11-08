@@ -41,7 +41,7 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
     <header
       className={cn(
         "sticky top-0 z-50 border-b border-border/60 bg-paper/72 pt-[env(safe-area-inset-top,0px)] backdrop-blur-md",
-        night && "site-header--halloween",
+        night && "site-header--halloween backdrop-blur-none",
       )}
     >
       <div className="section-shell flex h-14 min-h-14 items-center justify-between gap-4 md:h-16 md:min-h-16">

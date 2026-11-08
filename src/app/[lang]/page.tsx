@@ -13,7 +13,6 @@ import { NewsletterSignup } from "@/components/landing/NewsletterSignup";
 import { Pricing } from "@/components/landing/Pricing";
 import { ProductBenefits } from "@/components/landing/ProductBenefits";
 import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
-import { StickyBar } from "@/components/landing/StickyBar";
 import { TrustPromise } from "@/components/landing/TrustPromise";
 import { Hero } from "@/components/landing/Hero";
 import { MidnightLandingHero } from "@/components/landing/MidnightLandingHero";
@@ -81,7 +80,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header locale={locale} dict={dict} dark={night} />
-      <main className="flex-1 pb-safe md:pb-0">
+      <main className="landing-home flex-1">
         {night ? <MidnightLandingHero locale={locale} dict={dict} /> : <Hero locale={locale} dict={dict} />}
         <GameModeShowcase locale={locale} dict={dict} halloween={false} />
         <GeniusEvent locale={locale} dict={dict} />
@@ -102,7 +101,6 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
       </main>
       <Footer locale={locale} dict={dict} />
       <ProductHuntBadge copy={dict.productHunt} tone={night ? "night" : "light"} location="floating" />
-      <StickyBar locale={locale} />
     </>
   );
 }

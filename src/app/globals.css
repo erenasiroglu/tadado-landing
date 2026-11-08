@@ -108,7 +108,7 @@ html {
 }
 
 html.season-night {
-  background: var(--night-canvas);
+  background: var(--paper);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -508,18 +508,6 @@ html.season-night {
     linear-gradient(180deg, #140a25 0%, var(--night) 72%);
 }
 
-.season-night .halloween-hero::after {
-  content: "";
-  position: absolute;
-  inset-inline: 0;
-  bottom: 0;
-  z-index: 1;
-  height: 4.5rem;
-  pointer-events: none;
-  background: linear-gradient(180deg, rgb(29 16 51 / 0), var(--band-light, #f7f4fb));
-}
-
-
 .halloween-hero__eyebrow {
   display: inline-flex;
   align-items: center;
@@ -906,7 +894,7 @@ html.season-night {
 /* Header over the midnight hero. */
 .site-header--halloween {
   border-color: rgb(202 182 254 / 0.14) !important;
-  background: rgb(20 10 37 / 0.82) !important;
+  background: var(--night) !important;
   color: var(--cream);
 }
 
@@ -2032,67 +2020,107 @@ html.season-night {
   --band-muted-on-light: #6e6678;
 }
 
-.season-night main > .landing-section-band:nth-child(even) {
+/* Home only: hero is dark; first content band is light (even child after hero). Hard edges, no feather. */
+.season-night main.landing-home > .landing-section-band:nth-child(even) {
   background: var(--band-light);
   color: var(--band-ink);
   --foreground: var(--band-ink);
   --muted-foreground: var(--band-muted-on-light);
 }
 
-.season-night main > .landing-section-band:nth-child(odd) {
+.season-night main.landing-home > .landing-section-band:nth-child(odd) {
   background: var(--band-dark);
   color: var(--band-cream);
   --foreground: var(--band-cream);
   --muted-foreground: var(--band-muted-on-dark);
 }
 
-.season-night .landing-section-band--soft,
-.season-night .landing-section-band--mist {
+.season-night main.landing-home .landing-section-band--soft,
+.season-night main.landing-home .landing-section-band--mist {
   background: unset;
 }
 
-.season-night main > .landing-section-band:nth-child(odd) :is(
+.season-night main.landing-home > .landing-section-band:nth-child(odd) :is(
   .surface-paper,
   .surface-card,
   .surface-obsidian,
   .bg-paper,
   .bg-cream
 ),
-.season-night main > .landing-section-band:nth-child(odd) [class*="bg-mist"],
-.season-night main > .landing-section-band:nth-child(odd) [class*="bg-paper"],
-.season-night main > .landing-section-band:nth-child(odd) [class*="bg-lilac"],
-.season-night main > .landing-section-band:nth-child(odd) [class*="bg-cream"] {
+.season-night main.landing-home > .landing-section-band:nth-child(odd) [class*="bg-mist"],
+.season-night main.landing-home > .landing-section-band:nth-child(odd) [class*="bg-paper"],
+.season-night main.landing-home > .landing-section-band:nth-child(odd) [class*="bg-lilac"],
+.season-night main.landing-home > .landing-section-band:nth-child(odd) [class*="bg-cream"] {
   --foreground: var(--band-ink);
   --muted-foreground: var(--band-muted-on-light);
   --ink: var(--band-ink);
   color: var(--band-ink);
 }
 
-.season-night main > .landing-section-band:nth-child(odd) .surface-obsidian,
-.season-night main > .landing-section-band:nth-child(odd) [class*="surface-obsidian"] {
+.season-night main.landing-home > .landing-section-band:nth-child(odd) .surface-obsidian,
+.season-night main.landing-home > .landing-section-band:nth-child(odd) [class*="surface-obsidian"] {
   --foreground: var(--band-cream);
   --muted-foreground: var(--band-muted-on-dark);
   color: var(--band-cream);
 }
 
-.season-night main > .landing-section-band:nth-child(odd) a.text-ink:not(.bg-cream) {
+.season-night main.landing-home > .landing-section-band:nth-child(odd) a.text-ink:not(.bg-cream) {
   color: var(--band-cream);
 }
 
 body.season-night {
-  background: var(--night-canvas);
+  background: var(--paper);
+  color: var(--ink);
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --muted-foreground: #6e6678;
+  --card-foreground: var(--ink);
+  --secondary-foreground: var(--ink);
+  --accent-foreground: var(--ink);
+  --popover-foreground: var(--ink);
+}
+
+/* Night striping is home-only; every other route stays paper + ink. */
+body.season-night main:not(.landing-home) {
+  background: var(--paper);
+  color: var(--ink);
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --muted-foreground: #6e6678;
+  --card-foreground: var(--ink);
+  --secondary-foreground: var(--ink);
+  --accent-foreground: var(--ink);
+  --popover-foreground: var(--ink);
+}
+
+body.season-night main:not(.landing-home) .surface-card,
+body.season-night main:not(.landing-home) .surface-paper {
+  background: var(--paper);
+  --foreground: var(--ink);
+  --muted-foreground: #6e6678;
   color: var(--ink);
 }
 
-.season-night .landing-mobile-sticky-bar {
-  border-color: rgb(202 182 254 / 0.14);
-  background: rgb(20 10 37 / 0.94);
+body.season-night main:not(.landing-home) .surface-obsidian {
+  --foreground: var(--cream);
+  --muted-foreground: rgb(255 244 214 / 0.72);
   color: var(--cream);
 }
 
+/* Home: canvas matches hero so notch / home-indicator zones are not a mismatched strip. */
+html.season-night:has(main.landing-home),
+body.season-night:has(main.landing-home) {
+  background: var(--night-canvas);
+}
+
 @media (max-width: 767px) {
-  .season-night .halloween-hero {
-    margin-top: -1px;
+  html.season-night:has(main.landing-home),
+  body.season-night:has(main.landing-home) {
+    background: var(--night-canvas);
+  }
+
+  .landing-home .halloween-hero {
+    margin-top: 0;
   }
 }
 
@@ -2230,7 +2258,7 @@ body.season-night {
 @media (max-width: 767px) {
   .ph-float {
     inset-inline-end: 0.75rem;
-    bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+    bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
     width: auto;
   }
 
