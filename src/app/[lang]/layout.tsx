@@ -1,3 +1,4 @@
+import type { Viewport } from "next";
 import { Poppins } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
@@ -13,6 +14,13 @@ import { buildPageMetadata } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 import "../globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#140a25",
+};
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -50,18 +58,19 @@ export default async function LangLayout({
 
   const locale = lang as Locale;
   const dir = isRtlLocale(locale) ? "rtl" : "ltr";
+  const night = isNightLandingTheme();
 
   return (
     <html
       lang={locale}
       dir={dir}
       data-scroll-behavior="smooth"
-      className={cn("h-full antialiased", poppins.variable)}
+      className={cn("h-full antialiased", poppins.variable, night && "season-night")}
     >
       <body
         className={cn(
-          "flex min-h-full flex-col bg-paper font-sans text-foreground antialiased",
-          isNightLandingTheme() && "season-night",
+          "flex min-h-dvh flex-col font-sans text-foreground antialiased",
+          night ? "season-night" : "bg-paper",
         )}
       >
         <AnalyticsScripts />

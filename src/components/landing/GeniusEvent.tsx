@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
+import { Tag } from "@/components/brand/tag";
 import { getDeckHref } from "@/lib/deck-catalog";
 import type { Dictionary, Locale } from "@/lib/i18n";
 
@@ -23,7 +24,12 @@ export function GeniusEvent({ locale, dict }: GeniusEventProps) {
             <span>150</span>
           </div>
           <div className="min-w-0 flex-1">
-            <p className="text-xs font-extrabold tracking-[0.14em] text-[#FFD84A] uppercase">{copy.tag}</p>
+            <Tag
+              tone="onDark"
+              className="h-7 border border-cream/20 bg-cream/10 px-3 text-[0.6875rem] tracking-[0.12em] text-cream ring-0"
+            >
+              {copy.tag}
+            </Tag>
             <h2 className="mt-2 text-2xl leading-tight font-extrabold tracking-[-0.035em] text-balance text-cream sm:text-3xl">
               {copy.title}
             </h2>

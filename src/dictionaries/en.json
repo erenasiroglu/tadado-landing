@@ -86,7 +86,7 @@
       },
       {
         "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck with a weekly pass, or unlock decks and AI with one-time purchases."
+        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
       },
       {
         "title": "17 languages built in",
@@ -560,9 +560,9 @@
   },
   "pricing": {
     "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try all premium decks with a 3-day free weekly pass, or pay once for individual decks, Full Access, and AI packs.",
+    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
     "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. The weekly plan auto-renews until you cancel in your store settings. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
+    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
     "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
     "badges": {
       "free": "Free download",
@@ -578,10 +578,11 @@
     "weekly": {
       "name": "Premium Weekly",
       "price": "3 days free",
-      "suffix": "then weekly",
+      "suffix": "/ week",
       "desc": "Every premium themed deck stays unlocked while your plan is active.",
       "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play"
+      "cancelLine": "Cancel anytime in the App Store or Google Play",
+      "priceAfter": "$3.99"
     },
     "aiSectionTitle": "AI deck creation",
     "aiTiers": [
@@ -614,6 +615,10 @@
       "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
       "aiCredits": "20 AI deck creations included",
       "highlight": true
+    },
+    "novemberPromo": {
+      "badge": "November offer",
+      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
     }
   },
   "howItWorks": {
@@ -857,7 +862,7 @@
       },
       {
         "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Premium decks are optional: try them all with a 3-day free weekly pass, buy single decks, unlock Full Access once, or add AI packs. See Pricing for details."
+        "a": "Yes. Tadado Mix is free to play. Premium decks are optional: try them all with 3 days free, then $3.99 per week, buy a single deck for $1.99, unlock Full Access once, or add AI packs. See Pricing for details."
       },
       {
         "q": "What is the difference between Taboo and Heads Up?",

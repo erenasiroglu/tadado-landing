@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Ban, ChevronRight, Fingerprint, Menu, Smartphone, Sparkles, type LucideIcon } from "lucide-react";
+import { Ban, ChevronRight, Fingerprint, Ghost, Menu, Smartphone, Sparkles, type LucideIcon } from "lucide-react";
 
 import { MobileStoreDownloadCta } from "@/components/landing/primitives/MobileStoreDownloadCta";
 import { buttonVariants } from "@/components/ui/button";
@@ -151,7 +151,7 @@ export function MobileNavSheet({ locale, dict }: MobileNavSheetProps) {
                 className="-mx-2 flex min-h-12 items-center gap-3 rounded-xl px-2 text-[15px] font-semibold text-foreground transition-colors hover:bg-mist active:bg-lilac"
               >
                 <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-[var(--night)] text-[var(--pumpkin)]">
-                  <Sparkles className="h-[18px] w-[18px]" aria-hidden />
+                  <Ghost className="h-[18px] w-[18px]" aria-hidden />
                 </span>
                 {dict.nav.halloween}
               </NavLink>

@@ -38,7 +38,7 @@ export function TrendingDeckPlayButton({
     <button
       type="button"
       onClick={handleClick}
-      className={ctaGradientClass("mt-5 h-9 w-full rounded-lg text-xs font-bold")}
+      className={ctaGradientClass("relative z-[1] mt-6 h-11 w-full rounded-xl text-sm font-bold")}
     >
       <span className="inline-flex items-center justify-center gap-1.5">
         <Play className="h-3.5 w-3.5 fill-current" aria-hidden />

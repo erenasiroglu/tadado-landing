@@ -5,7 +5,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
-import { SectionViewTracker } from "@/components/analytics/SectionViewTracker";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { DECK_CARD_CONFIGS, type DeckKey } from "@/lib/deck-cards";
@@ -15,6 +14,7 @@ import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
 import { DeckCatalogCard } from "./DeckCatalogCard";
+import { LandingSection } from "./LandingSection";
 import { SectionHeading } from "./SectionHeading";
 
 interface DeckCarouselProps {
@@ -97,9 +97,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
   }, [emblaApi, locale]);
 
   return (
-    <section id="decks" className="relative isolate py-12 md:py-14">
-      <SectionViewTracker sectionId="decks">
-        <div className="section-shell">
+    <LandingSection id="decks" analyticsSection="decks">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex flex-col gap-3">
               <span className="hero-proof-badge w-fit">
@@ -170,8 +168,8 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
                       className={cn(
                         "h-1.5 rounded-full transition-all duration-300",
                         index === selectedSnap
-                          ? "w-7 bg-ink"
-                          : "w-1.5 bg-ink/20 group-hover:bg-ink/35",
+                          ? "w-7 bg-foreground"
+                          : "w-1.5 bg-foreground/25 group-hover:bg-foreground/40",
                       )}
                     />
                   </button>
@@ -179,9 +177,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
               </div>
             ) : null}
           </div>
-        </div>
-      </SectionViewTracker>
-    </section>
+    </LandingSection>
   );
 }
 
@@ -202,7 +198,7 @@ function CarouselButton({
       aria-label={label}
       onClick={onClick}
       disabled={disabled}
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-paper text-foreground transition-colors hover:bg-lilac hover:text-ink disabled:opacity-35 disabled:hover:bg-paper"
+      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-white/6 text-foreground transition-colors hover:bg-white/12 disabled:opacity-35"
     >
       {children}
     </button>

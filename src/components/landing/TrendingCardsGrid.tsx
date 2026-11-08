@@ -13,8 +13,8 @@ import { HeadsUpScreen } from "@/components/landing/device/HeadsUpScreen";
 import { ModeFilterButtons, type GameModeFilter } from "./primitives/ModeFilterButtons";
 import { TrendingDeckPlayButton } from "./TrendingDeckPlayButton";
 
-const TABOO_DEVICE_WIDTH = 208;
-const HEADS_UP_DEVICE_WIDTH = 372;
+const TABOO_DEVICE_WIDTH = 200;
+const HEADS_UP_DEVICE_WIDTH = 260;
 
 function toGameWord(value: string) {
   return value.toUpperCase();
@@ -59,13 +59,17 @@ export function TrendingCardsGrid({ locale, dict, maxPerMode }: TrendingCardsGri
           {tabooGroups.map((group) => {
             const [word, ...forbidden] = group.words;
             return (
-              <article key={group.id} className="surface-card relative overflow-hidden p-5 sm:p-6">
-                <div className="preview-ambient-glow" aria-hidden />
-                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+              <article key={group.id} className="trending-preview-card surface-card relative flex flex-col p-6">
+                <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-[inherit]" aria-hidden>
+                  <div className="preview-ambient-glow" />
+                </div>
+                <p className="relative z-[1] text-[11px] font-bold uppercase leading-none tracking-[0.12em] text-muted-foreground">
                   {group.label}
                 </p>
-                <h3 className="mt-1 text-lg font-bold text-foreground">{group.deckLabel}</h3>
-                <div className="relative mt-6 flex justify-center">
+                <h3 className="relative z-[1] mt-2 min-h-12 text-xl font-extrabold leading-[1.2] tracking-[-0.03em] text-balance text-foreground">
+                  {group.deckLabel}
+                </h3>
+                <div className="relative z-[1] mt-6 flex flex-1 justify-center">
                   <ForbiddenWordsScreen
                     width={TABOO_DEVICE_WIDTH}
                     word={toGameWord(word)}
@@ -85,13 +89,17 @@ export function TrendingCardsGrid({ locale, dict, maxPerMode }: TrendingCardsGri
       ) : (
         <div className="grid gap-6 md:grid-cols-2">
           {headsUpGroups.map((group) => (
-            <article key={group.id} className="surface-card relative overflow-hidden p-5 sm:p-6">
-              <div className="preview-ambient-glow" aria-hidden />
-              <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            <article key={group.id} className="trending-preview-card surface-card relative flex flex-col p-6">
+              <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-[inherit]" aria-hidden>
+                <div className="preview-ambient-glow" />
+              </div>
+              <p className="relative z-[1] text-[11px] font-bold uppercase leading-none tracking-[0.12em] text-muted-foreground">
                 {group.label}
               </p>
-              <h3 className="mt-1 text-lg font-bold text-foreground">{group.deckLabel}</h3>
-              <div className="relative mt-6 flex justify-center">
+              <h3 className="relative z-[1] mt-2 min-h-12 text-xl font-extrabold leading-[1.2] tracking-[-0.03em] text-balance text-foreground">
+                {group.deckLabel}
+              </h3>
+              <div className="relative z-[1] mt-6 flex w-full flex-1 justify-center overflow-hidden">
                 <HeadsUpScreen
                   locale={locale}
                   width={HEADS_UP_DEVICE_WIDTH}

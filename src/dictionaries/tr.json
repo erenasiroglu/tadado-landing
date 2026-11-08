@@ -86,7 +86,7 @@
       },
       {
         "title": "Reklamsız, esnek fiyatlandırma",
-        "body": "Tadado Mix ile ücretsiz başla. Haftalık planda tüm premium desteleri dene veya desteleri ve yapay zekayı tek seferlik satın al."
+        "body": "Tadado Mix ile ücretsiz başla. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık 3,99 $; ya da bir desteyi 1,99 $ karşılığında kalıcı aç."
       },
       {
         "title": "17 dil dahili",
@@ -560,9 +560,9 @@
   },
   "pricing": {
     "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
-    "subtitle": "Tadado Mix tamamen ücretsiz. 3 gün ücretsiz haftalık planla tüm premium desteleri dene; istersen tek deste, Full Access veya yapay zeka paketi al.",
+    "subtitle": "Tadado Mix tamamen ücretsiz. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık 3,99 $. Tek deste her zamanki gibi tek seferlik. Yapay zeka paketleri listelenen fiyatlarla geçerli.",
     "oneTime": "tek seferlik",
-    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Haftalık plan, mağaza ayarlarından iptal edene kadar yenilenir. Tek seferlik satın alımlar kalıcıdır. Ödemeler Apple veya Google üzerinden yapılır.",
+    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre değişebilir. Premium Haftalık 3 gün ücretsizdir, ardından haftalık 3,99 $ olarak yenilenir; mağaza ayarlarından iptal edene kadar devam eder. Tek premium deste standart olarak 1,99 $ (Türkiye'de mağaza TL fiyatı geçerlidir). Tek seferlik satın alımlar kalıcıdır. Ödemeler Apple veya Google üzerinden yapılır.",
     "trust": "Reklamsız · Satın alımları geri yükle · Haftalığı istediğin zaman iptal et",
     "badges": {
       "free": "Ücretsiz indir",
@@ -578,10 +578,11 @@
     "weekly": {
       "name": "Premium Haftalık",
       "price": "3 gün ücretsiz",
-      "suffix": "sonra haftalık",
+      "suffix": "/ hafta",
       "desc": "Planın aktif olduğu sürece tüm premium temalı desteler açık kalır.",
       "decksLine": "14+ premium deste (Cadılar Bayramı, Sinema, Spor, Genius ve daha fazlası)",
-      "cancelLine": "App Store veya Google Play'den istediğin zaman iptal et"
+      "cancelLine": "App Store veya Google Play'den istediğin zaman iptal et",
+      "priceAfter": "$3.99"
     },
     "aiSectionTitle": "Yapay zeka ile deste oluşturma",
     "aiTiers": [
@@ -614,6 +615,10 @@
       "desc": "Tüm premium temalı desteler ve 20 yapay zeka deste oluşturma hakkı, tek seferlik ödemeyle sonsuza kadar senin.",
       "aiCredits": "20 yapay zeka deste oluşturma hakkı dahil",
       "highlight": true
+    },
+    "novemberPromo": {
+      "badge": "Kasım fırsatı",
+      "note": "Kasım’a özel: 3 gün ücretsiz, sonra tüm premium desteler için haftalık 3,99 $. Tek deste her zamanki gibi 1,99 $."
     }
   },
   "howItWorks": {

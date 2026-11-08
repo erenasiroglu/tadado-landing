@@ -39,6 +39,12 @@ const defaultLabels: GamePreviewLabels = {
 };
 const FORBIDDEN_WORD_COUNT = 4;
 
+function fitPreviewFont(base: number, text: string, comfortable: number) {
+  const length = text.replace(/\s+/g, "").length;
+  if (length <= comfortable) return base;
+  return Math.max(base * 0.62, base * (comfortable / length));
+}
+
 function normalizeForbiddenWords(words: readonly string[]): string[] {
   const list = [...words];
   while (list.length < FORBIDDEN_WORD_COUNT) {
@@ -328,11 +334,12 @@ export function ForbiddenWordsPreview({
               }}
             >
               <div
-                className="mx-auto text-center"
+                className="mx-auto flex items-center justify-center text-center"
                 style={{
-                  width: "85%",
+                  width: "92%",
+                  minHeight: m.wordFontSize * 1.35 + m.wordPadV * 2,
                   marginBottom: m.wordMarginBottom,
-                  padding: `${m.wordPadV}px ${m.wordPadH}px`,
+                  padding: `${m.wordPadV}px ${Math.max(10, m.wordPadH)}px`,
                   borderRadius: m.wordRadius,
                   backgroundColor: t.wordBg,
                 }}
@@ -349,12 +356,12 @@ export function ForbiddenWordsPreview({
                   />
                 ) : (
                   <p
-                    className="font-black uppercase"
+                    className="max-w-full font-black uppercase"
                     style={{
                       color: t.wordText,
-                      fontSize: m.wordFontSize,
-                      lineHeight: 1.05,
-                      letterSpacing: 0.2 * scale,
+                      fontSize: fitPreviewFont(m.wordFontSize, word, 10),
+                      lineHeight: 1.15,
+                      letterSpacing: 0.15 * scale,
                     }}
                   >
                     {word}
@@ -386,12 +393,12 @@ export function ForbiddenWordsPreview({
                       />
                     ) : (
                       <span
-                        className={cn("w-full font-bold", t.forbiddenUppercase && "uppercase")}
+                        className={cn("max-w-full font-bold", t.forbiddenUppercase && "uppercase")}
                         style={{
                           color: t.forbiddenWordText,
-                          fontSize: m.forbiddenFontSize,
-                          lineHeight: 1.05,
-                          letterSpacing: 0.15 * scale,
+                          fontSize: fitPreviewFont(m.forbiddenFontSize, item, 12),
+                          lineHeight: 1.2,
+                          letterSpacing: 0.08 * scale,
                         }}
                       >
                         {item}

@@ -35,7 +35,7 @@ interface DeckCatalogCardProps {
   className?: string;
 }
 
-const PLAY_SIZE = 62;
+const PLAY_SIZE = 54;
 
 export function DeckCatalogCard({
   config,
@@ -137,7 +137,7 @@ export function DeckCatalogCard({
               style={{ backgroundColor: GLASS.neumorph.highlight }}
             />
 
-            <div className="pointer-events-none absolute inset-0 z-[3] flex flex-col p-4">
+            <div className="pointer-events-none absolute inset-0 z-[3] flex flex-col p-3">
               {config.showBadge && badgeLabel ? (
                 <div className="flex justify-end">
                   <span
@@ -177,12 +177,12 @@ export function DeckCatalogCard({
                   >
                     {showPlayIcon || isFree ? (
                       <Play
-                        className="ml-0.5 h-[26px] w-[26px]"
+                        className="ml-0.5 h-[22px] w-[22px]"
                         style={{ color: DECK_CHROME.playIconColor, fill: DECK_CHROME.playIconColor }}
                       />
                     ) : (
                       <Lock
-                        className="h-[26px] w-[26px]"
+                        className="h-[22px] w-[22px]"
                         style={{ color: DECK_CHROME.playIconColor }}
                       />
                     )}
@@ -192,7 +192,7 @@ export function DeckCatalogCard({
 
               <div className="min-h-[58px] text-center">
                 <p
-                  className="text-lg font-extrabold uppercase leading-tight tracking-wide"
+                  className="text-base font-extrabold uppercase leading-[19px] tracking-wide"
                   style={{
                     color: DECK_CHROME.titleColor,
                     textShadow: "0 1px 4px rgba(0,0,0,0.45)",

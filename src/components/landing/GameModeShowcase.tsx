@@ -8,6 +8,7 @@ import Link from "next/link";
 import { ModeDeviceStage } from "@/components/landing/device/ModeDeviceStage";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
+import { isNightLandingTheme } from "@/lib/landing-theme";
 import { modePageHref, type ModePageId } from "@/lib/mode-pages";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
@@ -25,6 +26,7 @@ interface GameModeShowcaseProps {
 
 export function GameModeShowcase({ locale, dict, halloween = false }: GameModeShowcaseProps) {
   const reduceMotion = useReducedMotion();
+  const night = isNightLandingTheme();
   const [activeMode, setActiveMode] = useState<GameModeFilter>("taboo");
   const startedRef = useRef(false);
 
@@ -107,7 +109,7 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                 <div className="mt-2 flex items-center gap-2">
                   <h3 className="text-2xl font-bold text-foreground">{activeCopy.title}</h3>
                   {activeCopy.badge ? (
-                    <span className="rounded-full bg-[#F2711C] px-2.5 py-1 text-[10px] leading-none font-extrabold tracking-[0.08em] text-ink uppercase">
+                    <span className="rounded-full bg-[#FAAA12] px-2.5 py-1 text-[10px] leading-none font-extrabold tracking-[0.08em] text-[#4B1A7A] uppercase">
                       {activeCopy.badge}
                     </span>
                   ) : null}
@@ -124,30 +126,43 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                   />
                 </Link>
                 {activeMode === "taboo" ? (
-                  <div className="mt-5 max-w-md rounded-xl border border-border bg-ink/[0.06] p-3.5">
-                    <p className="text-xs font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                  <div
+                    className={cn(
+                      "mt-5 max-w-md rounded-2xl border p-4",
+                      night
+                        ? "border-white/10 bg-white/[0.06]"
+                        : "border-border bg-paper/80",
+                    )}
+                  >
+                    <p className="text-[11px] font-bold uppercase leading-none tracking-[0.14em] text-muted-foreground">
                       {dict.modes.showcase.buildScoreTitle}
                     </p>
-                    <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
+                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
                       {dict.modes.showcase.buildScoreBody}
                     </p>
                     <div
-                      className="mt-3 flex items-center gap-2"
+                      className="mt-4 flex flex-wrap items-center gap-2"
                       aria-label={dict.modes.showcase.scoreMultipliersAria}
                     >
                       {["×2", "×3", "×5"].map((multiplier, index) => (
-                        <span key={multiplier} className="flex items-center gap-2">
+                        <span key={multiplier} className="contents">
                           <span
                             className={cn(
-                              "inline-flex h-8 min-w-10 items-center justify-center rounded-lg border px-2 text-sm font-black",
+                              "inline-flex h-10 min-w-12 items-center justify-center rounded-xl px-3 text-sm font-black leading-none tabular-nums",
                               index === 2
-                                ? "surface-obsidian border-transparent text-cream"
-                                : "border-border bg-mist text-ink",
+                                ? "bg-[#FAAA12] text-[#4B1A7A]"
+                                : night
+                                  ? "border border-white/15 bg-white/8 text-cream"
+                                  : "border border-border bg-mist text-ink",
                             )}
                           >
                             {multiplier}
                           </span>
-                          {index < 2 ? <span className="text-muted-foreground" aria-hidden>→</span> : null}
+                          {index < 2 ? (
+                            <span className="px-0.5 text-sm leading-none text-muted-foreground" aria-hidden>
+                              →
+                            </span>
+                          ) : null}
                         </span>
                       ))}
                     </div>

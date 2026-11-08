@@ -41,7 +41,9 @@
 
   --section-gap-mobile: 4rem;
   --section-gap-desktop: 6rem;
+  --safe-area-top: env(safe-area-inset-top, 0px);
   --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --night-canvas: #140a25;
 }
 
 @theme inline {
@@ -101,6 +103,19 @@
 
 html {
   scroll-behavior: smooth;
+  min-height: 100%;
+  background: var(--background);
+}
+
+html.season-night {
+  --background: var(--night-canvas);
+  --foreground: #fff4d6;
+  --muted-foreground: #a994d0;
+  --border: rgb(200 186 251 / 0.16);
+  --section-edge-from: #1d1033;
+  --night-band-lift: #27113a;
+  background: var(--night-canvas);
+  color: var(--foreground);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -141,7 +156,12 @@ html {
 }
 
 .pb-safe {
-  padding-bottom: calc(5rem + var(--safe-area-bottom));
+  padding-bottom: calc(4.25rem + var(--safe-area-bottom));
+}
+
+.season-night.pb-safe,
+.season-night .pb-safe {
+  padding-bottom: calc(4.25rem + var(--safe-area-bottom));
 }
 
 .bento-grid {
@@ -330,6 +350,11 @@ html {
   box-shadow: var(--shadow-paper);
 }
 
+.trending-preview-card {
+  border-radius: 1.5rem;
+  overflow: visible;
+}
+
 .back-link,
 .team-join-button {
   display: inline-flex;
@@ -380,8 +405,8 @@ html {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 1px 1px, rgb(255 244 214 / 0.08) 1px, transparent 0) 0 0 / 22px 22px,
-    radial-gradient(36rem circle at 85% 50%, rgb(255 216 74 / 0.16) 0%, transparent 65%);
+    radial-gradient(circle at 1px 1px, rgb(200 186 251 / 0.07) 1px, transparent 0) 0 0 / 22px 22px,
+    radial-gradient(36rem circle at 85% 50%, rgb(108 68 172 / 0.35) 0%, transparent 65%);
   pointer-events: none;
 }
 
@@ -393,9 +418,12 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 1.5rem;
-  background: linear-gradient(150deg, #ffd84a 0%, #ff9a2e 100%);
-  color: var(--ink);
-  box-shadow: 0 16px 32px rgb(255 154 46 / 0.25);
+  background: linear-gradient(150deg, #6c44ac 0%, #38145d 100%);
+  color: var(--cream);
+  box-shadow:
+    0 16px 32px rgb(56 20 93 / 0.45),
+    inset 0 1px 0 rgb(200 186 251 / 0.22);
+  border: 1px solid rgb(200 186 251 / 0.2);
 }
 
 .genius-event__count span {
@@ -485,6 +513,17 @@ html {
   background:
     radial-gradient(40rem 26rem at 80% 30%, rgb(94 57 150 / 0.3), transparent 70%),
     linear-gradient(180deg, #140a25 0%, var(--night) 60%);
+}
+
+.season-night .halloween-hero::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 6rem;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, #1d1033);
 }
 
 .halloween-hero__eyebrow {
@@ -1666,6 +1705,14 @@ html {
   box-shadow: var(--shadow-paper);
 }
 
+@utility surface-glass {
+  background: rgb(196 181 253 / 0.14);
+  color: var(--cream);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.14),
+    inset 0 0 0 1px rgb(255 255 255 / 0.16);
+}
+
 @utility accent-pill {
   display: inline-block;
   padding: 0 0.24em 0.06em;
@@ -1710,10 +1757,14 @@ html {
   isolation: isolate;
 }
 
-/* Tinted bands are flat and full-bleed with crisp edges, alternating with the white page. */
+/* Light theme: mist bands sit on the paper page. Night theme overrides these below. */
 .landing-section-band--mist {
   --band-tint: var(--mist);
   background: var(--band-tint);
+}
+
+.landing-section-band--soft {
+  background: transparent;
 }
 
 .landing-section-band__inner {
@@ -1728,7 +1779,7 @@ html {
     font-family: var(--font-sans);
     font-weight: 500;
     margin: 0;
-    min-height: 100vh;
+    min-height: 100dvh;
   }
 
   :focus-visible {
@@ -1978,10 +2029,77 @@ html {
   rotate: 0deg;
 }
 
-/* Light bands pick up the lavender of the app's Halloween store art while the season runs. */
+.season-night .landing-section-band {
+  color: var(--cream);
+}
+
+.season-night .landing-section-band::before,
+.season-night .landing-section-band::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.season-night .landing-section-band::before {
+  top: 0;
+  height: 5.5rem;
+  background: linear-gradient(180deg, var(--section-edge-from), transparent);
+}
+
+.season-night .landing-section-band::after {
+  bottom: 0;
+  height: 4rem;
+  background: linear-gradient(180deg, transparent, rgb(20 10 37 / 0.72));
+}
+
+.season-night .landing-section-band--soft {
+  background:
+    radial-gradient(32rem 16rem at 12% 0%, rgb(94 57 150 / 0.14), transparent 70%),
+    linear-gradient(180deg, rgb(29 16 51 / 0.45), transparent 7rem);
+}
+
 .season-night .landing-section-band--mist,
 .season-halloween .landing-section-band--mist {
-  --band-tint: #f5f1fc;
+  --band-tint: var(--night-band-lift);
+  background:
+    radial-gradient(36rem 18rem at 82% 0%, rgb(94 57 150 / 0.2), transparent 72%),
+    linear-gradient(180deg, #1d1033 0%, var(--night-band-lift) 22%, #1a0f28 100%);
+}
+
+.season-night .surface-paper,
+.season-night .surface-card {
+  background: rgb(196 181 253 / 0.14);
+  color: var(--cream);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.14),
+    inset 0 0 0 1px rgb(255 255 255 / 0.16);
+}
+
+.season-night .landing-section-band a.text-ink:not(.bg-cream) {
+  color: var(--cream);
+}
+
+.season-night .hover\:text-ink:hover {
+  color: var(--cream);
+}
+
+body.season-night {
+  background: var(--night-canvas);
+  color: var(--foreground);
+}
+
+.season-night .landing-mobile-sticky-bar {
+  border-color: rgb(202 182 254 / 0.14);
+  background: rgb(20 10 37 / 0.94);
+  color: var(--cream);
+}
+
+@media (max-width: 767px) {
+  .season-night .halloween-hero {
+    margin-top: -1px;
+  }
 }
 
 /* Product Hunt launch badge, floating in the bottom corner (above the mobile sticky bar). */

@@ -40,11 +40,11 @@ export function Header({ locale, dict, dark = false }: HeaderProps) {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 border-b border-border/60 bg-paper/72 backdrop-blur-md",
+        "sticky top-0 z-50 border-b border-border/60 bg-paper/72 pt-[env(safe-area-inset-top,0px)] backdrop-blur-md",
         night && "site-header--halloween",
       )}
     >
-      <div className="section-shell flex h-14 items-center justify-between gap-4 md:h-16">
+      <div className="section-shell flex h-14 min-h-14 items-center justify-between gap-4 md:h-16 md:min-h-16">
         <BrandLockup locale={locale} />
 
         <DecksNavCrawlLinks locale={locale} dict={dict} />

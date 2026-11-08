@@ -13,3 +13,8 @@ export function isNightLandingTheme(): boolean {
 export function isHalloweenSeasonalContent(now?: Date): boolean {
   return isHalloweenSeason(now);
 }
+
+/** November store promo badge. Prices stay in the dictionary year-round. */
+export function isNovemberPricingPromo(now: Date = new Date()): boolean {
+  return now.getMonth() === 10;
+}
