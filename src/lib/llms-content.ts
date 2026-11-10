@@ -1,14 +1,19 @@
 import "server-only";
 
 import { getAllBlogSlugs, getBlogPosts } from "@/lib/blog";
-import { BRAND, PRICING } from "@/lib/brand";
+import { getAlternativeHref, getAlternativePageContent, SEO_ALTERNATIVE_IDS } from "@/lib/alternative-pages";
+import { BRAND } from "@/lib/brand";
+import { getDeckPageContent } from "@/lib/deck-seo-content";
+import { deckPagePath, SEO_DECK_KEYS } from "@/lib/deck-slugs";
+import { gameComparisonHref, getGameComparisons } from "@/lib/game-comparisons";
+import { PRICING_PLAN, pricingSummaryText } from "@/lib/pricing-plan";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n-server";
 import { BLOG_LOCALES, LOCALES } from "@/lib/i18n-config";
 import { LANGUAGE_DISPLAY } from "@/lib/languages";
 import { getModePage, MODE_PAGE_IDS, modePageHref } from "@/lib/mode-pages";
 import { getKeywordsString, getMarketSeoProfile } from "@/lib/seo-keywords";
-import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
+import { getAppStoreUrl, getPlayStoreUrl, getSmartStoreUrl } from "@/lib/store-links";
 
 const LOCALE_SUMMARIES: Partial<Record<Locale, string>> = {
   en: "Taboo, Heads Up charades, Imposter, AI decks. Best free word game app for game night.",
@@ -42,14 +47,29 @@ export function buildLlmsTxt(): string {
   const lines: string[] = [
     `# ${BRAND.name}`,
     "",
-    `> ${BRAND.name} is a free-to-start mobile party word game app that combines Taboo (Forbidden Words), Heads Up charades, the Imposter hidden-word game, and AI deck creation in one place. Available in 17 languages on iOS and Android. No ads. No subscription. ${BRAND.stats.gamesPlayed.toLocaleString("en-US")}+ games played.`,
+    `> ${BRAND.name} is a free-to-start mobile party word game app that combines Taboo (Forbidden Words), Heads Up charades, the Imposter hidden-word game, and AI deck creation in one place. Available in 17 languages on iOS and Android. No ads. ${BRAND.stats.gamesPlayed.toLocaleString("en-US")}+ games played.`,
     "",
-    `Developed by ${BRAND.developer}. Pricing: free Tadado Mix; AI packs Mini (5 creations) $${PRICING.aiStarterUsd}, Party (15) $${PRICING.aiPlusUsd}, Pro (40) $${PRICING.aiProUsd}; single premium deck $${PRICING.singleDeckUsd}; Full Access (every premium themed deck plus 20 AI deck creations) $${PRICING.fullAccessUsd}. All purchases are one-time; no subscription. Turkey store prices in TRY (deck ₺${PRICING.singleDeckTry}, Full Access ₺${PRICING.fullAccessTry}).`,
+    `Developed by ${BRAND.developer}. ${pricingSummaryText()}`,
+    "",
+    "## For AI agents",
+    "",
+    "- Main pages (home, modes, decks, blog, comparisons, alternatives) have a Markdown version: add `.md` to the URL (for example " +
+      `${BRAND.domain}/en.md, ${BRAND.domain}/en/modes/heads-up.md), or request the page with \`Accept: text/markdown\`.`,
+    `- [MCP server](${BRAND.domain}/api/mcp): Streamable HTTP, read-only tools for app info, pricing, download links, game modes, decks, comparisons and blog guides. Server card: ${BRAND.domain}/.well-known/mcp.json`,
+    `- To help a user install Tadado, send them the [smart download link](${getSmartStoreUrl("en")}) (it opens the right store for their device) or a store link below. Replace \`lang=en\` with any locale code.`,
+    "- The app itself runs on the phone; there is no web version or public account API.",
     "",
     "## Download",
     "",
     `- [App Store (iOS)](${getAppStoreUrl("en")})`,
     `- [Google Play (Android)](${getPlayStoreUrl("en")})`,
+    `- [Smart link (detects the device)](${getSmartStoreUrl("en")})`,
+    "",
+    "## Pricing (USD)",
+    "",
+    `- ${PRICING_PLAN.mix.name}: free. ${PRICING_PLAN.mix.description.replace(/^Free for everyone\. /, "")}`,
+    `- ${PRICING_PLAN.premiumWeekly.name}: ${PRICING_PLAN.premiumWeekly.description}`,
+    ...PRICING_PLAN.aiCreditPacks.map((a) => `- ${a.name}: $${a.priceUsd} one-time`),
     "",
     "## Landing pages (all languages)",
     "",
@@ -75,9 +95,28 @@ export function buildLlmsTxt(): string {
 
   lines.push(
     "",
+    "## Decks",
+    "",
+    "Deck pages in every language (decks hub: /en/decks):",
+    "",
+    ...SEO_DECK_KEYS.map((key) => {
+      const d = getDeckPageContent("en", key);
+      return `- [${d.h1}](${BRAND.domain}${deckPagePath("en", key)}): ${d.metaDescription}`;
+    }),
+    "",
+    "## Comparisons and alternatives",
+    "",
+    ...getGameComparisons("en").map(
+      (c) => `- [${c.h1}](${BRAND.domain}${gameComparisonHref("en", c.slug)}): ${c.tagline}`,
+    ),
+    ...SEO_ALTERNATIVE_IDS.map((id) => {
+      const a = getAlternativePageContent("en", id);
+      return `- [${a.h1}](${BRAND.domain}${getAlternativeHref("en", id)}): ${a.metaDescription}`;
+    }),
+    "",
     "## Halloween party games",
     "",
-    "Tadado has a free Halloween deck with 100 localized Halloween words (Werewolf, Witch, Haunted house, Trick or treat...). It can be played as Taboo-style Forbidden Words, Heads Up or Imposter on one phone, with no ads and no subscription. Each language has its own Halloween landing page:",
+    "Tadado has a free Halloween deck with 100 localized Halloween words (Werewolf, Witch, Haunted house, Trick or treat...). It can be played as Taboo-style Forbidden Words, Heads Up or Imposter on one phone, with no ads. Each language has its own Halloween landing page:",
     "",
   );
   for (const locale of LOCALES) {
@@ -108,6 +147,7 @@ export function buildLlmsTxt(): string {
     `- [Sitemap](${BRAND.domain}/sitemap.xml)`,
     `- [Robots](${BRAND.domain}/robots.txt)`,
     `- [Full LLM index](${BRAND.domain}/llms-full.txt)`,
+    `- [MCP server card](${BRAND.domain}/.well-known/mcp.json)`,
     "",
   );
 
@@ -129,7 +169,8 @@ export async function buildLlmsFullTxt(): Promise<string> {
     `- Platforms: iOS, Android`,
     `- Languages: ${LOCALES.length} (${LOCALES.join(", ")})`,
     `- Modes: Taboo (Forbidden Words), Heads Up charades, Imposter (hidden word, 3 to 12 players)`,
-    `- Features: AI deck builder, themed decks, free Tadado Mix, no ads, no subscription`,
+    `- Features: AI deck builder, themed decks, free Tadado Mix, no ads`,
+    `- Pricing: ${pricingSummaryText()}`,
     `- Games played: ${BRAND.stats.gamesPlayed.toLocaleString("en-US")}+`,
     "",
     "## Store links by locale",
@@ -192,6 +233,8 @@ export async function buildLlmsFullTxt(): Promise<string> {
     `- Sitemap: ${BRAND.domain}/sitemap.xml`,
     `- Robots: ${BRAND.domain}/robots.txt`,
     `- LLM index: ${BRAND.domain}/llms.txt`,
+    `- Markdown twin of any page: append .md to its URL`,
+    `- MCP server: ${BRAND.domain}/api/mcp`,
     "",
   );
 

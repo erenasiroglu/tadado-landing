@@ -17,6 +17,10 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   skipTrailingSlashRedirect: true,
+  // The MCP endpoint reads blog/legal Markdown at request time (read_page, list_guides).
+  outputFileTracingIncludes: {
+    "/api/mcp": ["./content/**/*"],
+  },
   async redirects() {
     return [
       {

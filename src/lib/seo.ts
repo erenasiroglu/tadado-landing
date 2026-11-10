@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 import { alternativeLanguageAlternates } from "@/lib/alternative-pages/slugs";
 import type { AlternativeId } from "@/lib/alternative-pages/types";
-import { BRAND, PRICING } from "@/lib/brand";
+import { BRAND } from "@/lib/brand";
+import { PRICING_PLAN } from "@/lib/pricing-plan";
 import type { DeckKey } from "@/lib/deck-cards";
 import { deckLanguageAlternates } from "@/lib/deck-slugs";
 import type { DeckPageContent } from "@/lib/deck-page-types";
@@ -253,7 +254,8 @@ export function buildLandingJsonLd(
           "@type": "Offer",
           price: "0",
           priceCurrency: "USD",
-          name: "Tadado Mix",
+          name: PRICING_PLAN.mix.name,
+          description: PRICING_PLAN.mix.description,
         },
         ...(halloween
           ? [
@@ -268,35 +270,25 @@ export function buildLandingJsonLd(
           : []),
         {
           "@type": "Offer",
-          price: String(PRICING.singleDeckUsd),
+          price: String(PRICING_PLAN.premiumWeekly.priceUsd),
           priceCurrency: "USD",
-          name: "Single premium deck",
+          name: PRICING_PLAN.premiumWeekly.name,
+          description: PRICING_PLAN.premiumWeekly.description,
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: String(PRICING_PLAN.premiumWeekly.priceUsd),
+            priceCurrency: "USD",
+            billingDuration: "P1W",
+            unitCode: "WEE",
+          },
         },
-        {
+        ...PRICING_PLAN.aiCreditPacks.map((pack) => ({
           "@type": "Offer",
-          price: String(PRICING.aiStarterUsd),
+          price: String(pack.priceUsd),
           priceCurrency: "USD",
-          name: "AI deck creation — Mini (5)",
-        },
-        {
-          "@type": "Offer",
-          price: String(PRICING.aiPlusUsd),
-          priceCurrency: "USD",
-          name: "AI deck creation — Party (15)",
-        },
-        {
-          "@type": "Offer",
-          price: String(PRICING.aiProUsd),
-          priceCurrency: "USD",
-          name: "AI deck creation — Pro (40)",
-        },
-        {
-          "@type": "Offer",
-          price: String(PRICING.fullAccessUsd),
-          priceCurrency: "USD",
-          name: "Tadado Full Access",
-          description: "Every premium themed deck plus 20 AI deck creations",
-        },
+          name: pack.name,
+          description: PRICING_PLAN.aiCreditDescription,
+        })),
       ],
       description: dict.meta.description,
       downloadUrl: [getAppStoreUrl(locale), getPlayStoreUrl(locale)],

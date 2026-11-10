@@ -33,6 +33,8 @@ export interface BlogPost {
   schemaHowTo?: BlogPostSchemaHowTo;
   alternates: { slug: string; locale: Locale }[];
   contentHtml: string;
+  /** Raw Markdown body (front matter stripped), served to AI agents at `<url>.md`. */
+  contentMarkdown: string;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content/blog");
@@ -40,14 +42,14 @@ const CONTENT_DIR = path.join(process.cwd(), "content/blog");
 async function readPostFile(
   contentLocale: Locale,
   slug: string,
-): Promise<{ data: Record<string, unknown>; contentHtml: string } | null> {
+): Promise<{ data: Record<string, unknown>; contentHtml: string; content: string } | null> {
   const filePath = path.join(CONTENT_DIR, contentLocale, `${slug}.mdx`);
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
   const processed = await remark().use(html).process(content);
-  return { data, contentHtml: processed.toString() };
+  return { data, contentHtml: processed.toString(), content };
 }
 
 async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null> {
@@ -102,6 +104,7 @@ async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null>
     schemaHowTo,
     alternates,
     contentHtml: file.contentHtml,
+    contentMarkdown: file.content.trim(),
   };
 }
 

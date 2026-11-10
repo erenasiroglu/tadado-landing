@@ -18,7 +18,7 @@ const handler = createMcpHandler(
     registerMcpTools(server);
   },
   {
-    serverInfo: { name: "tadado-landing-mcp", version: "1.0.0" },
+    serverInfo: { name: "tadado-landing-mcp", version: "1.1.0" },
   },
 );
 

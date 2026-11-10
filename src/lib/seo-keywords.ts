@@ -59,7 +59,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Free starter deck",
       "17 languages",
       "No ads",
-      "No subscription",
       "Word difficulty multipliers",
     ],
   ),
@@ -91,7 +90,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Ücretsiz Tadado Mix destesi",
       "17 dil desteği",
       "Reklamsız",
-      "Abonelik yok",
       "Kelime zorluk çarpanları",
     ],
   ),
@@ -115,7 +113,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Mazo Tadado Mix gratis",
       "17 idiomas",
       "Sin anuncios",
-      "Sin suscripción",
     ],
   ),
   de: profile(
@@ -138,7 +135,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Gratis Tadado Mix Deck",
       "17 Sprachen",
       "Keine Werbung",
-      "Kein Abo",
     ],
   ),
   fr: profile(
@@ -161,7 +157,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Deck Tadado Mix gratuit",
       "17 langues",
       "Sans pub",
-      "Sans abonnement",
     ],
   ),
   "pt-BR": profile(
@@ -184,7 +179,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Baralho Tadado Mix grátis",
       "17 idiomas",
       "Sem anúncios",
-      "Sem assinatura",
     ],
   ),
   it: profile(
@@ -207,7 +201,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Mazzo Tadado Mix gratuito",
       "17 lingue",
       "Senza pubblicità",
-      "Nessun abbonamento",
     ],
   ),
   ja: profile(
@@ -230,7 +223,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "無料Tadado Mixデッキ",
       "17言語対応",
       "広告なし",
-      "サブスクなし",
     ],
   ),
   ko: profile(
@@ -253,7 +245,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "무료 Tadado Mix 덱",
       "17개 언어",
       "광고 없음",
-      "구독 없음",
     ],
   ),
   zh: profile(
@@ -276,7 +267,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "免费Tadado Mix卡组",
       "17种语言",
       "无广告",
-      "无订阅",
     ],
   ),
   ru: profile(
@@ -299,7 +289,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Бесплатная колода Tadado Mix",
       "17 языков",
       "Без рекламы",
-      "Без подписки",
     ],
   ),
   ar: profile(
@@ -322,7 +311,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "مجموعة Tadado Mix مجانية",
       "17 لغة",
       "بدون إعلانات",
-      "بدون اشتراك",
     ],
   ),
   hi: profile(
@@ -345,7 +333,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "मुफ्त Tadado Mix डेक",
       "17 भाषाएँ",
       "कोई विज्ञापन नहीं",
-      "कोई सब्सक्रिप्शन नहीं",
     ],
   ),
   id: profile(
@@ -368,7 +355,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Deste Tadado Mix gratis",
       "17 bahasa",
       "Tanpa iklan",
-      "Tanpa langganan",
     ],
   ),
   vi: profile(
@@ -391,7 +377,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Bộ bài Tadado Mix miễn phí",
       "17 ngôn ngữ",
       "Không quảng cáo",
-      "Không đăng ký",
     ],
   ),
   pl: profile(
@@ -414,7 +399,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Darmowa talia Tadado Mix",
       "17 języków",
       "Bez reklam",
-      "Bez subskrypcji",
     ],
   ),
   el: profile(
@@ -437,7 +421,6 @@ const PROFILES: Record<Locale, MarketSeoProfile> = {
       "Δωρεάν τράπουλα Tadado Mix",
       "17 γλώσσες",
       "Χωρίς διαφημίσεις",
-      "Χωρίς συνδρομή",
     ],
   ),
 };
