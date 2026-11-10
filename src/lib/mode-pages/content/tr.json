@@ -59,7 +59,7 @@
       },
       {
         "q": "Reklamsız ücretsiz bir Tabu uygulaması var mı?",
-        "a": "Evet. Tadado ücretsiz Tadado Mix destesiyle ücretsiz indirilir, reklam ve abonelik yoktur. Temalı desteler ve yapay zeka deste oluşturma isteğe bağlı tek seferlik satın alımlardır."
+        "a": "Evet. Tadado ücretsiz indirilir; ücretsiz Tadado Mix destesi her modda oynanır ve reklam yoktur. Premium desteler Tadado Premium ile gelir (3 gün ücretsiz, sonra haftalık $3.99), yapay zeka kredileri isteğe bağlıdır."
       },
       {
         "q": "Kendi Tabu kartlarımızı yapabilir miyiz?",
@@ -126,7 +126,7 @@
       },
       {
         "q": "Tadado'nun Alnında Tahmin modu ücretsiz mi?",
-        "a": "Evet. Tadado'yu ücretsiz indir ve ücretsiz Tadado Mix destesiyle oyna. Reklam ve abonelik yok; ek temalı desteler ve yapay zeka desteleri isteğe bağlı tek seferlik satın alımlardır."
+        "a": "Evet. Tadado'yu ücretsiz indir ve ücretsiz Tadado Mix destesiyle oyna. Reklam yok; Tadado Premium tüm premium desteleri 3 gün ücretsiz denemeyle açar, sonrası haftalık $3.99. Yapay zeka kredileri isteğe bağlıdır."
       },
       {
         "q": "Kendi destemi yapabilir miyim?",
@@ -197,7 +197,7 @@
       },
       {
         "q": "Casus modu ücretsiz mi?",
-        "a": "Evet. Tadado ücretsiz indirilir ve Casus ücretsiz Tadado Mix destesiyle çalışır. Reklam ve abonelik yok."
+        "a": "Evet. Tadado ücretsiz indirilir ve Casus modu ücretsiz Tadado Mix destesiyle oynanır. Reklam yok."
       }
     ]
   },
@@ -237,8 +237,8 @@
         "body": "İç şakalar, niş hobiler, doğum günü teması ya da ders konusu: kimsenin sahip olmadığı, gerçekten bildiğiniz şeyler hakkında desteler."
       },
       {
-        "title": "Bir kez öde, abonelik yok",
-        "body": "Yapay zeka hakları küçük tek seferlik paketlerle gelir, Tadado Full Access 20 hak içerir. Reklam yok, tekrarlayan ödeme yok."
+        "title": "$1.99'dan başlayan krediler",
+        "body": "Yapay zeka kredilerini tek seferlik paketlerle al: 5 kredi $1.99, 15 kredi $4.99, 40 kredi $9.99. Her kredi bir özel deste oluşturur."
       }
     ],
     "knownAs": "Tabu kartı oluşturucu, kendi Heads Up kartlarını yapma, parti oyunu kelime listesi ya da ChatGPT ile oyun kartı hazırlama diye aradıysan, bu işin uygulamaya gömülü hali. Bir listeyi not uygulamasına kopyalamak yerine Tadado konunu süre, puan ve üç oyun moduyla oynanabilir bir desteye çevirir.",
@@ -260,7 +260,7 @@
       },
       {
         "q": "Yapay zeka desteleri ne kadar?",
-        "a": "Yapay zeka hakları tek seferlik paketlerle gelir, en küçüğü 5 oluşturma hakkıdır. Tadado Full Access tüm premium desteleri ve 20 yapay zeka hakkını içerir. Abonelik yoktur; güncel fiyatlar için mağazaya bak."
+        "a": "Yapay zeka ile deste oluşturma kredi kullanır. Paketler: 5 kredi $1.99, 15 kredi $4.99, 40 kredi $9.99; her kredi bir özel deste oluşturur. Yerel fiyatlar için mağazaya bak."
       },
       {
         "q": "Türkçe deste yapabilir miyim?",

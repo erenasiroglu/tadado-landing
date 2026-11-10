@@ -80,8 +80,8 @@
         "body": "Digite qualquer tema e receba um baralho jogável na hora. Perfeito para piadas internas, noites de filme ou festas temáticas."
       },
       {
-        "title": "Sem anúncios, sem assinatura",
-        "body": "Comece grátis com Tadado Mix. Pague uma vez só se quiser baralhos temáticos extras ou criação de baralho IA."
+        "title": "Sem anúncios, preço simples",
+        "body": "Comece grátis com o Tadado Mix. Teste todos os baralhos premium grátis por 3 dias e depois pague $3.99 por semana. Cancele quando quiser."
       },
       {
         "title": "17 idiomas integrados",
@@ -106,7 +106,7 @@
       "Jogo offline",
       "Times e timers",
       "Sem anúncios",
-      "Sem assinatura"
+      "3 dias de teste grátis"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 baralhos de jogo",
     "free": "Grátis",
     "play": "PLAY",
-    "price": "$0.99",
+    "price": "Premium · 3 dias grátis, depois $3.99/semana",
     "newBadge": "NEW",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Comece grátis. Desbloqueie mais quando a festa crescer.",
-    "subtitle": "Baixe grátis e jogue na hora. Adicione baralhos premium ou pacotes de IA com compras únicas. Sem assinatura, nunca.",
-    "oneTime": "pagamento único",
-    "disclaimer": "Preços em USD; podem variar por região na App Store e Google Play. Compras processadas pela Apple ou Google.",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Baixe grátis e jogue na hora com o baralho clássico inicial."
+    "eyebrow": "Preços",
+    "title": "Grátis para jogar. Um plano simples para mais.",
+    "subtitle": "O Tadado Mix é grátis para todos. O Premium libera todos os baralhos com 3 dias de teste grátis e depois $3.99 por semana. Com créditos de IA, qualquer tema vira baralho.",
+    "badges": {
+      "free": "Grátis para sempre",
+      "premium": "Todos os baralhos",
+      "trial": "3 dias grátis",
+      "ai": "Créditos de IA"
     },
-    "theme": {
-      "name": "Baralhos temáticos",
-      "price": "$0.99",
-      "desc": "Compra única por baralho. Verão, Cinema, Viagem, Esporte, Heróis e mais."
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "para todos",
+      "desc": "Um baralho misto com cartas de todos os baralhos do Tadado, cada rodada é diferente. Sem compra e sem conta.",
+      "modesLabel": "Jogável nos 3 modos",
+      "features": [
+        "Cartas misturadas de todos os baralhos",
+        "Sem anúncios",
+        "Jogue offline"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ semana",
+      "trialNote": "após 3 dias de teste grátis",
+      "desc": "Todos os baralhos premium ficam liberados enquanto seu plano estiver ativo.",
+      "features": [
+        "Todos os baralhos premium: Cinema, Esporte, Viagem, Genius Only e mais",
+        "Cada baralho nos 3 modos",
+        "Sem anúncios",
+        "Cancele quando quiser"
+      ],
+      "timelineLabel": "Como funciona o teste grátis",
+      "timeline": [
+        {
+          "when": "Hoje",
+          "what": "Comece grátis. Todos os baralhos premium são liberados na hora."
+        },
+        {
+          "when": "Dia 3",
+          "what": "Cancele antes do fim do teste e não pague nada."
+        },
+        {
+          "when": "Depois",
+          "what": "$3.99 por semana até você cancelar nos ajustes da loja."
+        }
+      ]
     },
     "ai": {
-      "name": "Criação de baralho IA",
-      "price": "$2.99",
-      "desc": "Gere um baralho personalizado de qualquer tema. Jogue nos dois modos."
+      "title": "Transforme qualquer tema em baralho",
+      "desc": "Digite um tema como “hits dos anos 90” ou as piadas internas do seu grupo e a IA cria um baralho jogável em segundos. Compre um pacote uma vez e use quando quiser.",
+      "rule": "1 crédito de IA = 1 baralho personalizado",
+      "creditsLabel": "créditos",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 por baralho"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 por baralho",
+          "badge": "Mais popular",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 por baralho",
+          "badge": "Melhor custo"
+        }
+      ]
     },
-    "trust": "Sem anúncios · Sem assinatura · Restaure compras a qualquer momento"
+    "trust": [
+      "Sem anúncios",
+      "Cancele quando quiser",
+      "Pagamento seguro via Apple e Google"
+    ],
+    "disclaimer": "Preços em USD; a App Store e o Google Play podem mostrar preços locais na sua região. O Tadado Premium começa com 3 dias de teste grátis e depois renova por $3.99 por semana até você cancelar nos ajustes da App Store ou do Google Play. Pacotes de créditos de IA são compras únicas. Os pagamentos são feitos pela Apple ou pelo Google."
   },
   "howItWorks": {
     "title": "Como funciona",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Qual a diferença entre Taboo e Heads Up?",
-        "a": "Palavras Proibidas é Taboo em times: descreva sem palavras proibidas. Heads Up coloca o celular na testa enquanto amigos dão dicas. Ambos usam os mesmos baralhos."
+        "a": "O Tadado foi feito para noites de jogo: Palavras Proibidas no estilo Tabu, Heads Up e o jogo de blefe Impostor em um celular. Sem anúncios, Tadado Mix grátis para todos e um plano Premium com 3 dias de teste grátis."
       },
       {
         "q": "O Tadado tem anúncios?",
-        "a": "Não. O Tadado é sem anúncios. Você só paga por baralhos opcionais ou criação IA se quiser."
+        "a": "Sim. O Tadado Mix é grátis para todos, mistura cartas de todos os baralhos e funciona nos 3 modos. O Tadado Premium libera todos os baralhos premium com 3 dias grátis e depois $3.99 por semana. Créditos de IA são opcionais: 5 por $1.99, 15 por $4.99 ou 40 por $9.99. Veja Preços para detalhes."
       },
       {
         "q": "Como funciona a criação de baralho IA?",
@@ -582,7 +643,7 @@
       },
       {
         "q": "Quais idiomas são suportados?",
-        "a": "A interface do app está disponível em 17 idiomas, incluindo inglês, turco, espanhol, alemão, francês e mais."
+        "a": "Não. O Tadado não tem anúncios. Você só paga se escolher o Tadado Premium ou créditos de IA."
       }
     ]
   },
@@ -617,9 +678,9 @@
         "others": "no"
       },
       {
-        "feature": "Sem assinatura",
+        "feature": "Premium com 3 dias de teste grátis",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Packs de baralhos temáticos",
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Muitos apps focam em um modo, mostram anúncios ou bloqueiam conteúdo atrás de assinaturas. O Tadado é feito para noites de jogo de verdade com os dois modos, baralho inicial grátis e extras pagos uma vez.",
+    "note": "Muitos apps focam em um modo só ou mostram anúncios. O Tadado oferece três modos, o baralho grátis Tadado Mix, um único plano Premium com 3 dias de teste grátis e créditos de IA para baralhos personalizados.",
     "cta": "Baixar Tadado grátis",
     "viewFull": "Abrir página completa de comparação"
   },

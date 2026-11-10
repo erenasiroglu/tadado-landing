@@ -13,7 +13,7 @@ const EN_PAGES: Record<
       "Looking for a charades app for game night? Tadado combines acting-style Heads Up play with team Taboo modes, a free starter deck, no ads, and AI custom decks.",
     h1: "A modern charades app alternative for real groups",
     heroSubtitle:
-      "One phone, two ways to play: describe words without saying them, or hold the screen to your forehead. Built for laughs, not subscriptions.",
+      "One phone, two ways to play: describe words without saying them, or hold the screen to your forehead. Built for laughs, with a free deck to start.",
     introTitle: "Why people search for charades alternatives",
     introParagraphs: [
       "Classic charades is simple: act out a word while friends guess. Many mobile apps copy that loop but add long ads, paywalls before the first round, or thin word lists that repeat after one night.",
@@ -26,7 +26,7 @@ const EN_PAGES: Record<
       "Free Tadado Mix deck so you can start without paying",
       "Themed packs (Cinema, Travel, Summer, and more) for variety",
       "AI deck builder for inside jokes and custom topics",
-      "No ads and no subscription—pay once only for optional packs",
+      "No ads, and a free deck so you can play without paying",
       "Works offline once downloaded—great for cabins and travel",
     ],
     compareTitle: "Tadado vs typical charades apps",
@@ -57,7 +57,7 @@ const EN_PAGES: Record<
       },
       {
         q: "Is Tadado free?",
-        a: "Tadado Mix is free. Optional themed decks are a one-time purchase, not a subscription.",
+        a: "Yes. Tadado Mix is free and works in every mode. Tadado Premium unlocks every premium deck with a 3-day free trial, then $3.99 per week.",
       },
     ],
     disclaimer: DISCLAIMER,
@@ -69,7 +69,7 @@ const EN_PAGES: Record<
   taboo: {
     metaTitle: "Taboo App Alternative | Forbidden Words on Tadado",
     metaDescription:
-      "Compare Taboo-style apps with Tadado: team Forbidden Words mode, Heads Up in one app, free Tadado Mix, no ads, AI decks, and one-time deck packs.",
+      "Compare Taboo-style apps with Tadado: team Forbidden Words mode, Heads Up in one app, free Tadado Mix, no ads, AI decks and a 3-day free Premium trial.",
     h1: "Taboo app alternative: Forbidden Words on one phone",
     heroSubtitle:
       "Same party energy as Taboo—describe the word without the forbidden clues—with modes and decks designed for repeat game nights.",
@@ -84,7 +84,7 @@ const EN_PAGES: Record<
       "Heads Up mode in the same app for variety between rounds",
       "Free starter deck—play tonight before buying anything",
       "No ads between turns",
-      "One-time deck prices instead of recurring subscriptions",
+      "A 3-day free trial before you pay for premium decks",
       "AI-generated decks for birthdays, trips, or themed parties",
       "Word difficulty scoring to keep clues fair for mixed groups",
     ],
@@ -97,7 +97,7 @@ const EN_PAGES: Record<
       { feature: "Heads Up mode included", tadado: "yes", alternative: "no" },
       { feature: "Free starter deck", tadado: "yes", alternative: "partial" },
       { feature: "No ads", tadado: "yes", alternative: "no" },
-      { feature: "No subscription", tadado: "yes", alternative: "no" },
+      { feature: "Free deck, no subscription needed to play", tadado: "yes", alternative: "no" },
       { feature: "AI custom decks", tadado: "yes", alternative: "partial" },
       { feature: "Themed packs (movies, travel, sports…)", tadado: "yes", alternative: "partial" },
       { feature: "Offline play", tadado: "yes", alternative: "partial" },
@@ -156,9 +156,9 @@ const EN_PAGES: Record<
       { feature: "Taboo-style team mode", tadado: "yes", alternative: "no" },
       { feature: "Free content to start", tadado: "yes", alternative: "partial" },
       { feature: "No ads", tadado: "yes", alternative: "no" },
-      { feature: "No subscription", tadado: "yes", alternative: "no" },
+      { feature: "Free deck, no subscription needed to play", tadado: "yes", alternative: "no" },
       { feature: "AI custom categories", tadado: "yes", alternative: "no" },
-      { feature: "One-time themed packs", tadado: "yes", alternative: "partial" },
+      { feature: "Free trial for every premium deck", tadado: "yes", alternative: "partial" },
       { feature: "Difficulty scoring", tadado: "yes", alternative: "no" },
     ],
     compareNote:
@@ -187,21 +187,21 @@ const EN_PAGES: Record<
   nebuu: {
     metaTitle: "Nebu Alternative | Tadado Party Game (EN)",
     metaDescription:
-      "Comparing Nebuu-style party word apps with Tadado: three game modes (Taboo-style, Heads Up and Imposter), free Mix deck, no ads, no subscription, AI decks, and one-time themed packs.",
+      "Comparing Nebuu-style party word apps with Tadado: three game modes (Taboo-style, Heads Up and Imposter), free Mix deck, no ads, AI decks and a 3-day free Premium trial.",
     h1: "Tadado as a Nebuu alternative for party word games",
     heroSubtitle:
       "If you are comparing Turkish party apps—or want one clean install for Taboo-style and Heads Up nights—here is how Tadado stacks up.",
     introTitle: "Party apps should earn trust on night one",
     introParagraphs: [
       "Apps like Nebuu helped popularize mobile Taboo and charades in Turkey. Players often look for the same thing next: more words, less friction, and pricing that does not punish a single game night.",
-      "Tadado is built by a small game team focused on one product: fast rounds, no ad breaks, and both Forbidden Words and Heads Up in one app. You can start free with Tadado Mix, then add themed decks once—not on a monthly clock.",
+      "Tadado is built by a small game team focused on one product: fast rounds, no ad breaks, and both Forbidden Words and Heads Up in one app. You can start free with Tadado Mix, then try every premium deck free for 3 days.",
     ],
     reasonsTitle: "Reasons groups try Tadado after other party apps",
     reasons: [
       "Two core modes instead of juggling multiple installs",
       "Free Tadado Mix—verify the vibe before spending",
       "No ads during gameplay",
-      "Optional packs are one-time purchases, not subscriptions",
+      "Premium starts with a 3-day free trial, cancel anytime",
       "AI deck builder for custom Turkish or English nights",
       "17 languages for friends abroad or exchange students",
       "Offline-friendly once the app is installed",

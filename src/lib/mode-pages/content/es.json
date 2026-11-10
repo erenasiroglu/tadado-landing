@@ -26,7 +26,7 @@
     "faq": [
       { "q": "¿Palabras prohibidas es lo mismo que Tabú?", "a": "Se juega con el mismo estilo: describes una palabra sin decir las pistas prohibidas mientras tu equipo adivina contra el reloj. Tadado es una app independiente con sus propios mazos, puntuación y diseño, y no es el juego oficial Tabú." },
       { "q": "¿Cuántos jugadores hacen falta?", "a": "Lo ideal son cuatro o más, divididos en dos equipos. Con grupos grandes también funciona: haced equipos más grandes y seguid pasando el móvil." },
-      { "q": "¿Hay una app estilo Tabú gratis y sin anuncios?", "a": "Sí. Tadado se descarga gratis con el mazo Tadado Mix, sin anuncios ni suscripción. Los mazos temáticos y la creación con IA son compras únicas opcionales." },
+      { "q": "¿Hay una app estilo Tabú gratis y sin anuncios?", "a": "Sí. Tadado se descarga gratis con el mazo gratuito Tadado Mix, que funciona en todos los modos, y no tiene anuncios. Los mazos premium vienen con Tadado Premium (3 días gratis, luego $3.99 por semana) y los créditos de IA son opcionales." },
       { "q": "¿Podemos crear nuestras propias tarjetas de Tabú?", "a": "Sí. Escribe cualquier tema y la IA de Tadado crea un mazo completo con palabra principal y palabras prohibidas en cada tarjeta. Puedes jugarlo al momento en Palabras prohibidas, Heads Up o Impostor." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "¿Es la app oficial Heads Up!?", "a": "No. Tadado es una app independiente de juegos de fiesta con un modo estilo Heads Up. Se juega igual, con el móvil en la frente e inclinando para puntuar, pero con los mazos propios de Tadado y mazos con IA." },
       { "q": "¿Cómo se juega a Heads Up con un solo móvil?", "a": "Un jugador se pone el móvil en la frente y los demás dan pistas sobre la palabra de la pantalla. Inclina hacia abajo si aciertas y hacia arriba para pasar; al acabar el tiempo, pasa el móvil." },
-      { "q": "¿El modo Heads Up de Tadado es gratis?", "a": "Sí. Descarga Tadado gratis y juega con el mazo Tadado Mix. Sin anuncios ni suscripción; los mazos temáticos y los mazos con IA son compras únicas opcionales." },
+      { "q": "¿El modo Heads Up de Tadado es gratis?", "a": "Sí. Descarga Tadado gratis y juega con el mazo gratuito Tadado Mix. Sin anuncios; Tadado Premium desbloquea todos los mazos premium con 3 días de prueba gratis y luego $3.99 por semana. Los créditos de IA son opcionales." },
       { "q": "¿Puedo crear un mazo de Heads Up personalizado?", "a": "Sí. Escribe cualquier tema, de una serie a las bromas internas de tu familia, y la IA de Tadado crea un mazo que puedes jugar en Heads Up al instante." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "¿Cómo se juega al impostor?", "a": "Todos menos el impostor ven la misma palabra secreta. Cada jugador dice una pista de una palabra y luego el grupo vota quién es el impostor. Si lo pillan, aún puede ganar adivinando la palabra." },
       { "q": "¿Se parece a Spyfall o a Mafia?", "a": "Pertenece a la misma familia de juegos de faroles con roles ocultos. A diferencia de Spyfall no hay lugares ni preguntas, y a diferencia de Mafia no hay fase de noche: solo una palabra secreta y una pista por persona." },
       { "q": "¿Cuántas personas pueden jugar al Impostor?", "a": "El modo Impostor de Tadado se juega de 3 a 12 personas con un solo móvil, y puedes elegir cuántos impostores esconder." },
-      { "q": "¿El modo Impostor es gratis?", "a": "Sí. Tadado se descarga gratis y el Impostor funciona con el mazo gratuito Tadado Mix. Sin anuncios ni suscripción." }
+      { "q": "¿El modo Impostor es gratis?", "a": "Sí. Tadado se descarga gratis e Impostor funciona con el mazo gratuito Tadado Mix. Sin anuncios." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Un mazo, tres juegos", "body": "No hace falta crear un mazo de Tabú y otro de Heads Up. Créalo una vez y juega en todos los modos." },
       { "title": "Hecho para tu grupo", "body": "Bromas internas, aficiones de nicho, un cumpleaños temático o un tema de clase: mazos que nadie más tiene, sobre lo que de verdad conocéis." },
-      { "title": "Pago único, sin suscripción", "body": "Las creaciones con IA vienen en pequeños packs de pago único, y Tadado Full Access incluye 20. Sin anuncios y sin cobros recurrentes." }
+      { "title": "Créditos desde $1.99", "body": "Compra créditos de IA en packs únicos: 5 por $1.99, 15 por $4.99 o 40 por $9.99. Cada crédito crea un mazo propio." }
     ],
     "knownAs": "Si buscaste un generador de tarjetas de Tabú, cartas personalizadas de Heads Up, un generador de listas de palabras para juegos o cómo hacer cartas con ChatGPT, esta es la versión integrada. En lugar de copiar una lista en las notas, Tadado convierte tu tema en un mazo jugable con temporizador, puntuación y tres modos de juego.",
     "aliases": ["Generador de tarjetas de Tabú", "Mazo de Heads Up personalizado", "Lista de palabras con IA", "Cartas de fiesta personalizadas", "Crea tu propio mazo"],
     "faq": [
       { "q": "¿Cómo funciona la creación de mazos con IA?", "a": "Escribe uno o varios temas, elige la dificultad y pulsa Crear. En unos 30 segundos la IA escribe un mazo completo con palabra principal y palabras prohibidas en cada tarjeta." },
       { "q": "¿En qué modos puedo jugar un mazo con IA?", "a": "En todos. Cada mazo con IA funciona en Palabras prohibidas, Heads Up e Impostor, así que puedes cambiar de modo sin crear otro mazo." },
-      { "q": "¿Cuánto cuestan los mazos con IA?", "a": "La creación con IA viene en packs de pago único, empezando por uno pequeño de 5 creaciones. Tadado Full Access incluye todos los mazos premium y 20 creaciones con IA. No hay suscripción; consulta los precios locales en la tienda." },
+      { "q": "¿Cuánto cuestan los mazos con IA?", "a": "La creación con IA usa créditos. Los packs son 5 créditos por $1.99, 15 por $4.99 o 40 por $9.99, y cada crédito crea un mazo propio. Consulta la tienda para ver precios locales." },
       { "q": "¿Puedo crear mazos en español?", "a": "Sí. Tadado funciona en 17 idiomas y los mazos con IA se escriben en el idioma en que juegas, con nombres, lugares y cultura pop locales." }
     ]
   }

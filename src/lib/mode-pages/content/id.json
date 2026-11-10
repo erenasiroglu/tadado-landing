@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Apakah Kata Terlarang sama dengan Taboo?", "a": "Gaya mainnya sama: kamu menjelaskan kata tanpa menyebut petunjuk terlarang sementara timmu menebak melawan waktu. Tadado adalah aplikasi independen dengan deck, skor, dan desain sendiri, bukan game Taboo resmi." },
       { "q": "Butuh berapa pemain?", "a": "Paling seru empat orang atau lebih, dibagi dua tim. Grup besar juga bisa: perbesar timnya dan terus oper ponselnya." },
-      { "q": "Ada aplikasi ala Taboo gratis tanpa iklan?", "a": "Ada. Tadado gratis diunduh dengan deck Tadado Mix, tanpa iklan dan tanpa langganan. Deck bertema dan pembuatan deck AI adalah pembelian sekali bayar opsional." },
+      { "q": "Ada aplikasi ala Taboo gratis tanpa iklan?", "a": "Ya. Tadado gratis diunduh dengan deste gratis Tadado Mix yang bisa dimainkan di semua mode, dan tanpa iklan. Deste premium tersedia lewat Tadado Premium (gratis 3 hari, lalu $3.99 per minggu), dan kredit AI opsional." },
       { "q": "Bisakah kami membuat kartu Taboo sendiri?", "a": "Bisa. Ketik topik apa pun dan AI Tadado menulis deck lengkap dengan kata utama dan kata terlarang di tiap kartu. Langsung mainkan di Kata Terlarang, Heads Up, atau Penipu." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Apakah ini aplikasi resmi Heads Up!?", "a": "Bukan. Tadado adalah aplikasi game pesta independen dengan mode ala Heads Up. Cara mainnya sama, ponsel di dahi dan dimiringkan untuk skor, dengan deck Tadado sendiri dan deck AI." },
       { "q": "Bagaimana main Heads Up dengan satu ponsel?", "a": "Satu pemain menaruh ponsel di dahi sementara yang lain memberi petunjuk tentang kata di layar. Miringkan ke bawah kalau benar, ke atas untuk lewati, lalu oper ponsel saat waktu habis." },
-      { "q": "Apakah mode Heads Up di Tadado gratis?", "a": "Ya. Unduh Tadado gratis dan main dengan deck Tadado Mix. Tanpa iklan dan langganan; deck bertema dan deck AI adalah pembelian sekali bayar opsional." },
+      { "q": "Apakah mode Heads Up di Tadado gratis?", "a": "Ya. Unduh Tadado gratis dan main dengan deste gratis Tadado Mix. Tanpa iklan; Tadado Premium membuka semua deste premium dengan uji coba gratis 3 hari, lalu $3.99 per minggu. Kredit AI opsional." },
       { "q": "Bisakah saya membuat deck Heads Up sendiri?", "a": "Bisa. Ketik topik apa pun, dari serial TV sampai lelucon keluarga, dan AI Tadado menulis deck yang langsung bisa dimainkan di Heads Up." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Bagaimana cara main game imposter?", "a": "Semua kecuali penipu melihat kata rahasia yang sama. Tiap pemain menyebut satu kata petunjuk, lalu grup memilih siapa penipunya. Penipu yang ketahuan masih bisa menang dengan menebak katanya." },
       { "q": "Apakah mirip Spyfall atau Werewolf?", "a": "Masih satu keluarga game gertakan dengan peran tersembunyi. Tak seperti Spyfall, tidak ada lokasi atau pertanyaan; tak seperti Werewolf, tidak ada fase malam: hanya satu kata rahasia dan satu petunjuk per orang." },
       { "q": "Berapa orang bisa main Penipu?", "a": "Mode Penipu di Tadado bisa dimainkan 3 sampai 12 orang dengan satu ponsel, dan kamu bisa memilih jumlah penipunya." },
-      { "q": "Apakah mode Penipu gratis?", "a": "Ya. Tadado gratis diunduh dan Penipu bisa dimainkan dengan deck gratis Tadado Mix. Tanpa iklan dan langganan." }
+      { "q": "Apakah mode Penipu gratis?", "a": "Ya. Tadado gratis diunduh dan Penipu bisa dimainkan dengan deste gratis Tadado Mix. Tanpa iklan." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Satu deck, tiga game", "body": "Tak perlu membuat deck Taboo dan deck Heads Up terpisah. Buat sekali, mainkan di semua mode." },
       { "title": "Dibuat untuk grupmu", "body": "Lelucon internal, hobi khusus, tema ulang tahun, atau materi pelajaran: deck yang tak dimiliki orang lain, tentang hal yang benar-benar kalian tahu." },
-      { "title": "Bayar sekali, tanpa langganan", "body": "Kreasi AI tersedia dalam paket kecil sekali bayar, dan Tadado Full Access sudah termasuk 20. Tanpa iklan dan tanpa tagihan berulang." }
+      { "title": "Kredit mulai $1.99", "body": "Beli kredit AI dalam paket sekali bayar: 5 seharga $1.99, 15 seharga $4.99, atau 40 seharga $9.99. Setiap kredit membuat satu deste kustom." }
     ],
     "knownAs": "Kalau kamu mencari pembuat kartu Taboo, kartu Heads Up sendiri, generator daftar kata untuk game pesta, atau cara membuat kartu game dengan ChatGPT, inilah versi bawaannya. Daripada menyalin daftar ke aplikasi catatan, Tadado mengubah topikmu jadi deck siap main dengan timer, skor, dan tiga mode permainan.",
     "aliases": ["Pembuat kartu Taboo", "Deck Heads Up sendiri", "Daftar kata AI", "Kartu game pesta custom", "Buat deck sendiri"],
     "faq": [
       { "q": "Bagaimana cara kerja pembuatan deck AI?", "a": "Ketik satu atau beberapa topik, pilih tingkat kesulitan, lalu ketuk Buat. Dalam sekitar 30 detik AI menulis deck lengkap dengan kata utama dan kata terlarang di tiap kartu." },
       { "q": "Deck AI bisa dimainkan di mode apa saja?", "a": "Semuanya. Setiap deck AI bisa dimainkan di Kata Terlarang, Heads Up, dan Penipu, jadi kamu bisa ganti mode tanpa membuat deck baru." },
-      { "q": "Berapa harga deck AI?", "a": "Pembuatan AI tersedia dalam paket sekali bayar, mulai dari paket kecil berisi 5 kreasi. Tadado Full Access mencakup semua deck premium dan 20 kreasi AI. Tanpa langganan; cek harga lokal di store." },
+      { "q": "Berapa harga deck AI?", "a": "Pembuatan AI memakai kredit. Paketnya 5 kredit seharga $1.99, 15 seharga $4.99, atau 40 seharga $9.99, dan setiap kredit membuat satu deste kustom. Cek toko untuk harga lokal." },
       { "q": "Bisakah saya membuat deck dalam bahasa Indonesia?", "a": "Bisa. Tadado tersedia dalam 17 bahasa dan deck AI ditulis dalam bahasa yang kamu pakai, lengkap dengan nama, tempat, dan budaya pop lokal." }
     ]
   }

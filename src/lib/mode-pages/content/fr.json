@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Mots interdits, c'est comme Taboo ?", "a": "Ça se joue dans le même style : vous faites deviner un mot sans dire les indices interdits pendant que votre équipe devine contre la montre. Tadado est une appli indépendante avec ses propres decks, son score et son design, et ce n'est pas le jeu officiel Taboo." },
       { "q": "Combien de joueurs faut-il ?", "a": "Idéalement quatre ou plus, répartis en deux équipes. Ça marche aussi en grand groupe : faites des équipes plus nombreuses et continuez à faire tourner le téléphone." },
-      { "q": "Existe-t-il une appli façon Taboo gratuite et sans pub ?", "a": "Oui. Tadado est gratuit à télécharger avec le deck Tadado Mix, sans publicité ni abonnement. Les decks à thème et la création par IA sont des achats uniques optionnels." },
+      { "q": "Existe-t-il une appli façon Taboo gratuite et sans pub ?", "a": "Oui. Tadado se télécharge gratuitement avec le deck gratuit Tadado Mix, jouable dans tous les modes, et sans pub. Les decks premium viennent avec Tadado Premium (3 jours gratuits, puis $3.99 par semaine) et les crédits IA sont optionnels." },
       { "q": "Peut-on créer nos propres cartes Taboo ?", "a": "Oui. Tapez n'importe quel thème et l'IA de Tadado écrit un deck complet avec un mot principal et des mots interdits sur chaque carte. Jouez-le tout de suite en Mots interdits, Heads Up ou Imposteur." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Est-ce l'appli officielle Heads Up! ?", "a": "Non. Tadado est une appli de jeux de soirée indépendante avec un mode façon Heads Up. On joue de la même façon, téléphone sur le front et inclinaison pour marquer, avec les decks de Tadado et des decks IA." },
       { "q": "Comment jouer à Heads Up avec un seul téléphone ?", "a": "Un joueur tient le téléphone sur son front pendant que les autres donnent des indices sur le mot à l'écran. Inclinez vers le bas pour une bonne réponse, vers le haut pour passer, puis passez le téléphone à la fin du temps." },
-      { "q": "Le mode Heads Up de Tadado est-il gratuit ?", "a": "Oui. Téléchargez Tadado gratuitement et jouez avec le deck Tadado Mix. Pas de pub, pas d'abonnement ; les decks à thème et les decks IA sont des achats uniques optionnels." },
+      { "q": "Le mode Heads Up de Tadado est-il gratuit ?", "a": "Oui. Téléchargez Tadado gratuitement et jouez avec le deck gratuit Tadado Mix. Sans pub ; Tadado Premium débloque tous les decks premium avec 3 jours d’essai gratuit, puis $3.99 par semaine. Les crédits IA sont optionnels." },
       { "q": "Puis-je créer un deck Heads Up personnalisé ?", "a": "Oui. Tapez n'importe quel thème, d'une série aux blagues de famille, et l'IA de Tadado écrit un deck jouable en Heads Up immédiatement." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Comment joue-t-on à l'imposteur ?", "a": "Tout le monde sauf l'imposteur voit le même mot secret. Chacun donne un mot d'indice, puis le groupe vote pour désigner l'imposteur. Démasqué, l'imposteur peut encore gagner en devinant le mot." },
       { "q": "Est-ce comme Spyfall ou le Loup-garou ?", "a": "C'est la même famille de jeux de bluff à rôles cachés. Contrairement à Spyfall, il n'y a ni lieux ni questions, et contrairement au Loup-garou, pas de phase de nuit : juste un mot secret et un indice chacun." },
       { "q": "À combien peut-on jouer à l'Imposteur ?", "a": "Le mode Imposteur de Tadado se joue de 3 à 12 personnes sur un seul téléphone, et vous choisissez combien d'imposteurs cacher." },
-      { "q": "Le mode Imposteur est-il gratuit ?", "a": "Oui. Tadado est gratuit à télécharger et l'Imposteur fonctionne avec le deck gratuit Tadado Mix. Sans pub ni abonnement." }
+      { "q": "Le mode Imposteur est-il gratuit ?", "a": "Oui. Tadado se télécharge gratuitement et Imposteur fonctionne avec le deck gratuit Tadado Mix. Sans pub." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Un deck, trois jeux", "body": "Inutile de créer un deck Tabou et un deck Heads Up séparés. Créez une fois, jouez dans tous les modes." },
       { "title": "Fait pour votre groupe", "body": "Blagues internes, passions de niche, anniversaire à thème ou sujet de cours : des decks que personne d'autre n'a, sur ce que vous connaissez vraiment." },
-      { "title": "Payez une fois, sans abonnement", "body": "Les créations IA sont vendues en petits packs à achat unique, et Tadado Full Access en inclut 20. Pas de pub, rien de récurrent." }
+      { "title": "Crédits dès $1.99", "body": "Achetez des crédits IA en packs uniques : 5 pour $1.99, 15 pour $4.99 ou 40 pour $9.99. Chaque crédit crée un deck personnalisé." }
     ],
     "knownAs": "Si vous avez cherché un générateur de cartes Taboo, des cartes Heads Up personnalisées, un générateur de listes de mots pour jeux ou comment faire des cartes avec ChatGPT, voici la version intégrée. Au lieu de copier une liste dans vos notes, Tadado transforme votre thème en deck jouable avec minuteur, score et trois modes de jeu.",
     "aliases": ["Générateur de cartes Taboo", "Deck Heads Up personnalisé", "Liste de mots IA", "Cartes de soirée personnalisées", "Créer son propre deck"],
     "faq": [
       { "q": "Comment fonctionne la création de decks par IA ?", "a": "Tapez un ou plusieurs thèmes, choisissez la difficulté et touchez Créer. En 30 secondes environ, l'IA écrit un deck complet avec un mot principal et des mots interdits sur chaque carte." },
       { "q": "Dans quels modes jouer un deck IA ?", "a": "Tous. Chaque deck IA se joue en Mots interdits, Heads Up et Imposteur : changez de mode sans créer de nouveau deck." },
-      { "q": "Combien coûtent les decks IA ?", "a": "La création IA est vendue en packs à achat unique, à partir d'un petit pack de 5 créations. Tadado Full Access inclut tous les decks premium et 20 créations IA. Aucun abonnement ; consultez le store pour les prix locaux." },
+      { "q": "Combien coûtent les decks IA ?", "a": "La création IA utilise des crédits. Les packs : 5 crédits pour $1.99, 15 pour $4.99 ou 40 pour $9.99, chaque crédit crée un deck personnalisé. Consultez le store pour les prix locaux." },
       { "q": "Puis-je créer des decks en français ?", "a": "Oui. Tadado fonctionne en 17 langues et les decks IA sont écrits dans la langue où vous jouez, avec des noms, des lieux et une culture pop locale." }
     ]
   }

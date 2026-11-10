@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Czy Zakazane słowa to to samo co Tabu?", "a": "Gra się w tym samym stylu: opisujesz hasło bez mówienia zakazanych słów, a drużyna zgaduje na czas. Tadado to niezależna aplikacja z własnymi taliami, punktacją i wyglądem, a nie oficjalna gra Tabu." },
       { "q": "Ilu graczy potrzeba?", "a": "Najlepiej cztery lub więcej osób w dwóch drużynach. Duże grupy też się sprawdzają: wystarczy powiększyć drużyny i dalej podawać telefon." },
-      { "q": "Czy jest darmowa aplikacja w stylu Tabu bez reklam?", "a": "Tak. Tadado pobierzesz za darmo z talią Tadado Mix, bez reklam i bez subskrypcji. Talie tematyczne i tworzenie talii z AI to opcjonalne jednorazowe zakupy." },
+      { "q": "Czy jest darmowa aplikacja w stylu Tabu bez reklam?", "a": "Tak. Tadado pobierzesz za darmo z darmową talią Tadado Mix, która działa w każdym trybie, i bez reklam. Talie premium są w Tadado Premium (3 dni za darmo, potem $3.99 tygodniowo), a kredyty AI są opcjonalne." },
       { "q": "Czy możemy zrobić własne karty do Tabu?", "a": "Tak. Wpisz dowolny temat, a AI Tadado napisze całą talię z hasłem i zakazanymi słowami na każdej karcie. Od razu zagrasz w nią w Zakazane słowa, Heads Up lub Oszusta." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Czy to oficjalna aplikacja Heads Up!?", "a": "Nie. Tadado to niezależna aplikacja z grami imprezowymi, która ma tryb w stylu Heads Up. Grasz tak samo, z telefonem na czole i przechylaniem po punkt, ale z taliami Tadado i taliami AI." },
       { "q": "Jak grać w Heads Up na jednym telefonie?", "a": "Jedna osoba trzyma telefon na czole, a reszta podpowiada hasło z ekranu. Przechyl w dół przy trafieniu i w górę, by pominąć; po czasie podaj telefon dalej." },
-      { "q": "Czy tryb Heads Up w Tadado jest darmowy?", "a": "Tak. Pobierz Tadado za darmo i graj talią Tadado Mix. Bez reklam i subskrypcji; dodatkowe talie tematyczne i talie AI to opcjonalne jednorazowe zakupy." },
+      { "q": "Czy tryb Heads Up w Tadado jest darmowy?", "a": "Tak. Pobierz Tadado za darmo i graj darmową talią Tadado Mix. Bez reklam; Tadado Premium odblokowuje wszystkie talie premium z 3 dniami za darmo, potem $3.99 tygodniowo. Kredyty AI są opcjonalne." },
       { "q": "Czy mogę zrobić własną talię do Heads Up?", "a": "Tak. Wpisz dowolny temat, od serialu po rodzinne żarty, a AI Tadado napisze talię, w którą od razu zagrasz w Heads Up." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Jak grać w Oszusta?", "a": "Wszyscy oprócz oszusta widzą to samo tajne słowo. Każdy mówi jedno słowo podpowiedzi, a potem grupa głosuje, kto jest oszustem. Złapany oszust wciąż może wygrać, zgadując słowo." },
       { "q": "Czy to jak Spyfall albo Mafia?", "a": "To ta sama rodzina gier w blefowanie z ukrytymi rolami. W przeciwieństwie do Spyfall nie ma lokacji ani pytań, a w przeciwieństwie do Mafii nie ma fazy nocy: tylko jedno tajne słowo i jedna podpowiedź na osobę." },
       { "q": "Ile osób może grać w Oszusta?", "a": "Tryb Oszust w Tadado obsługuje od 3 do 12 osób na jednym telefonie i możesz wybrać, ilu oszustów ukryć." },
-      { "q": "Czy tryb Oszust jest darmowy?", "a": "Tak. Tadado pobierzesz za darmo, a Oszust działa z darmową talią Tadado Mix. Bez reklam i subskrypcji." }
+      { "q": "Czy tryb Oszust jest darmowy?", "a": "Tak. Tadado jest darmowe, a Oszust działa z darmową talią Tadado Mix. Bez reklam." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Jedna talia, trzy gry", "body": "Nie musisz robić osobnej talii do Tabu i do Heads Up. Stwórz raz i graj w każdym trybie." },
       { "title": "Stworzona dla twojej ekipy", "body": "Wewnętrzne żarty, niszowe hobby, urodziny z motywem albo temat z lekcji: talie, których nikt inny nie ma, o tym, co naprawdę znacie." },
-      { "title": "Płacisz raz, bez subskrypcji", "body": "Kreacje AI są w małych pakietach kupowanych jednorazowo, a Tadado Full Access zawiera 20. Bez reklam i bez opłat cyklicznych." }
+      { "title": "Kredyty od $1.99", "body": "Kupuj kredyty AI w jednorazowych pakietach: 5 za $1.99, 15 za $4.99 lub 40 za $9.99. Każdy kredyt tworzy jedną własną talię." }
     ],
     "knownAs": "Jeśli szukałeś generatora kart do Tabu, własnych kart do Heads Up, generatora list słów do gier albo sposobu na karty z ChatGPT, to jest wersja wbudowana. Zamiast kopiować listę do notatek, Tadado zamienia twój temat w grywalną talię z czasem, punktacją i trzema trybami gry.",
     "aliases": ["Generator kart do Tabu", "Własna talia Heads Up", "Lista słów z AI", "Własne karty imprezowe", "Zrób własną talię"],
     "faq": [
       { "q": "Jak działa tworzenie talii z AI?", "a": "Wpisz jeden lub kilka tematów, wybierz poziom trudności i stuknij Utwórz. W około 30 sekund AI napisze pełną talię z hasłem i zakazanymi słowami na każdej karcie." },
       { "q": "W jakich trybach zagram talią AI?", "a": "We wszystkich. Każda talia AI działa w Zakazanych słowach, Heads Up i Oszuście, więc zmieniasz tryb bez tworzenia nowej talii." },
-      { "q": "Ile kosztują talie AI?", "a": "Tworzenie z AI kupujesz w jednorazowych pakietach, zaczynając od małego pakietu na 5 kreacji. Tadado Full Access zawiera wszystkie talie premium i 20 kreacji AI. Bez subskrypcji; lokalne ceny sprawdzisz w sklepie." },
+      { "q": "Ile kosztują talie AI?", "a": "Tworzenie AI korzysta z kredytów. Pakiety: 5 kredytów za $1.99, 15 za $4.99 lub 40 za $9.99, a każdy kredyt tworzy jedną własną talię. Ceny lokalne sprawdzisz w sklepie." },
       { "q": "Czy mogę tworzyć talie po polsku?", "a": "Tak. Tadado działa w 17 językach, a talie AI powstają w języku, w którym grasz, z lokalnymi nazwami, miejscami i popkulturą." }
     ]
   }

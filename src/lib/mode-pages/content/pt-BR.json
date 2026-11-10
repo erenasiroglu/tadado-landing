@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Palavras Proibidas é igual ao Tabu?", "a": "É jogado no mesmo estilo: você descreve uma palavra sem dizer as dicas proibidas enquanto sua equipe adivinha contra o tempo. O Tadado é um app independente com baralhos, pontuação e design próprios, e não é o jogo oficial Tabu." },
       { "q": "Quantos jogadores precisa?", "a": "O ideal são quatro ou mais, divididos em duas equipes. Grupos grandes também funcionam: é só aumentar as equipes e continuar passando o celular." },
-      { "q": "Existe app estilo Tabu grátis e sem anúncios?", "a": "Sim. O Tadado é grátis para baixar com o baralho Tadado Mix, sem anúncios e sem assinatura. Baralhos temáticos e criação com IA são compras únicas opcionais." },
+      { "q": "Existe app estilo Tabu grátis e sem anúncios?", "a": "Sim. O Tadado é grátis para baixar com o baralho grátis Tadado Mix, que funciona em todos os modos, e não tem anúncios. Os baralhos premium vêm com o Tadado Premium (3 dias grátis, depois $3.99 por semana) e os créditos de IA são opcionais." },
       { "q": "Dá para criar nossas próprias cartas de Tabu?", "a": "Sim. Digite qualquer tema e a IA do Tadado cria um baralho completo com palavra principal e palavras proibidas em cada carta. Você joga na hora em Palavras Proibidas, Heads Up ou Impostor." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Este é o app oficial Heads Up!?", "a": "Não. O Tadado é um app independente de jogos de festa com um modo estilo Heads Up. Você joga do mesmo jeito, celular na testa e inclinando para pontuar, com os baralhos do Tadado e baralhos com IA." },
       { "q": "Como jogar Heads Up com um celular só?", "a": "Um jogador segura o celular na testa enquanto os outros dão dicas da palavra na tela. Incline para baixo no acerto e para cima para pular; quando o tempo acabar, passe o celular." },
-      { "q": "O modo Heads Up do Tadado é grátis?", "a": "Sim. Baixe o Tadado de graça e jogue com o baralho Tadado Mix. Sem anúncios e sem assinatura; baralhos temáticos e com IA são compras únicas opcionais." },
+      { "q": "O modo Heads Up do Tadado é grátis?", "a": "Sim. Baixe o Tadado grátis e jogue com o baralho grátis Tadado Mix. Sem anúncios; o Tadado Premium libera todos os baralhos premium com 3 dias de teste grátis e depois $3.99 por semana. Créditos de IA são opcionais." },
       { "q": "Posso criar um baralho personalizado de Heads Up?", "a": "Sim. Digite qualquer tema, de uma série às piadas internas da família, e a IA do Tadado cria um baralho para jogar no Heads Up na hora." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Como se joga o jogo do impostor?", "a": "Todos, menos o impostor, veem a mesma palavra secreta. Cada jogador dá uma dica de uma palavra e o grupo vota em quem é o impostor. Se for pego, ele ainda pode vencer adivinhando a palavra." },
       { "q": "É parecido com Spyfall ou Cidade Dorme?", "a": "É da mesma família de jogos de blefe com papéis ocultos. Diferente do Spyfall, não há locais nem perguntas, e diferente do Cidade Dorme não há fase da noite: só uma palavra secreta e uma dica por pessoa." },
       { "q": "Quantas pessoas podem jogar Impostor?", "a": "O modo Impostor do Tadado é jogado de 3 a 12 pessoas em um celular, e você escolhe quantos impostores esconder." },
-      { "q": "O modo Impostor é grátis?", "a": "Sim. O Tadado é grátis para baixar e o Impostor funciona com o baralho grátis Tadado Mix. Sem anúncios e sem assinatura." }
+      { "q": "O modo Impostor é grátis?", "a": "Sim. O Tadado é grátis para baixar e o Impostor funciona com o baralho grátis Tadado Mix. Sem anúncios." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Um baralho, três jogos", "body": "Nada de montar um baralho de Tabu e outro de Heads Up. Crie uma vez e jogue em todos os modos." },
       { "title": "Feito para a sua turma", "body": "Piadas internas, hobbies de nicho, um aniversário temático ou matéria da escola: baralhos que ninguém mais tem, sobre o que vocês realmente sabem." },
-      { "title": "Pague uma vez, sem assinatura", "body": "As criações com IA vêm em pacotes pequenos de compra única, e o Tadado Full Access inclui 20. Sem anúncios e sem cobrança recorrente." }
+      { "title": "Créditos a partir de $1.99", "body": "Compre créditos de IA em pacotes únicos: 5 por $1.99, 15 por $4.99 ou 40 por $9.99. Cada crédito cria um baralho personalizado." }
     ],
     "knownAs": "Se você pesquisou gerador de cartas de Tabu, cartas personalizadas de Heads Up, gerador de lista de palavras para jogos ou como fazer cartas com o ChatGPT, esta é a versão já integrada. Em vez de copiar uma lista para o bloco de notas, o Tadado transforma seu tema em um baralho jogável com timer, pontuação e três modos.",
     "aliases": ["Gerador de cartas de Tabu", "Baralho de Heads Up personalizado", "Lista de palavras com IA", "Cartas de festa personalizadas", "Crie seu próprio baralho"],
     "faq": [
       { "q": "Como funciona a criação de baralhos com IA?", "a": "Digite um ou mais temas, escolha a dificuldade e toque em Criar. Em uns 30 segundos a IA escreve um baralho completo com palavra principal e palavras proibidas em cada carta." },
       { "q": "Em quais modos posso jogar um baralho com IA?", "a": "Em todos. Cada baralho com IA funciona em Palavras Proibidas, Heads Up e Impostor, então você troca de modo sem criar outro baralho." },
-      { "q": "Quanto custam os baralhos com IA?", "a": "A criação com IA vem em pacotes de compra única, começando por um pequeno de 5 criações. O Tadado Full Access inclui todos os baralhos premium e 20 criações com IA. Não há assinatura; veja os preços locais na loja." },
+      { "q": "Quanto custam os baralhos com IA?", "a": "A criação com IA usa créditos. Os pacotes são 5 créditos por $1.99, 15 por $4.99 ou 40 por $9.99, e cada crédito cria um baralho personalizado. Veja a loja para preços locais." },
       { "q": "Posso criar baralhos em português?", "a": "Sim. O Tadado funciona em 17 idiomas e os baralhos com IA são escritos no idioma em que você joga, com nomes, lugares e cultura pop locais." }
     ]
   }

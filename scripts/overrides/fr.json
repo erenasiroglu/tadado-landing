@@ -80,8 +80,8 @@
         "body": "Tape n'importe quel sujet et obtiens un deck jouable instantanément. Parfait pour les blagues internes, les soirées ciné ou les fêtes à thème."
       },
       {
-        "title": "Sans pub, sans abonnement",
-        "body": "Commence gratuitement avec Tadado Mix. Paie une seule fois si tu veux des decks thématiques supplémentaires ou la création de decks IA."
+        "title": "Sans pub, des prix simples",
+        "body": "Commencez gratuitement avec Tadado Mix. Essayez tous les decks premium 3 jours gratuitement, puis $3.99 par semaine. Résiliable à tout moment."
       },
       {
         "title": "17 langues intégrées",
@@ -106,7 +106,7 @@
       "Jeu hors ligne",
       "Équipes et chrono",
       "Sans pub",
-      "Sans abonnement"
+      "3 jours d’essai gratuit"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 decks de jeu",
     "free": "Gratuit",
     "play": "JOUER",
-    "price": "$0.99",
+    "price": "Premium · 3 jours gratuits, puis $3.99/semaine",
     "newBadge": "NOUVEAU",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Commencez gratuitement. Débloquez plus quand la fête grandit.",
-    "subtitle": "Téléchargez gratuitement et jouez tout de suite. Ajoutez des decks premium ou des packs IA en achat unique. Jamais d'abonnement.",
-    "oneTime": "achat unique",
-    "disclaimer": "Les prix sont en USD et peuvent varier selon la région sur l'App Store et Google Play. Les achats sont gérés par Apple ou Google.",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "Gratuit",
-      "desc": "Télécharge gratuitement et joue immédiatement avec le deck de démarrage classique."
+    "eyebrow": "Tarifs",
+    "title": "Gratuit pour jouer. Un seul plan simple pour plus.",
+    "subtitle": "Tadado Mix est gratuit pour tous. Premium débloque tous les decks avec 3 jours d’essai gratuit, puis $3.99 par semaine. Les crédits IA transforment n’importe quel sujet en deck.",
+    "badges": {
+      "free": "Gratuit pour toujours",
+      "premium": "Tous les decks",
+      "trial": "3 jours gratuits",
+      "ai": "Crédits IA"
     },
-    "theme": {
-      "name": "Decks thématiques",
-      "price": "$0.99",
-      "desc": "Achat unique par deck. Été, Cinéma, Voyage, Sport, Héros et plus."
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "pour tous",
+      "desc": "Un deck mixte avec des cartes de tous les decks Tadado, chaque manche est différente. Sans achat ni compte.",
+      "modesLabel": "Jouable dans les 3 modes",
+      "features": [
+        "Cartes mélangées de tous les decks",
+        "Sans pub",
+        "Jeu hors ligne"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ semaine",
+      "trialNote": "après 3 jours d’essai gratuit",
+      "desc": "Tous les decks premium restent débloqués tant que votre plan est actif.",
+      "features": [
+        "Tous les decks premium : Cinéma, Sport, Voyage, Genius Only et plus",
+        "Chaque deck dans les 3 modes",
+        "Sans pub",
+        "Résiliable à tout moment"
+      ],
+      "timelineLabel": "Comment marche l’essai gratuit",
+      "timeline": [
+        {
+          "when": "Aujourd’hui",
+          "what": "Commencez gratuitement. Tous les decks premium se débloquent aussitôt."
+        },
+        {
+          "when": "Jour 3",
+          "what": "Résiliez avant la fin de l’essai et vous ne payez rien."
+        },
+        {
+          "when": "Ensuite",
+          "what": "$3.99 par semaine jusqu’à résiliation dans les réglages du store."
+        }
+      ]
     },
     "ai": {
-      "name": "Création de deck IA",
-      "price": "$2.99",
-      "desc": "Génère un deck personnalisé sur n'importe quel sujet. Joue dans les deux modes."
+      "title": "Transformez n’importe quel sujet en deck",
+      "desc": "Tapez un sujet comme « tubes des années 90 » ou les blagues de votre bande, et l’IA crée un deck jouable en quelques secondes. Achetez un pack une fois, utilisez-le quand vous voulez.",
+      "rule": "1 crédit IA = 1 deck personnalisé",
+      "creditsLabel": "crédits",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 par deck"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 par deck",
+          "badge": "Le plus populaire",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 par deck",
+          "badge": "Meilleur prix"
+        }
+      ]
     },
-    "trust": "Sans pub · Sans abonnement · Restaure tes achats à tout moment"
+    "trust": [
+      "Sans pub",
+      "Résiliable à tout moment",
+      "Paiement sécurisé via Apple et Google"
+    ],
+    "disclaimer": "Prix en USD ; l’App Store et Google Play peuvent afficher des prix locaux dans votre région. Tadado Premium commence par 3 jours d’essai gratuit, puis se renouvelle à $3.99 par semaine jusqu’à résiliation dans les réglages de l’App Store ou de Google Play. Les packs de crédits IA sont des achats uniques. Les paiements sont gérés par Apple ou Google."
   },
   "howItWorks": {
     "title": "Comment ça marche",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Quelle est la différence entre Taboo et Heads Up ?",
-        "a": "Mots interdits, c'est le Taboo en équipe : décris sans les mots interdits. Heads Up place le téléphone sur ton front pendant que tes amis donnent des indices. Les deux utilisent les mêmes decks."
+        "a": "Tadado est conçu pour les soirées jeux : Mots interdits façon Tabou, Heads Up et le jeu de bluff Imposteur sur un téléphone. Sans pub, Tadado Mix gratuit pour tous et un plan Premium avec 3 jours d’essai gratuit."
       },
       {
         "q": "Tadado a-t-il des pubs ?",
-        "a": "Non. Tadado est sans pub. Tu ne paies que pour des decks optionnels ou la création IA si tu le choisis."
+        "a": "Oui. Tadado Mix est gratuit pour tous, mélange des cartes de tous les decks et se joue dans les 3 modes. Tadado Premium débloque tous les decks premium avec 3 jours gratuits, puis $3.99 par semaine. Les crédits IA sont optionnels : 5 pour $1.99, 15 pour $4.99 ou 40 pour $9.99. Détails dans Tarifs."
       },
       {
         "q": "Comment fonctionne la création de deck IA ?",
@@ -582,7 +643,7 @@
       },
       {
         "q": "Quelles langues sont prises en charge ?",
-        "a": "L'interface de l'app est disponible en 17 langues, dont l'anglais, le turc, l'espagnol, l'allemand, le français et plus encore."
+        "a": "Non. Tadado est sans pub. Vous ne payez que si vous choisissez Tadado Premium ou des crédits IA."
       }
     ]
   },
@@ -617,12 +678,12 @@
         "others": "no"
       },
       {
-        "feature": "Sans abonnement",
+        "feature": "Crédits IA à la demande",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Packs de decks thématiques",
+        "feature": "Premium avec 3 jours d’essai gratuit",
         "tadado": "yes",
         "others": "partial"
       },
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Beaucoup d'apps se concentrent sur un seul mode, affichent des pubs ou bloquent le contenu derrière des abonnements. Tadado est conçu pour de vraies soirées jeux avec les deux modes, un deck de démarrage gratuit et des extras payés une seule fois.",
+    "note": "Beaucoup d’applis misent sur un seul mode ou affichent des pubs. Tadado offre trois modes, le deck gratuit Tadado Mix, un seul plan Premium avec 3 jours d’essai gratuit et des crédits IA pour vos propres decks.",
     "cta": "Télécharger Tadado gratuitement",
     "viewFull": "Ouvrir la page de comparaison complète"
   },

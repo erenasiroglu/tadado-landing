@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Ist Verbotene Wörter dasselbe wie Tabu?", "a": "Es spielt sich im selben Stil: Du erklärst einen Begriff, ohne die verbotenen Wörter zu sagen, während dein Team gegen die Zeit rät. Tadado ist eine unabhängige App mit eigenen Decks, eigener Wertung und eigenem Design und nicht das offizielle Tabu-Spiel." },
       { "q": "Wie viele Spieler braucht man?", "a": "Am besten vier oder mehr, aufgeteilt in zwei Teams. Große Gruppen klappen auch: einfach größere Teams bilden und das Handy weitergeben." },
-      { "q": "Gibt es eine kostenlose Tabu-App ohne Werbung?", "a": "Ja. Tadado ist mit dem Tadado Mix kostenlos, ohne Werbung und ohne Abo. Themen-Decks und KI-Decks sind optionale Einmalkäufe." },
+      { "q": "Gibt es eine kostenlose Tabu-App ohne Werbung?", "a": "Ja. Tadado ist kostenlos mit dem Gratis-Deck Tadado Mix, das in jedem Modus funktioniert, und ohne Werbung. Premium-Decks gibt es mit Tadado Premium (3 Tage gratis, dann $3.99 pro Woche), KI-Credits sind optional." },
       { "q": "Können wir eigene Tabu-Karten erstellen?", "a": "Ja. Gib ein beliebiges Thema ein, und die KI von Tadado schreibt ein komplettes Deck mit Hauptbegriff und verbotenen Wörtern auf jeder Karte. Du kannst es sofort in Verbotene Wörter, Heads Up oder Hochstapler spielen." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Ist das die offizielle Heads Up!-App?", "a": "Nein. Tadado ist eine unabhängige Partyspiel-App mit einem Modus im Heads-Up-Stil. Du spielst genauso, Handy an der Stirn und Kippen zum Punkten, aber mit Tadados eigenen Decks und KI-Decks." },
       { "q": "Wie spielt man Heads Up mit nur einem Handy?", "a": "Eine Person hält das Handy an die Stirn, die anderen geben Hinweise zum Begriff auf dem Bildschirm. Nach unten kippen bei Treffern, nach oben zum Passen, und nach Ablauf der Zeit das Handy weitergeben." },
-      { "q": "Ist der Heads-Up-Modus von Tadado kostenlos?", "a": "Ja. Lade Tadado kostenlos und spiel mit dem Tadado Mix. Keine Werbung, kein Abo; zusätzliche Themen-Decks und KI-Decks sind optionale Einmalkäufe." },
+      { "q": "Ist der Heads-Up-Modus von Tadado kostenlos?", "a": "Ja. Lade Tadado kostenlos und spiele mit dem Gratis-Deck Tadado Mix. Keine Werbung; Tadado Premium schaltet alle Premium-Decks mit 3 Tagen Gratis-Test frei, danach $3.99 pro Woche. KI-Credits sind optional." },
       { "q": "Kann ich ein eigenes Heads-Up-Deck erstellen?", "a": "Ja. Gib ein beliebiges Thema ein, von einer Serie bis zu Familien-Insidern, und die KI von Tadado schreibt ein Deck, das du sofort in Heads Up spielen kannst." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Wie spielt man das Imposter-Spiel?", "a": "Alle außer dem Hochstapler sehen dasselbe geheime Wort. Jede Person sagt ein Hinweiswort, dann stimmt die Gruppe ab, wer der Hochstapler ist. Wird er erwischt, kann er durch Erraten des Wortes noch gewinnen." },
       { "q": "Ist das wie Spyfall oder Werwolf?", "a": "Es gehört zur selben Familie von Bluffspielen mit geheimen Rollen. Anders als bei Spyfall gibt es keine Orte oder Fragen und anders als bei Werwolf keine Nachtphase: nur ein geheimes Wort und einen Hinweis pro Person." },
       { "q": "Wie viele können Hochstapler spielen?", "a": "Der Hochstapler-Modus von Tadado läuft mit 3 bis 12 Personen auf einem Handy, und du wählst, wie viele Hochstapler versteckt werden." },
-      { "q": "Ist der Hochstapler-Modus kostenlos?", "a": "Ja. Tadado ist kostenlos und Hochstapler funktioniert mit dem kostenlosen Tadado Mix. Keine Werbung, kein Abo." }
+      { "q": "Ist der Hochstapler-Modus kostenlos?", "a": "Ja. Tadado ist kostenlos und Hochstapler funktioniert mit dem Gratis-Deck Tadado Mix. Keine Werbung." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Ein Deck, drei Spiele", "body": "Kein separates Tabu- und Heads-Up-Deck nötig. Einmal erstellen, in jedem Modus spielen." },
       { "title": "Gemacht für deine Runde", "body": "Insider, Nischenhobbys, ein Geburtstagsmotto oder ein Unterrichtsthema: Decks, die sonst niemand hat, über Dinge, die ihr wirklich kennt." },
-      { "title": "Einmal zahlen, kein Abo", "body": "KI-Erstellungen gibt es in kleinen Einmal-Paketen, und Tadado Full Access enthält 20. Keine Werbung, nichts Wiederkehrendes." }
+      { "title": "Credits ab $1.99", "body": "KI-Credits gibt es als Einmalpakete: 5 für $1.99, 15 für $4.99 oder 40 für $9.99. Jeder Credit erstellt ein eigenes Deck." }
     ],
     "knownAs": "Wenn du nach einem Tabu-Karten-Generator, eigenen Heads-Up-Karten, einem Wortlisten-Generator für Partyspiele oder Spielkarten mit ChatGPT gesucht hast, ist das die eingebaute Version. Statt eine Liste in die Notizen zu kopieren, macht Tadado aus deinem Thema ein spielbares Deck mit Timer, Wertung und drei Spielmodi.",
     "aliases": ["Tabu-Karten-Generator", "Eigenes Heads-Up-Deck", "KI-Wortliste", "Eigene Partyspiel-Karten", "Eigenes Deck erstellen"],
     "faq": [
       { "q": "Wie funktioniert die KI-Deck-Erstellung?", "a": "Gib ein oder mehrere Themen ein, wähle den Schwierigkeitsgrad und tippe auf Erstellen. In rund 30 Sekunden schreibt die KI ein komplettes Deck mit Hauptbegriff und verbotenen Wörtern auf jeder Karte." },
       { "q": "In welchen Modi kann ich ein KI-Deck spielen?", "a": "In allen. Jedes KI-Deck läuft in Verbotene Wörter, Heads Up und Hochstapler, du kannst also den Modus wechseln, ohne ein neues Deck zu erstellen." },
-      { "q": "Was kosten KI-Decks?", "a": "KI-Erstellungen gibt es als Einmal-Pakete, beginnend mit einem kleinen Paket für 5 Erstellungen. Tadado Full Access enthält alle Premium-Decks plus 20 KI-Erstellungen. Kein Abo; lokale Preise findest du im Store." },
+      { "q": "Was kosten KI-Decks?", "a": "Die KI-Erstellung nutzt Credits. Pakete: 5 Credits für $1.99, 15 für $4.99 oder 40 für $9.99, jeder Credit erstellt ein eigenes Deck. Lokale Preise siehst du im Store." },
       { "q": "Kann ich Decks auf Deutsch erstellen?", "a": "Ja. Tadado läuft in 17 Sprachen, und KI-Decks werden in der Sprache geschrieben, in der du spielst, mit lokalen Namen, Orten und Popkultur." }
     ]
   }

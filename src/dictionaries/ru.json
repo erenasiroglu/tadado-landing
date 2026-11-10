@@ -85,8 +85,8 @@
         "body": "Введите любую тему и получите готовую колоду мгновенно. Идеально для внутренних шуток, кино-вечеров и тематических вечеринок."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "Без рекламы, простые цены",
+        "body": "Начните бесплатно с Tadado Mix. Попробуйте все премиум-колоды 3 дня бесплатно, затем $3.99 в неделю. Отмена в любой момент."
       },
       {
         "title": "17 языков встроено",
@@ -111,7 +111,7 @@
       "Офлайн-игра",
       "Команды и таймеры",
       "Без рекламы",
-      "Weekly or one-time unlocks"
+      "3 дня бесплатно"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Следующий вечер игр начинается бесплатно",
     "ctaBody": "Скачай Tadado, открой бесплатную колоду и за секунды начни Запретные слова, Heads Up или Самозванца. Хватит одного телефона.",
     "ctaButton": "Скачать Tadado бесплатно",
-    "freeNote": "Бесплатно · Без рекламы · Без подписки",
+    "freeNote": "Бесплатная загрузка · Без рекламы · 3 дня Premium бесплатно",
     "disclaimer": "Название «{game}» используется только для описания известной игры или формата. Все товарные знаки принадлежат их владельцам; Tadado не связано с ними и не одобрено ими. Описание игры «{game}» относится к классическому формату и типичным версиям; отдельные приложения и издания могут отличаться, проверяйте описание в магазине."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: игры на Хэллоуин | Запретные слова, Heads Up и Самозванец",
-    "metaDescription": "Бесплатные игры на Хэллоуин на одном телефоне: жуткая колода из 100 слов для Запретных слов, Heads Up и новый режим Самозванец. Без рекламы и подписки. iOS и Android."
+    "metaDescription": "Бесплатные игры на Хэллоуин на одном телефоне: жуткая колода из 100 слов для Запретных слов, Heads Up и новый режим Самозванец. Без рекламы. iOS и Android."
   },
   "trust": {
     "eyebrow": "Сделано для вас",
@@ -475,12 +475,12 @@
         "body": "Скачайте и сразу начните раунд. Основная игра не требует регистрации. Входить нужно, только чтобы сохранить ИИ-колоды или покупки."
       },
       {
-        "title": "Ноль рекламы, ноль подписок",
-        "body": "Реклама не прерывает игровой вечер, и ничего не продлевается за вашей спиной. Бесплатные колоды есть с первого дня."
+        "title": "Ноль рекламы, понятные цены",
+        "body": "Реклама не прерывает ваш вечер. Tadado Mix бесплатен навсегда, а условия Premium видны сразу: 3 дня бесплатно, затем $3.99 в неделю, отмена в любой момент."
       },
       {
-        "title": "Купили раз — ваше навсегда",
-        "body": "Каждая колода и ИИ-пакет — разовая покупка, привязанная к аккаунту Apple или Google. Восстанавливайте на своих устройствах в любой момент."
+        "title": "Покупки на всех ваших устройствах",
+        "body": "Premium и ИИ-кредиты привязаны к вашему аккаунту Apple или Google. Восстановите их на своих устройствах в любой момент."
       },
       {
         "title": "Платежи остаются у Apple и Google",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Бесплатно",
     "play": "ИГРАТЬ",
-    "price": "$1.99",
+    "price": "Premium · 3 дня бесплатно, затем $3.99/неделя",
     "newBadge": "НОВОЕ",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Цены",
+    "title": "Играть бесплатно. Один простой план — для большего.",
+    "subtitle": "Tadado Mix бесплатен для всех. Premium открывает все колоды: 3 дня бесплатно, затем $3.99 в неделю. С ИИ-кредитами любая тема становится колодой.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Бесплатно навсегда",
+      "premium": "Все колоды",
+      "trial": "3 дня бесплатно",
+      "ai": "ИИ-кредиты"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "для всех",
+      "desc": "Смешанная колода с карточками из всех колод Tadado, каждый раунд не похож на прошлый. Без покупок и без аккаунта.",
+      "modesLabel": "Играется во всех 3 режимах",
+      "features": [
+        "Карточки из всех колод вперемешку",
+        "Без рекламы",
+        "Игра офлайн"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ неделя",
+      "trialNote": "после 3 дней бесплатного пробного периода",
+      "desc": "Все премиум-колоды открыты, пока план активен.",
+      "features": [
+        "Все премиум-колоды: Кино, Спорт, Путешествия, Genius Only и другие",
+        "Каждая колода во всех 3 режимах",
+        "Без рекламы",
+        "Отмена в любой момент"
+      ],
+      "timelineLabel": "Как работает пробный период",
+      "timeline": [
+        {
+          "when": "Сегодня",
+          "what": "Начните бесплатно. Все премиум-колоды открываются сразу."
+        },
+        {
+          "when": "День 3",
+          "what": "Отмените до конца пробного периода — и ничего не платите."
+        },
+        {
+          "when": "Дальше",
+          "what": "$3.99 в неделю, пока не отмените в настройках магазина."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 созданий колод с ИИ — своя колода на любую тему."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 созданий колод с ИИ для регулярных игровых вечеров.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 созданий колод с ИИ для тех, у кого идеи не заканчиваются."
-      }
+    "ai": {
+      "title": "Превратите любую тему в колоду",
+      "desc": "Напишите тему вроде «хиты 90-х» или шутки вашей компании, и ИИ за секунды создаст готовую колоду. Купите пакет один раз и используйте когда угодно.",
+      "rule": "1 ИИ-кредит = 1 своя колода",
+      "creditsLabel": "кредитов",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 за колоду"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 за колоду",
+          "badge": "Самый популярный",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 за колоду",
+          "badge": "Выгоднее всего"
+        }
+      ]
+    },
+    "trust": [
+      "Без рекламы",
+      "Отмена в любой момент",
+      "Безопасная оплата через Apple и Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Цены указаны в USD; App Store и Google Play могут показывать местные цены в вашем регионе. Tadado Premium начинается с 3 дней бесплатного пробного периода, затем продлевается за $3.99 в неделю, пока вы не отмените подписку в настройках App Store или Google Play. Пакеты ИИ-кредитов — разовые покупки. Платежи обрабатывают Apple или Google."
   },
   "howItWorks": {
     "title": "Как это работает",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Tadado — одно из лучших бесплатных приложений для вечеринок?",
-        "a": "Tadado создан для игровых вечеров: Запретные слова в стиле Табу, Heads Up, игра на блеф Самозванец, бесплатные колоды, тематические колоды по желанию и создание колод с ИИ. Без рекламы и подписки это одно из самых выгодных приложений для вечеринок на iOS и Android."
+        "a": "Tadado создан для игровых вечеров: Запретные слова в стиле Табу, Heads Up и игра на блеф Самозванец на одном телефоне. Без рекламы, Tadado Mix бесплатно для всех и план Premium с 3 днями бесплатно."
       },
       {
         "q": "Tadado бесплатный?",
-        "a": "Да. Tadado Mix бесплатен. Тематические колоды и создание колод ИИ — разовые покупки. Подробности в разделе «Цены». Подписки нет."
+        "a": "Да. Tadado Mix бесплатен для всех, смешивает карточки из всех колод и работает во всех 3 режимах. Tadado Premium открывает все премиум-колоды: 3 дня бесплатно, затем $3.99 в неделю. ИИ-кредиты по желанию: 5 за $1.99, 15 за $4.99 или 40 за $9.99. Подробнее в разделе «Цены»."
       },
       {
         "q": "В чём разница между Taboo и Heads Up?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Есть ли реклама в Tadado?",
-        "a": "Нет. Tadado без рекламы. Платите только за дополнительные колоды или создание ИИ, если захотите."
+        "a": "Нет. В Tadado нет рекламы. Вы платите, только если выберете Tadado Premium или ИИ-кредиты."
       },
       {
         "q": "Как работает создание колоды с ИИ?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "Без подписки",
+        "feature": "Premium с 3 днями бесплатно",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Тематические наборы колод",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Многие приложения ограничены одним режимом или показывают рекламу. В Tadado три режима, бесплатная колода Tadado Mix, один план Premium с 3 днями бесплатно и ИИ-кредиты для своих колод.",
     "cta": "Скачать Tadado бесплатно",
     "viewFull": "Открыть полную страницу сравнения"
   },
@@ -982,7 +1002,7 @@
     "title": "Маркетинг и пресса",
     "subtitle": "Кампании с авторами, брендированные колоды и материалы для прессы о Tadado.",
     "back": "Назад к Tadado",
-    "intro": "Tadado — приложение для вечеринок для настоящих компаний: Запретные слова в стиле Табу, Heads Up и Самозванец на одном телефоне, без рекламы и подписок. Если готовишь контент, коллаборацию или статью, начни отсюда.",
+    "intro": "Tadado — приложение с играми для вечеринок для настоящих компаний: Запретные слова в стиле Табу, Heads Up и Самозванец на одном телефоне, без рекламы, с бесплатной колодой Tadado Mix, планом Premium по желанию и ИИ-кредитами. Если вы планируете контент, коллаборацию или статью, начните здесь.",
     "statsLabel": "Коротко",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Колода Хэллоуина в Tadado бесплатная?",
-        "a": "Да. Колода Хэллоуина бесплатна для всех, в ней 100 слов. Без рекламы и подписки."
+        "a": "Да. Колода Хэллоуина бесплатна для всех, в ней 100 слов. Без рекламы."
       },
       {
         "q": "Сколько человек может играть?",

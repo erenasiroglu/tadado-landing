@@ -49,7 +49,7 @@
         "other": "varies"
       },
       {
-        "feature": "광고·구독 없음",
+        "feature": "광고 없음, Premium 3일 무료",
         "tadado": "yes",
         "other": "varies"
       },
@@ -75,7 +75,7 @@
       },
       {
         "q": "Tadado는 무료인가요?",
-        "a": "무료로 다운로드하고 Tadado Mix 덱도 무료예요. 광고와 구독은 없고, 테마 덱과 AI 팩은 원할 때만 한 번 구매하면 돼요."
+        "a": "Tadado는 무료 Tadado Mix 덱과 함께 무료로 다운로드할 수 있고 광고가 없습니다. Tadado Premium은 3일 무료 체험 후 주 $3.99에 모든 프리미엄 덱을 열어 주며, AI 크레딧 팩은 선택 사항입니다."
       }
     ]
   },

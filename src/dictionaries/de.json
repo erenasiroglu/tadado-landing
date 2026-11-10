@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: Partyspiel-App | Tabu, Heads Up, Hochstapler & KI-Decks",
-    "description": "Ein Handy. Deine Freunde. Tabu, Heads Up, Hochstapler und KI-Decks für Spieleabende. Kostenlos starten, ohne Werbung und Abo. iOS und Android."
+    "description": "Ein Handy. Deine Freunde. Tabu, Heads Up, Hochstapler und KI-Decks für Spieleabende. Kostenlos starten, ohne Werbung. iOS und Android."
   },
   "nav": {
     "play": "Spielen",
@@ -85,8 +85,8 @@
         "body": "Gib ein beliebiges Thema ein und erhalte sofort ein spielbares Deck. Perfekt für Insider-Witze, Filmabende oder Themenpartys."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "Keine Werbung, einfache Preise",
+        "body": "Starte gratis mit Tadado Mix. Teste alle Premium-Decks 3 Tage gratis, danach $3.99 pro Woche. Jederzeit kündbar."
       },
       {
         "title": "17 Sprachen integriert",
@@ -111,7 +111,7 @@
       "Offline spielen",
       "Teams & Timer",
       "Keine Werbung",
-      "Weekly or one-time unlocks"
+      "3 Tage gratis testen"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Dein nächster Spieleabend startet kostenlos",
     "ctaBody": "Lade Tadado, öffne ein kostenloses Deck und spiel in Sekunden Verbotene Wörter, Heads Up oder Hochstapler. Ein Handy reicht.",
     "ctaButton": "Tadado kostenlos laden",
-    "freeNote": "Kostenlos laden · Keine Werbung · Kein Abo",
+    "freeNote": "Kostenloser Download · Keine Werbung · 3 Tage Premium gratis",
     "disclaimer": "{game} wird nur genannt, um ein bekanntes Spiel oder Spielformat zu beschreiben. Alle Marken gehören ihren Inhabern; Tadado ist nicht mit ihnen verbunden und wird nicht von ihnen unterstützt. Die Angaben zu {game} beschreiben das klassische Format und typische Versionen; einzelne Apps und Ausgaben können abweichen, prüfe daher den jeweiligen Store-Eintrag."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: Halloween-Partyspiele | Tabu, Heads Up und Hochstapler",
-    "metaDescription": "Kostenlose Halloween-Partyspiele auf einem Handy: ein gruseliges Tabu-Deck mit 100 Wörtern, Heads Up und der neue Hochstapler-Modus. Ohne Werbung und Abo. iOS und Android."
+    "metaDescription": "Kostenlose Halloween-Partyspiele auf einem Handy: ein gruseliges Tabu-Deck mit 100 Wörtern, Heads Up und der neue Hochstapler-Modus. Ohne Werbung. iOS und Android."
   },
   "trust": {
     "eyebrow": "Für dich gemacht",
@@ -475,12 +475,12 @@
         "body": "Herunterladen und sofort eine Runde starten. Das Grundspiel braucht keine Anmeldung. Anmelden musst du dich nur, wenn du KI-Decks oder Käufe speichern willst."
       },
       {
-        "title": "Null Werbung, null Abos",
-        "body": "Keine Werbung unterbricht deinen Spieleabend und nichts verlängert sich heimlich. Gratis-Decks sind vom ersten Tag an dabei."
+        "title": "Null Werbung, klare Preise",
+        "body": "Keine Werbung unterbricht euren Spieleabend. Tadado Mix ist für immer gratis, und bei Premium weißt du vorher Bescheid: 3 Tage gratis, dann $3.99 pro Woche, jederzeit kündbar."
       },
       {
-        "title": "Einmal kaufen, für immer deins",
-        "body": "Jedes Deck und KI-Paket ist ein Einmalkauf, verknüpft mit deinem Apple- oder Google-Konto. Jederzeit auf deinen Geräten wiederherstellen."
+        "title": "Deine Käufe auf jedem Gerät",
+        "body": "Premium und KI-Credits sind mit deinem Apple- oder Google-Konto verknüpft. Auf deinen Geräten jederzeit wiederherstellbar."
       },
       {
         "title": "Zahlungen bleiben bei Apple und Google",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Gratis",
     "play": "SPIELEN",
-    "price": "$1.99",
+    "price": "Premium · 3 Tage gratis, dann $3.99/Woche",
     "newBadge": "NEU",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Preise",
+    "title": "Kostenlos spielen. Ein einfacher Plan für mehr.",
+    "subtitle": "Tadado Mix ist für alle kostenlos. Premium schaltet jedes Deck frei: 3 Tage gratis testen, danach $3.99 pro Woche. Mit KI-Credits wird jedes Thema zum Deck.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Für immer gratis",
+      "premium": "Alle Decks frei",
+      "trial": "3 Tage gratis",
+      "ai": "KI-Credits"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "für alle",
+      "desc": "Ein gemischtes Deck mit Karten aus allen Tadado-Decks, jede Runde fühlt sich anders an. Kein Kauf und kein Konto nötig.",
+      "modesLabel": "In allen 3 Modi spielbar",
+      "features": [
+        "Karten aus allen Decks gemischt",
+        "Keine Werbung",
+        "Offline spielen"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ Woche",
+      "trialNote": "nach 3 Tagen Gratis-Test",
+      "desc": "Alle Premium-Decks bleiben freigeschaltet, solange dein Plan aktiv ist.",
+      "features": [
+        "Alle Premium-Decks: Kino, Sport, Reisen, Genius Only & mehr",
+        "Jedes Deck in allen 3 Modi",
+        "Keine Werbung",
+        "Jederzeit kündbar"
+      ],
+      "timelineLabel": "So funktioniert der Gratis-Test",
+      "timeline": [
+        {
+          "when": "Heute",
+          "what": "Gratis starten. Alle Premium-Decks sofort frei."
+        },
+        {
+          "when": "Tag 3",
+          "what": "Vor Ende des Tests kündigen und nichts bezahlen."
+        },
+        {
+          "when": "Danach",
+          "what": "$3.99 pro Woche, bis du in den Store-Einstellungen kündigst."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 KI-Deck-Erstellungen: eigene Decks zu jedem Thema."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 KI-Deck-Erstellungen für regelmäßige Spieleabende.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 KI-Deck-Erstellungen für Gastgeber, denen die Ideen nie ausgehen."
-      }
+    "ai": {
+      "title": "Mach jedes Thema zum Deck",
+      "desc": "Gib ein Thema wie „90er-Hits“ oder die Insider-Witze deiner Gruppe ein, und die KI erstellt in Sekunden ein spielbares Deck. Paket einmal kaufen, nutzen, wann du willst.",
+      "rule": "1 KI-Credit = 1 eigenes Deck",
+      "creditsLabel": "Credits",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 pro Deck"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 pro Deck",
+          "badge": "Am beliebtesten",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 pro Deck",
+          "badge": "Bester Preis"
+        }
+      ]
+    },
+    "trust": [
+      "Keine Werbung",
+      "Jederzeit kündbar",
+      "Sicher bezahlen über Apple & Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Preise in USD; App Store und Google Play zeigen in deiner Region ggf. lokale Preise. Tadado Premium startet mit 3 Tagen Gratis-Test und verlängert sich danach für $3.99 pro Woche, bis du in den Einstellungen von App Store oder Google Play kündigst. KI-Credit-Pakete sind Einmalkäufe. Zahlungen laufen über Apple oder Google."
   },
   "howItWorks": {
     "title": "So funktioniert's",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Ist Tadado eine der besten kostenlosen Partyspiel-Apps?",
-        "a": "Tadado ist für Spieleabende gebaut: Verbotene Wörter im Tabu-Stil, Heads Up, das Bluffspiel Hochstapler, kostenlose Decks, optionale Themen-Decks und KI-Deck-Erstellung. Ohne Werbung und ohne Abo gehört Tadado zu den preiswertesten Partyspiel-Apps für iOS und Android."
+        "a": "Tadado ist für Spieleabende gemacht: Verbotene Wörter im Tabu-Stil, Heads Up und das Bluff-Spiel Hochstapler auf einem Handy. Keine Werbung, Tadado Mix gratis für alle und ein Premium-Plan mit 3 Tagen Gratis-Test."
       },
       {
         "q": "Ist Tadado kostenlos?",
-        "a": "Ja. Tadado Mix ist gratis spielbar. Optionale Themen-Decks und KI-Deck-Erstellung sind Einmalkäufe. Details unter Preise. Es gibt kein Abo."
+        "a": "Ja. Tadado Mix ist für alle kostenlos, mischt Karten aus allen Decks und läuft in allen 3 Modi. Tadado Premium schaltet alle Premium-Decks frei: 3 Tage gratis, danach $3.99 pro Woche. KI-Credits sind optional: 5 für $1.99, 15 für $4.99 oder 40 für $9.99. Details unter Preise."
       },
       {
         "q": "Was ist der Unterschied zwischen Taboo und Heads Up?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Hat Tadado Werbung?",
-        "a": "Nein. Tadado ist werbefrei. Du zahlst nur für optionale Decks oder KI-Erstellung, wenn du willst."
+        "a": "Nein. Tadado ist werbefrei. Du zahlst nur, wenn du Tadado Premium oder KI-Credits wählst."
       },
       {
         "q": "Wie funktioniert die KI-Deck-Erstellung?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "Kein Abo",
+        "feature": "Premium mit 3 Tagen Gratis-Test",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Themen-Deck-Packs",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Viele Apps setzen auf nur einen Modus oder zeigen Werbung. Tadado bietet drei Modi, das kostenlose Tadado-Mix-Deck, einen Premium-Plan mit 3 Tagen Gratis-Test und KI-Credits für eigene Decks.",
     "cta": "Tadado gratis herunterladen",
     "viewFull": "Vollständige Vergleichsseite öffnen"
   },
@@ -982,7 +1002,7 @@
     "title": "Marketing und Presse",
     "subtitle": "Creator-Kampagnen, Marken-Decks und Pressematerial zu Tadado.",
     "back": "Zurück zu Tadado",
-    "intro": "Tadado ist eine Partyspiel-App für echte Gruppen: Verbotene Wörter im Tabu-Stil, Heads Up und Hochstapler auf einem Handy, ohne Werbung und Abo. Wenn du Content, eine Kooperation oder einen Artikel planst, starte hier.",
+    "intro": "Tadado ist eine Partyspiel-App für echte Gruppen: Verbotene Wörter im Tabu-Stil, Heads Up und Hochstapler auf einem Handy, ohne Werbung, mit kostenlosem Tadado Mix plus optionalem Premium-Plan und KI-Credits. Wenn du Content, eine Kooperation oder einen Artikel planst, starte hier.",
     "statsLabel": "Auf einen Blick",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Ist das Tadado-Halloween-Deck kostenlos?",
-        "a": "Ja. Das Halloween-Deck ist für alle kostenlos und hat 100 Halloween-Wörter. Ohne Werbung und ohne Abo."
+        "a": "Ja. Das Halloween-Deck ist für alle kostenlos und hat 100 Halloween-Wörter. Ohne Werbung."
       },
       {
         "q": "Wie viele Personen können mitspielen?",

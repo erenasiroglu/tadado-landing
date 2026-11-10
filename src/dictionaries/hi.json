@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: पार्टी गेम ऐप | निषिद्ध शब्द, Heads Up, इम्पोस्टर और AI डेक",
-    "description": "एक फ़ोन। आपके दोस्त। गेम नाइट के लिए निषिद्ध शब्द, Heads Up, इम्पोस्टर और AI डेक। मुफ़्त में शुरू करें, न विज्ञापन न सब्सक्रिप्शन। iOS और Android।"
+    "description": "एक फ़ोन। आपके दोस्त। गेम नाइट के लिए निषिद्ध शब्द, Heads Up, इम्पोस्टर और AI डेक। मुफ़्त में शुरू करें, कोई विज्ञापन नहीं। iOS और Android।"
   },
   "nav": {
     "play": "खेलें",
@@ -85,8 +85,8 @@
         "body": "कोई भी विषय टाइप करें और तुरंत खेलने योग्य डेक पाएँ। अंदरूनी चुटकुलों, मूवी नाइट या थीम पार्टी के लिए बढ़िया।"
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "विज्ञापन नहीं, आसान कीमतें",
+        "body": "Tadado Mix के साथ मुफ़्त शुरू करें। सभी प्रीमियम डेक 3 दिन मुफ़्त आज़माएं, फिर $3.99 प्रति सप्ताह। कभी भी रद्द करें।"
       },
       {
         "title": "17 भाषाएँ अंतर्निहित",
@@ -111,7 +111,7 @@
       "ऑफ़लाइन खेल",
       "टीमें और टाइमर",
       "कोई विज्ञापन नहीं",
-      "Weekly or one-time unlocks"
+      "3 दिन मुफ़्त ट्रायल"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "अगली गेम नाइट मुफ़्त में शुरू करें",
     "ctaBody": "Tadado डाउनलोड करें, कोई मुफ़्त डेक खोलें और कुछ ही सेकंड में निषिद्ध शब्द, Heads Up या इम्पोस्टर खेलें। एक फ़ोन काफ़ी है।",
     "ctaButton": "Tadado मुफ़्त डाउनलोड करें",
-    "freeNote": "मुफ़्त डाउनलोड · कोई विज्ञापन नहीं · कोई सब्सक्रिप्शन नहीं",
+    "freeNote": "मुफ़्त डाउनलोड · कोई विज्ञापन नहीं · 3 दिन Premium मुफ़्त",
     "disclaimer": "{game} का नाम केवल एक प्रसिद्ध गेम या फ़ॉर्मेट को समझाने के लिए लिया गया है। सभी ट्रेडमार्क उनके मालिकों के हैं; Tadado उनसे जुड़ा या उनके द्वारा समर्थित नहीं है। {game} के बारे में जानकारी क्लासिक फ़ॉर्मेट और आम संस्करणों पर आधारित है; अलग-अलग ऐप्स और संस्करण अलग हो सकते हैं, स्टोर लिस्टिंग देखें।"
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: हैलोवीन पार्टी गेम | Taboo, Heads Up और इम्पोस्टर",
-    "metaDescription": "एक फ़ोन पर मुफ़्त हैलोवीन पार्टी गेम: 100 शब्दों का डरावना Taboo डेक, Heads Up और नया इम्पोस्टर मोड। न विज्ञापन, न सब्सक्रिप्शन। iOS और Android।"
+    "metaDescription": "एक फ़ोन पर मुफ़्त हैलोवीन पार्टी गेम: 100 शब्दों का डरावना Taboo डेक, Heads Up और नया इम्पोस्टर मोड। कोई विज्ञापन नहीं। iOS और Android।"
   },
   "trust": {
     "eyebrow": "आपके लिए बनाया गया",
@@ -475,12 +475,12 @@
         "body": "डाउनलोड करें और तुरंत राउंड शुरू करें। मुख्य गेम के लिए साइन-अप ज़रूरी नहीं। AI डेक या खरीदारी सेव करनी हो तभी साइन इन करें।"
       },
       {
-        "title": "शून्य विज्ञापन, शून्य सब्सक्रिप्शन",
-        "body": "कोई विज्ञापन आपकी गेम नाइट नहीं रोकता और पीछे से कुछ भी रिन्यू नहीं होता। मुफ़्त डेक पहले दिन से शामिल हैं।"
+        "title": "शून्य विज्ञापन, साफ़ कीमतें",
+        "body": "गेम नाइट में कोई विज्ञापन रुकावट नहीं डालता। Tadado Mix हमेशा मुफ़्त है और Premium शुरू से साफ़ है: 3 दिन मुफ़्त, फिर $3.99 प्रति सप्ताह, कभी भी रद्द करें।"
       },
       {
-        "title": "एक बार खरीदें, हमेशा आपका",
-        "body": "हर डेक और AI पैक आपके Apple या Google अकाउंट से जुड़ी एक बार की खरीद है। अपने डिवाइस पर कभी भी रीस्टोर करें।"
+        "title": "आपकी खरीदारी हर डिवाइस पर",
+        "body": "Premium और AI क्रेडिट आपके Apple या Google अकाउंट से जुड़े हैं। अपने डिवाइस पर कभी भी रिस्टोर करें।"
       },
       {
         "title": "भुगतान Apple और Google के पास",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "मुफ़्त",
     "play": "खेलें",
-    "price": "$1.99",
+    "price": "Premium · 3 दिन मुफ़्त, फिर $3.99/सप्ताह",
     "newBadge": "नया",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "कीमतें",
+    "title": "खेलना मुफ़्त। ज़्यादा के लिए एक आसान प्लान।",
+    "subtitle": "Tadado Mix सबके लिए मुफ़्त है। Premium सभी डेक खोलता है: 3 दिन मुफ़्त ट्रायल, फिर $3.99 प्रति सप्ताह। AI क्रेडिट से कोई भी विषय डेक बन जाता है।",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "हमेशा मुफ़्त",
+      "premium": "सभी डेक खुले",
+      "trial": "3 दिन मुफ़्त",
+      "ai": "AI क्रेडिट"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "सबके लिए",
+      "desc": "Tadado के हर डेक के कार्ड से बना मिक्स डेक, हर राउंड अलग लगता है। न खरीदारी, न अकाउंट।",
+      "modesLabel": "तीनों मोड में खेलें",
+      "features": [
+        "हर डेक के कार्ड मिले-जुले",
+        "कोई विज्ञापन नहीं",
+        "ऑफ़लाइन खेलें"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ सप्ताह",
+      "trialNote": "3 दिन के मुफ़्त ट्रायल के बाद",
+      "desc": "प्लान सक्रिय रहने तक सभी प्रीमियम डेक खुले रहते हैं।",
+      "features": [
+        "सभी प्रीमियम डेक: सिनेमा, स्पोर्ट, ट्रैवल, Genius Only और भी",
+        "हर डेक तीनों मोड में",
+        "कोई विज्ञापन नहीं",
+        "कभी भी रद्द करें"
+      ],
+      "timelineLabel": "मुफ़्त ट्रायल कैसे काम करता है",
+      "timeline": [
+        {
+          "when": "आज",
+          "what": "मुफ़्त शुरू करें। सभी प्रीमियम डेक तुरंत खुल जाते हैं।"
+        },
+        {
+          "when": "दिन 3",
+          "what": "ट्रायल खत्म होने से पहले रद्द करें, कुछ नहीं देना होगा।"
+        },
+        {
+          "when": "उसके बाद",
+          "what": "स्टोर सेटिंग में रद्द करने तक $3.99 प्रति सप्ताह।"
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 AI डेक निर्माण — किसी भी विषय पर अपना डेक बनाएं।"
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 AI डेक निर्माण, नियमित गेम नाइट्स के लिए।",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 AI डेक निर्माण, उन होस्ट के लिए जिनके आइडिया कभी खत्म नहीं होते।"
-      }
+    "ai": {
+      "title": "किसी भी विषय को डेक बनाएं",
+      "desc": "“90s के हिट गाने” या अपने दोस्तों के अंदरूनी जोक्स जैसा कोई विषय लिखें, AI सेकंडों में खेलने लायक डेक बना देगा। पैक एक बार खरीदें, जब चाहें इस्तेमाल करें।",
+      "rule": "1 AI क्रेडिट = 1 कस्टम डेक",
+      "creditsLabel": "क्रेडिट",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 प्रति डेक"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 प्रति डेक",
+          "badge": "सबसे लोकप्रिय",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 प्रति डेक",
+          "badge": "सबसे किफ़ायती"
+        }
+      ]
+    },
+    "trust": [
+      "कोई विज्ञापन नहीं",
+      "कभी भी रद्द करें",
+      "Apple और Google से सुरक्षित भुगतान"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "कीमतें USD में हैं; App Store और Google Play आपके क्षेत्र में स्थानीय कीमतें दिखा सकते हैं। Tadado Premium 3 दिन के मुफ़्त ट्रायल से शुरू होता है, फिर App Store या Google Play सेटिंग में रद्द करने तक $3.99 प्रति सप्ताह पर रिन्यू होता है। AI क्रेडिट पैक एक बार की खरीद हैं। भुगतान Apple या Google संभालते हैं।"
   },
   "howItWorks": {
     "title": "कैसे काम करता है",
@@ -771,11 +791,11 @@
       },
       {
         "q": "क्या Tadado सबसे अच्छे मुफ़्त पार्टी गेम ऐप्स में से है?",
-        "a": "Tadado गेम नाइट के लिए बना है: Taboo जैसे निषिद्ध शब्द, Heads Up, ब्लफ़िंग गेम इम्पोस्टर, मुफ़्त डेक, वैकल्पिक थीम डेक और AI से डेक बनाना। बिना विज्ञापन और सब्सक्रिप्शन के यह iOS और Android पर सबसे किफ़ायती पार्टी ऐप्स में से है।"
+        "a": "Tadado गेम नाइट के लिए बना है: Taboo-स्टाइल निषिद्ध शब्द, Heads Up और ब्लफ़ गेम इम्पोस्टर, एक ही फ़ोन पर। कोई विज्ञापन नहीं, Tadado Mix सबके लिए मुफ़्त और 3 दिन मुफ़्त ट्रायल वाला Premium प्लान।"
       },
       {
         "q": "क्या Tadado मुफ़्त है?",
-        "a": "हाँ। Tadado Mix मुफ़्त खेलने योग्य है। वैकल्पिक थीम डेक और AI डेक निर्माण एक बार की खरीद हैं। विवरण के लिए कीमत देखें। कोई सब्सक्रिप्शन नहीं।"
+        "a": "हाँ। Tadado Mix सबके लिए मुफ़्त है, हर डेक के कार्ड मिलाता है और तीनों मोड में चलता है। Tadado Premium 3 दिन मुफ़्त के बाद $3.99 प्रति सप्ताह में सभी प्रीमियम डेक खोलता है। AI क्रेडिट वैकल्पिक हैं: 5 के $1.99, 15 के $4.99 या 40 के $9.99। विवरण के लिए कीमतें देखें।"
       },
       {
         "q": "Taboo और Heads Up में क्या अंतर है?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "क्या Tadado में विज्ञापन हैं?",
-        "a": "नहीं। Tadado विज्ञापन-मुक्त है। चुनें तो वैकल्पिक डेक या AI निर्माण के लिए ही भुगतान करें।"
+        "a": "नहीं। Tadado विज्ञापन-मुक्त है। आप तभी भुगतान करते हैं जब Tadado Premium या AI क्रेडिट चुनते हैं।"
       },
       {
         "q": "AI डेक बनाना कैसे काम करता है?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "कोई सब्सक्रिप्शन नहीं",
+        "feature": "3 दिन मुफ़्त ट्रायल वाला Premium",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "थीम डेक पैक",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "कई ऐप्स सिर्फ़ एक मोड पर टिके हैं या विज्ञापन दिखाते हैं। Tadado देता है तीन मोड, मुफ़्त Tadado Mix डेक, 3 दिन मुफ़्त ट्रायल वाला एक Premium प्लान और कस्टम डेक के लिए AI क्रेडिट।",
     "cta": "Tadado मुफ़्त डाउनलोड करें",
     "viewFull": "पूरी तुलना पृष्ठ खोलें"
   },
@@ -982,7 +1002,7 @@
     "title": "मार्केटिंग और प्रेस",
     "subtitle": "क्रिएटर कैंपेन, ब्रांड डेक और Tadado की प्रेस सामग्री।",
     "back": "Tadado पर वापस",
-    "intro": "Tadado असली दोस्तों के ग्रुप के लिए पार्टी गेम ऐप है: Taboo जैसे निषिद्ध शब्द, Heads Up और इम्पोस्टर एक फ़ोन पर, बिना विज्ञापन या सब्सक्रिप्शन। अगर आप कंटेंट, कोलैब या लेख की योजना बना रहे हैं, तो यहाँ से शुरू करें।",
+    "intro": "Tadado असली दोस्तों के लिए पार्टी गेम ऐप है: Taboo-स्टाइल निषिद्ध शब्द, Heads Up और इम्पोस्टर एक फ़ोन पर, बिना विज्ञापन, मुफ़्त Tadado Mix डेक, वैकल्पिक Premium प्लान और AI क्रेडिट के साथ। अगर आप कंटेंट, कोलैब या कवरेज की योजना बना रहे हैं, तो यहाँ से शुरू करें।",
     "statsLabel": "एक नज़र में",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "क्या Tadado का हैलोवीन डेक मुफ़्त है?",
-        "a": "हाँ। हैलोवीन डेक सबके लिए मुफ़्त है और इसमें 100 हैलोवीन शब्द हैं। न विज्ञापन, न सब्सक्रिप्शन।"
+        "a": "हाँ। हैलोवीन डेक सबके लिए मुफ़्त है और इसमें 100 हैलोवीन शब्द हैं। कोई विज्ञापन नहीं।"
       },
       {
         "q": "कितने लोग खेल सकते हैं?",

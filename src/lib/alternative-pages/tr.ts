@@ -13,7 +13,7 @@ const TR_PAGES: Record<
       "Charades ve pantomim gecesi mi arıyorsun? Tadado’da Alnında Tahmin modu, Tabu tarzı Yasaklı Kelimeler, ücretsiz Tadado Mix, reklamsız oyun ve yapay zeka desteleri.",
     h1: "Oyun geceleri için modern charades alternatifi",
     heroSubtitle:
-      "Tek telefon, üç mod: alnında tahmin, takım halinde yasaklı kelimeler veya Casus. Abonelik tuzağı yok, gece bitmeden reklam yok.",
+      "Tek telefon, üç mod: alnında tahmin, takım halinde yasaklı kelimeler veya Casus. Ücretsiz desteyle başla, gece bitmeden reklam yok.",
     introTitle: "Neden charades alternatifi aranıyor?",
     introParagraphs: [
       "Charades (pantomim) basittir: kelimeyi anlat, arkadaşların tahmin etsin. Birçok mobil uygulama aynı döngüyü kopyalar ama araya uzun reklamlar koyar, ilk turdan önce ödeme ister ya da kelime listesi bir gecede biter.",
@@ -26,7 +26,7 @@ const TR_PAGES: Record<
       "Ücretsiz Tadado Mix ile hemen başla",
       "Sinema, Seyahat, Yaz gibi temalı desteler",
       "Yapay zeka ile özel deste (doğum günü, tatil, inside joke)",
-      "Reklam yok, zorunlu abonelik yok—ek desteler tek seferlik",
+      "Reklam yok; ücretsiz Mix destesiyle hiç ödemeden oyna",
       "İndirdikten sonra çevrimdışı oynanabilir",
     ],
     compareTitle: "Tadado vs tipik charades uygulamaları",
@@ -57,7 +57,7 @@ const TR_PAGES: Record<
       },
       {
         q: "Tadado ücretsiz mi?",
-        a: "Tadado Mix ücretsizdir. Temalı desteler isteğe bağlı tek seferlik satın almadır.",
+        a: "Evet. Tadado Mix ücretsizdir ve her modda oynanır. Tadado Premium tüm premium desteleri 3 gün ücretsiz denemeyle açar, sonrası haftalık $3.99.",
       },
     ],
     disclaimer: DISCLAIMER,
@@ -69,7 +69,7 @@ const TR_PAGES: Record<
   taboo: {
     metaTitle: "Tabu Uygulaması Alternatifi | Tadado Yasaklı Kelimeler",
     metaDescription:
-      "Tabu tarzı uygulamalara alternatif: Tadado Yasaklı Kelimeler modu, Alnında Tahmin, ücretsiz Mix destesi, reklam yok, yapay zeka desteleri, abonelik yok.",
+      "Tabu tarzı uygulamalara alternatif: Tadado Yasaklı Kelimeler modu, Alnında Tahmin, ücretsiz Mix destesi, reklam yok, yapay zeka desteleri ve 3 gün ücretsiz Premium.",
     h1: "Tabu alternatifi: Yasaklı Kelimeler tek telefonda",
     heroSubtitle:
       "Evde oynadığın Tabu hissini korur—yasaklı kelimelere takılmadan anlat, takımca gülersin.",
@@ -84,7 +84,7 @@ const TR_PAGES: Record<
       "Aynı oturumda Alnında Tahmin ile mod değiştir",
       "Ücretsiz başlangıç destesi—ödemeden dene",
       "Tur arası reklam yok",
-      "Tek seferlik deste fiyatları, aylık abonelik değil",
+      "Premium desteler için ödemeden önce 3 gün ücretsiz deneme",
       "Tema için yapay zeka deste oluşturucu",
       "Karışık gruplar için kelime zorluk puanı",
     ],
@@ -97,7 +97,7 @@ const TR_PAGES: Record<
       { feature: "Alnında Tahmin modu dahil", tadado: "yes", alternative: "no" },
       { feature: "Ücretsiz başlangıç destesi", tadado: "yes", alternative: "partial" },
       { feature: "Reklamsız", tadado: "yes", alternative: "no" },
-      { feature: "Abonelik zorunlu değil", tadado: "yes", alternative: "no" },
+      { feature: "Ücretsiz deste, oynamak için abonelik gerekmez", tadado: "yes", alternative: "no" },
       { feature: "Yapay zeka özel deste", tadado: "yes", alternative: "partial" },
       { feature: "Sinema, spor, seyahat temalı paketler", tadado: "yes", alternative: "partial" },
       { feature: "Çevrimdışı oyun", tadado: "yes", alternative: "partial" },
@@ -156,9 +156,9 @@ const TR_PAGES: Record<
       { feature: "Tabu tarzı takım modu", tadado: "yes", alternative: "no" },
       { feature: "Ücretsiz başlangıç", tadado: "yes", alternative: "partial" },
       { feature: "Reklam yok", tadado: "yes", alternative: "no" },
-      { feature: "Abonelik yok", tadado: "yes", alternative: "no" },
+      { feature: "Ücretsiz deste, oynamak için abonelik gerekmez", tadado: "yes", alternative: "no" },
       { feature: "Yapay zeka özel kategori", tadado: "yes", alternative: "no" },
-      { feature: "Tek seferlik temalı paketler", tadado: "yes", alternative: "partial" },
+      { feature: "Tüm premium desteler için ücretsiz deneme", tadado: "yes", alternative: "partial" },
       { feature: "Zorluk puanlama", tadado: "yes", alternative: "no" },
     ],
     compareNote:
@@ -187,21 +187,21 @@ const TR_PAGES: Record<
   nebuu: {
     metaTitle: "Nebuu Alternatifi | Tadado ile Parti Kelime Oyunu",
     metaDescription:
-      "Nebuu ve benzeri parti uygulamalarına alternatif: Tadado’da Tabu + Alnında Tahmin, ücretsiz Mix, reklam yok, abonelik yok, yapay zeka desteleri. Oyun gecesi için dene.",
+      "Nebuu ve benzeri parti uygulamalarına alternatif: Tadado’da Tabu + Alnında Tahmin, ücretsiz Mix, reklam yok, yapay zeka desteleri ve 3 gün ücretsiz Premium. Oyun gecesi için dene.",
     h1: "Nebuu alternatifi: Oyun gecesi için Tadado",
     heroSubtitle:
       "Türkiye’de parti kelime oyunlarını seviyorsan—tek uygulamada üç mod, reklamsız turlar ve ücretsiz başlangıç destesi.",
     introTitle: "Nebuu kullananlar neden Tadado’ya bakıyor?",
     introParagraphs: [
       "Nebuu, mobil Tabu ve charades kültürünü Türkiye’de yaygınlaştıran uygulamalardan biridir. Birçok oyuncu bir sonraki adımda aynı şeyi ister: kelimeler bitsin, reklam gecenin ritmini bozmasın, fiyat adil olsun.",
-      "Tadado küçük bir oyun ekibinin tek ürünü. Odak: hızlı turlar, tur arası reklam yok, Yasaklı Kelimeler ve Alnında Tahmin aynı indirmede. Tadado Mix ile bu akşam ücretsiz oyna; beğenirsen temalı desteleri tek seferlik al—aylık abonelik tuzağı yok.",
+      "Tadado küçük bir oyun ekibinin tek ürünü. Odak: hızlı turlar, tur arası reklam yok, Yasaklı Kelimeler ve Alnında Tahmin aynı indirmede. Tadado Mix ile bu akşam ücretsiz oyna; beğenirsen tüm premium desteleri 3 gün ücretsiz dene.",
     ],
     reasonsTitle: "Tadado’yu Nebuu ve benzeri uygulamalara tercih edenler",
     reasons: [
       "İki ana mod—Tabu gecesi ve alnında tahmin için ayrı uygulama yok",
       "Tadado Mix ücretsiz: grubunla önce dene, sonra karar ver",
       "Oyun sırasında reklam gösterilmez",
-      "İsteğe bağlı desteler abonelik değil, tek seferlik satın alma",
+      "Premium 3 gün ücretsiz denemeyle başlar, istediğin zaman iptal et",
       "Türkçe yapay zeka deste—doğum günü, okul grubu, tatil teması",
       "17 dil: Erasmus, yabancı misafir, Türk diasporası",
       "İndirdikten sonra internet olmadan da oynanabilir",
@@ -221,7 +221,7 @@ const TR_PAGES: Record<
       { feature: "Temalı deste mağazası", tadado: "yes", alternative: "yes" },
       { feature: "Kelime zorluk puanı", tadado: "yes", alternative: "partial" },
       { feature: "17 dil desteği", tadado: "yes", alternative: "partial" },
-      { feature: "Gizli aylık ücret yok (tek seferlik ekstra)", tadado: "yes", alternative: "partial" },
+      { feature: "Gizli ücret yok: deneme süresi ve fiyat baştan belli", tadado: "yes", alternative: "partial" },
     ],
     compareNote:
       "Her uygulama zamanla güncellenir. Tadado’nun önceliği adil oyun gecesi: ücretsiz deneme, reklamsız akış, üç mod. Kararı grubunla Tadado Mix ile ver.",

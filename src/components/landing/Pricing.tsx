@@ -1,8 +1,20 @@
-import { Check, Crown, Download, Sparkles, Zap } from "lucide-react";
+import {
+  Check,
+  Gift,
+  Infinity as InfinityIcon,
+  Layers,
+  ShieldCheck,
+  Smartphone,
+  Sparkles,
+  UserSearch,
+  WifiOff,
+  Ban,
+  CalendarCheck,
+  RefreshCw,
+} from "lucide-react";
 
 import { Tag } from "@/components/brand/tag";
 import type { Dictionary, Locale } from "@/lib/i18n";
-import { isNovemberPricingPromo } from "@/lib/landing-theme";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
@@ -17,242 +29,240 @@ interface PricingProps {
 
 function Checklist({ items, dark }: { items: string[]; dark?: boolean }) {
   return (
-    <ul
-      className={cn(
-        "mt-6 space-y-3 border-t pt-6 text-sm",
-        dark ? "border-cream/15" : "border-border",
-      )}
-    >
+    <ul className="space-y-3 text-sm">
       {items.map((item) => (
         <li key={item} className="flex items-start gap-3">
           <span
             className={cn(
               "mt-px flex size-5 shrink-0 items-center justify-center rounded-full",
-              dark ? "bg-cream text-ink" : "bg-ink text-cream",
+              dark ? "bg-[#FAAA12] text-[#2a0a3b]" : "bg-ink text-cream",
             )}
             aria-hidden
           >
             <Check className="size-3" strokeWidth={3} />
           </span>
-          <span className={dark ? "text-cream/85" : "text-foreground/80"}>
-            {item}
-          </span>
+          <span className={dark ? "text-cream/85" : "text-foreground/80"}>{item}</span>
         </li>
       ))}
     </ul>
   );
 }
 
-function PlanName({
-  children,
-  dark,
-}: {
-  children: React.ReactNode;
-  dark?: boolean;
-}) {
-  return (
-    <p
-      className={cn(
-        "text-sm font-extrabold tracking-tight uppercase",
-        dark ? "text-cream/70" : "text-muted-foreground",
-      )}
-    >
-      {children}
-    </p>
-  );
-}
-
-function Price({
-  value,
-  suffix,
-  dark,
-  compact,
-  stacked,
-}: {
-  value: string;
-  suffix?: string;
-  dark?: boolean;
-  compact?: boolean;
-  stacked?: boolean;
-}) {
-  return (
-    <p
-      className={cn(
-        "mt-3 min-h-14 items-baseline gap-x-2 gap-y-1",
-        stacked ? "flex flex-col sm:flex-row sm:flex-wrap" : "flex flex-wrap",
-      )}
-    >
-      <span
-        className={cn(
-          "font-extrabold tracking-[-0.04em] tabular-nums",
-          compact ? "text-3xl sm:text-4xl" : "text-4xl sm:text-5xl",
-          dark ? "text-cream" : "text-foreground",
-        )}
-      >
-        {value}
-      </span>
-      {suffix ? (
-        <span
-          className={cn(
-            "text-sm font-semibold",
-            dark ? "text-cream/60" : "text-muted-foreground",
-          )}
-        >
-          {suffix}
-        </span>
-      ) : null}
-    </p>
-  );
-}
+const TRIAL_ICONS = [Gift, CalendarCheck, RefreshCw];
+const TRUST_ICONS = [Ban, RefreshCw, ShieldCheck];
 
 export function Pricing({ locale, dict }: PricingProps) {
-  const { pricing, proof } = dict;
-  const { badges } = pricing;
-  const showNovember = isNovemberPricingPromo();
-  const cardSurface = "surface-paper";
-  const trustItems = pricing.trust
-    .split("·")
-    .map((item) => item.trim())
-    .filter(Boolean);
+  const { pricing, modes } = dict;
+  const { badges, free, premium, ai } = pricing;
 
-  const weekly = pricing.weekly;
+  const modeChips = [
+    { label: modes.tabooTitle, icon: Ban },
+    { label: modes.headsUpTitle, icon: Smartphone },
+    { label: modes.imposterTitle, icon: UserSearch },
+  ];
 
   return (
-    <LandingSection
-      id="pricing"
-      analyticsSection="pricing"
-      tone="contrast"
-      reveal
-    >
-      <SectionHeading title={pricing.title} subtitle={pricing.subtitle} />
-      {showNovember ? (
-        <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-relaxed text-muted-foreground">
-          {pricing.novemberPromo.note}
-        </p>
-      ) : null}
+    <LandingSection id="pricing" analyticsSection="pricing" tone="contrast" reveal>
+      <SectionHeading eyebrow={pricing.eyebrow} title={pricing.title} subtitle={pricing.subtitle} />
 
-      <div className="mt-14 grid gap-5 lg:grid-cols-3 lg:items-stretch">
-        {/* Free: the entry point, so it keeps the lightest treatment. */}
-        <article className={cn("flex flex-col rounded-lg p-6 sm:p-8", cardSurface)}>
-          <Tag icon={<Download aria-hidden />}>{badges.free}</Tag>
+      <div className="mt-14 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)] lg:items-stretch">
+        {/* Free: Tadado Mix, open to everyone in every mode. */}
+        <article className="flex flex-col rounded-lg surface-paper p-6 sm:p-8">
+          <Tag icon={<InfinityIcon aria-hidden />}>{badges.free}</Tag>
+
           <div className="mt-6">
-            <PlanName>{pricing.free.name}</PlanName>
-            <Price value={pricing.free.price} />
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              {pricing.free.desc}
+            <h3 className="text-lg font-extrabold tracking-tight text-foreground">
+              {free.name}
+            </h3>
+            <p className="mt-3 flex flex-wrap items-baseline gap-x-2">
+              <span className="text-5xl font-extrabold tracking-[-0.04em] text-foreground tabular-nums sm:text-6xl">
+                {free.price}
+              </span>
+              <span className="text-sm font-semibold text-muted-foreground">{free.priceNote}</span>
             </p>
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{free.desc}</p>
           </div>
-          <Checklist
-            items={[proof.modes, proof.languages, proof.offline, proof.noAds]}
-          />
+
+          <div className="mt-6 rounded-md bg-mist/80 p-4">
+            <p className="text-[0.6875rem] font-bold tracking-[0.08em] text-muted-foreground uppercase">
+              {free.modesLabel}
+            </p>
+            <ul className="mt-3 flex flex-wrap gap-2">
+              {modeChips.map(({ label, icon: Icon }) => (
+                <li
+                  key={label}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-paper px-3 py-1.5 text-xs font-bold text-foreground ring-1 ring-ink/10"
+                >
+                  <Icon className="size-3.5" aria-hidden />
+                  {label}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-6 border-t border-border pt-6">
+            <Checklist items={free.features} />
+          </div>
         </article>
 
-        {/* Weekly: featured pass for all premium decks. */}
-        <article className="relative flex flex-col rounded-lg surface-obsidian p-6 ring-2 ring-[#C8BAFB]/40 sm:p-8">
-          <div className="flex flex-wrap items-center gap-2">
-            <Tag tone="onDark" icon={<Zap aria-hidden />}>
-              {badges.popular}
+        {/* Premium: the one plan. 3-day free trial, then weekly. */}
+        <article className="relative flex flex-col overflow-hidden rounded-lg surface-obsidian p-6 ring-2 ring-[#C8BAFB]/40 sm:p-8">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-[#7E5FE0]/30 blur-3xl"
+          />
+          <div className="relative flex flex-wrap items-center gap-2">
+            <Tag tone="onDark" icon={<Sparkles aria-hidden />}>
+              {badges.premium}
             </Tag>
-            {showNovember ? (
-              <Tag tone="onDark" className="bg-[#FAAA12] text-[#4B1A7A] ring-[#FAAA12]">
-                {pricing.novemberPromo.badge}
-              </Tag>
-            ) : null}
+            <Tag tone="onDark" className="bg-[#FAAA12] text-[#2a0a3b] ring-[#FAAA12]">
+              {badges.trial}
+            </Tag>
           </div>
-          <div className="mt-6">
-            <PlanName dark>{weekly.name}</PlanName>
-            <p className="mt-3 text-sm font-semibold text-cream/70">{weekly.price}</p>
-            <Price value={weekly.priceAfter} suffix={weekly.suffix} dark stacked />
-            <p className="mt-3 text-sm leading-relaxed text-cream/70">
-              {weekly.desc}
-            </p>
-          </div>
-          <Checklist
-            items={[weekly.decksLine, weekly.cancelLine, ...trustItems]}
-            dark
-          />
-        </article>
 
-        {/* AI packs: three sizes in one card so the comparison is instant. */}
-        <article className={cn("flex flex-col rounded-lg p-6 sm:p-8", cardSurface)}>
-          <Tag icon={<Sparkles aria-hidden />}>{pricing.aiSectionTitle}</Tag>
-          <ul className="mt-6 flex flex-1 flex-col gap-2">
-            {pricing.aiTiers.map((tier) => (
-              <li
-                key={tier.name}
+          <div className="relative mt-6 grid gap-8 sm:grid-cols-2">
+            <div>
+              <h3 className="text-lg font-extrabold tracking-tight text-cream">
+                {premium.name}
+              </h3>
+              <p className="mt-3 flex flex-wrap items-baseline gap-x-2">
+                <span className="text-5xl font-extrabold tracking-[-0.04em] text-cream tabular-nums sm:text-6xl">
+                  {premium.price}
+                </span>
+                <span className="text-base font-semibold text-cream/60">{premium.suffix}</span>
+              </p>
+              <p className="mt-1 text-sm font-semibold text-[#FAAA12]">{premium.trialNote}</p>
+              <p className="mt-4 text-sm leading-relaxed text-cream/70">{premium.desc}</p>
+            </div>
+            <div className="sm:pt-1">
+              <Checklist items={premium.features} dark />
+            </div>
+          </div>
+
+          {/* Trial timeline: what happens and when. */}
+          <div className="relative mt-8 border-t border-cream/15 pt-6">
+            <p className="text-[0.6875rem] font-bold tracking-[0.08em] text-cream/60 uppercase">
+              {premium.timelineLabel}
+            </p>
+            <ol className="mt-4 grid gap-4 sm:grid-cols-3 sm:gap-3">
+              {premium.timeline.map((step, index) => {
+                const Icon = TRIAL_ICONS[index] ?? Gift;
+                return (
+                  <li key={step.when} className="relative flex gap-3 sm:flex-col sm:gap-3">
+                    {index < premium.timeline.length - 1 ? (
+                      <span
+                        aria-hidden
+                        className="absolute top-4 left-[calc(2rem+0.5rem)] hidden h-px w-[calc(100%-2.5rem)] bg-gradient-to-r from-cream/35 to-cream/10 sm:block"
+                      />
+                    ) : null}
+                    <span
+                      className={cn(
+                        "relative flex size-8 shrink-0 items-center justify-center rounded-full",
+                        index === 0 ? "bg-[#FAAA12] text-[#2a0a3b]" : "bg-cream/10 text-cream ring-1 ring-cream/20",
+                      )}
+                      aria-hidden
+                    >
+                      <Icon className="size-4" />
+                    </span>
+                    <div>
+                      <p className="text-sm font-extrabold text-cream">{step.when}</p>
+                      <p className="mt-1 text-xs leading-relaxed text-cream/65">{step.what}</p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ol>
+          </div>
+        </article>
+      </div>
+
+      {/* AI credits: three one-time packs side by side. */}
+      <article className="mt-5 grid gap-6 rounded-lg surface-paper p-6 sm:p-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.6fr)] lg:items-center lg:gap-10">
+        <div>
+          <Tag icon={<Sparkles aria-hidden />}>{badges.ai}</Tag>
+          <h3 className="mt-5 text-2xl font-extrabold tracking-[-0.02em] text-foreground text-balance sm:text-3xl">
+            {ai.title}
+          </h3>
+          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{ai.desc}</p>
+          <p className="mt-4 inline-flex items-center gap-2 rounded-full bg-mist px-3 py-1.5 text-xs font-bold text-foreground">
+            <Layers className="size-3.5" aria-hidden />
+            {ai.rule}
+          </p>
+        </div>
+
+        <ul className="grid gap-5 sm:grid-cols-3 sm:gap-3">
+          {ai.tiers.map((tier) => (
+            <li
+              key={tier.credits}
+              className={cn(
+                "relative flex flex-col rounded-md p-5",
+                tier.highlight ? "bg-ink text-cream shadow-lg ring-1 ring-ink" : "bg-mist/80 ring-1 ring-ink/5",
+              )}
+            >
+              {tier.badge ? (
+                <span
+                  className={cn(
+                    "absolute -top-2.5 left-5 rounded-full px-2.5 py-1 text-[0.625rem] leading-none font-bold tracking-[0.08em] uppercase",
+                    tier.highlight ? "bg-[#FAAA12] text-[#2a0a3b]" : "bg-lilac text-ink ring-1 ring-ink/10",
+                  )}
+                >
+                  {tier.badge}
+                </span>
+              ) : null}
+              <p className="flex items-baseline gap-1.5">
+                <span
+                  className={cn(
+                    "text-4xl font-extrabold tracking-[-0.04em] tabular-nums",
+                    tier.highlight ? "text-cream" : "text-foreground",
+                  )}
+                >
+                  {tier.credits}
+                </span>
+                <span
+                  className={cn(
+                    "text-sm font-semibold",
+                    tier.highlight ? "text-cream/70" : "text-muted-foreground",
+                  )}
+                >
+                  {ai.creditsLabel}
+                </span>
+              </p>
+              <p
                 className={cn(
-                  "rounded-sm px-4 py-3.5",
-                  tier.highlight
-                    ? "bg-lilac/70 ring-1 ring-ink/10 ring-inset"
-                    : "bg-mist/80",
+                  "mt-4 border-t pt-4 text-2xl font-extrabold tracking-tight tabular-nums",
+                  tier.highlight ? "border-cream/15 text-cream" : "border-border text-foreground",
                 )}
               >
-                <div className="grid grid-cols-1 gap-1 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-x-3">
-                  <div className="flex min-w-0 flex-wrap items-center gap-2">
-                    <span className="text-sm font-extrabold tracking-tight text-foreground uppercase">
-                      {tier.name}
-                    </span>
-                    {tier.highlight ? (
-                      <Tag tone="solid" className="h-5 px-2 text-[0.625rem] whitespace-normal">
-                        {badges.popular}
-                      </Tag>
-                    ) : null}
-                  </div>
-                  <span className="text-lg font-extrabold tracking-tight text-foreground tabular-nums sm:text-end">
-                    {tier.price}
-                  </span>
-                  <p className="text-xs leading-relaxed text-muted-foreground sm:col-span-2">
-                    {tier.desc}
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </article>
-      </div>
+                {tier.price}
+              </p>
+              <p
+                className={cn(
+                  "mt-1 text-xs font-semibold",
+                  tier.highlight ? "text-cream/60" : "text-muted-foreground",
+                )}
+              >
+                {tier.perDeck}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </article>
 
-      <div className="mt-5 grid gap-5 lg:grid-cols-2">
-        <article className={cn("flex flex-col rounded-lg p-6 sm:p-8", cardSurface)}>
-          <Tag icon={<Crown aria-hidden />}>{badges.bestValue}</Tag>
-          <div className="mt-6 flex flex-1 flex-col">
-            <PlanName>{pricing.fullAccess.name}</PlanName>
-            <Price
-              value={pricing.fullAccess.price}
-              suffix={pricing.oneTime}
-              compact
-            />
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              {pricing.fullAccess.desc}
-            </p>
-            <Checklist
-              items={[
-                pricing.fullAccess.aiCredits,
-                badges.oneTimeForever,
-                proof.noAds,
-              ]}
-            />
-          </div>
-        </article>
+      <ul className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-semibold text-foreground/75">
+        {pricing.trust.map((item, index) => {
+          const Icon = TRUST_ICONS[index] ?? WifiOff;
+          return (
+            <li key={item} className="inline-flex items-center gap-2">
+              <Icon className="size-4 text-muted-foreground" aria-hidden />
+              {item}
+            </li>
+          );
+        })}
+      </ul>
 
-        <article className={cn("flex flex-col rounded-lg p-6 sm:p-8", cardSurface)}>
-          <Tag>{badges.oneTimeForever}</Tag>
-          <div className="mt-6 flex flex-1 flex-col">
-            <PlanName>{pricing.singleDeck.name}</PlanName>
-            <Price value={pricing.singleDeck.price} suffix={pricing.oneTime} compact stacked />
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              {pricing.singleDeck.desc}
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div className="mt-12 flex flex-col items-center gap-4 text-center">
+      <div className="mt-10 flex flex-col items-center gap-4 text-center">
         <div className="w-full max-w-sm sm:hidden">
-          <MobileStoreDownloadCta
-            locale={locale}
-            source="pricing"
-            label={dict.hero.ctaPrimary}
-          />
+          <MobileStoreDownloadCta locale={locale} source="pricing" label={dict.hero.ctaPrimary} />
         </div>
         <StoreButtons
           locale={locale}
@@ -261,9 +271,7 @@ export function Pricing({ locale, dict }: PricingProps) {
           labelMode="download"
           className="hidden justify-center sm:flex"
         />
-        <p className="max-w-2xl text-xs leading-relaxed text-muted-foreground">
-          {pricing.disclaimer}
-        </p>
+        <p className="max-w-2xl text-xs leading-relaxed text-muted-foreground">{pricing.disclaimer}</p>
       </div>
     </LandingSection>
   );

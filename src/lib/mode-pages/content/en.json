@@ -58,7 +58,7 @@
       },
       {
         "q": "Is there a free Taboo-style app without ads?",
-        "a": "Yes. Tadado is free to download with the free Tadado Mix deck, and it has no ads and no subscription. Themed decks and AI deck creation are optional one-time purchases."
+        "a": "Yes. Tadado is free to download with the free Tadado Mix deck, which works in every mode, and it has no ads. Premium decks come with Tadado Premium (3 days free, then $3.99 per week), and AI credits are optional."
       },
       {
         "q": "Can we make our own Taboo cards?",
@@ -125,7 +125,7 @@
       },
       {
         "q": "Is Tadado's Heads Up mode free?",
-        "a": "Yes. Download Tadado for free and play with the free Tadado Mix deck. There are no ads and no subscription; extra themed decks and AI decks are optional one-time purchases."
+        "a": "Yes. Download Tadado for free and play with the free Tadado Mix deck. There are no ads; Tadado Premium unlocks every premium deck with a 3-day free trial, then $3.99 per week, and AI credits are optional."
       },
       {
         "q": "Can I make a custom Heads Up deck?",
@@ -196,7 +196,7 @@
       },
       {
         "q": "Is the Imposter mode free?",
-        "a": "Yes. Tadado is free to download and Imposter works with the free Tadado Mix deck. No ads and no subscription."
+        "a": "Yes. Tadado is free to download and Imposter works with the free Tadado Mix deck. No ads."
       }
     ]
   },
@@ -236,8 +236,8 @@
         "body": "Inside jokes, niche hobbies, a birthday theme or a classroom topic: decks nobody else has, about the things you actually know."
       },
       {
-        "title": "Pay once, no subscription",
-        "body": "AI creations come in small one-time packs, and Tadado Full Access includes 20. No ads and nothing recurring."
+        "title": "Credits from $1.99",
+        "body": "Buy AI credits in one-time packs: 5 for $1.99, 15 for $4.99 or 40 for $9.99. Each credit creates one custom deck."
       }
     ],
     "knownAs": "If you searched for a Taboo card generator, custom Heads Up cards, a party game word list generator or a way to make game cards with ChatGPT, this is the built-in version. Instead of copying a list into a notes app, Tadado turns your topic into a playable deck with timers, scoring and three game modes.",
@@ -259,7 +259,7 @@
       },
       {
         "q": "How much do AI decks cost?",
-        "a": "AI creation comes in one-time packs, starting with a small pack of 5 creations. Tadado Full Access includes every premium deck plus 20 AI creations. There is no subscription; check the store for local prices."
+        "a": "AI creation uses credits. Packs are 5 credits for $1.99, 15 for $4.99 or 40 for $9.99, and each credit creates one custom deck. Check the store for local prices."
       },
       {
         "q": "Can I make decks in my language?",

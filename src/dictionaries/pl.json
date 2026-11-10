@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: aplikacja z grami imprezowymi | Zakazane słowa, Heads Up, Oszust i talie AI",
-    "description": "Jeden telefon. Twoi znajomi. Zakazane słowa, Heads Up, Oszust i talie AI na wieczory z grami. Za darmo na start, bez reklam i subskrypcji. iOS i Android."
+    "description": "Jeden telefon. Twoi znajomi. Zakazane słowa, Heads Up, Oszust i talie AI na wieczory z grami. Za darmo na start, bez reklam. iOS i Android."
   },
   "nav": {
     "play": "Graj",
@@ -85,8 +85,8 @@
         "body": "Wpisz dowolny temat i od razu otrzymaj talię do gry. Idealne na wewnętrzne żarty, wieczory filmowe lub imprezy tematyczne."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "Bez reklam, proste ceny",
+        "body": "Zacznij za darmo z Tadado Mix. Wypróbuj wszystkie talie premium przez 3 dni za darmo, potem $3.99 tygodniowo. Anuluj w dowolnym momencie."
       },
       {
         "title": "17 języków wbudowanych",
@@ -111,7 +111,7 @@
       "Gra offline",
       "Drużyny i timery",
       "Bez reklam",
-      "Weekly or one-time unlocks"
+      "3 dni za darmo"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Twój następny wieczór gier zaczyna się za darmo",
     "ctaBody": "Pobierz Tadado, otwórz darmową talię i w kilka sekund zagraj w Zakazane słowa, Heads Up lub Oszusta. Wystarczy jeden telefon.",
     "ctaButton": "Pobierz Tadado za darmo",
-    "freeNote": "Darmowe pobieranie · Bez reklam · Bez subskrypcji",
+    "freeNote": "Darmowe pobranie · Bez reklam · 3 dni Premium za darmo",
     "disclaimer": "{game} wymieniamy wyłącznie, aby opisać znaną grę lub format. Wszystkie znaki towarowe należą do ich właścicieli; Tadado nie jest z nimi powiązane ani przez nie wspierane. Informacje o {game} opisują klasyczny format i typowe wersje; poszczególne aplikacje i wydania mogą się różnić, sprawdź opis w sklepie."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: gry na imprezę halloweenową | Taboo, Heads Up i Oszust",
-    "metaDescription": "Darmowe gry halloweenowe na jednym telefonie: straszna talia Taboo ze 100 słowami, Heads Up i nowy tryb Oszust. Bez reklam i subskrypcji. iOS i Android."
+    "metaDescription": "Darmowe gry halloweenowe na jednym telefonie: straszna talia Taboo ze 100 słowami, Heads Up i nowy tryb Oszust. Bez reklam. iOS i Android."
   },
   "trust": {
     "eyebrow": "Stworzone dla ciebie",
@@ -475,12 +475,12 @@
         "body": "Pobierz i od razu zacznij rundę. Podstawowa gra nie wymaga rejestracji. Logujesz się tylko, jeśli chcesz zapisać talie AI lub zakupy."
       },
       {
-        "title": "Zero reklam, zero subskrypcji",
-        "body": "Żadne reklamy nie przerywają wieczoru gier i nic nie odnawia się za twoimi plecami. Darmowe talie są w zestawie od pierwszego dnia."
+        "title": "Zero reklam, jasne ceny",
+        "body": "Żadne reklamy nie przerywają wieczoru z grami. Tadado Mix jest darmowe na zawsze, a Premium jest jasne od początku: 3 dni za darmo, potem $3.99 tygodniowo, anulujesz kiedy chcesz."
       },
       {
-        "title": "Kupujesz raz i masz na zawsze",
-        "body": "Każda talia i pakiet AI to jednorazowy zakup powiązany z kontem Apple lub Google. Przywrócisz go na swoich urządzeniach w każdej chwili."
+        "title": "Twoje zakupy na każdym urządzeniu",
+        "body": "Premium i kredyty AI są powiązane z Twoim kontem Apple lub Google. Przywrócisz je na swoich urządzeniach w każdej chwili."
       },
       {
         "title": "Płatności zostają w Apple i Google",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Za darmo",
     "play": "GRAJ",
-    "price": "$1.99",
+    "price": "Premium · 3 dni za darmo, potem $3.99/tydzień",
     "newBadge": "NOWOŚĆ",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Cennik",
+    "title": "Grasz za darmo. Jeden prosty plan na więcej.",
+    "subtitle": "Tadado Mix jest darmowe dla wszystkich. Premium odblokowuje wszystkie talie: 3 dni za darmo, potem $3.99 tygodniowo. Dzięki kredytom AI każdy temat staje się talią.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Darmowe na zawsze",
+      "premium": "Wszystkie talie",
+      "trial": "3 dni za darmo",
+      "ai": "Kredyty AI"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "dla wszystkich",
+      "desc": "Mieszana talia z kartami ze wszystkich talii Tadado, każda runda jest inna. Bez zakupu i bez konta.",
+      "modesLabel": "Działa we wszystkich 3 trybach",
+      "features": [
+        "Karty ze wszystkich talii",
+        "Bez reklam",
+        "Graj offline"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ tydzień",
+      "trialNote": "po 3-dniowym darmowym okresie próbnym",
+      "desc": "Wszystkie talie premium są odblokowane, dopóki plan jest aktywny.",
+      "features": [
+        "Wszystkie talie premium: Kino, Sport, Podróże, Genius Only i więcej",
+        "Każda talia we wszystkich 3 trybach",
+        "Bez reklam",
+        "Anuluj w dowolnym momencie"
+      ],
+      "timelineLabel": "Jak działa darmowy okres próbny",
+      "timeline": [
+        {
+          "when": "Dziś",
+          "what": "Zacznij za darmo. Wszystkie talie premium od razu odblokowane."
+        },
+        {
+          "when": "Dzień 3",
+          "what": "Anuluj przed końcem okresu próbnego i nic nie płacisz."
+        },
+        {
+          "when": "Potem",
+          "what": "$3.99 tygodniowo, dopóki nie anulujesz w ustawieniach sklepu."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 kreacji talii z AI — własne talie na dowolny temat."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 kreacji talii z AI na regularne wieczory gier.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 kreacji talii z AI dla gospodarzy, którym nigdy nie brakuje pomysłów."
-      }
+    "ai": {
+      "title": "Zamień dowolny temat w talię",
+      "desc": "Wpisz temat, np. „hity lat 90.” albo wewnętrzne żarty Twojej paczki, a AI w kilka sekund stworzy grywalną talię. Kup pakiet raz i używaj, kiedy chcesz.",
+      "rule": "1 kredyt AI = 1 własna talia",
+      "creditsLabel": "kredytów",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 za talię"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 za talię",
+          "badge": "Najpopularniejszy",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 za talię",
+          "badge": "Najlepsza cena"
+        }
+      ]
+    },
+    "trust": [
+      "Bez reklam",
+      "Anuluj w dowolnym momencie",
+      "Bezpieczne płatności przez Apple i Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Ceny w USD; App Store i Google Play mogą pokazywać ceny lokalne w Twoim regionie. Tadado Premium zaczyna się od 3 dni za darmo, a potem odnawia się za $3.99 tygodniowo, dopóki nie anulujesz w ustawieniach App Store lub Google Play. Pakiety kredytów AI to zakupy jednorazowe. Płatności obsługuje Apple lub Google."
   },
   "howItWorks": {
     "title": "Jak to działa",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Czy Tadado to jedna z najlepszych darmowych aplikacji z grami imprezowymi?",
-        "a": "Tadado stworzono na wieczory z grami: Zakazane słowa w stylu Taboo, Heads Up, gra w blefowanie Oszust, darmowe talie, opcjonalne talie tematyczne i tworzenie talii z AI. Bez reklam i subskrypcji to jedna z najbardziej opłacalnych aplikacji imprezowych na iOS i Android."
+        "a": "Tadado powstało na wieczory z grami: Zakazane słowa w stylu Tabu, Heads Up i blefowa gra Oszust na jednym telefonie. Bez reklam, Tadado Mix za darmo dla wszystkich i plan Premium z 3 dniami za darmo."
       },
       {
         "q": "Czy Tadado jest darmowe?",
-        "a": "Tak. Tadado Mix jest darmowe. Opcjonalne talie tematyczne i tworzenie talii AI to jednorazowe zakupy. Szczegóły w Cenniku. Nie ma subskrypcji."
+        "a": "Tak. Tadado Mix jest darmowe dla wszystkich, miesza karty ze wszystkich talii i działa we wszystkich 3 trybach. Tadado Premium odblokowuje wszystkie talie premium: 3 dni za darmo, potem $3.99 tygodniowo. Kredyty AI są opcjonalne: 5 za $1.99, 15 za $4.99 lub 40 za $9.99. Szczegóły w Cenniku."
       },
       {
         "q": "Jaka jest różnica między Taboo a Heads Up?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Czy Tadado ma reklamy?",
-        "a": "Nie. Tadado jest bez reklam. Płacisz tylko za opcjonalne talie lub tworzenie AI, jeśli chcesz."
+        "a": "Nie. Tadado nie ma reklam. Płacisz tylko, jeśli wybierzesz Tadado Premium lub kredyty AI."
       },
       {
         "q": "Jak działa tworzenie talii z AI?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "Bez subskrypcji",
+        "feature": "Premium z 3 dniami za darmo",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Paczki talii tematycznych",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Wiele aplikacji skupia się na jednym trybie albo pokazuje reklamy. Tadado daje trzy tryby, darmową talię Tadado Mix, jeden plan Premium z 3 dniami za darmo i kredyty AI na własne talie.",
     "cta": "Pobierz Tadado za darmo",
     "viewFull": "Otwórz pełną stronę porównania"
   },
@@ -982,7 +1002,7 @@
     "title": "Marketing i prasa",
     "subtitle": "Kampanie z twórcami, talie markowe i materiały prasowe Tadado.",
     "back": "Wróć do Tadado",
-    "intro": "Tadado to aplikacja z grami imprezowymi dla prawdziwych paczek znajomych: Zakazane słowa w stylu Taboo, Heads Up i Oszust na jednym telefonie, bez reklam i subskrypcji. Jeśli planujesz treści, współpracę lub artykuł, zacznij tutaj.",
+    "intro": "Tadado to aplikacja z grami imprezowymi dla prawdziwych ekip: Zakazane słowa w stylu Tabu, Heads Up i Oszust na jednym telefonie, bez reklam, z darmową talią Tadado Mix, opcjonalnym planem Premium i kredytami AI. Jeśli planujesz treści, współpracę lub artykuł, zacznij tutaj.",
     "statsLabel": "W skrócie",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Czy talia halloweenowa w Tadado jest darmowa?",
-        "a": "Tak. Talia halloweenowa jest darmowa dla wszystkich i ma 100 halloweenowych słów. Bez reklam i subskrypcji."
+        "a": "Tak. Talia halloweenowa jest darmowa dla wszystkich i ma 100 halloweenowych słów. Bez reklam."
       },
       {
         "q": "Ile osób może grać?",

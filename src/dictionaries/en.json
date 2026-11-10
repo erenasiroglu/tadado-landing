@@ -85,8 +85,8 @@
         "body": "Type any topic and get a playable deck instantly. Perfect for inside jokes, movie nights, or themed parties."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "No ads, simple pricing",
+        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week. Cancel anytime."
       },
       {
         "title": "17 languages built in",
@@ -111,7 +111,7 @@
       "Offline play",
       "Teams & timers",
       "No ads",
-      "Weekly or one-time unlocks"
+      "3-day free trial"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Your next game night starts free",
     "ctaBody": "Download Tadado, open a free deck and play Forbidden Words, Heads Up or Imposter in seconds. One phone is enough.",
     "ctaButton": "Download Tadado free",
-    "freeNote": "Free download · No ads · Weekly or one-time unlocks",
+    "freeNote": "Free download · No ads · 3-day free Premium trial",
     "disclaimer": "{game} is mentioned only to describe a well-known game or format. All trademarks belong to their respective owners, and Tadado is not affiliated with or endorsed by them. Notes about {game} describe the classic format and typical versions; individual apps and editions can differ, so check each store listing."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: Halloween Party Games | Taboo, Heads Up & Imposter",
-    "metaDescription": "Free Halloween party games on one phone: a spooky Taboo deck with 100 words, Heads Up and the new Imposter mode. No ads, no subscription. iOS and Android."
+    "metaDescription": "Free Halloween party games on one phone: a spooky Taboo deck with 100 words, Heads Up and the new Imposter mode. No ads. iOS and Android."
   },
   "trust": {
     "eyebrow": "Made for you",
@@ -475,12 +475,12 @@
         "body": "Download and start a round right away. The core game needs no sign-up. You only sign in if you want to save AI decks or purchases."
       },
       {
-        "title": "Zero ads, zero subscriptions",
-        "body": "No ads interrupt your game night and nothing renews behind your back. Free decks are included from day one."
+        "title": "Zero ads, clear pricing",
+        "body": "No ads interrupt your game night. Tadado Mix is free forever, and Premium tells you up front: 3 days free, then $3.99 per week, cancel anytime."
       },
       {
-        "title": "Buy once, keep it",
-        "body": "Every deck and AI pack is a one-time purchase linked to your Apple or Google account. Restore it on your devices anytime."
+        "title": "Your purchases, on every device",
+        "body": "Premium and AI credits are linked to your Apple or Google account. Restore them on your devices anytime."
       },
       {
         "title": "Payments stay with Apple and Google",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Free",
     "play": "PLAY",
-    "price": "$1.99",
+    "price": "Premium · 3 days free, then $3.99/week",
     "newBadge": "NEW",
     "eventBadge": "EVENT",
     "hardBadge": "HARD",
@@ -559,67 +559,87 @@
     }
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Pricing",
+    "title": "Free to play. One simple plan for more.",
+    "subtitle": "Tadado Mix is free for everyone. Premium unlocks every deck with a 3-day free trial, then $3.99 per week. AI credits turn any topic into a deck.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Free forever",
+      "premium": "Every deck unlocked",
+      "trial": "3 days free",
+      "ai": "AI credits"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "for everyone",
+      "desc": "A mixed deck with cards from every Tadado deck, so each round feels different. No purchase and no account needed.",
+      "modesLabel": "Playable in all 3 modes",
+      "features": [
+        "Cards mixed from every deck",
+        "No ads",
+        "Play offline"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
       "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+      "trialNote": "after your 3-day free trial",
+      "desc": "Every premium deck stays unlocked while your plan is active.",
+      "features": [
+        "All premium decks: Cinema, Sport, Travel, Genius Only & more",
+        "Every deck in all 3 modes",
+        "No ads",
+        "Cancel anytime"
+      ],
+      "timelineLabel": "How the free trial works",
+      "timeline": [
+        {
+          "when": "Today",
+          "what": "Start free. Every premium deck unlocks right away."
+        },
+        {
+          "when": "Day 3",
+          "what": "Cancel before the trial ends and you pay nothing."
+        },
+        {
+          "when": "Then",
+          "what": "$3.99 per week until you cancel in your store settings."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 AI deck creations — build custom decks from any topic."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 AI deck creations for regular game nights.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 AI deck creations for hosts who never run out of ideas."
-      }
+    "ai": {
+      "title": "Turn any topic into a deck",
+      "desc": "Type a topic like “90s pop hits” or your friend group’s inside jokes and AI writes a playable deck in seconds. Buy a pack once, use it whenever you want.",
+      "rule": "1 AI credit = 1 custom deck",
+      "creditsLabel": "credits",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 per deck"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 per deck",
+          "badge": "Most popular",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 per deck",
+          "badge": "Best value"
+        }
+      ]
+    },
+    "trust": [
+      "No ads",
+      "Cancel anytime",
+      "Secure payments via Apple & Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Prices are shown in USD; the App Store and Google Play may show local prices in your region. Tadado Premium starts with a 3-day free trial, then renews at $3.99 per week until you cancel in your App Store or Google Play settings. AI credit packs are one-time purchases. Payments are handled by Apple or Google."
   },
   "howItWorks": {
     "title": "How it works",
@@ -752,7 +772,7 @@
     "title": "Marketing & press",
     "subtitle": "Creator campaigns, brand decks, and press assets for Tadado.",
     "back": "Back to Tadado",
-    "intro": "Tadado is a party game app for real groups: Taboo-style Forbidden Words, Heads Up and Imposter on one phone, no ads, with free play plus optional weekly or one-time unlocks. If you are planning content, a collab, or coverage, start here.",
+    "intro": "Tadado is a party game app for real groups: Taboo-style Forbidden Words, Heads Up and Imposter on one phone, no ads, with a free Tadado Mix deck plus an optional Premium plan and AI credits. If you are planning content, a collab, or coverage, start here.",
     "statsLabel": "At a glance",
     "stats": [
       {
@@ -858,11 +878,11 @@
       },
       {
         "q": "Is Tadado one of the best free party game apps?",
-        "a": "Tadado is built for game night: Taboo-style Forbidden Words, Heads Up charades, the Imposter bluffing game, free decks, optional themed decks and AI deck creation. No ads, with a free starter deck plus weekly or one-time unlocks."
+        "a": "Tadado is built for game night: Taboo-style Forbidden Words, Heads Up charades and the Imposter bluffing game on one phone. No ads, a free Tadado Mix deck for everyone, and a Premium plan with a 3-day free trial."
       },
       {
         "q": "Is Tadado free?",
-        "a": "Yes. Tadado Mix is free to play. Premium decks are optional: try them all with 3 days free, then $3.99 per week, buy a single deck for $1.99, unlock Full Access once, or add AI packs. See Pricing for details."
+        "a": "Yes. Tadado Mix is free for everyone and mixes cards from every deck, playable in all 3 modes. Tadado Premium unlocks every premium deck with a 3-day free trial, then $3.99 per week. AI credits are optional: 5 for $1.99, 15 for $4.99 or 40 for $9.99. See Pricing for details."
       },
       {
         "q": "What is the difference between Taboo and Heads Up?",
@@ -870,7 +890,7 @@
       },
       {
         "q": "Does Tadado have ads?",
-        "a": "No. Tadado is ad-free. You only pay for optional decks or AI creation if you choose."
+        "a": "No. Tadado is ad-free. You only pay if you choose Tadado Premium or AI credits."
       },
       {
         "q": "How does AI deck creation work?",
@@ -913,12 +933,12 @@
         "others": "no"
       },
       {
-        "feature": "Pay-once Full Access (all decks)",
+        "feature": "Pay-as-you-go AI credits",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Weekly pass with free trial",
+        "feature": "Premium with a 3-day free trial",
         "tadado": "yes",
         "others": "partial"
       },
@@ -938,7 +958,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Many apps focus on one mode or show ads. Tadado gives you three modes, a free Tadado Mix deck, one Premium plan with a 3-day free trial, and AI credits when you want custom decks.",
     "cta": "Download Tadado free",
     "viewFull": "Open full comparison page"
   },
@@ -1153,7 +1173,7 @@
       },
       {
         "q": "Is the Tadado Halloween deck free?",
-        "a": "Yes. The Halloween deck is free for every player, with 100 Halloween words. There are no ads and no subscription."
+        "a": "Yes. The Halloween deck is free for every player, with 100 Halloween words. There are no ads."
       },
       {
         "q": "How many people can play?",

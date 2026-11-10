@@ -80,8 +80,8 @@
         "body": "输入任意主题，即刻获得可玩的卡组。适合内部梗、电影之夜或主题派对。"
       },
       {
-        "title": "无广告、无订阅",
-        "body": "用 Tadado Mix 免费开始。只有想要额外主题卡组或 AI 卡组创建时才需一次性付费。"
+        "title": "无广告，价格简单",
+        "body": "用 Tadado Mix 免费开始。所有高级卡组免费试用 3 天，之后每周 $3.99。随时取消。"
       },
       {
         "title": "内置 17 种语言",
@@ -106,7 +106,7 @@
       "离线游玩",
       "分队与计时",
       "无广告",
-      "无订阅"
+      "免费试用 3 天"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 套游戏卡组",
     "free": "免费",
     "play": "开始玩",
-    "price": "$0.99",
+    "price": "Premium · 免费 3 天，之后每周 $3.99",
     "newBadge": "NEW",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "免费开始，派对升温再解锁更多。",
-    "subtitle": "免费下载，立即开玩。高级卡组或 AI 卡包一次购买即可拥有。永远没有订阅。",
-    "oneTime": "一次性",
-    "disclaimer": "价格为 USD，App Store 和 Google Play 可能因地区而异。购买由 Apple 或 Google 处理。",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "免费",
-      "desc": "免费下载，立即用经典入门卡组开玩。"
+    "eyebrow": "定价",
+    "title": "免费畅玩。想要更多，只需一个简单方案。",
+    "subtitle": "Tadado Mix 对所有人免费。Premium 可解锁全部卡组：先免费试用 3 天，之后每周 $3.99。用 AI 点数，任何主题都能变成卡组。",
+    "badges": {
+      "free": "永久免费",
+      "premium": "全部卡组",
+      "trial": "免费 3 天",
+      "ai": "AI 点数"
     },
-    "theme": {
-      "name": "主题卡组",
-      "price": "$0.99",
-      "desc": "每套卡组一次性购买。夏日、影院、旅行、运动、英雄等。"
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "人人可玩",
+      "desc": "一套混合卡组，汇集 Tadado 所有卡组的卡牌，每一轮都不一样。无需购买，无需账号。",
+      "modesLabel": "3 种模式均可玩",
+      "features": [
+        "汇集所有卡组的卡牌",
+        "无广告",
+        "离线可玩"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ 周",
+      "trialNote": "3 天免费试用结束后",
+      "desc": "方案有效期间，所有高级卡组保持解锁。",
+      "features": [
+        "全部高级卡组：电影、体育、旅行、Genius Only 等",
+        "每套卡组均支持 3 种模式",
+        "无广告",
+        "随时取消"
+      ],
+      "timelineLabel": "免费试用如何运作",
+      "timeline": [
+        {
+          "when": "今天",
+          "what": "免费开始，所有高级卡组立即解锁。"
+        },
+        {
+          "when": "第 3 天",
+          "what": "在试用结束前取消，不收取任何费用。"
+        },
+        {
+          "when": "之后",
+          "what": "每周 $3.99，直到你在商店设置中取消。"
+        }
+      ]
     },
     "ai": {
-      "name": "AI 卡组创建",
-      "price": "$2.99",
-      "desc": "从任意主题生成自定义卡组。两种游戏模式均可玩。"
+      "title": "任何主题都能变成卡组",
+      "desc": "输入一个主题，比如“90 年代金曲”或你们朋友圈的梗，AI 几秒内就能生成可玩的卡组。购买一次点数包，随时使用。",
+      "rule": "1 个 AI 点数 = 1 套自定义卡组",
+      "creditsLabel": "点数",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "每套 $0.40"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "每套 $0.33",
+          "badge": "最受欢迎",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "每套 $0.25",
+          "badge": "最划算"
+        }
+      ]
     },
-    "trust": "无广告 · 无订阅 · 随时恢复购买"
+    "trust": [
+      "无广告",
+      "随时取消",
+      "通过 Apple 和 Google 安全支付"
+    ],
+    "disclaimer": "价格以美元显示；App Store 和 Google Play 可能会显示你所在地区的本地价格。Tadado Premium 先免费试用 3 天，之后按每周 $3.99 自动续订，直到你在 App Store 或 Google Play 设置中取消。AI 点数包为一次性购买。付款由 Apple 或 Google 处理。"
   },
   "howItWorks": {
     "title": "如何运作",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Taboo 和 Heads Up 有什么区别？",
-        "a": "Forbidden Words 是分队 Taboo：描述时不能说禁词。Heads Up 将手机放在额头上，朋友提示。两者使用同一套卡组。"
+        "a": "Tadado 专为游戏之夜打造：禁忌词（Taboo 风格）、Heads Up 和吹牛游戏「卧底」，一部手机就能玩。无广告，Tadado Mix 人人免费，Premium 方案可免费试用 3 天。"
       },
       {
         "q": "Tadado 有广告吗？",
-        "a": "没有。Tadado 无广告。只有你选择时才为可选卡组或 AI 创建付费。"
+        "a": "是的。Tadado Mix 对所有人免费，汇集所有卡组的卡牌，3 种模式均可玩。Tadado Premium 解锁全部高级卡组，免费试用 3 天，之后每周 $3.99。AI 点数为可选：5 点 $1.99、15 点 $4.99、40 点 $9.99。详见定价。"
       },
       {
         "q": "AI 卡组创建如何运作？",
@@ -582,7 +643,7 @@
       },
       {
         "q": "支持哪些语言？",
-        "a": "应用界面支持 17 种语言，包括英语、土耳其语、西班牙语、德语、法语等。"
+        "a": "没有。Tadado 无广告。只有在你选择 Tadado Premium 或 AI 点数时才需付费。"
       }
     ]
   },
@@ -617,9 +678,9 @@
         "others": "no"
       },
       {
-        "feature": "无订阅",
+        "feature": "Premium 免费试用 3 天",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "主题卡组包",
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "许多应用只专注一种模式、展示广告或将内容锁在订阅后。Tadado 为真正的游戏之夜打造：两种模式、免费入门卡组、一次性额外内容。",
+    "note": "许多应用只有一种模式或会显示广告。Tadado 提供三种模式、免费的 Tadado Mix 卡组、一个可免费试用 3 天的 Premium 方案，以及用于自定义卡组的 AI 点数。",
     "cta": "免费下载 Tadado",
     "viewFull": "打开完整对比页"
   },

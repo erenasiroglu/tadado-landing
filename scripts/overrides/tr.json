@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: Tabu ve Alnında Tahmin Oyunu | Yapay Zeka Desteleri",
-    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve yapay zeka ile kendi desten. Ücretsiz başla, reklam ve abonelik yok. iOS ve Android."
+    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve yapay zeka ile kendi desten. Ücretsiz başla, reklam yok. iOS ve Android."
   },
   "nav": {
     "play": "Oyna",
@@ -26,13 +26,36 @@
     "ctaPrimary": "TADADO'YU İNDİR · ÜCRETSİZ",
     "ctaSecondary": "NASIL OYNANIR",
     "metrics": [
-      { "value": "300.000+", "label": "oyun oynandı", "animate": true },
-      { "value": "2", "label": "oyun modu" },
-      { "value": "AI", "label": "destekli" },
-      { "value": "17", "label": "dil" },
-      { "value": "7+", "label": "oyun destesi", "href": "#decks" },
-      { "value": "Çevrimdışı", "label": "oyna" },
-      { "value": "Reklam", "label": "yok" }
+      {
+        "value": "300.000+",
+        "label": "oyun oynandı",
+        "animate": true
+      },
+      {
+        "value": "2",
+        "label": "oyun modu"
+      },
+      {
+        "value": "AI",
+        "label": "destekli"
+      },
+      {
+        "value": "17",
+        "label": "dil"
+      },
+      {
+        "value": "7+",
+        "label": "oyun destesi",
+        "href": "#decks"
+      },
+      {
+        "value": "Çevrimdışı",
+        "label": "oyna"
+      },
+      {
+        "value": "Reklam",
+        "label": "yok"
+      }
     ]
   },
   "proof": {
@@ -57,8 +80,8 @@
         "body": "Herhangi bir konu yaz, anında oynanabilir deste al. İç şakalar, film geceleri ve temalı partiler için ideal."
       },
       {
-        "title": "Reklamsız, abonelik yok",
-        "body": "Tadado Mix ile ücretsiz başla. Ekstra temalı desteler veya yapay zeka deste oluşturma için yalnızca bir kez öde."
+        "title": "Reklamsız, sade fiyatlandırma",
+        "body": "Tadado Mix ile ücretsiz başla. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık $3.99. İstediğin zaman iptal et."
       },
       {
         "title": "17 dil dahili",
@@ -79,21 +102,53 @@
     "eyebrow": "Gerçek oyun geceleri için",
     "title": "Tek telefon. Takımlar. Süreler. Turlar.",
     "statement": "Tek telefon. Takımlar. Süreler. Turlar. Çevrimdışı oyna. Reklam yok.",
-    "details": ["Çevrimdışı oyna", "Takımlar ve süreler", "Reklam yok", "Abonelik yok"]
+    "details": [
+      "Çevrimdışı oyna",
+      "Takımlar ve süreler",
+      "Reklam yok",
+      "3 gün ücretsiz deneme"
+    ]
   },
   "personalization": {
     "title": "Kendine göre ayarla.",
     "subtitle": "Her seferinde aynı oyun değil. Her grup kendi deneyimini oluşturabilir.",
     "items": [
-      { "label": "Arkadaşlar", "topic": "Hafta sonu kaosu" },
-      { "label": "Aile", "topic": "Pazar yemeği" },
-      { "label": "Doğum günleri", "topic": "Parti klasikleri" },
-      { "label": "Film gecesi", "topic": "Oscar filmleri" },
-      { "label": "Spor", "topic": "Şampiyonlar Ligi" },
-      { "label": "Seyahat", "topic": "Yolculuk oyunları" },
-      { "label": "Ofis", "topic": "Ofis kaosu" },
-      { "label": "Üniversite", "topic": "Kampüs efsaneleri" },
-      { "label": "İç şakalar", "topic": "Sürekli söylediklerimiz" }
+      {
+        "label": "Arkadaşlar",
+        "topic": "Hafta sonu kaosu"
+      },
+      {
+        "label": "Aile",
+        "topic": "Pazar yemeği"
+      },
+      {
+        "label": "Doğum günleri",
+        "topic": "Parti klasikleri"
+      },
+      {
+        "label": "Film gecesi",
+        "topic": "Oscar filmleri"
+      },
+      {
+        "label": "Spor",
+        "topic": "Şampiyonlar Ligi"
+      },
+      {
+        "label": "Seyahat",
+        "topic": "Yolculuk oyunları"
+      },
+      {
+        "label": "Ofis",
+        "topic": "Ofis kaosu"
+      },
+      {
+        "label": "Üniversite",
+        "topic": "Kampüs efsaneleri"
+      },
+      {
+        "label": "İç şakalar",
+        "topic": "Sürekli söylediklerimiz"
+      }
     ]
   },
   "reviews": {
@@ -311,7 +366,7 @@
     "countBadge": "8 oyun destesi",
     "free": "Ücretsiz",
     "play": "OYNA",
-    "price": "$0.99",
+    "price": "Premium · 3 gün ücretsiz, sonra haftalık $3.99",
     "newBadge": "YENİ",
     "items": {
       "mix": {
@@ -345,48 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
-    "subtitle": "Ücretsiz indir, hemen oyna. Premium desteleri veya yapay zeka paketlerini tek seferlik satın alımla ekle. Abonelik asla yok.",
-    "oneTime": "tek seferlik",
-    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre gösterilir. Türkiye fiyatları TL cinsindendir. Satın alımlar Apple veya Google üzerinden yapılır.",
-    "trust": "Reklamsız · Abonelik yok · Satın alımları istediğin zaman geri yükle",
+    "eyebrow": "Fiyatlandırma",
+    "title": "Oynaması ücretsiz. Fazlası için tek ve net bir plan.",
+    "subtitle": "Tadado Mix herkes için ücretsiz. Premium, 3 gün ücretsiz denemeyle tüm desteleri açar, sonrası haftalık $3.99. Yapay zeka kredileriyle istediğin konuyu desteye çevirirsin.",
+    "badges": {
+      "free": "Sonsuza kadar ücretsiz",
+      "premium": "Tüm desteler açık",
+      "trial": "3 gün ücretsiz",
+      "ai": "Yapay zeka kredisi"
+    },
     "free": {
       "name": "Tadado Mix",
-      "price": "Ücretsiz",
-      "desc": "Ücretsiz indir ve klasik başlangıç destesiyle hemen oyna."
+      "price": "$0",
+      "priceNote": "herkes için",
+      "desc": "Tüm Tadado destelerinden kartların karıştığı karma bir deste; her tur farklı geçer. Satın alma ya da hesap gerekmez.",
+      "modesLabel": "3 modun hepsinde oynanır",
+      "features": [
+        "Tüm destelerden karma kartlar",
+        "Reklam yok",
+        "Çevrimdışı oyna"
+      ]
     },
-    "aiSectionTitle": "Yapay zeka ile deste oluşturma",
-    "aiTiers": [
-      {
-        "name": "Starter",
-        "price": "99,99 TL",
-        "desc": "10 yapay zeka deste oluşturma hakkı — istediğin konudan özel deste."
-      },
-      {
-        "name": "Plus",
-        "price": "199 TL",
-        "desc": "30 yapay zeka deste oluşturma hakkı.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "349,99 TL",
-        "desc": "100 yapay zeka deste oluşturma hakkı."
-      }
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ hafta",
+      "trialNote": "3 günlük ücretsiz denemeden sonra",
+      "desc": "Planın aktif olduğu sürece tüm premium desteler açık kalır.",
+      "features": [
+        "Tüm premium desteler: Sinema, Spor, Seyahat, Genius Only ve daha fazlası",
+        "Her deste 3 modda da oynanır",
+        "Reklam yok",
+        "İstediğin zaman iptal et"
+      ],
+      "timelineLabel": "Ücretsiz deneme nasıl işler",
+      "timeline": [
+        {
+          "when": "Bugün",
+          "what": "Ücretsiz başla. Tüm premium desteler hemen açılır."
+        },
+        {
+          "when": "3. gün",
+          "what": "Deneme bitmeden iptal edersen hiçbir ücret ödemezsin."
+        },
+        {
+          "when": "Sonrası",
+          "what": "Mağaza ayarlarından iptal edene kadar haftalık $3.99."
+        }
+      ]
+    },
+    "ai": {
+      "title": "İstediğin konuyu desteye çevir",
+      "desc": "“90’lar Türkçe pop” ya da arkadaş grubunun iç şakaları gibi bir konu yaz, yapay zeka saniyeler içinde oynanabilir bir deste hazırlasın. Paketi bir kez al, istediğin zaman kullan.",
+      "rule": "1 yapay zeka kredisi = 1 özel deste",
+      "creditsLabel": "kredi",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "deste başına $0.40"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "deste başına $0.33",
+          "badge": "En popüler",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "deste başına $0.25",
+          "badge": "En avantajlı"
+        }
+      ]
+    },
+    "trust": [
+      "Reklam yok",
+      "İstediğin zaman iptal et",
+      "Apple ve Google ile güvenli ödeme"
     ],
-    "decksSectionTitle": "Premium desteler",
-    "singleDeck": {
-      "name": "Tek premium deste",
-      "price": "49,99 TL",
-      "desc": "Deste başına tek seferlik satın alma. Yaz, Sinema, Seyahat, Spor, Kahramanlar ve daha fazlası."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "499 TL",
-      "desc": "Tüm premium temalı desteler ve 100 AI deste oluşturma hakkı, tek satın alımla.",
-      "aiCredits": "100 AI deste oluşturma hakkı dahil",
-      "highlight": true
-    }
+    "disclaimer": "Fiyatlar USD olarak gösterilir; App Store ve Google Play bölgene göre yerel fiyat gösterebilir. Tadado Premium 3 gün ücretsiz denemeyle başlar, ardından App Store veya Google Play ayarlarından iptal edene kadar haftalık $3.99 olarak yenilenir. Yapay zeka kredi paketleri tek seferlik satın alımdır. Ödemeler Apple veya Google üzerinden yapılır."
   },
   "howItWorks": {
     "title": "Nasıl çalışır",
@@ -409,18 +503,37 @@
     "title": "Dünyanın dört bir yanında oyun geceleri",
     "subtitle": "Klipler, deste fikirleri ve parti oyunu ilhamı için Tadado'yu takip et.",
     "metrics": [
-      { "value": "300.000+", "label": "oyun oynandı", "animate": true },
-      { "value": "17", "label": "dil" },
-      { "value": "2", "label": "oyun modu" }
+      {
+        "value": "300.000+",
+        "label": "oyun oynandı",
+        "animate": true
+      },
+      {
+        "value": "17",
+        "label": "dil"
+      },
+      {
+        "value": "2",
+        "label": "oyun modu"
+      }
     ],
     "languagesTitle": "Desteklenen diller",
     "languagesCaption": "Her uygulama dilinde eşit destek. Uydurma kullanım verisi yok.",
     "trendingLabel": "Bu akşam trend",
     "editorialLabel": "Tadado'dan son haberler",
     "editorialItems": [
-      { "title": "Yaz deste sezonu", "body": "Sıcak geceler için güneş, deniz ve tatil havası." },
-      { "title": "Film gecesi desteleri", "body": "Film tutkunları ve dizi maratoncuları için sinema kartları." },
-      { "title": "Kendin oluştur", "body": "Yapay zeka ile herhangi bir konuyu oynanabilir desteye dönüştür." }
+      {
+        "title": "Yaz deste sezonu",
+        "body": "Sıcak geceler için güneş, deniz ve tatil havası."
+      },
+      {
+        "title": "Film gecesi desteleri",
+        "body": "Film tutkunları ve dizi maratoncuları için sinema kartları."
+      },
+      {
+        "title": "Kendin oluştur",
+        "body": "Yapay zeka ile herhangi bir konuyu oynanabilir desteye dönüştür."
+      }
     ],
     "socialCta": "Tadado topluluğuna katıl",
     "instagramCta": "Instagram",
@@ -518,11 +631,11 @@
       },
       {
         "q": "Tabu ile Alnında Tahmin arasındaki fark nedir?",
-        "a": "Yasaklı Kelimeler takımla oynanan Tabu'dur: yasaklı kelimeleri kullanmadan anlatırsın. Alnında Tahmin'de telefon alnındadır, arkadaşların ipucu verir. İkisi de aynı desteleri kullanır."
+        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda. Reklam yok; Tadado Mix destesi herkese ücretsiz, Premium planı da 3 gün ücretsiz denemeyle başlar."
       },
       {
         "q": "Tadado'da reklam var mı?",
-        "a": "Hayır. Tadado reklamsızdır. Yalnızca isteğe bağlı desteler veya yapay zeka oluşturma için ödeme yaparsın."
+        "a": "Evet. Tadado Mix herkes için ücretsiz; tüm destelerden kartları karıştırır ve 3 modun hepsinde oynanır. Tadado Premium tüm premium desteleri 3 gün ücretsiz denemeyle açar, sonrası haftalık $3.99. Yapay zeka kredileri isteğe bağlıdır: 5 kredi $1.99, 15 kredi $4.99, 40 kredi $9.99. Ayrıntılar için Fiyatlandırma bölümüne bak."
       },
       {
         "q": "Yapay zeka deste oluşturma nasıl çalışır?",
@@ -530,7 +643,7 @@
       },
       {
         "q": "Hangi diller destekleniyor?",
-        "a": "Uygulama arayüzü İngilizce, Türkçe, İspanyolca, Almanca, Fransızca ve daha fazlası dahil 17 dilde mevcuttur."
+        "a": "Hayır. Tadado reklamsızdır. Yalnızca Tadado Premium'u ya da yapay zeka kredisini seçersen ödeme yaparsın."
       }
     ]
   },
@@ -565,12 +678,12 @@
         "others": "no"
       },
       {
-        "feature": "Abonelik yok",
+        "feature": "İhtiyacın kadar yapay zeka kredisi",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Temalı deste paketleri",
+        "feature": "3 gün ücretsiz denemeli Premium",
         "tadado": "yes",
         "others": "partial"
       },
@@ -585,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir veya içeriği abonelik arkasına kilitler. Tadado gerçek oyun geceleri için iki mod, ücretsiz başlangıç destesi ve tek seferlik ekstralarla tasarlandı.",
+    "note": "Birçok uygulama tek moda odaklanır ya da reklam gösterir. Tadado üç mod, ücretsiz Tadado Mix destesi, 3 gün ücretsiz denemeli tek bir Premium plan ve özel desteler için yapay zeka kredileri sunar.",
     "cta": "Tadado'yu ücretsiz indir",
     "viewFull": "Tam karşılaştırma sayfasını aç"
   },
@@ -601,14 +714,28 @@
         "name": "Eren Nasıroğlu",
         "role": "Yazılım Geliştirici",
         "bio": "Tadado'yu ve mobil uygulamaları React Native, Next.js ve Node.js ile geliştiren full-stack developer. Yönetim Bilişim Sistemleri mezunu; temiz kod ve oyuncu dostu tasarımı ön planda tutuyor.",
-        "skills": ["React Native", "Next.js", "Expo", "Node.js", "Mobil Oyunlar", "FinTech"],
+        "skills": [
+          "React Native",
+          "Next.js",
+          "Expo",
+          "Node.js",
+          "Mobil Oyunlar",
+          "FinTech"
+        ],
         "websiteCta": "erenasiroglu.de'yi ziyaret et"
       },
       "nur": {
         "name": "Nur Günen",
         "role": "Ürün Tasarımcısı",
         "bio": "Tadado için ürün UI/UX tasarımcısı ve İzmir Demokrasi Üniversitesi mimarlık öğrencisi. Görsel dili, etkileşim akışını ve oyun deneyimini kartlardan ekranlara taşıyor.",
-        "skills": ["UI/UX", "Figma", "Etkileşim Tasarımı", "Oyun Deneyimi", "Mekân Tasarımı", "Procreate"],
+        "skills": [
+          "UI/UX",
+          "Figma",
+          "Etkileşim Tasarımı",
+          "Oyun Deneyimi",
+          "Mekân Tasarımı",
+          "Procreate"
+        ],
         "websiteCta": "nurgunen.com'u ziyaret et"
       }
     },

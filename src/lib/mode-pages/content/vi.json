@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Từ cấm có giống Taboo không?", "a": "Lối chơi giống nhau: bạn mô tả một từ mà không nói các gợi ý bị cấm trong khi đội đoán theo giờ. Tadado là ứng dụng độc lập với bộ thẻ, cách tính điểm và thiết kế riêng, không phải trò Taboo chính thức." },
       { "q": "Cần bao nhiêu người chơi?", "a": "Tốt nhất là bốn người trở lên, chia hai đội. Nhóm đông cũng ổn: chỉ cần chia đội lớn hơn và tiếp tục chuyền điện thoại." },
-      { "q": "Có ứng dụng kiểu Taboo miễn phí, không quảng cáo không?", "a": "Có. Tadado tải miễn phí kèm bộ thẻ Tadado Mix, không quảng cáo, không đăng ký. Bộ thẻ chủ đề và tạo bộ thẻ bằng AI là các gói mua một lần tùy chọn." },
+      { "q": "Có ứng dụng kiểu Taboo miễn phí, không quảng cáo không?", "a": "Có. Tadado tải miễn phí kèm bộ bài miễn phí Tadado Mix chơi được ở mọi chế độ, và không có quảng cáo. Bộ bài premium có trong Tadado Premium (miễn phí 3 ngày, sau đó $3.99 mỗi tuần), còn tín dụng AI là tùy chọn." },
       { "q": "Chúng tôi có thể tự làm thẻ Taboo không?", "a": "Có. Nhập bất kỳ chủ đề nào và AI của Tadado sẽ viết bộ thẻ đầy đủ với từ chính và từ cấm trên mỗi thẻ. Chơi ngay trong Từ cấm, Heads Up hoặc Kẻ mạo danh." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "Đây có phải ứng dụng Heads Up! chính thức không?", "a": "Không. Tadado là ứng dụng trò chơi tiệc độc lập có chế độ kiểu Heads Up. Cách chơi giống nhau, điện thoại trên trán và nghiêng để ghi điểm, với bộ thẻ riêng của Tadado và bộ thẻ AI." },
       { "q": "Chơi Heads Up với một điện thoại thế nào?", "a": "Một người đặt điện thoại lên trán, những người khác gợi ý từ trên màn hình. Nghiêng xuống khi đúng, nghiêng lên để bỏ qua; hết giờ thì chuyền điện thoại." },
-      { "q": "Chế độ Heads Up của Tadado có miễn phí không?", "a": "Có. Tải Tadado miễn phí và chơi với bộ thẻ Tadado Mix. Không quảng cáo, không đăng ký; bộ thẻ chủ đề và bộ thẻ AI là gói mua một lần tùy chọn." },
+      { "q": "Chế độ Heads Up của Tadado có miễn phí không?", "a": "Có. Tải Tadado miễn phí và chơi với bộ bài miễn phí Tadado Mix. Không quảng cáo; Tadado Premium mở mọi bộ bài premium với 3 ngày dùng thử miễn phí, sau đó $3.99 mỗi tuần. Tín dụng AI là tùy chọn." },
       { "q": "Tôi có thể tạo bộ thẻ Heads Up riêng không?", "a": "Có. Nhập bất kỳ chủ đề nào, từ phim truyền hình đến chuyện vui trong nhà, AI của Tadado sẽ viết bộ thẻ để chơi Heads Up ngay." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Chơi Kẻ mạo danh thế nào?", "a": "Mọi người trừ kẻ mạo danh đều thấy cùng một từ bí mật. Mỗi người nói một từ gợi ý, rồi cả nhóm bỏ phiếu xem ai là kẻ mạo danh. Bị bắt rồi, kẻ mạo danh vẫn có thể thắng nếu đoán ra từ." },
       { "q": "Có giống Spyfall hay Ma sói không?", "a": "Cùng họ trò chơi lừa có vai ẩn. Khác Spyfall, không có địa điểm hay câu hỏi; khác Ma sói, không có pha ban đêm: chỉ một từ bí mật và mỗi người một gợi ý." },
       { "q": "Bao nhiêu người chơi được Kẻ mạo danh?", "a": "Chế độ Kẻ mạo danh của Tadado chơi được từ 3 đến 12 người với một điện thoại, và bạn có thể chọn số kẻ mạo danh." },
-      { "q": "Chế độ Kẻ mạo danh có miễn phí không?", "a": "Có. Tadado tải miễn phí và Kẻ mạo danh chơi được với bộ thẻ miễn phí Tadado Mix. Không quảng cáo, không đăng ký." }
+      { "q": "Chế độ Kẻ mạo danh có miễn phí không?", "a": "Có. Tadado tải miễn phí và Kẻ mạo danh chơi được với bộ bài miễn phí Tadado Mix. Không quảng cáo." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Một bộ thẻ, ba trò chơi", "body": "Không cần làm riêng bộ thẻ Taboo và bộ thẻ Heads Up. Tạo một lần, chơi mọi chế độ." },
       { "title": "Làm riêng cho nhóm bạn", "body": "Chuyện đùa nội bộ, sở thích ngách, sinh nhật theo chủ đề hay bài học trên lớp: bộ thẻ không ai khác có, về những điều cả nhóm thật sự biết." },
-      { "title": "Trả một lần, không đăng ký", "body": "Lượt tạo AI có trong các gói nhỏ mua một lần, và Tadado Full Access bao gồm 20 lượt. Không quảng cáo, không phí định kỳ." }
+      { "title": "Tín dụng từ $1.99", "body": "Mua tín dụng AI theo gói một lần: 5 với giá $1.99, 15 với giá $4.99 hoặc 40 với giá $9.99. Mỗi tín dụng tạo một bộ bài riêng." }
     ],
     "knownAs": "Nếu bạn tìm công cụ tạo thẻ Taboo, thẻ Heads Up tự làm, công cụ tạo danh sách từ cho trò chơi tiệc hay cách làm thẻ bằng ChatGPT, đây là phiên bản tích hợp sẵn. Thay vì chép danh sách vào ghi chú, Tadado biến chủ đề của bạn thành bộ thẻ chơi được với đồng hồ, điểm số và ba chế độ chơi.",
     "aliases": ["Tạo thẻ Taboo", "Bộ thẻ Heads Up tự làm", "Danh sách từ AI", "Thẻ trò chơi tiệc riêng", "Tự tạo bộ thẻ"],
     "faq": [
       { "q": "Tạo bộ thẻ bằng AI hoạt động thế nào?", "a": "Nhập một hoặc vài chủ đề, chọn độ khó và chạm Tạo. Trong khoảng 30 giây, AI viết trọn bộ thẻ với từ chính và từ cấm trên mỗi thẻ." },
       { "q": "Bộ thẻ AI chơi được ở chế độ nào?", "a": "Tất cả. Mỗi bộ thẻ AI chơi được ở Từ cấm, Heads Up và Kẻ mạo danh, nên bạn đổi chế độ mà không cần tạo bộ mới." },
-      { "q": "Bộ thẻ AI giá bao nhiêu?", "a": "Lượt tạo AI bán theo gói mua một lần, bắt đầu từ gói nhỏ 5 lượt. Tadado Full Access bao gồm mọi bộ thẻ cao cấp và 20 lượt tạo AI. Không có đăng ký; xem giá địa phương trên cửa hàng." },
+      { "q": "Bộ thẻ AI giá bao nhiêu?", "a": "Tạo bằng AI dùng tín dụng. Các gói gồm 5 tín dụng giá $1.99, 15 giá $4.99 hoặc 40 giá $9.99, mỗi tín dụng tạo một bộ bài riêng. Xem cửa hàng để biết giá địa phương." },
       { "q": "Tôi có thể tạo bộ thẻ bằng tiếng Việt không?", "a": "Có. Tadado hỗ trợ 17 ngôn ngữ và bộ thẻ AI được viết bằng ngôn ngữ bạn chơi, với tên người, địa danh và văn hóa đại chúng địa phương." }
     ]
   }

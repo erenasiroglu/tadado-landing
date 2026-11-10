@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: gioco per feste | Tabù, Heads Up, Impostore e mazzi IA",
-    "description": "Un telefono. I tuoi amici. Tabù, Heads Up, Impostore e mazzi IA per le serate giochi. Gratis per iniziare, senza pubblicità né abbonamento. iOS e Android."
+    "description": "Un telefono. I tuoi amici. Tabù, Heads Up, Impostore e mazzi IA per le serate giochi. Gratis per iniziare, senza pubblicità. iOS e Android."
   },
   "nav": {
     "play": "Gioca",
@@ -85,8 +85,8 @@
         "body": "Scrivi qualsiasi argomento e ottieni un mazzo giocabile all'istante. Perfetto per battute interne, serate cinema o feste a tema."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "Senza pubblicità, prezzi semplici",
+        "body": "Inizia gratis con Tadado Mix. Prova tutti i mazzi premium gratis per 3 giorni, poi $3.99 a settimana. Disdici quando vuoi."
       },
       {
         "title": "17 lingue integrate",
@@ -111,7 +111,7 @@
       "Gioco offline",
       "Squadre e timer",
       "Senza pubblicità",
-      "Weekly or one-time unlocks"
+      "3 giorni di prova gratuita"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "La tua prossima serata giochi inizia gratis",
     "ctaBody": "Scarica Tadado, apri un mazzo gratuito e gioca a Parole vietate, Heads Up o Impostore in pochi secondi. Basta un telefono.",
     "ctaButton": "Scarica Tadado gratis",
-    "freeNote": "Download gratuito · Senza pubblicità · Senza abbonamento",
+    "freeNote": "Download gratuito · Senza pubblicità · 3 giorni di Premium gratis",
     "disclaimer": "{game} è citato solo per descrivere un gioco o un formato noto. Tutti i marchi appartengono ai rispettivi proprietari; Tadado non è affiliato né approvato da loro. Le note su {game} descrivono il formato classico e le versioni tipiche; app ed edizioni possono variare, controlla la scheda nello store."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: giochi per feste di Halloween | Tabù, Heads Up e Impostore",
-    "metaDescription": "Giochi di Halloween gratis su un telefono: un mazzo di Tabù da brivido con 100 parole, Heads Up e la nuova modalità Impostore. Senza pubblicità né abbonamento. iOS e Android."
+    "metaDescription": "Giochi di Halloween gratis su un telefono: un mazzo di Tabù da brivido con 100 parole, Heads Up e la nuova modalità Impostore. Senza pubblicità. iOS e Android."
   },
   "trust": {
     "eyebrow": "Pensato per te",
@@ -475,12 +475,12 @@
         "body": "Scarica e inizia subito una partita. Il gioco base non richiede registrazione. Accedi solo se vuoi salvare mazzi IA o acquisti."
       },
       {
-        "title": "Zero pubblicità, zero abbonamenti",
-        "body": "Nessuna pubblicità interrompe la tua serata e niente si rinnova a tua insaputa. I mazzi gratuiti sono inclusi fin dal primo giorno."
+        "title": "Zero pubblicità, prezzi chiari",
+        "body": "Nessuna pubblicità interrompe la vostra serata. Tadado Mix è gratis per sempre e Premium è chiaro fin dall'inizio: 3 giorni gratis, poi $3.99 a settimana, disdici quando vuoi."
       },
       {
-        "title": "Compri una volta, resta tuo",
-        "body": "Ogni mazzo e pacchetto IA è un acquisto una tantum collegato al tuo account Apple o Google. Ripristinalo sui tuoi dispositivi quando vuoi."
+        "title": "I tuoi acquisti su ogni dispositivo",
+        "body": "Premium e i crediti IA sono collegati al tuo account Apple o Google. Ripristinali sui tuoi dispositivi quando vuoi."
       },
       {
         "title": "I pagamenti restano ad Apple e Google",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Gratis",
     "play": "GIOCA",
-    "price": "$1.99",
+    "price": "Premium · 3 giorni gratis, poi $3.99/settimana",
     "newBadge": "NUOVO",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Prezzi",
+    "title": "Gratis per giocare. Un solo piano semplice per avere di più.",
+    "subtitle": "Tadado Mix è gratis per tutti. Premium sblocca tutti i mazzi con 3 giorni di prova gratuita, poi $3.99 a settimana. Con i crediti IA ogni argomento diventa un mazzo.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Gratis per sempre",
+      "premium": "Tutti i mazzi",
+      "trial": "3 giorni gratis",
+      "ai": "Crediti IA"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "per tutti",
+      "desc": "Un mazzo misto con carte da tutti i mazzi di Tadado, ogni round è diverso. Nessun acquisto e nessun account.",
+      "modesLabel": "Giocabile in tutte e 3 le modalità",
+      "features": [
+        "Carte mescolate da tutti i mazzi",
+        "Senza pubblicità",
+        "Gioca offline"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ settimana",
+      "trialNote": "dopo 3 giorni di prova gratuita",
+      "desc": "Tutti i mazzi premium restano sbloccati finché il piano è attivo.",
+      "features": [
+        "Tutti i mazzi premium: Cinema, Sport, Viaggi, Genius Only e altro",
+        "Ogni mazzo in tutte e 3 le modalità",
+        "Senza pubblicità",
+        "Disdici quando vuoi"
+      ],
+      "timelineLabel": "Come funziona la prova gratuita",
+      "timeline": [
+        {
+          "when": "Oggi",
+          "what": "Inizia gratis. Tutti i mazzi premium si sbloccano subito."
+        },
+        {
+          "when": "Giorno 3",
+          "what": "Disdici prima della fine della prova e non paghi nulla."
+        },
+        {
+          "when": "Poi",
+          "what": "$3.99 a settimana finché non disdici nelle impostazioni dello store."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 creazioni di mazzi con IA: mazzi su misura su qualsiasi tema."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 creazioni di mazzi con IA per serate di gioco frequenti.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 creazioni di mazzi con IA per chi non resta mai senza idee."
-      }
+    "ai": {
+      "title": "Trasforma qualsiasi argomento in un mazzo",
+      "desc": "Scrivi un argomento come “hit anni '90” o le battute del tuo gruppo e l'IA crea un mazzo giocabile in pochi secondi. Compra un pacchetto una volta e usalo quando vuoi.",
+      "rule": "1 credito IA = 1 mazzo personalizzato",
+      "creditsLabel": "crediti",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 a mazzo"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 a mazzo",
+          "badge": "Più popolare",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 a mazzo",
+          "badge": "Miglior prezzo"
+        }
+      ]
+    },
+    "trust": [
+      "Senza pubblicità",
+      "Disdici quando vuoi",
+      "Pagamenti sicuri con Apple e Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Prezzi in USD; App Store e Google Play possono mostrare prezzi locali nella tua regione. Tadado Premium inizia con 3 giorni di prova gratuita, poi si rinnova a $3.99 a settimana finché non disdici nelle impostazioni di App Store o Google Play. I pacchetti di crediti IA sono acquisti singoli. I pagamenti sono gestiti da Apple o Google."
   },
   "howItWorks": {
     "title": "Come funziona",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Tadado è una delle migliori app gratuite di giochi per feste?",
-        "a": "Tadado è fatto per le serate di gioco: Parole vietate in stile Tabù, Heads Up, il gioco di bluff Impostore, mazzi gratuiti, mazzi a tema opzionali e creazione di mazzi con IA. Senza pubblicità né abbonamento, è una delle app per feste più convenienti su iOS e Android."
+        "a": "Tadado è fatto per le serate di gioco: Parole proibite in stile Taboo, Heads Up e il gioco di bluff Impostore su un solo telefono. Senza pubblicità, Tadado Mix gratis per tutti e un piano Premium con 3 giorni di prova gratuita."
       },
       {
         "q": "Tadado è gratis?",
-        "a": "Sì. Tadado Mix è gratis. I mazzi tematici opzionali e la creazione mazzi IA sono acquisti una tantum. Vedi Prezzi per i dettagli. Nessun abbonamento."
+        "a": "Sì. Tadado Mix è gratis per tutti, mescola carte da tutti i mazzi e si gioca in tutte e 3 le modalità. Tadado Premium sblocca tutti i mazzi premium con 3 giorni gratis, poi $3.99 a settimana. I crediti IA sono facoltativi: 5 a $1.99, 15 a $4.99 o 40 a $9.99. Dettagli in Prezzi."
       },
       {
         "q": "Qual è la differenza tra Taboo e Heads Up?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Tadado ha pubblicità?",
-        "a": "No. Tadado è senza pubblicità. Paghi solo mazzi opzionali o creazione IA se lo scegli."
+        "a": "No. Tadado è senza pubblicità. Paghi solo se scegli Tadado Premium o i crediti IA."
       },
       {
         "q": "Come funziona la creazione mazzi IA?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "Senza abbonamento",
+        "feature": "Premium con 3 giorni di prova gratuita",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Pacchetti mazzi tematici",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Molte app puntano su una sola modalità o mostrano pubblicità. Tadado offre tre modalità, il mazzo gratuito Tadado Mix, un unico piano Premium con 3 giorni di prova gratuita e crediti IA per mazzi personalizzati.",
     "cta": "Scarica Tadado gratis",
     "viewFull": "Apri pagina confronto completa"
   },
@@ -982,7 +1002,7 @@
     "title": "Marketing e stampa",
     "subtitle": "Campagne con creator, mazzi brandizzati e materiali stampa di Tadado.",
     "back": "Torna a Tadado",
-    "intro": "Tadado è un'app di giochi per feste pensata per gruppi veri: Parole vietate in stile Tabù, Heads Up e Impostore su un telefono, senza pubblicità né abbonamento. Se stai preparando contenuti, una collaborazione o un articolo, inizia da qui.",
+    "intro": "Tadado è un'app di giochi per feste per gruppi veri: Parole proibite in stile Taboo, Heads Up e Impostore su un solo telefono, senza pubblicità, con il mazzo gratuito Tadado Mix, un piano Premium facoltativo e crediti IA. Se stai pianificando contenuti, una collaborazione o un articolo, inizia da qui.",
     "statsLabel": "In breve",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Il mazzo di Halloween di Tadado è gratuito?",
-        "a": "Sì. Il mazzo di Halloween è gratuito per tutti, con 100 parole di Halloween. Senza pubblicità né abbonamento."
+        "a": "Sì. Il mazzo di Halloween è gratuito per tutti, con 100 parole di Halloween. Senza pubblicità."
       },
       {
         "q": "Quante persone possono giocare?",

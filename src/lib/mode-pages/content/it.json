@@ -26,7 +26,7 @@
     "faq": [
       { "q": "Parole vietate è uguale a Taboo?", "a": "Si gioca nello stesso stile: descrivi una parola senza dire gli indizi vietati mentre la tua squadra indovina contro il tempo. Tadado è un'app indipendente con mazzi, punteggio e design propri, e non è il gioco ufficiale Taboo." },
       { "q": "Quanti giocatori servono?", "a": "L'ideale sono quattro o più, divisi in due squadre. Funziona anche con gruppi grandi: basta fare squadre più numerose e continuare a passare il telefono." },
-      { "q": "Esiste un'app stile Taboo gratis e senza pubblicità?", "a": "Sì. Tadado si scarica gratis con il mazzo Tadado Mix, senza pubblicità né abbonamento. I mazzi a tema e la creazione con IA sono acquisti singoli facoltativi." },
+      { "q": "Esiste un'app stile Taboo gratis e senza pubblicità?", "a": "Sì. Tadado si scarica gratis con il mazzo gratuito Tadado Mix, che funziona in ogni modalità, e non ha pubblicità. I mazzi premium arrivano con Tadado Premium (3 giorni gratis, poi $3.99 a settimana) e i crediti IA sono facoltativi." },
       { "q": "Possiamo creare le nostre carte Taboo?", "a": "Sì. Scrivi qualsiasi tema e l'IA di Tadado crea un mazzo completo con parola principale e parole vietate su ogni carta. Puoi giocarlo subito in Parole vietate, Heads Up o Impostore." }
     ]
   },
@@ -57,7 +57,7 @@
     "faq": [
       { "q": "È l'app ufficiale Heads Up!?", "a": "No. Tadado è un'app indipendente di giochi da festa con una modalità stile Heads Up. Si gioca allo stesso modo, telefono sulla fronte e inclinazione per segnare, con i mazzi di Tadado e mazzi IA." },
       { "q": "Come si gioca a Heads Up con un solo telefono?", "a": "Un giocatore tiene il telefono sulla fronte mentre gli altri danno indizi sulla parola sullo schermo. Inclina in basso per una risposta giusta e in alto per passare, poi passa il telefono quando finisce il tempo." },
-      { "q": "La modalità Heads Up di Tadado è gratis?", "a": "Sì. Scarica Tadado gratis e gioca con il mazzo Tadado Mix. Niente pubblicità né abbonamento; mazzi a tema e mazzi IA sono acquisti singoli facoltativi." },
+      { "q": "La modalità Heads Up di Tadado è gratis?", "a": "Sì. Scarica Tadado gratis e gioca con il mazzo gratuito Tadado Mix. Niente pubblicità; Tadado Premium sblocca tutti i mazzi premium con 3 giorni di prova gratuita, poi $3.99 a settimana. I crediti IA sono facoltativi." },
       { "q": "Posso creare un mazzo Heads Up personalizzato?", "a": "Sì. Scrivi qualsiasi tema, da una serie TV alle battute di famiglia, e l'IA di Tadado crea un mazzo da giocare subito in Heads Up." }
     ]
   },
@@ -89,7 +89,7 @@
       { "q": "Come si gioca all'impostore?", "a": "Tutti tranne l'impostore vedono la stessa parola segreta. Ognuno dice un indizio di una parola, poi il gruppo vota chi è l'impostore. Se viene scoperto, può ancora vincere indovinando la parola." },
       { "q": "È come Spyfall o Lupus in Tabula?", "a": "Appartiene alla stessa famiglia di giochi di bluff a ruoli nascosti. A differenza di Spyfall non ci sono luoghi né domande, e a differenza di Lupus in Tabula non c'è la fase notte: solo una parola segreta e un indizio a testa." },
       { "q": "In quanti si può giocare a Impostore?", "a": "La modalità Impostore di Tadado si gioca da 3 a 12 persone con un solo telefono, e puoi scegliere quanti impostori nascondere." },
-      { "q": "La modalità Impostore è gratis?", "a": "Sì. Tadado si scarica gratis e Impostore funziona con il mazzo gratuito Tadado Mix. Senza pubblicità né abbonamento." }
+      { "q": "La modalità Impostore è gratis?", "a": "Sì. Tadado si scarica gratis e Impostore funziona con il mazzo gratuito Tadado Mix. Senza pubblicità." }
     ]
   },
   "ai-decks": {
@@ -112,14 +112,14 @@
     "features": [
       { "title": "Un mazzo, tre giochi", "body": "Non serve creare un mazzo Taboo e uno Heads Up separati. Crea una volta e gioca in ogni modalità." },
       { "title": "Fatto per il tuo gruppo", "body": "Battute interne, passioni di nicchia, un compleanno a tema o un argomento di scuola: mazzi che nessun altro ha, su ciò che conoscete davvero." },
-      { "title": "Paghi una volta, niente abbonamento", "body": "Le creazioni IA arrivano in piccoli pacchetti ad acquisto singolo, e Tadado Full Access ne include 20. Niente pubblicità, niente addebiti ricorrenti." }
+      { "title": "Crediti da $1.99", "body": "Acquista crediti IA in pacchetti singoli: 5 a $1.99, 15 a $4.99 o 40 a $9.99. Ogni credito crea un mazzo personalizzato." }
     ],
     "knownAs": "Se hai cercato un generatore di carte Taboo, carte Heads Up personalizzate, un generatore di liste di parole per giochi o come creare carte con ChatGPT, questa è la versione integrata. Invece di copiare una lista nelle note, Tadado trasforma il tuo tema in un mazzo giocabile con timer, punteggio e tre modalità.",
     "aliases": ["Generatore di carte Taboo", "Mazzo Heads Up personalizzato", "Lista di parole IA", "Carte da festa personalizzate", "Crea il tuo mazzo"],
     "faq": [
       { "q": "Come funziona la creazione di mazzi con IA?", "a": "Scrivi uno o più temi, scegli la difficoltà e tocca Crea. In circa 30 secondi l'IA scrive un mazzo completo con parola principale e parole vietate su ogni carta." },
       { "q": "In quali modalità posso giocare un mazzo IA?", "a": "In tutte. Ogni mazzo IA funziona in Parole vietate, Heads Up e Impostore, così cambi modalità senza creare un altro mazzo." },
-      { "q": "Quanto costano i mazzi IA?", "a": "La creazione IA arriva in pacchetti ad acquisto singolo, a partire da uno piccolo da 5 creazioni. Tadado Full Access include tutti i mazzi premium e 20 creazioni IA. Nessun abbonamento; controlla i prezzi locali nello store." },
+      { "q": "Quanto costano i mazzi IA?", "a": "La creazione IA usa crediti. I pacchetti sono 5 crediti a $1.99, 15 a $4.99 o 40 a $9.99, e ogni credito crea un mazzo personalizzato. Controlla lo store per i prezzi locali." },
       { "q": "Posso creare mazzi in italiano?", "a": "Sì. Tadado funziona in 17 lingue e i mazzi IA vengono scritti nella lingua in cui giochi, con nomi, luoghi e cultura pop locali." }
     ]
   }

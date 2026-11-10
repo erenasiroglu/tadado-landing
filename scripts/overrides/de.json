@@ -80,8 +80,8 @@
         "body": "Gib ein beliebiges Thema ein und erhalte sofort ein spielbares Deck. Perfekt für Insider-Witze, Filmabende oder Themenpartys."
       },
       {
-        "title": "Keine Werbung, kein Abo",
-        "body": "Starte gratis mit Tadado Mix. Zahle nur einmal, wenn du extra Themen-Decks oder KI-Deck-Erstellung willst."
+        "title": "Keine Werbung, einfache Preise",
+        "body": "Starte gratis mit Tadado Mix. Teste alle Premium-Decks 3 Tage gratis, danach $3.99 pro Woche. Jederzeit kündbar."
       },
       {
         "title": "17 Sprachen integriert",
@@ -106,7 +106,7 @@
       "Offline spielen",
       "Teams & Timer",
       "Keine Werbung",
-      "Kein Abo"
+      "3 Tage gratis testen"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 Spiel-Decks",
     "free": "Gratis",
     "play": "PLAY",
-    "price": "$0.99",
+    "price": "Premium · 3 Tage gratis, dann $3.99/Woche",
     "newBadge": "NEW",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Kostenlos starten. Mehr freischalten, wenn die Runde wächst.",
-    "subtitle": "Kostenlos herunterladen und sofort losspielen. Premium-Decks oder KI-Pakete per Einmalkauf dazunehmen. Nie ein Abo.",
-    "oneTime": "einmalig",
-    "disclaimer": "Preise in USD; im App Store und bei Google Play können sie je nach Region variieren. Käufe werden von Apple oder Google abgewickelt.",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Gratis herunterladen und sofort mit dem klassischen Starter-Deck spielen."
+    "eyebrow": "Preise",
+    "title": "Kostenlos spielen. Ein einfacher Plan für mehr.",
+    "subtitle": "Tadado Mix ist für alle kostenlos. Premium schaltet jedes Deck frei: 3 Tage gratis testen, danach $3.99 pro Woche. Mit KI-Credits wird jedes Thema zum Deck.",
+    "badges": {
+      "free": "Für immer gratis",
+      "premium": "Alle Decks frei",
+      "trial": "3 Tage gratis",
+      "ai": "KI-Credits"
     },
-    "theme": {
-      "name": "Themen-Decks",
-      "price": "$0.99",
-      "desc": "Einmaliger Kauf pro Deck. Sommer, Kino, Reisen, Sport, Helden & mehr."
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "für alle",
+      "desc": "Ein gemischtes Deck mit Karten aus allen Tadado-Decks, jede Runde fühlt sich anders an. Kein Kauf und kein Konto nötig.",
+      "modesLabel": "In allen 3 Modi spielbar",
+      "features": [
+        "Karten aus allen Decks gemischt",
+        "Keine Werbung",
+        "Offline spielen"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ Woche",
+      "trialNote": "nach 3 Tagen Gratis-Test",
+      "desc": "Alle Premium-Decks bleiben freigeschaltet, solange dein Plan aktiv ist.",
+      "features": [
+        "Alle Premium-Decks: Kino, Sport, Reisen, Genius Only & mehr",
+        "Jedes Deck in allen 3 Modi",
+        "Keine Werbung",
+        "Jederzeit kündbar"
+      ],
+      "timelineLabel": "So funktioniert der Gratis-Test",
+      "timeline": [
+        {
+          "when": "Heute",
+          "what": "Gratis starten. Alle Premium-Decks sofort frei."
+        },
+        {
+          "when": "Tag 3",
+          "what": "Vor Ende des Tests kündigen und nichts bezahlen."
+        },
+        {
+          "when": "Danach",
+          "what": "$3.99 pro Woche, bis du in den Store-Einstellungen kündigst."
+        }
+      ]
     },
     "ai": {
-      "name": "KI-Deck-Erstellung",
-      "price": "$2.99",
-      "desc": "Generiere ein individuelles Deck aus jedem Thema. Spiele in beiden Modi."
+      "title": "Mach jedes Thema zum Deck",
+      "desc": "Gib ein Thema wie „90er-Hits“ oder die Insider-Witze deiner Gruppe ein, und die KI erstellt in Sekunden ein spielbares Deck. Paket einmal kaufen, nutzen, wann du willst.",
+      "rule": "1 KI-Credit = 1 eigenes Deck",
+      "creditsLabel": "Credits",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 pro Deck"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 pro Deck",
+          "badge": "Am beliebtesten",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 pro Deck",
+          "badge": "Bester Preis"
+        }
+      ]
     },
-    "trust": "Keine Werbung · Kein Abo · Käufe jederzeit wiederherstellen"
+    "trust": [
+      "Keine Werbung",
+      "Jederzeit kündbar",
+      "Sicher bezahlen über Apple & Google"
+    ],
+    "disclaimer": "Preise in USD; App Store und Google Play zeigen in deiner Region ggf. lokale Preise. Tadado Premium startet mit 3 Tagen Gratis-Test und verlängert sich danach für $3.99 pro Woche, bis du in den Einstellungen von App Store oder Google Play kündigst. KI-Credit-Pakete sind Einmalkäufe. Zahlungen laufen über Apple oder Google."
   },
   "howItWorks": {
     "title": "So funktioniert's",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Was ist der Unterschied zwischen Taboo und Heads Up?",
-        "a": "Verbotene Wörter ist teambasiertes Taboo: beschreiben ohne verbotene Wörter. Heads Up legt das Handy auf die Stirn, während Freunde Hinweise geben. Beide nutzen dieselben Decks."
+        "a": "Tadado ist für Spieleabende gemacht: Verbotene Wörter im Tabu-Stil, Heads Up und das Bluff-Spiel Hochstapler auf einem Handy. Keine Werbung, Tadado Mix gratis für alle und ein Premium-Plan mit 3 Tagen Gratis-Test."
       },
       {
         "q": "Hat Tadado Werbung?",
-        "a": "Nein. Tadado ist werbefrei. Du zahlst nur für optionale Decks oder KI-Erstellung, wenn du willst."
+        "a": "Ja. Tadado Mix ist für alle kostenlos, mischt Karten aus allen Decks und läuft in allen 3 Modi. Tadado Premium schaltet alle Premium-Decks frei: 3 Tage gratis, danach $3.99 pro Woche. KI-Credits sind optional: 5 für $1.99, 15 für $4.99 oder 40 für $9.99. Details unter Preise."
       },
       {
         "q": "Wie funktioniert die KI-Deck-Erstellung?",
@@ -582,7 +643,7 @@
       },
       {
         "q": "Welche Sprachen werden unterstützt?",
-        "a": "Die App-Oberfläche ist in 17 Sprachen verfügbar, darunter Englisch, Türkisch, Spanisch, Deutsch, Französisch und mehr."
+        "a": "Nein. Tadado ist werbefrei. Du zahlst nur, wenn du Tadado Premium oder KI-Credits wählst."
       }
     ]
   },
@@ -617,9 +678,9 @@
         "others": "no"
       },
       {
-        "feature": "Kein Abo",
+        "feature": "Premium mit 3 Tagen Gratis-Test",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Themen-Deck-Packs",
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Viele Apps fokussieren einen Modus, zeigen Werbung oder sperren Inhalte hinter Abos. Tadado ist für echte Spieleabende mit beiden Modi, einem gratis Starter-Deck und Einmalkäufen gebaut.",
+    "note": "Viele Apps setzen auf nur einen Modus oder zeigen Werbung. Tadado bietet drei Modi, das kostenlose Tadado-Mix-Deck, einen Premium-Plan mit 3 Tagen Gratis-Test und KI-Credits für eigene Decks.",
     "cta": "Tadado gratis herunterladen",
     "viewFull": "Vollständige Vergleichsseite öffnen"
   },

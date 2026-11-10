@@ -80,8 +80,8 @@
         "body": "Nhập bất kỳ chủ đề nào và nhận bộ bài chơi ngay lập tức. Hoàn hảo cho trò đùa nội bộ, đêm xem phim hoặc tiệc theo chủ đề."
       },
       {
-        "title": "Không quảng cáo, không đăng ký",
-        "body": "Bắt đầu miễn phí với Tadado Mix. Chỉ trả một lần nếu bạn muốn thêm bộ bài theo chủ đề hoặc tạo bộ bài AI."
+        "title": "Không quảng cáo, giá đơn giản",
+        "body": "Bắt đầu miễn phí với Tadado Mix. Dùng thử mọi bộ bài premium miễn phí 3 ngày, sau đó $3.99 mỗi tuần. Hủy bất cứ lúc nào."
       },
       {
         "title": "17 ngôn ngữ tích hợp sẵn",
@@ -106,7 +106,7 @@
       "Chơi offline",
       "Đội & hẹn giờ",
       "Không quảng cáo",
-      "Không đăng ký"
+      "Dùng thử miễn phí 3 ngày"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 bộ bài",
     "free": "Miễn phí",
     "play": "CHƠI",
-    "price": "$0.99",
+    "price": "Premium · Miễn phí 3 ngày, sau đó $3.99/tuần",
     "newBadge": "MỚI",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Bắt đầu miễn phí. Mở khóa thêm khi bữa tiệc thêm vui.",
-    "subtitle": "Tải miễn phí và chơi ngay. Thêm bộ bài cao cấp hoặc gói AI bằng giao dịch mua một lần. Không bao giờ có gói đăng ký.",
-    "oneTime": "mua một lần",
-    "disclaimer": "Giá bằng USD và có thể khác theo khu vực trên App Store và Google Play. Mua hàng do Apple hoặc Google xử lý.",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "Miễn phí",
-      "desc": "Tải miễn phí và chơi ngay với bộ bài khởi đầu cổ điển."
+    "eyebrow": "Bảng giá",
+    "title": "Chơi miễn phí. Một gói đơn giản để có thêm.",
+    "subtitle": "Tadado Mix miễn phí cho mọi người. Premium mở khóa mọi bộ bài với 3 ngày dùng thử miễn phí, sau đó $3.99 mỗi tuần. Với tín dụng AI, chủ đề nào cũng thành bộ bài.",
+    "badges": {
+      "free": "Miễn phí mãi mãi",
+      "premium": "Mở mọi bộ bài",
+      "trial": "Miễn phí 3 ngày",
+      "ai": "Tín dụng AI"
     },
-    "theme": {
-      "name": "Bộ bài theo chủ đề",
-      "price": "$0.99",
-      "desc": "Mua một lần mỗi bộ. Summer, Cinema, Travel, Sport, Heroes & hơn thế."
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "cho mọi người",
+      "desc": "Bộ bài trộn với thẻ từ mọi bộ bài của Tadado, mỗi lượt chơi một khác. Không cần mua, không cần tài khoản.",
+      "modesLabel": "Chơi được ở cả 3 chế độ",
+      "features": [
+        "Thẻ trộn từ mọi bộ bài",
+        "Không quảng cáo",
+        "Chơi ngoại tuyến"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ tuần",
+      "trialNote": "sau 3 ngày dùng thử miễn phí",
+      "desc": "Mọi bộ bài premium luôn mở khi gói của bạn còn hiệu lực.",
+      "features": [
+        "Mọi bộ bài premium: Điện ảnh, Thể thao, Du lịch, Genius Only và hơn thế",
+        "Mọi bộ bài ở cả 3 chế độ",
+        "Không quảng cáo",
+        "Hủy bất cứ lúc nào"
+      ],
+      "timelineLabel": "Cách dùng thử miễn phí hoạt động",
+      "timeline": [
+        {
+          "when": "Hôm nay",
+          "what": "Bắt đầu miễn phí. Mọi bộ bài premium mở ngay."
+        },
+        {
+          "when": "Ngày 3",
+          "what": "Hủy trước khi hết dùng thử và bạn không phải trả gì."
+        },
+        {
+          "when": "Sau đó",
+          "what": "$3.99 mỗi tuần cho đến khi bạn hủy trong cài đặt cửa hàng."
+        }
+      ]
     },
     "ai": {
-      "name": "Tạo bộ bài AI",
-      "price": "$2.99",
-      "desc": "Tạo bộ bài tùy chỉnh từ bất kỳ chủ đề nào. Chơi cả hai chế độ."
+      "title": "Biến mọi chủ đề thành bộ bài",
+      "desc": "Nhập một chủ đề như “nhạc hit thập niên 90” hay những câu đùa riêng của nhóm bạn, AI sẽ tạo bộ bài chơi được trong vài giây. Mua gói một lần, dùng bất cứ khi nào.",
+      "rule": "1 tín dụng AI = 1 bộ bài riêng",
+      "creditsLabel": "tín dụng",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 mỗi bộ"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 mỗi bộ",
+          "badge": "Phổ biến nhất",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 mỗi bộ",
+          "badge": "Tiết kiệm nhất"
+        }
+      ]
     },
-    "trust": "Không quảng cáo · Không đăng ký · Khôi phục mua hàng bất cứ lúc nào"
+    "trust": [
+      "Không quảng cáo",
+      "Hủy bất cứ lúc nào",
+      "Thanh toán an toàn qua Apple và Google"
+    ],
+    "disclaimer": "Giá hiển thị bằng USD; App Store và Google Play có thể hiển thị giá địa phương ở khu vực của bạn. Tadado Premium bắt đầu với 3 ngày dùng thử miễn phí, sau đó gia hạn $3.99 mỗi tuần cho đến khi bạn hủy trong cài đặt App Store hoặc Google Play. Gói tín dụng AI là giao dịch mua một lần. Thanh toán do Apple hoặc Google xử lý."
   },
   "howItWorks": {
     "title": "Cách hoạt động",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Khác biệt giữa Taboo và Heads Up?",
-        "a": "Forbidden Words là Taboo theo đội: mô tả không dùng từ cấm. Heads Up đặt điện thoại lên trán trong khi bạn bè đưa gợi ý. Cả hai dùng cùng bộ bài."
+        "a": "Tadado được tạo cho những đêm chơi game: Từ cấm kiểu Taboo, Heads Up và trò lừa Kẻ mạo danh trên một chiếc điện thoại. Không quảng cáo, Tadado Mix miễn phí cho mọi người và gói Premium với 3 ngày dùng thử miễn phí."
       },
       {
         "q": "Tadado có quảng cáo không?",
-        "a": "Không. Tadado không quảng cáo. Bạn chỉ trả cho bộ bài tùy chọn hoặc tạo AI nếu muốn."
+        "a": "Có. Tadado Mix miễn phí cho mọi người, trộn thẻ từ mọi bộ bài và chơi được ở cả 3 chế độ. Tadado Premium mở mọi bộ bài premium với 3 ngày miễn phí, sau đó $3.99 mỗi tuần. Tín dụng AI là tùy chọn: 5 với giá $1.99, 15 với giá $4.99 hoặc 40 với giá $9.99. Xem Bảng giá để biết chi tiết."
       },
       {
         "q": "Tạo bộ bài AI hoạt động thế nào?",
@@ -582,7 +643,7 @@
       },
       {
         "q": "Hỗ trợ những ngôn ngữ nào?",
-        "a": "Giao diện ứng dụng có 17 ngôn ngữ gồm tiếng Anh, Thổ Nhĩ Kỳ, Tây Ban Nha, Đức, Pháp và hơn thế."
+        "a": "Không. Tadado không có quảng cáo. Bạn chỉ trả tiền nếu chọn Tadado Premium hoặc tín dụng AI."
       }
     ]
   },
@@ -617,9 +678,9 @@
         "others": "no"
       },
       {
-        "feature": "Không đăng ký",
+        "feature": "Premium với 3 ngày dùng thử miễn phí",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Gói bộ bài theo chủ đề",
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Nhiều app tập trung một chế độ, hiện quảng cáo hoặc khóa nội dung sau đăng ký. Tadado được xây cho đêm chơi game thật với cả hai chế độ, bộ bài khởi đầu miễn phí và mua thêm trả một lần.",
+    "note": "Nhiều ứng dụng chỉ có một chế độ hoặc hiển thị quảng cáo. Tadado mang đến ba chế độ, bộ bài miễn phí Tadado Mix, một gói Premium với 3 ngày dùng thử miễn phí và tín dụng AI cho bộ bài riêng.",
     "cta": "Tải Tadado miễn phí",
     "viewFull": "Mở trang so sánh đầy đủ"
   },

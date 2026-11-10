@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: Parti Oyunu | Tabu, Alnında Tahmin, Casus ve Yapay Zeka Desteleri",
-    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, Casus ve yapay zeka ile kendi desten. Ücretsiz başla, reklam ve abonelik yok. iOS ve Android."
+    "description": "Tek telefon, tüm ekip. Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, Casus ve yapay zeka ile kendi desten. Ücretsiz başla, reklam yok. iOS ve Android."
   },
   "nav": {
     "play": "Oyna",
@@ -85,8 +85,8 @@
         "body": "Herhangi bir konu yaz, anında oynanabilir deste al. İç şakalar, film geceleri ve temalı partiler için ideal."
       },
       {
-        "title": "Reklamsız, esnek fiyatlandırma",
-        "body": "Tadado Mix ile ücretsiz başla. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık 3,99 $; ya da bir desteyi 1,99 $ karşılığında kalıcı aç."
+        "title": "Reklamsız, sade fiyatlandırma",
+        "body": "Tadado Mix ile ücretsiz başla. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık $3.99. İstediğin zaman iptal et."
       },
       {
         "title": "17 dil dahili",
@@ -111,7 +111,7 @@
       "Çevrimdışı oyna",
       "Takımlar ve süreler",
       "Reklam yok",
-      "Haftalık veya tek seferlik"
+      "3 gün ücretsiz deneme"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Bir sonraki oyun geceniz ücretsiz başlıyor",
     "ctaBody": "Tadado'yu indir, ücretsiz bir desteyi aç ve saniyeler içinde Yasaklı Kelimeler, Alnında Tahmin ya da Casus oyna. Tek telefon yeterli.",
     "ctaButton": "Tadado'yu ücretsiz indir",
-    "freeNote": "Ücretsiz indir · Reklamsız · Haftalık veya tek seferlik",
+    "freeNote": "Ücretsiz indir · Reklamsız · 3 gün ücretsiz Premium",
     "disclaimer": "{game} adı yalnızca bilinen bir oyunu veya oyun biçimini tanımlamak için kullanılmıştır. Tüm markalar sahiplerine aittir; Tadado bu markalarla bağlantılı değildir ve onlar tarafından desteklenmez. {game} hakkındaki notlar klasik oyunu ve tipik sürümleri anlatır; uygulamalar ve baskılar farklılık gösterebilir, mağaza sayfalarını kontrol edin."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: Cadılar Bayramı Parti Oyunları | Tabu, Alnında Tahmin ve Casus",
-    "metaDescription": "Tek telefonda ücretsiz Cadılar Bayramı parti oyunları: 100 kelimelik ürkütücü Tabu destesi, Alnında Tahmin ve yeni Casus modu. Reklam ve abonelik yok. iOS ve Android."
+    "metaDescription": "Tek telefonda ücretsiz Cadılar Bayramı parti oyunları: 100 kelimelik ürkütücü Tabu destesi, Alnında Tahmin ve yeni Casus modu. Reklam yok. iOS ve Android."
   },
   "trust": {
     "eyebrow": "Senin için tasarlandı",
@@ -475,12 +475,12 @@
         "body": "İndir ve hemen bir tur başlat. Oyunun temeli kayıt gerektirmez. Sadece yapay zeka destelerini veya satın alımlarını kaydetmek istersen giriş yaparsın."
       },
       {
-        "title": "Sıfır reklam, sıfır abonelik",
-        "body": "Oyun gecen reklamla bölünmez, arkandan hiçbir şey yenilenmez. Ücretsiz desteler ilk günden itibaren seninle."
+        "title": "Sıfır reklam, net fiyat",
+        "body": "Oyun gecen reklamla bölünmez. Tadado Mix sonsuza kadar ücretsiz; Premium'da her şey baştan belli: 3 gün ücretsiz, sonra haftalık $3.99, istediğin zaman iptal."
       },
       {
-        "title": "Bir kez al, senin olsun",
-        "body": "Her deste ve yapay zeka paketi Apple veya Google hesabına bağlı tek seferlik bir satın alımdır. Cihazlarında istediğin zaman geri yükle."
+        "title": "Satın aldıkların tüm cihazlarında",
+        "body": "Premium ve yapay zeka kredileri Apple veya Google hesabına bağlıdır. Cihazlarında istediğin zaman geri yükle."
       },
       {
         "title": "Ödemeler Apple ve Google'da kalır",
@@ -495,7 +495,7 @@
     "countBadge": "14 oyun destesi",
     "free": "Ücretsiz",
     "play": "OYNA",
-    "price": "59,99 TL",
+    "price": "Premium · 3 gün ücretsiz, sonra haftalık $3.99",
     "newBadge": "YENİ",
     "eventBadge": "ETKİNLİK",
     "hardBadge": "ZOR",
@@ -559,67 +559,87 @@
     }
   },
   "pricing": {
-    "title": "Ücretsiz başla. Parti büyüdükçe daha fazlasını aç.",
-    "subtitle": "Tadado Mix tamamen ücretsiz. Tüm premium desteleri 3 gün ücretsiz dene, sonra haftalık 3,99 $. Tek deste her zamanki gibi tek seferlik. Yapay zeka paketleri listelenen fiyatlarla geçerli.",
-    "oneTime": "tek seferlik",
-    "disclaimer": "Fiyatlar App Store ve Google Play'de bölgeye göre değişebilir. Premium Haftalık 3 gün ücretsizdir, ardından haftalık 3,99 $ olarak yenilenir; mağaza ayarlarından iptal edene kadar devam eder. Tek premium deste standart olarak 1,99 $ (Türkiye'de mağaza TL fiyatı geçerlidir). Tek seferlik satın alımlar kalıcıdır. Ödemeler Apple veya Google üzerinden yapılır.",
-    "trust": "Reklamsız · Satın alımları geri yükle · Haftalığı istediğin zaman iptal et",
+    "eyebrow": "Fiyatlandırma",
+    "title": "Oynaması ücretsiz. Fazlası için tek ve net bir plan.",
+    "subtitle": "Tadado Mix herkes için ücretsiz. Premium, 3 gün ücretsiz denemeyle tüm desteleri açar, sonrası haftalık $3.99. Yapay zeka kredileriyle istediğin konuyu desteye çevirirsin.",
     "badges": {
-      "free": "Ücretsiz indir",
-      "popular": "En popüler",
-      "bestValue": "En iyi tek seferlik",
-      "oneTimeForever": "Bir kez öde, sonsuza kadar senin"
+      "free": "Sonsuza kadar ücretsiz",
+      "premium": "Tüm desteler açık",
+      "trial": "3 gün ücretsiz",
+      "ai": "Yapay zeka kredisi"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Ücretsiz",
-      "desc": "Ücretsiz indir ve klasik başlangıç destesiyle hemen oyna."
+      "price": "$0",
+      "priceNote": "herkes için",
+      "desc": "Tüm Tadado destelerinden kartların karıştığı karma bir deste; her tur farklı geçer. Satın alma ya da hesap gerekmez.",
+      "modesLabel": "3 modun hepsinde oynanır",
+      "features": [
+        "Tüm destelerden karma kartlar",
+        "Reklam yok",
+        "Çevrimdışı oyna"
+      ]
     },
-    "weekly": {
-      "name": "Premium Haftalık",
-      "price": "3 gün ücretsiz",
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
       "suffix": "/ hafta",
-      "desc": "Planın aktif olduğu sürece tüm premium temalı desteler açık kalır.",
-      "decksLine": "14+ premium deste (Cadılar Bayramı, Sinema, Spor, Genius ve daha fazlası)",
-      "cancelLine": "App Store veya Google Play'den istediğin zaman iptal et",
-      "priceAfter": "$3.99"
+      "trialNote": "3 günlük ücretsiz denemeden sonra",
+      "desc": "Planın aktif olduğu sürece tüm premium desteler açık kalır.",
+      "features": [
+        "Tüm premium desteler: Sinema, Spor, Seyahat, Genius Only ve daha fazlası",
+        "Her deste 3 modda da oynanır",
+        "Reklam yok",
+        "İstediğin zaman iptal et"
+      ],
+      "timelineLabel": "Ücretsiz deneme nasıl işler",
+      "timeline": [
+        {
+          "when": "Bugün",
+          "what": "Ücretsiz başla. Tüm premium desteler hemen açılır."
+        },
+        {
+          "when": "3. gün",
+          "what": "Deneme bitmeden iptal edersen hiçbir ücret ödemezsin."
+        },
+        {
+          "when": "Sonrası",
+          "what": "Mağaza ayarlarından iptal edene kadar haftalık $3.99."
+        }
+      ]
     },
-    "aiSectionTitle": "Yapay zeka ile deste oluşturma",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "59,99 TL",
-        "desc": "5 yapay zeka deste oluşturma hakkı — istediğin konudan özel deste."
-      },
-      {
-        "name": "Parti",
-        "price": "149,99 TL",
-        "desc": "15 yapay zeka deste oluşturma hakkı.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "299,99 TL",
-        "desc": "40 yapay zeka deste oluşturma hakkı."
-      }
+    "ai": {
+      "title": "İstediğin konuyu desteye çevir",
+      "desc": "“90’lar Türkçe pop” ya da arkadaş grubunun iç şakaları gibi bir konu yaz, yapay zeka saniyeler içinde oynanabilir bir deste hazırlasın. Paketi bir kez al, istediğin zaman kullan.",
+      "rule": "1 yapay zeka kredisi = 1 özel deste",
+      "creditsLabel": "kredi",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "deste başına $0.40"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "deste başına $0.33",
+          "badge": "En popüler",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "deste başına $0.25",
+          "badge": "En avantajlı"
+        }
+      ]
+    },
+    "trust": [
+      "Reklam yok",
+      "İstediğin zaman iptal et",
+      "Apple ve Google ile güvenli ödeme"
     ],
-    "decksSectionTitle": "Premium desteler",
-    "singleDeck": {
-      "name": "Tek premium deste",
-      "price": "59,99 TL",
-      "desc": "Deste başına tek seferlik — Cadılar Bayramı, Ofis, Markalar, Hayvanlar, Arabalar, Friendsgiving, Yaz, Sinema, Seyahat, Spor, Kahramanlar, Gece Oyunları, Genius Only ve daha fazlası."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "499,99 TL",
-      "desc": "Tüm premium temalı desteler ve 20 yapay zeka deste oluşturma hakkı, tek seferlik ödemeyle sonsuza kadar senin.",
-      "aiCredits": "20 yapay zeka deste oluşturma hakkı dahil",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "Kasım fırsatı",
-      "note": "Kasım’a özel: 3 gün ücretsiz, sonra tüm premium desteler için haftalık 3,99 $. Tek deste her zamanki gibi 1,99 $."
-    }
+    "disclaimer": "Fiyatlar USD olarak gösterilir; App Store ve Google Play bölgene göre yerel fiyat gösterebilir. Tadado Premium 3 gün ücretsiz denemeyle başlar, ardından App Store veya Google Play ayarlarından iptal edene kadar haftalık $3.99 olarak yenilenir. Yapay zeka kredi paketleri tek seferlik satın alımdır. Ödemeler Apple veya Google üzerinden yapılır."
   },
   "howItWorks": {
     "title": "Nasıl çalışır",
@@ -752,7 +772,7 @@
     "title": "Pazarlama ve basın",
     "subtitle": "İçerik üreticileri, marka desteleri ve Tadado basın materyalleri.",
     "back": "Tadado'ya dön",
-    "intro": "Tadado gerçek gruplar için bir parti oyunu uygulaması: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda, reklamsız; ücretsiz başlangıç ve isteğe bağlı haftalık veya tek seferlik açılımlar. İçerik, iş birliği ya da haber planlıyorsan buradan başla.",
+    "intro": "Tadado gerçek gruplar için bir parti oyunu uygulaması: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda, reklamsız; ücretsiz Tadado Mix destesi, isteğe bağlı Premium plan ve yapay zeka kredileri. İçerik, iş birliği ya da haber planlıyorsan buradan başla.",
     "statsLabel": "Özet",
     "stats": [
       {
@@ -858,11 +878,11 @@
       },
       {
         "q": "Tadado en iyi ücretsiz parti oyunu uygulamalarından biri mi?",
-        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin, Casus, ücretsiz başlangıç destesi, isteğe bağlı premium desteler ve yapay zeka ile deste oluşturma. Reklam yok; haftalık veya tek seferlik seçeneklerle açılır."
+        "a": "Tadado oyun geceleri için yapıldı: Tabu tarzı Yasaklı Kelimeler, Alnında Tahmin ve Casus tek telefonda. Reklam yok; Tadado Mix destesi herkese ücretsiz, Premium planı da 3 gün ücretsiz denemeyle başlar."
       },
       {
         "q": "Tadado ücretsiz mi?",
-        "a": "Evet. Tadado Mix ücretsiz oynanır. Premium desteler isteğe bağlıdır: 3 gün ücretsiz haftalık plan, tek deste, Full Access veya yapay zeka paketleri. Ayrıntılar için Fiyatlar bölümüne bak."
+        "a": "Evet. Tadado Mix herkes için ücretsiz; tüm destelerden kartları karıştırır ve 3 modun hepsinde oynanır. Tadado Premium tüm premium desteleri 3 gün ücretsiz denemeyle açar, sonrası haftalık $3.99. Yapay zeka kredileri isteğe bağlıdır: 5 kredi $1.99, 15 kredi $4.99, 40 kredi $9.99. Ayrıntılar için Fiyatlandırma bölümüne bak."
       },
       {
         "q": "Tabu ile Alnında Tahmin arasındaki fark nedir?",
@@ -870,7 +890,7 @@
       },
       {
         "q": "Tadado'da reklam var mı?",
-        "a": "Hayır. Tadado reklamsızdır. Yalnızca isteğe bağlı desteler veya yapay zeka oluşturma için ödeme yaparsın."
+        "a": "Hayır. Tadado reklamsızdır. Yalnızca Tadado Premium'u ya da yapay zeka kredisini seçersen ödeme yaparsın."
       },
       {
         "q": "Yapay zeka ile deste oluşturma nasıl çalışır?",
@@ -913,12 +933,12 @@
         "others": "no"
       },
       {
-        "feature": "Tek seferlik Full Access (tüm desteler)",
+        "feature": "İhtiyacın kadar yapay zeka kredisi",
         "tadado": "yes",
         "others": "no"
       },
       {
-        "feature": "Ücretsiz denemeli haftalık plan",
+        "feature": "3 gün ücretsiz denemeli Premium",
         "tadado": "yes",
         "others": "partial"
       },
@@ -938,7 +958,7 @@
         "others": "no"
       }
     ],
-    "note": "Birçok uygulama tek moda odaklanır, reklam gösterir ya da aboneliğe zorlar. Tadado üç mod, ücretsiz başlangıç destesi, denemeli haftalık plan ve tek seferlik seçenekler sunar.",
+    "note": "Birçok uygulama tek moda odaklanır ya da reklam gösterir. Tadado üç mod, ücretsiz Tadado Mix destesi, 3 gün ücretsiz denemeli tek bir Premium plan ve özel desteler için yapay zeka kredileri sunar.",
     "cta": "Tadado'yu ücretsiz indir",
     "viewFull": "Tam karşılaştırma sayfasını aç"
   },
@@ -1153,7 +1173,7 @@
       },
       {
         "q": "Tadado Cadılar Bayramı destesi ücretsiz mi?",
-        "a": "Evet. Cadılar Bayramı destesi 100 kelimesiyle tüm oyunculara ücretsiz. Reklam ve abonelik yok."
+        "a": "Evet. Cadılar Bayramı destesi 100 kelimesiyle tüm oyunculara ücretsiz. Reklam yok."
       },
       {
         "q": "Kaç kişi oynayabilir?",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: لعبة الحفلات | الكلمات المحظورة وHeads Up والمحتال ومجموعات الذكاء الاصطناعي",
-    "description": "هاتف واحد وأصدقاؤك. الكلمات المحظورة وHeads Up والمحتال ومجموعات بطاقات بالذكاء الاصطناعي لسهرات الألعاب. ابدأ مجانًا، بلا إعلانات ولا اشتراكات. iOS وAndroid."
+    "description": "هاتف واحد وأصدقاؤك. الكلمات المحظورة وHeads Up والمحتال ومجموعات بطاقات بالذكاء الاصطناعي لسهرات الألعاب. ابدأ مجانًا، بلا إعلانات. iOS وAndroid."
   },
   "nav": {
     "play": "العب",
@@ -85,8 +85,8 @@
         "body": "اكتب أي موضوع واحصل على مجموعة جاهزة للعب فورًا. مثالي للنكات الداخلية وأمسيات الأفلام والحفلات."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "بدون إعلانات، أسعار بسيطة",
+        "body": "ابدأ مجانًا مع Tadado Mix. جرّب كل المجموعات المميزة مجانًا لمدة 3 أيام، ثم $3.99 أسبوعيًا. ألغِ في أي وقت."
       },
       {
         "title": "17 لغة مدمجة",
@@ -111,7 +111,7 @@
       "لعب دون اتصال",
       "فرق ومؤقتات",
       "بدون إعلانات",
-      "Weekly or one-time unlocks"
+      "تجربة مجانية لمدة 3 أيام"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "سهرة الألعاب القادمة تبدأ مجانًا",
     "ctaBody": "نزّل Tadado وافتح مجموعة مجانية والعب الكلمات المحظورة أو Heads Up أو المحتال خلال ثوانٍ. هاتف واحد يكفي.",
     "ctaButton": "حمّل Tadado مجانًا",
-    "freeNote": "تحميل مجاني · بدون إعلانات · بدون اشتراك",
+    "freeNote": "تنزيل مجاني · بدون إعلانات · 3 أيام Premium مجانًا",
     "disclaimer": "يُذكر اسم {game} فقط لوصف لعبة أو طريقة لعب معروفة. جميع العلامات التجارية مملوكة لأصحابها، وTadado غير تابع لهم ولا يحظى بتأييدهم. الملاحظات حول {game} تصف الطريقة الكلاسيكية والإصدارات الشائعة، وقد تختلف التطبيقات والإصدارات، لذا راجع صفحة كل متجر."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: ألعاب حفلات الهالوين | تابو وHeads Up والمحتال",
-    "metaDescription": "ألعاب هالوين مجانية على هاتف واحد: مجموعة تابو مرعبة من 100 كلمة وHeads Up ووضع المحتال الجديد. بلا إعلانات ولا اشتراك. iOS وAndroid."
+    "metaDescription": "ألعاب هالوين مجانية على هاتف واحد: مجموعة تابو مرعبة من 100 كلمة وHeads Up ووضع المحتال الجديد. بلا إعلانات. iOS وAndroid."
   },
   "trust": {
     "eyebrow": "صُمّم من أجلك",
@@ -475,12 +475,12 @@
         "body": "حمّل التطبيق وابدأ جولة فورًا. اللعبة الأساسية لا تحتاج إلى تسجيل، ولا تسجّل الدخول إلا إذا أردت حفظ مجموعات الذكاء الاصطناعي أو المشتريات."
       },
       {
-        "title": "صفر إعلانات، صفر اشتراكات",
-        "body": "لا إعلانات تقاطع سهرة ألعابك ولا شيء يتجدد من وراء ظهرك. المجموعات المجانية متاحة من اليوم الأول."
+        "title": "صفر إعلانات، أسعار واضحة",
+        "body": "لا إعلانات تقطع ليلة الألعاب. Tadado Mix مجاني للأبد، وPremium واضح من البداية: 3 أيام مجانًا ثم $3.99 أسبوعيًا، مع إمكانية الإلغاء في أي وقت."
       },
       {
-        "title": "اشترِ مرة واحتفظ به",
-        "body": "كل مجموعة وكل باقة ذكاء اصطناعي شراء لمرة واحدة مرتبط بحسابك على Apple أو Google. استعده على أجهزتك في أي وقت."
+        "title": "مشترياتك على كل أجهزتك",
+        "body": "يرتبط Premium وأرصدة الذكاء الاصطناعي بحسابك في Apple أو Google. استعدها على أجهزتك في أي وقت."
       },
       {
         "title": "المدفوعات تبقى لدى Apple وGoogle",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "مجاني",
     "play": "العب",
-    "price": "$1.99",
+    "price": "Premium · 3 أيام مجانًا ثم $3.99/أسبوع",
     "newBadge": "جديد",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "الأسعار",
+    "title": "العب مجانًا. وخطة واحدة بسيطة للمزيد.",
+    "subtitle": "Tadado Mix مجاني للجميع. يفتح Premium كل المجموعات مع تجربة مجانية لمدة 3 أيام، ثم $3.99 أسبوعيًا. ومع أرصدة الذكاء الاصطناعي يصبح أي موضوع مجموعة.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "مجاني للأبد",
+      "premium": "كل المجموعات مفتوحة",
+      "trial": "3 أيام مجانًا",
+      "ai": "أرصدة AI"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "للجميع",
+      "desc": "مجموعة مختلطة ببطاقات من كل مجموعات Tadado، فتبدو كل جولة مختلفة. بلا شراء وبلا حساب.",
+      "modesLabel": "تُلعب في الأوضاع الثلاثة",
+      "features": [
+        "بطاقات مختلطة من كل المجموعات",
+        "بدون إعلانات",
+        "العب دون اتصال"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ أسبوع",
+      "trialNote": "بعد تجربة مجانية لمدة 3 أيام",
+      "desc": "تبقى كل المجموعات المميزة مفتوحة ما دامت خطتك فعّالة.",
+      "features": [
+        "كل المجموعات المميزة: سينما ورياضة وسفر وGenius Only وغيرها",
+        "كل مجموعة في الأوضاع الثلاثة",
+        "بدون إعلانات",
+        "ألغِ في أي وقت"
+      ],
+      "timelineLabel": "كيف تعمل التجربة المجانية",
+      "timeline": [
+        {
+          "when": "اليوم",
+          "what": "ابدأ مجانًا. تُفتح كل المجموعات المميزة فورًا."
+        },
+        {
+          "when": "اليوم 3",
+          "what": "ألغِ قبل انتهاء التجربة ولن تدفع شيئًا."
+        },
+        {
+          "when": "بعد ذلك",
+          "what": "$3.99 أسبوعيًا حتى تلغي من إعدادات المتجر."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 عمليات إنشاء بالذكاء الاصطناعي — مجموعات مخصصة لأي موضوع."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 عملية إنشاء بالذكاء الاصطناعي لليالي اللعب المنتظمة.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 عملية إنشاء بالذكاء الاصطناعي لمن لا تنفد أفكاره أبدًا."
-      }
+    "ai": {
+      "title": "حوّل أي موضوع إلى مجموعة",
+      "desc": "اكتب موضوعًا مثل «أغاني التسعينيات» أو نكات شلّتك الخاصة، وسينشئ الذكاء الاصطناعي مجموعة جاهزة للعب خلال ثوانٍ. اشترِ الحزمة مرة واحدة واستخدمها متى شئت.",
+      "rule": "1 رصيد AI = 1 مجموعة مخصصة",
+      "creditsLabel": "رصيد",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 لكل مجموعة"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 لكل مجموعة",
+          "badge": "الأكثر شيوعًا",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 لكل مجموعة",
+          "badge": "الأوفر"
+        }
+      ]
+    },
+    "trust": [
+      "بدون إعلانات",
+      "ألغِ في أي وقت",
+      "دفع آمن عبر Apple وGoogle"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "الأسعار بالدولار الأمريكي، وقد يعرض App Store وGoogle Play أسعارًا محلية في منطقتك. يبدأ Tadado Premium بتجربة مجانية لمدة 3 أيام، ثم يتجدد بسعر $3.99 أسبوعيًا حتى تلغيه من إعدادات App Store أو Google Play. حزم أرصدة الذكاء الاصطناعي مشتريات لمرة واحدة. تتم المدفوعات عبر Apple أو Google."
   },
   "howItWorks": {
     "title": "كيف يعمل",
@@ -771,11 +791,11 @@
       },
       {
         "q": "هل Tadado من أفضل تطبيقات ألعاب الحفلات المجانية؟",
-        "a": "صُمّم Tadado لسهرات الألعاب: الكلمات المحظورة على طريقة تابو وHeads Up ولعبة الخداع المحتال ومجموعات مجانية ومجموعات بمواضيع اختيارية وإنشاء مجموعات بالذكاء الاصطناعي. ومن دون إعلانات أو اشتراك، فهو من أوفر تطبيقات الحفلات على iOS وAndroid."
+        "a": "صُمم Tadado لليالي الألعاب: الكلمات المحظورة على طريقة تابو وHeads Up ولعبة الخداع المحتال على هاتف واحد. بدون إعلانات، وTadado Mix مجاني للجميع، وخطة Premium بتجربة مجانية لمدة 3 أيام."
       },
       {
         "q": "هل Tadado مجاني؟",
-        "a": "نعم. Tadado Mix مجاني. المجموعات الموضوعية وإنشاء مجموعات AI مشتريات لمرة واحدة. راجع الأسعار للتفاصيل. لا يوجد اشتراك."
+        "a": "نعم. Tadado Mix مجاني للجميع، يمزج بطاقات من كل المجموعات ويُلعب في الأوضاع الثلاثة. يفتح Tadado Premium كل المجموعات المميزة بتجربة مجانية لمدة 3 أيام، ثم $3.99 أسبوعيًا. أرصدة الذكاء الاصطناعي اختيارية: 5 بسعر $1.99 أو 15 بسعر $4.99 أو 40 بسعر $9.99. راجع الأسعار للتفاصيل."
       },
       {
         "q": "ما الفرق بين Taboo وHeads Up؟",
@@ -783,7 +803,7 @@
       },
       {
         "q": "هل يحتوي Tadado على إعلانات؟",
-        "a": "لا. Tadado بدون إعلانات. تدفع فقط للمجموعات الاختيارية أو إنشاء AI إذا اخترت."
+        "a": "لا. Tadado بدون إعلانات. تدفع فقط إذا اخترت Tadado Premium أو أرصدة الذكاء الاصطناعي."
       },
       {
         "q": "كيف يعمل إنشاء المجموعات بالذكاء الاصطناعي؟",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "بدون اشتراك",
+        "feature": "Premium بتجربة مجانية لمدة 3 أيام",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "حزم مجموعات موضوعية",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "تركّز تطبيقات كثيرة على وضع واحد أو تعرض إعلانات. يمنحك Tadado ثلاثة أوضاع، ومجموعة Tadado Mix المجانية، وخطة Premium واحدة بتجربة مجانية لمدة 3 أيام، وأرصدة AI للمجموعات المخصصة.",
     "cta": "نزّل Tadado مجانًا",
     "viewFull": "افتح صفحة المقارنة الكاملة"
   },
@@ -982,7 +1002,7 @@
     "title": "التسويق والصحافة",
     "subtitle": "حملات صناع المحتوى ومجموعات العلامات التجارية ومواد صحفية عن Tadado.",
     "back": "العودة إلى Tadado",
-    "intro": "Tadado تطبيق ألعاب حفلات للمجموعات الحقيقية: الكلمات المحظورة على طريقة تابو وHeads Up والمحتال على هاتف واحد، بلا إعلانات ولا اشتراكات. إن كنت تخطط لمحتوى أو تعاون أو مقال، فابدأ من هنا.",
+    "intro": "Tadado تطبيق ألعاب حفلات للمجموعات الحقيقية: الكلمات المحظورة على طريقة تابو وHeads Up والمحتال على هاتف واحد، بلا إعلانات، مع مجموعة Tadado Mix المجانية وخطة Premium اختيارية وأرصدة AI. إن كنت تخطط لمحتوى أو تعاون أو مقال، فابدأ من هنا.",
     "statsLabel": "لمحة سريعة",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "هل مجموعة الهالوين في Tadado مجانية؟",
-        "a": "نعم. مجموعة الهالوين مجانية للجميع وتضم 100 كلمة هالوين. بلا إعلانات ولا اشتراك."
+        "a": "نعم. مجموعة الهالوين مجانية للجميع وتضم 100 كلمة هالوين. بلا إعلانات."
       },
       {
         "q": "كم شخصًا يمكنه اللعب؟",

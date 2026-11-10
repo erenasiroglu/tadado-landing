@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado：パーティーゲームアプリ | 禁止ワード・Heads Up・インポスター・AIデッキ",
-    "description": "スマホ1台と仲間がいればOK。禁止ワード、Heads Up、インポスター、AIデッキでゲームナイトを。無料で始められて、広告もサブスクもなし。iOS・Android対応。"
+    "description": "スマホ1台と仲間がいればOK。禁止ワード、Heads Up、インポスター、AIデッキでゲームナイトを。無料で始められて、広告なし。iOS・Android対応。"
   },
   "nav": {
     "play": "プレイ",
@@ -85,8 +85,8 @@
         "body": "トピックを入力するだけで、すぐにプレイ可能なデッキが完成。内輪ネタ、映画の夜、テーマパーティーに最適。"
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "広告なし、シンプルな料金",
+        "body": "Tadado Mixで無料スタート。すべてのプレミアムデッキを3日間無料で試せて、その後は週$3.99。いつでも解約できます。"
       },
       {
         "title": "17言語内蔵",
@@ -111,7 +111,7 @@
       "オフラインプレイ",
       "チーム＆タイマー",
       "広告なし",
-      "Weekly or one-time unlocks"
+      "3日間無料トライアル"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "次のゲームナイトは無料で始めよう",
     "ctaBody": "Tadadoをダウンロードして無料デッキを開けば、数秒で禁止ワード、Heads Up、インポスターが遊べます。スマホ1台で十分です。",
     "ctaButton": "Tadado を無料でダウンロード",
-    "freeNote": "無料ダウンロード · 広告なし · サブスクなし",
+    "freeNote": "無料ダウンロード · 広告なし · Premium 3日間無料",
     "disclaimer": "{game}という名称は、よく知られたゲームや遊び方を説明するためだけに使用しています。すべての商標はそれぞれの権利者に帰属し、Tadado はそれらと提携・承認関係にありません。{game}に関する説明は一般的な遊び方と代表的なバージョンに基づくもので、アプリや版によって異なる場合があります。各ストアの説明をご確認ください。"
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado：ハロウィンのパーティーゲーム | 禁止ワード・Heads Up・インポスター",
-    "metaDescription": "スマホ1台で遊べる無料ハロウィンゲーム。100ワードの怖い禁止ワードデッキ、Heads Up、新しいインポスターモード。広告・サブスクなし。iOS・Android対応。"
+    "metaDescription": "スマホ1台で遊べる無料ハロウィンゲーム。100ワードの怖い禁止ワードデッキ、Heads Up、新しいインポスターモード。広告なし。iOS・Android対応。"
   },
   "trust": {
     "eyebrow": "あなたのために",
@@ -475,12 +475,12 @@
         "body": "ダウンロードしてすぐにゲーム開始。基本のゲームは登録不要です。AIデッキや購入を保存したいときだけサインインしてください。"
       },
       {
-        "title": "広告ゼロ、サブスクゼロ",
-        "body": "ゲームナイトを広告が邪魔することはなく、勝手に更新されるものもありません。無料デッキも最初から入っています。"
+        "title": "広告ゼロ、わかりやすい料金",
+        "body": "ゲームナイトを広告が邪魔することはありません。Tadado Mixはずっと無料。Premiumも最初から明確です：3日間無料、その後週$3.99、いつでも解約OK。"
       },
       {
-        "title": "一度買えば、ずっとあなたのもの",
-        "body": "デッキもAIパックもApple/Googleアカウントに紐づく買い切り。いつでも端末で復元できます。"
+        "title": "購入はすべての端末で",
+        "body": "PremiumとAIクレジットはAppleまたはGoogleのアカウントに紐づきます。いつでも端末で復元できます。"
       },
       {
         "title": "支払いはAppleとGoogleが処理",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "無料",
     "play": "プレイ",
-    "price": "$1.99",
+    "price": "Premium · 3日間無料、その後週$3.99",
     "newBadge": "新着",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "料金",
+    "title": "無料で遊べる。もっと楽しむなら、シンプルなプランひとつ。",
+    "subtitle": "Tadado Mixは誰でも無料。Premiumなら3日間の無料トライアル後、週$3.99で全デッキが遊び放題。AIクレジットで、どんなテーマもデッキになります。",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "ずっと無料",
+      "premium": "全デッキ解放",
+      "trial": "3日間無料",
+      "ai": "AIクレジット"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "誰でも",
+      "desc": "Tadadoの全デッキからカードを集めたミックスデッキ。毎ラウンド違う楽しさ。購入もアカウントも不要です。",
+      "modesLabel": "3つのモードすべてで遊べる",
+      "features": [
+        "全デッキのカードをミックス",
+        "広告なし",
+        "オフラインで遊べる"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ 週",
+      "trialNote": "3日間の無料トライアル後",
+      "desc": "プランが有効な間、すべてのプレミアムデッキが解放されます。",
+      "features": [
+        "すべてのプレミアムデッキ：映画、スポーツ、旅行、Genius Onlyなど",
+        "どのデッキも3つのモードで",
+        "広告なし",
+        "いつでも解約OK"
+      ],
+      "timelineLabel": "無料トライアルのしくみ",
+      "timeline": [
+        {
+          "when": "今日",
+          "what": "無料でスタート。すべてのプレミアムデッキがすぐ解放。"
+        },
+        {
+          "when": "3日目",
+          "what": "トライアル終了前に解約すれば料金はかかりません。"
+        },
+        {
+          "when": "その後",
+          "what": "ストアの設定で解約するまで週$3.99。"
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "AIデッキ作成5回 — どんなテーマでもオリジナルデッキに。"
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "AIデッキ作成15回 — ゲームナイトを定期的に開く人に。",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "AIデッキ作成40回 — アイデアが尽きないホストに。"
-      }
+    "ai": {
+      "title": "どんなテーマもデッキに",
+      "desc": "「90年代ヒット曲」や仲間内のネタなどテーマを入力すれば、AIが数秒で遊べるデッキを作成。パックは一度買えば好きなときに使えます。",
+      "rule": "AIクレジット1 = オリジナルデッキ1つ",
+      "creditsLabel": "クレジット",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "1デッキあたり$0.40"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "1デッキあたり$0.33",
+          "badge": "一番人気",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "1デッキあたり$0.25",
+          "badge": "最もお得"
+        }
+      ]
+    },
+    "trust": [
+      "広告なし",
+      "いつでも解約OK",
+      "AppleとGoogleで安全な支払い"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "価格は米ドル表示です。App StoreとGoogle Playでは地域の現地価格が表示される場合があります。Tadado Premiumは3日間の無料トライアルから始まり、App StoreまたはGoogle Playの設定で解約するまで週$3.99で自動更新されます。AIクレジットパックは買い切りです。支払いはAppleまたはGoogleが処理します。"
   },
   "howItWorks": {
     "title": "使い方",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Tadadoはおすすめの無料パーティーゲームアプリですか？",
-        "a": "Tadadoはゲームナイトのために作られています。タブー風の禁止ワード、Heads Up、ブラフゲームのインポスター、無料デッキ、オプションのテーマデッキ、AIデッキ作成まで。広告もサブスクもなく、iOSとAndroidで最もお得なパーティーアプリのひとつです。"
+        "a": "Tadadoはゲームナイトのために作られました。タブー風の禁止ワード、Heads Up、ブラフゲームのインポスターをスマホ1台で。広告なし、Tadado Mixは誰でも無料、Premiumプランは3日間無料で試せます。"
       },
       {
         "q": "Tadadoは無料？",
-        "a": "はい。Tadado Mixは無料でプレイ可能。テーマデッキとAIデッキ作成は買い切り。詳細は料金ページ。サブスクはありません。"
+        "a": "はい。Tadado Mixは誰でも無料で、全デッキのカードをミックスし、3つのモードすべてで遊べます。Tadado Premiumは3日間無料、その後週$3.99ですべてのプレミアムデッキを解放。AIクレジットは任意で、5回分$1.99、15回分$4.99、40回分$9.99です。詳しくは料金をご覧ください。"
       },
       {
         "q": "TabooとHeads Upの違いは？",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Tadadoに広告はある？",
-        "a": "いいえ。Tadadoは広告なし。オプションのデッキやAI作成を選んだ場合のみ課金。"
+        "a": "いいえ。Tadadoは広告なしです。Tadado PremiumまたはAIクレジットを選んだときだけ支払いが発生します。"
       },
       {
         "q": "AIデッキ作成はどんな仕組みですか？",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "サブスクなし",
+        "feature": "3日間無料トライアル付きPremium",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "テーマデッキパック",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "多くのアプリはモードがひとつだけだったり、広告が表示されたりします。Tadadoなら3つのモード、無料のTadado Mixデッキ、3日間無料のPremiumプラン、オリジナルデッキ用のAIクレジットがそろっています。",
     "cta": "Tadadoを無料ダウンロード",
     "viewFull": "比較ページを開く"
   },
@@ -982,7 +1002,7 @@
     "title": "マーケティングとプレス",
     "subtitle": "クリエイター施策、ブランドデッキ、Tadadoのプレス素材。",
     "back": "Tadadoに戻る",
-    "intro": "Tadadoは仲間で遊ぶためのパーティーゲームアプリです。タブー風の禁止ワード、Heads Up、インポスターをスマホ1台で、広告もサブスクもなし。コンテンツ制作やコラボ、記事を企画中の方はこちらから。",
+    "intro": "Tadadoは仲間で遊ぶためのパーティーゲームアプリです。タブー風の禁止ワード、Heads Up、インポスターをスマホ1台で、広告なし。無料のTadado Mixデッキに加えて、任意のPremiumプランとAIクレジットがあります。コンテンツ制作やコラボ、記事を企画中の方はこちらから。",
     "statsLabel": "概要",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Tadadoのハロウィンデッキは無料ですか？",
-        "a": "はい。ハロウィンデッキは誰でも無料で、100のハロウィンワードが入っています。広告もサブスクもありません。"
+        "a": "はい。ハロウィンデッキは誰でも無料で、100のハロウィンワードが入っています。広告もありません。"
       },
       {
         "q": "何人で遊べますか？",

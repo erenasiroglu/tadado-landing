@@ -80,8 +80,8 @@
         "body": "Ketik topik apa pun dan dapatkan deste siap main seketika. Sempurna untuk lelucon internal, malam film, atau pesta bertema."
       },
       {
-        "title": "Tanpa iklan, tanpa langganan",
-        "body": "Mulai gratis dengan Tadado Mix. Bayar sekali saja jika kamu ingin deste bertema ekstra atau pembuatan deste AI."
+        "title": "Tanpa iklan, harga sederhana",
+        "body": "Mulai gratis dengan Tadado Mix. Coba semua deste premium gratis 3 hari, lalu $3.99 per minggu. Batalkan kapan saja."
       },
       {
         "title": "17 bahasa bawaan",
@@ -106,7 +106,7 @@
       "Main offline",
       "Tim & timer",
       "Tanpa iklan",
-      "Tanpa langganan"
+      "Uji coba gratis 3 hari"
     ]
   },
   "personalization": {
@@ -366,7 +366,7 @@
     "countBadge": "8 deste permainan",
     "free": "Gratis",
     "play": "MAIN",
-    "price": "$0.99",
+    "price": "Premium · Gratis 3 hari, lalu $3.99/minggu",
     "newBadge": "BARU",
     "items": {
       "mix": {
@@ -400,26 +400,87 @@
     }
   },
   "pricing": {
-    "title": "Mulai gratis. Buka lebih banyak saat pesta makin seru.",
-    "subtitle": "Unduh gratis dan langsung main. Tambahkan dek premium atau paket AI dengan sekali beli. Tanpa langganan, selamanya.",
-    "oneTime": "sekali beli",
-    "disclaimer": "Harga dalam USD dan dapat bervariasi menurut wilayah di App Store dan Google Play. Pembelian ditangani Apple atau Google.",
-    "mix": {
-      "name": "Tadado Mix",
-      "price": "Gratis",
-      "desc": "Unduh gratis dan main segera dengan deste starter klasik."
+    "eyebrow": "Harga",
+    "title": "Gratis dimainkan. Satu paket sederhana untuk lebih.",
+    "subtitle": "Tadado Mix gratis untuk semua. Premium membuka semua deste dengan uji coba gratis 3 hari, lalu $3.99 per minggu. Dengan kredit AI, topik apa pun jadi deste.",
+    "badges": {
+      "free": "Gratis selamanya",
+      "premium": "Semua deste terbuka",
+      "trial": "Gratis 3 hari",
+      "ai": "Kredit AI"
     },
-    "theme": {
-      "name": "Deste bertema",
-      "price": "$0.99",
-      "desc": "Pembelian sekali per deste. Summer, Cinema, Travel, Sport, Heroes & lainnya."
+    "free": {
+      "name": "Tadado Mix",
+      "price": "$0",
+      "priceNote": "untuk semua",
+      "desc": "Deste campuran berisi kartu dari semua deste Tadado, jadi tiap ronde terasa beda. Tanpa pembelian dan tanpa akun.",
+      "modesLabel": "Bisa dimainkan di ketiga mode",
+      "features": [
+        "Kartu campuran dari semua deste",
+        "Tanpa iklan",
+        "Main offline"
+      ]
+    },
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ minggu",
+      "trialNote": "setelah uji coba gratis 3 hari",
+      "desc": "Semua deste premium tetap terbuka selama paketmu aktif.",
+      "features": [
+        "Semua deste premium: Film, Olahraga, Travel, Genius Only & lainnya",
+        "Setiap deste di ketiga mode",
+        "Tanpa iklan",
+        "Batalkan kapan saja"
+      ],
+      "timelineLabel": "Cara kerja uji coba gratis",
+      "timeline": [
+        {
+          "when": "Hari ini",
+          "what": "Mulai gratis. Semua deste premium langsung terbuka."
+        },
+        {
+          "when": "Hari ke-3",
+          "what": "Batalkan sebelum uji coba berakhir dan kamu tidak membayar apa pun."
+        },
+        {
+          "when": "Setelahnya",
+          "what": "$3.99 per minggu sampai kamu membatalkan di pengaturan toko."
+        }
+      ]
     },
     "ai": {
-      "name": "Pembuatan deste AI",
-      "price": "$2.99",
-      "desc": "Hasilkan deste kustom dari topik apa pun. Main di kedua mode permainan."
+      "title": "Ubah topik apa pun jadi deste",
+      "desc": "Ketik topik seperti “lagu hits 90-an” atau lelucon internal gengmu, dan AI membuat deste siap main dalam hitungan detik. Beli paket sekali, pakai kapan pun.",
+      "rule": "1 kredit AI = 1 deste kustom",
+      "creditsLabel": "kredit",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 per deste"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 per deste",
+          "badge": "Paling populer",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 per deste",
+          "badge": "Paling hemat"
+        }
+      ]
     },
-    "trust": "Tanpa iklan · Tanpa langganan · Pulihkan pembelian kapan saja"
+    "trust": [
+      "Tanpa iklan",
+      "Batalkan kapan saja",
+      "Pembayaran aman via Apple & Google"
+    ],
+    "disclaimer": "Harga dalam USD; App Store dan Google Play dapat menampilkan harga lokal di wilayahmu. Tadado Premium dimulai dengan uji coba gratis 3 hari, lalu diperpanjang $3.99 per minggu sampai kamu membatalkan di pengaturan App Store atau Google Play. Paket kredit AI adalah pembelian sekali bayar. Pembayaran diproses oleh Apple atau Google."
   },
   "howItWorks": {
     "title": "Cara kerjanya",
@@ -570,11 +631,11 @@
       },
       {
         "q": "Apa perbedaan Taboo dan Heads Up?",
-        "a": "Forbidden Words adalah Taboo berbasis tim: jelaskan tanpa kata terlarang. Heads Up menempelkan ponsel di dahimu sementara teman memberi petunjuk. Keduanya memakai deste yang sama."
+        "a": "Tadado dibuat untuk malam permainan: Kata Terlarang ala Taboo, Heads Up, dan permainan gertakan Penipu di satu ponsel. Tanpa iklan, Tadado Mix gratis untuk semua, dan paket Premium dengan uji coba gratis 3 hari."
       },
       {
         "q": "Apakah Tadado punya iklan?",
-        "a": "Tidak. Tadado bebas iklan. Kamu hanya membayar untuk deste opsional atau pembuatan AI jika kamu mau."
+        "a": "Ya. Tadado Mix gratis untuk semua, mencampur kartu dari semua deste, dan bisa dimainkan di ketiga mode. Tadado Premium membuka semua deste premium dengan gratis 3 hari, lalu $3.99 per minggu. Kredit AI opsional: 5 seharga $1.99, 15 seharga $4.99, atau 40 seharga $9.99. Lihat Harga untuk detail."
       },
       {
         "q": "Bagaimana cara kerja pembuatan deste AI?",
@@ -582,7 +643,7 @@
       },
       {
         "q": "Bahasa apa yang didukung?",
-        "a": "UI aplikasi tersedia dalam 17 bahasa termasuk Inggris, Turki, Spanyol, Jerman, Prancis, dan lainnya."
+        "a": "Tidak. Tadado bebas iklan. Kamu hanya membayar jika memilih Tadado Premium atau kredit AI."
       }
     ]
   },
@@ -617,9 +678,9 @@
         "others": "no"
       },
       {
-        "feature": "Tanpa langganan",
+        "feature": "Premium dengan uji coba gratis 3 hari",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Paket deste bertema",
@@ -637,7 +698,7 @@
         "others": "no"
       }
     ],
-    "note": "Banyak aplikasi fokus pada satu mode, menampilkan iklan, atau mengunci konten di balik langganan. Tadado dibuat untuk malam permainan sungguhan dengan kedua mode, deste starter gratis, dan ekstra bayar sekali.",
+    "note": "Banyak aplikasi hanya punya satu mode atau menampilkan iklan. Tadado memberimu tiga mode, deste gratis Tadado Mix, satu paket Premium dengan uji coba gratis 3 hari, dan kredit AI untuk deste kustom.",
     "cta": "Unduh Tadado gratis",
     "viewFull": "Buka halaman perbandingan lengkap"
   },

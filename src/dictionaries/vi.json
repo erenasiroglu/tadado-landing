@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Tadado: Ứng dụng trò chơi tiệc | Từ cấm, Heads Up, Kẻ mạo danh & bộ thẻ AI",
-    "description": "Một chiếc điện thoại. Bạn bè của bạn. Từ cấm, Heads Up, Kẻ mạo danh và bộ thẻ AI cho những buổi chơi game. Miễn phí để bắt đầu, không quảng cáo, không thuê bao. iOS và Android."
+    "description": "Một chiếc điện thoại. Bạn bè của bạn. Từ cấm, Heads Up, Kẻ mạo danh và bộ thẻ AI cho những buổi chơi game. Miễn phí để bắt đầu, không quảng cáo. iOS và Android."
   },
   "nav": {
     "play": "Chơi",
@@ -85,8 +85,8 @@
         "body": "Nhập bất kỳ chủ đề nào và nhận bộ bài chơi ngay lập tức. Hoàn hảo cho trò đùa nội bộ, đêm xem phim hoặc tiệc theo chủ đề."
       },
       {
-        "title": "No ads, flexible pricing",
-        "body": "Start free with Tadado Mix. Try every premium deck free for 3 days, then $3.99 per week, or unlock one deck for $1.99."
+        "title": "Không quảng cáo, giá đơn giản",
+        "body": "Bắt đầu miễn phí với Tadado Mix. Dùng thử mọi bộ bài premium miễn phí 3 ngày, sau đó $3.99 mỗi tuần. Hủy bất cứ lúc nào."
       },
       {
         "title": "17 ngôn ngữ tích hợp sẵn",
@@ -111,7 +111,7 @@
       "Chơi offline",
       "Đội & hẹn giờ",
       "Không quảng cáo",
-      "Weekly or one-time unlocks"
+      "Dùng thử miễn phí 3 ngày"
     ]
   },
   "personalization": {
@@ -399,7 +399,7 @@
     "ctaTitle": "Đêm chơi game tiếp theo bắt đầu miễn phí",
     "ctaBody": "Tải Tadado, mở một bộ thẻ miễn phí và chơi Từ cấm, Heads Up hoặc Kẻ mạo danh chỉ trong vài giây. Một điện thoại là đủ.",
     "ctaButton": "Tải Tadado miễn phí",
-    "freeNote": "Tải miễn phí · Không quảng cáo · Không đăng ký",
+    "freeNote": "Tải miễn phí · Không quảng cáo · Premium miễn phí 3 ngày",
     "disclaimer": "{game} chỉ được nhắc đến để mô tả một trò chơi hoặc lối chơi nổi tiếng. Mọi nhãn hiệu thuộc về chủ sở hữu; Tadado không liên kết hay được họ bảo trợ. Thông tin về {game} mô tả lối chơi kinh điển và các phiên bản phổ biến; từng ứng dụng hoặc phiên bản có thể khác, hãy xem trang cửa hàng."
   },
   "geniusEvent": {
@@ -463,7 +463,7 @@
       }
     ],
     "metaTitle": "Tadado: Trò chơi tiệc Halloween | Taboo, Heads Up & Kẻ mạo danh",
-    "metaDescription": "Trò chơi Halloween miễn phí trên một điện thoại: bộ thẻ Taboo rùng rợn 100 từ, Heads Up và chế độ Kẻ mạo danh mới. Không quảng cáo, không thuê bao. iOS và Android."
+    "metaDescription": "Trò chơi Halloween miễn phí trên một điện thoại: bộ thẻ Taboo rùng rợn 100 từ, Heads Up và chế độ Kẻ mạo danh mới. Không quảng cáo. iOS và Android."
   },
   "trust": {
     "eyebrow": "Dành cho bạn",
@@ -475,12 +475,12 @@
         "body": "Tải về và bắt đầu ván ngay. Trò chơi chính không cần đăng ký. Bạn chỉ đăng nhập khi muốn lưu bộ bài AI hoặc giao dịch mua."
       },
       {
-        "title": "Không quảng cáo, không gói đăng ký",
-        "body": "Không quảng cáo nào làm gián đoạn đêm trò chơi và không có gì tự gia hạn sau lưng bạn. Bộ bài miễn phí có sẵn từ ngày đầu."
+        "title": "Không quảng cáo, giá rõ ràng",
+        "body": "Không quảng cáo nào làm gián đoạn đêm chơi game. Tadado Mix miễn phí mãi mãi, còn Premium rõ ràng ngay từ đầu: 3 ngày miễn phí, sau đó $3.99 mỗi tuần, hủy bất cứ lúc nào."
       },
       {
-        "title": "Mua một lần, là của bạn",
-        "body": "Mỗi bộ bài và gói AI là giao dịch mua một lần gắn với tài khoản Apple hoặc Google của bạn. Khôi phục trên thiết bị bất cứ lúc nào."
+        "title": "Giao dịch của bạn trên mọi thiết bị",
+        "body": "Premium và tín dụng AI được liên kết với tài khoản Apple hoặc Google của bạn. Khôi phục trên thiết bị bất cứ lúc nào."
       },
       {
         "title": "Thanh toán do Apple và Google xử lý",
@@ -495,7 +495,7 @@
     "countBadge": "14 game decks",
     "free": "Miễn phí",
     "play": "CHƠI",
-    "price": "$1.99",
+    "price": "Premium · Miễn phí 3 ngày, sau đó $3.99/tuần",
     "newBadge": "MỚI",
     "items": {
       "mix": {
@@ -559,67 +559,87 @@
     "hardBadge": "HARD"
   },
   "pricing": {
-    "title": "Start free. Unlock more when the party grows.",
-    "subtitle": "Play Tadado Mix at no cost. Try every premium deck with 3 days free, then $3.99 per week, or pay $1.99 once for a single deck. AI packs stay as listed.",
-    "oneTime": "one-time",
-    "disclaimer": "Prices are shown in USD and may vary by region in the App Store and Google Play. Premium Weekly is 3 days free, then $3.99 per week, and auto-renews until you cancel in your store settings. A single premium deck is $1.99. One-time purchases stay unlocked forever. Purchases are handled by Apple or Google.",
-    "trust": "No ads · Restore purchases anytime · Cancel weekly anytime",
+    "eyebrow": "Bảng giá",
+    "title": "Chơi miễn phí. Một gói đơn giản để có thêm.",
+    "subtitle": "Tadado Mix miễn phí cho mọi người. Premium mở khóa mọi bộ bài với 3 ngày dùng thử miễn phí, sau đó $3.99 mỗi tuần. Với tín dụng AI, chủ đề nào cũng thành bộ bài.",
     "badges": {
-      "free": "Free download",
-      "popular": "Most popular",
-      "bestValue": "Best one-time deal",
-      "oneTimeForever": "Pay once, keep forever"
+      "free": "Miễn phí mãi mãi",
+      "premium": "Mở mọi bộ bài",
+      "trial": "Miễn phí 3 ngày",
+      "ai": "Tín dụng AI"
     },
     "free": {
       "name": "Tadado Mix",
-      "price": "Free",
-      "desc": "Download free and play immediately with the classic starter deck."
+      "price": "$0",
+      "priceNote": "cho mọi người",
+      "desc": "Bộ bài trộn với thẻ từ mọi bộ bài của Tadado, mỗi lượt chơi một khác. Không cần mua, không cần tài khoản.",
+      "modesLabel": "Chơi được ở cả 3 chế độ",
+      "features": [
+        "Thẻ trộn từ mọi bộ bài",
+        "Không quảng cáo",
+        "Chơi ngoại tuyến"
+      ]
     },
-    "weekly": {
-      "name": "Premium Weekly",
-      "price": "3 days free",
-      "suffix": "/ week",
-      "desc": "Every premium themed deck stays unlocked while your plan is active.",
-      "decksLine": "All 14+ premium decks (Halloween, Cinema, Sport, Genius & more)",
-      "cancelLine": "Cancel anytime in the App Store or Google Play",
-      "priceAfter": "$3.99"
+    "premium": {
+      "name": "Tadado Premium",
+      "price": "$3.99",
+      "suffix": "/ tuần",
+      "trialNote": "sau 3 ngày dùng thử miễn phí",
+      "desc": "Mọi bộ bài premium luôn mở khi gói của bạn còn hiệu lực.",
+      "features": [
+        "Mọi bộ bài premium: Điện ảnh, Thể thao, Du lịch, Genius Only và hơn thế",
+        "Mọi bộ bài ở cả 3 chế độ",
+        "Không quảng cáo",
+        "Hủy bất cứ lúc nào"
+      ],
+      "timelineLabel": "Cách dùng thử miễn phí hoạt động",
+      "timeline": [
+        {
+          "when": "Hôm nay",
+          "what": "Bắt đầu miễn phí. Mọi bộ bài premium mở ngay."
+        },
+        {
+          "when": "Ngày 3",
+          "what": "Hủy trước khi hết dùng thử và bạn không phải trả gì."
+        },
+        {
+          "when": "Sau đó",
+          "what": "$3.99 mỗi tuần cho đến khi bạn hủy trong cài đặt cửa hàng."
+        }
+      ]
     },
-    "aiSectionTitle": "AI deck creation",
-    "aiTiers": [
-      {
-        "name": "Mini",
-        "price": "$1.99",
-        "desc": "5 lượt tạo bộ bài AI — bộ bài riêng cho mọi chủ đề."
-      },
-      {
-        "name": "Party",
-        "price": "$4.99",
-        "desc": "15 lượt tạo bộ bài AI cho những buổi chơi thường xuyên.",
-        "highlight": true
-      },
-      {
-        "name": "Pro",
-        "price": "$9.99",
-        "desc": "40 lượt tạo bộ bài AI cho chủ tiệc không bao giờ cạn ý tưởng."
-      }
+    "ai": {
+      "title": "Biến mọi chủ đề thành bộ bài",
+      "desc": "Nhập một chủ đề như “nhạc hit thập niên 90” hay những câu đùa riêng của nhóm bạn, AI sẽ tạo bộ bài chơi được trong vài giây. Mua gói một lần, dùng bất cứ khi nào.",
+      "rule": "1 tín dụng AI = 1 bộ bài riêng",
+      "creditsLabel": "tín dụng",
+      "tiers": [
+        {
+          "credits": "5",
+          "price": "$1.99",
+          "perDeck": "$0.40 mỗi bộ"
+        },
+        {
+          "credits": "15",
+          "price": "$4.99",
+          "perDeck": "$0.33 mỗi bộ",
+          "badge": "Phổ biến nhất",
+          "highlight": true
+        },
+        {
+          "credits": "40",
+          "price": "$9.99",
+          "perDeck": "$0.25 mỗi bộ",
+          "badge": "Tiết kiệm nhất"
+        }
+      ]
+    },
+    "trust": [
+      "Không quảng cáo",
+      "Hủy bất cứ lúc nào",
+      "Thanh toán an toàn qua Apple và Google"
     ],
-    "decksSectionTitle": "Premium decks",
-    "singleDeck": {
-      "name": "Single premium deck",
-      "price": "$1.99",
-      "desc": "One-time per deck — Halloween, Office, Brands, Animals, Cars, Friendsgiving, Summer, Cinema, Travel, Sport, Heroes, Night Games, Genius Only & more."
-    },
-    "fullAccess": {
-      "name": "Tadado Full Access",
-      "price": "$14.99",
-      "desc": "Every premium themed deck plus 20 AI deck creations, unlocked forever with one purchase.",
-      "aiCredits": "20 AI deck creations included",
-      "highlight": true
-    },
-    "novemberPromo": {
-      "badge": "November offer",
-      "note": "November special: 3 days free, then $3.99 per week for every premium deck. A single deck stays $1.99."
-    }
+    "disclaimer": "Giá hiển thị bằng USD; App Store và Google Play có thể hiển thị giá địa phương ở khu vực của bạn. Tadado Premium bắt đầu với 3 ngày dùng thử miễn phí, sau đó gia hạn $3.99 mỗi tuần cho đến khi bạn hủy trong cài đặt App Store hoặc Google Play. Gói tín dụng AI là giao dịch mua một lần. Thanh toán do Apple hoặc Google xử lý."
   },
   "howItWorks": {
     "title": "Cách hoạt động",
@@ -771,11 +791,11 @@
       },
       {
         "q": "Tadado có phải là một trong những ứng dụng trò chơi tiệc miễn phí tốt nhất?",
-        "a": "Tadado được làm cho những buổi chơi game: Từ cấm kiểu Taboo, Heads Up, trò đấu trí Kẻ mạo danh, bộ thẻ miễn phí, bộ thẻ chủ đề tùy chọn và tạo bộ thẻ bằng AI. Không quảng cáo, không thuê bao, đây là một trong những ứng dụng tiệc đáng tiền nhất trên iOS và Android."
+        "a": "Tadado được tạo cho những đêm chơi game: Từ cấm kiểu Taboo, Heads Up và trò lừa Kẻ mạo danh trên một chiếc điện thoại. Không quảng cáo, Tadado Mix miễn phí cho mọi người và gói Premium với 3 ngày dùng thử miễn phí."
       },
       {
         "q": "Tadado có miễn phí không?",
-        "a": "Có. Tadado Mix chơi miễn phí. Bộ bài theo chủ đề tùy chọn và tạo bộ bài AI là mua một lần. Xem Giá để biết chi tiết. Không có đăng ký."
+        "a": "Có. Tadado Mix miễn phí cho mọi người, trộn thẻ từ mọi bộ bài và chơi được ở cả 3 chế độ. Tadado Premium mở mọi bộ bài premium với 3 ngày miễn phí, sau đó $3.99 mỗi tuần. Tín dụng AI là tùy chọn: 5 với giá $1.99, 15 với giá $4.99 hoặc 40 với giá $9.99. Xem Bảng giá để biết chi tiết."
       },
       {
         "q": "Khác biệt giữa Taboo và Heads Up?",
@@ -783,7 +803,7 @@
       },
       {
         "q": "Tadado có quảng cáo không?",
-        "a": "Không. Tadado không quảng cáo. Bạn chỉ trả cho bộ bài tùy chọn hoặc tạo AI nếu muốn."
+        "a": "Không. Tadado không có quảng cáo. Bạn chỉ trả tiền nếu chọn Tadado Premium hoặc tín dụng AI."
       },
       {
         "q": "Tạo bộ thẻ bằng AI hoạt động thế nào?",
@@ -826,9 +846,9 @@
         "others": "no"
       },
       {
-        "feature": "Không đăng ký",
+        "feature": "Premium với 3 ngày dùng thử miễn phí",
         "tadado": "yes",
-        "others": "no"
+        "others": "partial"
       },
       {
         "feature": "Gói bộ bài theo chủ đề",
@@ -846,7 +866,7 @@
         "others": "no"
       }
     ],
-    "note": "Many apps focus on one mode, show ads, or force subscriptions. Tadado gives you three modes, a free starter deck, weekly access with a trial, and pay-once options.",
+    "note": "Nhiều ứng dụng chỉ có một chế độ hoặc hiển thị quảng cáo. Tadado mang đến ba chế độ, bộ bài miễn phí Tadado Mix, một gói Premium với 3 ngày dùng thử miễn phí và tín dụng AI cho bộ bài riêng.",
     "cta": "Tải Tadado miễn phí",
     "viewFull": "Mở trang so sánh đầy đủ"
   },
@@ -982,7 +1002,7 @@
     "title": "Marketing và báo chí",
     "subtitle": "Chiến dịch với nhà sáng tạo, bộ bài thương hiệu và tài liệu báo chí về Tadado.",
     "back": "Quay lại Tadado",
-    "intro": "Tadado là ứng dụng trò chơi tiệc cho những nhóm bạn thật: Từ cấm kiểu Taboo, Heads Up và Kẻ mạo danh trên một điện thoại, không quảng cáo, không thuê bao. Nếu bạn đang lên kế hoạch nội dung, hợp tác hay bài viết, hãy bắt đầu từ đây.",
+    "intro": "Tadado là ứng dụng trò chơi tiệc tùng cho những nhóm bạn thật: Từ cấm kiểu Taboo, Heads Up và Kẻ mạo danh trên một chiếc điện thoại, không quảng cáo, có bộ bài miễn phí Tadado Mix, gói Premium tùy chọn và tín dụng AI. Nếu bạn đang lên kế hoạch nội dung, hợp tác hay bài viết, hãy bắt đầu tại đây.",
     "statsLabel": "Tóm tắt",
     "stats": [
       {
@@ -1140,7 +1160,7 @@
       },
       {
         "q": "Bộ thẻ Halloween của Tadado có miễn phí không?",
-        "a": "Có. Bộ thẻ Halloween miễn phí cho tất cả, gồm 100 từ Halloween. Không quảng cáo, không thuê bao."
+        "a": "Có. Bộ thẻ Halloween miễn phí cho tất cả, gồm 100 từ Halloween. Không quảng cáo."
       },
       {
         "q": "Bao nhiêu người có thể chơi?",
