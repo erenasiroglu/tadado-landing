@@ -9,10 +9,12 @@ export interface SeoGuideLink {
   label: string;
 }
 
+export const FEATURED_SEO_GUIDE_ID: ArticleId = "best-word-game-apps";
+
 const GUIDE_ARTICLE_IDS: ArticleId[] = [
+  FEATURED_SEO_GUIDE_ID,
   "how-to-play-taboo",
   "how-to-play-heads-up",
-  "best-word-game-apps",
   "word-games-like-taboo",
   "taboo-vs-heads-up",
 ];

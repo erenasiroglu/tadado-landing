@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
-import { ctaGradientClass, storeBadgeClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Locale } from "@/lib/i18n";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
 import { cn } from "@/lib/utils";
@@ -55,7 +55,10 @@ export function ShareLinkActions({
 
   return (
     <div className={cn("flex flex-col gap-5", className)}>
-      <a href={appLink} className={ctaGradientClass("h-14 w-full px-6 text-base")}>
+      <a
+        href={appLink}
+        className={buttonVariants({ variant: "default", size: "lg", className: "w-full" })}
+      >
         {openInAppLabel}
       </a>
 
@@ -65,7 +68,7 @@ export function ShareLinkActions({
           locale={locale}
           downloadPlatform="ios"
           downloadSource="share_link"
-          className={storeBadgeClass()}
+          className={buttonVariants({ variant: "store" })}
           ariaLabel={appStoreLabel}
         >
           <span className="mr-2 text-lg" aria-hidden></span>
@@ -76,7 +79,7 @@ export function ShareLinkActions({
           locale={locale}
           downloadPlatform="android"
           downloadSource="share_link"
-          className={storeBadgeClass()}
+          className={buttonVariants({ variant: "store" })}
           ariaLabel={googlePlayLabel}
         >
           <StoreBrandIcon platform="android" className="me-2 size-[1.15rem]" />

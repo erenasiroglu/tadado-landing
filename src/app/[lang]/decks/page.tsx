@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-import { BackLink } from "@/components/landing/BackLink";
+import Link from "next/link";
+
 import { DecksHubGrid } from "@/components/landing/DecksHubGrid";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
@@ -44,9 +45,17 @@ export default async function DecksHubPage({ params }: PageProps<"/[lang]/decks"
       <Header locale={locale} dict={dict} />
       <main className="flex-1 bg-paper text-foreground">
         <div className="section-shell py-12 md:py-14">
-          <BackLink href={localeHref(locale)}>
-            {dict.ui.home}
-          </BackLink>
+          <nav className="text-sm text-muted-foreground" aria-label="Breadcrumb">
+            <ol className="flex flex-wrap items-center gap-2">
+              <li>
+                <Link href={localeHref(locale)} className="hover:text-ink">
+                  Tadado
+                </Link>
+              </li>
+              <li aria-hidden>/</li>
+              <li className="text-foreground">{dict.ui.decksHub}</li>
+            </ol>
+          </nav>
           <div className="mt-8">
             <DecksHubGrid locale={locale} dict={dict} />
           </div>

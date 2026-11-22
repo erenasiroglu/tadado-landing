@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { buttonVariants } from "@/components/ui/button";
 import { LandingSection } from "@/components/landing/LandingSection";
 import { localeHref, type Dictionary, type Locale } from "@/lib/i18n";
 import { getSmartStoreUrl } from "@/lib/store-links";
@@ -39,7 +40,7 @@ export function HalloweenEvent({ locale, dict, seasonal = false }: HalloweenEven
             <h2 className="mt-5 max-w-xl text-3xl leading-[1.06] font-extrabold tracking-[-0.04em] text-balance text-cream sm:text-4xl">
               {title}
             </h2>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-cream/70">{body}</p>
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-[#E8DFFF]">{body}</p>
 
             <ul className="mt-6 flex flex-wrap gap-2">
               {modes.map((mode) => (
@@ -55,14 +56,14 @@ export function HalloweenEvent({ locale, dict, seasonal = false }: HalloweenEven
                 locale={locale}
                 downloadPlatform="ios"
                 downloadSource="halloween_event"
-                className="halloween-cta"
+                className={buttonVariants({ variant: "accent", size: "sm", className: "gap-1.5" })}
               >
                 {seasonal ? copy.cta : copy.card.play}
                 <ArrowRight className="size-4 rtl:rotate-180" aria-hidden />
               </TrackedOutboundLink>
               <Link
                 href={localeHref(locale, "halloween")}
-                className="inline-flex min-h-12 w-fit items-center rounded-full px-5 text-sm font-bold text-cream/75 underline-offset-4 transition-colors hover:text-cream hover:underline"
+                className={buttonVariants({ variant: "ghostOnDark", size: "sm", className: "w-fit" })}
               >
                 {copy.guideCta}
               </Link>

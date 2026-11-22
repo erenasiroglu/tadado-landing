@@ -6,13 +6,14 @@ import { Faq } from "@/components/landing/Faq";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { GameModeShowcase } from "@/components/landing/GameModeShowcase";
-import { GeniusEvent } from "@/components/landing/GeniusEvent";
+import { LandingEvents } from "@/components/landing/LandingEvents";
 import { Header } from "@/components/landing/Header";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { NewsletterSignup } from "@/components/landing/NewsletterSignup";
 import { Pricing } from "@/components/landing/Pricing";
 import { ProductBenefits } from "@/components/landing/ProductBenefits";
 import { ProductHuntBadge } from "@/components/landing/primitives/ProductHuntBadge";
+import { SeoGuides } from "@/components/landing/SeoGuides";
 import { TrustPromise } from "@/components/landing/TrustPromise";
 import { Hero } from "@/components/landing/Hero";
 import { MidnightLandingHero } from "@/components/landing/MidnightLandingHero";
@@ -83,7 +84,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
       <main className="landing-home flex-1">
         {night ? <MidnightLandingHero locale={locale} dict={dict} /> : <Hero locale={locale} dict={dict} />}
         <GameModeShowcase locale={locale} dict={dict} halloween={false} />
-        <GeniusEvent locale={locale} dict={dict} />
+        <LandingEvents locale={locale} dict={dict} />
         <Testimonials locale={locale} dict={dict} />
         <AiDeckBuilderDemo locale={locale} dict={dict} />
         <DeckCarousel dict={dict} locale={locale} />
@@ -94,6 +95,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         <ProductBenefits dict={dict} />
         <CommunitySection dict={dict} locale={locale} />
         <TrendingCards locale={locale} dict={dict} />
+        <SeoGuides locale={locale} dict={dict} landing />
         <Faq dict={dict} />
         <BlogTeaser locale={locale} dict={dict} posts={posts.slice(0, 1)} compact />
         <NewsletterSignup dict={dict} locale={locale} compact />

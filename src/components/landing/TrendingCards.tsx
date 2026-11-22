@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { primarySolidClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary } from "@/lib/i18n";
 import { blogHref, localeHref, type Locale } from "@/lib/i18n-config";
 
@@ -33,7 +33,10 @@ export function TrendingCards({ locale, dict }: TrendingCardsProps) {
         </div>
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <Link href={localeHref(locale, "trending")} className={primarySolidClass("h-9 px-4 text-sm")}>
+          <Link
+            href={localeHref(locale, "trending")}
+            className={buttonVariants({ variant: "default", size: "sm" })}
+          >
             {dict.trending.allCards}
           </Link>
           <Link

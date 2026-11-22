@@ -13,6 +13,8 @@ import { getDecksHubHref } from "@/lib/deck-catalog";
 import { trackEvent } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
 
+import { buttonVariants } from "@/components/ui/button";
+
 import { DeckCatalogCard } from "./DeckCatalogCard";
 import { LandingSection } from "./LandingSection";
 import { SectionHeading } from "./SectionHeading";
@@ -106,7 +108,7 @@ export function DeckCarousel({ dict, locale }: DeckCarouselProps) {
               <SectionHeading title={dict.decks.title} subtitle={dict.decks.subtitle} align="left" />
               <Link
                 href={getDecksHubHref(locale)}
-                className="text-sm font-semibold text-ink hover:text-muted-foreground"
+                className={buttonVariants({ variant: "secondary", size: "sm", className: "w-fit" })}
               >
                 {dict.ui.exploreAllDecks}
               </Link>
@@ -198,7 +200,10 @@ function CarouselButton({
       aria-label={label}
       onClick={onClick}
       disabled={disabled}
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-border bg-paper text-foreground transition-colors hover:bg-lilac hover:text-ink disabled:opacity-35 disabled:hover:bg-paper"
+      className={cn(
+        buttonVariants({ variant: "outline", size: "icon-sm" }),
+        "rounded-full disabled:opacity-35 disabled:hover:bg-background/90",
+      )}
     >
       {children}
     </button>

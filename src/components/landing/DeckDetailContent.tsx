@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { BackLink } from "@/components/landing/BackLink";
 import { DeckStoreCta } from "@/components/landing/DeckStoreCta";
 import {
   buildDeckOverlayStyle,
@@ -52,12 +51,6 @@ export function DeckDetailContent({ locale, deckKey, dict }: DeckDetailContentPr
           <li className="text-foreground">{item.name}</li>
         </ol>
       </nav>
-
-      <div className="mt-6">
-        <BackLink href={getDecksHubHref(locale)}>
-          {dict.ui.allDecks}
-        </BackLink>
-      </div>
 
       <header className="mt-8">
         <div

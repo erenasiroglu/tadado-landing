@@ -2,7 +2,7 @@
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
-import { storeBadgeClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
 import { cn } from "@/lib/utils";
@@ -21,7 +21,7 @@ export function StoreBadges({ locale, a11y, className = "" }: StoreBadgesProps) 
         locale={locale}
         downloadPlatform="ios"
         downloadSource="hero_badges"
-        className={storeBadgeClass()}
+        className={buttonVariants({ variant: "store" })}
         ariaLabel={a11y.downloadOnAppStore}
       >
         <StoreBrandIcon platform="ios" className="me-2 size-[1.15rem]" />
@@ -32,7 +32,7 @@ export function StoreBadges({ locale, a11y, className = "" }: StoreBadgesProps) 
         locale={locale}
         downloadPlatform="android"
         downloadSource="hero_badges"
-        className={storeBadgeClass()}
+        className={buttonVariants({ variant: "store" })}
         ariaLabel={a11y.getOnGooglePlay}
       >
         <StoreBrandIcon platform="android" className="me-2 size-[1.15rem]" />

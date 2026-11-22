@@ -1,11 +1,12 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
+import { Fragment, useRef, useState } from "react";
 import { AnimatePresence, m, useReducedMotion } from "motion/react";
 import Link from "next/link";
 
 import { ModeDeviceStage } from "@/components/landing/device/ModeDeviceStage";
+import { buttonVariants } from "@/components/ui/button";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { modePageHref, type ModePageId } from "@/lib/mode-pages";
@@ -21,6 +22,88 @@ interface GameModeShowcaseProps {
   dict: Dictionary;
   /** Show cards from the free Halloween deck (season skin). */
   halloween?: boolean;
+}
+
+const TIER_CARD_STYLES = [
+  {
+    card: "bg-paper ring-1 ring-border shadow-sm",
+    multiplier: "text-foreground",
+    label: "text-muted-foreground",
+  },
+  {
+    card: "bg-lilac/45 ring-1 ring-lilac/60 shadow-sm",
+    multiplier: "text-ink",
+    label: "text-foreground/85",
+  },
+  {
+    card: "surface-obsidian ring-1 ring-cream/20 shadow-md",
+    multiplier: "text-cream",
+    label: "text-cream/70",
+  },
+] as const;
+
+function ScoreMultiplierPanel({
+  showcase,
+}: {
+  showcase: Dictionary["modes"]["showcase"];
+}) {
+  const tiers = showcase.scoreTiers;
+
+  return (
+    <div className="mt-5 max-w-lg overflow-hidden rounded-xl border border-border bg-linear-to-br from-mist/70 via-paper/50 to-lilac/15 p-4 sm:p-5">
+      <p className="text-xs font-extrabold tracking-[0.12em] text-foreground uppercase">
+        {showcase.buildScoreTitle}
+      </p>
+      <p className="mt-1.5 text-sm leading-snug text-muted-foreground">{showcase.buildScoreBody}</p>
+      <div className="mt-4 flex items-stretch gap-0.5 sm:gap-1" aria-label={showcase.scoreMultipliersAria}>
+        {tiers.map((tier, index) => {
+          const visuals = TIER_CARD_STYLES[index] ?? TIER_CARD_STYLES[0];
+          const isMax = index === tiers.length - 1;
+
+          return (
+            <Fragment key={tier.multiplier}>
+              {index > 0 ? (
+                <ChevronRight
+                  className="mt-8 hidden size-4 shrink-0 self-start text-muted-foreground/40 sm:block"
+                  aria-hidden
+                />
+              ) : null}
+              <div
+                className={cn(
+                  "relative flex min-w-0 flex-1 flex-col items-center rounded-xl px-2 py-3 text-center sm:px-3 sm:py-4",
+                  visuals.card,
+                )}
+              >
+                {isMax ? (
+                  <span className="mb-1.5 inline-flex h-5 items-center rounded-full bg-lilac px-2 text-[0.5625rem] font-extrabold tracking-[0.14em] text-ink uppercase">
+                    {showcase.maxTierBadge}
+                  </span>
+                ) : (
+                  <span className="mb-1.5 block h-5" aria-hidden />
+                )}
+                <span
+                  className={cn(
+                    "font-heading text-[2rem] font-black leading-none tabular-nums sm:text-[2.35rem]",
+                    visuals.multiplier,
+                  )}
+                >
+                  {tier.multiplier}
+                </span>
+                <span
+                  className={cn(
+                    "mt-2 text-[0.625rem] font-bold tracking-[0.08em] uppercase",
+                    visuals.label,
+                  )}
+                >
+                  {tier.label}
+                </span>
+              </div>
+            </Fragment>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 export function GameModeShowcase({ locale, dict, halloween = false }: GameModeShowcaseProps) {
@@ -107,56 +190,22 @@ export function GameModeShowcase({ locale, dict, halloween = false }: GameModeSh
                 <div className="mt-2 flex items-center gap-2">
                   <h3 className="text-2xl font-bold text-foreground">{activeCopy.title}</h3>
                   {activeCopy.badge ? (
-                    <span className="rounded-full bg-[#FAAA12] px-2.5 py-1 text-[10px] leading-none font-extrabold tracking-[0.08em] text-[#4B1A7A] uppercase">
+                    <span className="rounded-full bg-lilac px-2.5 py-1 text-[10px] leading-none font-extrabold tracking-[0.08em] text-ink uppercase">
                       {activeCopy.badge}
                     </span>
                   ) : null}
                 </div>
                 <p className="mt-3 max-w-md text-base text-muted-foreground">{activeCopy.body}</p>
+                {activeMode === "taboo" ? <ScoreMultiplierPanel showcase={dict.modes.showcase} /> : null}
                 <Link
                   href={modePageHref(locale, modePage[activeMode])}
-                  className="group mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-extrabold text-ink underline-offset-4 hover:underline"
+                  className={cn(
+                    buttonVariants({ variant: "outline", size: "sm" }),
+                    "mt-4",
+                  )}
                 >
                   {dict.modePages.explore}
-                  <ArrowRight
-                    className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 rtl:-scale-x-100"
-                    aria-hidden
-                  />
                 </Link>
-                {activeMode === "taboo" ? (
-                  <div className="mt-5 max-w-md rounded-2xl bg-mist/80 px-5 py-4">
-                    <p className="text-[11px] font-bold uppercase leading-none tracking-[0.08em] text-muted-foreground">
-                      {dict.modes.showcase.buildScoreTitle}
-                    </p>
-                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
-                      {dict.modes.showcase.buildScoreBody}
-                    </p>
-                    <div
-                      className="mt-4 flex flex-wrap items-center gap-2"
-                      aria-label={dict.modes.showcase.scoreMultipliersAria}
-                    >
-                      {["×2", "×3", "×5"].map((multiplier, index) => (
-                        <span key={multiplier} className="contents">
-                          <span
-                            className={cn(
-                              "inline-flex h-10 min-w-12 items-center justify-center rounded-xl border px-3 text-sm font-black leading-none tabular-nums",
-                              index === 2
-                                ? "surface-obsidian border-transparent text-cream"
-                                : "border-border bg-mist text-ink",
-                            )}
-                          >
-                            {multiplier}
-                          </span>
-                          {index < 2 ? (
-                            <span className="px-0.5 text-sm leading-none text-muted-foreground" aria-hidden>
-                              →
-                            </span>
-                          ) : null}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                ) : null}
               </div>
             ) : null}
           </m.div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
+import { buttonVariants } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Header } from "@/components/landing/Header";
 import { StoreButtons } from "@/components/landing/primitives/StoreButton";
@@ -206,13 +207,17 @@ export default async function HalloweenPage({ params }: PageProps<"/[lang]/hallo
               <h2 className="text-3xl font-extrabold tracking-[-0.04em] text-balance text-cream sm:text-5xl">
                 {page.ctaTitle}
               </h2>
-              <p className="mx-auto mt-4 max-w-xl text-lg text-cream/75">{page.ctaBody}</p>
+              <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-[#E8DFFF]">{page.ctaBody}</p>
               <TrackedOutboundLink
                 href={getSmartStoreUrl(locale)}
                 locale={locale}
                 downloadPlatform="ios"
                 downloadSource="halloween_event"
-                className="halloween-cta mx-auto mt-8"
+                className={buttonVariants({
+                  variant: "accent",
+                  size: "default",
+                  className: "mx-auto mt-8 gap-1.5",
+                })}
               >
                 {page.ctaButton}
                 <ArrowRight className="size-4 rtl:rotate-180" aria-hidden />

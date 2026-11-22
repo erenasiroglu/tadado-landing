@@ -2,7 +2,7 @@
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
 import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
-import { storeBadgeClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { DownloadSource } from "@/lib/analytics-events";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { getMobileStoreCtaLabel } from "@/lib/store-cta-labels";
@@ -45,7 +45,7 @@ export function StoreButton({
       downloadPlatform={platform}
       downloadSource={source}
       className={cn(
-        storeBadgeClass(),
+        buttonVariants({ variant: "store" }),
         labelMode === "download" &&
           "h-auto min-h-12 justify-center whitespace-normal px-4 py-2.5 text-center leading-snug",
         compact && "h-10 px-3 text-xs",

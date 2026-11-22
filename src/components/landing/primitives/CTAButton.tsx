@@ -3,12 +3,12 @@
 import Link from "next/link";
 
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
-import { ctaAmberClass, ctaGradientClass, pressableBase } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { AnalyticsEventName, DownloadSource } from "@/lib/analytics-events";
 import type { Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-type CTAButtonVariant = "primary" | "secondary" | "ghost";
+type CTAButtonVariant = "primary" | "secondary" | "ghost" | "cream" | "ghostOnDark";
 
 interface CTAButtonBaseProps {
   children: React.ReactNode;
@@ -38,18 +38,23 @@ interface CTAButtonStoreProps extends CTAButtonBaseProps {
 
 export type CTAButtonProps = CTAButtonLinkProps | CTAButtonStoreProps;
 
+const VARIANT_MAP: Record<
+  CTAButtonVariant,
+  "default" | "secondary" | "ghost" | "cream" | "ghostOnDark"
+> = {
+  primary: "default",
+  secondary: "secondary",
+  ghost: "ghost",
+  cream: "cream",
+  ghostOnDark: "ghostOnDark",
+};
+
 function variantClass(variant: CTAButtonVariant, className?: string) {
-  if (variant === "primary") {
-    return ctaGradientClass(cn("min-h-12 px-7 text-base", className));
-  }
-  if (variant === "secondary") {
-    return ctaAmberClass(cn("min-h-12 px-7 text-base", className));
-  }
-  return cn(
-    pressableBase,
-    "min-h-12 rounded-full px-7 text-base text-ink hover:bg-lilac hover:scale-[1.03]",
-    className,
-  );
+  return buttonVariants({
+    variant: VARIANT_MAP[variant],
+    size: "default",
+    className: cn("min-h-12 w-full sm:w-auto", className),
+  });
 }
 
 export function CTAButton(props: CTAButtonProps) {
@@ -66,6 +71,7 @@ export function CTAButton(props: CTAButtonProps) {
         eventName={props.eventName}
         eventProperties={props.eventProperties}
         className={classes}
+        onClick={onClick}
       >
         {children}
       </TrackedOutboundLink>
@@ -81,6 +87,7 @@ export function CTAButton(props: CTAButtonProps) {
         className={classes}
         eventName={props.eventName}
         eventProperties={props.eventProperties}
+        onClick={onClick}
       >
         {children}
       </TrackedOutboundLink>

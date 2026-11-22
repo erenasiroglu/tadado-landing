@@ -4,7 +4,7 @@ import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink"
 import { StoreBrandIcon } from "@/components/icons/StoreBrandIcon";
 import { useResolvedStorePlatform } from "@/hooks/use-store-platform";
 import type { DownloadSource } from "@/lib/analytics-events";
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Locale } from "@/lib/i18n";
 import { getMobileStoreCtaLabel } from "@/lib/store-cta-labels";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
@@ -17,6 +17,8 @@ interface MobileStoreDownloadCtaProps {
   label?: string;
   className?: string;
   onClick?: () => void;
+  /** Use cream CTA on dark panels. */
+  tone?: "light" | "dark";
 }
 
 export function MobileStoreDownloadCta({
@@ -25,6 +27,7 @@ export function MobileStoreDownloadCta({
   label,
   className,
   onClick,
+  tone = "light",
 }: MobileStoreDownloadCtaProps) {
   const platform = useResolvedStorePlatform();
   const href = platform === "ios" ? getAppStoreUrl(locale) : getPlayStoreUrl(locale);
@@ -38,12 +41,13 @@ export function MobileStoreDownloadCta({
       downloadPlatform={platform}
       downloadSource={source}
       onClick={onClick}
-      className={ctaGradientClass(
-        cn(
-          "min-h-12 w-full max-w-full gap-2 rounded-full px-4 py-2.5 text-sm font-extrabold leading-tight whitespace-normal",
+      className={buttonVariants({
+        variant: tone === "dark" ? "cream" : "default",
+        className: cn(
+          "min-h-12 w-full max-w-full gap-2 px-4 py-2.5 text-sm leading-tight whitespace-normal",
           className,
         ),
-      )}
+      })}
       // The accessible name must start with the visible label (WCAG 2.5.3).
       ariaLabel={label && label !== ariaLabel ? `${label} (${ariaLabel})` : undefined}
     >

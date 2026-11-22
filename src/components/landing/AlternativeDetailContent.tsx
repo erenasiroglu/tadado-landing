@@ -10,7 +10,6 @@ import {
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { localeHref } from "@/lib/i18n-config";
 
-import { BackLink } from "./BackLink";
 import { CompareDownload, VersusCard } from "./compare/CompareParts";
 import { ComparisonTable } from "./compare/ComparisonTable";
 
@@ -53,12 +52,6 @@ export function AlternativeDetailContent({
           </li>
         </ol>
       </nav>
-
-      <div className="mt-6">
-        <BackLink href={localeHref(locale, "compare")}>
-          {dict.compare.back}
-        </BackLink>
-      </div>
 
       <header className="mt-8 grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-14">
         <div>

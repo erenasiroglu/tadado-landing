@@ -2,7 +2,7 @@
 
 import { Play } from "lucide-react";
 
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import { useTrackedHref } from "@/hooks/use-tracked-href";
 import type { Locale } from "@/lib/i18n";
 import { getSmartStoreUrl } from "@/lib/store-links";
@@ -38,7 +38,11 @@ export function TrendingDeckPlayButton({
     <button
       type="button"
       onClick={handleClick}
-      className={ctaGradientClass("relative z-[1] mt-6 h-11 w-full rounded-xl text-sm font-bold")}
+      className={buttonVariants({
+        variant: "default",
+        size: "sm",
+        className: "relative z-[1] mt-6 w-full",
+      })}
     >
       <span className="inline-flex items-center justify-center gap-1.5">
         <Play className="h-3.5 w-3.5 fill-current" aria-hidden />

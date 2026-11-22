@@ -180,7 +180,7 @@ export const DECK_CARD_CONFIGS: Record<DeckKey, DeckCardConfig> = {
   },
   friendsgiving: {
     key: "friendsgiving",
-    image: "/images/deck-cards/friendsgiving-deck-illustration.webp",
+    image: "/images/friendsgiving-deck-illustration.webp",
     overlayColors: [
       "rgba(250, 170, 18, 0.05)",
       "rgba(42, 14, 71, 0.03)",

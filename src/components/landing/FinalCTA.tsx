@@ -29,8 +29,8 @@ export function FinalCTA({ locale, dict }: FinalCTAProps) {
               locale={locale}
               downloadPlatform="ios"
               downloadSource="final_cta"
-              variant="primary"
-              className="min-h-[44px] w-full sm:w-auto"
+              variant="cream"
+              className="min-h-[44px]"
               onClick={() =>
                 trackEvent({
                   event: ANALYTICS_EVENTS.FINAL_CTA_CLICK,
@@ -42,8 +42,8 @@ export function FinalCTA({ locale, dict }: FinalCTAProps) {
             </CTAButton>
             <CTAButton
               href="#decks"
-              variant="ghost"
-              className="min-h-[44px] w-full text-cream hover:bg-cream/10 sm:w-auto"
+              variant="ghostOnDark"
+              className="min-h-[44px] px-6"
               onClick={() =>
                 trackEvent({
                   event: ANALYTICS_EVENTS.FINAL_CTA_CLICK,
@@ -54,7 +54,13 @@ export function FinalCTA({ locale, dict }: FinalCTAProps) {
               {copy.secondary}
             </CTAButton>
           </div>
-          <StoreButtons locale={locale} source="final_cta" a11y={dict.a11y} className="mt-8 justify-center" />
+          <StoreButtons
+            locale={locale}
+            source="final_cta"
+            a11y={dict.a11y}
+            labelMode="download"
+            className="mt-8 justify-center"
+          />
         </div>
       </div>
     </LandingSection>

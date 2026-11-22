@@ -93,7 +93,6 @@ export default async function ModesHubPage({
                   eyebrow={copy.eyebrow}
                   title={page.name}
                   body={page.tagline}
-                  cta={copy.explore}
                 />
               </li>
             ))}

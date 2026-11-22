@@ -241,7 +241,7 @@ export const TR_DECK_PAGES: DeckPageContentMap = {
   },
   friendsgiving: {
     metaTitle: "Friendsgiving Parti Oyunu | Tadado",
-    metaDescription: "Arkadaşlarla Thanksgiving — yemek ve gece sohbeti. Tadado Friendsgiving.",
+    metaDescription: "Arkadaşlarla Thanksgiving: yemek ve gece sohbeti. Tadado Friendsgiving.",
     h1: "Friendsgiving destesi",
     heroSubtitle: "Sofra, kanepe ve gece yarısı kalamayan arkadaşlar.",
     whatIsTitle: "Friendsgiving destesi nedir?",

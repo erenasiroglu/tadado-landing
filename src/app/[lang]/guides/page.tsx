@@ -41,7 +41,7 @@ export default async function GuidesPage({ params }: PageProps<"/[lang]/guides">
       <Header locale={locale} dict={dict} />
       <main className="flex-1 py-16">
         <div className="section-shell">
-          <SeoGuides locale={locale} dict={dict} />
+          <SeoGuides locale={locale} dict={dict} landing />
           <div className="mt-10">
             <BackLink href={localeHref(locale)}>{dict.compare.back}</BackLink>
           </div>

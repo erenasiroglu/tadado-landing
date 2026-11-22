@@ -208,7 +208,6 @@ export function ModePageContent({
                   eyebrow={copy.eyebrow}
                   title={otherPage.name}
                   body={otherPage.tagline}
-                  cta={copy.explore}
                 />
               </li>
             );

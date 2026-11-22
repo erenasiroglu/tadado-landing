@@ -40,7 +40,7 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
       <div
         role="tablist"
         aria-label={dict.personalization.title}
-        className="mx-auto mt-6 flex w-full max-w-lg flex-wrap justify-center gap-2 py-1.5"
+        className="mx-auto mt-6 flex w-full max-w-2xl flex-wrap justify-center gap-1.5 sm:gap-2"
       >
         {items.map((item, index) => {
           const isSelected = selectedIndex === index;
@@ -52,11 +52,12 @@ export function PersonalizationSection({ dict }: PersonalizationSectionProps) {
               aria-selected={isSelected}
               onClick={() => setSelectedIndex(index)}
               className={cn(
-                "inline-flex h-8 shrink-0 cursor-pointer items-center justify-center rounded-lg px-3",
-                "border text-xs font-semibold leading-none transition-colors",
+                "inline-flex h-9 shrink-0 cursor-pointer items-center justify-center rounded-full px-3.5",
+                "text-xs font-bold leading-none transition-[color,background-color,box-shadow,transform] duration-200",
+                "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring",
                 isSelected
-                  ? "border-border bg-lilac text-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]"
-                  : "border-border surface-paper text-muted-foreground hover:border-white/22 hover:bg-lilac hover:text-foreground",
+                  ? "bg-ink text-cream shadow-md ring-1 ring-ink/10"
+                  : "bg-paper text-muted-foreground ring-1 ring-border/80 hover:bg-lilac/45 hover:text-foreground hover:ring-lilac/60",
               )}
             >
               {item.label}

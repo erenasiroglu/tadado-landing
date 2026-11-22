@@ -200,8 +200,14 @@
       "portraitGameplay": "Portrait gameplay",
       "landscapeGameplay": "Landscape gameplay",
       "buildScoreTitle": "Build your score",
-      "buildScoreBody": "Take on harder words to grow your multiplier and turn every correct answer into a bigger score.",
+      "buildScoreBody": "Harder cards raise your multiplier.",
       "scoreMultipliersAria": "Score multipliers: 2x, 3x, 5x",
+      "scoreTiers": [
+        { "label": "Easy", "multiplier": "×2" },
+        { "label": "Hard", "multiplier": "×3" },
+        { "label": "Legendary", "multiplier": "×5" }
+      ],
+      "maxTierBadge": "Max",
       "passGameplay": "Pass-the-phone gameplay"
     },
     "imposterTitle": "Imposter",
@@ -402,12 +408,30 @@
     "freeNote": "Free download · No ads · 3-day free Premium trial",
     "disclaimer": "{game} is mentioned only to describe a well-known game or format. All trademarks belong to their respective owners, and Tadado is not affiliated with or endorsed by them. Notes about {game} describe the classic format and typical versions; individual apps and editions can differ, so check each store listing."
   },
+  "landingEvents": {
+    "eyebrow": "Events",
+    "title": "New decks"
+  },
+  "friendsgivingEvent": {
+    "tag": "New",
+    "title": "Friendsgiving",
+    "body": "Taboo · Heads Up · Imposter on one Thanksgiving deck.",
+    "modesLabel": "Modes",
+    "modes": [
+      "Forbidden Words",
+      "Heads Up",
+      "Imposter"
+    ],
+    "cta": "Open deck",
+    "guideCta": "Party ideas",
+    "imageAlt": "Friendsgiving deck"
+  },
   "geniusEvent": {
-    "tag": "New event",
-    "title": "Genius Only: Hardest Words",
-    "body": "150 of the hardest words in every language, from science terms to tricky concepts. Only the sharpest friend gets them across.",
+    "tag": "New",
+    "title": "Genius Only",
+    "body": "150 hard words per language.",
     "note": "Look for the Genius Only event on the App Store and Google Play.",
-    "cta": "Explore the deck"
+    "cta": "Open deck"
   },
   "halloween": {
     "heroPill": "New: free Halloween deck + Imposter mode",
@@ -561,7 +585,7 @@
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Free to play. One simple plan for more.",
-    "subtitle": "Tadado Mix is free for everyone. Premium unlocks every deck with a 3-day free trial, then $3.99 per week. AI credits turn any topic into a deck.",
+    "subtitle": "Mix is free. Premium is $3.99/week for every deck.",
     "badges": {
       "free": "Free forever",
       "premium": "Every deck unlocked",
@@ -584,13 +608,12 @@
       "name": "Tadado Premium",
       "price": "$3.99",
       "suffix": "/ week",
-      "trialNote": "after your 3-day free trial",
+      "trialNote": "3-day free trial",
       "desc": "Every premium deck stays unlocked while your plan is active.",
       "features": [
-        "All premium decks: Cinema, Sport, Travel, Genius Only & more",
-        "Every deck in all 3 modes",
-        "No ads",
-        "Cancel anytime"
+        "All premium decks",
+        "All 3 modes",
+        "No ads"
       ],
       "timelineLabel": "How the free trial works",
       "timeline": [
@@ -609,27 +632,27 @@
       ]
     },
     "ai": {
-      "title": "Turn any topic into a deck",
+      "title": "AI deck packs",
       "desc": "Type a topic like “90s pop hits” or your friend group’s inside jokes and AI writes a playable deck in seconds. Buy a pack once, use it whenever you want.",
-      "rule": "1 AI credit = 1 custom deck",
+      "rule": "1 credit = 1 custom deck",
       "creditsLabel": "credits",
       "tiers": [
         {
           "credits": "5",
           "price": "$1.99",
-          "perDeck": "$0.40 per deck"
+          "perDeck": "$0.40/deck"
         },
         {
           "credits": "15",
           "price": "$4.99",
-          "perDeck": "$0.33 per deck",
-          "badge": "Most popular",
+          "perDeck": "$0.33/deck",
+          "badge": "Popular",
           "highlight": true
         },
         {
           "credits": "40",
           "price": "$9.99",
-          "perDeck": "$0.25 per deck",
+          "perDeck": "$0.25/deck",
           "badge": "Best value"
         }
       ]
@@ -737,7 +760,7 @@
     "title": "Help & support",
     "subtitle": "Answers, account help, and a direct line to the team behind Tadado.",
     "back": "Back to Tadado",
-    "intro": "Most questions are covered in our FAQ. For anything else—bugs, purchases, or feedback—email us and include your device and app version if you can.",
+    "intro": "Most questions are covered in our FAQ. For bugs, purchases, or feedback, email us and include your device and app version if you can.",
     "responseNote": "We read every message and usually reply within a few business days.",
     "emailCta": "Email support",
     "emailSubject": "Tadado support request",
@@ -840,7 +863,7 @@
   },
   "open": {
     "title": "Open metrics",
-    "subtitle": "Verified in-app revenue on TrustMRR — for founders, press, and partners who want to see how Tadado is doing.",
+    "subtitle": "Verified in-app revenue on TrustMRR for founders, press, and partners who want to see how Tadado is doing.",
     "back": "Back to Tadado",
     "note": "Numbers come from Tadado’s connected payment data on TrustMRR. Players can skip this page; it is here for transparency with the indie builder community.",
     "embedTitle": "TrustMRR verified daily revenue calendar",
@@ -853,8 +876,14 @@
     "viewAll": "View all posts"
   },
   "seoGuides": {
+    "eyebrow": "Best word games",
     "title": "How to play & best word game guides",
-    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps."
+    "subtitle": "Step-by-step rules for Taboo, Heads Up charades, and picks for the best mobile word game apps.",
+    "pitch": "Tadado is one of the best word game apps for 2026: Taboo, Heads Up, Imposter, and AI decks on one phone. Free to start, no ads.",
+    "featuredBadge": "Popular guide",
+    "featuredTeaser": "How Tadado ranks among the best mobile word games, with modes, decks, and free vs premium picks.",
+    "viewAll": "All guides",
+    "compareCta": "Compare party game apps"
   },
   "faq": {
     "title": "Questions, answered.",
@@ -1019,13 +1048,13 @@
     "title": "Your next game night needs Tadado.",
     "subtitle": "One phone. Everyone's invited.",
     "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "Explore decks"
   },
   "finalCta": {
     "title": "Your next game night needs Tadado.",
     "subtitle": "One phone. Everyone's invited.",
     "button": "GET TADADO · FREE",
-    "secondary": "EXPLORE DECKS"
+    "secondary": "Explore decks"
   },
   "footer": {
     "tagline": "One phone. Your friends. Let the chaos begin.",
@@ -1211,7 +1240,7 @@
     "hubSubtitle": "A Taboo-style word game, forehead charades, a bluffing game and AI decks on any topic. One app, one phone, the whole group.",
     "hubMetaTitle": "Party Game Modes: Taboo-Style, Heads Up, Imposter and AI Decks | Tadado",
     "hubMetaDescription": "Explore Tadado's party game modes: Forbidden Words (Taboo-style), Heads Up charades, the Imposter bluffing game and AI decks on any topic. Free, no ads.",
-    "explore": "See how it works",
+    "explore": "How to play",
     "stepsTitle": "How to play {mode}",
     "featuresTitle": "Why groups play {mode} in Tadado",
     "knownAsTitle": "Also searched as",

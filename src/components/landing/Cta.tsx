@@ -1,5 +1,5 @@
 import { TrackedOutboundLink } from "@/components/analytics/TrackedOutboundLink";
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import { getSmartStoreUrl } from "@/lib/store-links";
 
@@ -24,7 +24,7 @@ export function Cta({ locale, dict }: CtaProps) {
           locale={locale}
           downloadPlatform="ios"
           downloadSource="cta_bottom"
-          className={ctaGradientClass("mt-8 h-11 rounded-lg px-6 text-sm")}
+          className={buttonVariants({ variant: "default", size: "sm", className: "mt-8" })}
         >
           {dict.cta.button}
         </TrackedOutboundLink>

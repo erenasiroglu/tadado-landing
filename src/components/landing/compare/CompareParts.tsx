@@ -32,9 +32,7 @@ export function CompareDownload({
           locale={locale}
           source={source}
           label={label}
-          className={
-            dark ? "text-ink shadow-none ![background:var(--cream)]" : undefined
-          }
+          tone={dark ? "dark" : "light"}
         />
       </div>
       <StoreButtons
@@ -43,9 +41,6 @@ export function CompareDownload({
         a11y={dict.a11y}
         labelMode="download"
         className="hidden sm:flex"
-        buttonClassName={
-          dark ? "bg-cream shadow-none hover:bg-white" : undefined
-        }
       />
       <p
         className={cn(

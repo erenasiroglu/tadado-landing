@@ -7,7 +7,7 @@ import { MotionLink } from "@/components/motion/MotionLink";
 import { BRAND } from "@/lib/brand";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { trackEvent } from "@/lib/tracking";
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary } from "@/lib/i18n";
 import { localeHref, type Locale } from "@/lib/i18n-config";
 import { cn } from "@/lib/utils";
@@ -78,7 +78,7 @@ export function AffiliateProgram({
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <MotionLink
                   href={applyHref}
-                  className={ctaGradientClass("h-11 rounded-full px-8")}
+                  className={buttonVariants({ variant: "default", size: "sm", className: "px-8" })}
                   onClick={() => {
                     trackEvent({
                       event: ANALYTICS_EVENTS.AFFILIATE_APPLY_CLICK,
@@ -170,7 +170,11 @@ export function AffiliateProgram({
       <div className="mt-10 max-w-lg text-left">
         <MotionLink
           href={applyHref}
-          className={ctaGradientClass("h-11 w-full rounded-full sm:w-auto sm:px-10")}
+          className={buttonVariants({
+            variant: "default",
+            size: "sm",
+            className: "w-full sm:w-auto sm:px-10",
+          })}
           onClick={() => {
             trackEvent({
               event: ANALYTICS_EVENTS.AFFILIATE_APPLY_CLICK,

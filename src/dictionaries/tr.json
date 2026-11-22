@@ -200,8 +200,14 @@
       "portraitGameplay": "Dikey oynanış",
       "landscapeGameplay": "Yatay oynanış",
       "buildScoreTitle": "Skorunu büyüt",
-      "buildScoreBody": "Daha zor kelimeleri seç, çarpanını yükselt ve her doğru cevabı daha büyük puana dönüştür.",
+      "buildScoreBody": "Zor kartlar çarpanı artırır.",
       "scoreMultipliersAria": "Skor çarpanları: 2x, 3x, 5x",
+      "scoreTiers": [
+        { "label": "Kolay", "multiplier": "×2" },
+        { "label": "Zor", "multiplier": "×3" },
+        { "label": "Efsane", "multiplier": "×5" }
+      ],
+      "maxTierBadge": "Maks",
       "passGameplay": "Telefonu elden ele oynanış"
     },
     "imposterTitle": "Casus",
@@ -402,12 +408,30 @@
     "freeNote": "Ücretsiz indir · Reklamsız · 3 gün ücretsiz Premium",
     "disclaimer": "{game} adı yalnızca bilinen bir oyunu veya oyun biçimini tanımlamak için kullanılmıştır. Tüm markalar sahiplerine aittir; Tadado bu markalarla bağlantılı değildir ve onlar tarafından desteklenmez. {game} hakkındaki notlar klasik oyunu ve tipik sürümleri anlatır; uygulamalar ve baskılar farklılık gösterebilir, mağaza sayfalarını kontrol edin."
   },
+  "landingEvents": {
+    "eyebrow": "Etkinlikler",
+    "title": "Yeni desteler"
+  },
+  "friendsgivingEvent": {
+    "tag": "Yeni",
+    "title": "Friendsgiving",
+    "body": "Tabu · Alnında Tahmin · Casus, tek deste.",
+    "modesLabel": "Modlar",
+    "modes": [
+      "Yasaklı Kelimeler",
+      "Alnında Tahmin",
+      "Casus"
+    ],
+    "cta": "Desteyi aç",
+    "guideCta": "Parti fikirleri",
+    "imageAlt": "Friendsgiving destesi"
+  },
   "geniusEvent": {
-    "tag": "Yeni etkinlik",
-    "title": "Genius Only: En Zor Kelimeler",
-    "body": "Her dilde en zor 150 kelime: bilim terimlerinden zorlu kavramlara. Sadece en keskin zekâ anlatabilir.",
+    "tag": "Yeni",
+    "title": "Genius Only",
+    "body": "Her dilde 150 zor kelime.",
     "note": "Genius Only etkinliğini App Store ve Google Play'de bul.",
-    "cta": "Desteyi keşfet"
+    "cta": "Desteyi aç"
   },
   "halloween": {
     "heroPill": "Yeni: ücretsiz Cadılar Bayramı destesi + Casus modu",
@@ -561,7 +585,7 @@
   "pricing": {
     "eyebrow": "Fiyatlandırma",
     "title": "Oynaması ücretsiz. Fazlası için tek ve net bir plan.",
-    "subtitle": "Tadado Mix herkes için ücretsiz. Premium, 3 gün ücretsiz denemeyle tüm desteleri açar, sonrası haftalık $3.99. Yapay zeka kredileriyle istediğin konuyu desteye çevirirsin.",
+    "subtitle": "Mix ücretsiz. Premium haftalık $3.99, tüm desteler.",
     "badges": {
       "free": "Sonsuza kadar ücretsiz",
       "premium": "Tüm desteler açık",
@@ -584,13 +608,12 @@
       "name": "Tadado Premium",
       "price": "$3.99",
       "suffix": "/ hafta",
-      "trialNote": "3 günlük ücretsiz denemeden sonra",
+      "trialNote": "3 gün ücretsiz deneme",
       "desc": "Planın aktif olduğu sürece tüm premium desteler açık kalır.",
       "features": [
-        "Tüm premium desteler: Sinema, Spor, Seyahat, Genius Only ve daha fazlası",
-        "Her deste 3 modda da oynanır",
-        "Reklam yok",
-        "İstediğin zaman iptal et"
+        "Tüm premium desteler",
+        "3 mod",
+        "Reklam yok"
       ],
       "timelineLabel": "Ücretsiz deneme nasıl işler",
       "timeline": [
@@ -609,28 +632,28 @@
       ]
     },
     "ai": {
-      "title": "İstediğin konuyu desteye çevir",
+      "title": "Yapay zeka paketleri",
       "desc": "“90’lar Türkçe pop” ya da arkadaş grubunun iç şakaları gibi bir konu yaz, yapay zeka saniyeler içinde oynanabilir bir deste hazırlasın. Paketi bir kez al, istediğin zaman kullan.",
-      "rule": "1 yapay zeka kredisi = 1 özel deste",
+      "rule": "1 kredi = 1 deste",
       "creditsLabel": "kredi",
       "tiers": [
         {
           "credits": "5",
           "price": "$1.99",
-          "perDeck": "deste başına $0.40"
+          "perDeck": "$0.40/deste"
         },
         {
           "credits": "15",
           "price": "$4.99",
-          "perDeck": "deste başına $0.33",
-          "badge": "En popüler",
+          "perDeck": "$0.33/deste",
+          "badge": "Popüler",
           "highlight": true
         },
         {
           "credits": "40",
           "price": "$9.99",
-          "perDeck": "deste başına $0.25",
-          "badge": "En avantajlı"
+          "perDeck": "$0.25/deste",
+          "badge": "Avantajlı"
         }
       ]
     },
@@ -737,7 +760,7 @@
     "title": "Yardım ve destek",
     "subtitle": "Cevaplar, hesap yardımı ve Tadado ekibine doğrudan ulaşım.",
     "back": "Tadado'ya dön",
-    "intro": "Soruların çoğu SSS'de. Geri kalanı—hata, satın alma, geri bildirim—için e-posta at; mümkünse cihaz ve uygulama sürümünü yaz.",
+    "intro": "Soruların çoğu SSS'de. Hata, satın alma veya geri bildirim için e-posta at; mümkünse cihaz ve uygulama sürümünü yaz.",
     "responseNote": "Her mesajı okuyoruz; genelde birkaç iş günü içinde yanıtlıyoruz.",
     "emailCta": "Destek e-postası",
     "emailSubject": "Tadado destek talebi",
@@ -840,7 +863,7 @@
   },
   "open": {
     "title": "Açık metrikler",
-    "subtitle": "TrustMRR üzerinde doğrulanmış uygulama içi gelir — Tadado'nun nasıl gittiğini merak eden kurucular, basın ve iş ortakları için.",
+    "subtitle": "TrustMRR üzerinde doğrulanmış uygulama içi gelir. Kurucular, basın ve iş ortakları için.",
     "back": "Tadado'ya dön",
     "note": "Rakamlar Tadado'nun TrustMRR'a bağlı ödeme verisinden gelir. Oyuncular bu sayfayı atlayabilir; indie geliştirici topluluğuna şeffaflık için burada.",
     "embedTitle": "TrustMRR doğrulanmış günlük gelir takvimi",
@@ -853,8 +876,14 @@
     "viewAll": "Tüm yazılar"
   },
   "seoGuides": {
+    "eyebrow": "En iyi kelime oyunları",
     "title": "Nasıl oynanır ve en iyi kelime oyunu rehberleri",
-    "subtitle": "Tabu ve Alnında Tahmin için adım adım kurallar ve en iyi mobil kelime oyunu uygulamaları."
+    "subtitle": "Tabu ve Alnında Tahmin için adım adım kurallar, 2026'nın en güncel mobil kelime oyunu önerileri.",
+    "pitch": "Tadado, 2026'nın en güncel kelime oyunlarından biri: Tabu, Alnında Tahmin, Casus ve yapay zeka desteleri tek uygulamada. Ücretsiz başla, reklamsız.",
+    "featuredBadge": "Öne çıkan rehber",
+    "featuredTeaser": "Tadado'nun en iyi mobil kelime oyunları arasında nerede durduğunu, modları ve ücretsiz seçenekleri gör.",
+    "viewAll": "Tüm rehberler",
+    "compareCta": "Parti oyunu uygulamalarını karşılaştır"
   },
   "faq": {
     "title": "Merak edilenler",
@@ -1019,13 +1048,13 @@
     "title": "Bir sonraki oyun gecende Tadado olsun.",
     "subtitle": "Tek telefon. Herkes davetli.",
     "button": "TADADO'YU İNDİR · ÜCRETSİZ",
-    "secondary": "DESTELERİ KEŞFET"
+    "secondary": "Desteleri keşfet"
   },
   "finalCta": {
     "title": "Bir sonraki oyun gecende Tadado olsun.",
     "subtitle": "Tek telefon. Herkes davetli.",
     "button": "TADADO'YU İNDİR · ÜCRETSİZ",
-    "secondary": "DESTELERİ KEŞFET"
+    "secondary": "Desteleri keşfet"
   },
   "footer": {
     "tagline": "Tek telefon. Arkadaşların. Kaos başlasın.",
@@ -1211,7 +1240,7 @@
     "hubSubtitle": "Tabu tarzı kelime oyunu, alnında tahmin, blöf oyunu ve her konuda yapay zeka desteleri. Tek uygulama, tek telefon, bütün ekip.",
     "hubMetaTitle": "Parti Oyunu Modları: Tabu, Alnında Tahmin, Casus ve Yapay Zeka Desteleri | Tadado",
     "hubMetaDescription": "Tadado'nun oyun modlarını keşfet: Yasaklı Kelimeler (Tabu tarzı), Alnında Tahmin, Casus blöf oyunu ve her konuda yapay zeka desteleri. Ücretsiz, reklamsız.",
-    "explore": "Nasıl oynanır?",
+    "explore": "Nasıl oynanır",
     "stepsTitle": "{mode} nasıl oynanır?",
     "featuresTitle": "Gruplar neden Tadado'da {mode} oynuyor?",
     "knownAsTitle": "Şöyle de aranıyor",

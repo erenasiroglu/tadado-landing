@@ -3,7 +3,7 @@
 import { useDeckDownload } from "@/hooks/use-deck-download";
 import type { DeckKey } from "@/lib/deck-cards";
 import type { Locale } from "@/lib/i18n";
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import { getAppStoreUrl, getPlayStoreUrl } from "@/lib/store-links";
 import { useTrackedHref } from "@/hooks/use-tracked-href";
 
@@ -37,7 +37,11 @@ export function DeckStoreCta({
 
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-      <button type="button" onClick={openStore} className={ctaGradientClass("min-h-12 px-8 text-sm font-bold")}>
+      <button
+        type="button"
+        onClick={openStore}
+        className={buttonVariants({ variant: "default", className: "min-h-12 px-8 text-sm" })}
+      >
         {primaryLabel}
       </button>
       <a

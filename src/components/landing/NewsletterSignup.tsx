@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Loader2, Mail } from "lucide-react";
 
 import { MotionButton } from "@/components/motion/MotionButton";
-import { ctaGradientClass } from "@/lib/cta-button";
+import { buttonVariants } from "@/components/ui/button";
 import { ANALYTICS_EVENTS } from "@/lib/analytics-events";
 import { trackEvent } from "@/lib/tracking";
 import { Input } from "@/components/ui/input";
@@ -12,7 +12,6 @@ import type { Dictionary, Locale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
 import { LandingSection } from "./LandingSection";
-import { SectionHeading } from "./SectionHeading";
 
 interface NewsletterSignupProps {
   dict: Dictionary;
@@ -63,29 +62,39 @@ export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSi
     >
       <div
         className={cn(
-          "relative overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-lilac to-mist",
-          compact ? "p-5 sm:p-6" : "p-6 sm:p-8 md:p-10",
+          "rounded-2xl surface-paper ring-1 ring-ink/10",
+          compact ? "p-5 sm:p-6" : "p-6 sm:p-8",
         )}
       >
         <div
-          className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-lilac blur-3xl"
-          aria-hidden
-        />
-
-        <div className={cn("relative grid gap-8", compact ? "lg:grid-cols-[1.1fr_1fr] lg:items-center" : "lg:grid-cols-2 lg:items-center")}>
-          <div>
-            {!compact ? (
-              <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-lilac text-ink">
-                <Mail className="h-5 w-5" aria-hidden />
-              </div>
-            ) : null}
-            <SectionHeading title={content.title} subtitle={content.subtitle} align="left" />
+          className={cn(
+            "grid gap-6",
+            "lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center lg:gap-10",
+          )}
+        >
+          <div className="min-w-0">
+            <div className="mb-3 inline-flex size-10 items-center justify-center rounded-xl bg-mist text-ink ring-1 ring-ink/8">
+              <Mail className="size-5" aria-hidden />
+            </div>
+            <h2
+              className={cn(
+                "font-extrabold tracking-tight text-balance text-foreground",
+                compact ? "text-2xl sm:text-3xl" : "text-display",
+              )}
+            >
+              {content.title}
+            </h2>
+            <p className="mt-3 max-w-md text-sm leading-relaxed text-foreground/75 sm:text-base">
+              {content.subtitle}
+            </p>
           </div>
 
-          <div>
+          <div className="min-w-0">
             {status === "success" ? (
-              <div className="rounded-2xl border border-emerald-400/25 bg-emerald-500/10 px-5 py-4">
-                <p className="font-semibold text-emerald-200">{content.success}</p>
+              <div className="rounded-xl border border-emerald-600/20 bg-emerald-50 px-4 py-3 dark:bg-emerald-950/20">
+                <p className="text-sm font-semibold text-emerald-900 dark:text-emerald-100">
+                  {content.success}
+                </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-3">
@@ -98,24 +107,26 @@ export function NewsletterSignup({ dict, locale, compact = false }: NewsletterSi
                     placeholder={content.placeholder}
                     required
                     autoComplete="email"
-                    className="h-12 flex-1 rounded-full border-border bg-lilac px-5 text-foreground placeholder:text-muted-foreground"
+                    className="h-11 flex-1 rounded-full border-border bg-paper px-4 text-foreground placeholder:text-muted-foreground"
                   />
                   <MotionButton
                     type="submit"
                     disabled={status === "loading"}
-                    className={ctaGradientClass(
-                      "h-12 rounded-full px-8 disabled:opacity-70",
-                    )}
+                    className={buttonVariants({
+                      variant: "default",
+                      size: "sm",
+                      className: "h-11 px-6 disabled:opacity-70",
+                    })}
                   >
                     {status === "loading" ? (
-                      <Loader2 className="h-4 w-4 animate-spin" aria-hidden />
+                      <Loader2 className="size-4 animate-spin" aria-hidden />
                     ) : (
                       content.button
                     )}
                   </MotionButton>
                 </div>
                 {status === "error" && errorKey ? (
-                  <p className="text-sm text-red-300">
+                  <p className="text-sm text-red-600" role="alert">
                     {errorKey === "invalid" ? content.errorInvalid : content.errorGeneric}
                   </p>
                 ) : null}

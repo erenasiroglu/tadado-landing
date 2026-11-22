@@ -254,14 +254,14 @@ export const EN_DECK_PAGES: DeckPageContentMap = {
     imageAlt: "Tadado Brands logos party word game deck",
   },
   friendsgiving: {
-    metaTitle: "Friendsgiving Party Game Deck | Tadado",
+    metaTitle: "Friendsgiving & Thanksgiving Party Games Deck | Taboo, Heads Up, Imposter",
     metaDescription:
-      "Thanksgiving with friends — food, table, and late-night vibes in a word game deck. Play Friendsgiving in Tadado.",
-    h1: "Friendsgiving deck for chosen family",
-    heroSubtitle: "The feast, the couch, and the friends who stay past midnight.",
+      "Friendsgiving and Thanksgiving party games on one phone: Forbidden Words (Taboo), Heads Up and Imposter with the Friendsgiving deck. Offline, no ads.",
+    h1: "Friendsgiving deck for Thanksgiving with friends",
+    heroSubtitle: "Taboo-style words, Heads Up clues and Imposter bluffs. One deck for the whole table.",
     whatIsTitle: "What is the Friendsgiving deck?",
     whatIsBody:
-      "Friendsgiving is a cozy themed deck for autumn hangs and potluck nights. Play Forbidden Words or Heads Up while dinner is in the oven.",
+      "The Friendsgiving deck is built for US and worldwide Friendsgiving dinners, from the weekend before Thanksgiving through the holiday. Play Forbidden Words (like Taboo), Heads Up or Imposter while food is on the table or after dessert.",
     insideTitle: "What is inside?",
     insideBullets: [
       "Food, friendship, and holiday chaos",
