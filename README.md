@@ -93,11 +93,11 @@ See [docs/PERFORMANCE.md](docs/PERFORMANCE.md) for Lighthouse notes and browser 
 
 ## Deploy
 
-Target domain: **tadado.app** (Vercel recommended).
+Target domain: **tadado.app** (Cloudflare Workers via [OpenNext](https://opennext.js.org/cloudflare)).
 
 ```bash
-npm run build
-npm start
+npm run preview   # local worker preview
+npm run deploy    # build + deploy to Cloudflare
 ```
 
 ## Support

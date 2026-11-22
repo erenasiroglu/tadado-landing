@@ -17,9 +17,9 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   skipTrailingSlashRedirect: true,
-  // The MCP endpoint reads blog/legal Markdown at request time (read_page, list_guides).
+  // OpenNext on Workers: bundle content/ for every server route that reads blog/legal MDX (fs).
   outputFileTracingIncludes: {
-    "/api/mcp": ["./content/**/*"],
+    "*": ["./content/**/*"],
   },
   async redirects() {
     return [
@@ -38,3 +38,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());
