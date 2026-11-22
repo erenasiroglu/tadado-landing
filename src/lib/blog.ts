@@ -38,13 +38,25 @@ export interface BlogPost {
   contentMarkdown: string;
 }
 
-const CONTENT_DIR = resolveContentDir("blog");
+let blogContentDir: string | undefined;
+
+function getBlogContentDir(): string {
+  if (blogContentDir) {
+    try {
+      if (fs.existsSync(blogContentDir)) return blogContentDir;
+    } catch {
+      blogContentDir = undefined;
+    }
+  }
+  blogContentDir = resolveContentDir("blog", import.meta.url);
+  return blogContentDir;
+}
 
 async function readPostFile(
   contentLocale: Locale,
   slug: string,
 ): Promise<{ data: Record<string, unknown>; contentHtml: string; content: string } | null> {
-  const filePath = path.join(CONTENT_DIR, contentLocale, `${slug}.mdx`);
+  const filePath = path.join(getBlogContentDir(), contentLocale, `${slug}.mdx`);
   if (!fs.existsSync(filePath)) return null;
 
   const raw = fs.readFileSync(filePath, "utf8");
@@ -112,7 +124,7 @@ async function parsePost(locale: Locale, slug: string): Promise<BlogPost | null>
 export async function getBlogPosts(locale: Locale): Promise<BlogPost[]> {
   if (!BLOG_LOCALES.includes(locale)) return [];
 
-  const dir = path.join(CONTENT_DIR, locale);
+  const dir = path.join(getBlogContentDir(), locale);
   if (!fs.existsSync(dir)) return [];
 
   const slugs = fs
@@ -133,7 +145,7 @@ export async function getBlogPost(locale: Locale, slug: string): Promise<BlogPos
 export function getAllBlogSlugs(): { locale: Locale; slug: string }[] {
   const result: { locale: Locale; slug: string }[] = [];
   for (const locale of BLOG_LOCALES) {
-    const dir = path.join(CONTENT_DIR, locale);
+    const dir = path.join(getBlogContentDir(), locale);
     if (!fs.existsSync(dir)) continue;
     for (const file of fs.readdirSync(dir)) {
       if (file.endsWith(".mdx")) {
@@ -146,7 +158,7 @@ export function getAllBlogSlugs(): { locale: Locale; slug: string }[] {
 
 /** Front-matter `date` of a post, for sitemap `lastModified`. */
 export function getBlogPostDate(locale: Locale, slug: string): string | undefined {
-  const filePath = path.join(CONTENT_DIR, locale, `${slug}.mdx`);
+  const filePath = path.join(getBlogContentDir(), locale, `${slug}.mdx`);
   if (!fs.existsSync(filePath)) return undefined;
   const { data } = matter(fs.readFileSync(filePath, "utf8"));
   return typeof data.date === "string" ? data.date : undefined;

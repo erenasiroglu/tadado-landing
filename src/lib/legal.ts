@@ -13,7 +13,19 @@ import { resolveContentDir } from "@/lib/resolve-content-dir";
 
 export type LegalPageId = "terms-of-use" | "privacy-policy";
 
-const CONTENT_DIR = resolveContentDir("legal");
+let legalContentDir: string | undefined;
+
+function getLegalContentDir(): string {
+  if (legalContentDir) {
+    try {
+      if (fs.existsSync(legalContentDir)) return legalContentDir;
+    } catch {
+      legalContentDir = undefined;
+    }
+  }
+  legalContentDir = resolveContentDir("legal", import.meta.url);
+  return legalContentDir;
+}
 
 export interface LegalPage {
   id: LegalPageId;
@@ -28,11 +40,12 @@ export async function getLegalPage(
   locale: Locale,
   id: LegalPageId,
 ): Promise<LegalPage | null> {
-  const localized = path.join(CONTENT_DIR, locale, `${id}.mdx`);
+  const contentDir = getLegalContentDir();
+  const localized = path.join(contentDir, locale, `${id}.mdx`);
   let filePath = localized;
   if (!fs.existsSync(filePath)) {
     if (!mayUseEnglishContentFallback(locale)) return null;
-    filePath = path.join(CONTENT_DIR, CONTENT_FALLBACK_LOCALE, `${id}.mdx`);
+    filePath = path.join(contentDir, CONTENT_FALLBACK_LOCALE, `${id}.mdx`);
   }
   if (!fs.existsSync(filePath)) return null;
 
