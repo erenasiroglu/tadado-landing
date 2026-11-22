@@ -15,6 +15,7 @@ import {
 import { getArticleSlug } from "@/lib/article-registry";
 import { CONTENT_FALLBACK_LOCALE, mayUseEnglishContentFallback } from "@/lib/i18n-fallback";
 import { BLOG_LOCALES, type Locale } from "@/lib/i18n-config";
+import { resolveContentDir } from "@/lib/resolve-content-dir";
 
 export interface BlogPostSchemaHowTo {
   name: string;
@@ -37,7 +38,7 @@ export interface BlogPost {
   contentMarkdown: string;
 }
 
-const CONTENT_DIR = path.join(process.cwd(), "content/blog");
+const CONTENT_DIR = resolveContentDir("blog");
 
 async function readPostFile(
   contentLocale: Locale,

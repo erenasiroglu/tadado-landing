@@ -9,10 +9,11 @@ import html from "remark-html";
 
 import { CONTENT_FALLBACK_LOCALE, mayUseEnglishContentFallback } from "@/lib/i18n-fallback";
 import { LOCALES, type Locale } from "@/lib/i18n-config";
+import { resolveContentDir } from "@/lib/resolve-content-dir";
 
 export type LegalPageId = "terms-of-use" | "privacy-policy";
 
-const CONTENT_DIR = path.join(process.cwd(), "content/legal");
+const CONTENT_DIR = resolveContentDir("legal");
 
 export interface LegalPage {
   id: LegalPageId;
